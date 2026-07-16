@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "arxiv": {
+      "_comment": "Tahmin metodolojisi literatür taraması için: kalibrasyon, forecasting, Brier skoru, LLM değerlendirme makaleleri. Ne zaman kullan: v-serisi iyileştirmesine akademik dayanak gerektiğinde veya BILGI_TABANI'na yeni yöntem damıtılacağında. Sır gerektirmez; sadece açık arXiv API. 🚩 Ağ çağrısı yapar — gecelik koşuda sorgu sayısını sınırla.",
+      "description": "arXiv üzerinde tam metin arama, makale indirme ve analiz. Tahmin/kalibrasyon metodolojisi araştırması için.",
+      "command": "uvx",
+      "args": [
+        "arxiv-mcp-server"
+      ]
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "İBB Kültür AŞ tarama işi için güvenli varsayılanlar: okuma + web taraması + rapor yazımı serbest; sırlar, yıkıcı komutlar ve zorla-push kapalı (en az yetki, kamu kurumu bağlamı).",
+  "permissions": {
+    "allow": [
+      "Read(**/*)",
+      "Glob",
+      "Grep",
+      "WebFetch",
+      "WebSearch",
+      "Write(./raporlar/**)",
+      "Write(./AUDIT_LOG.jsonl)",
+      "Write(./BILGI_TABANI.md)",
+      "Bash(date:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)"
+    ],
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Read(./secrets/**)",
+      "Bash(rm -rf:*)",
+      "Bash(sudo:*)",
+      "Bash(git push --force:*)"
+    ]
+  },
+  "env": {
+    "MCP_TIMEOUT": "30000"
+  }
+}

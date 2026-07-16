@@ -1,0 +1,32 @@
+{
+  "description": "Tahmin Uzmanı güvenli varsayılanları. En az yetki: prompt/rapor dosyalarında okuma-yazma ve damga için date serbest; yıkıcı komutlar, sır dosyaları ve zorla push deny. Kullan: bu paketi bir projeye kurarken .claude/settings.json tabanı olarak.",
+  "permissions": {
+    "allow": [
+      "Read(**/*.md)",
+      "Read(**/*.json)",
+      "Read(**/*.jsonl)",
+      "Edit(prompts/**)",
+      "Edit(components/**)",
+      "Edit(AUDIT_LOG.jsonl)",
+      "Edit(BILGI_TABANI.md)",
+      "Bash(date:*)",
+      "Bash(git status)",
+      "Bash(git diff:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(python3 scripts/validate.py)"
+    ],
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Read(./secrets/**)",
+      "Bash(rm:*)",
+      "Bash(git push --force:*)",
+      "Bash(curl:*)",
+      "Bash(wget:*)"
+    ]
+  },
+  "env": {
+    "MCP_TIMEOUT": "30000"
+  }
+}

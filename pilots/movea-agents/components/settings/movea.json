@@ -1,0 +1,28 @@
+{
+  "description": "Movéa marka içerik paketi için güvenli varsayılanlar: içerik üretimi icerik/ altına yazımla sınırlı, sır dosyaları ve yıkıcı komutlar kapalı (en az yetki ilkesi).",
+  "permissions": {
+    "allow": [
+      "Read(**/*.md)",
+      "Read(**/*.json)",
+      "Grep",
+      "Glob",
+      "Write(icerik/**)",
+      "Edit(icerik/**)",
+      "Write(AUDIT_LOG.jsonl)",
+      "Edit(BILGI_TABANI.md)",
+      "Bash(date -u:*)"
+    ],
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Read(./secrets/**)",
+      "Bash(rm -rf:*)",
+      "Bash(sudo:*)",
+      "Bash(git push --force:*)",
+      "Bash(curl:*)"
+    ]
+  },
+  "env": {
+    "MCP_TIMEOUT": "30000"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "brightdata": {
+      "description": "Bright Data MCP: web arama, sayfa kazima ve yapilandirilmis veri cekme araclari (60+).",
+      "url": "https://mcp.brightdata.com/mcp?token=${BRIGHTDATA_API_TOKEN}&pro=1",
+      "_comment": "Turkce senaryo: fiyat-izleme skill'inin rakip urun sayfasi taramasi bu MCP uzerinden yapilir — bot korumali/JS-agirlikli rakip sitelerde WebFetch yetmezse devreye girer. Token'i BRIGHTDATA_API_TOKEN env degiskeninden al, asla dosyaya yazma. 🚩 Ucretli kota harcar; once WebFetch dene, MCP'yi yalniz gerekli kaynaklarda kullan. Kazima kamuya acik sayfalarla sinirli (robots.txt + KVKK)."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "VESTRA fiyat izleme paketi icin guvenli varsayilanlar: en az yetki, hassas dosya korumasi, tehlikeli komut engeli.",
+  "permissions": {
+    "allow": [
+      "Read",
+      "Write(./data/**)",
+      "Write(./raporlar/**)",
+      "Edit(./data/**)",
+      "Edit(./raporlar/**)",
+      "Bash(date:*)",
+      "Bash(python3 scripts/validate.py)",
+      "WebFetch"
+    ],
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Read(./secrets/**)",
+      "Bash(rm -rf*)",
+      "Bash(git push --force*)",
+      "Bash(curl* --insecure*)"
+    ]
+  },
+  "env": {
+    "MCP_TIMEOUT": "30000"
+  },
+  "_comment": "Turkce not: fiyat verisi ./data, raporlar ./raporlar altina yazilir; API anahtarlari yalniz env'den okunur, dosyaya gomulmez. Kota uyarisi: web tarama ucretli servis kullaniyorsa aylik butce esigini asma (🚩)."
+}

@@ -1,0 +1,80 @@
+{
+  "name": "tahmin-agents",
+  "version": "0.1.0",
+  "description": "Tahmin/analitik dikeyi için Claude Code bileşen paketi: prompt v-serisi iyileştirme ajanı, kalite rubriği, trend raporu ve quality-streak döngüsü. GELIR_MOTORU pilotu (Tahmin Uzmanı).",
+  "author": {
+    "name": "Metin Durak"
+  },
+  "license": "MIT",
+  "keywords": ["tahmin", "forecasting", "prompt-engineering", "evaluation", "quality", "turkish"],
+  "agents": [
+    {
+      "name": "v-serisi-iyilestirici",
+      "version": "0.1.0",
+      "author": { "name": "Metin Durak" },
+      "category": "prompt-engineering",
+      "keywords": ["prompt-versioning", "diagnosis", "improvement", "comparison"],
+      "license": "MIT"
+    }
+  ],
+  "skills": [
+    {
+      "name": "tahmin-kalite-olcumu",
+      "version": "0.1.0",
+      "author": { "name": "Metin Durak" },
+      "category": "evaluation",
+      "keywords": ["rubric", "calibration", "reasoning-quality", "consistency"],
+      "license": "MIT"
+    }
+  ],
+  "commands": [
+    {
+      "name": "v-serisi-rapor",
+      "version": "0.1.0",
+      "author": { "name": "Metin Durak" },
+      "category": "evaluation",
+      "keywords": ["report", "trend", "versions", "metrics"],
+      "license": "MIT"
+    }
+  ],
+  "loops": [
+    {
+      "name": "kalite-serisi-loop",
+      "version": "0.1.0",
+      "author": { "name": "Metin Durak" },
+      "category": "evaluation",
+      "keywords": ["quality-streak", "iterate", "evaluate", "loop"],
+      "license": "MIT"
+    }
+  ],
+  "hooks": [
+    {
+      "name": "timestamp-audit",
+      "version": "0.1.0",
+      "author": { "name": "Metin Durak" },
+      "category": "audit",
+      "keywords": ["timestamp", "audit-log", "utc"],
+      "license": "MIT"
+    }
+  ],
+  "settings": [
+    {
+      "name": "tahmin-uzmani",
+      "version": "0.1.0",
+      "author": { "name": "Metin Durak" },
+      "category": "permissions",
+      "keywords": ["least-privilege", "safe-defaults"],
+      "license": "MIT"
+    }
+  ],
+  "mcps": [
+    {
+      "name": "arxiv",
+      "version": "0.1.0",
+      "author": { "name": "Metin Durak" },
+      "category": "research",
+      "keywords": ["arxiv", "literature", "forecasting-methodology"],
+      "license": "MIT"
+    }
+  ]
+}

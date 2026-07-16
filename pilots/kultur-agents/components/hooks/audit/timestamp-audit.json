@@ -1,0 +1,26 @@
+{
+  "description": "Her Edit/Write sonrası UTC zaman damgasını AUDIT_LOG.jsonl'a yazar; oturum bitişinde kapanış damgası basar. Kültür Agents denetim protokolünün motoru.",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo \"{\\\"ts\\\":\\\"$(date -u +%Y-%m-%dT%H:%M:%SZ)\\\",\\\"event\\\":\\\"edit\\\",\\\"files\\\":\\\"$CLAUDE_FILE_PATHS\\\"}\" >> AUDIT_LOG.jsonl"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo \"{\\\"ts\\\":\\\"$(date -u +%Y-%m-%dT%H:%M:%SZ)\\\",\\\"event\\\":\\\"session_end\\\"}\" >> AUDIT_LOG.jsonl"
+          }
+        ]
+      }
+    ]
+  }
+}

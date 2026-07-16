@@ -1,0 +1,75 @@
+{
+  "name": "kultur-agents",
+  "version": "0.1.0",
+  "description": "Kültür-etkinlik kurumları için Claude Code bileşen paketi — İstanbul/TR sahne odağı; pilot: İBB Kültür AŞ haftalık etkinlik/kıyas-kurum taraması.",
+  "author": { "name": "Metin Durak" },
+  "license": "MIT",
+  "agents": [
+    {
+      "name": "etkinlik-tarayici",
+      "version": "0.1.0",
+      "author": { "name": "Metin Durak" },
+      "category": "culture-events",
+      "keywords": ["etkinlik", "tarama", "benchmark", "biletleme", "program", "istanbul"],
+      "license": "MIT"
+    },
+    {
+      "name": "kitle-trend-analisti",
+      "version": "0.1.0",
+      "author": { "name": "Metin Durak" },
+      "category": "culture-events",
+      "keywords": ["kitle", "trend", "genc-kitle", "format", "fiyatlama"],
+      "license": "MIT"
+    }
+  ],
+  "skills": [
+    {
+      "name": "etkinlik-tarama",
+      "version": "0.1.0",
+      "author": { "name": "Metin Durak" },
+      "category": "research",
+      "keywords": ["haftalik-tarama", "sinyal", "kiyas-tablosu", "kaynak-listesi"],
+      "license": "MIT"
+    }
+  ],
+  "commands": [
+    {
+      "name": "haftalik-tarama-raporu",
+      "version": "0.1.0",
+      "author": { "name": "Metin Durak" },
+      "category": "reporting",
+      "keywords": ["haftalik-rapor", "teslim", "sinyal", "oneri"],
+      "license": "MIT"
+    }
+  ],
+  "loops": [
+    {
+      "name": "haftalik-tarama-loop",
+      "version": "0.1.0",
+      "author": { "name": "Metin Durak" },
+      "category": "operations",
+      "keywords": ["loop", "7d", "haftalik", "tarama"],
+      "license": "MIT"
+    }
+  ],
+  "hooks": [
+    {
+      "name": "timestamp-audit",
+      "version": "0.1.0",
+      "author": { "name": "Metin Durak" },
+      "category": "audit",
+      "keywords": ["timestamp", "audit-log", "damga"],
+      "license": "MIT"
+    }
+  ],
+  "settings": [
+    {
+      "name": "kultur-as",
+      "version": "0.1.0",
+      "author": { "name": "Metin Durak" },
+      "category": "permissions",
+      "keywords": ["guvenli-varsayilan", "en-az-yetki", "kamu-kurumu"],
+      "license": "MIT"
+    }
+  ]
+}

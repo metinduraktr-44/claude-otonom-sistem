@@ -1,0 +1,20 @@
+{
+  "name": "vestra-agents",
+  "version": "0.1.0",
+  "description": "VESTRA e-ticaret markasi icin rakip fiyat izleme, kampanya istihbarati ve haftalik rapor otomasyonu bileşen paketi.",
+  "author": {
+    "name": "Metin Durak"
+  },
+  "license": "MIT",
+  "keywords": ["ecommerce", "fiyat-izleme", "rakip-analizi", "kampanya", "turkce", "claude-code"],
+  "category": "ecommerce",
+  "components": {
+    "agents": ["ecommerce/rakip-fiyat-izleyici"],
+    "skills": ["web-data/fiyat-izleme", "ecommerce/kampanya-analizi"],
+    "commands": ["reporting/haftalik-fiyat-raporu"],
+    "loops": ["operations/haftalik-izleme-loop"],
+    "hooks": ["audit/timestamp-audit"],
+    "settings": ["vestra"],
+    "mcps": ["web-data/brightdata"]
+  }
+}

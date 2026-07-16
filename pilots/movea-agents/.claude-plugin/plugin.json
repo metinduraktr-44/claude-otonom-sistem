@@ -1,0 +1,83 @@
+{
+  "name": "movea-agents",
+  "version": "0.1.0",
+  "description": "Movéa marka içerik ajan paketi — marka sesi tutarlılığı + haftalık içerik ritmi (içerik/hafta metriği). Agent, skill, command, loop, hook ve settings tek pakette.",
+  "author": { "name": "Metin Durak" },
+  "license": "MIT",
+  "agents": [
+    {
+      "name": "marka-icerik-ajani",
+      "version": "0.1.0",
+      "author": { "name": "Metin Durak" },
+      "category": "brand-content",
+      "keywords": ["movea", "marka", "icerik", "sosyal-medya", "haftalik", "tr"],
+      "license": "MIT"
+    }
+  ],
+  "skills": [
+    {
+      "name": "sosyal-icerik",
+      "version": "0.1.0",
+      "author": { "name": "Metin Durak" },
+      "category": "content",
+      "keywords": ["instagram", "linkedin", "x", "format", "tr-kitle"],
+      "license": "MIT"
+    },
+    {
+      "name": "marka-metin-yazimi",
+      "version": "0.1.0",
+      "author": { "name": "Metin Durak" },
+      "category": "content",
+      "keywords": ["marka-sesi", "copywriting", "ton-rehberi", "cta", "baslik"],
+      "license": "MIT"
+    }
+  ],
+  "commands": [
+    {
+      "name": "icerik-takvimi",
+      "version": "0.1.0",
+      "author": { "name": "Metin Durak" },
+      "category": "content",
+      "keywords": ["takvim", "haftalik-plan", "pillar", "icerik-hafta"],
+      "license": "MIT"
+    },
+    {
+      "name": "linkedin-yayinci",
+      "version": "0.1.0",
+      "author": { "name": "Metin Durak" },
+      "category": "content",
+      "keywords": ["linkedin", "yayinci", "post", "hook", "tr"],
+      "license": "MIT"
+    }
+  ],
+  "loops": [
+    {
+      "name": "haftalik-icerik-loop",
+      "version": "0.1.0",
+      "author": { "name": "Metin Durak" },
+      "category": "operations",
+      "keywords": ["loop", "7d", "denetim", "damga", "icerik-hafta"],
+      "license": "MIT"
+    }
+  ],
+  "hooks": [
+    {
+      "name": "timestamp-audit",
+      "version": "0.1.0",
+      "author": { "name": "Metin Durak" },
+      "category": "audit",
+      "keywords": ["timestamp", "audit-log", "utc", "damga"],
+      "license": "MIT"
+    }
+  ],
+  "settings": [
+    {
+      "name": "movea",
+      "version": "0.1.0",
+      "author": { "name": "Metin Durak" },
+      "category": "permissions",
+      "keywords": ["guvenli-varsayilan", "en-az-yetki", "deny"],
+      "license": "MIT"
+    }
+  ]
+}
