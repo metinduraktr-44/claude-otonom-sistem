@@ -2,6 +2,12 @@
 > Protokol: Her işlem [4] ÖĞREN adımında buraya "## [tarih] — [konu]" girişi ekler. En yeni en üstte.
 > Çelişki kuralı: Yeni öğrenim eskisiyle çelişiyorsa ⚠️ ÇELİŞKİ etiketi + hangisinin geçerli olduğu yazılır.
 
+## 2026-07-16 — Master doküman (Cilt 1-4) entegre edildi
+- Cilt 3 (GitHub ekosistem haritası): kategori bazlı kanonik kaynaklar — anthropics/skills, claude-plugins-official/community, modelcontextprotocol/servers [RESMİ]; wshobson/agents, disler/claude-code-hooks-mastery, ruvnet/ruflo [topluluk]. Doğrulama: OpenSSF Scorecard, deps.dev, OSV.dev, Socket.dev, npm provenance.
+- Cilt 4 (operasyon anayasası): 5 güvenlik kuralı (resmi-öncelik, script tedbiri 2.12x risk, güncellik yanılgısı yok, fork yasağı, marketplace-öncelik) + verimlilik çerçevesi (progressive disclosure, DELTA yazımı) — BÜTÜN repolara uygulanır.
+- Akademik dayanak: arXiv 2601.10338 — 31.132 skill analizi, %26.1 zafiyetli; script'li bileşen 2.12 kat riskli (p<0.001).
+- Gecelik döngü FAZ 1 artık Cilt 3 kanonik kaynak listesinden okur; her üretim 5 kurala vurulur.
+
 ## 2026-07-16 — Tam katalog içe alındı + 5 iş paketi üretildi
 - davila7/claude-code-templates kataloğunun TAMAMI (434 agent, 341 command, ~50 skill kategorisi, 81 hook, 93 MCP, 70 setting, 18 loop, sandbox) katalog/ altına MIT atıflı kopyalandı; indeks: katalog/KATALOG_INDEKS.md.
 - 5 paralel ÜRETİCİ ajanla bir turda: Response DGA tam seti (15 bileşen, adops-agents'a ek) + 4 pilot repo paketi (tahmin/vestra/kultur/movea-agents). Hepsi 6 katman denetimden GEÇTİ.

@@ -3,6 +3,7 @@
 
 | Tarih (UTC) | K-no | Karar | Gerekçe | Sahip | Durum |
 |---|---|---|---|---|---|
+| 2026-07-16 | K-009 | Master doküman (Cilt 1-4 birleşik) sisteme işlendi; 5 kurallı güvenlik + verimlilik çerçevesi TÜM repolara bağlandı; gecelik döngü Cilt 3 kaynak haritasına yönlendirildi | Kullanıcı talimatı: MAXİMUM kapsam, bütün repolar. Resmi-öncelik + script tedbiri + fork yasağı artık işletim kuralı | BAŞ MİMAR + DENETÇİ | AKTİF |
 | 2026-07-16 | K-008 | Tam katalog (davila7, 8 kategori, MIT) repoya katalog/ altında eklendi; 4 pilot paketi pilots/ altında üretildi; Response DGA seti adops-agents'a eklendi | Kullanıcı talimatı: katalogun tamamı + işlere göre yapılandırma. Kaynak tek yerde, işe alım CILT2 ile | BAŞ MİMAR + ÜRETİCİ | AKTİF |
 | 2026-07-16 | K-006 | v3 paket Cowork projesine kuruldu; v2 dosyaları kaldırıldı, hafıza taşındı | Tek doğruluk kaynağı = yeni iki-repo yapısı; zincir korunarak geçiş | OTOMASYON MÜHENDİSİ | AKTİF |
 | 2026-07-14 | K-005 | Sistem deposu GitHub'a taşındı (metinduraktr-44/claude-otonom-sistem) | Sürüm takibi + Actions ile gerçek gecelik otomasyon | OTOMASYON MÜHENDİSİ | AKTİF |

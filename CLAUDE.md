@@ -39,3 +39,8 @@ Türkçe. Terse, komut-tipi, McKinsey Kıdemli Ortak tonu. Genel/boş dil yok.
 ## BİLEŞEN ÜRETİMİ
 8 tip (Skills/Agents/Commands/Settings/Hooks/MCPs/Loops/Plugins) için üretim
 kuralları: docs/CILT2-BILESEN-PROMPT-KUTUPHANESI.md. Üretilenler .claude/ altına.
+
+## GÜVENLİK & KAYNAK HARİTASI (Cilt 3-4)
+5 güvenlik kuralı + verimlilik çerçevesi + kategori referans tablosu: docs/CILT4-COWORK-MASTER-TALIMATI.md
+Ekosistem haritası (FAZ 1 kaynakları, doğrulama araçları): docs/CILT3-GITHUB-EKOSISTEM-HARITASI.md
+Birleşik belge: docs/CLAUDE-OTONOM-SISTEM-MASTER.md — bu çerçeve BÜTÜN repolara (adops-agents, pilots/*) uygulanır.
