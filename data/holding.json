@@ -1,0 +1,31 @@
+{
+ "holding": "metinduraktr-44 Portföyü",
+ "hq": "claude-otonom-sistem",
+ "owner": "Metin Durak",
+ "generated_note": "Tek doğruluk kaynağı: bu dosya. Değişiklik yalnız buradan; holding_report.py okur.",
+ "board": [
+  {"role": "Chairman / Sahip", "slug": "owner", "duty": "Nihai onay: sermaye, faz kapıları, birim aç/kapa"},
+  {"role": "Group CEO", "slug": "group-ceo", "duty": "Portföy stratejisi, birimler arası tahsis"},
+  {"role": "Group COO", "slug": "group-coo", "duty": "Operasyon ritmi (gözetim, standup, kurul)"},
+  {"role": "Group CTO", "slug": "group-cto", "duty": "Ortak teknik standart (CI, doğrulama, MCP, güvenlik)"},
+  {"role": "Group CFO", "slug": "group-cfo", "duty": "API bütçesi + birim gelir konsolidasyonu"},
+  {"role": "Group CCO", "slug": "group-cco", "duty": "5 güvenlik kuralı + lisans/uyum tüm repolarda"}
+ ],
+ "units": [
+  {"unit": "Holding HQ / OS", "repo": "claude-otonom-sistem", "segment": "os", "domain": "Ortak standart, gözetim, jeneratörler", "revenue_model": false, "org_depth": "sistem"},
+  {"unit": "AdOps Agency", "repo": "adops-agents", "segment": "agency", "domain": "Performans pazarlama & programatik", "revenue_model": true, "org_depth": "600-ajan"},
+  {"unit": "Tahmin Uzmanı", "repo": "a-agency-tahmin-uzman-", "segment": "agency", "domain": "Spor/finans/danışmanlık forecast", "revenue_model": true, "org_depth": "kendi"},
+  {"unit": "Performer", "repo": "performer-growth-hub", "segment": "agency", "domain": "Uygulama büyüme / app growth", "revenue_model": true, "org_depth": "kendi"},
+  {"unit": "Movéa (M-AIOS)", "repo": "or-na.com", "segment": "brand", "domain": "Premium medikal scrubs DTC", "revenue_model": true, "org_depth": "marka-org"},
+  {"unit": "VizaTrack", "repo": "VizaTrack", "segment": "product", "domain": "Göç & relokasyon platformu", "revenue_model": true, "org_depth": "urun-org"},
+  {"unit": "Çiğköftem", "repo": "cigkoftem-web-app", "segment": "brand", "domain": "Gıda markası web app", "revenue_model": true, "org_depth": "marka-org"}
+ ],
+ "shared_services": [
+  "Güvenlik & Kalite: 5 kural + 6-katman doğrulama (CILT1/CILT8)",
+  "Standardizasyon Motoru: scripts/standardize_repo.py",
+  "Rol-Model Kütüphanesi: adops-agents/data/rol_modelleri.json (79 isim)",
+  "Soru Bankası: adops-agents/docs/OZ-DENETIM-SORU-BANKASI.md (501)",
+  "Gelir Modeli: 5 kanal (sponsorluk/placement/referral/premium/inbound)"
+ ],
+ "cadence": {"gunluk": "birim standup + HQ gözetim", "haftalik": "Group liderlik sync", "aylik": "Holding kurulu (OKR + faz kapısı + sermaye tahsisi)"}
+}
