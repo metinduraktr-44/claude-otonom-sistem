@@ -1,0 +1,16 @@
+name: Feature request
+description: claude-otonom-sistem için özellik öner / Suggest a feature
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / İhtiyaç
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Önerilen çözüm / Proposed solution
+    validations:
+      required: true

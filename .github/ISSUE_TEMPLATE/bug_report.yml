@@ -1,0 +1,21 @@
+name: Bug report
+description: claude-otonom-sistem içinde bir hata bildir / Report a bug
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: Ne oldu? / What happened?
+      description: Beklenen vs gerçekleşen davranış.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Yeniden üretme adımları / Steps to reproduce
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: Ortam / Environment (OS, sürüm)

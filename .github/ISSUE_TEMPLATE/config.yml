@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Güvenlik bulgusu / Security
+    url: https://github.com/metinduraktr-44/claude-otonom-sistem/security/advisories/new
+    about: Zafiyetleri private advisory ile bildir (issue açma).
+  - name: İletişim / Contact
+    url: mailto:metindurak.tr@gmail.com
+    about: Genel sorular ve iş birliği.

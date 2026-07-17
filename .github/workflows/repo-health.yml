@@ -1,0 +1,41 @@
+name: repo-health
+# Günlük çok-repo community-health denetimi (DRY-RUN varsayılan; güvenli).
+on:
+  schedule:
+    - cron: "0 6 * * *"   # 06:00 UTC = 09:00 Istanbul
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - name: Repo sağlık matrisi (dry-run rapor)
+        run: |
+          python3 - <<'PY'
+          import os, datetime
+          NOW=datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+          repos={"adops-agents":"system","claude-otonom-sistem":"system","or-na.com":"system",
+                 "a-agency-tahmin-uzman-":"system","performer-growth-hub":"webapp",
+                 "VizaTrack":"app","cigkoftem-web-app":"product"}
+          need=["README.md","LICENSE","CODE_OF_CONDUCT.md","CONTRIBUTING.md","SECURITY.md",
+                ".github/ISSUE_TEMPLATE/config.yml",".github/PULL_REQUEST_TEMPLATE.md",".github/dependabot.yml"]
+          L=[f"# REPO SAĞLIK MATRİSİ",f"> Üretim: {NOW} · Kaynak: repo-health workflow (dry-run)","",
+             "| Repo | Tip | Eksikler |","|---|---|---|"]
+          for r,t in repos.items():
+              L.append(f"| {r} | {t} | (canlı denetim için REPO_PAT secret gerekir — dry-run) |")
+          L.append("\n> Gerçek dosya-ekleme + push için REPO_PAT secret'ı tanımla; yoksa bu rapor community-health standardını hatırlatır.")
+          os.makedirs("docs",exist_ok=True)
+          open("docs/REPO-SAGLIK-MATRISI.md","w",encoding="utf-8").write("\n".join(L)+"\n")
+          print("REPO-SAGLIK-MATRISI.md yazildi")
+          PY
+      - name: Commit
+        run: |
+          git config user.name "otonom-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A
+          git commit -m "repo-health: $(date -u +%Y-%m-%dT%H:%M:%SZ)" || echo "değişiklik yok"
+          git push || echo "push atlandı"
