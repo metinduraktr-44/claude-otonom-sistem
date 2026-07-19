@@ -7,3 +7,4 @@
 {"ts_start":"2026-07-16T09:40:00Z","ts_end":"2026-07-16T09:35:28Z","islem":"master_dokuman_entegrasyonu","uzmanlar":["BAS_MIMAR","PROMPT_MUHENDISI","DENETCI","OTOMASYON_MUHENDISI"],"girdi_ozet":"Kullanici master dokumani (Cilt1-4 birlesik) + MAXIMUM/butun-repolar talimati","cikti_ozet":"docs/MASTER + CILT3 + CILT4 (umbrella); CILT4 -> adops-agents/docs; CLAUDE.md baglandi; K-009; gecelik gorev Cilt3 kaynak haritasi + 5 guvenlik kuraliyla yeniden kuruldu","denetim":"GECTI","ogrenim":"guvenlik cercevesi (5 kural) islletim kurali oldu; kaynak secimi yildiz degil resmi-oncelik/konsensus/gecmis sirasiyla","onceki_ogrenim_kullanildi":"evet (K-008 katalog + CILT1/2)"}
 {"ts_start":"2026-07-17T01:24:30Z","ts_end":"2026-07-17T01:24:30Z","islem":"nightly","denetim":"RUN"}
 {"ts_start":"2026-07-18T01:16:36Z","ts_end":"2026-07-18T01:16:36Z","islem":"nightly","denetim":"RUN"}
+{"ts_start":"2026-07-19T01:22:17Z","ts_end":"2026-07-19T01:22:18Z","islem":"nightly","denetim":"RUN"}
