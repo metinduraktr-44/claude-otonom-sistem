@@ -1,0 +1,27 @@
+name: daily-agency
+on:
+  schedule:
+    - cron: "0 6 * * *"   # 06:00 UTC = 09:00 Istanbul (CILT6 K2)
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  daily:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - name: Günün departmanı (standup + işe alım + makale iskeleti)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python3 scripts/daily_agency.py
+      - name: Validate
+        run: python3 scripts/validate.py || echo "validate uyarı"
+      - name: Commit
+        run: |
+          git config user.name "otonom-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A
+          git commit -m "daily-agency: $(date -u +%Y-%m-%dT%H:%M:%SZ)" || echo "no changes"
+          git push || echo "push skipped"

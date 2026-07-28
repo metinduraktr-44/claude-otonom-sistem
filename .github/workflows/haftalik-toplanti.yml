@@ -1,0 +1,23 @@
+name: haftalik-toplanti
+on:
+  schedule:
+    - cron: "0 7 * * 5"   # Cuma 07:00 UTC = 10:00 Istanbul (CILT6 §3 domain koordinasyon)
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  leadership:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - name: Haftalık liderlik tutanağı
+        run: python3 scripts/daily_agency.py --haftalik
+      - name: Commit
+        run: |
+          git config user.name "otonom-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A
+          git commit -m "liderlik-sync: $(date -u +%Y-%m-%dT%H:%M:%SZ)" || echo "no changes"
+          git push || echo "push skipped"

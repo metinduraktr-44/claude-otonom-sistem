@@ -1,0 +1,31 @@
+name: upstream-sync
+on:
+  schedule:
+    - cron: "0 4 * * *"   # 04:00 UTC = 07:00 Istanbul (CILT6 K3)
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: SHA karşılaştır (Kural 2 — oto-vendorlama YOK, sadece kayıt)
+        run: |
+          NEW=$(git ls-remote https://github.com/davila7/claude-code-templates.git HEAD | cut -f1)
+          CUR=$(cat katalog/UPSTREAM_SHA 2>/dev/null | tr -d '[:space:]' || echo yok)
+          if [ "$NEW" != "$CUR" ]; then
+            echo "$NEW" > katalog/UPSTREAM_SHA
+            TARIH=$(date -u +%Y-%m-%dT%H:%MZ)
+            printf '| %s | %.7s | %.7s | `git ls-remote` — FARK VAR (upstream-sync.yml) | UPSTREAM_SHA güncellendi; delta incelemesi aylık kurul gündeminde (İş #16, Kural 2: oto-vendorlama yok) |\n' "$TARIH" "$CUR" "$NEW" >> katalog/SENKRON_LOG.md
+            echo "FARK: $CUR -> $NEW"
+          else
+            echo "fark yok: $CUR"
+          fi
+      - name: Commit
+        run: |
+          git config user.name "otonom-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A
+          git commit -m "upstream-sync: $(date -u +%Y-%m-%dT%H:%M:%SZ)" || echo "no changes"
+          git push || echo "push skipped"
