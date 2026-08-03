@@ -1,0 +1,740 @@
+{
+  "rol": "Group CTO",
+  "dept": "BOARD",
+  "adet": 122,
+  "ts": "2026-08-03T15:49:56Z",
+  "items": [
+    {
+      "id": "BOARD::group-cto::strateji-01",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__strateji-01.md",
+      "chars": 4191,
+      "sha256": "36be22d598caa8e132410f2d98c9ceb921dcb15ec8a827297517793e0407b82d"
+    },
+    {
+      "id": "BOARD::group-cto::strateji-02",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__strateji-02.md",
+      "chars": 4191,
+      "sha256": "ab64b16eecd930985c76bc9e42624b9230d0f048c6724a269502ee1821e6cec6"
+    },
+    {
+      "id": "BOARD::group-cto::strateji-03",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__strateji-03.md",
+      "chars": 4191,
+      "sha256": "f32b7f10f03371057f5c9249901e4db8ef7e230af2347a8c2277eedf5858204a"
+    },
+    {
+      "id": "BOARD::group-cto::strateji-04",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__strateji-04.md",
+      "chars": 4191,
+      "sha256": "09f52a454f907f1b87ee09be5efea03f31cdafe00ef8598c3e7d9ce9d879fafd"
+    },
+    {
+      "id": "BOARD::group-cto::strateji-05",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__strateji-05.md",
+      "chars": 4191,
+      "sha256": "c70b9d14509b9373503e9ed00c2d682fb652139e8b994cbcd173d1b5a53beef9"
+    },
+    {
+      "id": "BOARD::group-cto::strateji-06",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__strateji-06.md",
+      "chars": 4191,
+      "sha256": "4c82a5d60dfaa066e6884b8cd77c052962df919a176d07ca42e1fd8aba8670f2"
+    },
+    {
+      "id": "BOARD::group-cto::strateji-07",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__strateji-07.md",
+      "chars": 4191,
+      "sha256": "0a64a299cab393aa47ec1bd8bf88513ce0862d5fe1e9f9763231c09370b8e008"
+    },
+    {
+      "id": "BOARD::group-cto::strateji-08",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__strateji-08.md",
+      "chars": 4191,
+      "sha256": "b632f506d680423a34a1fa7f3736e70a3662c3487e3e35552cfd74f8fb93fe65"
+    },
+    {
+      "id": "BOARD::group-cto::strateji-09",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__strateji-09.md",
+      "chars": 4191,
+      "sha256": "bfb66ddfbb6ff41f97e19caa8a22abb26923a82fd7a5f3916821255a65b95107"
+    },
+    {
+      "id": "BOARD::group-cto::strateji-10",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__strateji-10.md",
+      "chars": 4194,
+      "sha256": "fd7aa39e7634d7412900ad2eb778ffe24bc5f9be480b642777827d641af283a6"
+    },
+    {
+      "id": "BOARD::group-cto::strateji-11",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__strateji-11.md",
+      "chars": 4194,
+      "sha256": "d2c5fe61d4c4d1837ba38ef9433093a1a6fa4f79fdf63ee27bebf14b7b985862"
+    },
+    {
+      "id": "BOARD::group-cto::strateji-12",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__strateji-12.md",
+      "chars": 4194,
+      "sha256": "63d040b8bcefd08b1dec8f44a315bac06c6c82ea110154a984eaba8cfa832279"
+    },
+    {
+      "id": "BOARD::group-cto::strateji-13",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__strateji-13.md",
+      "chars": 4194,
+      "sha256": "c48f20693783009b650323262bb56c01ec3138ae706a7921376c838eb4ae9fa4"
+    },
+    {
+      "id": "BOARD::group-cto::strateji-14",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__strateji-14.md",
+      "chars": 4194,
+      "sha256": "2e91cbd19db9952b5e47a5aa0e894905974b5812856e24dbf8a6d8b6f5db419e"
+    },
+    {
+      "id": "BOARD::group-cto::strateji-15",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__strateji-15.md",
+      "chars": 4194,
+      "sha256": "968b486d427525b420b5f3318cd78c105138c20cff0fb7669ba93ed09fa7a8ae"
+    },
+    {
+      "id": "BOARD::group-cto::strateji-16",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__strateji-16.md",
+      "chars": 4194,
+      "sha256": "96bc09ad52f37383269f065c898bfaf6fbac0cf4b9cfbd7491a07828ace5c9ce"
+    },
+    {
+      "id": "BOARD::group-cto::strateji-17",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__strateji-17.md",
+      "chars": 4194,
+      "sha256": "79994f5b1883f01fdb0dffffd677f8937537e6567268f2ce9f87c8366ac511ab"
+    },
+    {
+      "id": "BOARD::group-cto::arastirma-01",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__arastirma-01.md",
+      "chars": 4188,
+      "sha256": "93e7107a752857af59befd0bb3e8bd1ce7f5b1f467120900232e589ea03cff21"
+    },
+    {
+      "id": "BOARD::group-cto::arastirma-02",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__arastirma-02.md",
+      "chars": 4188,
+      "sha256": "c68c0eee10996029e9383749cbab86b00895618ce9cd225b332f01909525e383"
+    },
+    {
+      "id": "BOARD::group-cto::arastirma-03",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__arastirma-03.md",
+      "chars": 4188,
+      "sha256": "eebdde36dbf44c8887acd92e094dea041ff4400e35761bc5419b05e2e71c1468"
+    },
+    {
+      "id": "BOARD::group-cto::arastirma-04",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__arastirma-04.md",
+      "chars": 4188,
+      "sha256": "662429a805202f3015f8545d665a03797c7832055f945d845274ff7806b54946"
+    },
+    {
+      "id": "BOARD::group-cto::arastirma-05",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__arastirma-05.md",
+      "chars": 4188,
+      "sha256": "63472c55643c1c15e443ee6ab051d4bcc4ff9c0344372c9dce0602178c4c353b"
+    },
+    {
+      "id": "BOARD::group-cto::arastirma-06",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__arastirma-06.md",
+      "chars": 4188,
+      "sha256": "789a547a59d23e82430c87f35337e081c78791cbdfafc58d3318876e77f5e837"
+    },
+    {
+      "id": "BOARD::group-cto::arastirma-07",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__arastirma-07.md",
+      "chars": 4188,
+      "sha256": "c2b29f0c31f9359d480e92f443e3d11a02b06769b9d2521a674dca8ddb0641ea"
+    },
+    {
+      "id": "BOARD::group-cto::arastirma-08",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__arastirma-08.md",
+      "chars": 4188,
+      "sha256": "2c738c2cdbbf0bd6b9a11d0b200cc5c9d69fa172bc47988bd44bde7040173658"
+    },
+    {
+      "id": "BOARD::group-cto::arastirma-09",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__arastirma-09.md",
+      "chars": 4188,
+      "sha256": "b22b00434935fa03359f384485a2fb73280e8b01d83bc31a2c42594b8b6125b3"
+    },
+    {
+      "id": "BOARD::group-cto::arastirma-10",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__arastirma-10.md",
+      "chars": 4191,
+      "sha256": "205836c48b5212d0169c5fc63b71d10684bd9d3c877034588e406c6e3f742fff"
+    },
+    {
+      "id": "BOARD::group-cto::arastirma-11",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__arastirma-11.md",
+      "chars": 4191,
+      "sha256": "455ae5df3e9f251a8cb0a61f8e9b262c67f2cb17326a85e81a25b9e09cc2abaf"
+    },
+    {
+      "id": "BOARD::group-cto::arastirma-12",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__arastirma-12.md",
+      "chars": 4191,
+      "sha256": "0a41d7ba67678d438c0020a1d619c925d4f6d170b881a0e1d46132f9756381e5"
+    },
+    {
+      "id": "BOARD::group-cto::arastirma-13",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__arastirma-13.md",
+      "chars": 4191,
+      "sha256": "774eedd0ed85cfd865ffa5d87ec8bfe9b09a71af6810aeaf08c800fadd300454"
+    },
+    {
+      "id": "BOARD::group-cto::arastirma-14",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__arastirma-14.md",
+      "chars": 4191,
+      "sha256": "a9539eb38a97490ff6aab4cdab72ea0b261d51d796d302fd90c8acf0a7cccba4"
+    },
+    {
+      "id": "BOARD::group-cto::arastirma-15",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__arastirma-15.md",
+      "chars": 4191,
+      "sha256": "1ec72f94f8cc61a51a3889520957d519086378d59b9e364f031c78bf253198ba"
+    },
+    {
+      "id": "BOARD::group-cto::arastirma-16",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__arastirma-16.md",
+      "chars": 4191,
+      "sha256": "f865df95394656936899e3e32297e8d7c6ea6bf271351d7f87aaa787857734ad"
+    },
+    {
+      "id": "BOARD::group-cto::arastirma-17",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__arastirma-17.md",
+      "chars": 4191,
+      "sha256": "76254b74e4730340f56941bdbc685d7421376b140c06a7e4d62139e9b20afe91"
+    },
+    {
+      "id": "BOARD::group-cto::uretim-01",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__uretim-01.md",
+      "chars": 4160,
+      "sha256": "0d5bce905e942432c690de0c0fa6da4e9b8691f20f129e09798db941b4332946"
+    },
+    {
+      "id": "BOARD::group-cto::uretim-02",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__uretim-02.md",
+      "chars": 4160,
+      "sha256": "2bdd6834e4bb0224c4f3a53031a6a278f13b355e29491d98b8787e98b2e3ec80"
+    },
+    {
+      "id": "BOARD::group-cto::uretim-03",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__uretim-03.md",
+      "chars": 4160,
+      "sha256": "04c51f7029ccfbaecf458d0edd0ab7891aa45f9c18c7a264c45bf4ac98b3a22d"
+    },
+    {
+      "id": "BOARD::group-cto::uretim-04",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__uretim-04.md",
+      "chars": 4160,
+      "sha256": "da4c48466e1e502ff2bfff61a8cb9e624b767a6e8077677a78ed4477dc4998d3"
+    },
+    {
+      "id": "BOARD::group-cto::uretim-05",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__uretim-05.md",
+      "chars": 4160,
+      "sha256": "695d69f08f3c220037a849efcc92b2c5566a0055d37d21a5daaca2aabdc804d2"
+    },
+    {
+      "id": "BOARD::group-cto::uretim-06",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__uretim-06.md",
+      "chars": 4160,
+      "sha256": "aab4cd30332e5e8de99942a1fcc10f95fa6b0bde45541276af3270e8e4c7e43f"
+    },
+    {
+      "id": "BOARD::group-cto::uretim-07",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__uretim-07.md",
+      "chars": 4160,
+      "sha256": "a34d9cfa6dbaada23f2747d8f78550d6979683ece8de40e7a74a691552ea9476"
+    },
+    {
+      "id": "BOARD::group-cto::uretim-08",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__uretim-08.md",
+      "chars": 4160,
+      "sha256": "77cae32c95b3d1c105e2f0ff7df2714ce073f51ff786de56396ec607b44220c3"
+    },
+    {
+      "id": "BOARD::group-cto::uretim-09",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__uretim-09.md",
+      "chars": 4160,
+      "sha256": "309bc558d292299ad5d5856230d9b0b98edbbdf3551e225bf7d13f5d0a8ae9cb"
+    },
+    {
+      "id": "BOARD::group-cto::uretim-10",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__uretim-10.md",
+      "chars": 4163,
+      "sha256": "aae86c3cb6c04cc86c87896a0fb15953c993ba44d751571527fab05bbd8db9f3"
+    },
+    {
+      "id": "BOARD::group-cto::uretim-11",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__uretim-11.md",
+      "chars": 4163,
+      "sha256": "03585635cc7d4dd98cab6d86b4f9ecf02e365eaf2568dd682cfe48e5eea52295"
+    },
+    {
+      "id": "BOARD::group-cto::uretim-12",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__uretim-12.md",
+      "chars": 4163,
+      "sha256": "3ce6fc331be2a19edabd7a301d2b3f6a16f6f90da10065594ea729ba8733b960"
+    },
+    {
+      "id": "BOARD::group-cto::uretim-13",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__uretim-13.md",
+      "chars": 4163,
+      "sha256": "a9ff383d9a3aeb1ee838fb8402267592b167b6c64897f8ccf4b86e8ce12f3f53"
+    },
+    {
+      "id": "BOARD::group-cto::uretim-14",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__uretim-14.md",
+      "chars": 4163,
+      "sha256": "c7c35f2c6df503f3a138da52c92ddf18b8fcf13f302d8feb4468e48f866130f3"
+    },
+    {
+      "id": "BOARD::group-cto::uretim-15",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__uretim-15.md",
+      "chars": 4163,
+      "sha256": "78325ec76cf2d87db80bc3e46087101ba6a93a379a398d799145d43f5ecfd0ab"
+    },
+    {
+      "id": "BOARD::group-cto::uretim-16",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__uretim-16.md",
+      "chars": 4163,
+      "sha256": "81e5dd41f4bd1e13ce156a4ac839c0224170a79dc635b7c7c553dca84a38dbfa"
+    },
+    {
+      "id": "BOARD::group-cto::uretim-17",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__uretim-17.md",
+      "chars": 4163,
+      "sha256": "74589a439083bc3a8ac2b11fbf9419742139510c51c0c688d2d1f493455522c9"
+    },
+    {
+      "id": "BOARD::group-cto::denetim-01",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__denetim-01.md",
+      "chars": 4167,
+      "sha256": "e8bae9fd7eca8c1f9b9055e0cd2c10394c2f2ba0c4f0e2426186bc95edee7b43"
+    },
+    {
+      "id": "BOARD::group-cto::denetim-02",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__denetim-02.md",
+      "chars": 4167,
+      "sha256": "6f18b0b72d34b705af0ac171a1bfad2263c5fda1bcb23e20865b13502a2a90fe"
+    },
+    {
+      "id": "BOARD::group-cto::denetim-03",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__denetim-03.md",
+      "chars": 4167,
+      "sha256": "56d58737b80415b195d95ce054208e4b809af107901e4c41880d5d2ab3ac87b7"
+    },
+    {
+      "id": "BOARD::group-cto::denetim-04",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__denetim-04.md",
+      "chars": 4167,
+      "sha256": "78a81cb887b9831c07ab2fd8bd2ea8664e9d167d5d5b7078958400a0b80cfd03"
+    },
+    {
+      "id": "BOARD::group-cto::denetim-05",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__denetim-05.md",
+      "chars": 4167,
+      "sha256": "5a983bb8e4630f5de6306fea48cbb367c62f5f3f282e5295bb9c9534a6a5f5c8"
+    },
+    {
+      "id": "BOARD::group-cto::denetim-06",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__denetim-06.md",
+      "chars": 4167,
+      "sha256": "5db8b2fb3e48087350d01fb3e1e8c9c98323484926a8d0add976fee9d1bcc7b7"
+    },
+    {
+      "id": "BOARD::group-cto::denetim-07",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__denetim-07.md",
+      "chars": 4167,
+      "sha256": "dc8aee6d854480679cdff12e146cffb1569a6eb8e9d94657163abdd78eb972d8"
+    },
+    {
+      "id": "BOARD::group-cto::denetim-08",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__denetim-08.md",
+      "chars": 4167,
+      "sha256": "ce09df66fe599dca4b53d82e0ce9d745ac715dd6f20f64cc573c0dbdb187459e"
+    },
+    {
+      "id": "BOARD::group-cto::denetim-09",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__denetim-09.md",
+      "chars": 4167,
+      "sha256": "7fdd2769c4a6b6250a63a6d34574f74ba33d6ada1698e09a0d619045f989d95a"
+    },
+    {
+      "id": "BOARD::group-cto::denetim-10",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__denetim-10.md",
+      "chars": 4170,
+      "sha256": "ded98a5786d66b432fe2eaa558213947bab1715af49eaee4a556d746f87f7484"
+    },
+    {
+      "id": "BOARD::group-cto::denetim-11",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__denetim-11.md",
+      "chars": 4170,
+      "sha256": "d71591d293f53482f7a8f0bcb64c3ef1c8da25ff7861be8bec6a57d2f9712630"
+    },
+    {
+      "id": "BOARD::group-cto::denetim-12",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__denetim-12.md",
+      "chars": 4170,
+      "sha256": "30b141ac9d88aaffc241c553eb1bea9d25ca6d91f524a11d53e72080b52e26fe"
+    },
+    {
+      "id": "BOARD::group-cto::denetim-13",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__denetim-13.md",
+      "chars": 4170,
+      "sha256": "55574743e9d2e50d409020421dd3e36ac5ac98286fe875601ec3049e36f9a6b8"
+    },
+    {
+      "id": "BOARD::group-cto::denetim-14",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__denetim-14.md",
+      "chars": 4170,
+      "sha256": "6c0321d0a7b9bcde2b13cbc842d446de57e972fec7d874fc1cd80314758021d6"
+    },
+    {
+      "id": "BOARD::group-cto::denetim-15",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__denetim-15.md",
+      "chars": 4170,
+      "sha256": "9b2a80854396e232c6262ff5283fefa3f45f4f2b8c7452d62b0a4802916908d0"
+    },
+    {
+      "id": "BOARD::group-cto::denetim-16",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__denetim-16.md",
+      "chars": 4170,
+      "sha256": "dd61929b74a2b9964dc9e7e9ec6ee22ff608aa23da06fce8e771eab12baaf430"
+    },
+    {
+      "id": "BOARD::group-cto::denetim-17",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__denetim-17.md",
+      "chars": 4170,
+      "sha256": "8323c37a7202e5da298815c93a5b6197ee6acb72f3d1134bbce0f52f6f53873d"
+    },
+    {
+      "id": "BOARD::group-cto::operasyon-01",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__operasyon-01.md",
+      "chars": 4189,
+      "sha256": "6dfbc00fa495a911fadd711a64cbb7fb5028f5dce5a82e54bc9af1f9547759c7"
+    },
+    {
+      "id": "BOARD::group-cto::operasyon-02",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__operasyon-02.md",
+      "chars": 4189,
+      "sha256": "60e20d8138134a2315b1988be2359ebea68c0cf4e30bd202dca2fbde42c7296a"
+    },
+    {
+      "id": "BOARD::group-cto::operasyon-03",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__operasyon-03.md",
+      "chars": 4189,
+      "sha256": "c4b1182005b6f693df42b5e4e5ddc1bca630c5f941d08d06ffe5156ca0f70eee"
+    },
+    {
+      "id": "BOARD::group-cto::operasyon-04",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__operasyon-04.md",
+      "chars": 4189,
+      "sha256": "148e75152dece95611a281f430f46aefd0a0af2aa2c0030b7b23ed1f7161777d"
+    },
+    {
+      "id": "BOARD::group-cto::operasyon-05",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__operasyon-05.md",
+      "chars": 4189,
+      "sha256": "c8108347217f95d37c3d7f4e4a3b056b5f48e7a64ddaa00609ca8c195c3c4158"
+    },
+    {
+      "id": "BOARD::group-cto::operasyon-06",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__operasyon-06.md",
+      "chars": 4189,
+      "sha256": "2529ee293306f5aeb6b86d69ac6208d71c8fbf2186a1dfaea10995252b594615"
+    },
+    {
+      "id": "BOARD::group-cto::operasyon-07",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__operasyon-07.md",
+      "chars": 4189,
+      "sha256": "340370f82070f8bac78e4252bfdd04810f1c7dee67ae869e90230567ee3681f7"
+    },
+    {
+      "id": "BOARD::group-cto::operasyon-08",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__operasyon-08.md",
+      "chars": 4189,
+      "sha256": "ae9e03abeb15ca3b5d09bd1a2a985bbf40a844f7c7f6c7c37f289b857138c13b"
+    },
+    {
+      "id": "BOARD::group-cto::operasyon-09",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__operasyon-09.md",
+      "chars": 4189,
+      "sha256": "01caa492d2f3e232201e72593ab5c0cb6177e401b85430c8c5a5e63cb2fea485"
+    },
+    {
+      "id": "BOARD::group-cto::operasyon-10",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__operasyon-10.md",
+      "chars": 4192,
+      "sha256": "1aa71e5b038ad7b6a4b0f03d509e7f817d486990701b33571defe8add659086d"
+    },
+    {
+      "id": "BOARD::group-cto::operasyon-11",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__operasyon-11.md",
+      "chars": 4192,
+      "sha256": "d600565155e0f84973d27b885327590989825a342d975be75bc40d9abc319ab6"
+    },
+    {
+      "id": "BOARD::group-cto::operasyon-12",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__operasyon-12.md",
+      "chars": 4192,
+      "sha256": "ef54dd47ad33bfed4af9334cc5803f1217691406f064251cff77d7da961eb315"
+    },
+    {
+      "id": "BOARD::group-cto::operasyon-13",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__operasyon-13.md",
+      "chars": 4192,
+      "sha256": "3a50169a2f0888d79a2601bd604882ae9df0c71a38717bea02d064d1e9b6cbcd"
+    },
+    {
+      "id": "BOARD::group-cto::operasyon-14",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__operasyon-14.md",
+      "chars": 4192,
+      "sha256": "33f341acec2a5cdef06a8a0992954e407229d77b1880b0a01cdbf27a6415e3d0"
+    },
+    {
+      "id": "BOARD::group-cto::operasyon-15",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__operasyon-15.md",
+      "chars": 4192,
+      "sha256": "2b3d1b4b425bdc9758fee908bbcc22eae1abd0e6c74474df1355210685d52ff4"
+    },
+    {
+      "id": "BOARD::group-cto::operasyon-16",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__operasyon-16.md",
+      "chars": 4192,
+      "sha256": "1ac32a42d9e35ff1e53f17ceb2615f838eb2a15a695c95cd486647214de38a23"
+    },
+    {
+      "id": "BOARD::group-cto::operasyon-17",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__operasyon-17.md",
+      "chars": 4192,
+      "sha256": "ed764cee48389d4fe0be8c6c78d9c2a1fbff22496dc348168b0b74a8ea0d85fd"
+    },
+    {
+      "id": "BOARD::group-cto::gelir-01",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__gelir-01.md",
+      "chars": 4142,
+      "sha256": "d62f1d3d3754b298a70931ac2f44d135d2f660157c9638bf337938eec81ca143"
+    },
+    {
+      "id": "BOARD::group-cto::gelir-02",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__gelir-02.md",
+      "chars": 4142,
+      "sha256": "75aac014f0636765e0859da65ea906f8a86e22d7f59628db72ade39b3f21ef5c"
+    },
+    {
+      "id": "BOARD::group-cto::gelir-03",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__gelir-03.md",
+      "chars": 4142,
+      "sha256": "39b510f4b9fdb54280dec0bc71963e97e2661e45102d36b3e83637d78176deb6"
+    },
+    {
+      "id": "BOARD::group-cto::gelir-04",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__gelir-04.md",
+      "chars": 4142,
+      "sha256": "cdbb20e7663b34a2e2c40fec845bd8126da0c191c50a4c140680ca30065f1ab5"
+    },
+    {
+      "id": "BOARD::group-cto::gelir-05",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__gelir-05.md",
+      "chars": 4142,
+      "sha256": "9b8c81e005f46ad896b2f0d70501089f9b33e49a1030cdaa9c8a132682cf2c4f"
+    },
+    {
+      "id": "BOARD::group-cto::gelir-06",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__gelir-06.md",
+      "chars": 4142,
+      "sha256": "7885495f3c3a0189baf09033b41667169fd61a2d2ccbe0530aa6286e3db87ab1"
+    },
+    {
+      "id": "BOARD::group-cto::gelir-07",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__gelir-07.md",
+      "chars": 4142,
+      "sha256": "1958a90ae807c4c457c733a89654aada47e4c99953aa78284ea7e388cda28021"
+    },
+    {
+      "id": "BOARD::group-cto::gelir-08",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__gelir-08.md",
+      "chars": 4142,
+      "sha256": "a35980b1f507aa2bb0c642c453bc811cfeab24638cd3d3596edb06ea8777a94c"
+    },
+    {
+      "id": "BOARD::group-cto::gelir-09",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__gelir-09.md",
+      "chars": 4142,
+      "sha256": "5136fdabe6c4a00e5c149760c0636021c817d3b79fa23c912eb1fce877ac8ccf"
+    },
+    {
+      "id": "BOARD::group-cto::gelir-10",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__gelir-10.md",
+      "chars": 4145,
+      "sha256": "1aea92d25c541c85792a5c24e956eee59ac9220a1fde08061b461193e0016146"
+    },
+    {
+      "id": "BOARD::group-cto::gelir-11",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__gelir-11.md",
+      "chars": 4145,
+      "sha256": "faa4f9d4148d554458f83bac7547f1363f30a5de7048e7a8a4780f803a34940e"
+    },
+    {
+      "id": "BOARD::group-cto::gelir-12",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__gelir-12.md",
+      "chars": 4145,
+      "sha256": "a165e975526fbe45177993e163d5a55e3daddd52cc488bb7b6c0c99a275a7211"
+    },
+    {
+      "id": "BOARD::group-cto::gelir-13",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__gelir-13.md",
+      "chars": 4145,
+      "sha256": "fdf0e4a8532ab41b0e9192074e0077b77e4b2b443373a37caf02a294cf70d1f7"
+    },
+    {
+      "id": "BOARD::group-cto::gelir-14",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__gelir-14.md",
+      "chars": 4145,
+      "sha256": "ef406571661c470b7cab4b569d8b76f881c7450cb631f90f57a27c04ae539db2"
+    },
+    {
+      "id": "BOARD::group-cto::gelir-15",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__gelir-15.md",
+      "chars": 4145,
+      "sha256": "9cc9daf7cc5e2e9f88e15822aab6f6ff044f9a044dcb6550663b6df7677cd82a"
+    },
+    {
+      "id": "BOARD::group-cto::gelir-16",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__gelir-16.md",
+      "chars": 4145,
+      "sha256": "b525bcb5683ba5ee5f67496478673d991a446646c358301fce66a9cfa832bbb1"
+    },
+    {
+      "id": "BOARD::group-cto::gelir-17",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__gelir-17.md",
+      "chars": 4145,
+      "sha256": "e69ba46a0414fa7119d75147dbb467449bdf3eef35ef27d11e5e1a1166c9a7d2"
+    },
+    {
+      "id": "BOARD::group-cto::iletisim-01",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__iletisim-01.md",
+      "chars": 4181,
+      "sha256": "8a7e15e4a26eb35a4f5ada1f811561289d4094fcf80b6448f149fa56054f3b61"
+    },
+    {
+      "id": "BOARD::group-cto::iletisim-02",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__iletisim-02.md",
+      "chars": 4181,
+      "sha256": "ac055319f1d30accd2e1435d7d35854427d05ddf5e2de377f22ce6e05108ec34"
+    },
+    {
+      "id": "BOARD::group-cto::iletisim-03",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__iletisim-03.md",
+      "chars": 4181,
+      "sha256": "3ff51a48d50a34a69ee6ab684a13a4d58cfb94bd1a00b4da85a7dc6d9f815095"
+    },
+    {
+      "id": "BOARD::group-cto::iletisim-04",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__iletisim-04.md",
+      "chars": 4181,
+      "sha256": "73869f68094370eefa769cf51e95208109fe5b9f1fbcc2f9411d2d2d55b6cdff"
+    },
+    {
+      "id": "BOARD::group-cto::iletisim-05",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__iletisim-05.md",
+      "chars": 4181,
+      "sha256": "1eb6416fbc3084b3b7435602d599fe04dd73ee872f05f3fe878682510de77b3a"
+    },
+    {
+      "id": "BOARD::group-cto::iletisim-06",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__iletisim-06.md",
+      "chars": 4181,
+      "sha256": "cf696086977003ff9f89fe919ffe843754e9a4e93a55b7257d855aab0f9f798b"
+    },
+    {
+      "id": "BOARD::group-cto::iletisim-07",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__iletisim-07.md",
+      "chars": 4181,
+      "sha256": "281781423c0d8060863b116bf96966d1448d153515fd089dcd6b3d8288497505"
+    },
+    {
+      "id": "BOARD::group-cto::iletisim-08",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__iletisim-08.md",
+      "chars": 4181,
+      "sha256": "a342d94d0bc97ba83b2ac4fda37df76380adf2ccd6e40bc199d12a568418ebea"
+    },
+    {
+      "id": "BOARD::group-cto::iletisim-09",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__iletisim-09.md",
+      "chars": 4181,
+      "sha256": "5b33e3fbe9e818d8fca4bc02a6fdd955205470ca1731a6319164d69828d28c88"
+    },
+    {
+      "id": "BOARD::group-cto::iletisim-10",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__iletisim-10.md",
+      "chars": 4184,
+      "sha256": "ca291cf901632b1ce9c74617e8947da1abadd648ace113e58cf27fce62b8e801"
+    },
+    {
+      "id": "BOARD::group-cto::iletisim-11",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__iletisim-11.md",
+      "chars": 4184,
+      "sha256": "a122ebb0039f30777003d9d9e6984c37cddce1c01a3ee55f5d779cc82f8bbd86"
+    },
+    {
+      "id": "BOARD::group-cto::iletisim-12",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__iletisim-12.md",
+      "chars": 4184,
+      "sha256": "61dcc3bb82b64676e36dd7000cde0ac118ccd0b8ba0e395d602309648a345cd0"
+    },
+    {
+      "id": "BOARD::group-cto::iletisim-13",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__iletisim-13.md",
+      "chars": 4184,
+      "sha256": "7cfbbf724972115de18b823c3873963b0cde6803178f3f97f5e1eee2b49955a9"
+    },
+    {
+      "id": "BOARD::group-cto::iletisim-14",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__iletisim-14.md",
+      "chars": 4184,
+      "sha256": "e06fbf17eff7fcbc3f3646c96fba13c65858158a081889a027600b8a38120074"
+    },
+    {
+      "id": "BOARD::group-cto::iletisim-15",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__iletisim-15.md",
+      "chars": 4184,
+      "sha256": "4a7cd30defaeb9522406812a484633997de24146a47127a68929e16508f323b8"
+    },
+    {
+      "id": "BOARD::group-cto::iletisim-16",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__iletisim-16.md",
+      "chars": 4184,
+      "sha256": "e7658265a8c360f90088a8e71893d9d76944a239384ada894a99446cf6e1ebe0"
+    },
+    {
+      "id": "BOARD::group-cto::iletisim-17",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__iletisim-17.md",
+      "chars": 4184,
+      "sha256": "a1395e5afd8fea1514a3ead4266a4bf5bffb08df864286b109cc1027209794f3"
+    },
+    {
+      "id": "BOARD::group-cto::ozel-01",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__ozel-01.md",
+      "chars": 4133,
+      "sha256": "a83e59bee8b6f0d48f5e74216aa3b69540a6ceae6216a6b9fa34ab57eeea766d"
+    },
+    {
+      "id": "BOARD::group-cto::ozel-02",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__ozel-02.md",
+      "chars": 4145,
+      "sha256": "70f1d578610ff7e8e2188e4b9c5cbadeb59155c070ae270b29ba6fd626b16ec1"
+    },
+    {
+      "id": "BOARD::group-cto::ozel-03",
+      "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__ozel-03.md",
+      "chars": 4117,
+      "sha256": "94cd3f1bfc58d9a8049c6264e37c955e472aad565abd3534ac35fe84931d1b92"
+    }
+  ]
+}

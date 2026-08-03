@@ -1,0 +1,2297 @@
+{
+  "ts": "2026-08-03T15:49:56Z",
+  "adet": 116,
+  "kisiler": [
+    {
+      "rank": 1,
+      "ad": "Lionel Messi",
+      "alan": "Futbol",
+      "kategori": "spor",
+      "etiket": "GOAT-sembol",
+      "ajans_eslesme": [
+        "MKT-BRD",
+        "MKT-SOC",
+        "STR-GRW"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 2,
+      "ad": "Cristiano Ronaldo",
+      "alan": "Futbol",
+      "kategori": "spor",
+      "etiket": "marka-atlet",
+      "ajans_eslesme": [
+        "MKT-BRD",
+        "MKT-SOC",
+        "STR-GRW"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 3,
+      "ad": "Serena Williams",
+      "alan": "Tenis",
+      "kategori": "spor",
+      "etiket": "ikon",
+      "ajans_eslesme": [
+        "MKT-BRD",
+        "MKT-SOC",
+        "STR-GRW"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 4,
+      "ad": "Novak Djokovic",
+      "alan": "Tenis",
+      "kategori": "spor",
+      "etiket": "rekor",
+      "ajans_eslesme": [
+        "MKT-BRD",
+        "MKT-SOC",
+        "STR-GRW"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 5,
+      "ad": "LeBron James",
+      "alan": "Basketbol",
+      "kategori": "spor",
+      "etiket": "iş-atlet",
+      "ajans_eslesme": [
+        "MKT-BRD",
+        "MKT-SOC",
+        "STR-GRW"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 6,
+      "ad": "Stephen Curry",
+      "alan": "Basketbol",
+      "kategori": "spor",
+      "etiket": "devrim-şut",
+      "ajans_eslesme": [
+        "MKT-BRD",
+        "MKT-SOC",
+        "STR-GRW"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 7,
+      "ad": "Simone Biles",
+      "alan": "Jimnastik",
+      "kategori": "spor",
+      "etiket": "zorluk-standart",
+      "ajans_eslesme": [
+        "MKT-BRD",
+        "MKT-SOC",
+        "STR-GRW"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 8,
+      "ad": "Usain Bolt",
+      "alan": "Atletizm",
+      "kategori": "spor",
+      "etiket": "sprint-ikon",
+      "ajans_eslesme": [
+        "MKT-BRD",
+        "MKT-SOC",
+        "STR-GRW"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 9,
+      "ad": "Michael Phelps",
+      "alan": "Yüzme",
+      "kategori": "spor",
+      "etiket": "olimpiyat",
+      "ajans_eslesme": [
+        "MKT-BRD",
+        "MKT-SOC",
+        "STR-GRW"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 10,
+      "ad": "A'ja Wilson",
+      "alan": "Basketbol",
+      "kategori": "spor",
+      "etiket": "WNBA",
+      "ajans_eslesme": [
+        "MKT-BRD",
+        "MKT-SOC",
+        "STR-GRW"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 11,
+      "ad": "Erling Haaland",
+      "alan": "Futbol",
+      "kategori": "spor",
+      "etiket": "golcü",
+      "ajans_eslesme": [
+        "MKT-BRD",
+        "MKT-SOC",
+        "STR-GRW"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 12,
+      "ad": "Kylian Mbappé",
+      "alan": "Futbol",
+      "kategori": "spor",
+      "etiket": "hız-marka",
+      "ajans_eslesme": [
+        "MKT-BRD",
+        "MKT-SOC",
+        "STR-GRW"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 13,
+      "ad": "Shohei Ohtani",
+      "alan": "Beyzbol",
+      "kategori": "spor",
+      "etiket": "iki-yönlü",
+      "ajans_eslesme": [
+        "MKT-BRD",
+        "MKT-SOC",
+        "STR-GRW"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 14,
+      "ad": "Max Verstappen",
+      "alan": "F1",
+      "kategori": "spor",
+      "etiket": "dominant",
+      "ajans_eslesme": [
+        "MKT-BRD",
+        "MKT-SOC",
+        "STR-GRW"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 15,
+      "ad": "Lewis Hamilton",
+      "alan": "F1",
+      "kategori": "spor",
+      "etiket": "aktivist-şampiyon",
+      "ajans_eslesme": [
+        "MKT-BRD",
+        "MKT-SOC",
+        "STR-GRW"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 16,
+      "ad": "Naomi Osaka",
+      "alan": "Tenis",
+      "kategori": "spor",
+      "etiket": "mental-health",
+      "ajans_eslesme": [
+        "MKT-BRD",
+        "MKT-SOC",
+        "STR-GRW"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 17,
+      "ad": "Caitlin Clark",
+      "alan": "Basketbol",
+      "kategori": "spor",
+      "etiket": "WNBA-büyüme",
+      "ajans_eslesme": [
+        "MKT-BRD",
+        "MKT-SOC",
+        "STR-GRW"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 18,
+      "ad": "Victor Wembanyama",
+      "alan": "Basketbol",
+      "kategori": "spor",
+      "etiket": "yeni-nesil",
+      "ajans_eslesme": [
+        "MKT-BRD",
+        "MKT-SOC",
+        "STR-GRW"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 19,
+      "ad": "Iga Świątek",
+      "alan": "Tenis",
+      "kategori": "spor",
+      "etiket": "dominant",
+      "ajans_eslesme": [
+        "MKT-BRD",
+        "MKT-SOC",
+        "STR-GRW"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 20,
+      "ad": "Taylor Swift",
+      "alan": "Müzik",
+      "kategori": "kultur",
+      "etiket": "endüstri-güç",
+      "ajans_eslesme": [
+        "MED-CRE",
+        "MKT-BRD",
+        "PRD-DSN"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 21,
+      "ad": "Beyoncé",
+      "alan": "Müzik",
+      "kategori": "kultur",
+      "etiket": "görsel-albüm",
+      "ajans_eslesme": [
+        "MED-CRE",
+        "MKT-BRD",
+        "PRD-DSN"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 22,
+      "ad": "Bad Bunny",
+      "alan": "Müzik",
+      "kategori": "kultur",
+      "etiket": "Latin-küresel",
+      "ajans_eslesme": [
+        "MED-CRE",
+        "MKT-BRD",
+        "PRD-DSN"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 23,
+      "ad": "BTS",
+      "alan": "Müzik",
+      "kategori": "kultur",
+      "etiket": "K-pop",
+      "ajans_eslesme": [
+        "MED-CRE",
+        "MKT-BRD",
+        "PRD-DSN"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 24,
+      "ad": "BLACKPINK",
+      "alan": "Müzik",
+      "kategori": "kultur",
+      "etiket": "K-pop",
+      "ajans_eslesme": [
+        "MED-CRE",
+        "MKT-BRD",
+        "PRD-DSN"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 25,
+      "ad": "Drake",
+      "alan": "Müzik",
+      "kategori": "kultur",
+      "etiket": "hip-hop",
+      "ajans_eslesme": [
+        "MED-CRE",
+        "MKT-BRD",
+        "PRD-DSN"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 26,
+      "ad": "The Weeknd",
+      "alan": "Müzik",
+      "kategori": "kultur",
+      "etiket": "pop-R&B",
+      "ajans_eslesme": [
+        "MED-CRE",
+        "MKT-BRD",
+        "PRD-DSN"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 27,
+      "ad": "Billie Eilish",
+      "alan": "Müzik",
+      "kategori": "kultur",
+      "etiket": "gen-Z",
+      "ajans_eslesme": [
+        "MED-CRE",
+        "MKT-BRD",
+        "PRD-DSN"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 28,
+      "ad": "Kendrick Lamar",
+      "alan": "Müzik",
+      "kategori": "kultur",
+      "etiket": "Pulitzer",
+      "ajans_eslesme": [
+        "MED-CRE",
+        "MKT-BRD",
+        "PRD-DSN"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 29,
+      "ad": "Rosalía",
+      "alan": "Müzik",
+      "kategori": "kultur",
+      "etiket": "flamenco-füzyon",
+      "ajans_eslesme": [
+        "MED-CRE",
+        "MKT-BRD",
+        "PRD-DSN"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 30,
+      "ad": "Hans Zimmer",
+      "alan": "Müzik",
+      "kategori": "kultur",
+      "etiket": "film-skor",
+      "ajans_eslesme": [
+        "MED-CRE",
+        "MKT-BRD",
+        "PRD-DSN"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 31,
+      "ad": "John Williams",
+      "alan": "Müzik",
+      "kategori": "kultur",
+      "etiket": "orkestral",
+      "ajans_eslesme": [
+        "MED-CRE",
+        "MKT-BRD",
+        "PRD-DSN"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 32,
+      "ad": "Yo-Yo Ma",
+      "alan": "Müzik",
+      "kategori": "kultur",
+      "etiket": "klasik",
+      "ajans_eslesme": [
+        "MED-CRE",
+        "MKT-BRD",
+        "PRD-DSN"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 33,
+      "ad": "Ryuichi Sakamoto",
+      "alan": "Müzik",
+      "kategori": "kultur",
+      "etiket": "elektronik-klasik",
+      "ajans_eslesme": [
+        "MED-CRE",
+        "MKT-BRD",
+        "PRD-DSN"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 34,
+      "ad": "A.R. Rahman",
+      "alan": "Müzik",
+      "kategori": "kultur",
+      "etiket": "film-Hindistan",
+      "ajans_eslesme": [
+        "MED-CRE",
+        "MKT-BRD",
+        "PRD-DSN"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 35,
+      "ad": "Christopher Nolan",
+      "alan": "Sinema",
+      "kategori": "sanat",
+      "etiket": "yönetmen",
+      "ajans_eslesme": [
+        "MED-CRE",
+        "MKT-BRD",
+        "PRD-DSN"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 36,
+      "ad": "Greta Gerwig",
+      "alan": "Sinema",
+      "kategori": "sanat",
+      "etiket": "yönetmen",
+      "ajans_eslesme": [
+        "MED-CRE",
+        "MKT-BRD",
+        "PRD-DSN"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 37,
+      "ad": "Hayao Miyazaki",
+      "alan": "Anime",
+      "kategori": "sanat",
+      "etiket": "Ghibli",
+      "ajans_eslesme": [
+        "HRA-REC",
+        "MKT-BRD"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 38,
+      "ad": "Bong Joon-ho",
+      "alan": "Sinema",
+      "kategori": "sanat",
+      "etiket": "uluslararası",
+      "ajans_eslesme": [
+        "MED-CRE",
+        "MKT-BRD",
+        "PRD-DSN"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 39,
+      "ad": "Martin Scorsese",
+      "alan": "Sinema",
+      "kategori": "sanat",
+      "etiket": "ustalık",
+      "ajans_eslesme": [
+        "MED-CRE",
+        "MKT-BRD",
+        "PRD-DSN"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 40,
+      "ad": "Chloé Zhao",
+      "alan": "Sinema",
+      "kategori": "sanat",
+      "etiket": "bağımsız",
+      "ajans_eslesme": [
+        "MED-CRE",
+        "MKT-BRD",
+        "PRD-DSN"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 41,
+      "ad": "Denis Villeneuve",
+      "alan": "Sinema",
+      "kategori": "sanat",
+      "etiket": "bilimkurgu",
+      "ajans_eslesme": [
+        "MED-CRE",
+        "MKT-BRD",
+        "PRD-DSN"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 42,
+      "ad": "Jordan Peele",
+      "alan": "Sinema",
+      "kategori": "sanat",
+      "etiket": "korku-toplum",
+      "ajans_eslesme": [
+        "MED-CRE",
+        "MKT-BRD",
+        "PRD-DSN"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 43,
+      "ad": "Shonda Rhimes",
+      "alan": "TV",
+      "kategori": "kultur",
+      "etiket": "showrunner",
+      "ajans_eslesme": [
+        "MED-CRE",
+        "MKT-BRD",
+        "PRD-DSN"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 44,
+      "ad": "Ryan Murphy",
+      "alan": "TV",
+      "kategori": "kultur",
+      "etiket": "üretici",
+      "ajans_eslesme": [
+        "MED-CRE",
+        "MKT-BRD",
+        "PRD-DSN"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 45,
+      "ad": "Margaret Atwood",
+      "alan": "Edebiyat",
+      "kategori": "kultur",
+      "etiket": "distopya",
+      "ajans_eslesme": [
+        "MED-PUB",
+        "AI-RES",
+        "STR-INT"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 46,
+      "ad": "Kazuo Ishiguro",
+      "alan": "Edebiyat",
+      "kategori": "kultur",
+      "etiket": "Nobel",
+      "ajans_eslesme": [
+        "MED-PUB",
+        "AI-RES",
+        "STR-INT"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 47,
+      "ad": "Ocean Vuong",
+      "alan": "Edebiyat",
+      "kategori": "kultur",
+      "etiket": "şiir-roman",
+      "ajans_eslesme": [
+        "MED-PUB",
+        "AI-RES",
+        "STR-INT"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 48,
+      "ad": "Chimamanda Ngozi Adichie",
+      "alan": "Edebiyat",
+      "kategori": "kultur",
+      "etiket": "anlatı",
+      "ajans_eslesme": [
+        "MED-PUB",
+        "AI-RES",
+        "STR-INT"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 49,
+      "ad": "Haruki Murakami",
+      "alan": "Edebiyat",
+      "kategori": "kultur",
+      "etiket": "küresel-roman",
+      "ajans_eslesme": [
+        "MED-PUB",
+        "AI-RES",
+        "STR-INT"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 50,
+      "ad": "Orhan Pamuk",
+      "alan": "Edebiyat",
+      "kategori": "kultur",
+      "etiket": "Nobel-TR",
+      "ajans_eslesme": [
+        "MED-PUB",
+        "AI-RES",
+        "STR-INT"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 51,
+      "ad": "Elif Shafak",
+      "alan": "Edebiyat",
+      "kategori": "kultur",
+      "etiket": "TR-UK",
+      "ajans_eslesme": [
+        "MED-PUB",
+        "AI-RES",
+        "STR-INT"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 52,
+      "ad": "Yuval Noah Harari",
+      "alan": "Fikir",
+      "kategori": "kultur",
+      "etiket": "tarih-AI",
+      "ajans_eslesme": [
+        "MED-PUB",
+        "AI-RES",
+        "STR-INT"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 53,
+      "ad": "Brené Brown",
+      "alan": "Fikir",
+      "kategori": "kultur",
+      "etiket": "liderlik",
+      "ajans_eslesme": [
+        "MED-PUB",
+        "AI-RES",
+        "STR-INT"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 54,
+      "ad": "Malcolm Gladwell",
+      "alan": "Fikir",
+      "kategori": "kultur",
+      "etiket": "pop-sosyal",
+      "ajans_eslesme": [
+        "MED-PUB",
+        "AI-RES",
+        "STR-INT"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 55,
+      "ad": "Refik Anadol",
+      "alan": "Dijital sanat",
+      "kategori": "sanat",
+      "etiket": "AI-art-TR",
+      "ajans_eslesme": [
+        "HRA-REC",
+        "MKT-BRD"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 56,
+      "ad": "Yayoi Kusama",
+      "alan": "Görsel sanat",
+      "kategori": "sanat",
+      "etiket": "enstalasyon",
+      "ajans_eslesme": [
+        "HRA-REC",
+        "MKT-BRD"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 57,
+      "ad": "Ai Weiwei",
+      "alan": "Görsel sanat",
+      "kategori": "sanat",
+      "etiket": "aktivizm",
+      "ajans_eslesme": [
+        "HRA-REC",
+        "MKT-BRD"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 58,
+      "ad": "Banksy",
+      "alan": "Sokak sanatı",
+      "kategori": "sanat",
+      "etiket": "anonim",
+      "ajans_eslesme": [
+        "HRA-REC",
+        "MKT-BRD"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 59,
+      "ad": "Olafur Eliasson",
+      "alan": "Enstalasyon",
+      "kategori": "sanat",
+      "etiket": "algı",
+      "ajans_eslesme": [
+        "HRA-REC",
+        "MKT-BRD"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 60,
+      "ad": "Zaha Hadid Architects",
+      "alan": "Mimari",
+      "kategori": "sanat",
+      "etiket": "parametrik",
+      "ajans_eslesme": [
+        "HRA-REC",
+        "MKT-BRD"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 61,
+      "ad": "Bjarke Ingels",
+      "alan": "Mimari",
+      "kategori": "sanat",
+      "etiket": "BIG",
+      "ajans_eslesme": [
+        "HRA-REC",
+        "MKT-BRD"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 62,
+      "ad": "Tadao Ando",
+      "alan": "Mimari",
+      "kategori": "sanat",
+      "etiket": "beton-ışık",
+      "ajans_eslesme": [
+        "HRA-REC",
+        "MKT-BRD"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 63,
+      "ad": "Virgil Abloh",
+      "alan": "Tasarım",
+      "kategori": "kultur",
+      "etiket": "Off-White",
+      "ajans_eslesme": [
+        "HRA-REC",
+        "MKT-BRD"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 64,
+      "ad": "Phoebe Philo",
+      "alan": "Moda",
+      "kategori": "kultur",
+      "etiket": "minimal",
+      "ajans_eslesme": [
+        "HRA-REC",
+        "MKT-BRD"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 65,
+      "ad": "Iris van Herpen",
+      "alan": "Moda",
+      "kategori": "sanat",
+      "etiket": "3D-couture",
+      "ajans_eslesme": [
+        "HRA-REC",
+        "MKT-BRD"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 66,
+      "ad": "Dieter Rams",
+      "alan": "Endüstriyel tasarım",
+      "kategori": "sanat",
+      "etiket": "10-ilke",
+      "ajans_eslesme": [
+        "HRA-REC",
+        "MKT-BRD"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 67,
+      "ad": "Jony Ive",
+      "alan": "Tasarım",
+      "kategori": "sanat",
+      "etiket": "ürün",
+      "ajans_eslesme": [
+        "HRA-REC",
+        "MKT-BRD"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 68,
+      "ad": "Lin-Manuel Miranda",
+      "alan": "Tiyatro",
+      "kategori": "kultur",
+      "etiket": "Hamilton",
+      "ajans_eslesme": [
+        "MED-CRE",
+        "MKT-BRD",
+        "PRD-DSN"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 69,
+      "ad": "Pina Bausch",
+      "alan": "Dans",
+      "kategori": "sanat",
+      "etiket": "tanztheater",
+      "ajans_eslesme": [
+        "MED-CRE",
+        "MKT-BRD",
+        "PRD-DSN"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 70,
+      "ad": "Mikhail Baryshnikov",
+      "alan": "Dans",
+      "kategori": "sanat",
+      "etiket": "bale",
+      "ajans_eslesme": [
+        "MED-CRE",
+        "MKT-BRD",
+        "PRD-DSN"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 71,
+      "ad": "Shigeru Miyamoto",
+      "alan": "Oyun",
+      "kategori": "kultur",
+      "etiket": "Nintendo",
+      "ajans_eslesme": [
+        "MED-CRE",
+        "MKT-BRD",
+        "PRD-DSN"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 72,
+      "ad": "Hideo Kojima",
+      "alan": "Oyun",
+      "kategori": "kultur",
+      "etiket": "anlatı",
+      "ajans_eslesme": [
+        "MED-CRE",
+        "MKT-BRD",
+        "PRD-DSN"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 73,
+      "ad": "Todd Howard",
+      "alan": "Oyun",
+      "kategori": "kultur",
+      "etiket": "Bethesda",
+      "ajans_eslesme": [
+        "MED-CRE",
+        "MKT-BRD",
+        "PRD-DSN"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 74,
+      "ad": "Jenova Chen",
+      "alan": "Oyun",
+      "kategori": "sanat",
+      "etiket": "thatgamecompany",
+      "ajans_eslesme": [
+        "MED-CRE",
+        "MKT-BRD",
+        "PRD-DSN"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 75,
+      "ad": "MrBeast",
+      "alan": "YouTube",
+      "kategori": "kultur",
+      "etiket": "ölçek-içerik",
+      "ajans_eslesme": [
+        "MKT-SOC",
+        "MED-CRE",
+        "MED-PUB"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 76,
+      "ad": "PewDiePie",
+      "alan": "YouTube",
+      "kategori": "kultur",
+      "etiket": "erken-ölçek",
+      "ajans_eslesme": [
+        "MKT-SOC",
+        "MED-CRE",
+        "MED-PUB"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 77,
+      "ad": "Emma Chamberlain",
+      "alan": "Creator",
+      "kategori": "kultur",
+      "etiket": "lifestyle",
+      "ajans_eslesme": [
+        "MKT-SOC",
+        "MED-CRE",
+        "MED-PUB"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 78,
+      "ad": "Charli D'Amelio",
+      "alan": "TikTok",
+      "kategori": "kultur",
+      "etiket": "dans-kısa",
+      "ajans_eslesme": [
+        "MKT-SOC",
+        "MED-CRE",
+        "MED-PUB"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 79,
+      "ad": "Khaby Lame",
+      "alan": "TikTok",
+      "kategori": "kultur",
+      "etiket": "sessiz-komedi",
+      "ajans_eslesme": [
+        "MKT-SOC",
+        "MED-CRE",
+        "MED-PUB"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 80,
+      "ad": "Casey Neistat",
+      "alan": "YouTube",
+      "kategori": "kultur",
+      "etiket": "vlog-sinema",
+      "ajans_eslesme": [
+        "MKT-SOC",
+        "MED-CRE",
+        "MED-PUB"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 81,
+      "ad": "Marques Brownlee",
+      "alan": "Tech media",
+      "kategori": "kultur",
+      "etiket": "ürün-inceleme",
+      "ajans_eslesme": [
+        "MKT-SOC",
+        "MED-CRE",
+        "MED-PUB"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 82,
+      "ad": "Pokimane",
+      "alan": "Twitch",
+      "kategori": "kultur",
+      "etiket": "yayın",
+      "ajans_eslesme": [
+        "MKT-SOC",
+        "MED-CRE",
+        "MED-PUB"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 83,
+      "ad": "xQc",
+      "alan": "Twitch",
+      "kategori": "kultur",
+      "etiket": "reaksiyon",
+      "ajans_eslesme": [
+        "MKT-SOC",
+        "MED-CRE",
+        "MED-PUB"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 84,
+      "ad": "Ninja",
+      "alan": "Twitch",
+      "kategori": "kultur",
+      "etiket": "espor-köprü",
+      "ajans_eslesme": [
+        "MKT-SOC",
+        "MED-CRE",
+        "MED-PUB"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 85,
+      "ad": "Tom Brady",
+      "alan": "Amerikan futbolu",
+      "kategori": "spor",
+      "etiket": "şampiyonluk",
+      "ajans_eslesme": [
+        "MKT-BRD",
+        "MKT-SOC",
+        "STR-GRW"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 86,
+      "ad": "Patrick Mahomes",
+      "alan": "Amerikan futbolu",
+      "kategori": "spor",
+      "etiket": "QB",
+      "ajans_eslesme": [
+        "MKT-BRD",
+        "MKT-SOC",
+        "STR-GRW"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 87,
+      "ad": "Megan Rapinoe",
+      "alan": "Futbol",
+      "kategori": "spor",
+      "etiket": "aktivizm",
+      "ajans_eslesme": [
+        "MKT-BRD",
+        "MKT-SOC",
+        "STR-GRW"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 88,
+      "ad": "Alexia Putellas",
+      "alan": "Futbol",
+      "kategori": "spor",
+      "etiket": "Ballon-dOr",
+      "ajans_eslesme": [
+        "MKT-BRD",
+        "MKT-SOC",
+        "STR-GRW"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 89,
+      "ad": "Vinícius Júnior",
+      "alan": "Futbol",
+      "kategori": "spor",
+      "etiket": "kanat",
+      "ajans_eslesme": [
+        "MKT-BRD",
+        "MKT-SOC",
+        "STR-GRW"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 90,
+      "ad": "Jude Bellingham",
+      "alan": "Futbol",
+      "kategori": "spor",
+      "etiket": "orta-saha",
+      "ajans_eslesme": [
+        "MKT-BRD",
+        "MKT-SOC",
+        "STR-GRW"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 91,
+      "ad": "Lamine Yamal",
+      "alan": "Futbol",
+      "kategori": "spor",
+      "etiket": "genç-yetenek",
+      "ajans_eslesme": [
+        "MKT-BRD",
+        "MKT-SOC",
+        "STR-GRW"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 92,
+      "ad": "IShowSpeed",
+      "alan": "Streamer",
+      "kategori": "kultur",
+      "etiket": "spor-eğlence",
+      "ajans_eslesme": [
+        "MKT-SOC",
+        "MED-CRE",
+        "MED-PUB"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 93,
+      "ad": "Trevor Noah",
+      "alan": "Komedi",
+      "kategori": "kultur",
+      "etiket": "global-host",
+      "ajans_eslesme": [
+        "HRA-REC",
+        "MKT-BRD"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 94,
+      "ad": "Bo Burnham",
+      "alan": "Komedi",
+      "kategori": "sanat",
+      "etiket": "meta-show",
+      "ajans_eslesme": [
+        "HRA-REC",
+        "MKT-BRD"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 95,
+      "ad": "Dave Chappelle",
+      "alan": "Komedi",
+      "kategori": "kultur",
+      "etiket": "stand-up",
+      "ajans_eslesme": [
+        "HRA-REC",
+        "MKT-BRD"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 96,
+      "ad": "Rihanna",
+      "alan": "Müzik/Moda",
+      "kategori": "kultur",
+      "etiket": "Fenty",
+      "ajans_eslesme": [
+        "HRA-REC",
+        "MKT-BRD"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 97,
+      "ad": "Pharrell Williams",
+      "alan": "Müzik/Moda",
+      "kategori": "kultur",
+      "etiket": "Louis-Vuitton",
+      "ajans_eslesme": [
+        "HRA-REC",
+        "MKT-BRD"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 98,
+      "ad": "Kanye West",
+      "alan": "Müzik/Moda",
+      "kategori": "kultur",
+      "etiket": "tartışmalı-etki",
+      "ajans_eslesme": [
+        "HRA-REC",
+        "MKT-BRD"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 99,
+      "ad": "Lady Gaga",
+      "alan": "Müzik",
+      "kategori": "kultur",
+      "etiket": "performans",
+      "ajans_eslesme": [
+        "MED-CRE",
+        "MKT-BRD",
+        "PRD-DSN"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 100,
+      "ad": "Adele",
+      "alan": "Müzik",
+      "kategori": "kultur",
+      "etiket": "vokal",
+      "ajans_eslesme": [
+        "MED-CRE",
+        "MKT-BRD",
+        "PRD-DSN"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 101,
+      "ad": "Ed Sheeran",
+      "alan": "Müzik",
+      "kategori": "kultur",
+      "etiket": "songwriter",
+      "ajans_eslesme": [
+        "MED-CRE",
+        "MKT-BRD",
+        "PRD-DSN"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 102,
+      "ad": "Coldplay",
+      "alan": "Müzik",
+      "kategori": "kultur",
+      "etiket": "stadyum",
+      "ajans_eslesme": [
+        "MED-CRE",
+        "MKT-BRD",
+        "PRD-DSN"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 103,
+      "ad": "Radiohead",
+      "alan": "Müzik",
+      "kategori": "sanat",
+      "etiket": "deneysel",
+      "ajans_eslesme": [
+        "MED-CRE",
+        "MKT-BRD",
+        "PRD-DSN"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 104,
+      "ad": "Björk",
+      "alan": "Müzik",
+      "kategori": "sanat",
+      "etiket": "avangart",
+      "ajans_eslesme": [
+        "MED-CRE",
+        "MKT-BRD",
+        "PRD-DSN"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 105,
+      "ad": "Arvo Pärt",
+      "alan": "Müzik",
+      "kategori": "sanat",
+      "etiket": "minimal-kutsal",
+      "ajans_eslesme": [
+        "MED-CRE",
+        "MKT-BRD",
+        "PRD-DSN"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 106,
+      "ad": "Marina Abramović",
+      "alan": "Performans",
+      "kategori": "sanat",
+      "etiket": "beden",
+      "ajans_eslesme": [
+        "HRA-REC",
+        "MKT-BRD"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 107,
+      "ad": "Cindy Sherman",
+      "alan": "Fotoğraf",
+      "kategori": "sanat",
+      "etiket": "kimlik",
+      "ajans_eslesme": [
+        "HRA-REC",
+        "MKT-BRD"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 108,
+      "ad": "Annie Leibovitz",
+      "alan": "Fotoğraf",
+      "kategori": "kultur",
+      "etiket": "portre",
+      "ajans_eslesme": [
+        "HRA-REC",
+        "MKT-BRD"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 109,
+      "ad": "Steve McCurry",
+      "alan": "Fotoğraf",
+      "kategori": "kultur",
+      "etiket": "belgesel",
+      "ajans_eslesme": [
+        "HRA-REC",
+        "MKT-BRD"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 110,
+      "ad": "David Attenborough",
+      "alan": "Belgesel",
+      "kategori": "kultur",
+      "etiket": "doğa",
+      "ajans_eslesme": [
+        "MED-PUB",
+        "AI-RES",
+        "STR-INT"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 111,
+      "ad": "Greta Thunberg",
+      "alan": "Aktivizm",
+      "kategori": "kultur",
+      "etiket": "iklim",
+      "ajans_eslesme": [
+        "HRA-REC",
+        "MKT-BRD"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 112,
+      "ad": "Malala Yousafzai",
+      "alan": "Aktivizm",
+      "kategori": "kultur",
+      "etiket": "eğitim",
+      "ajans_eslesme": [
+        "HRA-REC",
+        "MKT-BRD"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 113,
+      "ad": "Oprah Winfrey",
+      "alan": "Medya",
+      "kategori": "kultur",
+      "etiket": "etki",
+      "ajans_eslesme": [
+        "MED-PUB",
+        "AI-RES",
+        "STR-INT"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 114,
+      "ad": "Barack Obama",
+      "alan": "Siyaset/Medya",
+      "kategori": "kultur",
+      "etiket": "anlatı",
+      "ajans_eslesme": [
+        "HRA-REC",
+        "MKT-BRD"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 115,
+      "ad": "Michelle Obama",
+      "alan": "Yazar/Medya",
+      "kategori": "kultur",
+      "etiket": "ilham",
+      "ajans_eslesme": [
+        "HRA-REC",
+        "MKT-BRD"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 116,
+      "ad": "Pew Research",
+      "alan": "Kurum",
+      "kategori": "kultur",
+      "etiket": "veri-kamu",
+      "ajans_eslesme": [
+        "HRA-REC",
+        "MKT-BRD"
+      ],
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık: eser/performans/röportaj"
+        }
+      ],
+      "son_inceleme": "2026-08-03",
+      "guncelleme_durumu": "seed"
+    }
+  ]
+}
