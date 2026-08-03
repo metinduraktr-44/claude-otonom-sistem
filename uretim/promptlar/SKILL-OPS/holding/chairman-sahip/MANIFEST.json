@@ -1,0 +1,618 @@
+{
+  "title": "Chairman / Sahip",
+  "domain": "HOLDING",
+  "adet": 122,
+  "ts": "2026-08-03T16:03:13Z",
+  "items": [
+    {
+      "file": "strateji-01.md",
+      "chars": 4051,
+      "sha256": "e810a23f85c1c936eae96cd5180c34874fc06f26efe67fe27fe5d81fa49edeba"
+    },
+    {
+      "file": "strateji-02.md",
+      "chars": 4051,
+      "sha256": "aca42972ce90754216f0ba00bfca34abb4bdafe8a957104c513c98fbf7dfa178"
+    },
+    {
+      "file": "strateji-03.md",
+      "chars": 4051,
+      "sha256": "73f77644a45e2469bd8a48c4d712197ba096894cec53c64cabc96f939ad4fd73"
+    },
+    {
+      "file": "strateji-04.md",
+      "chars": 4051,
+      "sha256": "df6dfac3bd04784d9d1d539664378221d4b2a4d4be1e86069c506f9932a51cb4"
+    },
+    {
+      "file": "strateji-05.md",
+      "chars": 4051,
+      "sha256": "0584fbd9d026444ac9aa3c6fa4f3aa051fa85f1a5ec4cc0a421212d9fd40d699"
+    },
+    {
+      "file": "strateji-06.md",
+      "chars": 4051,
+      "sha256": "f6198cbeae76c69c2f2afe6aee6e4c676caaa01234b53521355fe601aef28274"
+    },
+    {
+      "file": "strateji-07.md",
+      "chars": 4051,
+      "sha256": "f98fcb9e7562d8f391d8b3f6397a7c2091abf488972bec13912491117fe629cc"
+    },
+    {
+      "file": "strateji-08.md",
+      "chars": 4051,
+      "sha256": "657a6214f8a86687acde28cba84fc25dd9110fc63c0c38f50420a48248147b11"
+    },
+    {
+      "file": "strateji-09.md",
+      "chars": 4051,
+      "sha256": "42e4b3a785e48036237c01635f8f2acc9440a4a2325fa0a5093f253afa0a8385"
+    },
+    {
+      "file": "strateji-10.md",
+      "chars": 4051,
+      "sha256": "27e6cf641e9f1c2643c0a65b53ba090b85b04e9730f7fc8cfd18bbf2c2f87695"
+    },
+    {
+      "file": "strateji-11.md",
+      "chars": 4051,
+      "sha256": "8132909c1e74709b69067985c557def6233bdd50c8ea2a73a8b13eb84ec8aed5"
+    },
+    {
+      "file": "strateji-12.md",
+      "chars": 4051,
+      "sha256": "5d83c7c31fa8f22ad134f32ca8f0924bab4fbba90016f726c2d9baa24c286c4a"
+    },
+    {
+      "file": "strateji-13.md",
+      "chars": 4051,
+      "sha256": "f68123c7555c41b6e91af2f4e470fb41995d6422690eec0334a89f4f91ac65f1"
+    },
+    {
+      "file": "strateji-14.md",
+      "chars": 4051,
+      "sha256": "de7fc6f4e7d37b139783c4088dd7a7717e3d6293a34eafb94fd89bf94f59bfee"
+    },
+    {
+      "file": "strateji-15.md",
+      "chars": 4051,
+      "sha256": "c483ebfcaea66d6f7dac025e98791824b930573621cf92eefd40c0aa7f288d09"
+    },
+    {
+      "file": "strateji-16.md",
+      "chars": 4051,
+      "sha256": "d4602cb798e00275ec9e82a0fab5f7262cf0f82e467d0ceaf1197f09eac048ae"
+    },
+    {
+      "file": "strateji-17.md",
+      "chars": 4051,
+      "sha256": "5621f8dda0116276610cea772de17b66390cd2594123d372aaf52de0888e4d6f"
+    },
+    {
+      "file": "arastirma-01.md",
+      "chars": 4010,
+      "sha256": "c527cca74e14fbada66b828ecc5dcea0cc14c92320124e63437907aa52c9c35b"
+    },
+    {
+      "file": "arastirma-02.md",
+      "chars": 4010,
+      "sha256": "eecd449198ee2d048f905b3f3d04e9f7a22ee5ff08b817df3a3c0ce5ec7532ab"
+    },
+    {
+      "file": "arastirma-03.md",
+      "chars": 4010,
+      "sha256": "9efb00db32e85921321a72c2622776379ea19ac98be235d67c67ea6c64ec71e9"
+    },
+    {
+      "file": "arastirma-04.md",
+      "chars": 4010,
+      "sha256": "46498915db429f9c4897ed275ab04b285a29faf9743f452917f6fe7e1ea9e1a2"
+    },
+    {
+      "file": "arastirma-05.md",
+      "chars": 4010,
+      "sha256": "f929965bcbb31e18b469da935e7d4ea0455b83ddca4dedea85f342ad690a1346"
+    },
+    {
+      "file": "arastirma-06.md",
+      "chars": 4010,
+      "sha256": "b4df848d83fe6a32e66fa342baef2e1f60c76dd8b66586b41df2f024c19b9c6e"
+    },
+    {
+      "file": "arastirma-07.md",
+      "chars": 4010,
+      "sha256": "a2af5310f583f752d0a7859d38d488f66a0989e83676a5c4a5f1433445cfb022"
+    },
+    {
+      "file": "arastirma-08.md",
+      "chars": 4010,
+      "sha256": "087dd1586a6883b7566d8392cd103b006ebf31beca55f817120af93386003784"
+    },
+    {
+      "file": "arastirma-09.md",
+      "chars": 4010,
+      "sha256": "779eb4cf03f30d1a537924e344996695ea3ab1c33e283baec1aa77a7bf3430a0"
+    },
+    {
+      "file": "arastirma-10.md",
+      "chars": 4010,
+      "sha256": "88f65fb446edc4a2aa88ba25b1026e7f0ded131b5b2af9865665425612231d86"
+    },
+    {
+      "file": "arastirma-11.md",
+      "chars": 4010,
+      "sha256": "a9ede3357e0a72acba57d1dc5b79ff5683437e3c9bb41d28a89a26d84be5af01"
+    },
+    {
+      "file": "arastirma-12.md",
+      "chars": 4010,
+      "sha256": "121203ffc164336119dfe6e79542ac6f50b38cba5adf590c394bfc630827c950"
+    },
+    {
+      "file": "arastirma-13.md",
+      "chars": 4010,
+      "sha256": "f7c270bd8dfd8e37cb280827ca61f10d2f5ab63a8573c12329a53bd6ac938beb"
+    },
+    {
+      "file": "arastirma-14.md",
+      "chars": 4010,
+      "sha256": "70f4c68b0337c370074abe6466ac5f5f8f74fbdb9ac036211fba196d12b0bc30"
+    },
+    {
+      "file": "arastirma-15.md",
+      "chars": 4010,
+      "sha256": "80b2b4922b9fb8175dc6871037083d8163e847eb8cbd7cd25b4cbf186673e39b"
+    },
+    {
+      "file": "arastirma-16.md",
+      "chars": 4010,
+      "sha256": "58a793fc847c8e161c141dc4379fc56543bd7cfbe059ef27d75af55376516102"
+    },
+    {
+      "file": "arastirma-17.md",
+      "chars": 4010,
+      "sha256": "132976717fa9738de07b904bcfa0ab2ef56edc4fc9e33dd2a87b2dd864bdd006"
+    },
+    {
+      "file": "uretim-01.md",
+      "chars": 4060,
+      "sha256": "ac207867fd179c668da3099e61528577dfc2b48e272755f18156460effea747e"
+    },
+    {
+      "file": "uretim-02.md",
+      "chars": 4060,
+      "sha256": "4946ab7c246319c0e22baf2f5a58ce61d2c6f527dae85c6a2aac10264b63f816"
+    },
+    {
+      "file": "uretim-03.md",
+      "chars": 4060,
+      "sha256": "8fff9de6ebd5ccf2cdf55a5025af9f3e4a725ee0470254f54d403e92f9563c02"
+    },
+    {
+      "file": "uretim-04.md",
+      "chars": 4060,
+      "sha256": "5e69d95322556a6827d1711ea9bd89ae3e353c4dc7ab9d24e00bbffb9de555a5"
+    },
+    {
+      "file": "uretim-05.md",
+      "chars": 4060,
+      "sha256": "9a517dadb9c7ad78e017ce9a343378af89d849b6e8b1a1e9917053bfd7d8ad07"
+    },
+    {
+      "file": "uretim-06.md",
+      "chars": 4060,
+      "sha256": "6fc87cec84da14a891a4bd6e499169f8dbfdcd2f682f70d13e143dded9009405"
+    },
+    {
+      "file": "uretim-07.md",
+      "chars": 4060,
+      "sha256": "9330b471cc3df5f3f248396ed8b8fa0961c32becc2fbdf5aab4c2cfc2f52d211"
+    },
+    {
+      "file": "uretim-08.md",
+      "chars": 4060,
+      "sha256": "719f86d5300d43c25112e4aabd3558d50b8d6f3840928b33a1c0066e874e86c4"
+    },
+    {
+      "file": "uretim-09.md",
+      "chars": 4060,
+      "sha256": "c5c6d77ca4a59a21041bc7268b18e706dab34aed8d76cd28819847945a11361c"
+    },
+    {
+      "file": "uretim-10.md",
+      "chars": 4060,
+      "sha256": "05ac634e5cbaec149252a71d51feae86d8514b671d9e00b2d44a005722c594a3"
+    },
+    {
+      "file": "uretim-11.md",
+      "chars": 4060,
+      "sha256": "df807d4870a880c475eb8ee98c9a4154fc13ba7a7915f145ac66529bbef01c66"
+    },
+    {
+      "file": "uretim-12.md",
+      "chars": 4060,
+      "sha256": "3244d90cbc95242ebeeeaf5e52eed36b68adb442045bbb751299e746ff9e5d0c"
+    },
+    {
+      "file": "uretim-13.md",
+      "chars": 4060,
+      "sha256": "2ae1414aed950aff00c849c1413c35004e25ade18f87229ad5cb8a299c2fe914"
+    },
+    {
+      "file": "uretim-14.md",
+      "chars": 4060,
+      "sha256": "8dcfafbeeec8f8b48360f3c5c59e15fd63e5544fdfb4b8ef19bf1005011dfb92"
+    },
+    {
+      "file": "uretim-15.md",
+      "chars": 4060,
+      "sha256": "57dc0ddc271d0e0318d0b4231476877d8fa9d5632d3404445228cf47468bd121"
+    },
+    {
+      "file": "uretim-16.md",
+      "chars": 4060,
+      "sha256": "4a0710e58de3485af3f6e72683eba5f688e32f494f52ec5f9b4b1539be6cc8a4"
+    },
+    {
+      "file": "uretim-17.md",
+      "chars": 4060,
+      "sha256": "a67b2b6044de0b598e8c6b3d03d6d1fbc792c11e79917c56f7a92fc161060c3f"
+    },
+    {
+      "file": "denetim-01.md",
+      "chars": 4022,
+      "sha256": "ad58665b6d242a0cfe209c7957cb7cf58a78ff2fc1585d7a92400d25a4d9b4d4"
+    },
+    {
+      "file": "denetim-02.md",
+      "chars": 4022,
+      "sha256": "0d72cfd92ff3d4ec18041b94b84dc24dc9dd12326e7747f8c7c96f06cd81a097"
+    },
+    {
+      "file": "denetim-03.md",
+      "chars": 4022,
+      "sha256": "0be1fd913b5a560f73bfac7bde4f644b86be607dd5967e96362374dbcd216408"
+    },
+    {
+      "file": "denetim-04.md",
+      "chars": 4022,
+      "sha256": "c380b8ff66f7c60b5933a5703541afd3dee55572477b7f049644d97c61e1c8ec"
+    },
+    {
+      "file": "denetim-05.md",
+      "chars": 4022,
+      "sha256": "138e91b921a4ce48736c96e5653c1dc3a2403c393eff1f87d68cf36cf2f2cd38"
+    },
+    {
+      "file": "denetim-06.md",
+      "chars": 4022,
+      "sha256": "5be9aa74e9c7fff7156445f2c0c99b14fd015ba0bd7aafc6668b748be72c71d2"
+    },
+    {
+      "file": "denetim-07.md",
+      "chars": 4022,
+      "sha256": "754c586284d34f3cfe20e6baa3a0449ffdae49f6ead9cf243a2671e519b5602f"
+    },
+    {
+      "file": "denetim-08.md",
+      "chars": 4022,
+      "sha256": "404903d78c9dbe4e9cb985e4e0fc2c3a957af021f128e3918556888b87a3fd92"
+    },
+    {
+      "file": "denetim-09.md",
+      "chars": 4022,
+      "sha256": "c27b0999cfc3d7af73bfe9f436347e9acd7f420a294bb6989ae423e6ceb6b06a"
+    },
+    {
+      "file": "denetim-10.md",
+      "chars": 4022,
+      "sha256": "1ed47f102a904b9072a7c0fa4b47faf13d2d3f13981f828dd78fc26de9ec29fe"
+    },
+    {
+      "file": "denetim-11.md",
+      "chars": 4022,
+      "sha256": "64093881934a06285352c1da718407bc9744d9cbe1ac93ba8b5584887c5d9380"
+    },
+    {
+      "file": "denetim-12.md",
+      "chars": 4022,
+      "sha256": "de2118eae9991d9638fd509c7550836fa37bd6997e728fed244cdc16296783b7"
+    },
+    {
+      "file": "denetim-13.md",
+      "chars": 4022,
+      "sha256": "3d2b41d354c988768002880fb71d32542078ea7340e71457f55a40ea29fd8cdb"
+    },
+    {
+      "file": "denetim-14.md",
+      "chars": 4022,
+      "sha256": "83b00412b1c656060ff203117ba55b285d96e67dd7f0f26deb116dbee9e9fadb"
+    },
+    {
+      "file": "denetim-15.md",
+      "chars": 4022,
+      "sha256": "a361fcbba3024e58db9d7bc9690ab25d065828784b13de8d07ce21c3b0b9ee23"
+    },
+    {
+      "file": "denetim-16.md",
+      "chars": 4022,
+      "sha256": "4bff4575f082da7b12bc62d5a993b3a3f424dfc9c89ca4b38d9331a2180231b1"
+    },
+    {
+      "file": "denetim-17.md",
+      "chars": 4022,
+      "sha256": "250b8e7849f91624bf93f85eaa53d6a2af83e1421d9d8a7a961495086c8d4b88"
+    },
+    {
+      "file": "operasyon-01.md",
+      "chars": 4004,
+      "sha256": "77cf936894a569a8d46bab83dc781319b52f8807d9092d134d197a180763461f"
+    },
+    {
+      "file": "operasyon-02.md",
+      "chars": 4004,
+      "sha256": "642dca976d6c04557d389ec451f2677bfe623709c16a3fec11e725c1d172be40"
+    },
+    {
+      "file": "operasyon-03.md",
+      "chars": 4004,
+      "sha256": "5d44f69594702a1cd7879cae6e53eed242d38242220243d8b4971862322fbbba"
+    },
+    {
+      "file": "operasyon-04.md",
+      "chars": 4004,
+      "sha256": "bb81cdc5ef8ad009a8ffbeb3f48767cbfb9544cbbb56a16d302bb6f4eb23af7e"
+    },
+    {
+      "file": "operasyon-05.md",
+      "chars": 4004,
+      "sha256": "2942b2ff5863c55317835902a5fd221d1a56af613e48cf490c463ac213e40f2b"
+    },
+    {
+      "file": "operasyon-06.md",
+      "chars": 4004,
+      "sha256": "78ec1794937160ef917bb2bc8f583b96678d0b51feda0774e277ee90f422c937"
+    },
+    {
+      "file": "operasyon-07.md",
+      "chars": 4004,
+      "sha256": "a4c6db794da7970b2dc883a2f3328648c58d2a9d3a4f6de7008cdd3f56623533"
+    },
+    {
+      "file": "operasyon-08.md",
+      "chars": 4004,
+      "sha256": "a2d1d5dec8558992e4c1adb3986cfe5a00a1551018c9c80f6f661227cd783eb1"
+    },
+    {
+      "file": "operasyon-09.md",
+      "chars": 4004,
+      "sha256": "259fec377c5fa17a6477890be797bc0966e95121c60554b025b63d6c84466ffc"
+    },
+    {
+      "file": "operasyon-10.md",
+      "chars": 4004,
+      "sha256": "b3e6589af01fd720a9dfcaccf38be0d62d1cd232bb9c34bb52d4bae4bf217f07"
+    },
+    {
+      "file": "operasyon-11.md",
+      "chars": 4004,
+      "sha256": "2b9edb3f91166b7cd20efcbff7bed92e433a69ce38b870970c53c5e9b99027f2"
+    },
+    {
+      "file": "operasyon-12.md",
+      "chars": 4004,
+      "sha256": "bb1b9e2ecaf3a8cf91f9c5a46fb351e80c3ed94cfce88deb2cf335caa175235a"
+    },
+    {
+      "file": "operasyon-13.md",
+      "chars": 4004,
+      "sha256": "12f9dc51eb5d8670087e06ab48bbc8595a94a3623b24c7117e28276980e41289"
+    },
+    {
+      "file": "operasyon-14.md",
+      "chars": 4004,
+      "sha256": "0c7b7cce94f1a76a70a7064f2013e74291fda415483fff341176d6a529aba03c"
+    },
+    {
+      "file": "operasyon-15.md",
+      "chars": 4004,
+      "sha256": "e18a8d0b30f26cb7238f59418932337c225951e91988091e05e26f67c1af9373"
+    },
+    {
+      "file": "operasyon-16.md",
+      "chars": 4004,
+      "sha256": "a4fc93e5d4233d212ff104f9bfa5f39ce015b013c82bab1a2f4ce6cb6d67937d"
+    },
+    {
+      "file": "operasyon-17.md",
+      "chars": 4004,
+      "sha256": "6cba394dbbb9ec60d029ad5054c2b6b6969396604547ec3018b71ff36f9d4c3e"
+    },
+    {
+      "file": "gelir-01.md",
+      "chars": 4024,
+      "sha256": "8c9a2299e39230cf8037f55126a7abc749a7ac07a07ee85be1f3903aeef91020"
+    },
+    {
+      "file": "gelir-02.md",
+      "chars": 4024,
+      "sha256": "bf64beb8cdeebe68f7413766a660d98d1c346e36b12c0967776303354cbda1b4"
+    },
+    {
+      "file": "gelir-03.md",
+      "chars": 4024,
+      "sha256": "a5f5e4a8e0dad02f19e2e8a07c6153351e96f7e98b5d8655fefbbeec96e500ef"
+    },
+    {
+      "file": "gelir-04.md",
+      "chars": 4024,
+      "sha256": "0c54d2f69cabdb1c54ce804a261acb6f0b06419facebb5618231cafa07be4282"
+    },
+    {
+      "file": "gelir-05.md",
+      "chars": 4024,
+      "sha256": "d7efc80c5be9d892dba33c8fc5a829f43dd5b24c4bfc68397bc6edefc9ff50c7"
+    },
+    {
+      "file": "gelir-06.md",
+      "chars": 4024,
+      "sha256": "59d8b71d80f0d412c35458c1d05115d940cb7f49de0f0eaecd75659f583ded49"
+    },
+    {
+      "file": "gelir-07.md",
+      "chars": 4024,
+      "sha256": "108564fd1c3725d2bea462322ed156eb55794178778ac4502b5bfe5943e8c904"
+    },
+    {
+      "file": "gelir-08.md",
+      "chars": 4024,
+      "sha256": "71497493c3aa1316a0960c2e0edc72b586d924270b6fb1ef37100ffa0655205a"
+    },
+    {
+      "file": "gelir-09.md",
+      "chars": 4024,
+      "sha256": "f6c59e43a1830d1f3024e1e40a4c375f17e31064259b281b91d34a15ec45fde5"
+    },
+    {
+      "file": "gelir-10.md",
+      "chars": 4024,
+      "sha256": "7ab275a19dad0103e282a1900f2a2f44e0124be3c9dd0dc783cab9b21bc199c0"
+    },
+    {
+      "file": "gelir-11.md",
+      "chars": 4024,
+      "sha256": "38e1d943a5e6b81e34bc8f2967b5236850cda215292691357549fb15a7c2aa09"
+    },
+    {
+      "file": "gelir-12.md",
+      "chars": 4024,
+      "sha256": "b4dd2e5798a67a33bd9f55c6d52784fafbe7f0e1d694d17155e78ec680d0f36b"
+    },
+    {
+      "file": "gelir-13.md",
+      "chars": 4024,
+      "sha256": "614c2223ace854f96de610897248055f6ce6af792ccf5df83cb1403d5b08af63"
+    },
+    {
+      "file": "gelir-14.md",
+      "chars": 4024,
+      "sha256": "3059fbbd6b558047f0aa681f6c1d95c77ae6eaec64f0fe0caf0cd49be764be09"
+    },
+    {
+      "file": "gelir-15.md",
+      "chars": 4024,
+      "sha256": "ce70d8cefbd4d66e55f7509ff65620d290ec0fe6858cfe78ebdd3e464b863d40"
+    },
+    {
+      "file": "gelir-16.md",
+      "chars": 4024,
+      "sha256": "f200fa0ce477596ed46aa3c317f9e48ccfa389d6ac88ea42197781bdf70fc489"
+    },
+    {
+      "file": "gelir-17.md",
+      "chars": 4024,
+      "sha256": "77bbeba0c471065be71c02301ee34a72f034e964448d4653f310394564de7266"
+    },
+    {
+      "file": "iletisim-01.md",
+      "chars": 4051,
+      "sha256": "218a609c59c9738510d8362f77e9db48abe1f3c8ed1dbdb4afd8a69608628d33"
+    },
+    {
+      "file": "iletisim-02.md",
+      "chars": 4051,
+      "sha256": "5f09c78dfe8b2869ac1f7aaacbe86121950fef1fdcaa609a410303ac10fc4b6f"
+    },
+    {
+      "file": "iletisim-03.md",
+      "chars": 4051,
+      "sha256": "22e95ac007f5d9940c3fc102e2447d8f479f370ed7fa4d95a8849947f3d06f87"
+    },
+    {
+      "file": "iletisim-04.md",
+      "chars": 4051,
+      "sha256": "9edff068f8f999771c2d038fb614e76b4ce7348fadaa2b2612bf19c59c0cb432"
+    },
+    {
+      "file": "iletisim-05.md",
+      "chars": 4051,
+      "sha256": "c8c67dbfaccefc72de93d166d133f09c76a735a4b1c07d691014dd48c8bd5c86"
+    },
+    {
+      "file": "iletisim-06.md",
+      "chars": 4051,
+      "sha256": "89d7afc674c6e8e43ea622c16079bf36b985ec6c5422a13bb7f0e779c6e53a13"
+    },
+    {
+      "file": "iletisim-07.md",
+      "chars": 4051,
+      "sha256": "496afedef6ee054502c5f441d776775c2ec89ced68ee3927db04e7be996feef6"
+    },
+    {
+      "file": "iletisim-08.md",
+      "chars": 4051,
+      "sha256": "997c6ba30bbed62e946cba0d4f4d88408e79cf8dd34ef3088c2b5854c2806939"
+    },
+    {
+      "file": "iletisim-09.md",
+      "chars": 4051,
+      "sha256": "60cd81656c830cc49deeb49802a94413e163f4c497f5c95f5977db040b41bc24"
+    },
+    {
+      "file": "iletisim-10.md",
+      "chars": 4051,
+      "sha256": "9791a683a4c8a45cc7e1bdf06db3ae4723396dfc3735ff41b5bd7daaaf214444"
+    },
+    {
+      "file": "iletisim-11.md",
+      "chars": 4051,
+      "sha256": "6a1e7a376fa6708eed4846188821d7c239aa99ea7784f11acf489baab1cba64f"
+    },
+    {
+      "file": "iletisim-12.md",
+      "chars": 4051,
+      "sha256": "9898a50e8750a3bab4d404598aea0c3faa264c08326e0d8410bbc9c789e7738f"
+    },
+    {
+      "file": "iletisim-13.md",
+      "chars": 4051,
+      "sha256": "bd7c54589e832704af78dac4a3a819f473ce9f7ee2549966a810abac0a770100"
+    },
+    {
+      "file": "iletisim-14.md",
+      "chars": 4051,
+      "sha256": "882cd0116bc64c298a8a2ecde216695f32cd9c438b0707645d70a7152a3152f5"
+    },
+    {
+      "file": "iletisim-15.md",
+      "chars": 4051,
+      "sha256": "60f8f314286de315c606cd63db3ab1cded41331649d7ff1b6d5d2b3fa72ef4d1"
+    },
+    {
+      "file": "iletisim-16.md",
+      "chars": 4051,
+      "sha256": "b31eb41184545c6b5969d89a86bbbad23b3aa52bb6e8584cf30feead107b1d7b"
+    },
+    {
+      "file": "iletisim-17.md",
+      "chars": 4051,
+      "sha256": "3ebd1b0622cf5e98090d0f5a5aab78af04cfbb20275780bfb585e83360d77589"
+    },
+    {
+      "file": "ozel-01.md",
+      "chars": 4053,
+      "sha256": "4dec3b4a89051ca36181f9850064c25cf4bc60d3e72ce806bc1988bd5fcfca9c"
+    },
+    {
+      "file": "ozel-02.md",
+      "chars": 4053,
+      "sha256": "5b820d1f1b44dbef0bf1e615be856984b73e0ae00fd7f0dfe0fbda0969923787"
+    },
+    {
+      "file": "ozel-03.md",
+      "chars": 4025,
+      "sha256": "53c5a6f6752eda94ff5c5a106d51ff0940014067f45dbcc3422b67e9a03413fb"
+    }
+  ]
+}

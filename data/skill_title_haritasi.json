@@ -1,0 +1,4668 @@
+{
+  "ts": "2026-08-03T16:03:13Z",
+  "title_adet": 216,
+  "ekip_adet": 50,
+  "prompt_hedef": 38552,
+  "titles": [
+    {
+      "title": "Chairman / Sahip",
+      "katman": "KURUL",
+      "domain_id": "HOLDING",
+      "skill_odak": [],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Group CEO",
+      "katman": "C-OFİS",
+      "domain_id": "HOLDING",
+      "skill_odak": [],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Group COO",
+      "katman": "C-OFİS",
+      "domain_id": "HOLDING",
+      "skill_odak": [],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Group CTO",
+      "katman": "C-LEVEL",
+      "domain_id": "HOLDING",
+      "skill_odak": [],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Group CAIO",
+      "katman": "C-LEVEL",
+      "domain_id": "HOLDING",
+      "skill_odak": [],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Group CDO",
+      "katman": "C-LEVEL",
+      "domain_id": "HOLDING",
+      "skill_odak": [],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Group CISO",
+      "katman": "C-LEVEL",
+      "domain_id": "HOLDING",
+      "skill_odak": [],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Group CMO",
+      "katman": "C-LEVEL",
+      "domain_id": "HOLDING",
+      "skill_odak": [],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Group CRO",
+      "katman": "C-LEVEL",
+      "domain_id": "HOLDING",
+      "skill_odak": [],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Group CPO",
+      "katman": "C-LEVEL",
+      "domain_id": "HOLDING",
+      "skill_odak": [],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Group CCO",
+      "katman": "C-LEVEL",
+      "domain_id": "HOLDING",
+      "skill_odak": [],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Group CIO",
+      "katman": "C-LEVEL",
+      "domain_id": "HOLDING",
+      "skill_odak": [],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Group CFO",
+      "katman": "C-LEVEL",
+      "domain_id": "HOLDING",
+      "skill_odak": [],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Group CHRO",
+      "katman": "C-LEVEL",
+      "domain_id": "HOLDING",
+      "skill_odak": [],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Group CLO",
+      "katman": "C-LEVEL",
+      "domain_id": "HOLDING",
+      "skill_odak": [],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Group CSO",
+      "katman": "C-LEVEL",
+      "domain_id": "HOLDING",
+      "skill_odak": [],
+      "prompt_adet": 122
+    },
+    {
+      "title": "ClickHouse Domain Başkanı",
+      "katman": "DOMAIN-YÖNETİM",
+      "domain_id": "AN-CH",
+      "rapor": "CDO",
+      "skill_odak": [
+        "chdb-datastore",
+        "chdb-sql",
+        "clickhouse-architecture-advisor",
+        "clickhouse-best-practices",
+        "clickhouse-js-node-troubleshooting",
+        "clickhousectl-local-dev"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "ClickHouse Lead Operatör",
+      "katman": "YÖNETİM",
+      "domain_id": "AN-CH",
+      "rapor": "ClickHouse Domain Başkanı",
+      "skill_odak": [
+        "chdb-datastore",
+        "chdb-sql",
+        "clickhouse-architecture-advisor",
+        "clickhouse-best-practices",
+        "clickhouse-js-node-troubleshooting",
+        "clickhousectl-local-dev"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "ClickHouse Skill Uzmanı (IC)",
+      "katman": "IC",
+      "domain_id": "AN-CH",
+      "rapor": "ClickHouse Lead Operatör",
+      "skill_odak": [
+        "chdb-datastore",
+        "chdb-sql",
+        "clickhouse-architecture-advisor",
+        "clickhouse-best-practices",
+        "clickhouse-js-node-troubleshooting",
+        "clickhousectl-local-dev"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "ClickHouse Uygulama Operatörü",
+      "katman": "WORKER",
+      "domain_id": "AN-CH",
+      "rapor": "ClickHouse Skill Uzmanı (IC)",
+      "skill_odak": [
+        "chdb-datastore",
+        "chdb-sql",
+        "clickhouse-architecture-advisor",
+        "clickhouse-best-practices",
+        "clickhouse-js-node-troubleshooting"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Mixpanel / analytics track Domain Başkanı",
+      "katman": "DOMAIN-YÖNETİM",
+      "domain_id": "AN-MIX",
+      "rapor": "CMO",
+      "skill_odak": [
+        "deep-research",
+        "manage-lexicon",
+        "tracking-implementation"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Mixpanel / analytics track Lead Operatör",
+      "katman": "YÖNETİM",
+      "domain_id": "AN-MIX",
+      "rapor": "Mixpanel / analytics track Domain Başkanı",
+      "skill_odak": [
+        "deep-research",
+        "manage-lexicon",
+        "tracking-implementation"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Mixpanel / analytics track Skill Uzmanı (IC)",
+      "katman": "IC",
+      "domain_id": "AN-MIX",
+      "rapor": "Mixpanel / analytics track Lead Operatör",
+      "skill_odak": [
+        "deep-research",
+        "manage-lexicon",
+        "tracking-implementation"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Mixpanel / analytics track Uygulama Operatörü",
+      "katman": "WORKER",
+      "domain_id": "AN-MIX",
+      "rapor": "Mixpanel / analytics track Skill Uzmanı (IC)",
+      "skill_odak": [
+        "deep-research",
+        "manage-lexicon",
+        "tracking-implementation"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "PostHog / Pendo signals Domain Başkanı",
+      "katman": "DOMAIN-YÖNETİM",
+      "domain_id": "AN-PH",
+      "rapor": "CMO",
+      "skill_odak": [
+        "account-health",
+        "add-analytics-instrumentation",
+        "analyze-account-health",
+        "analyze-ai-topics",
+        "analyze-chart",
+        "analyze-dashboard",
+        "analyze-feedback",
+        "assessing-heatmaps"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "PostHog / Pendo signals Lead Operatör",
+      "katman": "YÖNETİM",
+      "domain_id": "AN-PH",
+      "rapor": "PostHog / Pendo signals Domain Başkanı",
+      "skill_odak": [
+        "account-health",
+        "add-analytics-instrumentation",
+        "analyze-account-health",
+        "analyze-ai-topics",
+        "analyze-chart",
+        "analyze-dashboard",
+        "analyze-feedback",
+        "assessing-heatmaps",
+        "auditing-cloud-cluster-security",
+        "auditing-endpoints",
+        "authoring-dags",
+        "authoring-log-alerts",
+        "authoring-signals-scouts",
+        "consuming-endpoints-from-client-code",
+        "copying-flags-across-projects",
+        "creating-an-endpoint",
+        "creating-replay-vision-scanners",
+        "daily-brief",
+        "debug-replay",
+        "debugging-local-replay",
+        "diagnose-errors",
+        "diagnosing-endpoint-performance",
+        "diagnosing-missing-recordings",
+        "diagnosing-sdk-health",
+        "diagnosing-stacktrace-symbolication",
+        "diff-intake",
+        "discover-analytics-patterns",
+        "discover-event-surfaces",
+        "discover-opportunities",
+        "downloading-batch-export-files",
+        "exploring-signals-scouts",
+        "feature-adoption",
+        "feature-usage-feed",
+        "feedback-analysis",
+        "finding-replay-for-issue",
+        "finding-sessions-to-watch",
+        "formatting-insight-axes",
+        "grouping-noisy-errors",
+        "inbox-exploration",
+        "instrument-error-tracking",
+        "instrument-events",
+        "instrument-integration",
+        "instrument-llm-analytics",
+        "instrument-logs",
+        "instrument-product-analytics",
+        "investigating-replay",
+        "managing-endpoint-versions",
+        "managing-path-cleaning-rules",
+        "managing-subscriptions",
+        "monitor-ai-quality",
+        "monitor-reliability",
+        "planning-user-interviews",
+        "querying-posthog-data",
+        "replay-ux-audit",
+        "review-agent-insights",
+        "session-replay",
+        "signals",
+        "signals-scout-ai-observability",
+        "signals-scout-anomaly-detection",
+        "signals-scout-csp-violations",
+        "signals-scout-error-tracking",
+        "signals-scout-general",
+        "signals-scout-logs",
+        "signals-scout-revenue-analytics",
+        "signals-scout-surveys",
+        "skills-store",
+        "suggesting-data-imports",
+        "suppressing-noisy-errors",
+        "taxonomy",
+        "triaging-error-issues",
+        "triaging-visual-review-runs",
+        "tuning-incremental-sync-config",
+        "weekly-brief",
+        "what-would-lenny-do",
+        "working-with-skills"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "PostHog / Pendo signals Skill Uzmanı (IC)",
+      "katman": "IC",
+      "domain_id": "AN-PH",
+      "rapor": "PostHog / Pendo signals Lead Operatör",
+      "skill_odak": [
+        "account-health",
+        "add-analytics-instrumentation",
+        "analyze-account-health",
+        "analyze-ai-topics",
+        "analyze-chart",
+        "analyze-dashboard",
+        "analyze-feedback",
+        "assessing-heatmaps",
+        "auditing-cloud-cluster-security",
+        "auditing-endpoints",
+        "authoring-dags",
+        "authoring-log-alerts",
+        "authoring-signals-scouts",
+        "consuming-endpoints-from-client-code",
+        "copying-flags-across-projects",
+        "creating-an-endpoint",
+        "creating-replay-vision-scanners",
+        "daily-brief",
+        "debug-replay",
+        "debugging-local-replay",
+        "diagnose-errors",
+        "diagnosing-endpoint-performance",
+        "diagnosing-missing-recordings",
+        "diagnosing-sdk-health",
+        "diagnosing-stacktrace-symbolication",
+        "diff-intake",
+        "discover-analytics-patterns",
+        "discover-event-surfaces",
+        "discover-opportunities",
+        "downloading-batch-export-files",
+        "exploring-signals-scouts",
+        "feature-adoption",
+        "feature-usage-feed",
+        "feedback-analysis",
+        "finding-replay-for-issue",
+        "finding-sessions-to-watch",
+        "formatting-insight-axes",
+        "grouping-noisy-errors",
+        "inbox-exploration",
+        "instrument-error-tracking",
+        "instrument-events",
+        "instrument-integration",
+        "instrument-llm-analytics",
+        "instrument-logs",
+        "instrument-product-analytics",
+        "investigating-replay",
+        "managing-endpoint-versions",
+        "managing-path-cleaning-rules",
+        "managing-subscriptions",
+        "monitor-ai-quality",
+        "monitor-reliability",
+        "planning-user-interviews",
+        "querying-posthog-data",
+        "replay-ux-audit",
+        "review-agent-insights",
+        "session-replay",
+        "signals",
+        "signals-scout-ai-observability",
+        "signals-scout-anomaly-detection",
+        "signals-scout-csp-violations",
+        "signals-scout-error-tracking",
+        "signals-scout-general",
+        "signals-scout-logs",
+        "signals-scout-revenue-analytics",
+        "signals-scout-surveys",
+        "skills-store",
+        "suggesting-data-imports",
+        "suppressing-noisy-errors",
+        "taxonomy",
+        "triaging-error-issues",
+        "triaging-visual-review-runs",
+        "tuning-incremental-sync-config",
+        "weekly-brief",
+        "what-would-lenny-do",
+        "working-with-skills"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "PostHog / Pendo signals Uygulama Operatörü",
+      "katman": "WORKER",
+      "domain_id": "AN-PH",
+      "rapor": "PostHog / Pendo signals Skill Uzmanı (IC)",
+      "skill_odak": [
+        "account-health",
+        "add-analytics-instrumentation",
+        "analyze-account-health",
+        "analyze-ai-topics",
+        "analyze-chart"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Postman Domain Başkanı",
+      "katman": "DOMAIN-YÖNETİM",
+      "domain_id": "API-POST",
+      "rapor": "CTO",
+      "skill_odak": [
+        "agent-ready-apis",
+        "ddconfig",
+        "ddsetup",
+        "ddtoolsets",
+        "postman-knowledge",
+        "postman-routing"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Postman Lead Operatör",
+      "katman": "YÖNETİM",
+      "domain_id": "API-POST",
+      "rapor": "Postman Domain Başkanı",
+      "skill_odak": [
+        "agent-ready-apis",
+        "ddconfig",
+        "ddsetup",
+        "ddtoolsets",
+        "postman-knowledge",
+        "postman-routing"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Postman Skill Uzmanı (IC)",
+      "katman": "IC",
+      "domain_id": "API-POST",
+      "rapor": "Postman Lead Operatör",
+      "skill_odak": [
+        "agent-ready-apis",
+        "ddconfig",
+        "ddsetup",
+        "ddtoolsets",
+        "postman-knowledge",
+        "postman-routing"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Postman Uygulama Operatörü",
+      "katman": "WORKER",
+      "domain_id": "API-POST",
+      "rapor": "Postman Skill Uzmanı (IC)",
+      "skill_odak": [
+        "agent-ready-apis",
+        "ddconfig",
+        "ddsetup",
+        "ddtoolsets",
+        "postman-knowledge"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Clerk Domain Başkanı",
+      "katman": "DOMAIN-YÖNETİM",
+      "domain_id": "AUTH-CLERK",
+      "rapor": "CISO",
+      "skill_odak": [
+        "clerk",
+        "clerk-android",
+        "clerk-backend-api",
+        "clerk-billing",
+        "clerk-chrome-extension-patterns",
+        "clerk-custom-ui",
+        "clerk-expo",
+        "clerk-expo-patterns"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Clerk Lead Operatör",
+      "katman": "YÖNETİM",
+      "domain_id": "AUTH-CLERK",
+      "rapor": "Clerk Domain Başkanı",
+      "skill_odak": [
+        "clerk",
+        "clerk-android",
+        "clerk-backend-api",
+        "clerk-billing",
+        "clerk-chrome-extension-patterns",
+        "clerk-custom-ui",
+        "clerk-expo",
+        "clerk-expo-patterns",
+        "clerk-nextjs-patterns",
+        "clerk-nuxt-patterns",
+        "clerk-orgs",
+        "clerk-react-patterns",
+        "clerk-react-router-patterns",
+        "clerk-setup",
+        "clerk-swift",
+        "clerk-tanstack-patterns",
+        "clerk-testing",
+        "clerk-vue-patterns",
+        "clerk-webhooks"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Clerk Skill Uzmanı (IC)",
+      "katman": "IC",
+      "domain_id": "AUTH-CLERK",
+      "rapor": "Clerk Lead Operatör",
+      "skill_odak": [
+        "clerk",
+        "clerk-android",
+        "clerk-backend-api",
+        "clerk-billing",
+        "clerk-chrome-extension-patterns",
+        "clerk-custom-ui",
+        "clerk-expo",
+        "clerk-expo-patterns",
+        "clerk-nextjs-patterns",
+        "clerk-nuxt-patterns",
+        "clerk-orgs",
+        "clerk-react-patterns",
+        "clerk-react-router-patterns",
+        "clerk-setup",
+        "clerk-swift",
+        "clerk-tanstack-patterns",
+        "clerk-testing",
+        "clerk-vue-patterns",
+        "clerk-webhooks"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Clerk Uygulama Operatörü",
+      "katman": "WORKER",
+      "domain_id": "AUTH-CLERK",
+      "rapor": "Clerk Skill Uzmanı (IC)",
+      "skill_odak": [
+        "clerk",
+        "clerk-android",
+        "clerk-backend-api",
+        "clerk-billing",
+        "clerk-chrome-extension-patterns"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "WorkOS Domain Başkanı",
+      "katman": "DOMAIN-YÖNETİM",
+      "domain_id": "AUTH-WO",
+      "rapor": "CISO",
+      "skill_odak": [
+        "workos",
+        "workos-widgets"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "WorkOS Lead Operatör",
+      "katman": "YÖNETİM",
+      "domain_id": "AUTH-WO",
+      "rapor": "WorkOS Domain Başkanı",
+      "skill_odak": [
+        "workos",
+        "workos-widgets"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "WorkOS Skill Uzmanı (IC)",
+      "katman": "IC",
+      "domain_id": "AUTH-WO",
+      "rapor": "WorkOS Lead Operatör",
+      "skill_odak": [
+        "workos",
+        "workos-widgets"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "WorkOS Uygulama Operatörü",
+      "katman": "WORKER",
+      "domain_id": "AUTH-WO",
+      "rapor": "WorkOS Skill Uzmanı (IC)",
+      "skill_odak": [
+        "workos",
+        "workos-widgets"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Appwrite Domain Başkanı",
+      "katman": "DOMAIN-YÖNETİM",
+      "domain_id": "BAAS-APP",
+      "rapor": "CTO",
+      "skill_odak": [
+        "appwrite-cli",
+        "appwrite-dart",
+        "appwrite-dotnet",
+        "appwrite-go",
+        "appwrite-kotlin",
+        "appwrite-php",
+        "appwrite-python",
+        "appwrite-ruby"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Appwrite Lead Operatör",
+      "katman": "YÖNETİM",
+      "domain_id": "BAAS-APP",
+      "rapor": "Appwrite Domain Başkanı",
+      "skill_odak": [
+        "appwrite-cli",
+        "appwrite-dart",
+        "appwrite-dotnet",
+        "appwrite-go",
+        "appwrite-kotlin",
+        "appwrite-php",
+        "appwrite-python",
+        "appwrite-ruby",
+        "appwrite-swift",
+        "appwrite-typescript"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Appwrite Skill Uzmanı (IC)",
+      "katman": "IC",
+      "domain_id": "BAAS-APP",
+      "rapor": "Appwrite Lead Operatör",
+      "skill_odak": [
+        "appwrite-cli",
+        "appwrite-dart",
+        "appwrite-dotnet",
+        "appwrite-go",
+        "appwrite-kotlin",
+        "appwrite-php",
+        "appwrite-python",
+        "appwrite-ruby",
+        "appwrite-swift",
+        "appwrite-typescript"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Appwrite Uygulama Operatörü",
+      "katman": "WORKER",
+      "domain_id": "BAAS-APP",
+      "rapor": "Appwrite Skill Uzmanı (IC)",
+      "skill_odak": [
+        "appwrite-cli",
+        "appwrite-dart",
+        "appwrite-dotnet",
+        "appwrite-go",
+        "appwrite-kotlin"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Convex Domain Başkanı",
+      "katman": "DOMAIN-YÖNETİM",
+      "domain_id": "BAAS-CONVEX",
+      "rapor": "CTO",
+      "skill_odak": [
+        "components-guide",
+        "convex-helpers-guide",
+        "convex-quickstart",
+        "function-creator",
+        "migration-helper",
+        "schema-builder"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Convex Lead Operatör",
+      "katman": "YÖNETİM",
+      "domain_id": "BAAS-CONVEX",
+      "rapor": "Convex Domain Başkanı",
+      "skill_odak": [
+        "components-guide",
+        "convex-helpers-guide",
+        "convex-quickstart",
+        "function-creator",
+        "migration-helper",
+        "schema-builder"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Convex Skill Uzmanı (IC)",
+      "katman": "IC",
+      "domain_id": "BAAS-CONVEX",
+      "rapor": "Convex Lead Operatör",
+      "skill_odak": [
+        "components-guide",
+        "convex-helpers-guide",
+        "convex-quickstart",
+        "function-creator",
+        "migration-helper",
+        "schema-builder"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Convex Uygulama Operatörü",
+      "katman": "WORKER",
+      "domain_id": "BAAS-CONVEX",
+      "rapor": "Convex Skill Uzmanı (IC)",
+      "skill_odak": [
+        "components-guide",
+        "convex-helpers-guide",
+        "convex-quickstart",
+        "function-creator",
+        "migration-helper"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Firebase Domain Başkanı",
+      "katman": "DOMAIN-YÖNETİM",
+      "domain_id": "BAAS-FB",
+      "rapor": "CTO",
+      "skill_odak": [
+        "firebase-ai-logic-basics",
+        "firebase-app-hosting-basics",
+        "firebase-auth-basics",
+        "firebase-basics",
+        "firebase-crashlytics",
+        "firebase-data-connect",
+        "firebase-firestore",
+        "firebase-hosting-basics"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Firebase Lead Operatör",
+      "katman": "YÖNETİM",
+      "domain_id": "BAAS-FB",
+      "rapor": "Firebase Domain Başkanı",
+      "skill_odak": [
+        "firebase-ai-logic-basics",
+        "firebase-app-hosting-basics",
+        "firebase-auth-basics",
+        "firebase-basics",
+        "firebase-crashlytics",
+        "firebase-data-connect",
+        "firebase-firestore",
+        "firebase-hosting-basics",
+        "firebase-remote-config-basics",
+        "firebase-security-rules-auditor"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Firebase Skill Uzmanı (IC)",
+      "katman": "IC",
+      "domain_id": "BAAS-FB",
+      "rapor": "Firebase Lead Operatör",
+      "skill_odak": [
+        "firebase-ai-logic-basics",
+        "firebase-app-hosting-basics",
+        "firebase-auth-basics",
+        "firebase-basics",
+        "firebase-crashlytics",
+        "firebase-data-connect",
+        "firebase-firestore",
+        "firebase-hosting-basics",
+        "firebase-remote-config-basics",
+        "firebase-security-rules-auditor"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Firebase Uygulama Operatörü",
+      "katman": "WORKER",
+      "domain_id": "BAAS-FB",
+      "rapor": "Firebase Skill Uzmanı (IC)",
+      "skill_odak": [
+        "firebase-ai-logic-basics",
+        "firebase-app-hosting-basics",
+        "firebase-auth-basics",
+        "firebase-basics",
+        "firebase-crashlytics"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Supabase Domain Başkanı",
+      "katman": "DOMAIN-YÖNETİM",
+      "domain_id": "BAAS-SUPA",
+      "rapor": "CTO",
+      "skill_odak": [
+        "supabase"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Supabase Lead Operatör",
+      "katman": "YÖNETİM",
+      "domain_id": "BAAS-SUPA",
+      "rapor": "Supabase Domain Başkanı",
+      "skill_odak": [
+        "supabase"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Supabase Skill Uzmanı (IC)",
+      "katman": "IC",
+      "domain_id": "BAAS-SUPA",
+      "rapor": "Supabase Lead Operatör",
+      "skill_odak": [
+        "supabase"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Supabase Uygulama Operatörü",
+      "katman": "WORKER",
+      "domain_id": "BAAS-SUPA",
+      "rapor": "Supabase Skill Uzmanı (IC)",
+      "skill_odak": [
+        "supabase"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Encore Domain Başkanı",
+      "katman": "DOMAIN-YÖNETİM",
+      "domain_id": "BE-ENCORE",
+      "rapor": "CTO",
+      "skill_odak": [
+        "add-infrastructure",
+        "create-service",
+        "debug-traces",
+        "encore-api",
+        "encore-auth",
+        "encore-code-review",
+        "encore-database",
+        "encore-frontend"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Encore Lead Operatör",
+      "katman": "YÖNETİM",
+      "domain_id": "BE-ENCORE",
+      "rapor": "Encore Domain Başkanı",
+      "skill_odak": [
+        "add-infrastructure",
+        "create-service",
+        "debug-traces",
+        "encore-api",
+        "encore-auth",
+        "encore-code-review",
+        "encore-database",
+        "encore-frontend",
+        "encore-getting-started",
+        "encore-go-api",
+        "encore-go-auth",
+        "encore-go-code-review",
+        "encore-go-database",
+        "encore-go-getting-started",
+        "encore-go-infrastructure",
+        "encore-go-service",
+        "encore-go-testing",
+        "encore-infrastructure",
+        "encore-migrate",
+        "encore-service",
+        "encore-testing"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Encore Skill Uzmanı (IC)",
+      "katman": "IC",
+      "domain_id": "BE-ENCORE",
+      "rapor": "Encore Lead Operatör",
+      "skill_odak": [
+        "add-infrastructure",
+        "create-service",
+        "debug-traces",
+        "encore-api",
+        "encore-auth",
+        "encore-code-review",
+        "encore-database",
+        "encore-frontend",
+        "encore-getting-started",
+        "encore-go-api",
+        "encore-go-auth",
+        "encore-go-code-review",
+        "encore-go-database",
+        "encore-go-getting-started",
+        "encore-go-infrastructure",
+        "encore-go-service",
+        "encore-go-testing",
+        "encore-infrastructure",
+        "encore-migrate",
+        "encore-service",
+        "encore-testing"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Encore Uygulama Operatörü",
+      "katman": "WORKER",
+      "domain_id": "BE-ENCORE",
+      "rapor": "Encore Skill Uzmanı (IC)",
+      "skill_odak": [
+        "add-infrastructure",
+        "create-service",
+        "debug-traces",
+        "encore-api",
+        "encore-auth"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "ThoughtSpot / Omni / Hex Domain Başkanı",
+      "katman": "DOMAIN-YÖNETİM",
+      "domain_id": "BI-TS",
+      "rapor": "CDO",
+      "skill_odak": [
+        "get-developer-docs-reference",
+        "get-rest-api-reference",
+        "get-visual-embed-sdk-reference",
+        "hex-business-analytics-question",
+        "hex-notebook-authoring",
+        "hex-to-canvas",
+        "omni-admin",
+        "omni-ai-optimizer"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "ThoughtSpot / Omni / Hex Lead Operatör",
+      "katman": "YÖNETİM",
+      "domain_id": "BI-TS",
+      "rapor": "ThoughtSpot / Omni / Hex Domain Başkanı",
+      "skill_odak": [
+        "get-developer-docs-reference",
+        "get-rest-api-reference",
+        "get-visual-embed-sdk-reference",
+        "hex-business-analytics-question",
+        "hex-notebook-authoring",
+        "hex-to-canvas",
+        "omni-admin",
+        "omni-ai-optimizer",
+        "omni-content-builder",
+        "omni-content-explorer",
+        "omni-embed",
+        "omni-model-builder",
+        "omni-model-explorer",
+        "omni-query"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "ThoughtSpot / Omni / Hex Skill Uzmanı (IC)",
+      "katman": "IC",
+      "domain_id": "BI-TS",
+      "rapor": "ThoughtSpot / Omni / Hex Lead Operatör",
+      "skill_odak": [
+        "get-developer-docs-reference",
+        "get-rest-api-reference",
+        "get-visual-embed-sdk-reference",
+        "hex-business-analytics-question",
+        "hex-notebook-authoring",
+        "hex-to-canvas",
+        "omni-admin",
+        "omni-ai-optimizer",
+        "omni-content-builder",
+        "omni-content-explorer",
+        "omni-embed",
+        "omni-model-builder",
+        "omni-model-explorer",
+        "omni-query"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "ThoughtSpot / Omni / Hex Uygulama Operatörü",
+      "katman": "WORKER",
+      "domain_id": "BI-TS",
+      "rapor": "ThoughtSpot / Omni / Hex Skill Uzmanı (IC)",
+      "skill_odak": [
+        "get-developer-docs-reference",
+        "get-rest-api-reference",
+        "get-visual-embed-sdk-reference",
+        "hex-business-analytics-question",
+        "hex-notebook-authoring"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Harness CI/CD Domain Başkanı",
+      "katman": "DOMAIN-YÖNETİM",
+      "domain_id": "CICD-HAR",
+      "rapor": "CTO",
+      "skill_odak": [
+        "analyze-costs",
+        "audit-report",
+        "create-agent",
+        "create-agent-template",
+        "create-connector",
+        "create-environment",
+        "create-infrastructure",
+        "create-pipeline"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Harness CI/CD Lead Operatör",
+      "katman": "YÖNETİM",
+      "domain_id": "CICD-HAR",
+      "rapor": "Harness CI/CD Domain Başkanı",
+      "skill_odak": [
+        "analyze-costs",
+        "audit-report",
+        "create-agent",
+        "create-agent-template",
+        "create-connector",
+        "create-environment",
+        "create-infrastructure",
+        "create-pipeline",
+        "create-pipeline-v1",
+        "create-policy",
+        "create-secret",
+        "create-trigger",
+        "debug-pipeline",
+        "debugging-signals-pipeline",
+        "dora-metrics",
+        "gitops-status",
+        "manage-delegates",
+        "manage-freeze-windows",
+        "manage-pull-requests",
+        "manage-roles",
+        "manage-slos",
+        "manage-users",
+        "migrate-pipeline",
+        "observability-manage-slos",
+        "run-pipeline",
+        "scorecard-review",
+        "security-report",
+        "template-usage"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Harness CI/CD Skill Uzmanı (IC)",
+      "katman": "IC",
+      "domain_id": "CICD-HAR",
+      "rapor": "Harness CI/CD Lead Operatör",
+      "skill_odak": [
+        "analyze-costs",
+        "audit-report",
+        "create-agent",
+        "create-agent-template",
+        "create-connector",
+        "create-environment",
+        "create-infrastructure",
+        "create-pipeline",
+        "create-pipeline-v1",
+        "create-policy",
+        "create-secret",
+        "create-trigger",
+        "debug-pipeline",
+        "debugging-signals-pipeline",
+        "dora-metrics",
+        "gitops-status",
+        "manage-delegates",
+        "manage-freeze-windows",
+        "manage-pull-requests",
+        "manage-roles",
+        "manage-slos",
+        "manage-users",
+        "migrate-pipeline",
+        "observability-manage-slos",
+        "run-pipeline",
+        "scorecard-review",
+        "security-report",
+        "template-usage"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Harness CI/CD Uygulama Operatörü",
+      "katman": "WORKER",
+      "domain_id": "CICD-HAR",
+      "rapor": "Harness CI/CD Skill Uzmanı (IC)",
+      "skill_odak": [
+        "analyze-costs",
+        "audit-report",
+        "create-agent",
+        "create-agent-template",
+        "create-connector"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "AWS serverless Domain Başkanı",
+      "katman": "DOMAIN-YÖNETİM",
+      "domain_id": "CLOUD-AWS",
+      "rapor": "CTO",
+      "skill_odak": [
+        "access-protected-vercel-deployment",
+        "amazon-location-service",
+        "amplify-workflow",
+        "api-gateway",
+        "aws-architecture-diagram",
+        "aws-lambda",
+        "aws-lambda-durable-functions",
+        "aws-lambda-managed-instances"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "AWS serverless Lead Operatör",
+      "katman": "YÖNETİM",
+      "domain_id": "CLOUD-AWS",
+      "rapor": "AWS serverless Domain Başkanı",
+      "skill_odak": [
+        "access-protected-vercel-deployment",
+        "amazon-location-service",
+        "amplify-workflow",
+        "api-gateway",
+        "aws-architecture-diagram",
+        "aws-lambda",
+        "aws-lambda-durable-functions",
+        "aws-lambda-managed-instances",
+        "aws-serverless-deployment",
+        "aws-step-functions",
+        "clickhousectl-cloud-deploy",
+        "deploy",
+        "deployments-cicd",
+        "elastic-beanstalk",
+        "prisma-cli-migrate-deploy",
+        "render-deploy"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "AWS serverless Skill Uzmanı (IC)",
+      "katman": "IC",
+      "domain_id": "CLOUD-AWS",
+      "rapor": "AWS serverless Lead Operatör",
+      "skill_odak": [
+        "access-protected-vercel-deployment",
+        "amazon-location-service",
+        "amplify-workflow",
+        "api-gateway",
+        "aws-architecture-diagram",
+        "aws-lambda",
+        "aws-lambda-durable-functions",
+        "aws-lambda-managed-instances",
+        "aws-serverless-deployment",
+        "aws-step-functions",
+        "clickhousectl-cloud-deploy",
+        "deploy",
+        "deployments-cicd",
+        "elastic-beanstalk",
+        "prisma-cli-migrate-deploy",
+        "render-deploy"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "AWS serverless Uygulama Operatörü",
+      "katman": "WORKER",
+      "domain_id": "CLOUD-AWS",
+      "rapor": "AWS serverless Skill Uzmanı (IC)",
+      "skill_odak": [
+        "access-protected-vercel-deployment",
+        "amazon-location-service",
+        "amplify-workflow",
+        "api-gateway",
+        "aws-architecture-diagram"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Azure / Entra / Foundry Domain Başkanı",
+      "katman": "DOMAIN-YÖNETİM",
+      "domain_id": "CLOUD-AZ",
+      "rapor": "CTO",
+      "skill_odak": [
+        "airunway-aks-setup",
+        "appinsights-instrumentation",
+        "azure-ai",
+        "azure-aigateway",
+        "azure-cloud-migrate",
+        "azure-compliance",
+        "azure-compute",
+        "azure-cost"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Azure / Entra / Foundry Lead Operatör",
+      "katman": "YÖNETİM",
+      "domain_id": "CLOUD-AZ",
+      "rapor": "Azure / Entra / Foundry Domain Başkanı",
+      "skill_odak": [
+        "airunway-aks-setup",
+        "appinsights-instrumentation",
+        "azure-ai",
+        "azure-aigateway",
+        "azure-cloud-migrate",
+        "azure-compliance",
+        "azure-compute",
+        "azure-cost",
+        "azure-deploy",
+        "azure-diagnostics",
+        "azure-enterprise-infra-planner",
+        "azure-hosted-copilot-sdk",
+        "azure-kubernetes",
+        "azure-kusto",
+        "azure-messaging",
+        "azure-prepare",
+        "azure-quotas",
+        "azure-rbac",
+        "azure-reliability",
+        "azure-resource-lookup",
+        "azure-resource-visualizer",
+        "azure-storage",
+        "azure-upgrade",
+        "azure-validate",
+        "entra-agent-id",
+        "entra-app-registration",
+        "microsoft-foundry"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Azure / Entra / Foundry Skill Uzmanı (IC)",
+      "katman": "IC",
+      "domain_id": "CLOUD-AZ",
+      "rapor": "Azure / Entra / Foundry Lead Operatör",
+      "skill_odak": [
+        "airunway-aks-setup",
+        "appinsights-instrumentation",
+        "azure-ai",
+        "azure-aigateway",
+        "azure-cloud-migrate",
+        "azure-compliance",
+        "azure-compute",
+        "azure-cost",
+        "azure-deploy",
+        "azure-diagnostics",
+        "azure-enterprise-infra-planner",
+        "azure-hosted-copilot-sdk",
+        "azure-kubernetes",
+        "azure-kusto",
+        "azure-messaging",
+        "azure-prepare",
+        "azure-quotas",
+        "azure-rbac",
+        "azure-reliability",
+        "azure-resource-lookup",
+        "azure-resource-visualizer",
+        "azure-storage",
+        "azure-upgrade",
+        "azure-validate",
+        "entra-agent-id",
+        "entra-app-registration",
+        "microsoft-foundry"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Azure / Entra / Foundry Uygulama Operatörü",
+      "katman": "WORKER",
+      "domain_id": "CLOUD-AZ",
+      "rapor": "Azure / Entra / Foundry Skill Uzmanı (IC)",
+      "skill_odak": [
+        "airunway-aks-setup",
+        "appinsights-instrumentation",
+        "azure-ai",
+        "azure-aigateway",
+        "azure-cloud-migrate"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Slack Domain Başkanı",
+      "katman": "DOMAIN-YÖNETİM",
+      "domain_id": "COMMS-SLACK",
+      "rapor": "COO",
+      "skill_odak": [
+        "block-kit",
+        "create-slack-app",
+        "functions",
+        "slack-api",
+        "slack-cli",
+        "slack-messaging",
+        "slack-search",
+        "vercel-functions"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Slack Lead Operatör",
+      "katman": "YÖNETİM",
+      "domain_id": "COMMS-SLACK",
+      "rapor": "Slack Domain Başkanı",
+      "skill_odak": [
+        "block-kit",
+        "create-slack-app",
+        "functions",
+        "slack-api",
+        "slack-cli",
+        "slack-messaging",
+        "slack-search",
+        "vercel-functions"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Slack Skill Uzmanı (IC)",
+      "katman": "IC",
+      "domain_id": "COMMS-SLACK",
+      "rapor": "Slack Lead Operatör",
+      "skill_odak": [
+        "block-kit",
+        "create-slack-app",
+        "functions",
+        "slack-api",
+        "slack-cli",
+        "slack-messaging",
+        "slack-search",
+        "vercel-functions"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Slack Uygulama Operatörü",
+      "katman": "WORKER",
+      "domain_id": "COMMS-SLACK",
+      "rapor": "Slack Skill Uzmanı (IC)",
+      "skill_odak": [
+        "block-kit",
+        "create-slack-app",
+        "functions",
+        "slack-api",
+        "slack-cli"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Twilio / SendGrid / Voice Domain Başkanı",
+      "katman": "DOMAIN-YÖNETİM",
+      "domain_id": "COMMS-TW",
+      "rapor": "CRO",
+      "skill_odak": [
+        "twilio-account-setup",
+        "twilio-agent-augmentation-architect",
+        "twilio-agent-connect",
+        "twilio-ai-agent-architect",
+        "twilio-call-recordings",
+        "twilio-cli-reference",
+        "twilio-compliance-onboarding",
+        "twilio-compliance-traffic"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Twilio / SendGrid / Voice Lead Operatör",
+      "katman": "YÖNETİM",
+      "domain_id": "COMMS-TW",
+      "rapor": "Twilio / SendGrid / Voice Domain Başkanı",
+      "skill_odak": [
+        "twilio-account-setup",
+        "twilio-agent-augmentation-architect",
+        "twilio-agent-connect",
+        "twilio-ai-agent-architect",
+        "twilio-call-recordings",
+        "twilio-cli-reference",
+        "twilio-compliance-onboarding",
+        "twilio-compliance-traffic",
+        "twilio-conference-calls",
+        "twilio-content-template-builder",
+        "twilio-conversation-intelligence",
+        "twilio-conversation-memory",
+        "twilio-conversation-orchestrator",
+        "twilio-conversations-classic-api",
+        "twilio-customer-support-architect",
+        "twilio-debugging-observability",
+        "twilio-email-deliverability-advisor",
+        "twilio-email-send",
+        "twilio-enterprise-knowledge",
+        "twilio-iam-auth-setup",
+        "twilio-identity-verification-advisor",
+        "twilio-isv-sms-best-practices",
+        "twilio-lookup-phone-intelligence",
+        "twilio-marketing-promotions-advisor",
+        "twilio-messaging-channel-advisor",
+        "twilio-messaging-overview",
+        "twilio-messaging-services",
+        "twilio-messaging-webhooks",
+        "twilio-migrate-messaging-to-verify",
+        "twilio-notifications-alerts-advisor",
+        "twilio-numbers-senders",
+        "twilio-organizations-setup",
+        "twilio-rcs-messaging",
+        "twilio-regulatory-compliance-bundles",
+        "twilio-reliability-patterns",
+        "twilio-security-api-auth",
+        "twilio-security-compliance-hipaa",
+        "twilio-security-hardening",
+        "twilio-send-message",
+        "twilio-sendgrid-account-setup",
+        "twilio-sendgrid-deliverability-advisor",
+        "twilio-sendgrid-email-send",
+        "twilio-sendgrid-email-settings",
+        "twilio-sendgrid-engagement-quality",
+        "twilio-sendgrid-inbound-parse",
+        "twilio-sendgrid-suppressions",
+        "twilio-sendgrid-webhooks",
+        "twilio-sms-send-message",
+        "twilio-studio-flows",
+        "twilio-taskrouter-routing",
+        "twilio-verify-send-otp",
+        "twilio-voice-outbound-calls",
+        "twilio-voice-twiml",
+        "twilio-webhook-architecture",
+        "twilio-whatsapp-manage-senders",
+        "twilio-whatsapp-send-message"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Twilio / SendGrid / Voice Skill Uzmanı (IC)",
+      "katman": "IC",
+      "domain_id": "COMMS-TW",
+      "rapor": "Twilio / SendGrid / Voice Lead Operatör",
+      "skill_odak": [
+        "twilio-account-setup",
+        "twilio-agent-augmentation-architect",
+        "twilio-agent-connect",
+        "twilio-ai-agent-architect",
+        "twilio-call-recordings",
+        "twilio-cli-reference",
+        "twilio-compliance-onboarding",
+        "twilio-compliance-traffic",
+        "twilio-conference-calls",
+        "twilio-content-template-builder",
+        "twilio-conversation-intelligence",
+        "twilio-conversation-memory",
+        "twilio-conversation-orchestrator",
+        "twilio-conversations-classic-api",
+        "twilio-customer-support-architect",
+        "twilio-debugging-observability",
+        "twilio-email-deliverability-advisor",
+        "twilio-email-send",
+        "twilio-enterprise-knowledge",
+        "twilio-iam-auth-setup",
+        "twilio-identity-verification-advisor",
+        "twilio-isv-sms-best-practices",
+        "twilio-lookup-phone-intelligence",
+        "twilio-marketing-promotions-advisor",
+        "twilio-messaging-channel-advisor",
+        "twilio-messaging-overview",
+        "twilio-messaging-services",
+        "twilio-messaging-webhooks",
+        "twilio-migrate-messaging-to-verify",
+        "twilio-notifications-alerts-advisor",
+        "twilio-numbers-senders",
+        "twilio-organizations-setup",
+        "twilio-rcs-messaging",
+        "twilio-regulatory-compliance-bundles",
+        "twilio-reliability-patterns",
+        "twilio-security-api-auth",
+        "twilio-security-compliance-hipaa",
+        "twilio-security-hardening",
+        "twilio-send-message",
+        "twilio-sendgrid-account-setup",
+        "twilio-sendgrid-deliverability-advisor",
+        "twilio-sendgrid-email-send",
+        "twilio-sendgrid-email-settings",
+        "twilio-sendgrid-engagement-quality",
+        "twilio-sendgrid-inbound-parse",
+        "twilio-sendgrid-suppressions",
+        "twilio-sendgrid-webhooks",
+        "twilio-sms-send-message",
+        "twilio-studio-flows",
+        "twilio-taskrouter-routing",
+        "twilio-verify-send-otp",
+        "twilio-voice-outbound-calls",
+        "twilio-voice-twiml",
+        "twilio-webhook-architecture",
+        "twilio-whatsapp-manage-senders",
+        "twilio-whatsapp-send-message"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Twilio / SendGrid / Voice Uygulama Operatörü",
+      "katman": "WORKER",
+      "domain_id": "COMMS-TW",
+      "rapor": "Twilio / SendGrid / Voice Skill Uzmanı (IC)",
+      "skill_odak": [
+        "twilio-account-setup",
+        "twilio-agent-augmentation-architect",
+        "twilio-agent-connect",
+        "twilio-ai-agent-architect",
+        "twilio-call-recordings"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Snowflake Domain Başkanı",
+      "katman": "DOMAIN-YÖNETİM",
+      "domain_id": "DATA-SNOW",
+      "rapor": "CDO",
+      "skill_odak": [
+        "snowflake-mcp-setup"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Snowflake Lead Operatör",
+      "katman": "YÖNETİM",
+      "domain_id": "DATA-SNOW",
+      "rapor": "Snowflake Domain Başkanı",
+      "skill_odak": [
+        "snowflake-mcp-setup"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Snowflake Skill Uzmanı (IC)",
+      "katman": "IC",
+      "domain_id": "DATA-SNOW",
+      "rapor": "Snowflake Lead Operatör",
+      "skill_odak": [
+        "snowflake-mcp-setup"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Snowflake Uygulama Operatörü",
+      "katman": "WORKER",
+      "domain_id": "DATA-SNOW",
+      "rapor": "Snowflake Skill Uzmanı (IC)",
+      "skill_odak": [
+        "snowflake-mcp-setup"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Warehouse / Airflow / dbt / Dagster Domain Başkanı",
+      "katman": "DOMAIN-YÖNETİM",
+      "domain_id": "DATA-WH",
+      "rapor": "CDO",
+      "skill_odak": [
+        "adding-dbt-unit-test",
+        "airflow",
+        "airflow-hitl",
+        "airflow-plugins",
+        "analyzing-data",
+        "annotating-task-lineage",
+        "answering-natural-language-questions-with-dbt",
+        "auditing-warehouse-data-health"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Warehouse / Airflow / dbt / Dagster Lead Operatör",
+      "katman": "YÖNETİM",
+      "domain_id": "DATA-WH",
+      "rapor": "Warehouse / Airflow / dbt / Dagster Domain Başkanı",
+      "skill_odak": [
+        "adding-dbt-unit-test",
+        "airflow",
+        "airflow-hitl",
+        "airflow-plugins",
+        "analyzing-data",
+        "annotating-task-lineage",
+        "answering-natural-language-questions-with-dbt",
+        "auditing-warehouse-data-health",
+        "blueprint",
+        "building-dbt-semantic-layer",
+        "checking-freshness",
+        "clerk-astro-patterns",
+        "configuring-dbt-mcp-server",
+        "cosmos-dbt-core",
+        "cosmos-dbt-fusion",
+        "creating-openlineage-extractors",
+        "dagster-expert",
+        "deploying-airflow",
+        "diagnosing-failed-warehouse-syncs",
+        "fetching-dbt-docs",
+        "managing-astro-local-env",
+        "migrating-airflow-2-to-3",
+        "profiling-tables",
+        "render-blueprints",
+        "running-dbt-commands",
+        "setting-up-a-data-warehouse-source",
+        "setting-up-astro-project",
+        "setup-warehouse",
+        "setup-warehouse-bigquery",
+        "setup-warehouse-databricks",
+        "setup-warehouse-redshift",
+        "setup-warehouse-snowflake",
+        "tracing-downstream-lineage",
+        "tracing-upstream-lineage",
+        "troubleshooting-dbt-job-errors",
+        "using-dbt-for-analytics-engineering",
+        "warehouse-init",
+        "working-with-dbt-mesh"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Warehouse / Airflow / dbt / Dagster Skill Uzmanı (IC)",
+      "katman": "IC",
+      "domain_id": "DATA-WH",
+      "rapor": "Warehouse / Airflow / dbt / Dagster Lead Operatör",
+      "skill_odak": [
+        "adding-dbt-unit-test",
+        "airflow",
+        "airflow-hitl",
+        "airflow-plugins",
+        "analyzing-data",
+        "annotating-task-lineage",
+        "answering-natural-language-questions-with-dbt",
+        "auditing-warehouse-data-health",
+        "blueprint",
+        "building-dbt-semantic-layer",
+        "checking-freshness",
+        "clerk-astro-patterns",
+        "configuring-dbt-mcp-server",
+        "cosmos-dbt-core",
+        "cosmos-dbt-fusion",
+        "creating-openlineage-extractors",
+        "dagster-expert",
+        "deploying-airflow",
+        "diagnosing-failed-warehouse-syncs",
+        "fetching-dbt-docs",
+        "managing-astro-local-env",
+        "migrating-airflow-2-to-3",
+        "profiling-tables",
+        "render-blueprints",
+        "running-dbt-commands",
+        "setting-up-a-data-warehouse-source",
+        "setting-up-astro-project",
+        "setup-warehouse",
+        "setup-warehouse-bigquery",
+        "setup-warehouse-databricks",
+        "setup-warehouse-redshift",
+        "setup-warehouse-snowflake",
+        "tracing-downstream-lineage",
+        "tracing-upstream-lineage",
+        "troubleshooting-dbt-job-errors",
+        "using-dbt-for-analytics-engineering",
+        "warehouse-init",
+        "working-with-dbt-mesh"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Warehouse / Airflow / dbt / Dagster Uygulama Operatörü",
+      "katman": "WORKER",
+      "domain_id": "DATA-WH",
+      "rapor": "Warehouse / Airflow / dbt / Dagster Skill Uzmanı (IC)",
+      "skill_odak": [
+        "adding-dbt-unit-test",
+        "airflow",
+        "airflow-hitl",
+        "airflow-plugins",
+        "analyzing-data"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Aurora DSQL Domain Başkanı",
+      "katman": "DOMAIN-YÖNETİM",
+      "domain_id": "DB-DSQL",
+      "rapor": "CTO",
+      "skill_odak": [
+        "dsql"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Aurora DSQL Lead Operatör",
+      "katman": "YÖNETİM",
+      "domain_id": "DB-DSQL",
+      "rapor": "Aurora DSQL Domain Başkanı",
+      "skill_odak": [
+        "dsql"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Aurora DSQL Skill Uzmanı (IC)",
+      "katman": "IC",
+      "domain_id": "DB-DSQL",
+      "rapor": "Aurora DSQL Lead Operatör",
+      "skill_odak": [
+        "dsql"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Aurora DSQL Uygulama Operatörü",
+      "katman": "WORKER",
+      "domain_id": "DB-DSQL",
+      "rapor": "Aurora DSQL Skill Uzmanı (IC)",
+      "skill_odak": [
+        "dsql"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "MongoDB Atlas Domain Başkanı",
+      "katman": "DOMAIN-YÖNETİM",
+      "domain_id": "DB-MONGO",
+      "rapor": "CTO",
+      "skill_odak": [
+        "atlas-stream-processing",
+        "mongodb-connection",
+        "mongodb-mcp-setup",
+        "mongodb-natural-language-querying",
+        "mongodb-query-optimizer",
+        "mongodb-schema-design",
+        "mongodb-search-and-ai",
+        "prisma-database-setup-mongodb"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "MongoDB Atlas Lead Operatör",
+      "katman": "YÖNETİM",
+      "domain_id": "DB-MONGO",
+      "rapor": "MongoDB Atlas Domain Başkanı",
+      "skill_odak": [
+        "atlas-stream-processing",
+        "mongodb-connection",
+        "mongodb-mcp-setup",
+        "mongodb-natural-language-querying",
+        "mongodb-query-optimizer",
+        "mongodb-schema-design",
+        "mongodb-search-and-ai",
+        "prisma-database-setup-mongodb"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "MongoDB Atlas Skill Uzmanı (IC)",
+      "katman": "IC",
+      "domain_id": "DB-MONGO",
+      "rapor": "MongoDB Atlas Lead Operatör",
+      "skill_odak": [
+        "atlas-stream-processing",
+        "mongodb-connection",
+        "mongodb-mcp-setup",
+        "mongodb-natural-language-querying",
+        "mongodb-query-optimizer",
+        "mongodb-schema-design",
+        "mongodb-search-and-ai",
+        "prisma-database-setup-mongodb"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "MongoDB Atlas Uygulama Operatörü",
+      "katman": "WORKER",
+      "domain_id": "DB-MONGO",
+      "rapor": "MongoDB Atlas Skill Uzmanı (IC)",
+      "skill_odak": [
+        "atlas-stream-processing",
+        "mongodb-connection",
+        "mongodb-mcp-setup",
+        "mongodb-natural-language-querying",
+        "mongodb-query-optimizer"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "PlanetScale / Vitess / MySQL / Postgres Domain Başkanı",
+      "katman": "DOMAIN-YÖNETİM",
+      "domain_id": "DB-PLANET",
+      "rapor": "CTO",
+      "skill_odak": [
+        "mysql",
+        "neki",
+        "postgres",
+        "prisma-database-setup-mysql",
+        "prisma-database-setup-postgresql",
+        "prisma-database-setup-prisma-postgres",
+        "redis-development",
+        "supabase-postgres-best-practices"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "PlanetScale / Vitess / MySQL / Postgres Lead Operatör",
+      "katman": "YÖNETİM",
+      "domain_id": "DB-PLANET",
+      "rapor": "PlanetScale / Vitess / MySQL / Postgres Domain Başkanı",
+      "skill_odak": [
+        "mysql",
+        "neki",
+        "postgres",
+        "prisma-database-setup-mysql",
+        "prisma-database-setup-postgresql",
+        "prisma-database-setup-prisma-postgres",
+        "redis-development",
+        "supabase-postgres-best-practices",
+        "vitess"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "PlanetScale / Vitess / MySQL / Postgres Skill Uzmanı (IC)",
+      "katman": "IC",
+      "domain_id": "DB-PLANET",
+      "rapor": "PlanetScale / Vitess / MySQL / Postgres Lead Operatör",
+      "skill_odak": [
+        "mysql",
+        "neki",
+        "postgres",
+        "prisma-database-setup-mysql",
+        "prisma-database-setup-postgresql",
+        "prisma-database-setup-prisma-postgres",
+        "redis-development",
+        "supabase-postgres-best-practices",
+        "vitess"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "PlanetScale / Vitess / MySQL / Postgres Uygulama Operatörü",
+      "katman": "WORKER",
+      "domain_id": "DB-PLANET",
+      "rapor": "PlanetScale / Vitess / MySQL / Postgres Skill Uzmanı (IC)",
+      "skill_odak": [
+        "mysql",
+        "neki",
+        "postgres",
+        "prisma-database-setup-mysql",
+        "prisma-database-setup-postgresql"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "ScyllaDB Domain Başkanı",
+      "katman": "DOMAIN-YÖNETİM",
+      "domain_id": "DB-SCYLLA",
+      "rapor": "CTO",
+      "skill_odak": [
+        "scylladb-cloud-setup",
+        "scylladb-data-modeling",
+        "scylladb-vector-search"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "ScyllaDB Lead Operatör",
+      "katman": "YÖNETİM",
+      "domain_id": "DB-SCYLLA",
+      "rapor": "ScyllaDB Domain Başkanı",
+      "skill_odak": [
+        "scylladb-cloud-setup",
+        "scylladb-data-modeling",
+        "scylladb-vector-search"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "ScyllaDB Skill Uzmanı (IC)",
+      "katman": "IC",
+      "domain_id": "DB-SCYLLA",
+      "rapor": "ScyllaDB Lead Operatör",
+      "skill_odak": [
+        "scylladb-cloud-setup",
+        "scylladb-data-modeling",
+        "scylladb-vector-search"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "ScyllaDB Uygulama Operatörü",
+      "katman": "WORKER",
+      "domain_id": "DB-SCYLLA",
+      "rapor": "ScyllaDB Skill Uzmanı (IC)",
+      "skill_odak": [
+        "scylladb-cloud-setup",
+        "scylladb-data-modeling",
+        "scylladb-vector-search"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Monk deploy Domain Başkanı",
+      "katman": "DOMAIN-YÖNETİM",
+      "domain_id": "DEP-MONK",
+      "rapor": "COO",
+      "skill_odak": [
+        "monk"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Monk deploy Lead Operatör",
+      "katman": "YÖNETİM",
+      "domain_id": "DEP-MONK",
+      "rapor": "Monk deploy Domain Başkanı",
+      "skill_odak": [
+        "monk"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Monk deploy Skill Uzmanı (IC)",
+      "katman": "IC",
+      "domain_id": "DEP-MONK",
+      "rapor": "Monk deploy Lead Operatör",
+      "skill_odak": [
+        "monk"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Monk deploy Uygulama Operatörü",
+      "katman": "WORKER",
+      "domain_id": "DEP-MONK",
+      "rapor": "Monk deploy Skill Uzmanı (IC)",
+      "skill_odak": [
+        "monk"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Render Domain Başkanı",
+      "katman": "DOMAIN-YÖNETİM",
+      "domain_id": "DEP-RENDER",
+      "rapor": "COO",
+      "skill_odak": [
+        "render-background-workers",
+        "render-cli",
+        "render-cron-jobs",
+        "render-debug",
+        "render-disks",
+        "render-docker",
+        "render-domains",
+        "render-env-vars"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Render Lead Operatör",
+      "katman": "YÖNETİM",
+      "domain_id": "DEP-RENDER",
+      "rapor": "Render Domain Başkanı",
+      "skill_odak": [
+        "render-background-workers",
+        "render-cli",
+        "render-cron-jobs",
+        "render-debug",
+        "render-disks",
+        "render-docker",
+        "render-domains",
+        "render-env-vars",
+        "render-keyvalue",
+        "render-mcp",
+        "render-migrate-from-heroku",
+        "render-monitor",
+        "render-networking",
+        "render-postgres",
+        "render-private-services",
+        "render-scaling",
+        "render-static-sites",
+        "render-web-services",
+        "render-workflows"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Render Skill Uzmanı (IC)",
+      "katman": "IC",
+      "domain_id": "DEP-RENDER",
+      "rapor": "Render Lead Operatör",
+      "skill_odak": [
+        "render-background-workers",
+        "render-cli",
+        "render-cron-jobs",
+        "render-debug",
+        "render-disks",
+        "render-docker",
+        "render-domains",
+        "render-env-vars",
+        "render-keyvalue",
+        "render-mcp",
+        "render-migrate-from-heroku",
+        "render-monitor",
+        "render-networking",
+        "render-postgres",
+        "render-private-services",
+        "render-scaling",
+        "render-static-sites",
+        "render-web-services",
+        "render-workflows"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Render Uygulama Operatörü",
+      "katman": "WORKER",
+      "domain_id": "DEP-RENDER",
+      "rapor": "Render Skill Uzmanı (IC)",
+      "skill_odak": [
+        "render-background-workers",
+        "render-cli",
+        "render-cron-jobs",
+        "render-debug",
+        "render-disks"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Vercel / Next Domain Başkanı",
+      "katman": "DOMAIN-YÖNETİM",
+      "domain_id": "DEP-VERCEL",
+      "rapor": "CTO",
+      "skill_odak": [
+        "ai-gateway",
+        "ai-sdk",
+        "auth",
+        "auth-setup",
+        "bootstrap",
+        "cdn-caching",
+        "chat-sdk",
+        "env-vars"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Vercel / Next Lead Operatör",
+      "katman": "YÖNETİM",
+      "domain_id": "DEP-VERCEL",
+      "rapor": "Vercel / Next Domain Başkanı",
+      "skill_odak": [
+        "ai-gateway",
+        "ai-sdk",
+        "auth",
+        "auth-setup",
+        "bootstrap",
+        "cdn-caching",
+        "chat-sdk",
+        "env-vars",
+        "eve",
+        "exploring-autocapture-events",
+        "knowledge-update",
+        "marketplace",
+        "microfrontends",
+        "next-cache-components",
+        "next-forge",
+        "next-upgrade",
+        "nextjs",
+        "react-best-practices",
+        "routing-middleware",
+        "runtime-cache",
+        "shadcn",
+        "turbopack",
+        "vercel-agent",
+        "vercel-cli",
+        "vercel-connect",
+        "vercel-firewall",
+        "vercel-sandbox",
+        "vercel-storage",
+        "verification",
+        "workflow"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Vercel / Next Skill Uzmanı (IC)",
+      "katman": "IC",
+      "domain_id": "DEP-VERCEL",
+      "rapor": "Vercel / Next Lead Operatör",
+      "skill_odak": [
+        "ai-gateway",
+        "ai-sdk",
+        "auth",
+        "auth-setup",
+        "bootstrap",
+        "cdn-caching",
+        "chat-sdk",
+        "env-vars",
+        "eve",
+        "exploring-autocapture-events",
+        "knowledge-update",
+        "marketplace",
+        "microfrontends",
+        "next-cache-components",
+        "next-forge",
+        "next-upgrade",
+        "nextjs",
+        "react-best-practices",
+        "routing-middleware",
+        "runtime-cache",
+        "shadcn",
+        "turbopack",
+        "vercel-agent",
+        "vercel-cli",
+        "vercel-connect",
+        "vercel-firewall",
+        "vercel-sandbox",
+        "vercel-storage",
+        "verification",
+        "workflow"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Vercel / Next Uygulama Operatörü",
+      "katman": "WORKER",
+      "domain_id": "DEP-VERCEL",
+      "rapor": "Vercel / Next Skill Uzmanı (IC)",
+      "skill_odak": [
+        "ai-gateway",
+        "ai-sdk",
+        "auth",
+        "auth-setup",
+        "bootstrap"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Figma Domain Başkanı",
+      "katman": "DOMAIN-YÖNETİM",
+      "domain_id": "DES-FIGMA",
+      "rapor": "CPO",
+      "skill_odak": [
+        "figma-code-connect",
+        "figma-create-new-file",
+        "figma-design-to-code",
+        "figma-generate-design",
+        "figma-generate-diagram",
+        "figma-generate-library",
+        "figma-implement-motion",
+        "figma-swiftui"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Figma Lead Operatör",
+      "katman": "YÖNETİM",
+      "domain_id": "DES-FIGMA",
+      "rapor": "Figma Domain Başkanı",
+      "skill_odak": [
+        "figma-code-connect",
+        "figma-create-new-file",
+        "figma-design-to-code",
+        "figma-generate-design",
+        "figma-generate-diagram",
+        "figma-generate-library",
+        "figma-implement-motion",
+        "figma-swiftui",
+        "figma-use",
+        "figma-use-figjam",
+        "figma-use-motion",
+        "figma-use-slides"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Figma Skill Uzmanı (IC)",
+      "katman": "IC",
+      "domain_id": "DES-FIGMA",
+      "rapor": "Figma Lead Operatör",
+      "skill_odak": [
+        "figma-code-connect",
+        "figma-create-new-file",
+        "figma-design-to-code",
+        "figma-generate-design",
+        "figma-generate-diagram",
+        "figma-generate-library",
+        "figma-implement-motion",
+        "figma-swiftui",
+        "figma-use",
+        "figma-use-figjam",
+        "figma-use-motion",
+        "figma-use-slides"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Figma Uygulama Operatörü",
+      "katman": "WORKER",
+      "domain_id": "DES-FIGMA",
+      "rapor": "Figma Skill Uzmanı (IC)",
+      "skill_odak": [
+        "figma-code-connect",
+        "figma-create-new-file",
+        "figma-design-to-code",
+        "figma-generate-design",
+        "figma-generate-diagram"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Docs / PRD / Mintlify Domain Başkanı",
+      "katman": "DOMAIN-YÖNETİM",
+      "domain_id": "DOCS-PRD",
+      "rapor": "CCO",
+      "skill_odak": [
+        "check-prd-alignment",
+        "implement-from-prd",
+        "mintlify",
+        "update-prd",
+        "write-prd"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Docs / PRD / Mintlify Lead Operatör",
+      "katman": "YÖNETİM",
+      "domain_id": "DOCS-PRD",
+      "rapor": "Docs / PRD / Mintlify Domain Başkanı",
+      "skill_odak": [
+        "check-prd-alignment",
+        "implement-from-prd",
+        "mintlify",
+        "update-prd",
+        "write-prd"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Docs / PRD / Mintlify Skill Uzmanı (IC)",
+      "katman": "IC",
+      "domain_id": "DOCS-PRD",
+      "rapor": "Docs / PRD / Mintlify Lead Operatör",
+      "skill_odak": [
+        "check-prd-alignment",
+        "implement-from-prd",
+        "mintlify",
+        "update-prd",
+        "write-prd"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Docs / PRD / Mintlify Uygulama Operatörü",
+      "katman": "WORKER",
+      "domain_id": "DOCS-PRD",
+      "rapor": "Docs / PRD / Mintlify Skill Uzmanı (IC)",
+      "skill_odak": [
+        "check-prd-alignment",
+        "implement-from-prd",
+        "mintlify",
+        "update-prd",
+        "write-prd"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Cloudflare Domain Başkanı",
+      "katman": "DOMAIN-YÖNETİM",
+      "domain_id": "EDGE-CF",
+      "rapor": "CTO",
+      "skill_odak": [
+        "agents-sdk",
+        "building-ai-agent-on-cloudflare",
+        "building-mcp-server-on-cloudflare",
+        "cloudflare",
+        "durable-objects",
+        "sandbox-sdk",
+        "web-perf",
+        "workers-best-practices"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Cloudflare Lead Operatör",
+      "katman": "YÖNETİM",
+      "domain_id": "EDGE-CF",
+      "rapor": "Cloudflare Domain Başkanı",
+      "skill_odak": [
+        "agents-sdk",
+        "building-ai-agent-on-cloudflare",
+        "building-mcp-server-on-cloudflare",
+        "cloudflare",
+        "durable-objects",
+        "sandbox-sdk",
+        "web-perf",
+        "workers-best-practices",
+        "wrangler"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Cloudflare Skill Uzmanı (IC)",
+      "katman": "IC",
+      "domain_id": "EDGE-CF",
+      "rapor": "Cloudflare Lead Operatör",
+      "skill_odak": [
+        "agents-sdk",
+        "building-ai-agent-on-cloudflare",
+        "building-mcp-server-on-cloudflare",
+        "cloudflare",
+        "durable-objects",
+        "sandbox-sdk",
+        "web-perf",
+        "workers-best-practices",
+        "wrangler"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Cloudflare Uygulama Operatörü",
+      "katman": "WORKER",
+      "domain_id": "EDGE-CF",
+      "rapor": "Cloudflare Skill Uzmanı (IC)",
+      "skill_odak": [
+        "agents-sdk",
+        "building-ai-agent-on-cloudflare",
+        "building-mcp-server-on-cloudflare",
+        "cloudflare",
+        "durable-objects"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "GSAP motion Domain Başkanı",
+      "katman": "DOMAIN-YÖNETİM",
+      "domain_id": "FE-GSAP",
+      "rapor": "CPO",
+      "skill_odak": [
+        "gsap-core",
+        "gsap-frameworks",
+        "gsap-performance",
+        "gsap-plugins",
+        "gsap-react",
+        "gsap-scrolltrigger",
+        "gsap-timeline",
+        "gsap-utils"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "GSAP motion Lead Operatör",
+      "katman": "YÖNETİM",
+      "domain_id": "FE-GSAP",
+      "rapor": "GSAP motion Domain Başkanı",
+      "skill_odak": [
+        "gsap-core",
+        "gsap-frameworks",
+        "gsap-performance",
+        "gsap-plugins",
+        "gsap-react",
+        "gsap-scrolltrigger",
+        "gsap-timeline",
+        "gsap-utils"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "GSAP motion Skill Uzmanı (IC)",
+      "katman": "IC",
+      "domain_id": "FE-GSAP",
+      "rapor": "GSAP motion Lead Operatör",
+      "skill_odak": [
+        "gsap-core",
+        "gsap-frameworks",
+        "gsap-performance",
+        "gsap-plugins",
+        "gsap-react",
+        "gsap-scrolltrigger",
+        "gsap-timeline",
+        "gsap-utils"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "GSAP motion Uygulama Operatörü",
+      "katman": "WORKER",
+      "domain_id": "FE-GSAP",
+      "rapor": "GSAP motion Skill Uzmanı (IC)",
+      "skill_odak": [
+        "gsap-core",
+        "gsap-frameworks",
+        "gsap-performance",
+        "gsap-plugins",
+        "gsap-react"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Feature flags / Confidence Domain Başkanı",
+      "katman": "DOMAIN-YÖNETİM",
+      "domain_id": "FEAT-CONF",
+      "rapor": "CPO",
+      "skill_odak": [
+        "analyze-experiments",
+        "analyzing-experiment-session-replays",
+        "auditing-experiments-flags",
+        "chaos-experiment",
+        "cleaning-up-stale-feature-flags",
+        "configuring-experiment-analytics",
+        "configuring-experiment-rollout",
+        "creating-experiments"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Feature flags / Confidence Lead Operatör",
+      "katman": "YÖNETİM",
+      "domain_id": "FEAT-CONF",
+      "rapor": "Feature flags / Confidence Domain Başkanı",
+      "skill_odak": [
+        "analyze-experiments",
+        "analyzing-experiment-session-replays",
+        "auditing-experiments-flags",
+        "chaos-experiment",
+        "cleaning-up-stale-feature-flags",
+        "configuring-experiment-analytics",
+        "configuring-experiment-rollout",
+        "creating-experiments",
+        "diagnosing-experiment-results",
+        "finding-deleted-feature-flags",
+        "finding-experiments",
+        "instrument-feature-flags",
+        "manage-feature-flags",
+        "managing-experiment-lifecycle",
+        "migrate-eppo",
+        "migrate-optimizely",
+        "migrate-posthog",
+        "migrate-statsig",
+        "onboard-confidence",
+        "onboard-confidence-dry-run"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Feature flags / Confidence Skill Uzmanı (IC)",
+      "katman": "IC",
+      "domain_id": "FEAT-CONF",
+      "rapor": "Feature flags / Confidence Lead Operatör",
+      "skill_odak": [
+        "analyze-experiments",
+        "analyzing-experiment-session-replays",
+        "auditing-experiments-flags",
+        "chaos-experiment",
+        "cleaning-up-stale-feature-flags",
+        "configuring-experiment-analytics",
+        "configuring-experiment-rollout",
+        "creating-experiments",
+        "diagnosing-experiment-results",
+        "finding-deleted-feature-flags",
+        "finding-experiments",
+        "instrument-feature-flags",
+        "manage-feature-flags",
+        "managing-experiment-lifecycle",
+        "migrate-eppo",
+        "migrate-optimizely",
+        "migrate-posthog",
+        "migrate-statsig",
+        "onboard-confidence",
+        "onboard-confidence-dry-run"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Feature flags / Confidence Uygulama Operatörü",
+      "katman": "WORKER",
+      "domain_id": "FEAT-CONF",
+      "rapor": "Feature flags / Confidence Skill Uzmanı (IC)",
+      "skill_odak": [
+        "analyze-experiments",
+        "analyzing-experiment-session-replays",
+        "auditing-experiments-flags",
+        "chaos-experiment",
+        "cleaning-up-stale-feature-flags"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Genel Operasyon Domain Başkanı",
+      "katman": "DOMAIN-YÖNETİM",
+      "domain_id": "GEN-OPS",
+      "rapor": "COO",
+      "skill_odak": [
+        "compare-user-journeys",
+        "create-chart",
+        "create-dashboard",
+        "create-template",
+        "cx-config",
+        "cx-setup",
+        "debugging-dags",
+        "exploring-apm-traces"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Genel Operasyon Lead Operatör",
+      "katman": "YÖNETİM",
+      "domain_id": "GEN-OPS",
+      "rapor": "Genel Operasyon Domain Başkanı",
+      "skill_odak": [
+        "compare-user-journeys",
+        "create-chart",
+        "create-dashboard",
+        "create-template",
+        "cx-config",
+        "cx-setup",
+        "debugging-dags",
+        "exploring-apm-traces",
+        "exploring-live-traffic",
+        "exploring-llm-costs",
+        "exploring-llm-evaluations",
+        "exploring-llm-traces",
+        "investigating-error-issue",
+        "testing-dags"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Genel Operasyon Skill Uzmanı (IC)",
+      "katman": "IC",
+      "domain_id": "GEN-OPS",
+      "rapor": "Genel Operasyon Lead Operatör",
+      "skill_odak": [
+        "compare-user-journeys",
+        "create-chart",
+        "create-dashboard",
+        "create-template",
+        "cx-config",
+        "cx-setup",
+        "debugging-dags",
+        "exploring-apm-traces",
+        "exploring-live-traffic",
+        "exploring-llm-costs",
+        "exploring-llm-evaluations",
+        "exploring-llm-traces",
+        "investigating-error-issue",
+        "testing-dags"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Genel Operasyon Uygulama Operatörü",
+      "katman": "WORKER",
+      "domain_id": "GEN-OPS",
+      "rapor": "Genel Operasyon Skill Uzmanı (IC)",
+      "skill_odak": [
+        "compare-user-journeys",
+        "create-chart",
+        "create-dashboard",
+        "create-template",
+        "cx-config"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Cursor meta skills Domain Başkanı",
+      "katman": "DOMAIN-YÖNETİM",
+      "domain_id": "META-CURSOR",
+      "rapor": "CIO",
+      "skill_odak": [
+        "babysit",
+        "canvas",
+        "create-hook",
+        "create-rule",
+        "create-skill",
+        "create-subagent",
+        "migrate-to-builds",
+        "migrate-to-skills"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Cursor meta skills Lead Operatör",
+      "katman": "YÖNETİM",
+      "domain_id": "META-CURSOR",
+      "rapor": "Cursor meta skills Domain Başkanı",
+      "skill_odak": [
+        "babysit",
+        "canvas",
+        "create-hook",
+        "create-rule",
+        "create-skill",
+        "create-subagent",
+        "migrate-to-builds",
+        "migrate-to-skills",
+        "review",
+        "review-bugbot",
+        "review-security",
+        "sdk",
+        "shell",
+        "split-to-prs",
+        "statusline",
+        "update-cli-config",
+        "update-cursor-settings"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Cursor meta skills Skill Uzmanı (IC)",
+      "katman": "IC",
+      "domain_id": "META-CURSOR",
+      "rapor": "Cursor meta skills Lead Operatör",
+      "skill_odak": [
+        "babysit",
+        "canvas",
+        "create-hook",
+        "create-rule",
+        "create-skill",
+        "create-subagent",
+        "migrate-to-builds",
+        "migrate-to-skills",
+        "review",
+        "review-bugbot",
+        "review-security",
+        "sdk",
+        "shell",
+        "split-to-prs",
+        "statusline",
+        "update-cli-config",
+        "update-cursor-settings"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Cursor meta skills Uygulama Operatörü",
+      "katman": "WORKER",
+      "domain_id": "META-CURSOR",
+      "rapor": "Cursor meta skills Skill Uzmanı (IC)",
+      "skill_odak": [
+        "babysit",
+        "canvas",
+        "create-hook",
+        "create-rule",
+        "create-skill"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Hugging Face Domain Başkanı",
+      "katman": "DOMAIN-YÖNETİM",
+      "domain_id": "ML-HF",
+      "rapor": "CAIO",
+      "skill_odak": [
+        "hf-cli",
+        "huggingface-best",
+        "huggingface-community-evals",
+        "huggingface-datasets",
+        "huggingface-gradio",
+        "huggingface-llm-trainer",
+        "huggingface-local-models",
+        "huggingface-lora-space-builder"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Hugging Face Lead Operatör",
+      "katman": "YÖNETİM",
+      "domain_id": "ML-HF",
+      "rapor": "Hugging Face Domain Başkanı",
+      "skill_odak": [
+        "hf-cli",
+        "huggingface-best",
+        "huggingface-community-evals",
+        "huggingface-datasets",
+        "huggingface-gradio",
+        "huggingface-llm-trainer",
+        "huggingface-local-models",
+        "huggingface-lora-space-builder",
+        "huggingface-paper-publisher",
+        "huggingface-papers",
+        "huggingface-spaces",
+        "huggingface-tool-builder",
+        "huggingface-trackio",
+        "huggingface-vision-trainer",
+        "huggingface-zerogpu",
+        "train-sentence-transformers",
+        "transformers-js",
+        "trl-training"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Hugging Face Skill Uzmanı (IC)",
+      "katman": "IC",
+      "domain_id": "ML-HF",
+      "rapor": "Hugging Face Lead Operatör",
+      "skill_odak": [
+        "hf-cli",
+        "huggingface-best",
+        "huggingface-community-evals",
+        "huggingface-datasets",
+        "huggingface-gradio",
+        "huggingface-llm-trainer",
+        "huggingface-local-models",
+        "huggingface-lora-space-builder",
+        "huggingface-paper-publisher",
+        "huggingface-papers",
+        "huggingface-spaces",
+        "huggingface-tool-builder",
+        "huggingface-trackio",
+        "huggingface-vision-trainer",
+        "huggingface-zerogpu",
+        "train-sentence-transformers",
+        "transformers-js",
+        "trl-training"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Hugging Face Uygulama Operatörü",
+      "katman": "WORKER",
+      "domain_id": "ML-HF",
+      "rapor": "Hugging Face Skill Uzmanı (IC)",
+      "skill_odak": [
+        "hf-cli",
+        "huggingface-best",
+        "huggingface-community-evals",
+        "huggingface-datasets",
+        "huggingface-gradio"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Xcode Domain Başkanı",
+      "katman": "DOMAIN-YÖNETİM",
+      "domain_id": "MOB-XCODE",
+      "rapor": "CTO",
+      "skill_odak": [
+        "xcode-project-setup"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Xcode Lead Operatör",
+      "katman": "YÖNETİM",
+      "domain_id": "MOB-XCODE",
+      "rapor": "Xcode Domain Başkanı",
+      "skill_odak": [
+        "xcode-project-setup"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Xcode Skill Uzmanı (IC)",
+      "katman": "IC",
+      "domain_id": "MOB-XCODE",
+      "rapor": "Xcode Lead Operatör",
+      "skill_odak": [
+        "xcode-project-setup"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Xcode Uygulama Operatörü",
+      "katman": "WORKER",
+      "domain_id": "MOB-XCODE",
+      "rapor": "Xcode Skill Uzmanı (IC)",
+      "skill_odak": [
+        "xcode-project-setup"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Elastic / Kibana / EDOT Domain Başkanı",
+      "katman": "DOMAIN-YÖNETİM",
+      "domain_id": "OBS-ELK",
+      "rapor": "CISO",
+      "skill_odak": [
+        "cloud-access-management",
+        "cloud-create-project",
+        "cloud-manage-project",
+        "cloud-network-security",
+        "cloud-setup",
+        "elasticsearch-audit",
+        "elasticsearch-authn",
+        "elasticsearch-authz"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Elastic / Kibana / EDOT Lead Operatör",
+      "katman": "YÖNETİM",
+      "domain_id": "OBS-ELK",
+      "rapor": "Elastic / Kibana / EDOT Domain Başkanı",
+      "skill_odak": [
+        "cloud-access-management",
+        "cloud-create-project",
+        "cloud-manage-project",
+        "cloud-network-security",
+        "cloud-setup",
+        "elasticsearch-audit",
+        "elasticsearch-authn",
+        "elasticsearch-authz",
+        "elasticsearch-esql",
+        "elasticsearch-file-ingest",
+        "elasticsearch-onboarding",
+        "elasticsearch-security-troubleshooting",
+        "kibana-agent-builder",
+        "kibana-alerting-rules",
+        "kibana-audit",
+        "kibana-connectors",
+        "kibana-dashboards",
+        "kibana-streams",
+        "kibana-vega",
+        "observability-edot-dotnet-instrument",
+        "observability-edot-dotnet-migrate",
+        "observability-edot-java-instrument",
+        "observability-edot-java-migrate",
+        "observability-edot-python-instrument",
+        "observability-edot-python-migrate",
+        "observability-llm-obs",
+        "observability-logs-search",
+        "observability-service-health",
+        "security-alert-triage",
+        "security-case-management",
+        "security-detection-rule-management",
+        "security-generate-security-sample-data",
+        "signals-scout-observability-gaps"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Elastic / Kibana / EDOT Skill Uzmanı (IC)",
+      "katman": "IC",
+      "domain_id": "OBS-ELK",
+      "rapor": "Elastic / Kibana / EDOT Lead Operatör",
+      "skill_odak": [
+        "cloud-access-management",
+        "cloud-create-project",
+        "cloud-manage-project",
+        "cloud-network-security",
+        "cloud-setup",
+        "elasticsearch-audit",
+        "elasticsearch-authn",
+        "elasticsearch-authz",
+        "elasticsearch-esql",
+        "elasticsearch-file-ingest",
+        "elasticsearch-onboarding",
+        "elasticsearch-security-troubleshooting",
+        "kibana-agent-builder",
+        "kibana-alerting-rules",
+        "kibana-audit",
+        "kibana-connectors",
+        "kibana-dashboards",
+        "kibana-streams",
+        "kibana-vega",
+        "observability-edot-dotnet-instrument",
+        "observability-edot-dotnet-migrate",
+        "observability-edot-java-instrument",
+        "observability-edot-java-migrate",
+        "observability-edot-python-instrument",
+        "observability-edot-python-migrate",
+        "observability-llm-obs",
+        "observability-logs-search",
+        "observability-service-health",
+        "security-alert-triage",
+        "security-case-management",
+        "security-detection-rule-management",
+        "security-generate-security-sample-data",
+        "signals-scout-observability-gaps"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Elastic / Kibana / EDOT Uygulama Operatörü",
+      "katman": "WORKER",
+      "domain_id": "OBS-ELK",
+      "rapor": "Elastic / Kibana / EDOT Skill Uzmanı (IC)",
+      "skill_odak": [
+        "cloud-access-management",
+        "cloud-create-project",
+        "cloud-manage-project",
+        "cloud-network-security",
+        "cloud-setup"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Grafana Domain Başkanı",
+      "katman": "DOMAIN-YÖNETİM",
+      "domain_id": "OBS-GRAF",
+      "rapor": "CISO",
+      "skill_odak": [
+        "grafana-assistant-cli",
+        "grafana-cloud-mcp-tools"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Grafana Lead Operatör",
+      "katman": "YÖNETİM",
+      "domain_id": "OBS-GRAF",
+      "rapor": "Grafana Domain Başkanı",
+      "skill_odak": [
+        "grafana-assistant-cli",
+        "grafana-cloud-mcp-tools"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Grafana Skill Uzmanı (IC)",
+      "katman": "IC",
+      "domain_id": "OBS-GRAF",
+      "rapor": "Grafana Lead Operatör",
+      "skill_odak": [
+        "grafana-assistant-cli",
+        "grafana-cloud-mcp-tools"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Grafana Uygulama Operatörü",
+      "katman": "WORKER",
+      "domain_id": "OBS-GRAF",
+      "rapor": "Grafana Skill Uzmanı (IC)",
+      "skill_odak": [
+        "grafana-assistant-cli",
+        "grafana-cloud-mcp-tools"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Observe / OTel / Alert Domain Başkanı",
+      "katman": "DOMAIN-YÖNETİM",
+      "domain_id": "OBS-OBSERVE",
+      "rapor": "CISO",
+      "skill_odak": [
+        "alert-investigation",
+        "debug-k8s-collection",
+        "debug-linux-host-collection",
+        "deploy-k8s-explorer",
+        "deploy-linux-host-explorer",
+        "generate-opal",
+        "observe-cli",
+        "opentelemetry-auto-instrumentation"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Observe / OTel / Alert Lead Operatör",
+      "katman": "YÖNETİM",
+      "domain_id": "OBS-OBSERVE",
+      "rapor": "Observe / OTel / Alert Domain Başkanı",
+      "skill_odak": [
+        "alert-investigation",
+        "debug-k8s-collection",
+        "debug-linux-host-collection",
+        "deploy-k8s-explorer",
+        "deploy-linux-host-explorer",
+        "generate-opal",
+        "observe-cli",
+        "opentelemetry-auto-instrumentation",
+        "opentelemetry-manual-instrumentation",
+        "opentelemetry-validation",
+        "outlier-detection-analysis",
+        "query-card-visualization",
+        "setup-k8s-backend",
+        "setup-k8s-collection",
+        "setup-linux-host-backend",
+        "setup-linux-host-collection"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Observe / OTel / Alert Skill Uzmanı (IC)",
+      "katman": "IC",
+      "domain_id": "OBS-OBSERVE",
+      "rapor": "Observe / OTel / Alert Lead Operatör",
+      "skill_odak": [
+        "alert-investigation",
+        "debug-k8s-collection",
+        "debug-linux-host-collection",
+        "deploy-k8s-explorer",
+        "deploy-linux-host-explorer",
+        "generate-opal",
+        "observe-cli",
+        "opentelemetry-auto-instrumentation",
+        "opentelemetry-manual-instrumentation",
+        "opentelemetry-validation",
+        "outlier-detection-analysis",
+        "query-card-visualization",
+        "setup-k8s-backend",
+        "setup-k8s-collection",
+        "setup-linux-host-backend",
+        "setup-linux-host-collection"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Observe / OTel / Alert Uygulama Operatörü",
+      "katman": "WORKER",
+      "domain_id": "OBS-OBSERVE",
+      "rapor": "Observe / OTel / Alert Skill Uzmanı (IC)",
+      "skill_odak": [
+        "alert-investigation",
+        "debug-k8s-collection",
+        "debug-linux-host-collection",
+        "deploy-k8s-explorer",
+        "deploy-linux-host-explorer"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Sentry Domain Başkanı",
+      "katman": "DOMAIN-YÖNETİM",
+      "domain_id": "OBS-SENTRY",
+      "rapor": "CISO",
+      "skill_odak": [
+        "sentry-create-alert",
+        "sentry-debug-issue",
+        "sentry-feature-setup",
+        "sentry-get-started",
+        "sentry-instrument",
+        "sentry-otel-exporter-setup",
+        "sentry-snapshots-cocoa"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Sentry Lead Operatör",
+      "katman": "YÖNETİM",
+      "domain_id": "OBS-SENTRY",
+      "rapor": "Sentry Domain Başkanı",
+      "skill_odak": [
+        "sentry-create-alert",
+        "sentry-debug-issue",
+        "sentry-feature-setup",
+        "sentry-get-started",
+        "sentry-instrument",
+        "sentry-otel-exporter-setup",
+        "sentry-snapshots-cocoa"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Sentry Skill Uzmanı (IC)",
+      "katman": "IC",
+      "domain_id": "OBS-SENTRY",
+      "rapor": "Sentry Lead Operatör",
+      "skill_odak": [
+        "sentry-create-alert",
+        "sentry-debug-issue",
+        "sentry-feature-setup",
+        "sentry-get-started",
+        "sentry-instrument",
+        "sentry-otel-exporter-setup",
+        "sentry-snapshots-cocoa"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Sentry Uygulama Operatörü",
+      "katman": "WORKER",
+      "domain_id": "OBS-SENTRY",
+      "rapor": "Sentry Skill Uzmanı (IC)",
+      "skill_odak": [
+        "sentry-create-alert",
+        "sentry-debug-issue",
+        "sentry-feature-setup",
+        "sentry-get-started",
+        "sentry-instrument"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "PagerDuty Domain Başkanı",
+      "katman": "DOMAIN-YÖNETİM",
+      "domain_id": "OPS-PD",
+      "rapor": "COO",
+      "skill_odak": [
+        "pagerduty-mcp-setup"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "PagerDuty Lead Operatör",
+      "katman": "YÖNETİM",
+      "domain_id": "OPS-PD",
+      "rapor": "PagerDuty Domain Başkanı",
+      "skill_odak": [
+        "pagerduty-mcp-setup"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "PagerDuty Skill Uzmanı (IC)",
+      "katman": "IC",
+      "domain_id": "OPS-PD",
+      "rapor": "PagerDuty Lead Operatör",
+      "skill_odak": [
+        "pagerduty-mcp-setup"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "PagerDuty Uygulama Operatörü",
+      "katman": "WORKER",
+      "domain_id": "OPS-PD",
+      "rapor": "PagerDuty Skill Uzmanı (IC)",
+      "skill_odak": [
+        "pagerduty-mcp-setup"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "TierZero / Antimetal incident Domain Başkanı",
+      "katman": "DOMAIN-YÖNETİM",
+      "domain_id": "OPS-TZ",
+      "rapor": "COO",
+      "skill_odak": [
+        "antimetal-mcp-setup",
+        "fix",
+        "investigate",
+        "investigate-ai-session",
+        "investigate-metric",
+        "scan-and-fix-accessibility",
+        "tierzero-fetch",
+        "tierzero-investigate"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "TierZero / Antimetal incident Lead Operatör",
+      "katman": "YÖNETİM",
+      "domain_id": "OPS-TZ",
+      "rapor": "TierZero / Antimetal incident Domain Başkanı",
+      "skill_odak": [
+        "antimetal-mcp-setup",
+        "fix",
+        "investigate",
+        "investigate-ai-session",
+        "investigate-metric",
+        "scan-and-fix-accessibility",
+        "tierzero-fetch",
+        "tierzero-investigate"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "TierZero / Antimetal incident Skill Uzmanı (IC)",
+      "katman": "IC",
+      "domain_id": "OPS-TZ",
+      "rapor": "TierZero / Antimetal incident Lead Operatör",
+      "skill_odak": [
+        "antimetal-mcp-setup",
+        "fix",
+        "investigate",
+        "investigate-ai-session",
+        "investigate-metric",
+        "scan-and-fix-accessibility",
+        "tierzero-fetch",
+        "tierzero-investigate"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "TierZero / Antimetal incident Uygulama Operatörü",
+      "katman": "WORKER",
+      "domain_id": "OPS-TZ",
+      "rapor": "TierZero / Antimetal incident Skill Uzmanı (IC)",
+      "skill_odak": [
+        "antimetal-mcp-setup",
+        "fix",
+        "investigate",
+        "investigate-ai-session",
+        "investigate-metric"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Prisma Domain Başkanı",
+      "katman": "DOMAIN-YÖNETİM",
+      "domain_id": "ORM-PRISMA",
+      "rapor": "CTO",
+      "skill_odak": [
+        "prisma-cli-db-execute",
+        "prisma-cli-db-pull",
+        "prisma-cli-db-push",
+        "prisma-cli-db-seed",
+        "prisma-cli-debug",
+        "prisma-cli-dev",
+        "prisma-cli-format",
+        "prisma-cli-generate"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Prisma Lead Operatör",
+      "katman": "YÖNETİM",
+      "domain_id": "ORM-PRISMA",
+      "rapor": "Prisma Domain Başkanı",
+      "skill_odak": [
+        "prisma-cli-db-execute",
+        "prisma-cli-db-pull",
+        "prisma-cli-db-push",
+        "prisma-cli-db-seed",
+        "prisma-cli-debug",
+        "prisma-cli-dev",
+        "prisma-cli-format",
+        "prisma-cli-generate",
+        "prisma-cli-init",
+        "prisma-cli-migrate-dev",
+        "prisma-cli-migrate-diff",
+        "prisma-cli-migrate-reset",
+        "prisma-cli-migrate-resolve",
+        "prisma-cli-migrate-status",
+        "prisma-cli-studio",
+        "prisma-cli-validate",
+        "prisma-client-api-client-methods",
+        "prisma-client-api-constructor",
+        "prisma-client-api-filters",
+        "prisma-client-api-model-queries",
+        "prisma-client-api-query-options",
+        "prisma-client-api-raw-queries",
+        "prisma-client-api-relations",
+        "prisma-client-api-transactions",
+        "prisma-database-setup-prisma-client-setup",
+        "prisma-database-setup-sqlite",
+        "prisma-database-setup-sqlserver",
+        "prisma-upgrade-v7-accelerate-users",
+        "prisma-upgrade-v7-driver-adapters",
+        "prisma-upgrade-v7-env-variables",
+        "prisma-upgrade-v7-esm-support",
+        "prisma-upgrade-v7-prisma-config",
+        "prisma-upgrade-v7-removed-features",
+        "prisma-upgrade-v7-schema-changes"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Prisma Skill Uzmanı (IC)",
+      "katman": "IC",
+      "domain_id": "ORM-PRISMA",
+      "rapor": "Prisma Lead Operatör",
+      "skill_odak": [
+        "prisma-cli-db-execute",
+        "prisma-cli-db-pull",
+        "prisma-cli-db-push",
+        "prisma-cli-db-seed",
+        "prisma-cli-debug",
+        "prisma-cli-dev",
+        "prisma-cli-format",
+        "prisma-cli-generate",
+        "prisma-cli-init",
+        "prisma-cli-migrate-dev",
+        "prisma-cli-migrate-diff",
+        "prisma-cli-migrate-reset",
+        "prisma-cli-migrate-resolve",
+        "prisma-cli-migrate-status",
+        "prisma-cli-studio",
+        "prisma-cli-validate",
+        "prisma-client-api-client-methods",
+        "prisma-client-api-constructor",
+        "prisma-client-api-filters",
+        "prisma-client-api-model-queries",
+        "prisma-client-api-query-options",
+        "prisma-client-api-raw-queries",
+        "prisma-client-api-relations",
+        "prisma-client-api-transactions",
+        "prisma-database-setup-prisma-client-setup",
+        "prisma-database-setup-sqlite",
+        "prisma-database-setup-sqlserver",
+        "prisma-upgrade-v7-accelerate-users",
+        "prisma-upgrade-v7-driver-adapters",
+        "prisma-upgrade-v7-env-variables",
+        "prisma-upgrade-v7-esm-support",
+        "prisma-upgrade-v7-prisma-config",
+        "prisma-upgrade-v7-removed-features",
+        "prisma-upgrade-v7-schema-changes"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Prisma Uygulama Operatörü",
+      "katman": "WORKER",
+      "domain_id": "ORM-PRISMA",
+      "rapor": "Prisma Skill Uzmanı (IC)",
+      "skill_odak": [
+        "prisma-cli-db-execute",
+        "prisma-cli-db-pull",
+        "prisma-cli-db-push",
+        "prisma-cli-db-seed",
+        "prisma-cli-debug"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "BrowserStack / a11y Domain Başkanı",
+      "katman": "DOMAIN-YÖNETİM",
+      "domain_id": "QA-BS",
+      "rapor": "CTO",
+      "skill_odak": [
+        "run-mobile-tests-on-browserstack",
+        "run-web-tests-on-browserstack"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "BrowserStack / a11y Lead Operatör",
+      "katman": "YÖNETİM",
+      "domain_id": "QA-BS",
+      "rapor": "BrowserStack / a11y Domain Başkanı",
+      "skill_odak": [
+        "run-mobile-tests-on-browserstack",
+        "run-web-tests-on-browserstack"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "BrowserStack / a11y Skill Uzmanı (IC)",
+      "katman": "IC",
+      "domain_id": "QA-BS",
+      "rapor": "BrowserStack / a11y Lead Operatör",
+      "skill_odak": [
+        "run-mobile-tests-on-browserstack",
+        "run-web-tests-on-browserstack"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "BrowserStack / a11y Uygulama Operatörü",
+      "katman": "WORKER",
+      "domain_id": "QA-BS",
+      "rapor": "BrowserStack / a11y Skill Uzmanı (IC)",
+      "skill_odak": [
+        "run-mobile-tests-on-browserstack",
+        "run-web-tests-on-browserstack"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "OpenSearch Domain Başkanı",
+      "katman": "DOMAIN-YÖNETİM",
+      "domain_id": "SEARCH-OS",
+      "rapor": "CDO",
+      "skill_odak": [
+        "opensearch-skills"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "OpenSearch Lead Operatör",
+      "katman": "YÖNETİM",
+      "domain_id": "SEARCH-OS",
+      "rapor": "OpenSearch Domain Başkanı",
+      "skill_odak": [
+        "opensearch-skills"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "OpenSearch Skill Uzmanı (IC)",
+      "katman": "IC",
+      "domain_id": "SEARCH-OS",
+      "rapor": "OpenSearch Lead Operatör",
+      "skill_odak": [
+        "opensearch-skills"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "OpenSearch Uygulama Operatörü",
+      "katman": "WORKER",
+      "domain_id": "SEARCH-OS",
+      "rapor": "OpenSearch Skill Uzmanı (IC)",
+      "skill_odak": [
+        "opensearch-skills"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "CockroachDB security/ops Domain Başkanı",
+      "katman": "DOMAIN-YÖNETİM",
+      "domain_id": "SEC-CRDB",
+      "rapor": "CISO",
+      "skill_odak": [
+        "analyzing-range-distribution",
+        "analyzing-schema-change-storage-risk",
+        "auditing-table-statistics",
+        "benchmarking-transaction-patterns",
+        "cockroachdb-sql",
+        "configuring-audit-logging",
+        "configuring-ip-allowlists",
+        "configuring-log-export"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "CockroachDB security/ops Lead Operatör",
+      "katman": "YÖNETİM",
+      "domain_id": "SEC-CRDB",
+      "rapor": "CockroachDB security/ops Domain Başkanı",
+      "skill_odak": [
+        "analyzing-range-distribution",
+        "analyzing-schema-change-storage-risk",
+        "auditing-table-statistics",
+        "benchmarking-transaction-patterns",
+        "cockroachdb-sql",
+        "configuring-audit-logging",
+        "configuring-ip-allowlists",
+        "configuring-log-export",
+        "configuring-private-connectivity",
+        "configuring-sso-and-scim",
+        "designing-application-transactions",
+        "designing-multi-region-applications",
+        "enabling-cmek-encryption",
+        "enforcing-password-policies",
+        "hardening-user-privileges",
+        "managing-certificates-and-encryption",
+        "managing-cluster-capacity",
+        "managing-cluster-settings",
+        "managing-tls-certificates",
+        "molt-fetch",
+        "molt-replicator",
+        "molt-verify",
+        "monitoring-background-jobs",
+        "performing-cluster-maintenance",
+        "preparing-compliance-documentation",
+        "prisma-database-setup-cockroachdb",
+        "profiling-statement-fingerprints",
+        "profiling-transaction-fingerprints",
+        "provisioning-cluster-for-production",
+        "reviewing-cluster-health",
+        "triaging-live-sql-activity",
+        "upgrading-cluster-version"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "CockroachDB security/ops Skill Uzmanı (IC)",
+      "katman": "IC",
+      "domain_id": "SEC-CRDB",
+      "rapor": "CockroachDB security/ops Lead Operatör",
+      "skill_odak": [
+        "analyzing-range-distribution",
+        "analyzing-schema-change-storage-risk",
+        "auditing-table-statistics",
+        "benchmarking-transaction-patterns",
+        "cockroachdb-sql",
+        "configuring-audit-logging",
+        "configuring-ip-allowlists",
+        "configuring-log-export",
+        "configuring-private-connectivity",
+        "configuring-sso-and-scim",
+        "designing-application-transactions",
+        "designing-multi-region-applications",
+        "enabling-cmek-encryption",
+        "enforcing-password-policies",
+        "hardening-user-privileges",
+        "managing-certificates-and-encryption",
+        "managing-cluster-capacity",
+        "managing-cluster-settings",
+        "managing-tls-certificates",
+        "molt-fetch",
+        "molt-replicator",
+        "molt-verify",
+        "monitoring-background-jobs",
+        "performing-cluster-maintenance",
+        "preparing-compliance-documentation",
+        "prisma-database-setup-cockroachdb",
+        "profiling-statement-fingerprints",
+        "profiling-transaction-fingerprints",
+        "provisioning-cluster-for-production",
+        "reviewing-cluster-health",
+        "triaging-live-sql-activity",
+        "upgrading-cluster-version"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "CockroachDB security/ops Uygulama Operatörü",
+      "katman": "WORKER",
+      "domain_id": "SEC-CRDB",
+      "rapor": "CockroachDB security/ops Skill Uzmanı (IC)",
+      "skill_odak": [
+        "analyzing-range-distribution",
+        "analyzing-schema-change-storage-risk",
+        "auditing-table-statistics",
+        "benchmarking-transaction-patterns",
+        "cockroachdb-sql"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "JFrog Domain Başkanı",
+      "katman": "DOMAIN-YÖNETİM",
+      "domain_id": "SEC-JFROG",
+      "rapor": "CISO",
+      "skill_odak": [
+        "jfrog",
+        "jfrog-ai-catalog-skills",
+        "jfrog-package-safety-and-download"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "JFrog Lead Operatör",
+      "katman": "YÖNETİM",
+      "domain_id": "SEC-JFROG",
+      "rapor": "JFrog Domain Başkanı",
+      "skill_odak": [
+        "jfrog",
+        "jfrog-ai-catalog-skills",
+        "jfrog-package-safety-and-download"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "JFrog Skill Uzmanı (IC)",
+      "katman": "IC",
+      "domain_id": "SEC-JFROG",
+      "rapor": "JFrog Lead Operatör",
+      "skill_odak": [
+        "jfrog",
+        "jfrog-ai-catalog-skills",
+        "jfrog-package-safety-and-download"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "JFrog Uygulama Operatörü",
+      "katman": "WORKER",
+      "domain_id": "SEC-JFROG",
+      "rapor": "JFrog Skill Uzmanı (IC)",
+      "skill_odak": [
+        "jfrog",
+        "jfrog-ai-catalog-skills",
+        "jfrog-package-safety-and-download"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Pinecone Domain Başkanı",
+      "katman": "DOMAIN-YÖNETİM",
+      "domain_id": "VEC-PIN",
+      "rapor": "CTO",
+      "skill_odak": [
+        "pinecone-assistant",
+        "pinecone-cli",
+        "pinecone-docs",
+        "pinecone-full-text-search",
+        "pinecone-help",
+        "pinecone-mcp",
+        "pinecone-query",
+        "pinecone-quickstart"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Pinecone Lead Operatör",
+      "katman": "YÖNETİM",
+      "domain_id": "VEC-PIN",
+      "rapor": "Pinecone Domain Başkanı",
+      "skill_odak": [
+        "pinecone-assistant",
+        "pinecone-cli",
+        "pinecone-docs",
+        "pinecone-full-text-search",
+        "pinecone-help",
+        "pinecone-mcp",
+        "pinecone-query",
+        "pinecone-quickstart"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Pinecone Skill Uzmanı (IC)",
+      "katman": "IC",
+      "domain_id": "VEC-PIN",
+      "rapor": "Pinecone Lead Operatör",
+      "skill_odak": [
+        "pinecone-assistant",
+        "pinecone-cli",
+        "pinecone-docs",
+        "pinecone-full-text-search",
+        "pinecone-help",
+        "pinecone-mcp",
+        "pinecone-query",
+        "pinecone-quickstart"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Pinecone Uygulama Operatörü",
+      "katman": "WORKER",
+      "domain_id": "VEC-PIN",
+      "rapor": "Pinecone Skill Uzmanı (IC)",
+      "skill_odak": [
+        "pinecone-assistant",
+        "pinecone-cli",
+        "pinecone-docs",
+        "pinecone-full-text-search",
+        "pinecone-help"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Turbopuffer Domain Başkanı",
+      "katman": "DOMAIN-YÖNETİM",
+      "domain_id": "VEC-TPUF",
+      "rapor": "CTO",
+      "skill_odak": [
+        "tpuf"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Turbopuffer Lead Operatör",
+      "katman": "YÖNETİM",
+      "domain_id": "VEC-TPUF",
+      "rapor": "Turbopuffer Domain Başkanı",
+      "skill_odak": [
+        "tpuf"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Turbopuffer Skill Uzmanı (IC)",
+      "katman": "IC",
+      "domain_id": "VEC-TPUF",
+      "rapor": "Turbopuffer Lead Operatör",
+      "skill_odak": [
+        "tpuf"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Turbopuffer Uygulama Operatörü",
+      "katman": "WORKER",
+      "domain_id": "VEC-TPUF",
+      "rapor": "Turbopuffer Skill Uzmanı (IC)",
+      "skill_odak": [
+        "tpuf"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Apify / Firecrawl / Bright Data Domain Başkanı",
+      "katman": "DOMAIN-YÖNETİM",
+      "domain_id": "WEB-APIFY",
+      "rapor": "CSO",
+      "skill_odak": [
+        "apify-actor-development",
+        "apify-actorization",
+        "apify-generate-output-schema",
+        "apify-sdk-integration",
+        "apify-ultimate-scraper",
+        "bd-batch-scrape",
+        "bd-browser",
+        "bd-code"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Apify / Firecrawl / Bright Data Lead Operatör",
+      "katman": "YÖNETİM",
+      "domain_id": "WEB-APIFY",
+      "rapor": "Apify / Firecrawl / Bright Data Domain Başkanı",
+      "skill_odak": [
+        "apify-actor-development",
+        "apify-actorization",
+        "apify-generate-output-schema",
+        "apify-sdk-integration",
+        "apify-ultimate-scraper",
+        "bd-batch-scrape",
+        "bd-browser",
+        "bd-code",
+        "bd-scrape",
+        "bd-search",
+        "bd-structured-data",
+        "exa-best-practices",
+        "exa-fetch",
+        "exa-web-search",
+        "firecrawl",
+        "firecrawl-agent",
+        "firecrawl-crawl",
+        "firecrawl-download",
+        "firecrawl-interact",
+        "firecrawl-map",
+        "firecrawl-monitor",
+        "firecrawl-parse",
+        "firecrawl-scrape",
+        "firecrawl-search"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Apify / Firecrawl / Bright Data Skill Uzmanı (IC)",
+      "katman": "IC",
+      "domain_id": "WEB-APIFY",
+      "rapor": "Apify / Firecrawl / Bright Data Lead Operatör",
+      "skill_odak": [
+        "apify-actor-development",
+        "apify-actorization",
+        "apify-generate-output-schema",
+        "apify-sdk-integration",
+        "apify-ultimate-scraper",
+        "bd-batch-scrape",
+        "bd-browser",
+        "bd-code",
+        "bd-scrape",
+        "bd-search",
+        "bd-structured-data",
+        "exa-best-practices",
+        "exa-fetch",
+        "exa-web-search",
+        "firecrawl",
+        "firecrawl-agent",
+        "firecrawl-crawl",
+        "firecrawl-download",
+        "firecrawl-interact",
+        "firecrawl-map",
+        "firecrawl-monitor",
+        "firecrawl-parse",
+        "firecrawl-scrape",
+        "firecrawl-search"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Apify / Firecrawl / Bright Data Uygulama Operatörü",
+      "katman": "WORKER",
+      "domain_id": "WEB-APIFY",
+      "rapor": "Apify / Firecrawl / Bright Data Skill Uzmanı (IC)",
+      "skill_odak": [
+        "apify-actor-development",
+        "apify-actorization",
+        "apify-generate-output-schema",
+        "apify-sdk-integration",
+        "apify-ultimate-scraper"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Temporal Domain Başkanı",
+      "katman": "DOMAIN-YÖNETİM",
+      "domain_id": "WF-TEMP",
+      "rapor": "CTO",
+      "skill_odak": [
+        "temporal-cloud-setup",
+        "temporal-developer"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Temporal Lead Operatör",
+      "katman": "YÖNETİM",
+      "domain_id": "WF-TEMP",
+      "rapor": "Temporal Domain Başkanı",
+      "skill_odak": [
+        "temporal-cloud-setup",
+        "temporal-developer"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Temporal Skill Uzmanı (IC)",
+      "katman": "IC",
+      "domain_id": "WF-TEMP",
+      "rapor": "Temporal Lead Operatör",
+      "skill_odak": [
+        "temporal-cloud-setup",
+        "temporal-developer"
+      ],
+      "prompt_adet": 122
+    },
+    {
+      "title": "Temporal Uygulama Operatörü",
+      "katman": "WORKER",
+      "domain_id": "WF-TEMP",
+      "rapor": "Temporal Skill Uzmanı (IC)",
+      "skill_odak": [
+        "temporal-cloud-setup",
+        "temporal-developer"
+      ],
+      "prompt_adet": 122
+    }
+  ],
+  "ekipler": [
+    {
+      "ekip": "Ekip-AN-CH",
+      "domain_id": "AN-CH",
+      "ad": "ClickHouse",
+      "uyeler": 4,
+      "prompt_adet_ekip": 122,
+      "prompt_adet_uygulama": 122,
+      "7x24": {
+        "nobet": "Lead Operatör",
+        "eskalasyon": "ClickHouse Domain Başkanı → Group CDO",
+        "ritim": [
+          "günlük standup",
+          "haftalık skill sağlık",
+          "aylık arşiv yenileme"
+        ]
+      }
+    },
+    {
+      "ekip": "Ekip-AN-MIX",
+      "domain_id": "AN-MIX",
+      "ad": "Mixpanel / analytics track",
+      "uyeler": 4,
+      "prompt_adet_ekip": 122,
+      "prompt_adet_uygulama": 122,
+      "7x24": {
+        "nobet": "Lead Operatör",
+        "eskalasyon": "Mixpanel / analytics track Domain Başkanı → Group CMO",
+        "ritim": [
+          "günlük standup",
+          "haftalık skill sağlık",
+          "aylık arşiv yenileme"
+        ]
+      }
+    },
+    {
+      "ekip": "Ekip-AN-PH",
+      "domain_id": "AN-PH",
+      "ad": "PostHog / Pendo signals",
+      "uyeler": 4,
+      "prompt_adet_ekip": 122,
+      "prompt_adet_uygulama": 122,
+      "7x24": {
+        "nobet": "Lead Operatör",
+        "eskalasyon": "PostHog / Pendo signals Domain Başkanı → Group CMO",
+        "ritim": [
+          "günlük standup",
+          "haftalık skill sağlık",
+          "aylık arşiv yenileme"
+        ]
+      }
+    },
+    {
+      "ekip": "Ekip-API-POST",
+      "domain_id": "API-POST",
+      "ad": "Postman",
+      "uyeler": 4,
+      "prompt_adet_ekip": 122,
+      "prompt_adet_uygulama": 122,
+      "7x24": {
+        "nobet": "Lead Operatör",
+        "eskalasyon": "Postman Domain Başkanı → Group CTO",
+        "ritim": [
+          "günlük standup",
+          "haftalık skill sağlık",
+          "aylık arşiv yenileme"
+        ]
+      }
+    },
+    {
+      "ekip": "Ekip-AUTH-CLERK",
+      "domain_id": "AUTH-CLERK",
+      "ad": "Clerk",
+      "uyeler": 4,
+      "prompt_adet_ekip": 122,
+      "prompt_adet_uygulama": 122,
+      "7x24": {
+        "nobet": "Lead Operatör",
+        "eskalasyon": "Clerk Domain Başkanı → Group CISO",
+        "ritim": [
+          "günlük standup",
+          "haftalık skill sağlık",
+          "aylık arşiv yenileme"
+        ]
+      }
+    },
+    {
+      "ekip": "Ekip-AUTH-WO",
+      "domain_id": "AUTH-WO",
+      "ad": "WorkOS",
+      "uyeler": 4,
+      "prompt_adet_ekip": 122,
+      "prompt_adet_uygulama": 122,
+      "7x24": {
+        "nobet": "Lead Operatör",
+        "eskalasyon": "WorkOS Domain Başkanı → Group CISO",
+        "ritim": [
+          "günlük standup",
+          "haftalık skill sağlık",
+          "aylık arşiv yenileme"
+        ]
+      }
+    },
+    {
+      "ekip": "Ekip-BAAS-APP",
+      "domain_id": "BAAS-APP",
+      "ad": "Appwrite",
+      "uyeler": 4,
+      "prompt_adet_ekip": 122,
+      "prompt_adet_uygulama": 122,
+      "7x24": {
+        "nobet": "Lead Operatör",
+        "eskalasyon": "Appwrite Domain Başkanı → Group CTO",
+        "ritim": [
+          "günlük standup",
+          "haftalık skill sağlık",
+          "aylık arşiv yenileme"
+        ]
+      }
+    },
+    {
+      "ekip": "Ekip-BAAS-CONVEX",
+      "domain_id": "BAAS-CONVEX",
+      "ad": "Convex",
+      "uyeler": 4,
+      "prompt_adet_ekip": 122,
+      "prompt_adet_uygulama": 122,
+      "7x24": {
+        "nobet": "Lead Operatör",
+        "eskalasyon": "Convex Domain Başkanı → Group CTO",
+        "ritim": [
+          "günlük standup",
+          "haftalık skill sağlık",
+          "aylık arşiv yenileme"
+        ]
+      }
+    },
+    {
+      "ekip": "Ekip-BAAS-FB",
+      "domain_id": "BAAS-FB",
+      "ad": "Firebase",
+      "uyeler": 4,
+      "prompt_adet_ekip": 122,
+      "prompt_adet_uygulama": 122,
+      "7x24": {
+        "nobet": "Lead Operatör",
+        "eskalasyon": "Firebase Domain Başkanı → Group CTO",
+        "ritim": [
+          "günlük standup",
+          "haftalık skill sağlık",
+          "aylık arşiv yenileme"
+        ]
+      }
+    },
+    {
+      "ekip": "Ekip-BAAS-SUPA",
+      "domain_id": "BAAS-SUPA",
+      "ad": "Supabase",
+      "uyeler": 4,
+      "prompt_adet_ekip": 122,
+      "prompt_adet_uygulama": 122,
+      "7x24": {
+        "nobet": "Lead Operatör",
+        "eskalasyon": "Supabase Domain Başkanı → Group CTO",
+        "ritim": [
+          "günlük standup",
+          "haftalık skill sağlık",
+          "aylık arşiv yenileme"
+        ]
+      }
+    },
+    {
+      "ekip": "Ekip-BE-ENCORE",
+      "domain_id": "BE-ENCORE",
+      "ad": "Encore",
+      "uyeler": 4,
+      "prompt_adet_ekip": 122,
+      "prompt_adet_uygulama": 122,
+      "7x24": {
+        "nobet": "Lead Operatör",
+        "eskalasyon": "Encore Domain Başkanı → Group CTO",
+        "ritim": [
+          "günlük standup",
+          "haftalık skill sağlık",
+          "aylık arşiv yenileme"
+        ]
+      }
+    },
+    {
+      "ekip": "Ekip-BI-TS",
+      "domain_id": "BI-TS",
+      "ad": "ThoughtSpot / Omni / Hex",
+      "uyeler": 4,
+      "prompt_adet_ekip": 122,
+      "prompt_adet_uygulama": 122,
+      "7x24": {
+        "nobet": "Lead Operatör",
+        "eskalasyon": "ThoughtSpot / Omni / Hex Domain Başkanı → Group CDO",
+        "ritim": [
+          "günlük standup",
+          "haftalık skill sağlık",
+          "aylık arşiv yenileme"
+        ]
+      }
+    },
+    {
+      "ekip": "Ekip-CICD-HAR",
+      "domain_id": "CICD-HAR",
+      "ad": "Harness CI/CD",
+      "uyeler": 4,
+      "prompt_adet_ekip": 122,
+      "prompt_adet_uygulama": 122,
+      "7x24": {
+        "nobet": "Lead Operatör",
+        "eskalasyon": "Harness CI/CD Domain Başkanı → Group CTO",
+        "ritim": [
+          "günlük standup",
+          "haftalık skill sağlık",
+          "aylık arşiv yenileme"
+        ]
+      }
+    },
+    {
+      "ekip": "Ekip-CLOUD-AWS",
+      "domain_id": "CLOUD-AWS",
+      "ad": "AWS serverless",
+      "uyeler": 4,
+      "prompt_adet_ekip": 122,
+      "prompt_adet_uygulama": 122,
+      "7x24": {
+        "nobet": "Lead Operatör",
+        "eskalasyon": "AWS serverless Domain Başkanı → Group CTO",
+        "ritim": [
+          "günlük standup",
+          "haftalık skill sağlık",
+          "aylık arşiv yenileme"
+        ]
+      }
+    },
+    {
+      "ekip": "Ekip-CLOUD-AZ",
+      "domain_id": "CLOUD-AZ",
+      "ad": "Azure / Entra / Foundry",
+      "uyeler": 4,
+      "prompt_adet_ekip": 122,
+      "prompt_adet_uygulama": 122,
+      "7x24": {
+        "nobet": "Lead Operatör",
+        "eskalasyon": "Azure / Entra / Foundry Domain Başkanı → Group CTO",
+        "ritim": [
+          "günlük standup",
+          "haftalık skill sağlık",
+          "aylık arşiv yenileme"
+        ]
+      }
+    },
+    {
+      "ekip": "Ekip-COMMS-SLACK",
+      "domain_id": "COMMS-SLACK",
+      "ad": "Slack",
+      "uyeler": 4,
+      "prompt_adet_ekip": 122,
+      "prompt_adet_uygulama": 122,
+      "7x24": {
+        "nobet": "Lead Operatör",
+        "eskalasyon": "Slack Domain Başkanı → Group COO",
+        "ritim": [
+          "günlük standup",
+          "haftalık skill sağlık",
+          "aylık arşiv yenileme"
+        ]
+      }
+    },
+    {
+      "ekip": "Ekip-COMMS-TW",
+      "domain_id": "COMMS-TW",
+      "ad": "Twilio / SendGrid / Voice",
+      "uyeler": 4,
+      "prompt_adet_ekip": 122,
+      "prompt_adet_uygulama": 122,
+      "7x24": {
+        "nobet": "Lead Operatör",
+        "eskalasyon": "Twilio / SendGrid / Voice Domain Başkanı → Group CRO",
+        "ritim": [
+          "günlük standup",
+          "haftalık skill sağlık",
+          "aylık arşiv yenileme"
+        ]
+      }
+    },
+    {
+      "ekip": "Ekip-DATA-SNOW",
+      "domain_id": "DATA-SNOW",
+      "ad": "Snowflake",
+      "uyeler": 4,
+      "prompt_adet_ekip": 122,
+      "prompt_adet_uygulama": 122,
+      "7x24": {
+        "nobet": "Lead Operatör",
+        "eskalasyon": "Snowflake Domain Başkanı → Group CDO",
+        "ritim": [
+          "günlük standup",
+          "haftalık skill sağlık",
+          "aylık arşiv yenileme"
+        ]
+      }
+    },
+    {
+      "ekip": "Ekip-DATA-WH",
+      "domain_id": "DATA-WH",
+      "ad": "Warehouse / Airflow / dbt / Dagster",
+      "uyeler": 4,
+      "prompt_adet_ekip": 122,
+      "prompt_adet_uygulama": 122,
+      "7x24": {
+        "nobet": "Lead Operatör",
+        "eskalasyon": "Warehouse / Airflow / dbt / Dagster Domain Başkanı → Group CDO",
+        "ritim": [
+          "günlük standup",
+          "haftalık skill sağlık",
+          "aylık arşiv yenileme"
+        ]
+      }
+    },
+    {
+      "ekip": "Ekip-DB-DSQL",
+      "domain_id": "DB-DSQL",
+      "ad": "Aurora DSQL",
+      "uyeler": 4,
+      "prompt_adet_ekip": 122,
+      "prompt_adet_uygulama": 122,
+      "7x24": {
+        "nobet": "Lead Operatör",
+        "eskalasyon": "Aurora DSQL Domain Başkanı → Group CTO",
+        "ritim": [
+          "günlük standup",
+          "haftalık skill sağlık",
+          "aylık arşiv yenileme"
+        ]
+      }
+    },
+    {
+      "ekip": "Ekip-DB-MONGO",
+      "domain_id": "DB-MONGO",
+      "ad": "MongoDB Atlas",
+      "uyeler": 4,
+      "prompt_adet_ekip": 122,
+      "prompt_adet_uygulama": 122,
+      "7x24": {
+        "nobet": "Lead Operatör",
+        "eskalasyon": "MongoDB Atlas Domain Başkanı → Group CTO",
+        "ritim": [
+          "günlük standup",
+          "haftalık skill sağlık",
+          "aylık arşiv yenileme"
+        ]
+      }
+    },
+    {
+      "ekip": "Ekip-DB-PLANET",
+      "domain_id": "DB-PLANET",
+      "ad": "PlanetScale / Vitess / MySQL / Postgres",
+      "uyeler": 4,
+      "prompt_adet_ekip": 122,
+      "prompt_adet_uygulama": 122,
+      "7x24": {
+        "nobet": "Lead Operatör",
+        "eskalasyon": "PlanetScale / Vitess / MySQL / Postgres Domain Başkanı → Group CTO",
+        "ritim": [
+          "günlük standup",
+          "haftalık skill sağlık",
+          "aylık arşiv yenileme"
+        ]
+      }
+    },
+    {
+      "ekip": "Ekip-DB-SCYLLA",
+      "domain_id": "DB-SCYLLA",
+      "ad": "ScyllaDB",
+      "uyeler": 4,
+      "prompt_adet_ekip": 122,
+      "prompt_adet_uygulama": 122,
+      "7x24": {
+        "nobet": "Lead Operatör",
+        "eskalasyon": "ScyllaDB Domain Başkanı → Group CTO",
+        "ritim": [
+          "günlük standup",
+          "haftalık skill sağlık",
+          "aylık arşiv yenileme"
+        ]
+      }
+    },
+    {
+      "ekip": "Ekip-DEP-MONK",
+      "domain_id": "DEP-MONK",
+      "ad": "Monk deploy",
+      "uyeler": 4,
+      "prompt_adet_ekip": 122,
+      "prompt_adet_uygulama": 122,
+      "7x24": {
+        "nobet": "Lead Operatör",
+        "eskalasyon": "Monk deploy Domain Başkanı → Group COO",
+        "ritim": [
+          "günlük standup",
+          "haftalık skill sağlık",
+          "aylık arşiv yenileme"
+        ]
+      }
+    },
+    {
+      "ekip": "Ekip-DEP-RENDER",
+      "domain_id": "DEP-RENDER",
+      "ad": "Render",
+      "uyeler": 4,
+      "prompt_adet_ekip": 122,
+      "prompt_adet_uygulama": 122,
+      "7x24": {
+        "nobet": "Lead Operatör",
+        "eskalasyon": "Render Domain Başkanı → Group COO",
+        "ritim": [
+          "günlük standup",
+          "haftalık skill sağlık",
+          "aylık arşiv yenileme"
+        ]
+      }
+    },
+    {
+      "ekip": "Ekip-DEP-VERCEL",
+      "domain_id": "DEP-VERCEL",
+      "ad": "Vercel / Next",
+      "uyeler": 4,
+      "prompt_adet_ekip": 122,
+      "prompt_adet_uygulama": 122,
+      "7x24": {
+        "nobet": "Lead Operatör",
+        "eskalasyon": "Vercel / Next Domain Başkanı → Group CTO",
+        "ritim": [
+          "günlük standup",
+          "haftalık skill sağlık",
+          "aylık arşiv yenileme"
+        ]
+      }
+    },
+    {
+      "ekip": "Ekip-DES-FIGMA",
+      "domain_id": "DES-FIGMA",
+      "ad": "Figma",
+      "uyeler": 4,
+      "prompt_adet_ekip": 122,
+      "prompt_adet_uygulama": 122,
+      "7x24": {
+        "nobet": "Lead Operatör",
+        "eskalasyon": "Figma Domain Başkanı → Group CPO",
+        "ritim": [
+          "günlük standup",
+          "haftalık skill sağlık",
+          "aylık arşiv yenileme"
+        ]
+      }
+    },
+    {
+      "ekip": "Ekip-DOCS-PRD",
+      "domain_id": "DOCS-PRD",
+      "ad": "Docs / PRD / Mintlify",
+      "uyeler": 4,
+      "prompt_adet_ekip": 122,
+      "prompt_adet_uygulama": 122,
+      "7x24": {
+        "nobet": "Lead Operatör",
+        "eskalasyon": "Docs / PRD / Mintlify Domain Başkanı → Group CCO",
+        "ritim": [
+          "günlük standup",
+          "haftalık skill sağlık",
+          "aylık arşiv yenileme"
+        ]
+      }
+    },
+    {
+      "ekip": "Ekip-EDGE-CF",
+      "domain_id": "EDGE-CF",
+      "ad": "Cloudflare",
+      "uyeler": 4,
+      "prompt_adet_ekip": 122,
+      "prompt_adet_uygulama": 122,
+      "7x24": {
+        "nobet": "Lead Operatör",
+        "eskalasyon": "Cloudflare Domain Başkanı → Group CTO",
+        "ritim": [
+          "günlük standup",
+          "haftalık skill sağlık",
+          "aylık arşiv yenileme"
+        ]
+      }
+    },
+    {
+      "ekip": "Ekip-FE-GSAP",
+      "domain_id": "FE-GSAP",
+      "ad": "GSAP motion",
+      "uyeler": 4,
+      "prompt_adet_ekip": 122,
+      "prompt_adet_uygulama": 122,
+      "7x24": {
+        "nobet": "Lead Operatör",
+        "eskalasyon": "GSAP motion Domain Başkanı → Group CPO",
+        "ritim": [
+          "günlük standup",
+          "haftalık skill sağlık",
+          "aylık arşiv yenileme"
+        ]
+      }
+    },
+    {
+      "ekip": "Ekip-FEAT-CONF",
+      "domain_id": "FEAT-CONF",
+      "ad": "Feature flags / Confidence",
+      "uyeler": 4,
+      "prompt_adet_ekip": 122,
+      "prompt_adet_uygulama": 122,
+      "7x24": {
+        "nobet": "Lead Operatör",
+        "eskalasyon": "Feature flags / Confidence Domain Başkanı → Group CPO",
+        "ritim": [
+          "günlük standup",
+          "haftalık skill sağlık",
+          "aylık arşiv yenileme"
+        ]
+      }
+    },
+    {
+      "ekip": "Ekip-GEN-OPS",
+      "domain_id": "GEN-OPS",
+      "ad": "Genel Operasyon",
+      "uyeler": 4,
+      "prompt_adet_ekip": 122,
+      "prompt_adet_uygulama": 122,
+      "7x24": {
+        "nobet": "Lead Operatör",
+        "eskalasyon": "Genel Operasyon Domain Başkanı → Group COO",
+        "ritim": [
+          "günlük standup",
+          "haftalık skill sağlık",
+          "aylık arşiv yenileme"
+        ]
+      }
+    },
+    {
+      "ekip": "Ekip-META-CURSOR",
+      "domain_id": "META-CURSOR",
+      "ad": "Cursor meta skills",
+      "uyeler": 4,
+      "prompt_adet_ekip": 122,
+      "prompt_adet_uygulama": 122,
+      "7x24": {
+        "nobet": "Lead Operatör",
+        "eskalasyon": "Cursor meta skills Domain Başkanı → Group CIO",
+        "ritim": [
+          "günlük standup",
+          "haftalık skill sağlık",
+          "aylık arşiv yenileme"
+        ]
+      }
+    },
+    {
+      "ekip": "Ekip-ML-HF",
+      "domain_id": "ML-HF",
+      "ad": "Hugging Face",
+      "uyeler": 4,
+      "prompt_adet_ekip": 122,
+      "prompt_adet_uygulama": 122,
+      "7x24": {
+        "nobet": "Lead Operatör",
+        "eskalasyon": "Hugging Face Domain Başkanı → Group CAIO",
+        "ritim": [
+          "günlük standup",
+          "haftalık skill sağlık",
+          "aylık arşiv yenileme"
+        ]
+      }
+    },
+    {
+      "ekip": "Ekip-MOB-XCODE",
+      "domain_id": "MOB-XCODE",
+      "ad": "Xcode",
+      "uyeler": 4,
+      "prompt_adet_ekip": 122,
+      "prompt_adet_uygulama": 122,
+      "7x24": {
+        "nobet": "Lead Operatör",
+        "eskalasyon": "Xcode Domain Başkanı → Group CTO",
+        "ritim": [
+          "günlük standup",
+          "haftalık skill sağlık",
+          "aylık arşiv yenileme"
+        ]
+      }
+    },
+    {
+      "ekip": "Ekip-OBS-ELK",
+      "domain_id": "OBS-ELK",
+      "ad": "Elastic / Kibana / EDOT",
+      "uyeler": 4,
+      "prompt_adet_ekip": 122,
+      "prompt_adet_uygulama": 122,
+      "7x24": {
+        "nobet": "Lead Operatör",
+        "eskalasyon": "Elastic / Kibana / EDOT Domain Başkanı → Group CISO",
+        "ritim": [
+          "günlük standup",
+          "haftalık skill sağlık",
+          "aylık arşiv yenileme"
+        ]
+      }
+    },
+    {
+      "ekip": "Ekip-OBS-GRAF",
+      "domain_id": "OBS-GRAF",
+      "ad": "Grafana",
+      "uyeler": 4,
+      "prompt_adet_ekip": 122,
+      "prompt_adet_uygulama": 122,
+      "7x24": {
+        "nobet": "Lead Operatör",
+        "eskalasyon": "Grafana Domain Başkanı → Group CISO",
+        "ritim": [
+          "günlük standup",
+          "haftalık skill sağlık",
+          "aylık arşiv yenileme"
+        ]
+      }
+    },
+    {
+      "ekip": "Ekip-OBS-OBSERVE",
+      "domain_id": "OBS-OBSERVE",
+      "ad": "Observe / OTel / Alert",
+      "uyeler": 4,
+      "prompt_adet_ekip": 122,
+      "prompt_adet_uygulama": 122,
+      "7x24": {
+        "nobet": "Lead Operatör",
+        "eskalasyon": "Observe / OTel / Alert Domain Başkanı → Group CISO",
+        "ritim": [
+          "günlük standup",
+          "haftalık skill sağlık",
+          "aylık arşiv yenileme"
+        ]
+      }
+    },
+    {
+      "ekip": "Ekip-OBS-SENTRY",
+      "domain_id": "OBS-SENTRY",
+      "ad": "Sentry",
+      "uyeler": 4,
+      "prompt_adet_ekip": 122,
+      "prompt_adet_uygulama": 122,
+      "7x24": {
+        "nobet": "Lead Operatör",
+        "eskalasyon": "Sentry Domain Başkanı → Group CISO",
+        "ritim": [
+          "günlük standup",
+          "haftalık skill sağlık",
+          "aylık arşiv yenileme"
+        ]
+      }
+    },
+    {
+      "ekip": "Ekip-OPS-PD",
+      "domain_id": "OPS-PD",
+      "ad": "PagerDuty",
+      "uyeler": 4,
+      "prompt_adet_ekip": 122,
+      "prompt_adet_uygulama": 122,
+      "7x24": {
+        "nobet": "Lead Operatör",
+        "eskalasyon": "PagerDuty Domain Başkanı → Group COO",
+        "ritim": [
+          "günlük standup",
+          "haftalık skill sağlık",
+          "aylık arşiv yenileme"
+        ]
+      }
+    },
+    {
+      "ekip": "Ekip-OPS-TZ",
+      "domain_id": "OPS-TZ",
+      "ad": "TierZero / Antimetal incident",
+      "uyeler": 4,
+      "prompt_adet_ekip": 122,
+      "prompt_adet_uygulama": 122,
+      "7x24": {
+        "nobet": "Lead Operatör",
+        "eskalasyon": "TierZero / Antimetal incident Domain Başkanı → Group COO",
+        "ritim": [
+          "günlük standup",
+          "haftalık skill sağlık",
+          "aylık arşiv yenileme"
+        ]
+      }
+    },
+    {
+      "ekip": "Ekip-ORM-PRISMA",
+      "domain_id": "ORM-PRISMA",
+      "ad": "Prisma",
+      "uyeler": 4,
+      "prompt_adet_ekip": 122,
+      "prompt_adet_uygulama": 122,
+      "7x24": {
+        "nobet": "Lead Operatör",
+        "eskalasyon": "Prisma Domain Başkanı → Group CTO",
+        "ritim": [
+          "günlük standup",
+          "haftalık skill sağlık",
+          "aylık arşiv yenileme"
+        ]
+      }
+    },
+    {
+      "ekip": "Ekip-QA-BS",
+      "domain_id": "QA-BS",
+      "ad": "BrowserStack / a11y",
+      "uyeler": 4,
+      "prompt_adet_ekip": 122,
+      "prompt_adet_uygulama": 122,
+      "7x24": {
+        "nobet": "Lead Operatör",
+        "eskalasyon": "BrowserStack / a11y Domain Başkanı → Group CTO",
+        "ritim": [
+          "günlük standup",
+          "haftalık skill sağlık",
+          "aylık arşiv yenileme"
+        ]
+      }
+    },
+    {
+      "ekip": "Ekip-SEARCH-OS",
+      "domain_id": "SEARCH-OS",
+      "ad": "OpenSearch",
+      "uyeler": 4,
+      "prompt_adet_ekip": 122,
+      "prompt_adet_uygulama": 122,
+      "7x24": {
+        "nobet": "Lead Operatör",
+        "eskalasyon": "OpenSearch Domain Başkanı → Group CDO",
+        "ritim": [
+          "günlük standup",
+          "haftalık skill sağlık",
+          "aylık arşiv yenileme"
+        ]
+      }
+    },
+    {
+      "ekip": "Ekip-SEC-CRDB",
+      "domain_id": "SEC-CRDB",
+      "ad": "CockroachDB security/ops",
+      "uyeler": 4,
+      "prompt_adet_ekip": 122,
+      "prompt_adet_uygulama": 122,
+      "7x24": {
+        "nobet": "Lead Operatör",
+        "eskalasyon": "CockroachDB security/ops Domain Başkanı → Group CISO",
+        "ritim": [
+          "günlük standup",
+          "haftalık skill sağlık",
+          "aylık arşiv yenileme"
+        ]
+      }
+    },
+    {
+      "ekip": "Ekip-SEC-JFROG",
+      "domain_id": "SEC-JFROG",
+      "ad": "JFrog",
+      "uyeler": 4,
+      "prompt_adet_ekip": 122,
+      "prompt_adet_uygulama": 122,
+      "7x24": {
+        "nobet": "Lead Operatör",
+        "eskalasyon": "JFrog Domain Başkanı → Group CISO",
+        "ritim": [
+          "günlük standup",
+          "haftalık skill sağlık",
+          "aylık arşiv yenileme"
+        ]
+      }
+    },
+    {
+      "ekip": "Ekip-VEC-PIN",
+      "domain_id": "VEC-PIN",
+      "ad": "Pinecone",
+      "uyeler": 4,
+      "prompt_adet_ekip": 122,
+      "prompt_adet_uygulama": 122,
+      "7x24": {
+        "nobet": "Lead Operatör",
+        "eskalasyon": "Pinecone Domain Başkanı → Group CTO",
+        "ritim": [
+          "günlük standup",
+          "haftalık skill sağlık",
+          "aylık arşiv yenileme"
+        ]
+      }
+    },
+    {
+      "ekip": "Ekip-VEC-TPUF",
+      "domain_id": "VEC-TPUF",
+      "ad": "Turbopuffer",
+      "uyeler": 4,
+      "prompt_adet_ekip": 122,
+      "prompt_adet_uygulama": 122,
+      "7x24": {
+        "nobet": "Lead Operatör",
+        "eskalasyon": "Turbopuffer Domain Başkanı → Group CTO",
+        "ritim": [
+          "günlük standup",
+          "haftalık skill sağlık",
+          "aylık arşiv yenileme"
+        ]
+      }
+    },
+    {
+      "ekip": "Ekip-WEB-APIFY",
+      "domain_id": "WEB-APIFY",
+      "ad": "Apify / Firecrawl / Bright Data",
+      "uyeler": 4,
+      "prompt_adet_ekip": 122,
+      "prompt_adet_uygulama": 122,
+      "7x24": {
+        "nobet": "Lead Operatör",
+        "eskalasyon": "Apify / Firecrawl / Bright Data Domain Başkanı → Group CSO",
+        "ritim": [
+          "günlük standup",
+          "haftalık skill sağlık",
+          "aylık arşiv yenileme"
+        ]
+      }
+    },
+    {
+      "ekip": "Ekip-WF-TEMP",
+      "domain_id": "WF-TEMP",
+      "ad": "Temporal",
+      "uyeler": 4,
+      "prompt_adet_ekip": 122,
+      "prompt_adet_uygulama": 122,
+      "7x24": {
+        "nobet": "Lead Operatör",
+        "eskalasyon": "Temporal Domain Başkanı → Group CTO",
+        "ritim": [
+          "günlük standup",
+          "haftalık skill sağlık",
+          "aylık arşiv yenileme"
+        ]
+      }
+    }
+  ],
+  "hiyerarsi": [
+    "KURUL",
+    "C-OFİS",
+    "C-LEVEL",
+    "DOMAIN-YÖNETİM",
+    "YÖNETİM",
+    "IC",
+    "WORKER"
+  ]
+}
