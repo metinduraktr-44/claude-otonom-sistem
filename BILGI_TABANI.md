@@ -101,3 +101,5 @@
 - Ran read->distill->produce->validate->stamp. Generation: off.
 
 - [2026-08-03T09:54:00Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-03-SEC-OPS.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-08-03T15:57:47Z — mega-pront & unvan hiyerarsisi
+- CILT9 (UNVAN-HIYERARSISI) + MEGA-PRONT-MASTER uretildi. C->isci 7 kademe, top-100 insan-referans arastirma protokolu, aylik zaman-damgali arsiv (arastirma/{alan}/{unvan}/{YYYY-MM}), +100 yetenek matrisi, unvan-basi pront paketi politikasi. GitHub + Lovable (3 mod: Plan/Agent/Visual, Supabase, GitHub sync) + tum tools uyarlamasi. Imkansiz boyutlar (900B/900M karakter, tek-tur top-100) anayasa CILT1 §0 kirmizi bayragiyla isaretlendi; yerine kumulatif rotasyonlu dongu. Claude Code orkestrasyonu: subagent<agent-team</batch, CLAUDE.md ortak sozlesme.
