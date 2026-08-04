@@ -132,3 +132,4 @@
 
 - [2026-08-04T08:44:35Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-04-SEC-AUD.md); K4 Cowork oturumu taslağı doldurur.
 - [2026-08-04T08:50:51Z] title+500 soru (316500 indeks) · top100/domain (uydurma yok, pending slot) · 🚩900B RED · main merge conflict çözüldü · merge onaylı
+- [2026-08-04T08:52:35Z] PR #13 MERGED squash · 500 soru/title · top100 · 🚩900B RED · kisi uydurma yok
