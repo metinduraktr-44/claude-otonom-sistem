@@ -69,6 +69,29 @@ Kadans: gunluk 1 changelog · haftalik 1 ogrenim notu · aylik 1 sertifika modul
 ## 15. Insan-referans arastirma baglantisi
 Bu departmanin dunya top-5/top-100 uygulayici arsivi: `arastirma/{ulke}/{istirak}/MKT-PRF-LEAD/{YYYY-MM}-top5.md` (CILT9 §2 / CILT10 §5). Aylik tazelenir, geri-okunur.
 
+## 16. Oz-Denetim Soru Seti (gomulu + tam banka)
+Bu title'a **532 soruluk tam banka acik** (`docs/OZ-DENETIM-SORU-BANKASI.md`); asagida departman+kademe alt-seti gomulu. Gunluk dongu her kosumda bankadan ornekler ve standup'ta yanitlar.
+
+**Departman soru alt-seti (11):**
+1. Performans Pazarlama Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
+2. Performans Pazarlama Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
+3. Performans Pazarlama Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
+4. Medya Satın Alma Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
+5. Medya Satın Alma Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
+6. Medya Satın Alma Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
+7. Atıf (Attribution) Analisti birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
+8. Atıf (Attribution) Analisti ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
+9. Atıf (Attribution) Analisti alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
+10. Performans Pazarlama (AdOps) departmani ana ciktisi (Response DGA dikeyi: kampanya/atıf analizi) hedefte mi; sapma varsa kok neden ve duzeltme ne?
+11. Performans Pazarlama (AdOps) icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?
+
+**Kademe (EVP) soru alt-seti (5):**
+1. Departman OKR skoru guncel mi; kirmizi OKR icin plan var mi?
+2. Kadroyu asiri yukledim mi; kapasite dengeli mi?
+3. Playbook'u merge oncesi onayladim mi?
+4. Haftalik departman raporu yayinlandi mi?
+5. Sponsor C-level'a haftalik raporladim mi?
+
 ## Zorunlu denetim kuyrugu (CILT2)
 Her ciktiyi 6 katman dogrula (structural/integrity-SHA256/semantic/reference/known-patterns/review).
 Ogrenimi tek satir BILGI_TABANI.md'ye damit; islemi AUDIT_LOG.jsonl'e ts_start→ts_end damgala.

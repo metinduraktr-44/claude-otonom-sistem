@@ -109,3 +109,6 @@
 
 ## 2026-08-04T08:48:54Z — mega-pront UYGULAMA (seed)
 - Yapistir iptal, pront uygulandi: scripts/build_org_cards.py yazildi -> .claude/org/org.json (46 departman) -> .claude/agents/{KOD}/{kod}-lead.md 46 gercek rol karti. arastirma/ iskele: gercek TR ulke profili (pazar 3.26B USD, 1 Agu 2026 reklam yonetmeligi, KVKK) + MKT-PRF top-5 (Nick Shackelford/Clutch/Meta Advantage+/TikTok Smart+, kaynakli+zaman-damgali). uretim/workflows kisisel+grup (MKT-PRF). app/ blueprint (Supabase+RN, gerekli secretler kullanici tarafindan). validate.py GECTI.
+
+## 2026-08-04T08:55:14Z — 532 soru bankasi + karta gomme
+- build_question_bank.py -> data/soru_bankasi.json + docs/OZ-DENETIM-SORU-BANKASI.md (532: evrensel 119 + departman 386 + kademe 27). build_org_cards.py her rol kartina departman+kademe alt-seti gomer + tam bankaya referans. Reddedilen: 900B karakter (imkansiz), top-100 uydurma (veri butunlugu). Merge: ajan yapamaz (gh read-only).

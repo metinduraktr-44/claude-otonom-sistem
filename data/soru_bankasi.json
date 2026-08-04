@@ -1,0 +1,703 @@
+{
+ "generated": "2026-08-04T08:53:44Z",
+ "source": "scripts/build_question_bank.py (.claude/org/org.json)",
+ "toplam": 532,
+ "evrensel_kategori": {
+  "Strateji": [
+   "Bu is ajansin ceyreklik OKR'inin hangisine hizmet ediyor; etmiyorsa neden kuyrukta?",
+   "Bugunku en yuksek etkili 3 aksiyonu dogru siraladim mi; kanit ne?",
+   "Bu karari 3 ay sonra savunabilir miyim; hangi varsayima dayaniyor?",
+   "Rakip/pazar hareketine 7 gun icinde POV urettim mi?",
+   "Kaynagi en yuksek marjinal getiriye mi tahsis ettim, aliskanliga mi?",
+   "Bu hedef matematiksel olarak mumkun mu; degilse kirmizi bayrak verdim mi?"
+  ],
+  "Yurutme": [
+   "Cikti kopyala-yapistir hazir mi; alici ek is yapmadan kullanabilir mi?",
+   "Bir sonraki adimin sahibi ve tarihi net mi?",
+   "Bloklayici 4 saati asti mi; astiysa eskale ettim mi?",
+   "Bu gorevi tekrarlanabilir bir checklist'e donusturebilir miyim?",
+   "Dunku taahhudumu bugun kapattim mi; kapatmadiysam neden?",
+   "Isi en kucuk calisan parcaya boldum mu?"
+  ],
+  "Kalite-Dogrulama": [
+   "6 katmanin (structural/integrity/semantic/reference/known-patterns/review) hepsinden gecti mi?",
+   "SHA256 butunluk satiri guncel mi?",
+   "Bagimsiz bir gozle (ikinci ajan) review aldim mi?",
+   "Rework oranim artiyor mu; kok neden ne?",
+   "Bu ciktida tehlikeli desen (enjeksiyon/SSRF) taramasi yaptim mi?"
+  ],
+  "Veri-Durustlugu": [
+   "Sundugum her sayi gercek bir kaynaktan mi; tahminleri acikca etiketledim mi?",
+   "Orneklem buyuklugu sonucu tasiyacak kadar mi?",
+   "Anomaliyi buyukluk + hipotezle mi raporladim?",
+   "KPI'nin tanimi yazili mi; tanimsiz metrik yayinlamadim degil mi?",
+   "Korelasyonu nedensellik gibi sunmadim degil mi?"
+  ],
+  "Guvenlik": [
+   "Resmi kaynak (Anthropic/MCP) varken toplulук kaynagina mi gittim?",
+   "Script bundle eden bileşeni okumadan/ozetlemeden calistirdim mi?",
+   "'Son commit dun' diye guvenlik varsaydim mi (guncellik yanilgisi)?",
+   "Kurulumu kanonik org'dan mi yaptim, fork'tan mi?",
+   "Marketplace-oncelik katmanini kontrol ettim mi?"
+  ],
+  "Gelir": [
+   "Bu is 5 gelir kanalindan hangisini ilerletiyor?",
+   "Inbound lead yolu (README->iletisim) calisir durumda mi?",
+   "Referral firsatini kacirdim mi?",
+   "Pipeline degerini bu hafta guncelledim mi?",
+   "Bir sponsor/vendor gorusmesini ilerletmek icin bugun ne yaptim?"
+  ],
+  "Ogrenme": [
+   "Bugun en az 1 kaynak (changelog/makale) okudum mu; ogrenimi damittim mi?",
+   "Bu ogrenim BILGI_TABANI.md'ye tek satir olarak girdi mi?",
+   "Departmanimin platformunda bu hafta ne degisti; takip ettim mi?",
+   "Ilgili sertifika/egitimden bir modul tamamladim mi?",
+   "Bir beta/yeni urun ozelligini test edip not aldim mi?",
+   "Onceki kosumun ciktisini okudum mu (zincir kirilmadi mi)?"
+  ],
+  "Toplanti": [
+   "Standup satirim dun/bugun/blocker formatinda ve tek satir mi?",
+   "Tutanakta karar + aksiyon(sahip+tarih) + risk + bayrak var mi?",
+   "Kurul kararina K-no verdim mi?",
+   "Toplanti ciktisiz mi bitti (ciktisiz toplanti yok)?"
+  ],
+  "Eskalasyon": [
+   "Butce/politika riskini fin/leg'e ilettim mi?",
+   "Imkansiz hedefi [ne]-[neden]-[alternatif] formatinda mi verdim?",
+   "Sessiz kalip riski gomdum mu?",
+   "Cross-departman cakismayi dogru mercie tasidim mi?"
+  ],
+  "Olcumleme": [
+   "Bu aksiyonun basarisini hangi metrikle ve ne zaman olcecegim?",
+   "Atif modeli/olcum yontemi playbook'ta belgeli mi?",
+   "Holdout/artimsallik dusundum mu?",
+   "Dashboard SLA'sini tutturdum mu?"
+  ],
+  "Dokumantasyon": [
+   "Bu isi baska bir ajan benim yardimim olmadan tekrarlayabilir mi?",
+   "Artefakti zaman damgaladim mi?",
+   "Playbook'u guncel tuttum mu?"
+  ],
+  "Onceliklendirme": [
+   "P0 isleri gercekten P0 mi; yoksa kolay olani mi once yaptim?",
+   "Biten isi arsive tasidim mi?",
+   "Is listesini bugun yeniden onceliklendirdim mi?"
+  ],
+  "Risk": [
+   "Bu degisikligin geri-alma (rollback) plani var mi?",
+   "En kotu senaryo ne; sinyalini nasil erken yakalarim?",
+   "Tek nokta bagimlilik yarattim mi?"
+  ],
+  "Isbirligi": [
+   "Yukari/yatay/asagi arayuzlerimi bugun bilgilendirdim mi?",
+   "Baska bir departmanin isini kolaylastirmak icin ne yaptim?",
+   "Devrettigim isin sahibi net mi?"
+  ],
+  "Etik-Uyum": [
+   "Reklam politikasi acisindan bu cikti temiz mi?",
+   "KVKK/GDPR acisindan veri isleme uygun mu?",
+   "Lisans (MIT) hijyenine uydum mu?",
+   "Gercek kisilere atfen sahte icerik uretmedim degil mi?"
+  ],
+  "Otomasyon": [
+   "Bu manuel isi bir workflow'a cevirebilir miyim?",
+   "Actions yesil mi; kirmiziysa 24h icinde mudahale ettim mi?",
+   "Idempotent mi calisiyor (yeniden kosum bozmuyor mu)?"
+  ],
+  "Musteri": [
+   "Bu cikti bir musteri sorusunu/ihtiyacini gercekten cozuyor mu?",
+   "Rapor anlatisi sayi+baglam+sonraki adim iceriyor mu?",
+   "Churn/risk sinyalini 14 gun onceden isaretledim mi?"
+  ],
+  "Inovasyon-Beta": [
+   "Bu hafta hangi beta urunu/ozelligi denedim; bulgum ne?",
+   "Rakiplerin denemedigi bir aci buldum mu?",
+   "Deneyi hipotez->tasarim->kosum->ogrenim dongusuyle mi yuruttum?"
+  ],
+  "Makale-Icerik": [
+   "Bugunun makalesi kaynakli, TR ozetli ve CTA'li mi?",
+   "Icerik ajansin inbound hunisine hizmet ediyor mu?",
+   "Editoryal rotasyondan siradaki konuyu sectim mi?"
+  ],
+  "Oz-Gelisim": [
+   "Bu rolun ilk-30-gun hedeflerinin neresindeyim?",
+   "Anti-desenlerimden birine bugun dustum mu?",
+   "Bir sonraki kademeye hazirlik icin hangi beceriyi gelistiriyorum?"
+  ],
+  "Egitim-Sertifika": [
+   "Rolumle ilgili bir sertifika modulunu bu hafta ilerlettim mi?",
+   "Yeni ogrendigim bir teknigi bir ciktiya uyguladim mi?",
+   "Ekipteki baska bir ajana ogrettigim bir sey oldu mu?",
+   "Bilgi acigimi isimlendirdim mi; kapatma plani ne?"
+  ],
+  "Panel-Guncelleme": [
+   "Departmanimin platform changelog'unu bu hafta okudum mu?",
+   "Bir API/politika degisikligi mevcut kurulumu etkiliyor mu; migration gerekli mi?",
+   "Deprecation/sunset uyarisi var mi; takvime aldim mi?",
+   "Yeni bir panel ozelligi is akisimi hizlandirir mi?"
+  ],
+  "Kaynak-Okuma": [
+   "Bugun okudugum kaynagin URL'ini nota ekledim mi?",
+   "Okudugumdan cikan tek somut aksiyon ne?",
+   "Kaynagin guvenilirligini (resmi>capraz-konsensus>gecmis>yildiz) degerlendirdim mi?",
+   "Celisen iki kaynagi nasil uzlastirdim?"
+  ],
+  "Surec-Zinciri": [
+   "Bu kosum onceki kosumun ciktisini girdi aldi mi?",
+   "ts_start ve ts_end damgaladim mi?",
+   "Zincir kirilirsa DENETCI bulgusu duser mi; kontrol ettim mi?",
+   "Bir sonraki kosuma net bir girdi biraktim mi?"
+  ],
+  "Pazar-Rekabet": [
+   "Rakip bir hamle yapti mi; 7 gun icinde POV cikardim mi?",
+   "Sektor benchmark'imi bu ay tazeledim mi?",
+   "Rakiplerin sahiplenmedigi bir konumlanma acigi var mi?",
+   "Bir pazar sinyalini erken yakalayip aksiyona cevirdim mi?"
+  ],
+  "Verimlilik-Token": [
+   "Ciktiyi minimum token ile (progressive disclosure) mi urettim?",
+   "Ayni analizi tekrarladim mi; BILGI_TABANI'nda zaten var miydi?",
+   "Agir icerigi docs/'a koyup karti kisa mi tuttum?",
+   "Coklu benzer islemi tek cagrida grupladim mi?",
+   "Dolgu cumle urettim mi; sinyal/uzunluk oranim iyi mi?"
+  ],
+  "Toparlama-Retro": [
+   "Bu is bolumunun retrosundan tek satir ogrenim cikti mi?",
+   "Tekrar eden bir hatayi kalici duzelttim mi (kok neden)?",
+   "Bir sonraki sprint icin tasinacak riski isaretledim mi?"
+  ],
+  "Sahiplik-Hesapverebilirlik": [
+   "Bu isin tek net sahibi ben miyim; belirsizlik biraktim mi?",
+   "Bir hatayi savunmaya gecmeden sahiplendim mi?",
+   "Taahhut ettigim tarihi tutuyor muyum; tutmuyorsam erken haber verdim mi?",
+   "Baskasinin isini beklerken kendi tarafimi hazir tuttum mu?",
+   "Kararimin kanitini (link/commit/dosya) biraktim mi?",
+   "Bu cikti icin 'definition of done' karsilandi mi?",
+   "Bugun ajansi bir adim ileri goturen en somut sey neydi?",
+   "Yarina devrettigim en kritik acik madde ne; sahibi kim?",
+   "Bu isi bastan yapsam neyi farkli yapardim?",
+   "Olcebildigim bir ilerleme kaydettim mi, yoksa sadece mesgul mu gorundum?"
+  ]
+ },
+ "departman": {
+  "ENG-PLT": [
+   "Platform Mühendisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Platform Mühendisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Platform Mühendisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Altyapı Mühendisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Altyapı Mühendisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Altyapı Mühendisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "API Mühendisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "API Mühendisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "API Mühendisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Platform Mühendisliği departmani ana ciktisi (platform bileşen bakımı + API sözleşme denetimi) hedefte mi; sapma varsa kok neden ve duzeltme ne?",
+   "Platform Mühendisliği icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?"
+  ],
+  "ENG-APP": [
+   "Backend Mühendisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Backend Mühendisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Backend Mühendisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Frontend Mühendisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Frontend Mühendisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Frontend Mühendisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Mobil Mühendisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Mobil Mühendisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Mobil Mühendisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Uygulama Geliştirme departmani ana ciktisi (pilot paketleri için uygulama bileşeni üretimi) hedefte mi; sapma varsa kok neden ve duzeltme ne?",
+   "Uygulama Geliştirme icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?"
+  ],
+  "ENG-DEV": [
+   "DevOps Mühendisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "DevOps Mühendisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "DevOps Mühendisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Site Güvenilirlik Mühendisi (SRE) birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Site Güvenilirlik Mühendisi (SRE) ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Site Güvenilirlik Mühendisi (SRE) alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "DevOps & SRE departmani ana ciktisi (workflow sağlığı + gecelik döngü nöbeti) hedefte mi; sapma varsa kok neden ve duzeltme ne?",
+   "DevOps & SRE icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?"
+  ],
+  "ENG-QA": [
+   "Test Otomasyon Mühendisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Test Otomasyon Mühendisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Test Otomasyon Mühendisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "QA Analisti birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "QA Analisti ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "QA Analisti alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Kalite & Test departmani ana ciktisi (6 katman doğrulama koşumu + validate.py bakımı) hedefte mi; sapma varsa kok neden ve duzeltme ne?",
+   "Kalite & Test icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?"
+  ],
+  "AI-RES": [
+   "AI Araştırmacısı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "AI Araştırmacısı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "AI Araştırmacısı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Model Değerlendirme Uzmanı (Evals) birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Model Değerlendirme Uzmanı (Evals) ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Model Değerlendirme Uzmanı (Evals) alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "AI Araştırma departmani ana ciktisi (günlük literatür/repo taraması → BILGI_TABANI damıtımı) hedefte mi; sapma varsa kok neden ve duzeltme ne?",
+   "AI Araştırma icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?"
+  ],
+  "AI-AGT": [
+   "Ajan Mühendisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Ajan Mühendisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Ajan Mühendisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Orkestrasyon Mühendisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Orkestrasyon Mühendisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Orkestrasyon Mühendisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Araç (Tool) Entegrasyon Mühendisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Araç (Tool) Entegrasyon Mühendisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Araç (Tool) Entegrasyon Mühendisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Ajan Mühendisliği departmani ana ciktisi (yeni ajan bileşeni üretimi (CILT2 şablonu)) hedefte mi; sapma varsa kok neden ve duzeltme ne?",
+   "Ajan Mühendisliği icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?"
+  ],
+  "AI-PRM": [
+   "Prompt Mühendisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Prompt Mühendisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Prompt Mühendisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Context Mühendisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Context Mühendisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Context Mühendisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Prompt & Context Mühendisliği departmani ana ciktisi (pilot promptlarının v-serisi iyileştirmesi) hedefte mi; sapma varsa kok neden ve duzeltme ne?",
+   "Prompt & Context Mühendisliği icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?"
+  ],
+  "AI-SAF": [
+   "Hizalama Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Hizalama Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Hizalama Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Red-Team Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Red-Team Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Red-Team Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "AI Güvenliği & Hizalama departmani ana ciktisi (5 güvenlik kuralı denetimi + script inceleme (Kural 2)) hedefte mi; sapma varsa kok neden ve duzeltme ne?",
+   "AI Güvenliği & Hizalama icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?"
+  ],
+  "DAT-ENG": [
+   "Veri Mühendisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Veri Mühendisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Veri Mühendisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Veri Boru Hattı Mühendisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Veri Boru Hattı Mühendisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Veri Boru Hattı Mühendisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Veri Mühendisliği departmani ana ciktisi (AUDIT_LOG/BILGI_TABANI veri bütünlüğü) hedefte mi; sapma varsa kok neden ve duzeltme ne?",
+   "Veri Mühendisliği icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?"
+  ],
+  "DAT-SCI": [
+   "Veri Bilimci birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Veri Bilimci ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Veri Bilimci alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Makine Öğrenmesi Mühendisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Makine Öğrenmesi Mühendisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Makine Öğrenmesi Mühendisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Veri Bilimi departmani ana ciktisi (pilot metrik modelleri (tahmin/fiyat)) hedefte mi; sapma varsa kok neden ve duzeltme ne?",
+   "Veri Bilimi icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?"
+  ],
+  "DAT-BI": [
+   "BI Analisti birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "BI Analisti ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "BI Analisti alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Veri Görselleştirme Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Veri Görselleştirme Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Veri Görselleştirme Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Analitik & BI departmani ana ciktisi (haftalık konsolide paket metrikleri) hedefte mi; sapma varsa kok neden ve duzeltme ne?",
+   "Analitik & BI icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?"
+  ],
+  "PRD-MGT": [
+   "Ürün Yöneticisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Ürün Yöneticisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Ürün Yöneticisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Teknik Ürün Yöneticisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Teknik Ürün Yöneticisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Teknik Ürün Yöneticisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Ürün Yönetimi departmani ana ciktisi (bileşen yol haritası önceliklendirme) hedefte mi; sapma varsa kok neden ve duzeltme ne?",
+   "Ürün Yönetimi icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?"
+  ],
+  "PRD-DSN": [
+   "Ürün Tasarımcısı (UX) birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Ürün Tasarımcısı (UX) ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Ürün Tasarımcısı (UX) alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Arayüz Tasarımcısı (UI) birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Arayüz Tasarımcısı (UI) ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Arayüz Tasarımcısı (UI) alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Tasarım Sistemi Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Tasarım Sistemi Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Tasarım Sistemi Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Tasarım departmani ana ciktisi (pilot arayüz/şablon tasarımları) hedefte mi; sapma varsa kok neden ve duzeltme ne?",
+   "Tasarım icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?"
+  ],
+  "PRD-OPS": [
+   "Ürün Operasyon Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Ürün Operasyon Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Ürün Operasyon Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Kullanıcı Araştırmacısı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Kullanıcı Araştırmacısı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Kullanıcı Araştırmacısı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Ürün Operasyonları departmani ana ciktisi (kullanım geri bildirimi → KARAR_LOGU girdisi) hedefte mi; sapma varsa kok neden ve duzeltme ne?",
+   "Ürün Operasyonları icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?"
+  ],
+  "MKT-BRD": [
+   "Marka Stratejisti birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Marka Stratejisti ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Marka Stratejisti alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "İçerik Pazarlama Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "İçerik Pazarlama Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "İçerik Pazarlama Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Marka & İçerik departmani ana ciktisi (Movéa pilotu marka içerik üretimi) hedefte mi; sapma varsa kok neden ve duzeltme ne?",
+   "Marka & İçerik icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?"
+  ],
+  "MKT-PRF": [
+   "Performans Pazarlama Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Performans Pazarlama Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Performans Pazarlama Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Medya Satın Alma Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Medya Satın Alma Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Medya Satın Alma Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Atıf (Attribution) Analisti birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Atıf (Attribution) Analisti ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Atıf (Attribution) Analisti alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Performans Pazarlama (AdOps) departmani ana ciktisi (Response DGA dikeyi: kampanya/atıf analizi) hedefte mi; sapma varsa kok neden ve duzeltme ne?",
+   "Performans Pazarlama (AdOps) icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?"
+  ],
+  "MKT-SEO": [
+   "SEO Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "SEO Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "SEO Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "İçerik Optimizasyon Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "İçerik Optimizasyon Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "İçerik Optimizasyon Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "SEO & Organik Büyüme departmani ana ciktisi (repo/ürün sayfası görünürlük artışı) hedefte mi; sapma varsa kok neden ve duzeltme ne?",
+   "SEO & Organik Büyüme icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?"
+  ],
+  "MKT-SOC": [
+   "Sosyal Medya Yöneticisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Sosyal Medya Yöneticisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Sosyal Medya Yöneticisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Topluluk Yöneticisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Topluluk Yöneticisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Topluluk Yöneticisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Sosyal Medya departmani ana ciktisi (LinkedIn yayın akışı (movea komutu ile)) hedefte mi; sapma varsa kok neden ve duzeltme ne?",
+   "Sosyal Medya icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?"
+  ],
+  "REV-SLS": [
+   "Satış Temsilcisi (AE) birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Satış Temsilcisi (AE) ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Satış Temsilcisi (AE) alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Satış Geliştirme Temsilcisi (SDR) birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Satış Geliştirme Temsilcisi (SDR) ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Satış Geliştirme Temsilcisi (SDR) alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Satış departmani ana ciktisi (ajans lead hunisi takibi (GELIR_MOTORU kanal 5)) hedefte mi; sapma varsa kok neden ve duzeltme ne?",
+   "Satış icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?"
+  ],
+  "REV-PRT": [
+   "Ortaklık Yöneticisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Ortaklık Yöneticisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Ortaklık Yöneticisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Sponsorluk Geliştirme Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Sponsorluk Geliştirme Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Sponsorluk Geliştirme Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "İş Ortaklıkları departmani ana ciktisi (infra sponsorluk adayları (kanal 1) izleme) hedefte mi; sapma varsa kok neden ve duzeltme ne?",
+   "İş Ortaklıkları icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?"
+  ],
+  "REV-CSM": [
+   "Müşteri Başarı Yöneticisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Müşteri Başarı Yöneticisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Müşteri Başarı Yöneticisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Onboarding Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Onboarding Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Onboarding Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Müşteri Başarısı departmani ana ciktisi (pilot iç müşteri memnuniyet döngüsü) hedefte mi; sapma varsa kok neden ve duzeltme ne?",
+   "Müşteri Başarısı icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?"
+  ],
+  "REV-OPS": [
+   "RevOps Analisti birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "RevOps Analisti ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "RevOps Analisti alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "CRM Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "CRM Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "CRM Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Gelir Operasyonları departmani ana ciktisi (gelir kanalı metrik panosu) hedefte mi; sapma varsa kok neden ve duzeltme ne?",
+   "Gelir Operasyonları icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?"
+  ],
+  "MED-PUB": [
+   "Teknik Yazar birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Teknik Yazar ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Teknik Yazar alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Editör birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Editör ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Editör alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Araştırma Yazarı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Araştırma Yazarı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Araştırma Yazarı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Yayıncılık & Makale departmani ana ciktisi (GÜNDE MİN. 1 makale/güncelleme üretimi) hedefte mi; sapma varsa kok neden ve duzeltme ne?",
+   "Yayıncılık & Makale icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?"
+  ],
+  "MED-CRE": [
+   "Video Editörü birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Video Editörü ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Video Editörü alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Grafik Tasarımcısı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Grafik Tasarımcısı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Grafik Tasarımcısı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Video & Kreatif departmani ana ciktisi (tanıtım/kreatif varlık üretimi) hedefte mi; sapma varsa kok neden ve duzeltme ne?",
+   "Video & Kreatif icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?"
+  ],
+  "MED-LOC": [
+   "Yerelleştirme Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Yerelleştirme Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Yerelleştirme Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Çevirmen-Editör birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Çevirmen-Editör ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Çevirmen-Editör alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Yerelleştirme (TR) departmani ana ciktisi (katalog bileşenlerinin TR/dikey uyarlaması) hedefte mi; sapma varsa kok neden ve duzeltme ne?",
+   "Yerelleştirme (TR) icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?"
+  ],
+  "OPS-PMO": [
+   "Program Yöneticisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Program Yöneticisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Program Yöneticisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Proje Koordinatörü birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Proje Koordinatörü ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Proje Koordinatörü alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Program Yönetimi (PMO) departmani ana ciktisi (günlük iş listesi dağıtımı + takip) hedefte mi; sapma varsa kok neden ve duzeltme ne?",
+   "Program Yönetimi (PMO) icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?"
+  ],
+  "OPS-BIZ": [
+   "İş Operasyon Analisti birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "İş Operasyon Analisti ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "İş Operasyon Analisti alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Süreç İyileştirme Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Süreç İyileştirme Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Süreç İyileştirme Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "İş Operasyonları departmani ana ciktisi (operasyon ritmi (CILT6) uygulaması) hedefte mi; sapma varsa kok neden ve duzeltme ne?",
+   "İş Operasyonları icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?"
+  ],
+  "OPS-TLS": [
+   "Araç Yönetim Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Araç Yönetim Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Araç Yönetim Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Tedarik Analisti birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Tedarik Analisti ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Tedarik Analisti alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Araç & Tedarik departmani ana ciktisi (araç envanteri + maliyet izleme) hedefte mi; sapma varsa kok neden ve duzeltme ne?",
+   "Araç & Tedarik icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?"
+  ],
+  "FIN-FPA": [
+   "FP&A Analisti birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "FP&A Analisti ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "FP&A Analisti alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Bütçe Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Bütçe Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Bütçe Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Finansal Planlama (FP&A) departmani ana ciktisi (token/kredi bütçe takibi) hedefte mi; sapma varsa kok neden ve duzeltme ne?",
+   "Finansal Planlama (FP&A) icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?"
+  ],
+  "FIN-ACC": [
+   "Muhasebe Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Muhasebe Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Muhasebe Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Finansal Raporlama Analisti birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Finansal Raporlama Analisti ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Finansal Raporlama Analisti alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Muhasebe & Raporlama departmani ana ciktisi (aylık finansal özet) hedefte mi; sapma varsa kok neden ve duzeltme ne?",
+   "Muhasebe & Raporlama icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?"
+  ],
+  "FIN-REV": [
+   "Gelir Analisti birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Gelir Analisti ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Gelir Analisti alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Monetizasyon Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Monetizasyon Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Monetizasyon Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Gelir Motoru İzleme departmani ana ciktisi (GELIR_MOTORU.md 5 kanal KPI'ları) hedefte mi; sapma varsa kok neden ve duzeltme ne?",
+   "Gelir Motoru İzleme icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?"
+  ],
+  "SEC-OPS": [
+   "Güvenlik Operasyon Analisti birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Güvenlik Operasyon Analisti ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Güvenlik Operasyon Analisti alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Olay Müdahale Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Olay Müdahale Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Olay Müdahale Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Güvenlik Operasyonları departmani ana ciktisi (günlük güvenlik taraması) hedefte mi; sapma varsa kok neden ve duzeltme ne?",
+   "Güvenlik Operasyonları icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?"
+  ],
+  "SEC-AUD": [
+   "Denetçi (Auditor) birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Denetçi (Auditor) ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Denetçi (Auditor) alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Bileşen Güvenlik İnceleme Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Bileşen Güvenlik İnceleme Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Bileşen Güvenlik İnceleme Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Uyum Denetimi (5 Kural) departmani ana ciktisi (her yeni bileşen: 5 kural + script inceleme onayı) hedefte mi; sapma varsa kok neden ve duzeltme ne?",
+   "Uyum Denetimi (5 Kural) icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?"
+  ],
+  "SEC-SUP": [
+   "Tedarik Zinciri Güvenlik Analisti birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Tedarik Zinciri Güvenlik Analisti ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Tedarik Zinciri Güvenlik Analisti alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Bağımlılık İzleme Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Bağımlılık İzleme Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Bağımlılık İzleme Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Tedarik Zinciri Güvenliği departmani ana ciktisi (upstream/bağımlılık değişiklik kontrolü) hedefte mi; sapma varsa kok neden ve duzeltme ne?",
+   "Tedarik Zinciri Güvenliği icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?"
+  ],
+  "HRA-REC": [
+   "Ajan İşe Alım Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Ajan İşe Alım Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Ajan İşe Alım Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Yetenek Haritalama Analisti birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Yetenek Haritalama Analisti ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Yetenek Haritalama Analisti alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Ajan İşe Alım departmani ana ciktisi (katalogdan rol-bileşen eşleştirme (işe alım)) hedefte mi; sapma varsa kok neden ve duzeltme ne?",
+   "Ajan İşe Alım icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?"
+  ],
+  "HRA-PRF": [
+   "Performans Değerlendirme Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Performans Değerlendirme Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Performans Değerlendirme Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Kalite Güvence Analisti birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Kalite Güvence Analisti ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Kalite Güvence Analisti alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Performans & Kalite departmani ana ciktisi (ajan çıktı kalite puanlama) hedefte mi; sapma varsa kok neden ve duzeltme ne?",
+   "Performans & Kalite icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?"
+  ],
+  "HRA-LRN": [
+   "Bilgi Tabanı Küratörü birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Bilgi Tabanı Küratörü ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Bilgi Tabanı Küratörü alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Öğrenim Damıtma Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Öğrenim Damıtma Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Öğrenim Damıtma Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Eğitim & Bilgi Tabanı departmani ana ciktisi (BILGI_TABANI.md küratörlüğü (append-only)) hedefte mi; sapma varsa kok neden ve duzeltme ne?",
+   "Eğitim & Bilgi Tabanı icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?"
+  ],
+  "LGL-LIC": [
+   "Lisans Uyum Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Lisans Uyum Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Lisans Uyum Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Atıf (Attribution) Denetçisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Atıf (Attribution) Denetçisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Atıf (Attribution) Denetçisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Lisans Uyumu (MIT) departmani ana ciktisi (MIT atıf bütünlüğü (LICENSE-UPSTREAM)) hedefte mi; sapma varsa kok neden ve duzeltme ne?",
+   "Lisans Uyumu (MIT) icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?"
+  ],
+  "LGL-PRV": [
+   "Gizlilik Uzmanı (KVKK/GDPR) birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Gizlilik Uzmanı (KVKK/GDPR) ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Gizlilik Uzmanı (KVKK/GDPR) alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Veri Sınıflandırma Analisti birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Veri Sınıflandırma Analisti ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Veri Sınıflandırma Analisti alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Veri Gizliliği departmani ana ciktisi (pilot verilerinde gizlilik kontrolü) hedefte mi; sapma varsa kok neden ve duzeltme ne?",
+   "Veri Gizliliği icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?"
+  ],
+  "INF-MCP": [
+   "MCP Entegrasyon Mühendisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "MCP Entegrasyon Mühendisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "MCP Entegrasyon Mühendisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Bağlayıcı (Connector) Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Bağlayıcı (Connector) Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Bağlayıcı (Connector) Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "MCP Entegrasyonları departmani ana ciktisi (MCP kataloğu bakım + yeni bağlayıcı değerlendirme) hedefte mi; sapma varsa kok neden ve duzeltme ne?",
+   "MCP Entegrasyonları icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?"
+  ],
+  "INF-SET": [
+   "Yapılandırma Yöneticisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Yapılandırma Yöneticisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Yapılandırma Yöneticisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Ortam (Environment) Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Ortam (Environment) Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Ortam (Environment) Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Ayar & Yapılandırma departmani ana ciktisi (settings şablonları + ortam standartları) hedefte mi; sapma varsa kok neden ve duzeltme ne?",
+   "Ayar & Yapılandırma icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?"
+  ],
+  "INF-HKS": [
+   "Hook Geliştirici birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Hook Geliştirici ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Hook Geliştirici alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Otomasyon Mühendisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Otomasyon Mühendisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Otomasyon Mühendisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Hooks & Otomasyon departmani ana ciktisi (damga/denetim hook zinciri bakımı) hedefte mi; sapma varsa kok neden ve duzeltme ne?",
+   "Hooks & Otomasyon icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?"
+  ],
+  "INF-LOP": [
+   "Döngü Operatörü birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Döngü Operatörü ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Döngü Operatörü alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Zamanlama (Scheduler) Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Zamanlama (Scheduler) Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Zamanlama (Scheduler) Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Döngüler & Zamanlama departmani ana ciktisi (nightly + daily-agency + upstream-sync nöbeti) hedefte mi; sapma varsa kok neden ve duzeltme ne?",
+   "Döngüler & Zamanlama icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?"
+  ],
+  "STR-INT": [
+   "Pazar İstihbarat Analisti birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Pazar İstihbarat Analisti ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Pazar İstihbarat Analisti alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Trend Araştırmacısı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Trend Araştırmacısı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Trend Araştırmacısı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Pazar İstihbaratı departmani ana ciktisi (günlük ekosistem taraması (CILT3 haritası)) hedefte mi; sapma varsa kok neden ve duzeltme ne?",
+   "Pazar İstihbaratı icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?"
+  ],
+  "STR-CMP": [
+   "Rakip Analiz Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Rakip Analiz Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Rakip Analiz Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Kıyaslama (Benchmark) Analisti birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Kıyaslama (Benchmark) Analisti ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Kıyaslama (Benchmark) Analisti alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Rakip Analizi departmani ana ciktisi (muadil repo/ürün kıyaslama raporu) hedefte mi; sapma varsa kok neden ve duzeltme ne?",
+   "Rakip Analizi icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?"
+  ],
+  "STR-GRW": [
+   "Büyüme Stratejisti birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Büyüme Stratejisti ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Büyüme Stratejisti alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Yatırım Analisti birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?",
+   "Yatırım Analisti ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?",
+   "Yatırım Analisti alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?",
+   "Büyüme & Yatırım departmani ana ciktisi (gelir kanalı büyüme deneyleri) hedefte mi; sapma varsa kok neden ve duzeltme ne?",
+   "Büyüme & Yatırım icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?"
+  ]
+ },
+ "kademe": {
+  "C-LEVEL": [
+   "Ajans OKR attainment'i %80 ustunde mi; degilse kurtarma plani ne?",
+   "Bir faz kapisini kanitsiz GECTI saymadim degil mi?",
+   "Mikro-yonetime kaydim mi; yetkiyi dogru devrettim mi?",
+   "Sahibe danismadan bir taahhut verdim mi?",
+   "5 gelir kanalinin hepsinin sahibi ve durumu net mi?",
+   "Kurul gundemini kanit-linkli hazirladim mi?"
+  ],
+  "EVP": [
+   "Departman OKR skoru guncel mi; kirmizi OKR icin plan var mi?",
+   "Kadroyu asiri yukledim mi; kapasite dengeli mi?",
+   "Playbook'u merge oncesi onayladim mi?",
+   "Haftalik departman raporu yayinlandi mi?",
+   "Sponsor C-level'a haftalik raporladim mi?"
+  ],
+  "DIRECTOR": [
+   "Birim backlog'u dogru onceliklendi mi?",
+   "Uzman ciktisini publish oncesi review ettim mi?",
+   "Birim retrosundan ogrenim damittim mi?",
+   "Cross-unit cakismayi EVP'ye tasidim mi?"
+  ],
+  "LEAD": [
+   "Is akisi standardi/checklist guncel mi?",
+   "Uzman gorevlerini gunluk atadim/review ettim mi?",
+   "Haftalik is akisi ozetini yazdim mi?",
+   "Riski metrik kanitiyla mi bayrakladim?"
+  ],
+  "SPECIALIST": [
+   "Ciktim kopyala-hazir ve checklist'li mi?",
+   "Bu hafta playbook'a 1 iyilestirme onerdim mi?",
+   "Isi metrik gerekcesi olmadan mi sundum?",
+   "Damgasiz cikti biraktim mi?"
+  ],
+  "ANALYST": [
+   "Veri kesitim tanim-ekli mi?",
+   "Anomaliyi buyukluk+hipotezle mi isaretledim?",
+   "Tahmini acikca etiketledim mi?",
+   "Veri uydurmadim degil mi?"
+  ]
+ }
+}

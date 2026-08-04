@@ -10,6 +10,7 @@ import json, os
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ORG = os.path.join(ROOT, ".claude", "org", "org.json")
+BANK = os.path.join(ROOT, "data", "soru_bankasi.json")
 
 if not os.path.exists(ORG):
     raise SystemExit("org.json yok — once: python3 scripts/daily_agency.py --org-json")
@@ -17,6 +18,9 @@ if not os.path.exists(ORG):
 data = json.load(open(ORG, encoding="utf-8"))
 TS = data.get("generated", "")
 depts = data["departments"]
+
+# Soru bankasi (varsa) — her karta departman+kademe alt-setini gomer; tam banka referansi
+bank = json.load(open(BANK, encoding="utf-8")) if os.path.exists(BANK) else None
 
 
 def card(d):
@@ -30,6 +34,22 @@ def card(d):
     aile_satir = "\n".join(f"- {kod}-F{i+1}: **{a}** (L6 aile basi → L5..L1 kademe)"
                            for i, a in enumerate(aileler))
     kaynak_satir = "\n".join(f"- `{e}`" for e in esleme)
+    # Oz-denetim soru seti (gomulu alt-set + tam banka referansi)
+    if bank:
+        dept_qs = bank.get("departman", {}).get(kod, [])
+        tier_qs = bank.get("kademe", {}).get("EVP", [])
+        toplam = bank.get("toplam", 0)
+        soru_bloklari = []
+        soru_bloklari.append(f"**Departman soru alt-seti ({len(dept_qs)}):**")
+        soru_bloklari += [f"{i+1}. {q}" for i, q in enumerate(dept_qs)]
+        soru_bloklari.append(f"\n**Kademe (EVP) soru alt-seti ({len(tier_qs)}):**")
+        soru_bloklari += [f"{i+1}. {q}" for i, q in enumerate(tier_qs)]
+        soru_metni = "\n".join(soru_bloklari)
+        soru_ozet = (f"Bu title'a **{toplam} soruluk tam banka acik** (`docs/OZ-DENETIM-SORU-BANKASI.md`); "
+                     f"asagida departman+kademe alt-seti gomulu. Gunluk dongu her kosumda bankadan ornekler ve standup'ta yanitlar.")
+    else:
+        soru_metni = "(soru bankasi yok — once: python3 scripts/build_question_bank.py)"
+        soru_ozet = "Tam banka: `docs/OZ-DENETIM-SORU-BANKASI.md`."
     return f"""---
 name: {slug}
 description: "{ad} departman lideri (EVP); {chair} baskanligina bagli. Ana cikti: {cikti}. Departman OKR/kalite/kadro sahibi. Paid Social/strateji eskalasyonu veya departman kararinda cagir."
@@ -97,6 +117,11 @@ Kadans: gunluk 1 changelog · haftalik 1 ogrenim notu · aylik 1 sertifika modul
 
 ## 15. Insan-referans arastirma baglantisi
 Bu departmanin dunya top-5/top-100 uygulayici arsivi: `arastirma/{{ulke}}/{{istirak}}/{kod}-LEAD/{{YYYY-MM}}-top5.md` (CILT9 §2 / CILT10 §5). Aylik tazelenir, geri-okunur.
+
+## 16. Oz-Denetim Soru Seti (gomulu + tam banka)
+{soru_ozet}
+
+{soru_metni}
 
 ## Zorunlu denetim kuyrugu (CILT2)
 Her ciktiyi 6 katman dogrula (structural/integrity-SHA256/semantic/reference/known-patterns/review).
