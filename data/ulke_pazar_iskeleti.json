@@ -1,0 +1,331 @@
+{
+  "ts": "2026-08-04T08:38:41Z",
+  "ulke_adet": 10,
+  "markets": [
+    {
+      "code": "TR",
+      "name": "Türkiye",
+      "role": "hedef+pazar",
+      "lang": "tr",
+      "law": [
+        "KVKK",
+        "Ticaret Kanunu",
+        "Reklam Kurulu"
+      ],
+      "priority": 1,
+      "nightly_workflow": {
+        "cron": "0 2 * * *",
+        "steps": [
+          "önceki arşivi oku (zaman damgalı)",
+          "ülke hukuku/dil/rekabet yeniden tara",
+          "top5 kişi/kurum makale+proje güncelle",
+          "BILGI_TABANI tek satır",
+          "AUDIT_LOG damga"
+        ]
+      },
+      "agency_overlay": {
+        "titles": [
+          "Country Lead",
+          "Legal Local",
+          "Growth Local",
+          "Ops Local",
+          "Support Local"
+        ],
+        "prompt_adet_each": 122
+      },
+      "archive_path": "uretim/ulke-arsiv/TR/"
+    },
+    {
+      "code": "US",
+      "name": "United States",
+      "role": "pazar",
+      "lang": "en",
+      "law": [
+        "CCPA/CPRA",
+        "FTC Ads",
+        "HIPAA (health touch)"
+      ],
+      "priority": 2,
+      "nightly_workflow": {
+        "cron": "0 2 * * *",
+        "steps": [
+          "önceki arşivi oku (zaman damgalı)",
+          "ülke hukuku/dil/rekabet yeniden tara",
+          "top5 kişi/kurum makale+proje güncelle",
+          "BILGI_TABANI tek satır",
+          "AUDIT_LOG damga"
+        ]
+      },
+      "agency_overlay": {
+        "titles": [
+          "Country Lead",
+          "Legal Local",
+          "Growth Local",
+          "Ops Local",
+          "Support Local"
+        ],
+        "prompt_adet_each": 122
+      },
+      "archive_path": "uretim/ulke-arsiv/US/"
+    },
+    {
+      "code": "DE",
+      "name": "Germany",
+      "role": "pazar",
+      "lang": "de",
+      "law": [
+        "GDPR",
+        "UWG",
+        "TMG"
+      ],
+      "priority": 3,
+      "nightly_workflow": {
+        "cron": "0 2 * * *",
+        "steps": [
+          "önceki arşivi oku (zaman damgalı)",
+          "ülke hukuku/dil/rekabet yeniden tara",
+          "top5 kişi/kurum makale+proje güncelle",
+          "BILGI_TABANI tek satır",
+          "AUDIT_LOG damga"
+        ]
+      },
+      "agency_overlay": {
+        "titles": [
+          "Country Lead",
+          "Legal Local",
+          "Growth Local",
+          "Ops Local",
+          "Support Local"
+        ],
+        "prompt_adet_each": 122
+      },
+      "archive_path": "uretim/ulke-arsiv/DE/"
+    },
+    {
+      "code": "UK",
+      "name": "United Kingdom",
+      "role": "pazar",
+      "lang": "en",
+      "law": [
+        "UK GDPR",
+        "ASA CAP",
+        "PECR"
+      ],
+      "priority": 4,
+      "nightly_workflow": {
+        "cron": "0 2 * * *",
+        "steps": [
+          "önceki arşivi oku (zaman damgalı)",
+          "ülke hukuku/dil/rekabet yeniden tara",
+          "top5 kişi/kurum makale+proje güncelle",
+          "BILGI_TABANI tek satır",
+          "AUDIT_LOG damga"
+        ]
+      },
+      "agency_overlay": {
+        "titles": [
+          "Country Lead",
+          "Legal Local",
+          "Growth Local",
+          "Ops Local",
+          "Support Local"
+        ],
+        "prompt_adet_each": 122
+      },
+      "archive_path": "uretim/ulke-arsiv/UK/"
+    },
+    {
+      "code": "NL",
+      "name": "Netherlands",
+      "role": "pazar",
+      "lang": "nl",
+      "law": [
+        "GDPR",
+        "ACM"
+      ],
+      "priority": 5,
+      "nightly_workflow": {
+        "cron": "0 2 * * *",
+        "steps": [
+          "önceki arşivi oku (zaman damgalı)",
+          "ülke hukuku/dil/rekabet yeniden tara",
+          "top5 kişi/kurum makale+proje güncelle",
+          "BILGI_TABANI tek satır",
+          "AUDIT_LOG damga"
+        ]
+      },
+      "agency_overlay": {
+        "titles": [
+          "Country Lead",
+          "Legal Local",
+          "Growth Local",
+          "Ops Local",
+          "Support Local"
+        ],
+        "prompt_adet_each": 122
+      },
+      "archive_path": "uretim/ulke-arsiv/NL/"
+    },
+    {
+      "code": "AE",
+      "name": "United Arab Emirates",
+      "role": "pazar",
+      "lang": "ar/en",
+      "law": [
+        "PDPL",
+        "ADGM/DIFC"
+      ],
+      "priority": 6,
+      "nightly_workflow": {
+        "cron": "0 2 * * *",
+        "steps": [
+          "önceki arşivi oku (zaman damgalı)",
+          "ülke hukuku/dil/rekabet yeniden tara",
+          "top5 kişi/kurum makale+proje güncelle",
+          "BILGI_TABANI tek satır",
+          "AUDIT_LOG damga"
+        ]
+      },
+      "agency_overlay": {
+        "titles": [
+          "Country Lead",
+          "Legal Local",
+          "Growth Local",
+          "Ops Local",
+          "Support Local"
+        ],
+        "prompt_adet_each": 122
+      },
+      "archive_path": "uretim/ulke-arsiv/AE/"
+    },
+    {
+      "code": "SA",
+      "name": "Saudi Arabia",
+      "role": "pazar",
+      "lang": "ar/en",
+      "law": [
+        "PDPL",
+        "CITC"
+      ],
+      "priority": 7,
+      "nightly_workflow": {
+        "cron": "0 2 * * *",
+        "steps": [
+          "önceki arşivi oku (zaman damgalı)",
+          "ülke hukuku/dil/rekabet yeniden tara",
+          "top5 kişi/kurum makale+proje güncelle",
+          "BILGI_TABANI tek satır",
+          "AUDIT_LOG damga"
+        ]
+      },
+      "agency_overlay": {
+        "titles": [
+          "Country Lead",
+          "Legal Local",
+          "Growth Local",
+          "Ops Local",
+          "Support Local"
+        ],
+        "prompt_adet_each": 122
+      },
+      "archive_path": "uretim/ulke-arsiv/SA/"
+    },
+    {
+      "code": "CA",
+      "name": "Canada",
+      "role": "pazar",
+      "lang": "en/fr",
+      "law": [
+        "PIPEDA",
+        "CASL"
+      ],
+      "priority": 8,
+      "nightly_workflow": {
+        "cron": "0 2 * * *",
+        "steps": [
+          "önceki arşivi oku (zaman damgalı)",
+          "ülke hukuku/dil/rekabet yeniden tara",
+          "top5 kişi/kurum makale+proje güncelle",
+          "BILGI_TABANI tek satır",
+          "AUDIT_LOG damga"
+        ]
+      },
+      "agency_overlay": {
+        "titles": [
+          "Country Lead",
+          "Legal Local",
+          "Growth Local",
+          "Ops Local",
+          "Support Local"
+        ],
+        "prompt_adet_each": 122
+      },
+      "archive_path": "uretim/ulke-arsiv/CA/"
+    },
+    {
+      "code": "AU",
+      "name": "Australia",
+      "role": "pazar",
+      "lang": "en",
+      "law": [
+        "Privacy Act",
+        "ACL"
+      ],
+      "priority": 9,
+      "nightly_workflow": {
+        "cron": "0 2 * * *",
+        "steps": [
+          "önceki arşivi oku (zaman damgalı)",
+          "ülke hukuku/dil/rekabet yeniden tara",
+          "top5 kişi/kurum makale+proje güncelle",
+          "BILGI_TABANI tek satır",
+          "AUDIT_LOG damga"
+        ]
+      },
+      "agency_overlay": {
+        "titles": [
+          "Country Lead",
+          "Legal Local",
+          "Growth Local",
+          "Ops Local",
+          "Support Local"
+        ],
+        "prompt_adet_each": 122
+      },
+      "archive_path": "uretim/ulke-arsiv/AU/"
+    },
+    {
+      "code": "FR",
+      "name": "France",
+      "role": "pazar",
+      "lang": "fr",
+      "law": [
+        "GDPR",
+        "CNIL",
+        "ARPP"
+      ],
+      "priority": 10,
+      "nightly_workflow": {
+        "cron": "0 2 * * *",
+        "steps": [
+          "önceki arşivi oku (zaman damgalı)",
+          "ülke hukuku/dil/rekabet yeniden tara",
+          "top5 kişi/kurum makale+proje güncelle",
+          "BILGI_TABANI tek satır",
+          "AUDIT_LOG damga"
+        ]
+      },
+      "agency_overlay": {
+        "titles": [
+          "Country Lead",
+          "Legal Local",
+          "Growth Local",
+          "Ops Local",
+          "Support Local"
+        ],
+        "prompt_adet_each": 122
+      },
+      "archive_path": "uretim/ulke-arsiv/FR/"
+    }
+  ]
+}
