@@ -4,7 +4,7 @@
 - title: **Harness CI/CD Skill Uzmanı (IC)**
 - domain: `CICD-HAR`
 - skills: `/analyze-costs`, `/audit-report`, `/create-agent`, `/create-agent-template`, `/create-connector`, `/create-environment`
-- ts: 2026-08-03T16:03:13Z
+- ts: 2026-08-04T08:44:49Z
 - hedef: 4000-12000 karakter · 🚩 900B/900M YASAK
 
 ## 1. Kimlik

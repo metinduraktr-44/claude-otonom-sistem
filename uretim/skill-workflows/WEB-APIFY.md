@@ -1,5 +1,5 @@
 # Workflow — Apify / Firecrawl / Bright Data (`WEB-APIFY`)
-> 2026-08-03T16:03:13Z · skills=24
+> 2026-08-04T08:44:49Z · skills=24
 
 ## Amaç
 Apify / Firecrawl / Bright Data skill kümesini LLM ajans olarak 7×24 işlet.

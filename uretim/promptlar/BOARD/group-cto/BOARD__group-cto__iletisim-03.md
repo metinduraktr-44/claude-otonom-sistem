@@ -4,7 +4,7 @@
 - rol: **Group CTO**
 - departman: `BOARD` · başkan: `HOLDING`
 - aile: İletişim & rapor
-- ts_uretim: 2026-08-03T15:49:56Z
+- ts_uretim: 2026-08-04T08:44:48Z
 - hedef_uzunluk: 4000-12000 karakter (🚩 900M YASAK)
 - dogruluk_hedefi: %99 (kaynaklı iddia; yoksa varsayım etiketi)
 
@@ -26,7 +26,7 @@ Kurul özeti 2-4 satır; tek net çıktı; DENETÇİ 6 katman.
 Araç çağrısı öncesi GetMcpTools şema doğrula. Yazma işlemlerinde onay kuralına uy.
 
 ## 5. Etki / yetenek referansı
-İzlenen sinyal: teknoloji: Benedict Evans · kültür/yetenek: Billie Eilish.
+İzlenen sinyal: teknoloji: Clem Delangue · kültür/yetenek: Steve McCurry.
 Alıntı kuralı: kaynak URL + tarih; yoksa `VARSAYIM:` etiketi.
 
 ## 6. İş adımları (zorunlu sıra)

@@ -1,5 +1,5 @@
 # MCP HİYERARŞİSİ — mekanizma & katmanlar
-> Üretim: 2026-08-03T15:49:56Z · katalog=93 · canlı=81 · toplam=174
+> Üretim: 2026-08-04T08:44:48Z · katalog=93 · canlı=81 · toplam=174
 
 ## 🚩 Kapsam notu
 900M karakterlik prompt üretimi reddedildi. Bu belge MCP envanteri + iş akışı katmanlarıdır.

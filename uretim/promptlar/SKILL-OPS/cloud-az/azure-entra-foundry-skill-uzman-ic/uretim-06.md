@@ -4,7 +4,7 @@
 - title: **Azure / Entra / Foundry Skill Uzmanı (IC)**
 - domain: `CLOUD-AZ`
 - skills: `/airunway-aks-setup`, `/appinsights-instrumentation`, `/azure-ai`, `/azure-aigateway`, `/azure-cloud-migrate`, `/azure-compliance`
-- ts: 2026-08-03T16:03:13Z
+- ts: 2026-08-04T08:44:49Z
 - hedef: 4000-12000 karakter · 🚩 900B/900M YASAK
 
 ## 1. Kimlik

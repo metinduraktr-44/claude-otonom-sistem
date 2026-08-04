@@ -1,5 +1,5 @@
 # Workflow — AWS serverless (`CLOUD-AWS`)
-> 2026-08-03T16:03:13Z · skills=16
+> 2026-08-04T08:44:49Z · skills=16
 
 ## Amaç
 AWS serverless skill kümesini LLM ajans olarak 7×24 işlet.

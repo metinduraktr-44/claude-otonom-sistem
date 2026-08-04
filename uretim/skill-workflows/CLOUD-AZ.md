@@ -1,5 +1,5 @@
 # Workflow — Azure / Entra / Foundry (`CLOUD-AZ`)
-> 2026-08-03T16:03:13Z · skills=27
+> 2026-08-04T08:44:49Z · skills=27
 
 ## Amaç
 Azure / Entra / Foundry skill kümesini LLM ajans olarak 7×24 işlet.

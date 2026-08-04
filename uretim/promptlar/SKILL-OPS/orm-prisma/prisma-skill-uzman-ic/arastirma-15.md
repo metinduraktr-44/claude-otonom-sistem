@@ -4,7 +4,7 @@
 - title: **Prisma Skill Uzmanı (IC)**
 - domain: `ORM-PRISMA`
 - skills: `/prisma-cli-db-execute`, `/prisma-cli-db-pull`, `/prisma-cli-db-push`, `/prisma-cli-db-seed`, `/prisma-cli-debug`, `/prisma-cli-dev`
-- ts: 2026-08-03T16:03:13Z
+- ts: 2026-08-04T08:44:49Z
 - hedef: 4000-12000 karakter · 🚩 900B/900M YASAK
 
 ## 1. Kimlik

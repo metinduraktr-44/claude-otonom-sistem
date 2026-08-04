@@ -1,5 +1,5 @@
 # Workflow — Hugging Face (`ML-HF`)
-> 2026-08-03T16:03:13Z · skills=18
+> 2026-08-04T08:44:49Z · skills=18
 
 ## Amaç
 Hugging Face skill kümesini LLM ajans olarak 7×24 işlet.

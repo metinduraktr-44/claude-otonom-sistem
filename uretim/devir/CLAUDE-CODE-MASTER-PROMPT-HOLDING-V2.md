@@ -1,55 +1,40 @@
-# CLAUDE CODE MASTER PROMPT — HOLDING V2 (yapıştır)
+# HOLDING V2 MASTER — UYGULAMA PROTOKOLÜ (Cursor ajan çalıştırır)
 
-> Üretim: 2026-08-04T08:38:41Z · Repo: claude-otonom-sistem · Dal: cursor/mcp-ajans-etki-arsivi-8e8f
-> Cursor Cloud üretti → Claude Code'a **tek parça** yapıştır.
+> Üretim/uygulama: 2026-08-04T08:44:30Z · Repo: claude-otonom-sistem · Dal: cursor/mcp-ajans-etki-arsivi-8e8f
+> **Claude Code'a yapıştırma İPTAL.** Aynı protokolü Cursor Cloud ajanı uygular ve push eder.
 
 ## 🚩 ZORUNLU RED
-Her prompt ≥900.000.000 / ≥900.000.000.000 / ≥9e17 karakter **RED**.
+≥900.000.000 / ≥900.000.000.000 / ≥9e17 karakter prompt **RED**.
 **Uygula:** 122 prompt/title · 4–12 KiB · referans zinciri · dry-run.
 
-## FAZ 0 — Senkron
+## FAZ DURUMU (2026-08-04T08:44:30Z)
+| Faz | Durum |
+|---|---|
+| 0 Senkron/doğrula | GEÇTİ (mcp+skill+holding) |
+| 1 Zincir oku | GEÇTİ |
+| 2 Eşik kontrol | GEÇTİ (8/633/957/10; 900M+=0) |
+| 3 Uygula | GEÇTİ (kart=120, 10 ülke arşiv, dry-run, IS_LISTESI, transfer paket) |
+| 4 5 güvenlik kuralı | GEÇTİ (secret commit yok; resmi kaynak öncelik) |
+| 5 Damga+push+PR | BU KOŞUM |
+| 6 Rapor | BU KOŞUM |
+
+## Komutlar (yeniden koşum)
 ```bash
-cd "$(git rev-parse --show-toplevel)"
-git fetch origin && git status -sb
 python3 scripts/mcp_ajans_etki_uret.py --dogrula
 python3 scripts/skill_ajans_uretim.py --dogrula
+python3 scripts/holding_istirak_ajans_uret.py --hepsi --pilot-limit 120
 python3 scripts/holding_istirak_ajans_uret.py --dogrula
 ```
 
-## FAZ 1 — Oku (zincir 🔗)
-1. BILGI_TABANI.md (en yeni)
-2. docs/HOLDING-ISTIRAK-ORG.md · data/holding_istirak_org.json
-3. docs/OZ-DENETIM-SORU-BANKASI.md · data/soru_bankasi.json
-4. docs/ULKE-PAZAR-ISKELETI.md · data/ulke_pazar_iskeleti.json
-5. docs/SECRETS-DRYRUN-MATRISI.md · .env.example
-6. docs/LLM-AI-AJANS-ETKI-MOTORU.md · docs/SKILL-AJANS-HIYERARSI.md
-7. uretim/OZET-TEK-SAYFA.md · uretim/rol-kartlari/
+## Artefaktlar
+- `IS_LISTESI.md` · `uretim/OZET-TEK-SAYFA.md`
+- `uretim/rol-kartlari/` (120) · `uretim/ulke-arsiv/*/YYYY-MM-DD.md`
+- `uretim/dry-run/` · `uretim/devir/istirak/*-TRANSFER.md`
+- `docs/SECRETS-DRYRUN-MATRISI.md`
 
-## FAZ 2 — Doğrula
-- iştirak ≥ 7 (şu an 8)
-- rol ≥ 100 (şu an 633)
-- soru bankası ≥ 501 (şu an 957)
-- ülke ≥ 8 (şu an 10)
-- hiçbir 900M+ karakter dosya yok
-
-## FAZ 3 — Uygula (kredi-min)
-1. `python3 scripts/holding_istirak_ajans_uret.py --hepsi`
-2. İsteğe bağlı: `--pilot-limit N` ile daha fazla rol kartı
-3. Credential yoksa dry-run matrisi doldur; hesap açma zorunlu değil
-4. Ülke nightly: `uretim/ulke-arsiv/TR/` örnek not + zaman damgası
-5. Cowork URL bekleme — repo döngüsü yeterli
-
-## FAZ 4 — 5 güvenlik kuralı
-Resmi kaynak · script tedbiri · güncellik yanılgısı yok · fork yasağı · marketplace öncelik
-
-## FAZ 5 — Damga
-BILGI_TABANI tek satır · AUDIT_LOG · commit/push · PR #13 güncelle
-
-## FAZ 6 — Rapor
-Türkçe kısa tablo: iştirak/rol/soru/ülke + 🚩 + sonraki 3 aksiyon
+## Cross-repo
+`adops-agents` ve diğer iştiraklere bu entegrasyonun **push yetkisi yok**.
+Transfer paketleri HQ’da; yazma yetkisi gelince uygula.
 
 ## Çıktı sözleşmesi
 ⏱️ Damga · 🔍 Denetim · 📚 Öğrenim · 🔗 Önceki
-
----
-Metin: Bu prompt Cursor'dan. FAZ 0→6 uygula; 900B üretme; secrets commit etme.

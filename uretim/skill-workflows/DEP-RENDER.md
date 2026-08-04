@@ -1,5 +1,5 @@
 # Workflow — Render (`DEP-RENDER`)
-> 2026-08-03T16:03:13Z · skills=19
+> 2026-08-04T08:44:49Z · skills=19
 
 ## Amaç
 Render skill kümesini LLM ajans olarak 7×24 işlet.

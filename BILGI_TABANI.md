@@ -38,6 +38,22 @@
 - Gelir motoru kararı: hedef iş = CLAUDE OTONOM SİSTEM'in kendisi (bileşen kütüphanesi ürünleştirme). Mevcut 5 iş (Tahmin Uzmanı, VESTRA, İBB Kültür AŞ, Movéa, Response DGA) pilot iç müşteri — dogfooding. Detay: GELIR_MOTORU.md.
 
 <!-- SONRAKİ GİRİŞLER BURAYA — en yeni en üstte -->
+## 2026-08-04T08:44:49Z — skill ajans envanteri
+- skills=696; domains=50; titles=216; pilot_prompts=2440; ekipler=50
+- 🚩 900B karakter RED; Claude Code MASTER üretilidi.
+
+## 2026-08-04T08:44:48Z — MCP×etki×prompt motoru
+- MCP=174; tech=141; cult=116; org_roles=104; prompts_index=12688
+- 🚩 900M karakter/prompt reddedildi (K-017 emsali); 122×(4–12KiB) sözleşme.
+
+## 2026-08-04T08:43:07Z — skill ajans envanteri
+- skills=696; domains=50; titles=216; pilot_prompts=2440; ekipler=50
+- 🚩 900B karakter RED; Claude Code MASTER üretilidi.
+
+## 2026-08-04T08:43:07Z — MCP×etki×prompt motoru
+- MCP=174; tech=141; cult=116; org_roles=104; prompts_index=12688
+- 🚩 900M karakter/prompt reddedildi (K-017 emsali); 122×(4–12KiB) sözleşme.
+
 ## 2026-08-03T16:03:13Z — skill ajans envanteri
 - skills=696; domains=50; titles=216; pilot_prompts=2440; ekipler=50
 - 🚩 900B karakter RED; Claude Code MASTER üretilidi.
@@ -110,3 +126,4 @@
 
 - [2026-08-03T09:54:00Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-03-SEC-OPS.md); K4 Cowork oturumu taslağı doldurur.
 - [2026-08-04T08:39:12Z] holding-istirak: 8 birim · 633 rol · 957 soru · 10 ülke · 48 rol kartı · SECRETS dry-run · CLAUDE-CODE MASTER V2 · 🚩900B RED
+- [2026-08-04T08:44:48Z] MASTER-V2 UYGULANDI (Claude Code iptal): FAZ0-6 · kart=120 · 10 ülke arşiv · dry-run · IS_LISTESI · 7 transfer paket · adops push yetkisi yok → paket HQ

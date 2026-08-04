@@ -1,5 +1,5 @@
 # Workflow — Cursor meta skills (`META-CURSOR`)
-> 2026-08-03T16:03:13Z · skills=17
+> 2026-08-04T08:44:49Z · skills=17
 
 ## Amaç
 Cursor meta skills skill kümesini LLM ajans olarak 7×24 işlet.
