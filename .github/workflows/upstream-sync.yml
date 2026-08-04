@@ -9,7 +9,7 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: SHA karşılaştır (Kural 2 — oto-vendorlama YOK, sadece kayıt)
         run: |
           NEW=$(git ls-remote https://github.com/davila7/claude-code-templates.git HEAD | cut -f1)
