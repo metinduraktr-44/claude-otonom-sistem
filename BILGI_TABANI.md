@@ -168,3 +168,6 @@
 - Tüm metrikler terminalde; watch döngüsü aktif
 
 - [2026-08-04T09:41:05Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-04-SEC-AUD.md); K4 Cowork oturumu taslağı doldurur.
+### 2026-08-04T12:50:48Z — OPENROUTER
+- scripts/openrouter_client.py · daily_agency llm öncelik OpenRouter
+- Bu cloud run'da OPENROUTER_API_KEY YOK → dry-run; Cursor Secrets'a ekle
