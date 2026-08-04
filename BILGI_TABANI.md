@@ -103,3 +103,6 @@
 - [2026-08-03T09:54:00Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-03-SEC-OPS.md); K4 Cowork oturumu taslağı doldurur.
 ## 2026-08-03T15:57:47Z — mega-pront & unvan hiyerarsisi
 - CILT9 (UNVAN-HIYERARSISI) + MEGA-PRONT-MASTER uretildi. C->isci 7 kademe, top-100 insan-referans arastirma protokolu, aylik zaman-damgali arsiv (arastirma/{alan}/{unvan}/{YYYY-MM}), +100 yetenek matrisi, unvan-basi pront paketi politikasi. GitHub + Lovable (3 mod: Plan/Agent/Visual, Supabase, GitHub sync) + tum tools uyarlamasi. Imkansiz boyutlar (900B/900M karakter, tek-tur top-100) anayasa CILT1 §0 kirmizi bayragiyla isaretlendi; yerine kumulatif rotasyonlu dongu. Claude Code orkestrasyonu: subagent<agent-team</batch, CLAUDE.md ortak sozlesme.
+
+## 2026-08-04T08:36:39Z — holding + cok-ulke + app mimarisi (CILT10)
+- CILT10 + UNVAN-KARTI-SABLONU uretildi. Katmanli yapi: app(iOS/Android/Web) -> holding -> istirak -> C->isci org -> ulke kopyasi. AdOps 20 departman taksonomisi + EVP rol-karti semasi + 501 soru bankasi entegre. Kisisel+grup workflow (egitim/to-do/roadmap/toplanti/ust-yan-alt iletisim). Gecelik top-5 arastirma (org x ulke x unvan) zaman-damgali arsiv + aylik tazeleme. Kirmizi bayrak: 900 katrilyon karakter imkansiz; ajan hesap/API-key/secret ACAMAZ (kullanici Secrets panelinden ekler); claude.ai/cowork linkleri erisilemez.
