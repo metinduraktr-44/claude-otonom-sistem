@@ -106,3 +106,6 @@
 
 ## 2026-08-04T08:36:39Z — holding + cok-ulke + app mimarisi (CILT10)
 - CILT10 + UNVAN-KARTI-SABLONU uretildi. Katmanli yapi: app(iOS/Android/Web) -> holding -> istirak -> C->isci org -> ulke kopyasi. AdOps 20 departman taksonomisi + EVP rol-karti semasi + 501 soru bankasi entegre. Kisisel+grup workflow (egitim/to-do/roadmap/toplanti/ust-yan-alt iletisim). Gecelik top-5 arastirma (org x ulke x unvan) zaman-damgali arsiv + aylik tazeleme. Kirmizi bayrak: 900 katrilyon karakter imkansiz; ajan hesap/API-key/secret ACAMAZ (kullanici Secrets panelinden ekler); claude.ai/cowork linkleri erisilemez.
+
+## 2026-08-04T08:48:54Z — mega-pront UYGULAMA (seed)
+- Yapistir iptal, pront uygulandi: scripts/build_org_cards.py yazildi -> .claude/org/org.json (46 departman) -> .claude/agents/{KOD}/{kod}-lead.md 46 gercek rol karti. arastirma/ iskele: gercek TR ulke profili (pazar 3.26B USD, 1 Agu 2026 reklam yonetmeligi, KVKK) + MKT-PRF top-5 (Nick Shackelford/Clutch/Meta Advantage+/TikTok Smart+, kaynakli+zaman-damgali). uretim/workflows kisisel+grup (MKT-PRF). app/ blueprint (Supabase+RN, gerekli secretler kullanici tarafindan). validate.py GECTI.

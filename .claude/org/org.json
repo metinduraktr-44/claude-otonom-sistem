@@ -1,0 +1,664 @@
+{
+ "generated": "2026-08-04T08:43:59Z",
+ "source": "scripts/daily_agency.py --org-json (CILT5 §99 sırası)",
+ "departments": [
+  {
+   "code": "ENG-PLT",
+   "name_tr": "Platform Mühendisliği",
+   "chair": "CTO",
+   "esleme": [
+    "katalog/agents/development-team",
+    "katalog/agents/api-graphql",
+    "katalog/skills/development"
+   ],
+   "cikti": "platform bileşen bakımı + API sözleşme denetimi",
+   "aileler": [
+    "Platform Mühendisi",
+    "Altyapı Mühendisi",
+    "API Mühendisi"
+   ]
+  },
+  {
+   "code": "ENG-APP",
+   "name_tr": "Uygulama Geliştirme",
+   "chair": "CTO",
+   "esleme": [
+    "katalog/agents/programming-languages",
+    "katalog/skills/web-development",
+    "katalog/commands/nextjs-vercel"
+   ],
+   "cikti": "pilot paketleri için uygulama bileşeni üretimi",
+   "aileler": [
+    "Backend Mühendisi",
+    "Frontend Mühendisi",
+    "Mobil Mühendisi"
+   ]
+  },
+  {
+   "code": "ENG-DEV",
+   "name_tr": "DevOps & SRE",
+   "chair": "CTO",
+   "esleme": [
+    "katalog/agents/devops-infrastructure",
+    "katalog/commands/deployment",
+    "katalog/commands/automation"
+   ],
+   "cikti": "workflow sağlığı + gecelik döngü nöbeti",
+   "aileler": [
+    "DevOps Mühendisi",
+    "Site Güvenilirlik Mühendisi (SRE)"
+   ]
+  },
+  {
+   "code": "ENG-QA",
+   "name_tr": "Kalite & Test",
+   "chair": "CTO",
+   "esleme": [
+    "katalog/agents/performance-testing",
+    "katalog/commands/testing"
+   ],
+   "cikti": "6 katman doğrulama koşumu + validate.py bakımı",
+   "aileler": [
+    "Test Otomasyon Mühendisi",
+    "QA Analisti"
+   ]
+  },
+  {
+   "code": "AI-RES",
+   "name_tr": "AI Araştırma",
+   "chair": "CAIO",
+   "esleme": [
+    "katalog/agents/ai-specialists",
+    "katalog/skills/ai-research"
+   ],
+   "cikti": "günlük literatür/repo taraması → BILGI_TABANI damıtımı",
+   "aileler": [
+    "AI Araştırmacısı",
+    "Model Değerlendirme Uzmanı (Evals)"
+   ]
+  },
+  {
+   "code": "AI-AGT",
+   "name_tr": "Ajan Mühendisliği",
+   "chair": "CAIO",
+   "esleme": [
+    "katalog/agents/ai-specialists",
+    "katalog/agents/mcp-dev-team",
+    "katalog/commands/orchestration"
+   ],
+   "cikti": "yeni ajan bileşeni üretimi (CILT2 şablonu)",
+   "aileler": [
+    "Ajan Mühendisi",
+    "Orkestrasyon Mühendisi",
+    "Araç (Tool) Entegrasyon Mühendisi"
+   ]
+  },
+  {
+   "code": "AI-PRM",
+   "name_tr": "Prompt & Context Mühendisliği",
+   "chair": "CAIO",
+   "esleme": [
+    "katalog/agents/ai-specialists",
+    "katalog/skills/ai-maestro"
+   ],
+   "cikti": "pilot promptlarının v-serisi iyileştirmesi",
+   "aileler": [
+    "Prompt Mühendisi",
+    "Context Mühendisi"
+   ]
+  },
+  {
+   "code": "AI-SAF",
+   "name_tr": "AI Güvenliği & Hizalama",
+   "chair": "CAIO",
+   "esleme": [
+    "katalog/agents/security",
+    "katalog/skills/security"
+   ],
+   "cikti": "5 güvenlik kuralı denetimi + script inceleme (Kural 2)",
+   "aileler": [
+    "Hizalama Uzmanı",
+    "Red-Team Uzmanı"
+   ]
+  },
+  {
+   "code": "DAT-ENG",
+   "name_tr": "Veri Mühendisliği",
+   "chair": "CDO",
+   "esleme": [
+    "katalog/agents/database",
+    "katalog/skills/database"
+   ],
+   "cikti": "AUDIT_LOG/BILGI_TABANI veri bütünlüğü",
+   "aileler": [
+    "Veri Mühendisi",
+    "Veri Boru Hattı Mühendisi"
+   ]
+  },
+  {
+   "code": "DAT-SCI",
+   "name_tr": "Veri Bilimi",
+   "chair": "CDO",
+   "esleme": [
+    "katalog/agents/data-ai",
+    "katalog/skills/scientific"
+   ],
+   "cikti": "pilot metrik modelleri (tahmin/fiyat)",
+   "aileler": [
+    "Veri Bilimci",
+    "Makine Öğrenmesi Mühendisi"
+   ]
+  },
+  {
+   "code": "DAT-BI",
+   "name_tr": "Analitik & BI",
+   "chair": "CDO",
+   "esleme": [
+    "katalog/skills/analytics",
+    "katalog/commands/analysis"
+   ],
+   "cikti": "haftalık konsolide paket metrikleri",
+   "aileler": [
+    "BI Analisti",
+    "Veri Görselleştirme Uzmanı"
+   ]
+  },
+  {
+   "code": "PRD-MGT",
+   "name_tr": "Ürün Yönetimi",
+   "chair": "CPO",
+   "esleme": [
+    "katalog/agents/expert-advisors",
+    "katalog/commands/project-management"
+   ],
+   "cikti": "bileşen yol haritası önceliklendirme",
+   "aileler": [
+    "Ürün Yöneticisi",
+    "Teknik Ürün Yöneticisi"
+   ]
+  },
+  {
+   "code": "PRD-DSN",
+   "name_tr": "Tasarım",
+   "chair": "CPO",
+   "esleme": [
+    "katalog/agents/ui-analysis",
+    "katalog/skills/creative-design",
+    "katalog/skills/design-to-code"
+   ],
+   "cikti": "pilot arayüz/şablon tasarımları",
+   "aileler": [
+    "Ürün Tasarımcısı (UX)",
+    "Arayüz Tasarımcısı (UI)",
+    "Tasarım Sistemi Uzmanı"
+   ]
+  },
+  {
+   "code": "PRD-OPS",
+   "name_tr": "Ürün Operasyonları",
+   "chair": "CPO",
+   "esleme": [
+    "katalog/skills/productivity",
+    "katalog/commands/utilities"
+   ],
+   "cikti": "kullanım geri bildirimi → KARAR_LOGU girdisi",
+   "aileler": [
+    "Ürün Operasyon Uzmanı",
+    "Kullanıcı Araştırmacısı"
+   ]
+  },
+  {
+   "code": "MKT-BRD",
+   "name_tr": "Marka & İçerik",
+   "chair": "CMO",
+   "esleme": [
+    "katalog/agents/business-marketing",
+    "katalog/skills/marketing"
+   ],
+   "cikti": "Movéa pilotu marka içerik üretimi",
+   "aileler": [
+    "Marka Stratejisti",
+    "İçerik Pazarlama Uzmanı"
+   ]
+  },
+  {
+   "code": "MKT-PRF",
+   "name_tr": "Performans Pazarlama (AdOps)",
+   "chair": "CMO",
+   "esleme": [
+    "katalog/agents/business-marketing",
+    "katalog/skills/business-marketing"
+   ],
+   "cikti": "Response DGA dikeyi: kampanya/atıf analizi",
+   "aileler": [
+    "Performans Pazarlama Uzmanı",
+    "Medya Satın Alma Uzmanı",
+    "Atıf (Attribution) Analisti"
+   ]
+  },
+  {
+   "code": "MKT-SEO",
+   "name_tr": "SEO & Organik Büyüme",
+   "chair": "CMO",
+   "esleme": [
+    "katalog/skills/marketing",
+    "katalog/commands/marketing"
+   ],
+   "cikti": "repo/ürün sayfası görünürlük artışı",
+   "aileler": [
+    "SEO Uzmanı",
+    "İçerik Optimizasyon Uzmanı"
+   ]
+  },
+  {
+   "code": "MKT-SOC",
+   "name_tr": "Sosyal Medya",
+   "chair": "CMO",
+   "esleme": [
+    "katalog/skills/marketing",
+    "katalog/skills/enterprise-communication"
+   ],
+   "cikti": "LinkedIn yayın akışı (movea komutu ile)",
+   "aileler": [
+    "Sosyal Medya Yöneticisi",
+    "Topluluk Yöneticisi"
+   ]
+  },
+  {
+   "code": "REV-SLS",
+   "name_tr": "Satış",
+   "chair": "CRO",
+   "esleme": [
+    "katalog/agents/business-marketing",
+    "katalog/skills/career"
+   ],
+   "cikti": "ajans lead hunisi takibi (GELIR_MOTORU kanal 5)",
+   "aileler": [
+    "Satış Temsilcisi (AE)",
+    "Satış Geliştirme Temsilcisi (SDR)"
+   ]
+  },
+  {
+   "code": "REV-PRT",
+   "name_tr": "İş Ortaklıkları",
+   "chair": "CRO",
+   "esleme": [
+    "katalog/agents/finance",
+    "katalog/skills/business-marketing"
+   ],
+   "cikti": "infra sponsorluk adayları (kanal 1) izleme",
+   "aileler": [
+    "Ortaklık Yöneticisi",
+    "Sponsorluk Geliştirme Uzmanı"
+   ]
+  },
+  {
+   "code": "REV-CSM",
+   "name_tr": "Müşteri Başarısı",
+   "chair": "CRO",
+   "esleme": [
+    "katalog/skills/enterprise-communication",
+    "katalog/commands/setup"
+   ],
+   "cikti": "pilot iç müşteri memnuniyet döngüsü",
+   "aileler": [
+    "Müşteri Başarı Yöneticisi",
+    "Onboarding Uzmanı"
+   ]
+  },
+  {
+   "code": "REV-OPS",
+   "name_tr": "Gelir Operasyonları",
+   "chair": "CRO",
+   "esleme": [
+    "katalog/skills/analytics",
+    "katalog/commands/sync"
+   ],
+   "cikti": "gelir kanalı metrik panosu",
+   "aileler": [
+    "RevOps Analisti",
+    "CRM Uzmanı"
+   ]
+  },
+  {
+   "code": "MED-PUB",
+   "name_tr": "Yayıncılık & Makale",
+   "chair": "CCO",
+   "esleme": [
+    "katalog/agents/documentation",
+    "katalog/skills/document-processing",
+    "katalog/commands/documentation"
+   ],
+   "cikti": "GÜNDE MİN. 1 makale/güncelleme üretimi",
+   "aileler": [
+    "Teknik Yazar",
+    "Editör",
+    "Araştırma Yazarı"
+   ]
+  },
+  {
+   "code": "MED-CRE",
+   "name_tr": "Video & Kreatif",
+   "chair": "CCO",
+   "esleme": [
+    "katalog/agents/podcast-creator-team",
+    "katalog/agents/ffmpeg-clip-team",
+    "katalog/skills/video",
+    "katalog/skills/media"
+   ],
+   "cikti": "tanıtım/kreatif varlık üretimi",
+   "aileler": [
+    "Video Editörü",
+    "Grafik Tasarımcısı"
+   ]
+  },
+  {
+   "code": "MED-LOC",
+   "name_tr": "Yerelleştirme (TR)",
+   "chair": "CCO",
+   "esleme": [
+    "katalog/skills/document-processing",
+    "katalog/commands/documentation"
+   ],
+   "cikti": "katalog bileşenlerinin TR/dikey uyarlaması",
+   "aileler": [
+    "Yerelleştirme Uzmanı",
+    "Çevirmen-Editör"
+   ]
+  },
+  {
+   "code": "OPS-PMO",
+   "name_tr": "Program Yönetimi (PMO)",
+   "chair": "COO",
+   "esleme": [
+    "katalog/commands/project-management",
+    "katalog/commands/team"
+   ],
+   "cikti": "günlük iş listesi dağıtımı + takip",
+   "aileler": [
+    "Program Yöneticisi",
+    "Proje Koordinatörü"
+   ]
+  },
+  {
+   "code": "OPS-BIZ",
+   "name_tr": "İş Operasyonları",
+   "chair": "COO",
+   "esleme": [
+    "katalog/skills/operations",
+    "katalog/skills/workflow-automation"
+   ],
+   "cikti": "operasyon ritmi (CILT6) uygulaması",
+   "aileler": [
+    "İş Operasyon Analisti",
+    "Süreç İyileştirme Uzmanı"
+   ]
+  },
+  {
+   "code": "OPS-TLS",
+   "name_tr": "Araç & Tedarik",
+   "chair": "COO",
+   "esleme": [
+    "katalog/agents/development-tools",
+    "katalog/agents/web-tools"
+   ],
+   "cikti": "araç envanteri + maliyet izleme",
+   "aileler": [
+    "Araç Yönetim Uzmanı",
+    "Tedarik Analisti"
+   ]
+  },
+  {
+   "code": "FIN-FPA",
+   "name_tr": "Finansal Planlama (FP&A)",
+   "chair": "CFO",
+   "esleme": [
+    "katalog/agents/finance",
+    "katalog/skills/analytics"
+   ],
+   "cikti": "token/kredi bütçe takibi",
+   "aileler": [
+    "FP&A Analisti",
+    "Bütçe Uzmanı"
+   ]
+  },
+  {
+   "code": "FIN-ACC",
+   "name_tr": "Muhasebe & Raporlama",
+   "chair": "CFO",
+   "esleme": [
+    "katalog/agents/finance",
+    "katalog/skills/document-processing"
+   ],
+   "cikti": "aylık finansal özet",
+   "aileler": [
+    "Muhasebe Uzmanı",
+    "Finansal Raporlama Analisti"
+   ]
+  },
+  {
+   "code": "FIN-REV",
+   "name_tr": "Gelir Motoru İzleme",
+   "chair": "CFO",
+   "esleme": [
+    "katalog/agents/finance",
+    "katalog/skills/business-marketing"
+   ],
+   "cikti": "GELIR_MOTORU.md 5 kanal KPI'ları",
+   "aileler": [
+    "Gelir Analisti",
+    "Monetizasyon Uzmanı"
+   ]
+  },
+  {
+   "code": "SEC-OPS",
+   "name_tr": "Güvenlik Operasyonları",
+   "chair": "CISO",
+   "esleme": [
+    "katalog/agents/security",
+    "katalog/commands/security"
+   ],
+   "cikti": "günlük güvenlik taraması",
+   "aileler": [
+    "Güvenlik Operasyon Analisti",
+    "Olay Müdahale Uzmanı"
+   ]
+  },
+  {
+   "code": "SEC-AUD",
+   "name_tr": "Uyum Denetimi (5 Kural)",
+   "chair": "CISO",
+   "esleme": [
+    "katalog/agents/security",
+    "katalog/skills/security"
+   ],
+   "cikti": "her yeni bileşen: 5 kural + script inceleme onayı",
+   "aileler": [
+    "Denetçi (Auditor)",
+    "Bileşen Güvenlik İnceleme Uzmanı"
+   ]
+  },
+  {
+   "code": "SEC-SUP",
+   "name_tr": "Tedarik Zinciri Güvenliği",
+   "chair": "CISO",
+   "esleme": [
+    "katalog/agents/security",
+    "katalog/hooks"
+   ],
+   "cikti": "upstream/bağımlılık değişiklik kontrolü",
+   "aileler": [
+    "Tedarik Zinciri Güvenlik Analisti",
+    "Bağımlılık İzleme Uzmanı"
+   ]
+  },
+  {
+   "code": "HRA-REC",
+   "name_tr": "Ajan İşe Alım",
+   "chair": "CHRO",
+   "esleme": [
+    "katalog/agents/expert-advisors",
+    "katalog/KATALOG_INDEKS.md"
+   ],
+   "cikti": "katalogdan rol-bileşen eşleştirme (işe alım)",
+   "aileler": [
+    "Ajan İşe Alım Uzmanı",
+    "Yetenek Haritalama Analisti"
+   ]
+  },
+  {
+   "code": "HRA-PRF",
+   "name_tr": "Performans & Kalite",
+   "chair": "CHRO",
+   "esleme": [
+    "katalog/agents/performance-testing",
+    "katalog/skills/productivity"
+   ],
+   "cikti": "ajan çıktı kalite puanlama",
+   "aileler": [
+    "Performans Değerlendirme Uzmanı",
+    "Kalite Güvence Analisti"
+   ]
+  },
+  {
+   "code": "HRA-LRN",
+   "name_tr": "Eğitim & Bilgi Tabanı",
+   "chair": "CHRO",
+   "esleme": [
+    "katalog/skills/document-processing",
+    "katalog/agents/documentation"
+   ],
+   "cikti": "BILGI_TABANI.md küratörlüğü (append-only)",
+   "aileler": [
+    "Bilgi Tabanı Küratörü",
+    "Öğrenim Damıtma Uzmanı"
+   ]
+  },
+  {
+   "code": "LGL-LIC",
+   "name_tr": "Lisans Uyumu (MIT)",
+   "chair": "CLO",
+   "esleme": [
+    "katalog/skills/security",
+    "katalog/KATALOG_INDEKS.md"
+   ],
+   "cikti": "MIT atıf bütünlüğü (LICENSE-UPSTREAM)",
+   "aileler": [
+    "Lisans Uyum Uzmanı",
+    "Atıf (Attribution) Denetçisi"
+   ]
+  },
+  {
+   "code": "LGL-PRV",
+   "name_tr": "Veri Gizliliği",
+   "chair": "CLO",
+   "esleme": [
+    "katalog/agents/security",
+    "katalog/skills/security"
+   ],
+   "cikti": "pilot verilerinde gizlilik kontrolü",
+   "aileler": [
+    "Gizlilik Uzmanı (KVKK/GDPR)",
+    "Veri Sınıflandırma Analisti"
+   ]
+  },
+  {
+   "code": "INF-MCP",
+   "name_tr": "MCP Entegrasyonları",
+   "chair": "CIO",
+   "esleme": [
+    "katalog/mcps",
+    "katalog/agents/mcp-dev-team"
+   ],
+   "cikti": "MCP kataloğu bakım + yeni bağlayıcı değerlendirme",
+   "aileler": [
+    "MCP Entegrasyon Mühendisi",
+    "Bağlayıcı (Connector) Uzmanı"
+   ]
+  },
+  {
+   "code": "INF-SET",
+   "name_tr": "Ayar & Yapılandırma",
+   "chair": "CIO",
+   "esleme": [
+    "katalog/settings",
+    "katalog/commands/setup"
+   ],
+   "cikti": "settings şablonları + ortam standartları",
+   "aileler": [
+    "Yapılandırma Yöneticisi",
+    "Ortam (Environment) Uzmanı"
+   ]
+  },
+  {
+   "code": "INF-HKS",
+   "name_tr": "Hooks & Otomasyon",
+   "chair": "CIO",
+   "esleme": [
+    "katalog/hooks",
+    "katalog/commands/automation"
+   ],
+   "cikti": "damga/denetim hook zinciri bakımı",
+   "aileler": [
+    "Hook Geliştirici",
+    "Otomasyon Mühendisi"
+   ]
+  },
+  {
+   "code": "INF-LOP",
+   "name_tr": "Döngüler & Zamanlama",
+   "chair": "CIO",
+   "esleme": [
+    "katalog/loops",
+    "katalog/sandbox"
+   ],
+   "cikti": "nightly + daily-agency + upstream-sync nöbeti",
+   "aileler": [
+    "Döngü Operatörü",
+    "Zamanlama (Scheduler) Uzmanı"
+   ]
+  },
+  {
+   "code": "STR-INT",
+   "name_tr": "Pazar İstihbaratı",
+   "chair": "CSO",
+   "esleme": [
+    "katalog/agents/deep-research-team",
+    "katalog/skills/web-data"
+   ],
+   "cikti": "günlük ekosistem taraması (CILT3 haritası)",
+   "aileler": [
+    "Pazar İstihbarat Analisti",
+    "Trend Araştırmacısı"
+   ]
+  },
+  {
+   "code": "STR-CMP",
+   "name_tr": "Rakip Analizi",
+   "chair": "CSO",
+   "esleme": [
+    "katalog/agents/deep-research-team",
+    "katalog/skills/analytics"
+   ],
+   "cikti": "muadil repo/ürün kıyaslama raporu",
+   "aileler": [
+    "Rakip Analiz Uzmanı",
+    "Kıyaslama (Benchmark) Analisti"
+   ]
+  },
+  {
+   "code": "STR-GRW",
+   "name_tr": "Büyüme & Yatırım",
+   "chair": "CSO",
+   "esleme": [
+    "katalog/agents/finance",
+    "katalog/agents/expert-advisors"
+   ],
+   "cikti": "gelir kanalı büyüme deneyleri",
+   "aileler": [
+    "Büyüme Stratejisti",
+    "Yatırım Analisti"
+   ]
+  }
+ ]
+}
