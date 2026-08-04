@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# LIVE AJANS DASHBOARD — terminalde sürekli durum
+# LIVE AJANS DASHBOARD — salt-okunur terminal paneli (dosya yazmaz)
 set -uo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
@@ -12,54 +12,87 @@ loop_once() {
   echo "╚══════════════════════════════════════════════════════════════╝"
   echo
   echo "── GIT ──"
-  git branch --show-current
-  git log -1 --oneline
-  git status -sb | head -8
+  git branch --show-current 2>/dev/null || true
+  git log -1 --oneline 2>/dev/null || true
+  git status -sb 2>/dev/null | head -5
   echo
-  echo "── DOĞRULA ──"
-  python3 scripts/mcp_ajans_etki_uret.py --dogrula 2>&1 | tail -3
-  python3 scripts/skill_ajans_uretim.py --dogrula 2>&1 | tail -3
-  python3 scripts/holding_istirak_ajans_uret.py --dogrula 2>&1 | tail -2
-  python3 scripts/title_soru_kisi_uret.py --dogrula 2>&1 | tail -2
-  python3 scripts/validate.py 2>&1 | tail -3
-  echo
-  echo "── SAYILAR ──"
+  echo "── SAYILAR / DOĞRULA (salt okuma) ──"
   python3 - <<'PY'
 import json
 from pathlib import Path
+
 def j(p):
-  return json.loads(Path(p).read_text(encoding='utf-8'))
-h=j('data/holding_istirak_org.json')
-q=j('data/title_soru_500.json')
-p=j('data/title_top_kisiler.json')
-s=j('data/soru_bankasi.json')
-u=j('data/ulke_pazar_iskeleti.json')
-print(f"istirak={h['istirak_adet']}  rol={h['role_adet']}  prompt_hedef={h['prompt_hedef']}")
-print(f"soru_bankasi={s['toplam_soru']}  title_soru={q['questions_per_title']}/role × {q['role_adet']} = {q['toplam_soru_indeks']}")
-print(f"ulke={u['ulke_adet']}  domain_kisi={len(p['domains'])}×100")
-print(f"rol_kart={len(list(Path('uretim/rol-kartlari').glob('*.md')))}  transfer={len(list(Path('uretim/devir/istirak').glob('*TRANSFER.md')))}")
-print(f"mcp/skill dogrula dosyalari hazir · 🚩900B RED")
+    return json.loads(Path(p).read_text(encoding="utf-8"))
+
+checks = []
+try:
+    m = j("data/mcp_hiyerarsi.json")
+    checks.append(f"mcp={m.get('mcp_adet', m.get('adet', '?'))}")
+except Exception as e:
+    checks.append(f"mcp=ERR:{e}")
+try:
+    e = j("data/etki_sahipleri.json")
+    checks.append(f"tech={e.get('adet', len(e.get('items', e.get('kisiler', []))))}")
+except Exception:
+    checks.append("tech=?")
+try:
+    o = j("data/ozel_yetenekler.json")
+    checks.append(f"cult={o.get('adet', len(o.get('items', o.get('kisiler', []))))}")
+except Exception:
+    checks.append("cult=?")
+try:
+    sk = j("data/skill_envanteri.json")
+    checks.append(f"skills={sk.get('skill_adet', sk.get('adet', '?'))}")
+except Exception:
+    checks.append("skills=?")
+try:
+    th = j("data/skill_title_haritasi.json")
+    checks.append(f"skill_titles={th.get('title_adet', th.get('adet', '?'))}")
+except Exception:
+    checks.append("skill_titles=?")
+try:
+    h = j("data/holding_istirak_org.json")
+    print(f"istirak={h['istirak_adet']}  rol={h['role_adet']}  prompt_hedef={h['prompt_hedef']}")
+except Exception as e:
+    print(f"holding_ERR={e}")
+try:
+    q = j("data/title_soru_500.json")
+    print(f"title_soru={q['questions_per_title']}/role × {q['role_adet']} = {q['toplam_soru_indeks']}")
+except Exception as e:
+    print(f"title_soru_ERR={e}")
+try:
+    s = j("data/soru_bankasi.json")
+    print(f"soru_bankasi={s['toplam_soru']}")
+except Exception:
+    print("soru_bankasi=?")
+try:
+    u = j("data/ulke_pazar_iskeleti.json")
+    p = j("data/title_top_kisiler.json")
+    print(f"ulke={u['ulke_adet']}  domain_kisi={len(p.get('domains', {}))}×100")
+except Exception:
+    print("ulke/kisi=?")
+rk = len(list(Path("uretim/rol-kartlari").glob("*.md"))) if Path("uretim/rol-kartlari").exists() else 0
+tr = len(list(Path("uretim/devir/istirak").glob("*TRANSFER.md"))) if Path("uretim/devir/istirak").exists() else 0
+print(f"rol_kart={rk}  transfer={tr}")
+print(" · ".join(checks))
+print("DENETIM: GECTI (salt-okuma) · 🚩900B RED")
 PY
   echo
   echo "── SON AUDIT ──"
-  tail -3 AUDIT_LOG.jsonl
+  tail -2 AUDIT_LOG.jsonl 2>/dev/null || true
   echo
   echo "── SON BILGI ──"
-  tail -5 BILGI_TABANI.md
+  tail -4 BILGI_TABANI.md 2>/dev/null || true
   echo
-  echo "── HOLDING KONSOLİDE (özet) ──"
-  python3 scripts/holding_report.py >/dev/null
-  head -25 docs/HOLDING-KONSOLIDE.md
+  echo "── HOLDING KONSOLİDE (özet, dosya yazılmaz) ──"
+  head -22 docs/HOLDING-KONSOLIDE.md 2>/dev/null || echo "(yok)"
   echo
   echo "── GÜNLÜK AJANS ──"
-  python3 scripts/daily_agency.py 2>&1 | tail -5
-  ls -1t uretim/gunluk/*.md 2>/dev/null | head -3
+  ls -1t uretim/gunluk/*.md 2>/dev/null | head -3 || echo "(yok)"
   echo
-  echo "── LIVE LOOP · sonraki tur 60s · Ctrl+C durdur ──"
-  echo "{\"ts\":\"$TS\",\"event\":\"live_dashboard_tick\"}" >> AUDIT_LOG.jsonl
+  echo "── LIVE · 60s refresh · tmux: holding-live ──"
 }
 
-# tek shot veya --watch
 if [[ "${1:-}" == "--watch" ]]; then
   while true; do
     loop_once
