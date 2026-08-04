@@ -116,3 +116,6 @@
 - [2026-08-04T09:40:02Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-04-SEC-AUD.md); K4 Cowork oturumu taslağı doldurur.
 ## 2026-08-04T09:40:02Z — nightly run
 - Ran read->distill->produce->validate->stamp. Generation: off.
+
+## 2026-08-04T12:51:20Z — OpenRouter saglayici baglama
+- scripts/daily_agency.py llm() OpenRouter-tercihli (OPENROUTER_API_KEY -> https://openrouter.ai/api/v1/chat/completions; OPENROUTER_MODEL varsayilan anthropic/claude-3.5-sonnet), Anthropic geri dusum. nightly.sh iki saglayiciyi taniyor. scripts/llm_smoke.py canli baglanti testi. Anahtar ortamda YOK -> kullanici Secrets panelinden ekler (chat'e yapistirilmaz).

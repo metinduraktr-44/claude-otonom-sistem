@@ -126,6 +126,29 @@ def append(p, content):
         f.write(content)
 
 def llm(prompt, max_tokens=1600):
+    """LLM cagrisi. Saglayici onceligi: OpenRouter (OPENROUTER_API_KEY) -> Anthropic
+    (ANTHROPIC_API_KEY). Ikisi de yoksa None (deterministik iskelet — dongu kirilmaz).
+    OpenRouter modeli OPENROUTER_MODEL ile degistirilir (varsayilan asagida)."""
+    # 1) OpenRouter (tercih)
+    or_key = os.environ.get("OPENROUTER_API_KEY", "").strip()
+    if or_key:
+        model = os.environ.get("OPENROUTER_MODEL", "anthropic/claude-3.5-sonnet").strip()
+        body = json.dumps({"model": model, "max_tokens": max_tokens,
+                           "messages": [{"role": "user", "content": prompt}]}).encode()
+        req = urllib.request.Request(
+            "https://openrouter.ai/api/v1/chat/completions", data=body,
+            headers={"Authorization": "Bearer " + or_key,
+                     "content-type": "application/json",
+                     "HTTP-Referer": "https://github.com/metinduraktr-44/claude-otonom-sistem",
+                     "X-Title": "claude-otonom-sistem"})
+        try:
+            with urllib.request.urlopen(req, timeout=120) as r:
+                data = json.loads(r.read())
+            return data["choices"][0]["message"]["content"]
+        except Exception as e:
+            print("LLM (OpenRouter) SKIPPED:", e)
+            return None
+    # 2) Anthropic (geri dusum)
     key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
     if not key:
         return None
@@ -139,7 +162,7 @@ def llm(prompt, max_tokens=1600):
             data = json.loads(r.read())
         return "".join(b.get("text", "") for b in data.get("content", []))
     except Exception as e:
-        print("LLM SKIPPED:", e)
+        print("LLM (Anthropic) SKIPPED:", e)
         return None
 
 def sorular(n=8):
