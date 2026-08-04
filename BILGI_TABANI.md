@@ -131,3 +131,4 @@
 - Ran read->distill->produce->validate->stamp. Generation: off.
 
 - [2026-08-04T08:44:35Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-04-SEC-AUD.md); K4 Cowork oturumu taslağı doldurur.
+- [2026-08-04T08:50:51Z] title+500 soru (316500 indeks) · top100/domain (uydurma yok, pending slot) · 🚩900B RED · main merge conflict çözüldü · merge onaylı
