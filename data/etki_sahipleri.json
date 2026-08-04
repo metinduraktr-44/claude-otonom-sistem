@@ -1,0 +1,2262 @@
+{
+  "ts": "2026-08-04T08:44:48Z",
+  "adet": 141,
+  "kisiler": [
+    {
+      "rank": 1,
+      "ad": "Sam Altman",
+      "unvan": "CEO",
+      "org": "OpenAI",
+      "alan": "AI-platform",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 2,
+      "ad": "Dario Amodei",
+      "unvan": "CEO",
+      "org": "Anthropic",
+      "alan": "AI-safety",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 3,
+      "ad": "Jensen Huang",
+      "unvan": "CEO",
+      "org": "NVIDIA",
+      "alan": "AI-infra",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 4,
+      "ad": "Demis Hassabis",
+      "unvan": "CEO",
+      "org": "Google DeepMind",
+      "alan": "AI-research",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 5,
+      "ad": "Fei-Fei Li",
+      "unvan": "CEO/Prof",
+      "org": "World Labs / Stanford",
+      "alan": "spatial-AI",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 6,
+      "ad": "Yann LeCun",
+      "unvan": "Chief AI Scientist",
+      "org": "Meta",
+      "alan": "open-AI",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 7,
+      "ad": "Geoffrey Hinton",
+      "unvan": "Researcher",
+      "org": "Independent",
+      "alan": "deep-learning",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 8,
+      "ad": "Yoshua Bengio",
+      "unvan": "Founder",
+      "org": "Mila",
+      "alan": "AI-safety",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 9,
+      "ad": "Andrew Ng",
+      "unvan": "Founder",
+      "org": "DeepLearning.AI",
+      "alan": "AI-education",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 10,
+      "ad": "Andrej Karpathy",
+      "unvan": "Founder",
+      "org": "Eureka Labs",
+      "alan": "AI-education",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 11,
+      "ad": "Ilya Sutskever",
+      "unvan": "Scientist",
+      "org": "SSI",
+      "alan": "AGI-research",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 12,
+      "ad": "Mustafa Suleyman",
+      "unvan": "CEO",
+      "org": "Microsoft AI",
+      "alan": "AI-product",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 13,
+      "ad": "Satya Nadella",
+      "unvan": "CEO",
+      "org": "Microsoft",
+      "alan": "platform",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 14,
+      "ad": "Sundar Pichai",
+      "unvan": "CEO",
+      "org": "Google/Alphabet",
+      "alan": "platform",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 15,
+      "ad": "Mark Zuckerberg",
+      "unvan": "CEO",
+      "org": "Meta",
+      "alan": "platform",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 16,
+      "ad": "Elon Musk",
+      "unvan": "CEO",
+      "org": "xAI/Tesla",
+      "alan": "AI-auto",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 17,
+      "ad": "Jeff Dean",
+      "unvan": "Chief Scientist",
+      "org": "Google DeepMind",
+      "alan": "systems-ML",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 18,
+      "ad": "Oriol Vinyals",
+      "unvan": "VP",
+      "org": "Google DeepMind",
+      "alan": "LLM",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 19,
+      "ad": "Noam Shazeer",
+      "unvan": "Co-founder",
+      "org": "Character.AI",
+      "alan": "transformers",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 20,
+      "ad": "Aidan Gomez",
+      "unvan": "CEO",
+      "org": "Cohere",
+      "alan": "enterprise-LLM",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 21,
+      "ad": "Emad Mostaque",
+      "unvan": "Founder",
+      "org": "Stability AI",
+      "alan": "gen-media",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 22,
+      "ad": "Clem Delangue",
+      "unvan": "CEO",
+      "org": "Hugging Face",
+      "alan": "open-source-ML",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 23,
+      "ad": "Arthur Mensch",
+      "unvan": "CEO",
+      "org": "Mistral AI",
+      "alan": "open-weights",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 24,
+      "ad": "Mira Murati",
+      "unvan": "Founder",
+      "org": "Thinking Machines Lab",
+      "alan": "AI-research",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 25,
+      "ad": "Helen Toner",
+      "unvan": "Director",
+      "org": "CSET",
+      "alan": "AI-policy",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 26,
+      "ad": "Paul Christiano",
+      "unvan": "Researcher",
+      "org": "Alignment",
+      "alan": "alignment",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 27,
+      "ad": "Jan Leike",
+      "unvan": "Researcher",
+      "org": "Anthropic/OpenAI alum",
+      "alan": "alignment",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 28,
+      "ad": "Chris Olah",
+      "unvan": "Researcher",
+      "org": "Anthropic",
+      "alan": "interpretability",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 29,
+      "ad": "Anthropic Claude Team",
+      "unvan": "Research",
+      "org": "Anthropic",
+      "alan": "constitutional-AI",
+      "ajans_katman": "TEAM",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 30,
+      "ad": "OpenAI Research",
+      "unvan": "Research",
+      "org": "OpenAI",
+      "alan": "frontier",
+      "ajans_katman": "TEAM",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 31,
+      "ad": "Percy Liang",
+      "unvan": "Prof",
+      "org": "Stanford CRFM",
+      "alan": "evals",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 32,
+      "ad": "Chelsea Finn",
+      "unvan": "Prof",
+      "org": "Stanford",
+      "alan": "robotics-ML",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 33,
+      "ad": "Pieter Abbeel",
+      "unvan": "Prof",
+      "org": "UC Berkeley",
+      "alan": "robotics",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 34,
+      "ad": "Sergey Levine",
+      "unvan": "Prof",
+      "org": "UC Berkeley",
+      "alan": "RL",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 35,
+      "ad": "Dawn Song",
+      "unvan": "Prof",
+      "org": "UC Berkeley",
+      "alan": "AI-security",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 36,
+      "ad": "Ion Stoica",
+      "unvan": "Prof/Co-founder",
+      "org": "UC Berkeley / Anyscale",
+      "alan": "distributed-AI",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 37,
+      "ad": "Matei Zaharia",
+      "unvan": "CTO/Co-founder",
+      "org": "Databricks",
+      "alan": "data-AI",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 38,
+      "ad": "Ali Ghodsi",
+      "unvan": "CEO",
+      "org": "Databricks",
+      "alan": "lakehouse",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 39,
+      "ad": "Francois Chollet",
+      "unvan": "Researcher",
+      "org": "Google/Independent",
+      "alan": "AGI-measure",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 40,
+      "ad": "Jim Fan",
+      "unvan": "Research Scientist",
+      "org": "NVIDIA",
+      "alan": "embodied-AI",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 41,
+      "ad": "Jim Keller",
+      "unvan": "CEO",
+      "org": "Tenstorrent",
+      "alan": "chips",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 42,
+      "ad": "Lisa Su",
+      "unvan": "CEO",
+      "org": "AMD",
+      "alan": "compute",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 43,
+      "ad": "Pat Gelsinger",
+      "unvan": "ex-CEO",
+      "org": "Intel",
+      "alan": "semiconductor",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 44,
+      "ad": "Brian Chesky",
+      "unvan": "CEO",
+      "org": "Airbnb",
+      "alan": "product",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 45,
+      "ad": "Dylan Field",
+      "unvan": "CEO",
+      "org": "Figma",
+      "alan": "design-tooling",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 46,
+      "ad": "Simon Willison",
+      "unvan": "Creator",
+      "org": "Datasette",
+      "alan": "LLM-tools",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 47,
+      "ad": "Harrison Chase",
+      "unvan": "CEO",
+      "org": "LangChain",
+      "alan": "agent-framework",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 48,
+      "ad": "Jerry Liu",
+      "unvan": "CEO",
+      "org": "LlamaIndex",
+      "alan": "RAG",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 49,
+      "ad": "Andrew Mayne",
+      "unvan": "Writer",
+      "org": "Independent",
+      "alan": "prompting",
+      "ajans_katman": "WORKER",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 50,
+      "ad": "Riley Goodside",
+      "unvan": "Prompt eng.",
+      "org": "Scale AI",
+      "alan": "prompting",
+      "ajans_katman": "WORKER",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 51,
+      "ad": "Swyx",
+      "unvan": "Founder",
+      "org": "Smol AI / Latent Space",
+      "alan": "AI-devtools",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 52,
+      "ad": "Latent Space",
+      "unvan": "Podcast",
+      "org": "Latent Space",
+      "alan": "AI-media",
+      "ajans_katman": "TEAM",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 53,
+      "ad": "Lenny Rachitsky",
+      "unvan": "Writer",
+      "org": "Lenny's Newsletter",
+      "alan": "product",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 54,
+      "ad": "Packy McCormick",
+      "unvan": "Writer",
+      "org": "Not Boring",
+      "alan": "tech-strategy",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 55,
+      "ad": "Benedict Evans",
+      "unvan": "Analyst",
+      "org": "Independent",
+      "alan": "tech-strategy",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 56,
+      "ad": "Mary Meeker",
+      "unvan": "Partner",
+      "org": "Bond",
+      "alan": "internet-trends",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 57,
+      "ad": "Cathy O'Neil",
+      "unvan": "Author",
+      "org": "ORCAA",
+      "alan": "AI-ethics",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 58,
+      "ad": "Kate Crawford",
+      "unvan": "Researcher",
+      "org": "USC/MSR",
+      "alan": "AI-power",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 59,
+      "ad": "Timnit Gebru",
+      "unvan": "Founder",
+      "org": "DAIR",
+      "alan": "AI-ethics",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 60,
+      "ad": "Margaret Mitchell",
+      "unvan": "Chief Ethics",
+      "org": "Hugging Face",
+      "alan": "AI-ethics",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 61,
+      "ad": "Gary Marcus",
+      "unvan": "Prof",
+      "org": "Independent",
+      "alan": "AI-critique",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 62,
+      "ad": "Melanie Mitchell",
+      "unvan": "Prof",
+      "org": "SFI",
+      "alan": "AI-concepts",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 63,
+      "ad": "Stuart Russell",
+      "unvan": "Prof",
+      "org": "UC Berkeley",
+      "alan": "AI-control",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 64,
+      "ad": "Max Tegmark",
+      "unvan": "Prof",
+      "org": "MIT / FLI",
+      "alan": "AI-safety",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 65,
+      "ad": "Eliezer Yudkowsky",
+      "unvan": "Researcher",
+      "org": "MIRI",
+      "alan": "AI-risk",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 66,
+      "ad": "Holden Karnofsky",
+      "unvan": "Advisor",
+      "org": "Open Phil",
+      "alan": "AI-policy",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 67,
+      "ad": "Chip Huyen",
+      "unvan": "Author",
+      "org": "Independent",
+      "alan": "ML-systems",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 68,
+      "ad": "Eugene Yan",
+      "unvan": "Applied scientist",
+      "org": "Amazon",
+      "alan": "recsys",
+      "ajans_katman": "WORKER",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 69,
+      "ad": "Lilian Weng",
+      "unvan": "Research",
+      "org": "OpenAI/Thinking Machines",
+      "alan": "ML-surveys",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 70,
+      "ad": "Jay Alammar",
+      "unvan": "Educator",
+      "org": "Cohere",
+      "alan": "explainers",
+      "ajans_katman": "WORKER",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 71,
+      "ad": "Sebastian Raschka",
+      "unvan": "AI educator",
+      "org": "Lightning AI",
+      "alan": "LLM-from-scratch",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 72,
+      "ad": "Jeremy Howard",
+      "unvan": "Founder",
+      "org": "fast.ai",
+      "alan": "practical-DL",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 73,
+      "ad": "Rachel Thomas",
+      "unvan": "Co-founder",
+      "org": "fast.ai",
+      "alan": "ethics-edu",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 74,
+      "ad": "Carlos Rivera",
+      "unvan": "Researcher",
+      "org": "Google",
+      "alan": "transformers",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 75,
+      "ad": "Ashish Vaswani",
+      "unvan": "Co-founder",
+      "org": "Essential AI",
+      "alan": "attention",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 76,
+      "ad": "Alec Radford",
+      "unvan": "Researcher",
+      "org": "OpenAI",
+      "alan": "GPT",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 77,
+      "ad": "Tom Brown",
+      "unvan": "Researcher",
+      "org": "Anthropic",
+      "alan": "GPT-3",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 78,
+      "ad": "Jason Wei",
+      "unvan": "Researcher",
+      "org": "OpenAI",
+      "alan": "prompting",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 79,
+      "ad": "Hyung Won Chung",
+      "unvan": "Researcher",
+      "org": "OpenAI",
+      "alan": "instruction-tuning",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 80,
+      "ad": "Tri Dao",
+      "unvan": "Researcher",
+      "org": "Princeton/Together",
+      "alan": "FlashAttention",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 81,
+      "ad": "Albert Gu",
+      "unvan": "Researcher",
+      "org": "Cartesia",
+      "alan": "SSM",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 82,
+      "ad": "Chris Lattner",
+      "unvan": "CEO",
+      "org": "Modular",
+      "alan": "Mojo/AI-compilers",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 83,
+      "ad": "George Hotz",
+      "unvan": "Founder",
+      "org": "comma.ai / tinygrad",
+      "alan": "open-compute",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 84,
+      "ad": "Jim Zemlin",
+      "unvan": "ED",
+      "org": "Linux Foundation",
+      "alan": "open-source",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 85,
+      "ad": "Nat Friedman",
+      "unvan": "Investor",
+      "org": "Independent",
+      "alan": "devtools",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 86,
+      "ad": "Patrick Collison",
+      "unvan": "CEO",
+      "org": "Stripe",
+      "alan": "payments-infra",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 87,
+      "ad": "John Collison",
+      "unvan": "President",
+      "org": "Stripe",
+      "alan": "payments",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 88,
+      "ad": "Tobias Lütke",
+      "unvan": "CEO",
+      "org": "Shopify",
+      "alan": "commerce",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 89,
+      "ad": "Daniel Ek",
+      "unvan": "CEO",
+      "org": "Spotify",
+      "alan": "media-platform",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 90,
+      "ad": "Brian Armstrong",
+      "unvan": "CEO",
+      "org": "Coinbase",
+      "alan": "crypto",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 91,
+      "ad": "Vitalik Buterin",
+      "unvan": "Founder",
+      "org": "Ethereum",
+      "alan": "crypto",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 92,
+      "ad": "Guillermo Rauch",
+      "unvan": "CEO",
+      "org": "Vercel",
+      "alan": "frontend-cloud",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 93,
+      "ad": "Malte Ubl",
+      "unvan": "CTO",
+      "org": "Vercel",
+      "alan": "edge",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 94,
+      "ad": "Quinn Slack",
+      "unvan": "CEO",
+      "org": "Sourcegraph",
+      "alan": "code-intel",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 95,
+      "ad": "Beyang Liu",
+      "unvan": "CTO",
+      "org": "Sourcegraph",
+      "alan": "code-search",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 96,
+      "ad": "Amjad Masad",
+      "unvan": "CEO",
+      "org": "Replit",
+      "alan": "agentic-IDE",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 97,
+      "ad": "Michele Catasta",
+      "unvan": "President",
+      "org": "Replit",
+      "alan": "AI-coding",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 98,
+      "ad": "Alexandr Wang",
+      "unvan": "CEO",
+      "org": "Scale AI",
+      "alan": "data-labeling",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 99,
+      "ad": "Daphne Koller",
+      "unvan": "Founder",
+      "org": "insitro",
+      "alan": "AI-bio",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 100,
+      "ad": "Eric Schmidt",
+      "unvan": "ex-CEO",
+      "org": "Google",
+      "alan": "AI-geo",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 101,
+      "ad": "Reid Hoffman",
+      "unvan": "Partner",
+      "org": "Greylock",
+      "alan": "AI-invest",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 102,
+      "ad": "Marc Andreessen",
+      "unvan": "GP",
+      "org": "a16z",
+      "alan": "AI-invest",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 103,
+      "ad": "Ben Horowitz",
+      "unvan": "GP",
+      "org": "a16z",
+      "alan": "AI-invest",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 104,
+      "ad": "Vinod Khosla",
+      "unvan": "Founder",
+      "org": "Khosla Ventures",
+      "alan": "deeptech",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 105,
+      "ad": "Sarah Guo",
+      "unvan": "Founder",
+      "org": "Conviction",
+      "alan": "AI-invest",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 106,
+      "ad": "Sonya Huang",
+      "unvan": "Partner",
+      "org": "Sequoia",
+      "alan": "AI-invest",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 107,
+      "ad": "Bill Gurley",
+      "unvan": "GP",
+      "org": "Benchmark",
+      "alan": "markets",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 108,
+      "ad": "Paul Graham",
+      "unvan": "Co-founder",
+      "org": "Y Combinator",
+      "alan": "startups",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 109,
+      "ad": "Garry Tan",
+      "unvan": "CEO",
+      "org": "Y Combinator",
+      "alan": "startups",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 110,
+      "ad": "Wendy Hall",
+      "unvan": "Partner",
+      "org": "YC",
+      "alan": "AI-startups",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 111,
+      "ad": "Logan Kilpatrick",
+      "unvan": "Product",
+      "org": "Google AI Studio",
+      "alan": "developer-AI",
+      "ajans_katman": "WORKER",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 112,
+      "ad": "Simon Last",
+      "unvan": "Co-founder",
+      "org": "Notion",
+      "alan": "productivity",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 113,
+      "ad": "Ivan Zhao",
+      "unvan": "CEO",
+      "org": "Notion",
+      "alan": "knowledge-work",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 114,
+      "ad": "Stewart Butterfield",
+      "unvan": "Founder",
+      "org": "Slack/Flickr",
+      "alan": "comms",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 115,
+      "ad": "Tobi Lütke",
+      "unvan": "CEO",
+      "org": "Shopify",
+      "alan": "commerce-AI",
+      "ajans_katman": "C-LEVEL",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 116,
+      "ad": "Dylan Patel",
+      "unvan": "Chief Analyst",
+      "org": "SemiAnalysis",
+      "alan": "semiconductors",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 117,
+      "ad": "George Adams",
+      "unvan": "Founder",
+      "org": "SemiAnalysis",
+      "alan": "chips",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 118,
+      "ad": "Horace Dediu",
+      "unvan": "Analyst",
+      "org": "Asymco",
+      "alan": "platform-strategy",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 119,
+      "ad": "Ben Thompson",
+      "unvan": "Writer",
+      "org": "Stratechery",
+      "alan": "strategy",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 120,
+      "ad": "Matt Levine",
+      "unvan": "Writer",
+      "org": "Bloomberg",
+      "alan": "markets",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 121,
+      "ad": "Casey Newton",
+      "unvan": "Writer",
+      "org": "Platformer",
+      "alan": "tech-media",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 122,
+      "ad": "Kara Swisher",
+      "unvan": "Journalist",
+      "org": "Independent",
+      "alan": "tech-media",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 123,
+      "ad": "Lex Fridman",
+      "unvan": "Podcaster",
+      "org": "Independent",
+      "alan": "AI-interviews",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 124,
+      "ad": "Dwarkesh Patel",
+      "unvan": "Podcaster",
+      "org": "Dwarkesh Podcast",
+      "alan": "longform-AI",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 125,
+      "ad": "Nathan Labenz",
+      "unvan": "Host",
+      "org": "Cognitive Revolution",
+      "alan": "AI-podcast",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 126,
+      "ad": "Noam Brown",
+      "unvan": "Researcher",
+      "org": "OpenAI",
+      "alan": "reasoning-agents",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 127,
+      "ad": "Shunyu Yao",
+      "unvan": "Researcher",
+      "org": "OpenAI",
+      "alan": "ReAct/agents",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 128,
+      "ad": "Ofir Press",
+      "unvan": "Researcher",
+      "org": "Princeton/TTIC",
+      "alan": "LLM-reasoning",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 129,
+      "ad": "Dan Hendrycks",
+      "unvan": "Director",
+      "org": "CAIS",
+      "alan": "AI-safety-evals",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 130,
+      "ad": "Anca Dragan",
+      "unvan": "Director",
+      "org": "DeepMind",
+      "alan": "AI-alignment",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 131,
+      "ad": "Joelle Pineau",
+      "unvan": "VP",
+      "org": "Meta AI / McGill",
+      "alan": "RL",
+      "ajans_katman": "DOMAIN",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 132,
+      "ad": "Yoshua Lab",
+      "unvan": "Lab",
+      "org": "Mila",
+      "alan": "research",
+      "ajans_katman": "TEAM",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 133,
+      "ad": "Stanford CRFM",
+      "unvan": "Center",
+      "org": "Stanford",
+      "alan": "evals",
+      "ajans_katman": "TEAM",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 134,
+      "ad": "EleutherAI",
+      "unvan": "Collective",
+      "org": "EleutherAI",
+      "alan": "open-LLM",
+      "ajans_katman": "TEAM",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 135,
+      "ad": "LAION",
+      "unvan": "Org",
+      "org": "LAION",
+      "alan": "datasets",
+      "ajans_katman": "TEAM",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 136,
+      "ad": "Allen Institute for AI",
+      "unvan": "Org",
+      "org": "AI2",
+      "alan": "NLP",
+      "ajans_katman": "TEAM",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 137,
+      "ad": "Mozilla AI",
+      "unvan": "Org",
+      "org": "Mozilla",
+      "alan": "open-AI",
+      "ajans_katman": "TEAM",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 138,
+      "ad": "Linux Foundation AI",
+      "unvan": "Org",
+      "org": "LF",
+      "alan": "standards",
+      "ajans_katman": "TEAM",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 139,
+      "ad": "CNCF",
+      "unvan": "Org",
+      "org": "CNCF",
+      "alan": "cloud-native",
+      "ajans_katman": "TEAM",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 140,
+      "ad": "Anthropic Safety",
+      "unvan": "Team",
+      "org": "Anthropic",
+      "alan": "RSP",
+      "ajans_katman": "TEAM",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    },
+    {
+      "rank": 141,
+      "ad": "OpenAI Superalignment",
+      "unvan": "Team",
+      "org": "OpenAI",
+      "alan": "alignment",
+      "ajans_katman": "TEAM",
+      "kaynaklar": [
+        {
+          "tip": "arama",
+          "not": "Aylık tarama: makale/röportaj/proje"
+        }
+      ],
+      "son_inceleme": "2026-08-04",
+      "guncelleme_durumu": "seed"
+    }
+  ]
+}

@@ -1,0 +1,2113 @@
+{
+  "ts": "2026-08-04T08:44:48Z",
+  "katalog_adet": 93,
+  "canli_adet": 81,
+  "toplam": 174,
+  "katmanlar": {
+    "L0_orkestrasyon": {
+      "aciklama": "Orkestratör (CLAUDE.md uzman kurulu) + cursor-cloud meta",
+      "ornekler": [
+        "cursor-cloud",
+        "CLAUDE orkestratör",
+        "daily_agency"
+      ]
+    },
+    "L1_arastirma": {
+      "aciklama": "Web/araştırma/doküman MCP",
+      "kategoriler": [
+        "research",
+        "web",
+        "web-data",
+        "docs",
+        "Exa",
+        "Bright Data",
+        "Apify"
+      ]
+    },
+    "L2_veri_backend": {
+      "aciklama": "DB/BaaS/vector/warehouse",
+      "kategoriler": [
+        "database",
+        "data",
+        "vector",
+        "orm",
+        "backend"
+      ]
+    },
+    "L3_gozlem_guvenlik": {
+      "aciklama": "Observability, güvenlik, olay",
+      "kategoriler": [
+        "obs",
+        "security",
+        "ops",
+        "qa"
+      ]
+    },
+    "L4_teslim_gelir": {
+      "aciklama": "Deploy, CI/CD, analytics, GTM, tasarım",
+      "kategoriler": [
+        "deploy",
+        "cicd",
+        "cloud",
+        "analytics",
+        "marketing",
+        "design",
+        "prd"
+      ]
+    },
+    "L5_uretkenlik": {
+      "aciklama": "Filesystem, productivity, integration, audio",
+      "kategoriler": [
+        "filesystem",
+        "productivity",
+        "integration",
+        "audio",
+        "devtools"
+      ]
+    }
+  },
+  "katalog_kategoriler": {
+    "audio": 1,
+    "browser_automation": 6,
+    "database": 8,
+    "deepgraph": 4,
+    "deepresearch": 1,
+    "devtools": 46,
+    "filesystem": 1,
+    "integration": 6,
+    "marketing": 3,
+    "productivity": 3,
+    "research": 1,
+    "web": 6,
+    "web-data": 7
+  },
+  "katalog": [
+    {
+      "id": "audio/elevenlabs",
+      "dosya": "audio/elevenlabs.json",
+      "kategori": "audio",
+      "kaynak": "katalog",
+      "sunucu": "elevenlabs",
+      "komut": "uvx",
+      "args": [
+        "elevenlabs-mcp"
+      ],
+      "env_keys": [
+        "ELEVENLABS_API_KEY",
+        "ELEVENLABS_MCP_BASE_PATH",
+        "ELEVENLABS_MCP_OUTPUT_MODE"
+      ],
+      "mekanizma": "stdio-python"
+    },
+    {
+      "id": "browser_automation/browser-server",
+      "dosya": "browser_automation/browser-use-mcp-server.json",
+      "kategori": "browser_automation",
+      "kaynak": "katalog",
+      "sunucu": "browser-server",
+      "komut": "browser-use-mcp-server",
+      "args": [
+        "run",
+        "server",
+        "--port",
+        "8000",
+        "--stdio",
+        "--proxy-port",
+        "9000"
+      ],
+      "env_keys": [
+        "OPENAI_API_KEY"
+      ],
+      "mekanizma": "stdio-other"
+    },
+    {
+      "id": "browser_automation/browsermcp",
+      "dosya": "browser_automation/browsermcp.json",
+      "kategori": "browser_automation",
+      "kaynak": "katalog",
+      "sunucu": "browsermcp",
+      "komut": "npx",
+      "args": [
+        "@browsermcp/mcp@latest"
+      ],
+      "env_keys": [],
+      "mekanizma": "stdio-node"
+    },
+    {
+      "id": "browser_automation/browserbase",
+      "dosya": "browser_automation/mcp-server-browserbase.json",
+      "kategori": "browser_automation",
+      "kaynak": "katalog",
+      "sunucu": "browserbase",
+      "komut": "npx",
+      "args": [
+        "@browserbasehq/mcp-server-browserbase"
+      ],
+      "env_keys": [
+        "BROWSERBASE_API_KEY",
+        "BROWSERBASE_PROJECT_ID",
+        "GEMINI_API_KEY"
+      ],
+      "mekanizma": "stdio-node"
+    },
+    {
+      "id": "browser_automation/automatalabs-playwright-server",
+      "dosya": "browser_automation/mcp-server-playwright.json",
+      "kategori": "browser_automation",
+      "kaynak": "katalog",
+      "sunucu": "automatalabs-playwright-server",
+      "komut": "npx",
+      "args": [
+        "-y",
+        "@automatalabs/mcp-server-playwright"
+      ],
+      "env_keys": [],
+      "mekanizma": "stdio-node"
+    },
+    {
+      "id": "browser_automation/executeautomation-playwright-server",
+      "dosya": "browser_automation/playwright-mcp-server.json",
+      "kategori": "browser_automation",
+      "kaynak": "katalog",
+      "sunucu": "executeautomation-playwright-server",
+      "komut": "npx",
+      "args": [
+        "-y",
+        "@executeautomation/playwright-mcp-server"
+      ],
+      "env_keys": [],
+      "mekanizma": "stdio-node"
+    },
+    {
+      "id": "browser_automation/playwright-server",
+      "dosya": "browser_automation/playwright-mcp.json",
+      "kategori": "browser_automation",
+      "kaynak": "katalog",
+      "sunucu": "playwright-server",
+      "komut": "npx",
+      "args": [
+        "@playwright/mcp@latest"
+      ],
+      "env_keys": [],
+      "mekanizma": "stdio-node"
+    },
+    {
+      "id": "database/dbhub",
+      "dosya": "database/dbhub.json",
+      "kategori": "database",
+      "kaynak": "katalog",
+      "sunucu": "dbhub",
+      "komut": "npx",
+      "args": [
+        "-y",
+        "@bytebase/dbhub@latest"
+      ],
+      "env_keys": [
+        "DATABASE_DSN"
+      ],
+      "mekanizma": "stdio-node"
+    },
+    {
+      "id": "database/mongodb-official",
+      "dosya": "database/mongodb-official.json",
+      "kategori": "database",
+      "kaynak": "katalog",
+      "sunucu": "mongodb-official",
+      "komut": "npx",
+      "args": [
+        "-y",
+        "mongodb-mcp-server@latest"
+      ],
+      "env_keys": [
+        "MDB_MCP_CONNECTION_STRING"
+      ],
+      "mekanizma": "stdio-node"
+    },
+    {
+      "id": "database/mysql",
+      "dosya": "database/mysql-integration.json",
+      "kategori": "database",
+      "kaynak": "katalog",
+      "sunucu": "mysql",
+      "komut": "uvx",
+      "args": [
+        "mcp-server-mysql"
+      ],
+      "env_keys": [
+        "MYSQL_CONNECTION_STRING"
+      ],
+      "mekanizma": "stdio-python"
+    },
+    {
+      "id": "database/Neon",
+      "dosya": "database/neon.json",
+      "kategori": "database",
+      "kaynak": "katalog",
+      "sunucu": "Neon",
+      "komut": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://mcp.neon.tech/mcp"
+      ],
+      "env_keys": [],
+      "mekanizma": "stdio-node"
+    },
+    {
+      "id": "database/postgres-documentation",
+      "dosya": "database/postgresql-documentation.json",
+      "kategori": "database",
+      "kaynak": "katalog",
+      "sunucu": "postgres-documentation",
+      "komut": null,
+      "args": null,
+      "env_keys": [],
+      "mekanizma": "http-sse"
+    },
+    {
+      "id": "database/postgresql",
+      "dosya": "database/postgresql-integration.json",
+      "kategori": "database",
+      "kaynak": "katalog",
+      "sunucu": "postgresql",
+      "komut": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-postgres"
+      ],
+      "env_keys": [
+        "POSTGRES_CONNECTION_STRING"
+      ],
+      "mekanizma": "stdio-node"
+    },
+    {
+      "id": "database/redis",
+      "dosya": "database/redis.json",
+      "kategori": "database",
+      "kaynak": "katalog",
+      "sunucu": "redis",
+      "komut": "uvx",
+      "args": [
+        "--from",
+        "redis-mcp-server@latest",
+        "redis-mcp-server"
+      ],
+      "env_keys": [
+        "REDIS_URL"
+      ],
+      "mekanizma": "stdio-python"
+    },
+    {
+      "id": "database/supabase",
+      "dosya": "database/supabase.json",
+      "kategori": "database",
+      "kaynak": "katalog",
+      "sunucu": "supabase",
+      "komut": "npx",
+      "args": [
+        "-y",
+        "@supabase/mcp-server-supabase@latest",
+        "--read-only",
+        "--project-ref=<project-ref>"
+      ],
+      "env_keys": [
+        "SUPABASE_ACCESS_TOKEN"
+      ],
+      "mekanizma": "stdio-node"
+    },
+    {
+      "id": "deepgraph/DeepGraph Next.js MCP",
+      "dosya": "deepgraph/deepgraph-nextjs.json",
+      "kategori": "deepgraph",
+      "kaynak": "katalog",
+      "sunucu": "DeepGraph Next.js MCP",
+      "komut": "npx",
+      "args": [
+        "-y",
+        "mcp-code-graph@latest",
+        "vercel/next.js"
+      ],
+      "env_keys": [],
+      "mekanizma": "stdio-node"
+    },
+    {
+      "id": "deepgraph/DeepGraph React MCP",
+      "dosya": "deepgraph/deepgraph-react.json",
+      "kategori": "deepgraph",
+      "kaynak": "katalog",
+      "sunucu": "DeepGraph React MCP",
+      "komut": "npx",
+      "args": [
+        "-y",
+        "mcp-code-graph@latest",
+        "facebook/react"
+      ],
+      "env_keys": [],
+      "mekanizma": "stdio-node"
+    },
+    {
+      "id": "deepgraph/DeepGraph TypeScript MCP",
+      "dosya": "deepgraph/deepgraph-typescript.json",
+      "kategori": "deepgraph",
+      "kaynak": "katalog",
+      "sunucu": "DeepGraph TypeScript MCP",
+      "komut": "npx",
+      "args": [
+        "-y",
+        "mcp-code-graph@latest",
+        "microsoft/TypeScript"
+      ],
+      "env_keys": [],
+      "mekanizma": "stdio-node"
+    },
+    {
+      "id": "deepgraph/DeepGraph Vue MCP",
+      "dosya": "deepgraph/deepgraph-vue.json",
+      "kategori": "deepgraph",
+      "kaynak": "katalog",
+      "sunucu": "DeepGraph Vue MCP",
+      "komut": "npx",
+      "args": [
+        "-y",
+        "mcp-code-graph@latest",
+        "vuejs/core"
+      ],
+      "env_keys": [],
+      "mekanizma": "stdio-node"
+    },
+    {
+      "id": "deepresearch/mcp-server-nia",
+      "dosya": "deepresearch/mcp-server-nia.json",
+      "kategori": "deepresearch",
+      "kaynak": "katalog",
+      "sunucu": "mcp-server-nia",
+      "komut": "pipx",
+      "args": [
+        "run",
+        "--no-cache",
+        "nia-mcp-server"
+      ],
+      "env_keys": [
+        "NIA_API_KEY",
+        "NIA_API_URL"
+      ],
+      "mekanizma": "stdio-other"
+    },
+    {
+      "id": "devtools/android-mcp",
+      "dosya": "devtools/android-mcp.json",
+      "kategori": "devtools",
+      "kaynak": "katalog",
+      "sunucu": "android-mcp",
+      "komut": "uvx",
+      "args": [
+        "--python",
+        "3.13",
+        "android-mcp"
+      ],
+      "env_keys": [],
+      "mekanizma": "stdio-python"
+    },
+    {
+      "id": "devtools/aks",
+      "dosya": "devtools/azure-kubernetes-service.json",
+      "kategori": "devtools",
+      "kaynak": "katalog",
+      "sunucu": "aks",
+      "komut": "<path of binary aks-mcp>",
+      "args": [
+        "--transport",
+        "stdio"
+      ],
+      "env_keys": [],
+      "mekanizma": "stdio-other"
+    },
+    {
+      "id": "devtools/mcp-server-box",
+      "dosya": "devtools/box.json",
+      "kategori": "devtools",
+      "kaynak": "katalog",
+      "sunucu": "mcp-server-box",
+      "komut": "uv",
+      "args": [
+        "--directory",
+        "/path/to/mcp-server-box",
+        "run",
+        "src/mcp_server_box.py"
+      ],
+      "env_keys": [],
+      "mekanizma": "stdio-other"
+    },
+    {
+      "id": "devtools/chrome-devtools",
+      "dosya": "devtools/chrome-devtools.json",
+      "kategori": "devtools",
+      "kaynak": "katalog",
+      "sunucu": "chrome-devtools",
+      "komut": "npx",
+      "args": [
+        "-y",
+        "chrome-devtools-mcp@latest"
+      ],
+      "env_keys": [],
+      "mekanizma": "stdio-node"
+    },
+    {
+      "id": "devtools/circleci-mcp-server",
+      "dosya": "devtools/circleci.json",
+      "kategori": "devtools",
+      "kaynak": "katalog",
+      "sunucu": "circleci-mcp-server",
+      "komut": "npx",
+      "args": [
+        "-y",
+        "@circleci/mcp-server-circleci"
+      ],
+      "env_keys": [
+        "CIRCLECI_BASE_URL",
+        "CIRCLECI_TOKEN"
+      ],
+      "mekanizma": "stdio-node"
+    },
+    {
+      "id": "devtools/codacy",
+      "dosya": "devtools/codacy.json",
+      "kategori": "devtools",
+      "kaynak": "katalog",
+      "sunucu": "codacy",
+      "komut": "npx",
+      "args": [
+        "-y",
+        "@codacy/codacy-mcp"
+      ],
+      "env_keys": [
+        "CODACY_ACCOUNT_TOKEN"
+      ],
+      "mekanizma": "stdio-node"
+    },
+    {
+      "id": "devtools/context7",
+      "dosya": "devtools/context7.json",
+      "kategori": "devtools",
+      "kaynak": "katalog",
+      "sunucu": "context7",
+      "komut": "npx",
+      "args": [
+        "-y",
+        "@upstash/context7-mcp@latest"
+      ],
+      "env_keys": [
+        "CONTEXT7_API_KEY"
+      ],
+      "mekanizma": "stdio-node"
+    },
+    {
+      "id": "devtools/devplan",
+      "dosya": "devtools/devplan-mcp.json",
+      "kategori": "devtools",
+      "kaynak": "katalog",
+      "sunucu": "devplan",
+      "komut": null,
+      "args": null,
+      "env_keys": [],
+      "mekanizma": "http-sse"
+    },
+    {
+      "id": "devtools/dynatrace-mcp-server",
+      "dosya": "devtools/dynatrace.json",
+      "kategori": "devtools",
+      "kaynak": "katalog",
+      "sunucu": "dynatrace-mcp-server",
+      "komut": "npx",
+      "args": [
+        "-y",
+        "@dynatrace-oss/dynatrace-mcp-server@latest"
+      ],
+      "env_keys": [
+        "DT_ENVIRONMENT",
+        "DT_PLATFORM_TOKEN"
+      ],
+      "mekanizma": "stdio-node"
+    },
+    {
+      "id": "devtools/elasticsearch-mcp-server",
+      "dosya": "devtools/elasticsearch.json",
+      "kategori": "devtools",
+      "kaynak": "katalog",
+      "sunucu": "elasticsearch-mcp-server",
+      "komut": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "-e",
+        "ES_URL",
+        "-e",
+        "ES_API_KEY",
+        "docker.elastic.co/mcp/elasticsearch",
+        "stdio"
+      ],
+      "env_keys": [
+        "ES_API_KEY",
+        "ES_URL"
+      ],
+      "mekanizma": "stdio-docker"
+    },
+    {
+      "id": "devtools/Figma Dev Mode MCP",
+      "dosya": "devtools/figma-dev-mode.json",
+      "kategori": "devtools",
+      "kaynak": "katalog",
+      "sunucu": "Figma Dev Mode MCP",
+      "komut": null,
+      "args": null,
+      "env_keys": [],
+      "mekanizma": "http-sse"
+    },
+    {
+      "id": "devtools/firecrawl-mcp",
+      "dosya": "devtools/firecrawl.json",
+      "kategori": "devtools",
+      "kaynak": "katalog",
+      "sunucu": "firecrawl-mcp",
+      "komut": "npx",
+      "args": [
+        "-y",
+        "firecrawl-mcp"
+      ],
+      "env_keys": [
+        "FIRECRAWL_API_KEY"
+      ],
+      "mekanizma": "stdio-node"
+    },
+    {
+      "id": "devtools/firefly",
+      "dosya": "devtools/firefly-mcp.json",
+      "kategori": "devtools",
+      "kaynak": "katalog",
+      "sunucu": "firefly",
+      "komut": "npx",
+      "args": [
+        "-y",
+        "@fireflyai/firefly-mcp"
+      ],
+      "env_keys": [
+        "FIREFLY_ACCESS_KEY",
+        "FIREFLY_SECRET_KEY"
+      ],
+      "mekanizma": "stdio-node"
+    },
+    {
+      "id": "devtools/flatten",
+      "dosya": "devtools/flatten-mcp.json",
+      "kategori": "devtools",
+      "kaynak": "katalog",
+      "sunucu": "flatten",
+      "komut": "npx",
+      "args": [
+        "-y",
+        "flatten-mcp@latest"
+      ],
+      "env_keys": [],
+      "mekanizma": "stdio-node"
+    },
+    {
+      "id": "devtools/github-official",
+      "dosya": "devtools/github-official.json",
+      "kategori": "devtools",
+      "kaynak": "katalog",
+      "sunucu": "github-official",
+      "komut": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "-e",
+        "GITHUB_PERSONAL_ACCESS_TOKEN",
+        "ghcr.io/github/github-mcp-server"
+      ],
+      "env_keys": [
+        "GITHUB_PERSONAL_ACCESS_TOKEN"
+      ],
+      "mekanizma": "stdio-docker"
+    },
+    {
+      "id": "devtools/grafana",
+      "dosya": "devtools/grafana.json",
+      "kategori": "devtools",
+      "kaynak": "katalog",
+      "sunucu": "grafana",
+      "komut": "mcp-grafana",
+      "args": [],
+      "env_keys": [
+        "GRAFANA_PASSWORD",
+        "GRAFANA_SERVICE_ACCOUNT_TOKEN",
+        "GRAFANA_URL",
+        "GRAFANA_USERNAME"
+      ],
+      "mekanizma": "stdio-other"
+    },
+    {
+      "id": "devtools/huggingface",
+      "dosya": "devtools/huggingface.json",
+      "kategori": "devtools",
+      "kaynak": "katalog",
+      "sunucu": "huggingface",
+      "komut": null,
+      "args": null,
+      "env_keys": [],
+      "mekanizma": "http-sse"
+    },
+    {
+      "id": "devtools/imagesorcery-mcp",
+      "dosya": "devtools/imagesorcery.json",
+      "kategori": "devtools",
+      "kaynak": "katalog",
+      "sunucu": "imagesorcery-mcp",
+      "komut": "imagesorcery-mcp",
+      "args": null,
+      "env_keys": [],
+      "mekanizma": "stdio-other"
+    },
+    {
+      "id": "devtools/ios-simulator",
+      "dosya": "devtools/ios-simulator-mcp.json",
+      "kategori": "devtools",
+      "kaynak": "katalog",
+      "sunucu": "ios-simulator",
+      "komut": "npx",
+      "args": [
+        "-y",
+        "ios-simulator-mcp"
+      ],
+      "env_keys": [],
+      "mekanizma": "stdio-node"
+    },
+    {
+      "id": "devtools/jfrog",
+      "dosya": "devtools/jfrog.json",
+      "kategori": "devtools",
+      "kaynak": "katalog",
+      "sunucu": "jfrog",
+      "komut": null,
+      "args": null,
+      "env_keys": [],
+      "mekanizma": "http-sse"
+    },
+    {
+      "id": "devtools/jina-ai",
+      "dosya": "devtools/jina-ai.json",
+      "kategori": "devtools",
+      "kaynak": "katalog",
+      "sunucu": "jina-ai",
+      "komut": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://mcp.jina.ai/v1"
+      ],
+      "env_keys": [
+        "JINA_API_KEY"
+      ],
+      "mekanizma": "stdio-node"
+    },
+    {
+      "id": "devtools/jupyter",
+      "dosya": "devtools/jupyter.json",
+      "kategori": "devtools",
+      "kaynak": "katalog",
+      "sunucu": "jupyter",
+      "komut": "uvx",
+      "args": [
+        "jupyter-mcp-server@latest"
+      ],
+      "env_keys": [
+        "JUPYTER_TOKEN",
+        "JUPYTER_URL"
+      ],
+      "mekanizma": "stdio-python"
+    },
+    {
+      "id": "devtools/just-mcp",
+      "dosya": "devtools/just-mcp.json",
+      "kategori": "devtools",
+      "kaynak": "katalog",
+      "sunucu": "just-mcp",
+      "komut": "/path/to/just-mcp",
+      "args": [
+        "--stdio"
+      ],
+      "env_keys": [],
+      "mekanizma": "stdio-other"
+    },
+    {
+      "id": "devtools/LaunchDarkly",
+      "dosya": "devtools/launchdarkly.json",
+      "kategori": "devtools",
+      "kaynak": "katalog",
+      "sunucu": "LaunchDarkly",
+      "komut": "npx",
+      "args": [
+        "-y",
+        "--package",
+        "@launchdarkly/mcp-server",
+        "--",
+        "mcp",
+        "start",
+        "--api-key",
+        "api-xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+      ],
+      "env_keys": [],
+      "mekanizma": "stdio-node"
+    },
+    {
+      "id": "devtools/leetcode",
+      "dosya": "devtools/leetcode.json",
+      "kategori": "devtools",
+      "kaynak": "katalog",
+      "sunucu": "leetcode",
+      "komut": "mcp-server-leetcode",
+      "args": null,
+      "env_keys": [],
+      "mekanizma": "stdio-other"
+    },
+    {
+      "id": "devtools/logfire",
+      "dosya": "devtools/logfire.json",
+      "kategori": "devtools",
+      "kaynak": "katalog",
+      "sunucu": "logfire",
+      "komut": "uvx",
+      "args": [
+        "logfire-mcp@latest",
+        "--read-token=YOUR-TOKEN"
+      ],
+      "env_keys": [],
+      "mekanizma": "stdio-python"
+    },
+    {
+      "id": "devtools/markitdown",
+      "dosya": "devtools/markitdown.json",
+      "kategori": "devtools",
+      "kaynak": "katalog",
+      "sunucu": "markitdown",
+      "komut": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "markitdown-mcp:latest"
+      ],
+      "env_keys": [],
+      "mekanizma": "stdio-docker"
+    },
+    {
+      "id": "devtools/bitbucket",
+      "dosya": "devtools/mcp-server-atlassian-bitbucket.json",
+      "kategori": "devtools",
+      "kaynak": "katalog",
+      "sunucu": "bitbucket",
+      "komut": "npx",
+      "args": [
+        "-y",
+        "@aashari/mcp-server-atlassian-bitbucket"
+      ],
+      "env_keys": [],
+      "mekanizma": "stdio-node"
+    },
+    {
+      "id": "devtools/trello",
+      "dosya": "devtools/mcp-server-trello.json",
+      "kategori": "devtools",
+      "kaynak": "katalog",
+      "sunucu": "trello",
+      "komut": "pnpx",
+      "args": [
+        "@delorenj/mcp-server-trello"
+      ],
+      "env_keys": [
+        "TRELLO_API_KEY",
+        "TRELLO_TOKEN"
+      ],
+      "mekanizma": "stdio-node"
+    },
+    {
+      "id": "devtools/mermaid",
+      "dosya": "devtools/mermaid.json",
+      "kategori": "devtools",
+      "kaynak": "katalog",
+      "sunucu": "mermaid",
+      "komut": "npx",
+      "args": [
+        "-y",
+        "mcp-mermaid"
+      ],
+      "env_keys": [],
+      "mekanizma": "stdio-node"
+    },
+    {
+      "id": "devtools/@microsoft/clarity-mcp-server",
+      "dosya": "devtools/microsoft-clarity.json",
+      "kategori": "devtools",
+      "kaynak": "katalog",
+      "sunucu": "@microsoft/clarity-mcp-server",
+      "komut": "npx",
+      "args": [
+        "@microsoft/clarity-mcp-server",
+        "--clarity_api_token=your-api-token-here"
+      ],
+      "env_keys": [],
+      "mekanizma": "stdio-node"
+    },
+    {
+      "id": "devtools/DevBox",
+      "dosya": "devtools/microsoft-dev-box.json",
+      "kategori": "devtools",
+      "kaynak": "katalog",
+      "sunucu": "DevBox",
+      "komut": "npx",
+      "args": [
+        "-y",
+        "@microsoft/devbox-mcp@latest"
+      ],
+      "env_keys": [],
+      "mekanizma": "stdio-node"
+    },
+    {
+      "id": "devtools/MongoDB",
+      "dosya": "devtools/mongodb.json",
+      "kategori": "devtools",
+      "kaynak": "katalog",
+      "sunucu": "MongoDB",
+      "komut": "npx",
+      "args": [
+        "-y",
+        "mongodb-mcp-server@latest",
+        "--readOnly"
+      ],
+      "env_keys": [
+        "MDB_MCP_CONNECTION_STRING"
+      ],
+      "mekanizma": "stdio-node"
+    },
+    {
+      "id": "devtools/nika",
+      "dosya": "devtools/nika.json",
+      "kategori": "devtools",
+      "kaynak": "katalog",
+      "sunucu": "nika",
+      "komut": "nika",
+      "args": [
+        "mcp"
+      ],
+      "env_keys": [],
+      "mekanizma": "stdio-other"
+    },
+    {
+      "id": "devtools/postman-api-http-server",
+      "dosya": "devtools/postman.json",
+      "kategori": "devtools",
+      "kaynak": "katalog",
+      "sunucu": "postman-api-http-server",
+      "komut": null,
+      "args": null,
+      "env_keys": [],
+      "mekanizma": "http-sse"
+    },
+    {
+      "id": "devtools/pulumi",
+      "dosya": "devtools/pulumi.json",
+      "kategori": "devtools",
+      "kaynak": "katalog",
+      "sunucu": "pulumi",
+      "komut": "npx",
+      "args": [
+        "-y",
+        "@pulumi/mcp-server@latest",
+        "stdio"
+      ],
+      "env_keys": [],
+      "mekanizma": "stdio-node"
+    },
+    {
+      "id": "devtools/Railway",
+      "dosya": "devtools/railway.json",
+      "kategori": "devtools",
+      "kaynak": "katalog",
+      "sunucu": "Railway",
+      "komut": "npx",
+      "args": [
+        "-y",
+        "@railway/mcp-server"
+      ],
+      "env_keys": [],
+      "mekanizma": "stdio-node"
+    },
+    {
+      "id": "devtools/sentry",
+      "dosya": "devtools/sentry-local.json",
+      "kategori": "devtools",
+      "kaynak": "katalog",
+      "sunucu": "sentry",
+      "komut": "npx",
+      "args": [
+        "-y",
+        "@sentry/mcp-server@latest"
+      ],
+      "env_keys": [
+        "SENTRY_ACCESS_TOKEN"
+      ],
+      "mekanizma": "stdio-node"
+    },
+    {
+      "id": "devtools/sentry",
+      "dosya": "devtools/sentry.json",
+      "kategori": "devtools",
+      "kaynak": "katalog",
+      "sunucu": "sentry",
+      "komut": null,
+      "args": null,
+      "env_keys": [],
+      "mekanizma": "http-sse"
+    },
+    {
+      "id": "devtools/serena",
+      "dosya": "devtools/serena.json",
+      "kategori": "devtools",
+      "kaynak": "katalog",
+      "sunucu": "serena",
+      "komut": "/abs/path/to/uv",
+      "args": [
+        "run",
+        "--directory",
+        "/abs/path/to/serena",
+        "serena",
+        "start-mcp-server"
+      ],
+      "env_keys": [],
+      "mekanizma": "stdio-other"
+    },
+    {
+      "id": "devtools/stripe",
+      "dosya": "devtools/stripe.json",
+      "kategori": "devtools",
+      "kaynak": "katalog",
+      "sunucu": "stripe",
+      "komut": "npx",
+      "args": [
+        "-y",
+        "@stripe/mcp",
+        "--tools=all"
+      ],
+      "env_keys": [
+        "STRIPE_SECRET_KEY"
+      ],
+      "mekanizma": "stdio-node"
+    },
+    {
+      "id": "devtools/terraform",
+      "dosya": "devtools/terraform.json",
+      "kategori": "devtools",
+      "kaynak": "katalog",
+      "sunucu": "terraform",
+      "komut": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "hashicorp/terraform-mcp-server:0.2.3"
+      ],
+      "env_keys": [],
+      "mekanizma": "stdio-docker"
+    },
+    {
+      "id": "devtools/TestSprite",
+      "dosya": "devtools/testsprite.json",
+      "kategori": "devtools",
+      "kaynak": "katalog",
+      "sunucu": "TestSprite",
+      "komut": "npx",
+      "args": [
+        "@testsprite/testsprite-mcp@latest"
+      ],
+      "env_keys": [
+        "API_KEY"
+      ],
+      "mekanizma": "stdio-node"
+    },
+    {
+      "id": "devtools/trace-mcp",
+      "dosya": "devtools/trace-mcp.json",
+      "kategori": "devtools",
+      "kaynak": "katalog",
+      "sunucu": "trace-mcp",
+      "komut": "npx",
+      "args": [
+        "-y",
+        "trace-mcp@latest"
+      ],
+      "env_keys": [],
+      "mekanizma": "stdio-node"
+    },
+    {
+      "id": "devtools/webflow",
+      "dosya": "devtools/webflow.json",
+      "kategori": "devtools",
+      "kaynak": "katalog",
+      "sunucu": "webflow",
+      "komut": "npx mcp-remote https://mcp.webflow.com/sse",
+      "args": null,
+      "env_keys": [],
+      "mekanizma": "stdio-node"
+    },
+    {
+      "id": "devtools/zai-mcp-server",
+      "dosya": "devtools/zai-mcp-server.json",
+      "kategori": "devtools",
+      "kaynak": "katalog",
+      "sunucu": "zai-mcp-server",
+      "komut": "npx",
+      "args": [
+        "-y",
+        "@z_ai/mcp-server"
+      ],
+      "env_keys": [
+        "Z_AI_API_KEY",
+        "Z_AI_MODE"
+      ],
+      "mekanizma": "stdio-node"
+    },
+    {
+      "id": "filesystem/filesystem",
+      "dosya": "filesystem/filesystem-access.json",
+      "kategori": "filesystem",
+      "kaynak": "katalog",
+      "sunucu": "filesystem",
+      "komut": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/path/to/allowed/files"
+      ],
+      "env_keys": [],
+      "mekanizma": "stdio-node"
+    },
+    {
+      "id": "integration/alpaca-trading",
+      "dosya": "integration/alpaca-trading.json",
+      "kategori": "integration",
+      "kaynak": "katalog",
+      "sunucu": "alpaca-trading",
+      "komut": "uvx",
+      "args": [
+        "alpaca-mcp-server"
+      ],
+      "env_keys": [
+        "ALPACA_API_KEY",
+        "ALPACA_SECRET_KEY"
+      ],
+      "mekanizma": "stdio-python"
+    },
+    {
+      "id": "integration/footballbin-predictions",
+      "dosya": "integration/footballbin-predictions.json",
+      "kategori": "integration",
+      "kaynak": "katalog",
+      "sunucu": "footballbin-predictions",
+      "komut": null,
+      "args": null,
+      "env_keys": [],
+      "mekanizma": "http-sse"
+    },
+    {
+      "id": "integration/github",
+      "dosya": "integration/github-integration.json",
+      "kategori": "integration",
+      "kaynak": "katalog",
+      "sunucu": "github",
+      "komut": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-github"
+      ],
+      "env_keys": [
+        "GITHUB_PERSONAL_ACCESS_TOKEN"
+      ],
+      "mekanizma": "stdio-node"
+    },
+    {
+      "id": "integration/memex",
+      "dosya": "integration/memex-mcp.json",
+      "kategori": "integration",
+      "kaynak": "katalog",
+      "sunucu": "memex",
+      "komut": "npx",
+      "args": [
+        "-y",
+        "stifler-memex-mcp",
+        "serve",
+        "--repo",
+        "."
+      ],
+      "env_keys": [],
+      "mekanizma": "stdio-node"
+    },
+    {
+      "id": "integration/memory",
+      "dosya": "integration/memory-integration.json",
+      "kategori": "integration",
+      "kaynak": "katalog",
+      "sunucu": "memory",
+      "komut": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-memory"
+      ],
+      "env_keys": [],
+      "mekanizma": "stdio-node"
+    },
+    {
+      "id": "integration/n8n-mcp",
+      "dosya": "integration/n8n-mcp.json",
+      "kategori": "integration",
+      "kaynak": "katalog",
+      "sunucu": "n8n-mcp",
+      "komut": "npx",
+      "args": [
+        "-y",
+        "n8n-mcp"
+      ],
+      "env_keys": [
+        "MCP_MODE"
+      ],
+      "mekanizma": "stdio-node"
+    },
+    {
+      "id": "marketing/fb-ads-mcp-server",
+      "dosya": "marketing/facebook-ads-mcp-server.json",
+      "kategori": "marketing",
+      "kaynak": "katalog",
+      "sunucu": "fb-ads-mcp-server",
+      "komut": "python",
+      "args": [
+        "/path/to/your/fb-ads-mcp-server/server.py",
+        "--fb-token",
+        "YOUR_META_ACCESS_TOKEN"
+      ],
+      "env_keys": [],
+      "mekanizma": "stdio-python"
+    },
+    {
+      "id": "marketing/google-ads",
+      "dosya": "marketing/google-ads-mcp-server.json",
+      "kategori": "marketing",
+      "kaynak": "katalog",
+      "sunucu": "google-ads",
+      "komut": "/full/path/to/your/project/.venv/bin/python",
+      "args": [
+        "/full/path/to/your/project/server.py"
+      ],
+      "env_keys": [],
+      "mekanizma": "stdio-python"
+    },
+    {
+      "id": "marketing/posthell",
+      "dosya": "marketing/posthell.json",
+      "kategori": "marketing",
+      "kaynak": "katalog",
+      "sunucu": "posthell",
+      "komut": null,
+      "args": null,
+      "env_keys": [],
+      "mekanizma": "http-sse"
+    },
+    {
+      "id": "productivity/google-workspace",
+      "dosya": "productivity/google-workspace.json",
+      "kategori": "productivity",
+      "kaynak": "katalog",
+      "sunucu": "google-workspace",
+      "komut": "uvx",
+      "args": [
+        "workspace-mcp"
+      ],
+      "env_keys": [
+        "GOOGLE_OAUTH_CLIENT_ID",
+        "GOOGLE_OAUTH_CLIENT_SECRET"
+      ],
+      "mekanizma": "stdio-python"
+    },
+    {
+      "id": "productivity/monday-api-mcp",
+      "dosya": "productivity/monday.json",
+      "kategori": "productivity",
+      "kaynak": "katalog",
+      "sunucu": "monday-api-mcp",
+      "komut": "npx",
+      "args": [
+        "@mondaydotcomorg/monday-api-mcp",
+        "-t",
+        "your_monday_api_token"
+      ],
+      "env_keys": [],
+      "mekanizma": "stdio-node"
+    },
+    {
+      "id": "productivity/notionApi",
+      "dosya": "productivity/notion.json",
+      "kategori": "productivity",
+      "kaynak": "katalog",
+      "sunucu": "notionApi",
+      "komut": "npx",
+      "args": [
+        "-y",
+        "@notionhq/notion-mcp-server"
+      ],
+      "env_keys": [
+        "NOTION_TOKEN"
+      ],
+      "mekanizma": "stdio-node"
+    },
+    {
+      "id": "research/arxiv-mcp-server",
+      "dosya": "research/arxiv-mcp-server.json",
+      "kategori": "research",
+      "kaynak": "katalog",
+      "sunucu": "arxiv-mcp-server",
+      "komut": "uvx",
+      "args": [
+        "arxiv-mcp-server"
+      ],
+      "env_keys": [],
+      "mekanizma": "stdio-python"
+    },
+    {
+      "id": "web/searxng",
+      "dosya": "web/searxng.json",
+      "kategori": "web",
+      "kaynak": "katalog",
+      "sunucu": "searxng",
+      "komut": "npx",
+      "args": [
+        "-y",
+        "mcp-searxng"
+      ],
+      "env_keys": [
+        "SEARXNG_URL"
+      ],
+      "mekanizma": "stdio-node"
+    },
+    {
+      "id": "web/tinyfish",
+      "dosya": "web/tinyfish.json",
+      "kategori": "web",
+      "kaynak": "katalog",
+      "sunucu": "tinyfish",
+      "komut": null,
+      "args": null,
+      "env_keys": [],
+      "mekanizma": "http-sse"
+    },
+    {
+      "id": "web/fetch",
+      "dosya": "web/web-fetch.json",
+      "kategori": "web",
+      "kaynak": "katalog",
+      "sunucu": "fetch",
+      "komut": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-fetch"
+      ],
+      "env_keys": [],
+      "mekanizma": "stdio-node"
+    },
+    {
+      "id": "web/web-reader",
+      "dosya": "web/web-reader.json",
+      "kategori": "web",
+      "kaynak": "katalog",
+      "sunucu": "web-reader",
+      "komut": null,
+      "args": null,
+      "env_keys": [],
+      "mekanizma": "http-sse"
+    },
+    {
+      "id": "web/web-search-prime",
+      "dosya": "web/web-search-prime.json",
+      "kategori": "web",
+      "kaynak": "katalog",
+      "sunucu": "web-search-prime",
+      "komut": null,
+      "args": null,
+      "env_keys": [],
+      "mekanizma": "http-sse"
+    },
+    {
+      "id": "web/zread",
+      "dosya": "web/zread.json",
+      "kategori": "web",
+      "kaynak": "katalog",
+      "sunucu": "zread",
+      "komut": null,
+      "args": null,
+      "env_keys": [],
+      "mekanizma": "http-sse"
+    },
+    {
+      "id": "web-data/apify",
+      "dosya": "web-data/apify.json",
+      "kategori": "web-data",
+      "kaynak": "katalog",
+      "sunucu": "apify",
+      "komut": "npx",
+      "args": [
+        "-y",
+        "@apify/actors-mcp-server"
+      ],
+      "env_keys": [
+        "APIFY_TOKEN"
+      ],
+      "mekanizma": "stdio-node"
+    },
+    {
+      "id": "web-data/brightdata",
+      "dosya": "web-data/brightdata.json",
+      "kategori": "web-data",
+      "kaynak": "katalog",
+      "sunucu": "brightdata",
+      "komut": null,
+      "args": null,
+      "env_keys": [],
+      "mekanizma": "http-sse"
+    },
+    {
+      "id": "web-data/browseract",
+      "dosya": "web-data/browseract.json",
+      "kategori": "web-data",
+      "kaynak": "katalog",
+      "sunucu": "browseract",
+      "komut": "npx",
+      "args": [
+        "-y",
+        "browseract-mcp"
+      ],
+      "env_keys": [
+        "BROWSERACT_API_KEY"
+      ],
+      "mekanizma": "stdio-node"
+    },
+    {
+      "id": "web-data/datalikers",
+      "dosya": "web-data/datalikers.json",
+      "kategori": "web-data",
+      "kaynak": "katalog",
+      "sunucu": "datalikers",
+      "komut": null,
+      "args": null,
+      "env_keys": [],
+      "mekanizma": "http-sse"
+    },
+    {
+      "id": "web-data/explorium",
+      "dosya": "web-data/explorium.json",
+      "kategori": "web-data",
+      "kaynak": "katalog",
+      "sunucu": "explorium",
+      "komut": null,
+      "args": null,
+      "env_keys": [],
+      "mekanizma": "http-sse"
+    },
+    {
+      "id": "web-data/hikerapi",
+      "dosya": "web-data/hikerapi.json",
+      "kategori": "web-data",
+      "kaynak": "katalog",
+      "sunucu": "hikerapi",
+      "komut": "npx",
+      "args": [
+        "-y",
+        "hikerapi-mcp"
+      ],
+      "env_keys": [
+        "HIKERAPI_KEY"
+      ],
+      "mekanizma": "stdio-node"
+    },
+    {
+      "id": "web-data/lamatok",
+      "dosya": "web-data/lamatok.json",
+      "kategori": "web-data",
+      "kaynak": "katalog",
+      "sunucu": "lamatok",
+      "komut": "npx",
+      "args": [
+        "-y",
+        "lamatok-mcp"
+      ],
+      "env_keys": [
+        "LAMATOK_KEY"
+      ],
+      "mekanizma": "stdio-node"
+    }
+  ],
+  "canli": [
+    {
+      "id": "live/cloud/Railway",
+      "kategori": "cloud",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Railway",
+      "etiket": "deploy",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/cloud/Aws-mcp",
+      "kategori": "cloud",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Aws-mcp",
+      "etiket": "infra",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/cloud/Azure",
+      "kategori": "cloud",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Azure",
+      "etiket": "infra",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/data/Aurora-dsql",
+      "kategori": "data",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Aurora-dsql",
+      "etiket": "db",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/security/Zscaler",
+      "kategori": "security",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Zscaler",
+      "etiket": "zt",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/security/Zscaler-mcp-server",
+      "kategori": "security",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Zscaler-mcp-server",
+      "etiket": "zt",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/backend/Appwrite-api",
+      "kategori": "backend",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Appwrite-api",
+      "etiket": "baas",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/docs/Appwrite-docs",
+      "kategori": "docs",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Appwrite-docs",
+      "etiket": "docs",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/data/Cockroachdb-toolbox",
+      "kategori": "data",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Cockroachdb-toolbox",
+      "etiket": "db",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/data/Cockroachdb-toolbox-http",
+      "kategori": "data",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Cockroachdb-toolbox-http",
+      "etiket": "db",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/data/Cockroachdb-cloud",
+      "kategori": "data",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Cockroachdb-cloud",
+      "etiket": "db",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/vector/Pinecone",
+      "kategori": "vector",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Pinecone",
+      "etiket": "vector",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/backend/Encore-mcp",
+      "kategori": "backend",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Encore-mcp",
+      "etiket": "backend",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/cloud/Firebase",
+      "kategori": "cloud",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Firebase",
+      "etiket": "baas",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/cloud/Aws-serverless-mcp",
+      "kategori": "cloud",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Aws-serverless-mcp",
+      "etiket": "serverless",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/data/Mongodb",
+      "kategori": "data",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Mongodb",
+      "etiket": "db",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/cloud/Awsiac",
+      "kategori": "cloud",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Awsiac",
+      "etiket": "iac",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/cloud/Awspricing",
+      "kategori": "cloud",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Awspricing",
+      "etiket": "cost",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/qa/Browserstack",
+      "kategori": "qa",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Browserstack",
+      "etiket": "test",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/backend/Convex",
+      "kategori": "backend",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Convex",
+      "etiket": "baas",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/sales/Zoominfo",
+      "kategori": "sales",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Zoominfo",
+      "etiket": "gtm",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/analytics/Mixpanel",
+      "kategori": "analytics",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Mixpanel",
+      "etiket": "product-analytics",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/search/Opensearch-mcp-server",
+      "kategori": "search",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Opensearch-mcp-server",
+      "etiket": "search",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/search/Ddg-search",
+      "kategori": "search",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Ddg-search",
+      "etiket": "search",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/cloud/Awslabs.aws-api-mcp-server",
+      "kategori": "cloud",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Awslabs.aws-api-mcp-server",
+      "etiket": "infra",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/docs/Aws-knowledge-mcp-server",
+      "kategori": "docs",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Aws-knowledge-mcp-server",
+      "etiket": "docs",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/web-data/Bright Data",
+      "kategori": "web-data",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Bright Data",
+      "etiket": "scrape",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/orm/Prisma-Local",
+      "kategori": "orm",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Prisma-Local",
+      "etiket": "orm",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/orm/Prisma-Remote",
+      "kategori": "orm",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Prisma-Remote",
+      "etiket": "orm",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/design/Figma",
+      "kategori": "design",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Figma",
+      "etiket": "design",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/pm/Linear",
+      "kategori": "pm",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Linear",
+      "etiket": "pm",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/obs/Coralogix",
+      "kategori": "obs",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Coralogix",
+      "etiket": "observability",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/obs/Datadog",
+      "kategori": "obs",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Datadog",
+      "etiket": "observability",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/deploy/Monk",
+      "kategori": "deploy",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Monk",
+      "etiket": "deploy",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/docs/Twilio-docs",
+      "kategori": "docs",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Twilio-docs",
+      "etiket": "docs",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/finops/Vantage",
+      "kategori": "finops",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Vantage",
+      "etiket": "finops",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/data/Paradedb",
+      "kategori": "data",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Paradedb",
+      "etiket": "search-db",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/docs/Awsknowledge",
+      "kategori": "docs",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Awsknowledge",
+      "etiket": "docs",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/auth/Workos",
+      "kategori": "auth",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Workos",
+      "etiket": "auth",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/vector/Turbopuffer",
+      "kategori": "vector",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Turbopuffer",
+      "etiket": "vector",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/deploy/Render",
+      "kategori": "deploy",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Render",
+      "etiket": "deploy",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/security/Jfrog",
+      "kategori": "security",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Jfrog",
+      "etiket": "supply-chain",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/ops/Pagerduty-mcp",
+      "kategori": "ops",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Pagerduty-mcp",
+      "etiket": "incident",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/data/PlanetScale",
+      "kategori": "data",
+      "kaynak": "cursor-runtime",
+      "sunucu": "PlanetScale",
+      "etiket": "db",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/auth/Clerk",
+      "kategori": "auth",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Clerk",
+      "etiket": "auth",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/data/Neon",
+      "kategori": "data",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Neon",
+      "etiket": "db",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/data/Supabase",
+      "kategori": "data",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Supabase",
+      "etiket": "baas",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/deploy/Vercel",
+      "kategori": "deploy",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Vercel",
+      "etiket": "deploy",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/obs/Sentry",
+      "kategori": "obs",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Sentry",
+      "etiket": "errors",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/docs/Cloudflare-docs",
+      "kategori": "docs",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Cloudflare-docs",
+      "etiket": "docs",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/cloud/Cloudflare-bindings",
+      "kategori": "cloud",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Cloudflare-bindings",
+      "etiket": "edge",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/cloud/Cloudflare-builds",
+      "kategori": "cloud",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Cloudflare-builds",
+      "etiket": "ci",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/obs/Cloudflare-observability",
+      "kategori": "obs",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Cloudflare-observability",
+      "etiket": "obs",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/obs/Observe",
+      "kategori": "obs",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Observe",
+      "etiket": "observability",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/web-data/Apify",
+      "kategori": "web-data",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Apify",
+      "etiket": "scrape",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/flags/Confidence-flags",
+      "kategori": "flags",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Confidence-flags",
+      "etiket": "flags",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/docs/Confidence-docs",
+      "kategori": "docs",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Confidence-docs",
+      "etiket": "docs",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/obs/Grafana-cloud",
+      "kategori": "obs",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Grafana-cloud",
+      "etiket": "observability",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/comms/Slack",
+      "kategori": "comms",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Slack",
+      "etiket": "comms",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/research/Exa",
+      "kategori": "research",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Exa",
+      "etiket": "research",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/code/Spottercode",
+      "kategori": "code",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Spottercode",
+      "etiket": "code-intel",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/analytics/Pendo-external",
+      "kategori": "analytics",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Pendo-external",
+      "etiket": "product-analytics",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/docs/Elastic-docs",
+      "kategori": "docs",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Elastic-docs",
+      "etiket": "docs",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/api/Postman",
+      "kategori": "api",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Postman",
+      "etiket": "api",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/eval/Braintrust",
+      "kategori": "eval",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Braintrust",
+      "etiket": "evals",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/ops/Antimetal",
+      "kategori": "ops",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Antimetal",
+      "etiket": "rca",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/data/Azure-cosmosdb",
+      "kategori": "data",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Azure-cosmosdb",
+      "etiket": "db",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/analytics/Amplitude",
+      "kategori": "analytics",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Amplitude",
+      "etiket": "product-analytics",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/ml/Huggingface-skills",
+      "kategori": "ml",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Huggingface-skills",
+      "etiket": "ml",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/analytics/Posthog",
+      "kategori": "analytics",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Posthog",
+      "etiket": "product-analytics",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/data/Clickhouse",
+      "kategori": "data",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Clickhouse",
+      "etiket": "analytics-db",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/data/Snowflake",
+      "kategori": "data",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Snowflake",
+      "etiket": "warehouse",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/docs/Gitbook",
+      "kategori": "docs",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Gitbook",
+      "etiket": "docs",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/analytics/Hex",
+      "kategori": "analytics",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Hex",
+      "etiket": "analytics",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/design/Canva",
+      "kategori": "design",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Canva",
+      "etiket": "design",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/docs/Mintlify",
+      "kategori": "docs",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Mintlify",
+      "etiket": "docs",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/docs/Mintlify MCP",
+      "kategori": "docs",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Mintlify MCP",
+      "etiket": "docs",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/prd/ChatPRD",
+      "kategori": "prd",
+      "kaynak": "cursor-runtime",
+      "sunucu": "ChatPRD",
+      "etiket": "prd",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/ops/Tierzero",
+      "kategori": "ops",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Tierzero",
+      "etiket": "incident",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/cicd/Harness",
+      "kategori": "cicd",
+      "kaynak": "cursor-runtime",
+      "sunucu": "Harness",
+      "etiket": "cicd",
+      "mekanizma": "mcp-remote-or-local"
+    },
+    {
+      "id": "live/meta/cursor-cloud",
+      "kategori": "meta",
+      "kaynak": "cursor-runtime",
+      "sunucu": "cursor-cloud",
+      "etiket": "agent-ops",
+      "mekanizma": "mcp-remote-or-local"
+    }
+  ],
+  "is_akis_sirasi": [
+    "1) L1 araştırma → sinyal",
+    "2) L2 veri/backend doğrulama",
+    "3) L3 gözlem/güvenlik denetim",
+    "4) L4 teslim/gelir aksiyon",
+    "5) L0 damga → BILGI_TABANI + AUDIT_LOG"
+  ]
+}
