@@ -12,7 +12,7 @@ country: global
 
 # EVP — Veri Mühendisliği (DAT-ENG)
 Bu departmani uctan uca sahiplenir: OKR, kalite bari, kapasite, eskalasyon.
-Uretildi: 2026-08-04T08:43:59Z · Kaynak: `.claude/org/org.json` + `docs/UNVAN-KARTI-SABLONU.md`.
+Uretildi: 2026-08-04T09:40:02Z · Kaynak: `.claude/org/org.json` + `docs/UNVAN-KARTI-SABLONU.md`.
 
 ## 1. Kimlik / Identity
 Tier: EVP · Department: Veri Mühendisliği · Reports to: CDO · Span: departmanin tum kadrosu (direktor→analist) · Nobet: follow-the-sun (3 vardiya) · Mandate: departman OKR + kadro + kalite bari + dis-departman taahhutleri.

@@ -1,5 +1,5 @@
 # OZ-DENETIM SORU BANKASI (532 soru)
-> Uretim: 2026-08-04T08:53:44Z · Kaynak: scripts/build_question_bank.py · data/soru_bankasi.json
+> Uretim: 2026-08-04T09:40:02Z · Kaynak: scripts/build_question_bank.py · data/soru_bankasi.json
 Her ajan her surecte kendine bu sorulari sorar. Gunluk dongu (daily_agency.py) her kosumda ornekler ve standup'ta yanitlar. Kart basina alt-set: departman + kademe bloklari; tam banka (bu dosya) her title'a acik.
 
 ## Ozet: Evrensel 119 · Departman 386 (46 departman) · Kademe 27 · **Toplam 532**

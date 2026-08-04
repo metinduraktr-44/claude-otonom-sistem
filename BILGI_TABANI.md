@@ -112,3 +112,7 @@
 
 ## 2026-08-04T08:55:14Z — 532 soru bankasi + karta gomme
 - build_question_bank.py -> data/soru_bankasi.json + docs/OZ-DENETIM-SORU-BANKASI.md (532: evrensel 119 + departman 386 + kademe 27). build_org_cards.py her rol kartina departman+kademe alt-seti gomer + tam bankaya referans. Reddedilen: 900B karakter (imkansiz), top-100 uydurma (veri butunlugu). Merge: ajan yapamaz (gh read-only).
+
+- [2026-08-04T09:40:02Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-04-SEC-AUD.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-08-04T09:40:02Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
