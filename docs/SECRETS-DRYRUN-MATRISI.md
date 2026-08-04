@@ -8,7 +8,9 @@ Yapılan: şablon + dry-run matrisi + `.env.example`. Gerçek anahtarlar GitHub 
 | Secret | Kullanım | Nereden | Credential yoksa | Zorunlu |
 |---|---|---|---|---|
 | `GITHUB_TOKEN` | GitHub API (holding_report) | PAT/fine-grained | dry-run: statik rapor | opsiyonel |
-| `ANTHROPIC_API_KEY` | Claude Code / API | console.anthropic.com | dry-run: MASTER prompt uygula | opsiyonel |
+| `OPENROUTER_API_KEY` | Holding LLM (öncelik) — daily_agency + openrouter_client | https://openrouter.ai/keys | dry-run iskelet | **önerilen** |
+| `OPENROUTER_MODEL` | Model id (varsayılan anthropic/claude-sonnet-4) | openrouter.ai/models | varsayılan kullanılır | opsiyonel |
+| `ANTHROPIC_API_KEY` | Claude doğrudan (OpenRouter yoksa fallback) | console.anthropic.com | dry-run: MASTER prompt uygula | opsiyonel |
 | `OPENAI_API_KEY` | opsiyonel LLM | platform.openai.com | dry-run | opsiyonel |
 | `EXA_API_KEY` | Exa search MCP | dashboard.exa.ai | WebSearch fallback | opsiyonel |
 | `BRIGHT_DATA_API_TOKEN` | Bright Data MCP | brightdata.com | dry-run scrape checklist | opsiyonel |

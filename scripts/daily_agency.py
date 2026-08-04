@@ -6,8 +6,8 @@ kayboldu; bu sürüm AdOps daily_ops.py deseni + CILT5 §99 rotasyonu + CILT6 ri
 tersine mühendislikle yeniden üretildi. Rotasyon 5 tarihsel indeksle doğrulanır (--dogrula).
 Üretir: uretim/gunluk/{tarih}-{DEPT}.md (standup + işe alım iskeleti + makale taslağı
 + öz-denetim soruları), IS_LISTESI damgası, AUDIT_LOG.jsonl + BILGI_TABANI.md zinciri.
-ANTHROPIC_API_KEY varsa makale LLM ile yazılır; yoksa deterministik iskelet (döngü
-asla kırılmaz — CILT6: K2 anahtarsız da çalışır; K4 Cowork taslakları doldurur).
+OPENROUTER_API_KEY (öncelik) veya ANTHROPIC_API_KEY varsa makale LLM ile yazılır;
+yoksa deterministik iskelet (döngü asla kırılmaz — CILT6: K2 anahtarsız da çalışır).
 Kipler: (varsayılan) günlük · --haftalik liderlik tutanağı · --aylik kurul tutanağı
         · --dogrula rotasyon testi · --org-json .claude/org/org.json'ı yeniden yazar
 """
@@ -126,6 +126,16 @@ def append(p, content):
         f.write(content)
 
 def llm(prompt, max_tokens=1600):
+    """Önce OpenRouter, sonra Anthropic. Key yoksa None (iskelet devam)."""
+    try:
+        sys.path.insert(0, os.path.join(ROOT, "scripts"))
+        from openrouter_client import chat as or_chat, configured as or_ok
+        if or_ok():
+            text = or_chat(prompt, max_tokens=max_tokens)
+            if text:
+                return text
+    except Exception as e:
+        print("OPENROUTER SKIPPED:", e)
     key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
     if not key:
         return None
