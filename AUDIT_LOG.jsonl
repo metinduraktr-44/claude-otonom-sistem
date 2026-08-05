@@ -89,3 +89,4 @@
 {"ts_start": "2026-08-04T09:41:05Z", "ts_end": "2026-08-04T09:41:05Z", "islem": "skill-ajans-uretim", "uzmanlar": ["bas-mimar", "prompt-muhendisi", "otomasyon", "denetci"], "girdi_ozet": "tum skill listesi + 900B prompt istegi", "cikti_ozet": "skills=696; domains=50; titles=216; pilot_prompts=2440; ekipler=50", "denetim": "GECTI", "ogrenim": "Skill listesini domain title workflow MASTER prompt paketina cevir", "onceki_ogrenim_kullanildi": "evet (mcp-ajans-etki + K-017)"}
 {"ts_start": "2026-08-04T09:41:05Z", "ts_end": "2026-08-04T09:41:05Z", "islem": "daily-agency", "departman": "SEC-AUD", "cikti": "uretim/gunluk/2026-08-04-SEC-AUD.md", "denetim": "RUN", "onceki_ogrenim_kullanildi": "evet (BILGI_TABANI.md okunur — K4 doldurur)"}
 {"ts":"2026-08-04T09:41:04Z","event":"live_dashboard_tick"}
+{"ts_start":"2026-08-05T01:21:16Z","ts_end":"2026-08-05T01:21:16Z","islem":"nightly","denetim":"RUN"}
