@@ -91,3 +91,4 @@
 {"ts":"2026-08-04T09:41:04Z","event":"live_dashboard_tick"}
 {"ts_start":"2026-08-05T01:21:16Z","ts_end":"2026-08-05T01:21:16Z","islem":"nightly","denetim":"RUN"}
 {"ts_start": "2026-08-05T08:42:10Z", "ts_end": "2026-08-05T08:42:10Z", "islem": "daily-agency", "departman": "SEC-SUP", "cikti": "uretim/gunluk/2026-08-05-SEC-SUP.md", "denetim": "RUN", "onceki_ogrenim_kullanildi": "evet (BILGI_TABANI.md okunur — K4 doldurur)"}
+{"ts_start":"2026-08-06T01:18:32Z","ts_end":"2026-08-06T01:18:32Z","islem":"nightly","denetim":"RUN"}
