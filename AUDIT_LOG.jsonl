@@ -95,3 +95,4 @@
 {"ts_start": "2026-08-06T08:43:53Z", "ts_end": "2026-08-06T08:43:53Z", "islem": "daily-agency", "departman": "HRA-REC", "cikti": "uretim/gunluk/2026-08-06-HRA-REC.md", "denetim": "RUN", "onceki_ogrenim_kullanildi": "evet (BILGI_TABANI.md okunur — K4 doldurur)"}
 {"ts_start":"2026-08-07T01:59:44Z","ts_end":"2026-08-07T01:59:44Z","islem":"nightly","denetim":"RUN"}
 {"ts_start": "2026-08-07T07:22:06Z", "ts_end": "2026-08-07T07:22:06Z", "islem": "daily-agency", "departman": "HRA-PRF", "cikti": "uretim/gunluk/2026-08-07-HRA-PRF.md", "denetim": "RUN", "onceki_ogrenim_kullanildi": "evet (BILGI_TABANI.md okunur — K4 doldurur)"}
+{"ts_start":"2026-08-08T00:42:39Z","ts_end":"2026-08-08T00:42:39Z","islem":"nightly","denetim":"RUN"}
