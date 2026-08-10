@@ -219,3 +219,6 @@
 
 ## 2026-08-10T09:40:23Z — nightly run
 - Ran read->distill->produce->validate->stamp. Generation: off.
+
+## 2026-08-10T12:33:48Z — Gemini LLM katmani
+- llm() oncelik: OpenRouter → Gemini → Anthropic. Chat anahtari sizmıs sayilir — rotate + Secrets.

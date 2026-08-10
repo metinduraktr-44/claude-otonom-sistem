@@ -126,10 +126,11 @@ def append(p, content):
         f.write(content)
 
 def llm(prompt, max_tokens=1600):
-    """LLM cagrisi. Saglayici onceligi: OpenRouter (OPENROUTER_API_KEY) -> Anthropic
-    (ANTHROPIC_API_KEY). Ikisi de yoksa None (deterministik iskelet — dongu kirilmaz).
-    OpenRouter modeli OPENROUTER_MODEL ile degistirilir (varsayilan asagida)."""
-    # 1) OpenRouter (tercih)
+    """LLM cagrisi. Oncelik: OpenRouter -> Gemini -> Anthropic.
+    Hepsi yoksa None (deterministik iskelet — dongu kirilmaz).
+    Env: OPENROUTER_API_KEY(+OPENROUTER_MODEL), GEMINI_API_KEY(+GEMINI_MODEL),
+    ANTHROPIC_API_KEY. Anahtari asla loglama/commit etme."""
+    # 1) OpenRouter
     or_key = os.environ.get("OPENROUTER_API_KEY", "").strip()
     if or_key:
         model = os.environ.get("OPENROUTER_MODEL", "anthropic/claude-3.5-sonnet").strip()
@@ -147,8 +148,39 @@ def llm(prompt, max_tokens=1600):
             return data["choices"][0]["message"]["content"]
         except Exception as e:
             print("LLM (OpenRouter) SKIPPED:", e)
-            return None
-    # 2) Anthropic (geri dusum)
+            # dusmeye devam et
+    # 2) Gemini (Google AI Studio / generativelanguage)
+    # Not: gemini-flash-latest "thoughts" tokenlari maxOutputTokens'tan yer;
+    # kucuk limitlerde parts bos gelebilir — taban 1024 kullan.
+    gem_key = os.environ.get("GEMINI_API_KEY", "").strip()
+    if gem_key:
+        model = os.environ.get("GEMINI_MODEL", "gemini-flash-latest").strip()
+        out_tokens = max(int(max_tokens), 1024)
+        body = json.dumps({
+            "contents": [{"parts": [{"text": prompt}]}],
+            "generationConfig": {"maxOutputTokens": out_tokens},
+        }).encode()
+        url = ("https://generativelanguage.googleapis.com/v1beta/models/"
+               + model + ":generateContent")
+        req = urllib.request.Request(
+            url, data=body,
+            headers={"Content-Type": "application/json", "X-goog-api-key": gem_key},
+            method="POST")
+        try:
+            with urllib.request.urlopen(req, timeout=120) as r:
+                data = json.loads(r.read())
+            cands = data.get("candidates") or []
+            if not cands:
+                print("LLM (Gemini) SKIPPED: no candidates", data.get("promptFeedback"))
+            else:
+                parts = (cands[0].get("content") or {}).get("parts") or []
+                text = "".join(p.get("text", "") for p in parts if isinstance(p, dict))
+                if text.strip():
+                    return text
+                print("LLM (Gemini) SKIPPED: empty parts finish=", cands[0].get("finishReason"))
+        except Exception as e:
+            print("LLM (Gemini) SKIPPED:", e)
+    # 3) Anthropic
     key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
     if not key:
         return None
