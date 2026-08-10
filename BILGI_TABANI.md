@@ -210,3 +210,12 @@
 - Ran read->distill->produce->validate->stamp. Generation: off.
 
 - [2026-08-10T07:48:41Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-10-LGL-PRV.md); K4 Cowork oturumu taslağı doldurur.
+
+## 2026-08-10T09:40:02Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+## 2026-08-10T09:40:02Z — MIT ucretsiz Status Agents + CILT11
+- docx 6-domain routing urune uyarlandi; install_free_mit_agents.py + Nightly OpenRouter/ucretsiz mod.
+
+## 2026-08-10T09:40:23Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.

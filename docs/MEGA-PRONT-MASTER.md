@@ -162,8 +162,13 @@ kopyala-çalıştır hazır çıktı. Genel/boş dil ve dolgu yok.
 - `docs/CILT1-PROJE-ANAYASASI.md` — anayasa, gerçeklik kontrolü, gecelik takvim.
 - `docs/CILT2-BILESEN-PROMPT-KUTUPHANESI.md` — 8 bileşen anatomisi + 6 katman denetim.
 - `docs/UNVAN-HIYERARSISI.md` — C→işçi kademe + top-100 protokolü + aylık arşiv döngüsü.
+- `docs/CILT10-HOLDING-COKULKE-MIMARISI.md` — holding → iştirak → ülke → app.
+- `docs/CILT11-ENTERPRISE-MCP-ROUTING.md` — 6 domain skill/MCP routing (docx uyarlaması).
+- `docs/MIT-UCRETSIZ-AGENTS-NIGHTLY.md` — MIT Status Agents + ücretsiz Nightly.
+- `scripts/install_free_mit_agents.py` — `katalog/` → `.claude/katalog-mit/` (32 çekirdek ajan).
 - `scripts/daily_agency.py` — 14 başkan / 46 departman rotasyonu, `--org-json`, `--dogrula`.
 - `scripts/validate.py` — yapısal/anlamsal/bütünlük denetimi (CI'da koşar).
+- `.claude/system_prompt` · `.cursorrules` — Claude Code / Cursor yapıştırma hedefleri.
 
 ## EK B — Dürüstlük notu (kullanıcıya)
 Bu belge, isteğin **çalışan** hâlidir. İmkânsız boyutlar (900 milyar/900 milyon

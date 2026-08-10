@@ -12,7 +12,12 @@ if [ -n "${OPENROUTER_API_KEY:-}" ]; then
 elif [ -n "${ANTHROPIC_API_KEY:-}" ]; then
   echo "[nightly] ANTHROPIC_API_KEY present — generation via Anthropic."
 else
-  echo "[nightly] no LLM key (OPENROUTER_API_KEY/ANTHROPIC_API_KEY) — skipping generation (timestamp+validate only)."
+  echo "[nightly] FREE Status Nightly — no LLM key (OPENROUTER_API_KEY/ANTHROPIC_API_KEY); timestamp+validate only (MIT agents ok)."
+fi
+
+# 1b) MIT free agents çekirdeği (kredi harcamaz; katalog/ → .claude/katalog-mit)
+if [ -f scripts/install_free_mit_agents.py ]; then
+  python3 scripts/install_free_mit_agents.py || echo "[nightly] mit-free agents install uyarısı"
 fi
 
 # 2) validate
