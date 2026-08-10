@@ -192,3 +192,6 @@
 - Ran read->distill->produce->validate->stamp. Generation: off.
 
 - [2026-08-10T07:48:41Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-10-LGL-PRV.md); K4 Cowork oturumu taslağı doldurur.
+### 2026-08-10T10:13:01Z — DOMAIN OBS PIPELINE
+- uploads/*.docx → Domain 1-7 matrix + OTel K8s + TF alerts + CI
+- 🚩900M RED · terraform apply secret gerektirir (dry-run CI)
