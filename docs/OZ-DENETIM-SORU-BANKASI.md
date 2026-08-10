@@ -1,623 +1,1100 @@
-# OZ-DENETIM SORU BANKASI (532 soru)
-> Uretim: 2026-08-04T09:40:02Z · Kaynak: scripts/build_question_bank.py · data/soru_bankasi.json
-Her ajan her surecte kendine bu sorulari sorar. Gunluk dongu (daily_agency.py) her kosumda ornekler ve standup'ta yanitlar. Kart basina alt-set: departman + kademe bloklari; tam banka (bu dosya) her title'a acik.
+# ÖZ-DENETİM SORU BANKASI (957 soru)
+> Üretim: 2026-08-10T03:49:09Z · Kaynak: scripts/holding_istirak_ajans_uret.py · data/soru_bankasi.json
 
-## Ozet: Evrensel 119 · Departman 386 (46 departman) · Kademe 27 · **Toplam 532**
+Her ajan her süreçte kendine bu soruları sorar. Günlük döngü örnek çeker.
+Kart başına alt-set: departman + kademe. Hedef ≥501.
 
-## A. Evrensel sorular (tum roller)
+## A. Evrensel sorular
+
 ### Strateji
-1. Bu is ajansin ceyreklik OKR'inin hangisine hizmet ediyor; etmiyorsa neden kuyrukta?
-2. Bugunku en yuksek etkili 3 aksiyonu dogru siraladim mi; kanit ne?
-3. Bu karari 3 ay sonra savunabilir miyim; hangi varsayima dayaniyor?
-4. Rakip/pazar hareketine 7 gun icinde POV urettim mi?
-5. Kaynagi en yuksek marjinal getiriye mi tahsis ettim, aliskanliga mi?
-6. Bu hedef matematiksel olarak mumkun mu; degilse kirmizi bayrak verdim mi?
-### Yurutme
-1. Cikti kopyala-yapistir hazir mi; alici ek is yapmadan kullanabilir mi?
-2. Bir sonraki adimin sahibi ve tarihi net mi?
-3. Bloklayici 4 saati asti mi; astiysa eskale ettim mi?
-4. Bu gorevi tekrarlanabilir bir checklist'e donusturebilir miyim?
-5. Dunku taahhudumu bugun kapattim mi; kapatmadiysam neden?
-6. Isi en kucuk calisan parcaya boldum mu?
-### Kalite-Dogrulama
-1. 6 katmanin (structural/integrity/semantic/reference/known-patterns/review) hepsinden gecti mi?
-2. SHA256 butunluk satiri guncel mi?
-3. Bagimsiz bir gozle (ikinci ajan) review aldim mi?
-4. Rework oranim artiyor mu; kok neden ne?
-5. Bu ciktida tehlikeli desen (enjeksiyon/SSRF) taramasi yaptim mi?
-### Veri-Durustlugu
-1. Sundugum her sayi gercek bir kaynaktan mi; tahminleri acikca etiketledim mi?
-2. Orneklem buyuklugu sonucu tasiyacak kadar mi?
-3. Anomaliyi buyukluk + hipotezle mi raporladim?
-4. KPI'nin tanimi yazili mi; tanimsiz metrik yayinlamadim degil mi?
-5. Korelasyonu nedensellik gibi sunmadim degil mi?
-### Guvenlik
-1. Resmi kaynak (Anthropic/MCP) varken toplulук kaynagina mi gittim?
-2. Script bundle eden bileşeni okumadan/ozetlemeden calistirdim mi?
-3. 'Son commit dun' diye guvenlik varsaydim mi (guncellik yanilgisi)?
-4. Kurulumu kanonik org'dan mi yaptim, fork'tan mi?
-5. Marketplace-oncelik katmanini kontrol ettim mi?
+- Bu iş ajansın/holding'in çeyreklik OKR'ının hangisine hizmet ediyor; edmiyorsa neden kuyrukta?
+- Bugünkü en yüksek etkili 3 aksiyonu doğru sıraladım mı; kanıt ne?
+- Bu kararı 3 ay sonra savunabilir miyim; hangi varsayıma dayanıyor?
+- Rakip/pazar hareketine 7 gün içinde POV ürettim mi?
+- Kaynağı en yüksek marjinal getiriye mi tahsis ettim, alışkanlığa mı?
+- Bu hedef matematiksel olarak mümkün mü; değilse 🚩 verdim mi?
+### Yürütme
+- Çıktı kopyala-yapıştır hazır mı; alıcı ek iş yapmadan kullanabilir mi?
+- Bir sonraki adımın sahibi ve tarihi net mi?
+- Bloklayıcı 4 saati aştı mı; aştıysa eskale ettim mi?
+- Bu görevi tekrarlanabilir bir checklist'e dönüştürebilir miyim?
+- Dünkü taahhüdümü bugün kapattım mı; kapatmadıysam neden?
+- İşi en küçük çalışan parçaya böldüm mü?
+### Kalite-Doğrulama
+- 6 katmanın (structural/integrity/semantic/reference/known-patterns/review) hepsinden geçti mi?
+- SHA256 bütünlük satırı VERSIONS.md'de güncel mi?
+- Bağımsız bir gözle (ikinci ajan) review aldım mı?
+- Rework oranım artıyor mu; kök neden ne?
+- Bu çıktıda tehlikeli desen (enjeksiyon/SSRF) taraması yaptım mı?
+### Veri-Dürüstlüğü
+- Sunduğum her sayı gerçek bir kaynaktan mı; tahminleri açıkça etiketledim mi?
+- Örneklem büyüklüğü sonucu taşıyacak kadar mı?
+- Anomaliyi büyüklük + hipotezle mi raporladım?
+- KPI'nın tanımı yazılı mı; tanımsız metrik yayınlamadım değil mi?
+- Korelasyonu nedensellik gibi sunmadım değil mi?
+### Güvenlik-5Kural
+- Resmi kaynak varken topluluk kaynağına mı gittim?
+- Script bundle eden bileşeni okumadan çalıştırdım mı?
+- 'Son commit dün' diye güvenlik varsaydım mı?
+- Kurulumu kanonik org'dan mı yaptım, fork'tan mı?
+- Marketplace-öncelik katmanını kontrol ettim mi?
 ### Gelir
-1. Bu is 5 gelir kanalindan hangisini ilerletiyor?
-2. Inbound lead yolu (README->iletisim) calisir durumda mi?
-3. Referral firsatini kacirdim mi?
-4. Pipeline degerini bu hafta guncelledim mi?
-5. Bir sponsor/vendor gorusmesini ilerletmek icin bugun ne yaptim?
-### Ogrenme
-1. Bugun en az 1 kaynak (changelog/makale) okudum mu; ogrenimi damittim mi?
-2. Bu ogrenim BILGI_TABANI.md'ye tek satir olarak girdi mi?
-3. Departmanimin platformunda bu hafta ne degisti; takip ettim mi?
-4. Ilgili sertifika/egitimden bir modul tamamladim mi?
-5. Bir beta/yeni urun ozelligini test edip not aldim mi?
-6. Onceki kosumun ciktisini okudum mu (zincir kirilmadi mi)?
-### Toplanti
-1. Standup satirim dun/bugun/blocker formatinda ve tek satir mi?
-2. Tutanakta karar + aksiyon(sahip+tarih) + risk + bayrak var mi?
-3. Kurul kararina K-no verdim mi?
-4. Toplanti ciktisiz mi bitti (ciktisiz toplanti yok)?
+- Bu iş 5 gelir kanalından hangisini ilerletiyor?
+- Inbound lead yolu çalışır durumda mı?
+- Referral fırsatını kaçırdım mı?
+- Pipeline değerini bu hafta güncelledim mi?
+- Bir sponsor/vendor görüşmesini ilerletmek için bugün ne yaptım?
+### Öğrenme
+- Bugün en az 1 kaynak okudum mu; öğrenimi damıttım mı?
+- Bu öğrenim BILGI_TABANI.md'ye tek satır olarak girdi mi?
+- Departmanımın platformunda bu hafta ne değişti?
+- İlgili sertifika/eğitimden bir modül tamamladım mı?
+- Bir beta/yeni ürün özelliğini test edip not aldım mı?
+- Önceki koşumun çıktısını okudum mu (🔗 kırılmadı mı)?
+### Toplantı
+- Standup satırım dün/bugün/blocker formatında ve tek satır mı?
+- Tutanakta karar + aksiyon(sahip+tarih) + risk + 🚩 var mı?
+- Kurul kararına K-no verdim mi?
+- Toplantı çıktısız mı bitti?
 ### Eskalasyon
-1. Butce/politika riskini fin/leg'e ilettim mi?
-2. Imkansiz hedefi [ne]-[neden]-[alternatif] formatinda mi verdim?
-3. Sessiz kalip riski gomdum mu?
-4. Cross-departman cakismayi dogru mercie tasidim mi?
-### Olcumleme
-1. Bu aksiyonun basarisini hangi metrikle ve ne zaman olcecegim?
-2. Atif modeli/olcum yontemi playbook'ta belgeli mi?
-3. Holdout/artimsallik dusundum mu?
-4. Dashboard SLA'sini tutturdum mu?
-### Dokumantasyon
-1. Bu isi baska bir ajan benim yardimim olmadan tekrarlayabilir mi?
-2. Artefakti zaman damgaladim mi?
-3. Playbook'u guncel tuttum mu?
-### Onceliklendirme
-1. P0 isleri gercekten P0 mi; yoksa kolay olani mi once yaptim?
-2. Biten isi arsive tasidim mi?
-3. Is listesini bugun yeniden onceliklendirdim mi?
+- Bütçe/politika riskini fin/leg'e ilettim mi?
+- İmkânsız hedefi 🚩 [ne]·[neden]·[alternatif] formatında mı verdim?
+- Sessiz kalıp riski gömdüm mü?
+- Cross-departman çakışmayı doğru mercie taşıdım mı?
+### Ölçümleme
+- Bu aksiyonun başarısını hangi metrikle ve ne zaman ölçeceğim?
+- Atıf modeli/ölçüm yöntemi playbook'ta belgeli mi?
+- Holdout/artımsallık düşündüm mü?
+- Dashboard SLA'sını tutturdum mu?
+### Dokümantasyon
+- Bu işi başka bir ajan benim yardımım olmadan tekrarlayabilir mi?
+- Artefaktı zaman damgaladım mı?
+- Playbook'u güncel tuttum mu?
+### Önceliklendirme
+- P0 işleri gerçekten P0 mı?
+- Biten işi arşive taşıdım mı?
+- IS_LISTESI'ni bugün yeniden önceliklendirdim mi?
 ### Risk
-1. Bu degisikligin geri-alma (rollback) plani var mi?
-2. En kotu senaryo ne; sinyalini nasil erken yakalarim?
-3. Tek nokta bagimlilik yarattim mi?
-### Isbirligi
-1. Yukari/yatay/asagi arayuzlerimi bugun bilgilendirdim mi?
-2. Baska bir departmanin isini kolaylastirmak icin ne yaptim?
-3. Devrettigim isin sahibi net mi?
+- Bu değişikliğin rollback planı var mı?
+- En kötü senaryo ne; sinyalini nasıl erken yakalarım?
+- Tek nokta bağımlılık yarattım mı?
+### İşbirliği
+- Yukarı/yatay/aşağı arayüzlerimi bugün bilgilendirdim mi?
+- Başka bir departmanın işini kolaylaştırmak için ne yaptım?
+- Devrettiğim işin sahibi net mi?
 ### Etik-Uyum
-1. Reklam politikasi acisindan bu cikti temiz mi?
-2. KVKK/GDPR acisindan veri isleme uygun mu?
-3. Lisans (MIT) hijyenine uydum mu?
-4. Gercek kisilere atfen sahte icerik uretmedim degil mi?
+- Reklam politikası açısından bu çıktı temiz mi?
+- KVKK/GDPR açısından veri işleme uygun mu?
+- Lisans (MIT) hijyenine uydum mu?
+- Gerçek kişilere atfen sahte içerik üretmedim değil mi?
 ### Otomasyon
-1. Bu manuel isi bir workflow'a cevirebilir miyim?
-2. Actions yesil mi; kirmiziysa 24h icinde mudahale ettim mi?
-3. Idempotent mi calisiyor (yeniden kosum bozmuyor mu)?
-### Musteri
-1. Bu cikti bir musteri sorusunu/ihtiyacini gercekten cozuyor mu?
-2. Rapor anlatisi sayi+baglam+sonraki adim iceriyor mu?
-3. Churn/risk sinyalini 14 gun onceden isaretledim mi?
-### Inovasyon-Beta
-1. Bu hafta hangi beta urunu/ozelligi denedim; bulgum ne?
-2. Rakiplerin denemedigi bir aci buldum mu?
-3. Deneyi hipotez->tasarim->kosum->ogrenim dongusuyle mi yuruttum?
-### Makale-Icerik
-1. Bugunun makalesi kaynakli, TR ozetli ve CTA'li mi?
-2. Icerik ajansin inbound hunisine hizmet ediyor mu?
-3. Editoryal rotasyondan siradaki konuyu sectim mi?
-### Oz-Gelisim
-1. Bu rolun ilk-30-gun hedeflerinin neresindeyim?
-2. Anti-desenlerimden birine bugun dustum mu?
-3. Bir sonraki kademeye hazirlik icin hangi beceriyi gelistiriyorum?
-### Egitim-Sertifika
-1. Rolumle ilgili bir sertifika modulunu bu hafta ilerlettim mi?
-2. Yeni ogrendigim bir teknigi bir ciktiya uyguladim mi?
-3. Ekipteki baska bir ajana ogrettigim bir sey oldu mu?
-4. Bilgi acigimi isimlendirdim mi; kapatma plani ne?
-### Panel-Guncelleme
-1. Departmanimin platform changelog'unu bu hafta okudum mu?
-2. Bir API/politika degisikligi mevcut kurulumu etkiliyor mu; migration gerekli mi?
-3. Deprecation/sunset uyarisi var mi; takvime aldim mi?
-4. Yeni bir panel ozelligi is akisimi hizlandirir mi?
+- Bu manuel işi bir workflow'a çevirebilir miyim?
+- Actions yeşil mi; kırmızıysa 24h içinde müdahale ettim mi?
+- Idempotent mi çalışıyor?
+### Müşteri
+- Bu çıktı bir müşteri ihtiyacını gerçekten çözüyor mu?
+- Rapor anlatısı sayı+bağlam+sonraki adım içeriyor mu?
+- Churn/risk sinyalini 14 gün önceden işaretledim mi?
+### İnovasyon-Beta
+- Bu hafta hangi beta ürünü/özelliği denedim?
+- Rakiplerin denemediği bir açı buldum mu?
+- Deneyi hipotez→tasarım→koşum→öğrenim döngüsüyle mi yürüttüm?
+### Makale-İçerik
+- Bugünün makalesi kaynaklı, TR özetli ve CTA'lı mı?
+- İçerik inbound hunisine hizmet ediyor mu?
+- Editoryal rotasyondan sıradaki konuyu seçtim mi?
+### Öz-Gelişim
+- Bu rolün ilk-30-gün hedeflerinin neresindeyim?
+- Anti-desenlerimden birine bugün düştüm mü?
+- Bir sonraki kademeye hazırlık için hangi beceriyi geliştiriyorum?
+### Eğitim-Sertifika
+- Rolümle ilgili bir sertifika modülünü bu hafta ilerlettim mi?
+- Yeni öğrendiğim bir tekniği bir çıktıya uyguladım mı?
+- Ekipteki başka bir ajana aktardığım bir şey oldu mu?
+- Skill gap'i isimlendirdim mi; kapatma planı ne?
+### Panel-Güncelleme
+- Departmanımın platform changelog'unu bu hafta okudum mu?
+- API/politika değişikliği mevcut kurulumu etkiliyor mu?
+- Deprecation/sunset uyarısı var mı; takvime aldım mı?
+- Yeni panel özelliği iş akışımı hızlandırır mı?
 ### Kaynak-Okuma
-1. Bugun okudugum kaynagin URL'ini nota ekledim mi?
-2. Okudugumdan cikan tek somut aksiyon ne?
-3. Kaynagin guvenilirligini (resmi>capraz-konsensus>gecmis>yildiz) degerlendirdim mi?
-4. Celisen iki kaynagi nasil uzlastirdim?
-### Surec-Zinciri
-1. Bu kosum onceki kosumun ciktisini girdi aldi mi?
-2. ts_start ve ts_end damgaladim mi?
-3. Zincir kirilirsa DENETCI bulgusu duser mi; kontrol ettim mi?
-4. Bir sonraki kosuma net bir girdi biraktim mi?
+- Bugün okuduğum kaynağın URL'ini nota ekledim mi?
+- Okuduğumdan çıkan tek somut aksiyon ne?
+- Kaynağın güvenilirliğini değerlendirdim mi?
+- Çelişen iki kaynağı nasıl uzlaştırdım?
+### Süreç-Zinciri
+- Bu koşum önceki koşumun çıktısını girdi aldı mı (🔗)?
+- ts_start ve ts_end damgaladım mı?
+- Zincir kırılırsa DENETÇİ bulgusu düşer mi?
+- Bir sonraki koşuma net bir girdi bıraktım mı?
 ### Pazar-Rekabet
-1. Rakip bir hamle yapti mi; 7 gun icinde POV cikardim mi?
-2. Sektor benchmark'imi bu ay tazeledim mi?
-3. Rakiplerin sahiplenmedigi bir konumlanma acigi var mi?
-4. Bir pazar sinyalini erken yakalayip aksiyona cevirdim mi?
+- Rakip bir hamle yaptı mı; 7 gün içinde POV çıkardım mı?
+- Sektör benchmark'ımı bu ay tazeledim mi?
+- Rakiplerin sahiplenmediği bir konumlanma açığı var mı?
+- Bir pazar sinyalini erken yakalayıp aksiyona çevirdim mi?
 ### Verimlilik-Token
-1. Ciktiyi minimum token ile (progressive disclosure) mi urettim?
-2. Ayni analizi tekrarladim mi; BILGI_TABANI'nda zaten var miydi?
-3. Agir icerigi docs/'a koyup karti kisa mi tuttum?
-4. Coklu benzer islemi tek cagrida grupladim mi?
-5. Dolgu cumle urettim mi; sinyal/uzunluk oranim iyi mi?
+- Çıktıyı minimum token ile (progressive disclosure) mı ürettim?
+- Aynı analizi tekrarladım mı; BILGI_TABANI'nda zaten var mıydı?
+- Ağır içeriği docs/'a koyup kartı kısa mı tuttum?
+- Çoklu benzer işlemi tek çağrıda grupladım mı?
+- Dolgu cümle ürettim mi; sinyal/uzunluk oranım iyi mi?
 ### Toparlama-Retro
-1. Bu is bolumunun retrosundan tek satir ogrenim cikti mi?
-2. Tekrar eden bir hatayi kalici duzelttim mi (kok neden)?
-3. Bir sonraki sprint icin tasinacak riski isaretledim mi?
+- Bu iş bölümünün retrosundan tek satır öğrenim çıktı mı?
+- Tekrar eden bir hatayı kalıcı düzelttim mi?
+- Bir sonraki sprint için taşınacak riski işaretledim mi?
 ### Sahiplik-Hesapverebilirlik
-1. Bu isin tek net sahibi ben miyim; belirsizlik biraktim mi?
-2. Bir hatayi savunmaya gecmeden sahiplendim mi?
-3. Taahhut ettigim tarihi tutuyor muyum; tutmuyorsam erken haber verdim mi?
-4. Baskasinin isini beklerken kendi tarafimi hazir tuttum mu?
-5. Kararimin kanitini (link/commit/dosya) biraktim mi?
-6. Bu cikti icin 'definition of done' karsilandi mi?
-7. Bugun ajansi bir adim ileri goturen en somut sey neydi?
-8. Yarina devrettigim en kritik acik madde ne; sahibi kim?
-9. Bu isi bastan yapsam neyi farkli yapardim?
-10. Olcebildigim bir ilerleme kaydettim mi, yoksa sadece mesgul mu gorundum?
+- Bu işin tek net sahibi ben miyim?
+- Bir hatayı savunmaya geçmeden sahiplendim mi?
+- Taahhüt ettiğim tarihi tutuyor muyum?
+- Başkasının işini beklerken kendi tarafımı hazır tuttum mu?
+- Sessiz kalarak bir riski gömdüm mü?
+- Kararımın kanıtını (link/commit/dosya) bıraktım mı?
+- Bu çıktı için definition of done karşılandı mı?
+- Bugün holding'i bir adım ileri götüren en somut şey neydi?
+- Yarına devrettiğim en kritik açık madde ne; sahibi kim?
+- Bu işi baştan yapsam neyi farklı yapardım?
+- Ölçebildiğim bir ilerleme kaydettim mi, yoksa sadece meşgul mü göründüm?
 
-## B. Departman sorulari
-### ENG-PLT — Platform Mühendisliği
-1. Platform Mühendisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-2. Platform Mühendisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-3. Platform Mühendisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-4. Altyapı Mühendisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-5. Altyapı Mühendisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-6. Altyapı Mühendisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-7. API Mühendisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-8. API Mühendisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-9. API Mühendisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-10. Platform Mühendisliği departmani ana ciktisi (platform bileşen bakımı + API sözleşme denetimi) hedefte mi; sapma varsa kok neden ve duzeltme ne?
-11. Platform Mühendisliği icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?
-### ENG-APP — Uygulama Geliştirme
-1. Backend Mühendisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-2. Backend Mühendisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-3. Backend Mühendisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-4. Frontend Mühendisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-5. Frontend Mühendisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-6. Frontend Mühendisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-7. Mobil Mühendisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-8. Mobil Mühendisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-9. Mobil Mühendisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-10. Uygulama Geliştirme departmani ana ciktisi (pilot paketleri için uygulama bileşeni üretimi) hedefte mi; sapma varsa kok neden ve duzeltme ne?
-11. Uygulama Geliştirme icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?
-### ENG-DEV — DevOps & SRE
-1. DevOps Mühendisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-2. DevOps Mühendisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-3. DevOps Mühendisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-4. Site Güvenilirlik Mühendisi (SRE) birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-5. Site Güvenilirlik Mühendisi (SRE) ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-6. Site Güvenilirlik Mühendisi (SRE) alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-7. DevOps & SRE departmani ana ciktisi (workflow sağlığı + gecelik döngü nöbeti) hedefte mi; sapma varsa kok neden ve duzeltme ne?
-8. DevOps & SRE icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?
-### ENG-QA — Kalite & Test
-1. Test Otomasyon Mühendisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-2. Test Otomasyon Mühendisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-3. Test Otomasyon Mühendisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-4. QA Analisti birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-5. QA Analisti ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-6. QA Analisti alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-7. Kalite & Test departmani ana ciktisi (6 katman doğrulama koşumu + validate.py bakımı) hedefte mi; sapma varsa kok neden ve duzeltme ne?
-8. Kalite & Test icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?
-### AI-RES — AI Araştırma
-1. AI Araştırmacısı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-2. AI Araştırmacısı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-3. AI Araştırmacısı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-4. Model Değerlendirme Uzmanı (Evals) birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-5. Model Değerlendirme Uzmanı (Evals) ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-6. Model Değerlendirme Uzmanı (Evals) alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-7. AI Araştırma departmani ana ciktisi (günlük literatür/repo taraması → BILGI_TABANI damıtımı) hedefte mi; sapma varsa kok neden ve duzeltme ne?
-8. AI Araştırma icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?
-### AI-AGT — Ajan Mühendisliği
-1. Ajan Mühendisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-2. Ajan Mühendisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-3. Ajan Mühendisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-4. Orkestrasyon Mühendisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-5. Orkestrasyon Mühendisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-6. Orkestrasyon Mühendisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-7. Araç (Tool) Entegrasyon Mühendisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-8. Araç (Tool) Entegrasyon Mühendisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-9. Araç (Tool) Entegrasyon Mühendisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-10. Ajan Mühendisliği departmani ana ciktisi (yeni ajan bileşeni üretimi (CILT2 şablonu)) hedefte mi; sapma varsa kok neden ve duzeltme ne?
-11. Ajan Mühendisliği icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?
-### AI-PRM — Prompt & Context Mühendisliği
-1. Prompt Mühendisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-2. Prompt Mühendisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-3. Prompt Mühendisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-4. Context Mühendisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-5. Context Mühendisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-6. Context Mühendisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-7. Prompt & Context Mühendisliği departmani ana ciktisi (pilot promptlarının v-serisi iyileştirmesi) hedefte mi; sapma varsa kok neden ve duzeltme ne?
-8. Prompt & Context Mühendisliği icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?
-### AI-SAF — AI Güvenliği & Hizalama
-1. Hizalama Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-2. Hizalama Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-3. Hizalama Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-4. Red-Team Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-5. Red-Team Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-6. Red-Team Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-7. AI Güvenliği & Hizalama departmani ana ciktisi (5 güvenlik kuralı denetimi + script inceleme (Kural 2)) hedefte mi; sapma varsa kok neden ve duzeltme ne?
-8. AI Güvenliği & Hizalama icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?
-### DAT-ENG — Veri Mühendisliği
-1. Veri Mühendisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-2. Veri Mühendisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-3. Veri Mühendisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-4. Veri Boru Hattı Mühendisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-5. Veri Boru Hattı Mühendisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-6. Veri Boru Hattı Mühendisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-7. Veri Mühendisliği departmani ana ciktisi (AUDIT_LOG/BILGI_TABANI veri bütünlüğü) hedefte mi; sapma varsa kok neden ve duzeltme ne?
-8. Veri Mühendisliği icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?
-### DAT-SCI — Veri Bilimi
-1. Veri Bilimci birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-2. Veri Bilimci ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-3. Veri Bilimci alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-4. Makine Öğrenmesi Mühendisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-5. Makine Öğrenmesi Mühendisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-6. Makine Öğrenmesi Mühendisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-7. Veri Bilimi departmani ana ciktisi (pilot metrik modelleri (tahmin/fiyat)) hedefte mi; sapma varsa kok neden ve duzeltme ne?
-8. Veri Bilimi icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?
-### DAT-BI — Analitik & BI
-1. BI Analisti birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-2. BI Analisti ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-3. BI Analisti alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-4. Veri Görselleştirme Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-5. Veri Görselleştirme Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-6. Veri Görselleştirme Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-7. Analitik & BI departmani ana ciktisi (haftalık konsolide paket metrikleri) hedefte mi; sapma varsa kok neden ve duzeltme ne?
-8. Analitik & BI icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?
-### PRD-MGT — Ürün Yönetimi
-1. Ürün Yöneticisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-2. Ürün Yöneticisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-3. Ürün Yöneticisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-4. Teknik Ürün Yöneticisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-5. Teknik Ürün Yöneticisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-6. Teknik Ürün Yöneticisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-7. Ürün Yönetimi departmani ana ciktisi (bileşen yol haritası önceliklendirme) hedefte mi; sapma varsa kok neden ve duzeltme ne?
-8. Ürün Yönetimi icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?
-### PRD-DSN — Tasarım
-1. Ürün Tasarımcısı (UX) birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-2. Ürün Tasarımcısı (UX) ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-3. Ürün Tasarımcısı (UX) alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-4. Arayüz Tasarımcısı (UI) birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-5. Arayüz Tasarımcısı (UI) ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-6. Arayüz Tasarımcısı (UI) alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-7. Tasarım Sistemi Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-8. Tasarım Sistemi Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-9. Tasarım Sistemi Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-10. Tasarım departmani ana ciktisi (pilot arayüz/şablon tasarımları) hedefte mi; sapma varsa kok neden ve duzeltme ne?
-11. Tasarım icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?
-### PRD-OPS — Ürün Operasyonları
-1. Ürün Operasyon Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-2. Ürün Operasyon Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-3. Ürün Operasyon Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-4. Kullanıcı Araştırmacısı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-5. Kullanıcı Araştırmacısı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-6. Kullanıcı Araştırmacısı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-7. Ürün Operasyonları departmani ana ciktisi (kullanım geri bildirimi → KARAR_LOGU girdisi) hedefte mi; sapma varsa kok neden ve duzeltme ne?
-8. Ürün Operasyonları icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?
-### MKT-BRD — Marka & İçerik
-1. Marka Stratejisti birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-2. Marka Stratejisti ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-3. Marka Stratejisti alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-4. İçerik Pazarlama Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-5. İçerik Pazarlama Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-6. İçerik Pazarlama Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-7. Marka & İçerik departmani ana ciktisi (Movéa pilotu marka içerik üretimi) hedefte mi; sapma varsa kok neden ve duzeltme ne?
-8. Marka & İçerik icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?
-### MKT-PRF — Performans Pazarlama (AdOps)
-1. Performans Pazarlama Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-2. Performans Pazarlama Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-3. Performans Pazarlama Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-4. Medya Satın Alma Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-5. Medya Satın Alma Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-6. Medya Satın Alma Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-7. Atıf (Attribution) Analisti birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-8. Atıf (Attribution) Analisti ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-9. Atıf (Attribution) Analisti alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-10. Performans Pazarlama (AdOps) departmani ana ciktisi (Response DGA dikeyi: kampanya/atıf analizi) hedefte mi; sapma varsa kok neden ve duzeltme ne?
-11. Performans Pazarlama (AdOps) icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?
-### MKT-SEO — SEO & Organik Büyüme
-1. SEO Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-2. SEO Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-3. SEO Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-4. İçerik Optimizasyon Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-5. İçerik Optimizasyon Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-6. İçerik Optimizasyon Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-7. SEO & Organik Büyüme departmani ana ciktisi (repo/ürün sayfası görünürlük artışı) hedefte mi; sapma varsa kok neden ve duzeltme ne?
-8. SEO & Organik Büyüme icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?
-### MKT-SOC — Sosyal Medya
-1. Sosyal Medya Yöneticisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-2. Sosyal Medya Yöneticisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-3. Sosyal Medya Yöneticisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-4. Topluluk Yöneticisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-5. Topluluk Yöneticisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-6. Topluluk Yöneticisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-7. Sosyal Medya departmani ana ciktisi (LinkedIn yayın akışı (movea komutu ile)) hedefte mi; sapma varsa kok neden ve duzeltme ne?
-8. Sosyal Medya icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?
-### REV-SLS — Satış
-1. Satış Temsilcisi (AE) birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-2. Satış Temsilcisi (AE) ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-3. Satış Temsilcisi (AE) alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-4. Satış Geliştirme Temsilcisi (SDR) birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-5. Satış Geliştirme Temsilcisi (SDR) ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-6. Satış Geliştirme Temsilcisi (SDR) alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-7. Satış departmani ana ciktisi (ajans lead hunisi takibi (GELIR_MOTORU kanal 5)) hedefte mi; sapma varsa kok neden ve duzeltme ne?
-8. Satış icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?
-### REV-PRT — İş Ortaklıkları
-1. Ortaklık Yöneticisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-2. Ortaklık Yöneticisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-3. Ortaklık Yöneticisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-4. Sponsorluk Geliştirme Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-5. Sponsorluk Geliştirme Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-6. Sponsorluk Geliştirme Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-7. İş Ortaklıkları departmani ana ciktisi (infra sponsorluk adayları (kanal 1) izleme) hedefte mi; sapma varsa kok neden ve duzeltme ne?
-8. İş Ortaklıkları icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?
-### REV-CSM — Müşteri Başarısı
-1. Müşteri Başarı Yöneticisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-2. Müşteri Başarı Yöneticisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-3. Müşteri Başarı Yöneticisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-4. Onboarding Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-5. Onboarding Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-6. Onboarding Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-7. Müşteri Başarısı departmani ana ciktisi (pilot iç müşteri memnuniyet döngüsü) hedefte mi; sapma varsa kok neden ve duzeltme ne?
-8. Müşteri Başarısı icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?
-### REV-OPS — Gelir Operasyonları
-1. RevOps Analisti birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-2. RevOps Analisti ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-3. RevOps Analisti alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-4. CRM Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-5. CRM Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-6. CRM Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-7. Gelir Operasyonları departmani ana ciktisi (gelir kanalı metrik panosu) hedefte mi; sapma varsa kok neden ve duzeltme ne?
-8. Gelir Operasyonları icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?
-### MED-PUB — Yayıncılık & Makale
-1. Teknik Yazar birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-2. Teknik Yazar ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-3. Teknik Yazar alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-4. Editör birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-5. Editör ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-6. Editör alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-7. Araştırma Yazarı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-8. Araştırma Yazarı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-9. Araştırma Yazarı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-10. Yayıncılık & Makale departmani ana ciktisi (GÜNDE MİN. 1 makale/güncelleme üretimi) hedefte mi; sapma varsa kok neden ve duzeltme ne?
-11. Yayıncılık & Makale icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?
-### MED-CRE — Video & Kreatif
-1. Video Editörü birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-2. Video Editörü ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-3. Video Editörü alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-4. Grafik Tasarımcısı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-5. Grafik Tasarımcısı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-6. Grafik Tasarımcısı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-7. Video & Kreatif departmani ana ciktisi (tanıtım/kreatif varlık üretimi) hedefte mi; sapma varsa kok neden ve duzeltme ne?
-8. Video & Kreatif icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?
-### MED-LOC — Yerelleştirme (TR)
-1. Yerelleştirme Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-2. Yerelleştirme Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-3. Yerelleştirme Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-4. Çevirmen-Editör birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-5. Çevirmen-Editör ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-6. Çevirmen-Editör alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-7. Yerelleştirme (TR) departmani ana ciktisi (katalog bileşenlerinin TR/dikey uyarlaması) hedefte mi; sapma varsa kok neden ve duzeltme ne?
-8. Yerelleştirme (TR) icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?
-### OPS-PMO — Program Yönetimi (PMO)
-1. Program Yöneticisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-2. Program Yöneticisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-3. Program Yöneticisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-4. Proje Koordinatörü birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-5. Proje Koordinatörü ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-6. Proje Koordinatörü alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-7. Program Yönetimi (PMO) departmani ana ciktisi (günlük iş listesi dağıtımı + takip) hedefte mi; sapma varsa kok neden ve duzeltme ne?
-8. Program Yönetimi (PMO) icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?
-### OPS-BIZ — İş Operasyonları
-1. İş Operasyon Analisti birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-2. İş Operasyon Analisti ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-3. İş Operasyon Analisti alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-4. Süreç İyileştirme Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-5. Süreç İyileştirme Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-6. Süreç İyileştirme Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-7. İş Operasyonları departmani ana ciktisi (operasyon ritmi (CILT6) uygulaması) hedefte mi; sapma varsa kok neden ve duzeltme ne?
-8. İş Operasyonları icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?
-### OPS-TLS — Araç & Tedarik
-1. Araç Yönetim Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-2. Araç Yönetim Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-3. Araç Yönetim Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-4. Tedarik Analisti birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-5. Tedarik Analisti ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-6. Tedarik Analisti alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-7. Araç & Tedarik departmani ana ciktisi (araç envanteri + maliyet izleme) hedefte mi; sapma varsa kok neden ve duzeltme ne?
-8. Araç & Tedarik icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?
-### FIN-FPA — Finansal Planlama (FP&A)
-1. FP&A Analisti birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-2. FP&A Analisti ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-3. FP&A Analisti alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-4. Bütçe Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-5. Bütçe Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-6. Bütçe Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-7. Finansal Planlama (FP&A) departmani ana ciktisi (token/kredi bütçe takibi) hedefte mi; sapma varsa kok neden ve duzeltme ne?
-8. Finansal Planlama (FP&A) icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?
-### FIN-ACC — Muhasebe & Raporlama
-1. Muhasebe Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-2. Muhasebe Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-3. Muhasebe Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-4. Finansal Raporlama Analisti birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-5. Finansal Raporlama Analisti ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-6. Finansal Raporlama Analisti alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-7. Muhasebe & Raporlama departmani ana ciktisi (aylık finansal özet) hedefte mi; sapma varsa kok neden ve duzeltme ne?
-8. Muhasebe & Raporlama icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?
-### FIN-REV — Gelir Motoru İzleme
-1. Gelir Analisti birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-2. Gelir Analisti ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-3. Gelir Analisti alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-4. Monetizasyon Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-5. Monetizasyon Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-6. Monetizasyon Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-7. Gelir Motoru İzleme departmani ana ciktisi (GELIR_MOTORU.md 5 kanal KPI'ları) hedefte mi; sapma varsa kok neden ve duzeltme ne?
-8. Gelir Motoru İzleme icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?
-### SEC-OPS — Güvenlik Operasyonları
-1. Güvenlik Operasyon Analisti birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-2. Güvenlik Operasyon Analisti ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-3. Güvenlik Operasyon Analisti alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-4. Olay Müdahale Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-5. Olay Müdahale Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-6. Olay Müdahale Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-7. Güvenlik Operasyonları departmani ana ciktisi (günlük güvenlik taraması) hedefte mi; sapma varsa kok neden ve duzeltme ne?
-8. Güvenlik Operasyonları icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?
-### SEC-AUD — Uyum Denetimi (5 Kural)
-1. Denetçi (Auditor) birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-2. Denetçi (Auditor) ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-3. Denetçi (Auditor) alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-4. Bileşen Güvenlik İnceleme Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-5. Bileşen Güvenlik İnceleme Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-6. Bileşen Güvenlik İnceleme Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-7. Uyum Denetimi (5 Kural) departmani ana ciktisi (her yeni bileşen: 5 kural + script inceleme onayı) hedefte mi; sapma varsa kok neden ve duzeltme ne?
-8. Uyum Denetimi (5 Kural) icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?
-### SEC-SUP — Tedarik Zinciri Güvenliği
-1. Tedarik Zinciri Güvenlik Analisti birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-2. Tedarik Zinciri Güvenlik Analisti ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-3. Tedarik Zinciri Güvenlik Analisti alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-4. Bağımlılık İzleme Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-5. Bağımlılık İzleme Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-6. Bağımlılık İzleme Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-7. Tedarik Zinciri Güvenliği departmani ana ciktisi (upstream/bağımlılık değişiklik kontrolü) hedefte mi; sapma varsa kok neden ve duzeltme ne?
-8. Tedarik Zinciri Güvenliği icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?
-### HRA-REC — Ajan İşe Alım
-1. Ajan İşe Alım Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-2. Ajan İşe Alım Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-3. Ajan İşe Alım Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-4. Yetenek Haritalama Analisti birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-5. Yetenek Haritalama Analisti ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-6. Yetenek Haritalama Analisti alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-7. Ajan İşe Alım departmani ana ciktisi (katalogdan rol-bileşen eşleştirme (işe alım)) hedefte mi; sapma varsa kok neden ve duzeltme ne?
-8. Ajan İşe Alım icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?
-### HRA-PRF — Performans & Kalite
-1. Performans Değerlendirme Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-2. Performans Değerlendirme Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-3. Performans Değerlendirme Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-4. Kalite Güvence Analisti birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-5. Kalite Güvence Analisti ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-6. Kalite Güvence Analisti alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-7. Performans & Kalite departmani ana ciktisi (ajan çıktı kalite puanlama) hedefte mi; sapma varsa kok neden ve duzeltme ne?
-8. Performans & Kalite icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?
-### HRA-LRN — Eğitim & Bilgi Tabanı
-1. Bilgi Tabanı Küratörü birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-2. Bilgi Tabanı Küratörü ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-3. Bilgi Tabanı Küratörü alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-4. Öğrenim Damıtma Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-5. Öğrenim Damıtma Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-6. Öğrenim Damıtma Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-7. Eğitim & Bilgi Tabanı departmani ana ciktisi (BILGI_TABANI.md küratörlüğü (append-only)) hedefte mi; sapma varsa kok neden ve duzeltme ne?
-8. Eğitim & Bilgi Tabanı icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?
-### LGL-LIC — Lisans Uyumu (MIT)
-1. Lisans Uyum Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-2. Lisans Uyum Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-3. Lisans Uyum Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-4. Atıf (Attribution) Denetçisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-5. Atıf (Attribution) Denetçisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-6. Atıf (Attribution) Denetçisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-7. Lisans Uyumu (MIT) departmani ana ciktisi (MIT atıf bütünlüğü (LICENSE-UPSTREAM)) hedefte mi; sapma varsa kok neden ve duzeltme ne?
-8. Lisans Uyumu (MIT) icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?
-### LGL-PRV — Veri Gizliliği
-1. Gizlilik Uzmanı (KVKK/GDPR) birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-2. Gizlilik Uzmanı (KVKK/GDPR) ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-3. Gizlilik Uzmanı (KVKK/GDPR) alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-4. Veri Sınıflandırma Analisti birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-5. Veri Sınıflandırma Analisti ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-6. Veri Sınıflandırma Analisti alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-7. Veri Gizliliği departmani ana ciktisi (pilot verilerinde gizlilik kontrolü) hedefte mi; sapma varsa kok neden ve duzeltme ne?
-8. Veri Gizliliği icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?
-### INF-MCP — MCP Entegrasyonları
-1. MCP Entegrasyon Mühendisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-2. MCP Entegrasyon Mühendisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-3. MCP Entegrasyon Mühendisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-4. Bağlayıcı (Connector) Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-5. Bağlayıcı (Connector) Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-6. Bağlayıcı (Connector) Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-7. MCP Entegrasyonları departmani ana ciktisi (MCP kataloğu bakım + yeni bağlayıcı değerlendirme) hedefte mi; sapma varsa kok neden ve duzeltme ne?
-8. MCP Entegrasyonları icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?
-### INF-SET — Ayar & Yapılandırma
-1. Yapılandırma Yöneticisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-2. Yapılandırma Yöneticisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-3. Yapılandırma Yöneticisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-4. Ortam (Environment) Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-5. Ortam (Environment) Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-6. Ortam (Environment) Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-7. Ayar & Yapılandırma departmani ana ciktisi (settings şablonları + ortam standartları) hedefte mi; sapma varsa kok neden ve duzeltme ne?
-8. Ayar & Yapılandırma icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?
-### INF-HKS — Hooks & Otomasyon
-1. Hook Geliştirici birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-2. Hook Geliştirici ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-3. Hook Geliştirici alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-4. Otomasyon Mühendisi birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-5. Otomasyon Mühendisi ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-6. Otomasyon Mühendisi alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-7. Hooks & Otomasyon departmani ana ciktisi (damga/denetim hook zinciri bakımı) hedefte mi; sapma varsa kok neden ve duzeltme ne?
-8. Hooks & Otomasyon icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?
-### INF-LOP — Döngüler & Zamanlama
-1. Döngü Operatörü birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-2. Döngü Operatörü ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-3. Döngü Operatörü alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-4. Zamanlama (Scheduler) Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-5. Zamanlama (Scheduler) Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-6. Zamanlama (Scheduler) Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-7. Döngüler & Zamanlama departmani ana ciktisi (nightly + daily-agency + upstream-sync nöbeti) hedefte mi; sapma varsa kok neden ve duzeltme ne?
-8. Döngüler & Zamanlama icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?
-### STR-INT — Pazar İstihbaratı
-1. Pazar İstihbarat Analisti birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-2. Pazar İstihbarat Analisti ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-3. Pazar İstihbarat Analisti alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-4. Trend Araştırmacısı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-5. Trend Araştırmacısı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-6. Trend Araştırmacısı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-7. Pazar İstihbaratı departmani ana ciktisi (günlük ekosistem taraması (CILT3 haritası)) hedefte mi; sapma varsa kok neden ve duzeltme ne?
-8. Pazar İstihbaratı icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?
-### STR-CMP — Rakip Analizi
-1. Rakip Analiz Uzmanı birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-2. Rakip Analiz Uzmanı ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-3. Rakip Analiz Uzmanı alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-4. Kıyaslama (Benchmark) Analisti birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-5. Kıyaslama (Benchmark) Analisti ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-6. Kıyaslama (Benchmark) Analisti alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-7. Rakip Analizi departmani ana ciktisi (muadil repo/ürün kıyaslama raporu) hedefte mi; sapma varsa kok neden ve duzeltme ne?
-8. Rakip Analizi icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?
-### STR-GRW — Büyüme & Yatırım
-1. Büyüme Stratejisti birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-2. Büyüme Stratejisti ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-3. Büyüme Stratejisti alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-4. Yatırım Analisti birimi icin bu hafta en yuksek etkili kaldirac neydi; metrik gerekcesi ne?
-5. Yatırım Analisti ciktisinda tekrarlanabilir bir iyilestirme/checklist uretebildim mi?
-6. Yatırım Analisti alaninda bir beta/yeni ozellik veya platform guncellemesi cikti mi; test edip not aldim mi?
-7. Büyüme & Yatırım departmani ana ciktisi (gelir kanalı büyüme deneyleri) hedefte mi; sapma varsa kok neden ve duzeltme ne?
-8. Büyüme & Yatırım icin bu haftaki KPI tanimi ve kaynagi yazili mi; tahmin iceriyorsa etiketli mi?
+## B. Departman soruları (iştirak.code)
 
-## C. Kademe sorulari
+### adops.ANA
+- GA4 & Tagging birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- GA4 & Tagging çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- GA4 & Tagging alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Attribution birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Attribution çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Attribution alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- MMM & Incrementality birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- MMM & Incrementality çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- MMM & Incrementality alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Clean Rooms & Privacy birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Clean Rooms & Privacy çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Clean Rooms & Privacy alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Dashboards birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Dashboards çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Dashboards alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- KPI 'OKR attainment ≥ 80%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'OKR attainment ≥ 80%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Weekly report shipped' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Weekly report shipped' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Escalation hygiene 100%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Escalation hygiene 100%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Learning distilled 1/day' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Learning distilled 1/day' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+
+### adops.CLS
+- Account Leadership birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Account Leadership çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Account Leadership alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Reporting Cadence birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Reporting Cadence çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Reporting Cadence alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Onboarding birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Onboarding çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Onboarding alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- KPI 'OKR attainment ≥ 80%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'OKR attainment ≥ 80%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Weekly report shipped' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Weekly report shipped' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Escalation hygiene 100%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Escalation hygiene 100%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Learning distilled 1/day' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Learning distilled 1/day' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+
+### adops.CRE
+- Concept & Copy birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Concept & Copy çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Concept & Copy alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Video & Motion birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Video & Motion çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Video & Motion alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- DCO & Feeds birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- DCO & Feeds çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- DCO & Feeds alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Ad Format Lab birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Ad Format Lab çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Ad Format Lab alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- KPI 'OKR attainment ≥ 80%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'OKR attainment ≥ 80%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Weekly report shipped' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Weekly report shipped' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Escalation hygiene 100%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Escalation hygiene 100%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Learning distilled 1/day' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Learning distilled 1/day' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+
+### adops.CRO
+- Experimentation birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Experimentation çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Experimentation alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Landing Systems birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Landing Systems çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Landing Systems alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- UX Research birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- UX Research çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- UX Research alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- KPI 'OKR attainment ≥ 80%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'OKR attainment ≥ 80%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Weekly report shipped' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Weekly report shipped' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Escalation hygiene 100%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Escalation hygiene 100%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Learning distilled 1/day' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Learning distilled 1/day' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+
+### adops.MOB
+- Apple Search Ads birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Apple Search Ads çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Apple Search Ads alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Google App Campaigns birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Google App Campaigns çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Google App Campaigns alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- MMP (Adjust/AppsFlyer) birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- MMP (Adjust/AppsFlyer) çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- MMP (Adjust/AppsFlyer) alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Retargeting & CRM birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Retargeting & CRM çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Retargeting & CRM alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- KPI 'OKR attainment ≥ 80%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'OKR attainment ≥ 80%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Weekly report shipped' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Weekly report shipped' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Escalation hygiene 100%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Escalation hygiene 100%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Learning distilled 1/day' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Learning distilled 1/day' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+
+### adops.NBD
+- Inbound Capture birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Inbound Capture çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Inbound Capture alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Pitch Factory birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Pitch Factory çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Pitch Factory alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Lead Scoring birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Lead Scoring çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Lead Scoring alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- KPI 'OKR attainment ≥ 80%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'OKR attainment ≥ 80%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Weekly report shipped' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Weekly report shipped' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Escalation hygiene 100%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Escalation hygiene 100%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Learning distilled 1/day' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Learning distilled 1/day' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+
+### adops.PRG
+- Open Auction & Curation birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Open Auction & Curation çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Open Auction & Curation alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- PMP & Deals birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- PMP & Deals çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- PMP & Deals alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- CTV / OTT birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- CTV / OTT çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- CTV / OTT alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- DOOH & Audio birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- DOOH & Audio çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- DOOH & Audio alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Bid Algorithms birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Bid Algorithms çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Bid Algorithms alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- KPI 'Viewability ≥ 70%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Viewability ≥ 70%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Supply-path cost ≤ 15%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Supply-path cost ≤ 15%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'PMP share of spend on target' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'PMP share of spend on target' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'eCPM/CPA vs plan' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'eCPM/CPA vs plan' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+
+### adops.PRT
+- Infra Sponsors birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Infra Sponsors çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Infra Sponsors alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Referral Programs birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Referral Programs çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Referral Programs alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Ecosystem Relations birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Ecosystem Relations çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Ecosystem Relations alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- KPI 'OKR attainment ≥ 80%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'OKR attainment ≥ 80%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Weekly report shipped' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Weekly report shipped' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Escalation hygiene 100%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Escalation hygiene 100%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Learning distilled 1/day' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Learning distilled 1/day' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+
+### adops.RET
+- Amazon Ads birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Amazon Ads çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Amazon Ads alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- TR Marketplaces birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- TR Marketplaces çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- TR Marketplaces alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Criteo & Onsite birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Criteo & Onsite çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Criteo & Onsite alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Offsite & DSP birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Offsite & DSP çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Offsite & DSP alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- KPI 'OKR attainment ≥ 80%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'OKR attainment ≥ 80%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Weekly report shipped' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Weekly report shipped' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Escalation hygiene 100%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Escalation hygiene 100%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Learning distilled 1/day' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Learning distilled 1/day' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+
+### adops.SEA
+- Google Ads Core birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Google Ads Core çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Google Ads Core alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- SA360 & Automation birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- SA360 & Automation çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- SA360 & Automation alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- PMax & Shopping birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- PMax & Shopping çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- PMax & Shopping alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Microsoft Ads birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Microsoft Ads çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Microsoft Ads alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- KPI 'Impression share on brand ≥ 90%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Impression share on brand ≥ 90%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Wasted spend < 5%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Wasted spend < 5%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'tCPA/tROAS attainment' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'tCPA/tROAS attainment' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'QS trend up' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'QS trend up' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+
+### adops.SEO
+- Technical SEO birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Technical SEO çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Technical SEO alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Content Production birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Content Production çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Content Production alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Digital PR & Links birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Digital PR & Links çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Digital PR & Links alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Repo Storefront birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Repo Storefront çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Repo Storefront alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- KPI 'OKR attainment ≥ 80%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'OKR attainment ≥ 80%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Weekly report shipped' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Weekly report shipped' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Escalation hygiene 100%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Escalation hygiene 100%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Learning distilled 1/day' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Learning distilled 1/day' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+
+### adops.SOC
+- Meta birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Meta çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Meta alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- TikTok birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- TikTok çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- TikTok alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- LinkedIn & X birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- LinkedIn & X çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- LinkedIn & X alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Snap & Pinterest birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Snap & Pinterest çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Snap & Pinterest alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Creative Testing birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Creative Testing çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Creative Testing alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- KPI 'Thumbstop/hook rate on target' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Thumbstop/hook rate on target' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'CAPI EMQ ≥ 8' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'CAPI EMQ ≥ 8' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Creative refresh cadence met' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Creative refresh cadence met' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Blended CPA vs plan' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Blended CPA vs plan' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+
+### adops.STR
+- Audience & Insight birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Audience & Insight çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Audience & Insight alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Media Mix birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Media Mix çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Media Mix alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Playbooks & POVs birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Playbooks & POVs çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Playbooks & POVs alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- KPI 'OKR attainment ≥ 80%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'OKR attainment ≥ 80%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Weekly report shipped' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Weekly report shipped' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Escalation hygiene 100%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Escalation hygiene 100%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Learning distilled 1/day' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Learning distilled 1/day' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+
+### cigkoftem.MENU
+- Recipe CMS birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Recipe CMS çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Recipe CMS alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Local SEO birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Local SEO çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Local SEO alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Campaign birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Campaign çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Campaign alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- KPI 'OKR attainment ≥ 80%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'OKR attainment ≥ 80%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Weekly report shipped' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Weekly report shipped' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Escalation hygiene 100%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Escalation hygiene 100%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Learning distilled 1/day' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Learning distilled 1/day' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+
+### cigkoftem.MKT
+- Maps/SEO birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Maps/SEO çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Maps/SEO alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Social Local birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Social Local çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Social Local alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Promo birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Promo çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Promo alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- KPI 'OKR attainment ≥ 80%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'OKR attainment ≥ 80%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Weekly report shipped' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Weekly report shipped' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Escalation hygiene 100%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Escalation hygiene 100%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Learning distilled 1/day' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Learning distilled 1/day' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+
+### cigkoftem.ORD
+- Web Order birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Web Order çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Web Order alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Franchise Ops birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Franchise Ops çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Franchise Ops alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- CX birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- CX çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- CX alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- KPI 'OKR attainment ≥ 80%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'OKR attainment ≥ 80%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Weekly report shipped' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Weekly report shipped' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Escalation hygiene 100%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Escalation hygiene 100%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Learning distilled 1/day' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Learning distilled 1/day' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+
+### hq.FIN
+- Cost Control birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Cost Control çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Cost Control alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Revenue Ops birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Revenue Ops çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Revenue Ops alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- KPI 'OKR attainment ≥ 80%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'OKR attainment ≥ 80%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Weekly report shipped' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Weekly report shipped' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Escalation hygiene 100%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Escalation hygiene 100%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Learning distilled 1/day' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Learning distilled 1/day' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+
+### hq.INF
+- CI/CD & Actions birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- CI/CD & Actions çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- CI/CD & Actions alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Validation & Security birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Validation & Security çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Validation & Security alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- MCP & Integrations birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- MCP & Integrations çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- MCP & Integrations alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Repo Hygiene birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Repo Hygiene çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Repo Hygiene alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- KPI 'CI green ≥ 99%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'CI green ≥ 99%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Integrity file current' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Integrity file current' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI '0 secret leaks' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- '0 secret leaks' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Issue triage ≤ 24h' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Issue triage ≤ 24h' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+
+### hq.LEG
+- Licensing birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Licensing çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Licensing alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Privacy (KVKK/GDPR) birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Privacy (KVKK/GDPR) çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Privacy (KVKK/GDPR) alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Ad Policy birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Ad Policy çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Ad Policy alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- KPI 'OKR attainment ≥ 80%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'OKR attainment ≥ 80%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Weekly report shipped' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Weekly report shipped' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Escalation hygiene 100%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Escalation hygiene 100%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Learning distilled 1/day' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Learning distilled 1/day' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+
+### hq.PRD
+- Premium Components birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Premium Components çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Premium Components alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Packaging & Licensing birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Packaging & Licensing çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Packaging & Licensing alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Docs & DX birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Docs & DX çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Docs & DX alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- KPI 'OKR attainment ≥ 80%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'OKR attainment ≥ 80%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Weekly report shipped' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Weekly report shipped' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Escalation hygiene 100%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Escalation hygiene 100%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Learning distilled 1/day' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Learning distilled 1/day' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+
+### hq.TAL
+- Agent Lifecycle birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Agent Lifecycle çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Agent Lifecycle alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Quality Bar birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Quality Bar çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Quality Bar alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Training Loops birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Training Loops çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Training Loops alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- KPI 'OKR attainment ≥ 80%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'OKR attainment ≥ 80%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Weekly report shipped' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Weekly report shipped' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Escalation hygiene 100%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Escalation hygiene 100%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Learning distilled 1/day' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Learning distilled 1/day' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+
+### hukuk.ADP
+- Platform Policy birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Platform Policy çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Platform Policy alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Claim Review birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Claim Review çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Claim Review alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Crisis birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Crisis çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Crisis alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- KPI 'OKR attainment ≥ 80%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'OKR attainment ≥ 80%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Weekly report shipped' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Weekly report shipped' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Escalation hygiene 100%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Escalation hygiene 100%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Learning distilled 1/day' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Learning distilled 1/day' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+
+### hukuk.LIC
+- OSS License birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- OSS License çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- OSS License alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Vendor Contracts birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Vendor Contracts çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Vendor Contracts alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- IP birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- IP çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- IP alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- KPI 'OKR attainment ≥ 80%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'OKR attainment ≥ 80%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Weekly report shipped' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Weekly report shipped' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Escalation hygiene 100%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Escalation hygiene 100%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Learning distilled 1/day' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Learning distilled 1/day' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+
+### hukuk.PRIV
+- KVKK birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- KVKK çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- KVKK alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- GDPR birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- GDPR çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- GDPR alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- DPIA birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- DPIA çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- DPIA alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- KPI '0 violations' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- '0 violations' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'DPIA coverage 100%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'DPIA coverage 100%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'DSAR SLA ≤ 30d' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'DSAR SLA ≤ 30d' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Policy answers ≤ 24h' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Policy answers ≤ 24h' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+
+### hukuk.REG
+- Ülke Onayı birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Ülke Onayı çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Ülke Onayı alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Cross-border Transfer birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Cross-border Transfer çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Cross-border Transfer alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Retention birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Retention çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Retention alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- KPI 'OKR attainment ≥ 80%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'OKR attainment ≥ 80%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Weekly report shipped' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Weekly report shipped' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Escalation hygiene 100%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Escalation hygiene 100%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Learning distilled 1/day' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Learning distilled 1/day' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+
+### movea.BRD
+- Positioning birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Positioning çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Positioning alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Creative System birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Creative System çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Creative System alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Community birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Community çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Community alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- KPI 'OKR attainment ≥ 80%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'OKR attainment ≥ 80%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Weekly report shipped' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Weekly report shipped' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Escalation hygiene 100%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Escalation hygiene 100%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Learning distilled 1/day' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Learning distilled 1/day' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+
+### movea.ECOM
+- PDP birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- PDP çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- PDP alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Checkout birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Checkout çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Checkout alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- CRM birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- CRM çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- CRM alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- KPI 'OKR attainment ≥ 80%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'OKR attainment ≥ 80%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Weekly report shipped' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Weekly report shipped' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Escalation hygiene 100%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Escalation hygiene 100%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Learning distilled 1/day' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Learning distilled 1/day' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+
+### movea.OPS
+- Inventory birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Inventory çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Inventory alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Fulfillment birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Fulfillment çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Fulfillment alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- CX birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- CX çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- CX alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- KPI 'OKR attainment ≥ 80%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'OKR attainment ≥ 80%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Weekly report shipped' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Weekly report shipped' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Escalation hygiene 100%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Escalation hygiene 100%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Learning distilled 1/day' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Learning distilled 1/day' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+
+### performer.DATA
+- MMP birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- MMP çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- MMP alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Cohort LTV birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Cohort LTV çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Cohort LTV alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Experiment Design birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Experiment Design çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Experiment Design alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- KPI 'OKR attainment ≥ 80%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'OKR attainment ≥ 80%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Weekly report shipped' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Weekly report shipped' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Escalation hygiene 100%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Escalation hygiene 100%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Learning distilled 1/day' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Learning distilled 1/day' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+
+### performer.MON
+- IAP birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- IAP çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- IAP alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Ads Mediation birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Ads Mediation çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Ads Mediation alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Pricing Experiments birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Pricing Experiments çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Pricing Experiments alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- KPI 'OKR attainment ≥ 80%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'OKR attainment ≥ 80%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Weekly report shipped' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Weekly report shipped' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Escalation hygiene 100%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Escalation hygiene 100%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Learning distilled 1/day' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Learning distilled 1/day' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+
+### performer.PROD
+- Onboarding Funnel birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Onboarding Funnel çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Onboarding Funnel alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Feature Adoption birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Feature Adoption çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Feature Adoption alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- A/B Lab birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- A/B Lab çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- A/B Lab alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- KPI 'OKR attainment ≥ 80%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'OKR attainment ≥ 80%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Weekly report shipped' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Weekly report shipped' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Escalation hygiene 100%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Escalation hygiene 100%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Learning distilled 1/day' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Learning distilled 1/day' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+
+### performer.RETN
+- Lifecycle birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Lifecycle çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Lifecycle alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Push/Email birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Push/Email çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Push/Email alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- In-app Messaging birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- In-app Messaging çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- In-app Messaging alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Win-back birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Win-back çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Win-back alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- KPI 'OKR attainment ≥ 80%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'OKR attainment ≥ 80%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Weekly report shipped' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Weekly report shipped' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Escalation hygiene 100%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Escalation hygiene 100%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Learning distilled 1/day' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Learning distilled 1/day' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+
+### performer.UA
+- Paid UA birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Paid UA çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Paid UA alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- ASA/GAC birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- ASA/GAC çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- ASA/GAC alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Influencer UA birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Influencer UA çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Influencer UA alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Creative UA Lab birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Creative UA Lab çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Creative UA Lab alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- KPI 'CPI vs plan' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'CPI vs plan' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'D7 ROAS' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'D7 ROAS' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Creative win rate' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Creative win rate' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Fraud rate < 3%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Fraud rate < 3%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+
+### tahmin.DEL
+- Client Briefs birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Client Briefs çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Client Briefs alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Risk Flags birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Risk Flags çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Risk Flags alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Retros birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Retros çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Retros alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- KPI 'OKR attainment ≥ 80%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'OKR attainment ≥ 80%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Weekly report shipped' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Weekly report shipped' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Escalation hygiene 100%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Escalation hygiene 100%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Learning distilled 1/day' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Learning distilled 1/day' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+
+### tahmin.FCST
+- Sports Models birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Sports Models çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Sports Models alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Finance Models birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Finance Models çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Finance Models alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Scenario Lab birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Scenario Lab çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Scenario Lab alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- KPI 'OKR attainment ≥ 80%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'OKR attainment ≥ 80%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Weekly report shipped' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Weekly report shipped' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Escalation hygiene 100%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Escalation hygiene 100%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Learning distilled 1/day' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Learning distilled 1/day' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+
+### tahmin.RES
+- Signal Desk birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Signal Desk çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Signal Desk alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Source QA birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Source QA çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Source QA alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Archive Loop birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Archive Loop çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Archive Loop alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- KPI 'OKR attainment ≥ 80%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'OKR attainment ≥ 80%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Weekly report shipped' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Weekly report shipped' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Escalation hygiene 100%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Escalation hygiene 100%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Learning distilled 1/day' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Learning distilled 1/day' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+
+### vizatrack.CASE
+- Başvuru Akışı birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Başvuru Akışı çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Başvuru Akışı alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Doküman QA birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Doküman QA çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Doküman QA alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Ajans Ortaklığı birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Ajans Ortaklığı çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Ajans Ortaklığı alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- KPI 'Case SLA met' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Case SLA met' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Doc completeness ≥ 95%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Doc completeness ≥ 95%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Escalation < 5%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Escalation < 5%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'NPS ≥ 40' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'NPS ≥ 40' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+
+### vizatrack.COMP
+- Ülke Mevzuatı birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Ülke Mevzuatı çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Ülke Mevzuatı alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- KVKK/GDPR birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- KVKK/GDPR çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- KVKK/GDPR alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Audit Trail birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Audit Trail çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Audit Trail alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- KPI 'OKR attainment ≥ 80%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'OKR attainment ≥ 80%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Weekly report shipped' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Weekly report shipped' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Escalation hygiene 100%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Escalation hygiene 100%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Learning distilled 1/day' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Learning distilled 1/day' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+
+### vizatrack.CS
+- Onboarding birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Onboarding çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Onboarding alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Support SLA birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Support SLA çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Support SLA alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- NPS birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- NPS çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- NPS alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- KPI 'OKR attainment ≥ 80%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'OKR attainment ≥ 80%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Weekly report shipped' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Weekly report shipped' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Escalation hygiene 100%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Escalation hygiene 100%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Learning distilled 1/day' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Learning distilled 1/day' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+
+### vizatrack.GROW
+- SEO Content birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- SEO Content çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- SEO Content alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Paid Acquisition birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Paid Acquisition çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Paid Acquisition alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Partner Channel birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Partner Channel çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Partner Channel alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- KPI 'OKR attainment ≥ 80%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'OKR attainment ≥ 80%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Weekly report shipped' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Weekly report shipped' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Escalation hygiene 100%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Escalation hygiene 100%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Learning distilled 1/day' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Learning distilled 1/day' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+
+### vizatrack.MOBAPP
+- iOS birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- iOS çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- iOS alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Android birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Android çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Android alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Cross-platform UX birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Cross-platform UX çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Cross-platform UX alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- KPI 'Crash-free ≥ 99.5%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Crash-free ≥ 99.5%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Store rating ≥ 4.6' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Store rating ≥ 4.6' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Release cadence met' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Release cadence met' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'A11y P0 = 0' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'A11y P0 = 0' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+
+### vizatrack.WEB
+- SSR/App Router birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- SSR/App Router çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- SSR/App Router alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Case Portal birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Case Portal çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Case Portal alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- Docs birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?
+- Docs çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?
+- Docs alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?
+- KPI 'OKR attainment ≥ 80%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'OKR attainment ≥ 80%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Weekly report shipped' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Weekly report shipped' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Escalation hygiene 100%' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Escalation hygiene 100%' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+- KPI 'Learning distilled 1/day' hedefte mi; sapma varsa kök neden ve düzeltme ne?
+- 'Learning distilled 1/day' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?
+
+## C. Kademe soruları
+
 ### C-LEVEL
-1. Ajans OKR attainment'i %80 ustunde mi; degilse kurtarma plani ne?
-2. Bir faz kapisini kanitsiz GECTI saymadim degil mi?
-3. Mikro-yonetime kaydim mi; yetkiyi dogru devrettim mi?
-4. Sahibe danismadan bir taahhut verdim mi?
-5. 5 gelir kanalinin hepsinin sahibi ve durumu net mi?
-6. Kurul gundemini kanit-linkli hazirladim mi?
+- Holding/birim OKR attainment %80 üstünde mi; değilse kurtarma planı ne?
+- Bir faz kapısını kanıtsız GEÇTİ saymadım değil mi?
+- Mikro-yönetime kaydım mı; yetkiyi doğru devrettim mi?
+- Sahibe danışmadan bir taahhüt verdim mi?
+- Gelir kanallarının sahibi ve durumu net mi?
+- Kurul gündemini kanıt-linkli hazırladım mı?
+- Ülke pazar overlay'inde hukuki onay eksik mi?
+- Cross-istirak sinerji fırsatını işaretledim mi?
+- API/secret bütçesi Group CFO ile hizalı mı?
+- Web/iOS/Android yüzeyinde P0 güvenlik açığı var mı?
+- 7/24 vardiya devri kırıldı mı?
+- Nightly araştırma arşivi taze mi?
+
 ### EVP
-1. Departman OKR skoru guncel mi; kirmizi OKR icin plan var mi?
-2. Kadroyu asiri yukledim mi; kapasite dengeli mi?
-3. Playbook'u merge oncesi onayladim mi?
-4. Haftalik departman raporu yayinlandi mi?
-5. Sponsor C-level'a haftalik raporladim mi?
+- Departman OKR skoru güncel mi; kırmızı OKR için plan var mı?
+- Kadroyu aşırı yükledim mi; kapasite dengeli mi?
+- Playbook'u merge öncesi onayladım mı?
+- Haftalık departman raporu yayınlandı mı?
+- Sponsor C-level'a haftalık raporladım mı?
+- Birim top-5 etki sahiplerini bu ay taradım mı?
+- Soru bankası alt-seti rol kartında güncel mi?
+- Eskalasyon >4h kaldı mı?
+- Dry-run skill/MCP matrisi dolduruldu mu?
+- Ülke Lead ile bağımlılık net mi?
+- Prompt sözleşmesi 122/title indeksli mi?
+- Anti-desen (OKR'sız iş) var mı?
+
 ### DIRECTOR
-1. Birim backlog'u dogru onceliklendi mi?
-2. Uzman ciktisini publish oncesi review ettim mi?
-3. Birim retrosundan ogrenim damittim mi?
-4. Cross-unit cakismayi EVP'ye tasidim mi?
+- Birim backlog'u doğru önceliklendi mi?
+- Uzman çıktısını publish öncesi review ettim mi?
+- Birim retrosundan öğrenim damıttım mı?
+- Cross-unit çakışmayı EVP'ye taşıdım mı?
+- KPI tanımı yazılı mı?
+- Checklist güncel mi?
+- Top-5 kaynak URL arşivlendi mi?
+- Toplantı tutanağı DoD'lu mu?
+- Risk bayrağı metrikli mi?
+- Yan iletişim (peer) bugün yapıldı mı?
+- Eğitim modülü ilerledi mi?
+- Roadmap tarihleri kaydı mı?
+
 ### LEAD
-1. Is akisi standardi/checklist guncel mi?
-2. Uzman gorevlerini gunluk atadim/review ettim mi?
-3. Haftalik is akisi ozetini yazdim mi?
-4. Riski metrik kanitiyla mi bayrakladim?
+- İş akışı standardı/checklist güncel mi?
+- Uzman görevlerini günlük atadım/review ettim mi?
+- Haftalık iş akışı özetini yazdım mı?
+- Riski metrik kanıtıyla mı bayrakladım?
+- Standup satırı tek satır mı?
+- Bloklayıcı eskale edildi mi?
+- Playbook iyileştirme önerisi var mı?
+- Test/dry-run notu alındı mı?
+- DoD karşılandı mı?
+- Öğrenim damıtıldı mı?
+- Token verimliliği iyi mi?
+- Rollback planı var mı?
+
 ### SPECIALIST
-1. Ciktim kopyala-hazir ve checklist'li mi?
-2. Bu hafta playbook'a 1 iyilestirme onerdim mi?
-3. Isi metrik gerekcesi olmadan mi sundum?
-4. Damgasiz cikti biraktim mi?
+- Çıktım kopyala-hazır ve checklist'li mi?
+- Bu hafta playbook'a 1 iyileştirme önerdim mi?
+- İşi metrik gerekçesi olmadan mı sundum?
+- Damgasız çıktı bıraktım mı?
+- Kaynak URL ekledim mi?
+- 6 katman geçti mi?
+- Güvenlik 5 kuralı kontrol mü?
+- Peer review aldım mı?
+- Beta notu var mı?
+- Ülke dil/hukuk uyarısı var mı?
+- Secret sızdırdım mı?
+- Sonraki adım sahibi net mi?
+
 ### ANALYST
-1. Veri kesitim tanim-ekli mi?
-2. Anomaliyi buyukluk+hipotezle mi isaretledim?
-3. Tahmini acikca etiketledim mi?
-4. Veri uydurmadim degil mi?
+- Veri kesitim tanım-ekli mi?
+- Anomaliyi büyüklük+hipotezle mi işaretledim?
+- Tahmini açıkça etiketledim mi?
+- Veri uydurmadım değil mi?
+- Örneklem yeterli mi?
+- Dashboard SLA?
+- Kaynak güven sırası uygulandı mı?
+- Arşiv zaman damgası var mı?
+- Korelasyon≠nedensellik uyarıldı mı?
+- KPI owner yazılı mı?
+- Holdout düşündüm mü?
+- BILGI_TABANI satırı yazıldı mı?
+
+### WORKER
+- Atanan task DoD'a göre kapandı mı?
+- Bloklayıcıyı 4h kuralıyla işaretledim mi?
+- Çıktı tek dosyada mı?
+- Zaman damgası koydum mu?
+- Checklist adımlarını atladım mı?
+- Gizli bilgi paylaştım mı?
+- Üst'e net durum verdim mi?
+- Öğrenim 1 satır mı?
+- Yeniden koşum güvenli mi?
+- Test/dry-run yaptım mı?
+- İsimlendirme standardına uydum mu?
+- Gereksiz dolgu ürettim mi?
+
+## Kullanım
+- Rol kartı: 17 soru alt-set
+- Genişletilmiş hedef: +500 soru/title (bankadan örnekleme + dept/tier birleşimi)
+- 🚩 Tek dosyada 900M karakter üretme — banka indeks + üretici yeter

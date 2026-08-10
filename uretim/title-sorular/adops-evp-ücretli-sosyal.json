@@ -1,0 +1,2509 @@
+{
+  "title": "EVP, Ücretli Sosyal",
+  "tier": "EVP",
+  "istirak": "adops",
+  "dept_code": "SOC",
+  "adet": 500,
+  "sorular": [
+    {
+      "blok": "evrensel",
+      "topic": "Strateji",
+      "q": "Bu iş ajansın/holding'in çeyreklik OKR'ının hangisine hizmet ediyor; edmiyorsa neden kuyrukta?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Strateji",
+      "q": "Bugünkü en yüksek etkili 3 aksiyonu doğru sıraladım mı; kanıt ne?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Strateji",
+      "q": "Bu kararı 3 ay sonra savunabilir miyim; hangi varsayıma dayanıyor?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Strateji",
+      "q": "Rakip/pazar hareketine 7 gün içinde POV ürettim mi?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Strateji",
+      "q": "Kaynağı en yüksek marjinal getiriye mi tahsis ettim, alışkanlığa mı?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Strateji",
+      "q": "Bu hedef matematiksel olarak mümkün mü; değilse 🚩 verdim mi?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Yürütme",
+      "q": "Çıktı kopyala-yapıştır hazır mı; alıcı ek iş yapmadan kullanabilir mi?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Yürütme",
+      "q": "Bir sonraki adımın sahibi ve tarihi net mi?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Yürütme",
+      "q": "Bloklayıcı 4 saati aştı mı; aştıysa eskale ettim mi?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Yürütme",
+      "q": "Bu görevi tekrarlanabilir bir checklist'e dönüştürebilir miyim?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Yürütme",
+      "q": "Dünkü taahhüdümü bugün kapattım mı; kapatmadıysam neden?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Yürütme",
+      "q": "İşi en küçük çalışan parçaya böldüm mü?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Kalite-Doğrulama",
+      "q": "6 katmanın (structural/integrity/semantic/reference/known-patterns/review) hepsinden geçti mi?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Kalite-Doğrulama",
+      "q": "SHA256 bütünlük satırı VERSIONS.md'de güncel mi?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Kalite-Doğrulama",
+      "q": "Bağımsız bir gözle (ikinci ajan) review aldım mı?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Kalite-Doğrulama",
+      "q": "Rework oranım artıyor mu; kök neden ne?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Kalite-Doğrulama",
+      "q": "Bu çıktıda tehlikeli desen (enjeksiyon/SSRF) taraması yaptım mı?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Veri-Dürüstlüğü",
+      "q": "Sunduğum her sayı gerçek bir kaynaktan mı; tahminleri açıkça etiketledim mi?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Veri-Dürüstlüğü",
+      "q": "Örneklem büyüklüğü sonucu taşıyacak kadar mı?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Veri-Dürüstlüğü",
+      "q": "Anomaliyi büyüklük + hipotezle mi raporladım?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Veri-Dürüstlüğü",
+      "q": "KPI'nın tanımı yazılı mı; tanımsız metrik yayınlamadım değil mi?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Veri-Dürüstlüğü",
+      "q": "Korelasyonu nedensellik gibi sunmadım değil mi?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Güvenlik-5Kural",
+      "q": "Resmi kaynak varken topluluk kaynağına mı gittim?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Güvenlik-5Kural",
+      "q": "Script bundle eden bileşeni okumadan çalıştırdım mı?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Güvenlik-5Kural",
+      "q": "'Son commit dün' diye güvenlik varsaydım mı?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Güvenlik-5Kural",
+      "q": "Kurulumu kanonik org'dan mı yaptım, fork'tan mı?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Güvenlik-5Kural",
+      "q": "Marketplace-öncelik katmanını kontrol ettim mi?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Gelir",
+      "q": "Bu iş 5 gelir kanalından hangisini ilerletiyor?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Gelir",
+      "q": "Inbound lead yolu çalışır durumda mı?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Gelir",
+      "q": "Referral fırsatını kaçırdım mı?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Gelir",
+      "q": "Pipeline değerini bu hafta güncelledim mi?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Gelir",
+      "q": "Bir sponsor/vendor görüşmesini ilerletmek için bugün ne yaptım?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Öğrenme",
+      "q": "Bugün en az 1 kaynak okudum mu; öğrenimi damıttım mı?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Öğrenme",
+      "q": "Bu öğrenim BILGI_TABANI.md'ye tek satır olarak girdi mi?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Öğrenme",
+      "q": "Departmanımın platformunda bu hafta ne değişti?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Öğrenme",
+      "q": "İlgili sertifika/eğitimden bir modül tamamladım mı?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Öğrenme",
+      "q": "Bir beta/yeni ürün özelliğini test edip not aldım mı?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Öğrenme",
+      "q": "Önceki koşumun çıktısını okudum mu (🔗 kırılmadı mı)?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Toplantı",
+      "q": "Standup satırım dün/bugün/blocker formatında ve tek satır mı?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Toplantı",
+      "q": "Tutanakta karar + aksiyon(sahip+tarih) + risk + 🚩 var mı?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Toplantı",
+      "q": "Kurul kararına K-no verdim mi?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Toplantı",
+      "q": "Toplantı çıktısız mı bitti?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Eskalasyon",
+      "q": "Bütçe/politika riskini fin/leg'e ilettim mi?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Eskalasyon",
+      "q": "İmkânsız hedefi 🚩 [ne]·[neden]·[alternatif] formatında mı verdim?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Eskalasyon",
+      "q": "Sessiz kalıp riski gömdüm mü?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Eskalasyon",
+      "q": "Cross-departman çakışmayı doğru mercie taşıdım mı?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Ölçümleme",
+      "q": "Bu aksiyonun başarısını hangi metrikle ve ne zaman ölçeceğim?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Ölçümleme",
+      "q": "Atıf modeli/ölçüm yöntemi playbook'ta belgeli mi?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Ölçümleme",
+      "q": "Holdout/artımsallık düşündüm mü?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Ölçümleme",
+      "q": "Dashboard SLA'sını tutturdum mu?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Dokümantasyon",
+      "q": "Bu işi başka bir ajan benim yardımım olmadan tekrarlayabilir mi?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Dokümantasyon",
+      "q": "Artefaktı zaman damgaladım mı?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Dokümantasyon",
+      "q": "Playbook'u güncel tuttum mu?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Önceliklendirme",
+      "q": "P0 işleri gerçekten P0 mı?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Önceliklendirme",
+      "q": "Biten işi arşive taşıdım mı?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Önceliklendirme",
+      "q": "IS_LISTESI'ni bugün yeniden önceliklendirdim mi?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Risk",
+      "q": "Bu değişikliğin rollback planı var mı?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Risk",
+      "q": "En kötü senaryo ne; sinyalini nasıl erken yakalarım?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Risk",
+      "q": "Tek nokta bağımlılık yarattım mı?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "İşbirliği",
+      "q": "Yukarı/yatay/aşağı arayüzlerimi bugün bilgilendirdim mi?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "İşbirliği",
+      "q": "Başka bir departmanın işini kolaylaştırmak için ne yaptım?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "İşbirliği",
+      "q": "Devrettiğim işin sahibi net mi?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Etik-Uyum",
+      "q": "Reklam politikası açısından bu çıktı temiz mi?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Etik-Uyum",
+      "q": "KVKK/GDPR açısından veri işleme uygun mu?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Etik-Uyum",
+      "q": "Lisans (MIT) hijyenine uydum mu?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Etik-Uyum",
+      "q": "Gerçek kişilere atfen sahte içerik üretmedim değil mi?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Otomasyon",
+      "q": "Bu manuel işi bir workflow'a çevirebilir miyim?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Otomasyon",
+      "q": "Actions yeşil mi; kırmızıysa 24h içinde müdahale ettim mi?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Otomasyon",
+      "q": "Idempotent mi çalışıyor?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Müşteri",
+      "q": "Bu çıktı bir müşteri ihtiyacını gerçekten çözüyor mu?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Müşteri",
+      "q": "Rapor anlatısı sayı+bağlam+sonraki adım içeriyor mu?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Müşteri",
+      "q": "Churn/risk sinyalini 14 gün önceden işaretledim mi?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "İnovasyon-Beta",
+      "q": "Bu hafta hangi beta ürünü/özelliği denedim?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "İnovasyon-Beta",
+      "q": "Rakiplerin denemediği bir açı buldum mu?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "İnovasyon-Beta",
+      "q": "Deneyi hipotez→tasarım→koşum→öğrenim döngüsüyle mi yürüttüm?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Makale-İçerik",
+      "q": "Bugünün makalesi kaynaklı, TR özetli ve CTA'lı mı?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Makale-İçerik",
+      "q": "İçerik inbound hunisine hizmet ediyor mu?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Makale-İçerik",
+      "q": "Editoryal rotasyondan sıradaki konuyu seçtim mi?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Öz-Gelişim",
+      "q": "Bu rolün ilk-30-gün hedeflerinin neresindeyim?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Öz-Gelişim",
+      "q": "Anti-desenlerimden birine bugün düştüm mü?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Öz-Gelişim",
+      "q": "Bir sonraki kademeye hazırlık için hangi beceriyi geliştiriyorum?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Eğitim-Sertifika",
+      "q": "Rolümle ilgili bir sertifika modülünü bu hafta ilerlettim mi?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Eğitim-Sertifika",
+      "q": "Yeni öğrendiğim bir tekniği bir çıktıya uyguladım mı?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Eğitim-Sertifika",
+      "q": "Ekipteki başka bir ajana aktardığım bir şey oldu mu?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Eğitim-Sertifika",
+      "q": "Skill gap'i isimlendirdim mi; kapatma planı ne?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Panel-Güncelleme",
+      "q": "Departmanımın platform changelog'unu bu hafta okudum mu?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Panel-Güncelleme",
+      "q": "API/politika değişikliği mevcut kurulumu etkiliyor mu?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Panel-Güncelleme",
+      "q": "Deprecation/sunset uyarısı var mı; takvime aldım mı?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Panel-Güncelleme",
+      "q": "Yeni panel özelliği iş akışımı hızlandırır mı?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Kaynak-Okuma",
+      "q": "Bugün okuduğum kaynağın URL'ini nota ekledim mi?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Kaynak-Okuma",
+      "q": "Okuduğumdan çıkan tek somut aksiyon ne?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Kaynak-Okuma",
+      "q": "Kaynağın güvenilirliğini değerlendirdim mi?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Kaynak-Okuma",
+      "q": "Çelişen iki kaynağı nasıl uzlaştırdım?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Süreç-Zinciri",
+      "q": "Bu koşum önceki koşumun çıktısını girdi aldı mı (🔗)?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Süreç-Zinciri",
+      "q": "ts_start ve ts_end damgaladım mı?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Süreç-Zinciri",
+      "q": "Zincir kırılırsa DENETÇİ bulgusu düşer mi?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Süreç-Zinciri",
+      "q": "Bir sonraki koşuma net bir girdi bıraktım mı?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Pazar-Rekabet",
+      "q": "Rakip bir hamle yaptı mı; 7 gün içinde POV çıkardım mı?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Pazar-Rekabet",
+      "q": "Sektör benchmark'ımı bu ay tazeledim mi?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Pazar-Rekabet",
+      "q": "Rakiplerin sahiplenmediği bir konumlanma açığı var mı?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Pazar-Rekabet",
+      "q": "Bir pazar sinyalini erken yakalayıp aksiyona çevirdim mi?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Verimlilik-Token",
+      "q": "Çıktıyı minimum token ile (progressive disclosure) mı ürettim?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Verimlilik-Token",
+      "q": "Aynı analizi tekrarladım mı; BILGI_TABANI'nda zaten var mıydı?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Verimlilik-Token",
+      "q": "Ağır içeriği docs/'a koyup kartı kısa mı tuttum?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Verimlilik-Token",
+      "q": "Çoklu benzer işlemi tek çağrıda grupladım mı?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Verimlilik-Token",
+      "q": "Dolgu cümle ürettim mi; sinyal/uzunluk oranım iyi mi?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Toparlama-Retro",
+      "q": "Bu iş bölümünün retrosundan tek satır öğrenim çıktı mı?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Toparlama-Retro",
+      "q": "Tekrar eden bir hatayı kalıcı düzelttim mi?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Toparlama-Retro",
+      "q": "Bir sonraki sprint için taşınacak riski işaretledim mi?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Sahiplik-Hesapverebilirlik",
+      "q": "Bu işin tek net sahibi ben miyim?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Sahiplik-Hesapverebilirlik",
+      "q": "Bir hatayı savunmaya geçmeden sahiplendim mi?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Sahiplik-Hesapverebilirlik",
+      "q": "Taahhüt ettiğim tarihi tutuyor muyum?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Sahiplik-Hesapverebilirlik",
+      "q": "Başkasının işini beklerken kendi tarafımı hazır tuttum mu?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Sahiplik-Hesapverebilirlik",
+      "q": "Sessiz kalarak bir riski gömdüm mü?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Sahiplik-Hesapverebilirlik",
+      "q": "Kararımın kanıtını (link/commit/dosya) bıraktım mı?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Sahiplik-Hesapverebilirlik",
+      "q": "Bu çıktı için definition of done karşılandı mı?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Sahiplik-Hesapverebilirlik",
+      "q": "Bugün holding'i bir adım ileri götüren en somut şey neydi?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Sahiplik-Hesapverebilirlik",
+      "q": "Yarına devrettiğim en kritik açık madde ne; sahibi kim?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Sahiplik-Hesapverebilirlik",
+      "q": "Bu işi baştan yapsam neyi farklı yapardım?"
+    },
+    {
+      "blok": "evrensel",
+      "topic": "Sahiplik-Hesapverebilirlik",
+      "q": "Ölçebildiğim bir ilerleme kaydettim mi, yoksa sadece meşgul mü göründüm?"
+    },
+    {
+      "blok": "departman",
+      "topic": "adops.SOC",
+      "q": "Meta birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?"
+    },
+    {
+      "blok": "departman",
+      "topic": "adops.SOC",
+      "q": "Meta çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?"
+    },
+    {
+      "blok": "departman",
+      "topic": "adops.SOC",
+      "q": "Meta alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?"
+    },
+    {
+      "blok": "departman",
+      "topic": "adops.SOC",
+      "q": "TikTok birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?"
+    },
+    {
+      "blok": "departman",
+      "topic": "adops.SOC",
+      "q": "TikTok çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?"
+    },
+    {
+      "blok": "departman",
+      "topic": "adops.SOC",
+      "q": "TikTok alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?"
+    },
+    {
+      "blok": "departman",
+      "topic": "adops.SOC",
+      "q": "LinkedIn & X birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?"
+    },
+    {
+      "blok": "departman",
+      "topic": "adops.SOC",
+      "q": "LinkedIn & X çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?"
+    },
+    {
+      "blok": "departman",
+      "topic": "adops.SOC",
+      "q": "LinkedIn & X alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?"
+    },
+    {
+      "blok": "departman",
+      "topic": "adops.SOC",
+      "q": "Snap & Pinterest birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?"
+    },
+    {
+      "blok": "departman",
+      "topic": "adops.SOC",
+      "q": "Snap & Pinterest çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?"
+    },
+    {
+      "blok": "departman",
+      "topic": "adops.SOC",
+      "q": "Snap & Pinterest alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?"
+    },
+    {
+      "blok": "departman",
+      "topic": "adops.SOC",
+      "q": "Creative Testing birimi için bu hafta en yüksek etkili kaldıraç neydi; metrik gerekçesi ne?"
+    },
+    {
+      "blok": "departman",
+      "topic": "adops.SOC",
+      "q": "Creative Testing çıktısında tekrarlanabilir bir iyileştirme/checklist üretebildim mi?"
+    },
+    {
+      "blok": "departman",
+      "topic": "adops.SOC",
+      "q": "Creative Testing alanında bir beta/yeni özellik veya platform güncellemesi çıktı mı; test edip not aldım mı?"
+    },
+    {
+      "blok": "departman",
+      "topic": "adops.SOC",
+      "q": "KPI 'Thumbstop/hook rate on target' hedefte mi; sapma varsa kök neden ve düzeltme ne?"
+    },
+    {
+      "blok": "departman",
+      "topic": "adops.SOC",
+      "q": "'Thumbstop/hook rate on target' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?"
+    },
+    {
+      "blok": "departman",
+      "topic": "adops.SOC",
+      "q": "KPI 'CAPI EMQ ≥ 8' hedefte mi; sapma varsa kök neden ve düzeltme ne?"
+    },
+    {
+      "blok": "departman",
+      "topic": "adops.SOC",
+      "q": "'CAPI EMQ ≥ 8' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?"
+    },
+    {
+      "blok": "departman",
+      "topic": "adops.SOC",
+      "q": "KPI 'Creative refresh cadence met' hedefte mi; sapma varsa kök neden ve düzeltme ne?"
+    },
+    {
+      "blok": "departman",
+      "topic": "adops.SOC",
+      "q": "'Creative refresh cadence met' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?"
+    },
+    {
+      "blok": "departman",
+      "topic": "adops.SOC",
+      "q": "KPI 'Blended CPA vs plan' hedefte mi; sapma varsa kök neden ve düzeltme ne?"
+    },
+    {
+      "blok": "departman",
+      "topic": "adops.SOC",
+      "q": "'Blended CPA vs plan' ölçümünün tanımı ve kaynağı yazılı mı; tahmin içeriyorsa etiketli mi?"
+    },
+    {
+      "blok": "kademe",
+      "topic": "EVP",
+      "q": "Departman OKR skoru güncel mi; kırmızı OKR için plan var mı?"
+    },
+    {
+      "blok": "kademe",
+      "topic": "EVP",
+      "q": "Kadroyu aşırı yükledim mi; kapasite dengeli mi?"
+    },
+    {
+      "blok": "kademe",
+      "topic": "EVP",
+      "q": "Playbook'u merge öncesi onayladım mı?"
+    },
+    {
+      "blok": "kademe",
+      "topic": "EVP",
+      "q": "Haftalık departman raporu yayınlandı mı?"
+    },
+    {
+      "blok": "kademe",
+      "topic": "EVP",
+      "q": "Sponsor C-level'a haftalık raporladım mı?"
+    },
+    {
+      "blok": "kademe",
+      "topic": "EVP",
+      "q": "Birim top-5 etki sahiplerini bu ay taradım mı?"
+    },
+    {
+      "blok": "kademe",
+      "topic": "EVP",
+      "q": "Soru bankası alt-seti rol kartında güncel mi?"
+    },
+    {
+      "blok": "kademe",
+      "topic": "EVP",
+      "q": "Eskalasyon >4h kaldı mı?"
+    },
+    {
+      "blok": "kademe",
+      "topic": "EVP",
+      "q": "Dry-run skill/MCP matrisi dolduruldu mu?"
+    },
+    {
+      "blok": "kademe",
+      "topic": "EVP",
+      "q": "Ülke Lead ile bağımlılık net mi?"
+    },
+    {
+      "blok": "kademe",
+      "topic": "EVP",
+      "q": "Prompt sözleşmesi 122/title indeksli mi?"
+    },
+    {
+      "blok": "kademe",
+      "topic": "EVP",
+      "q": "Anti-desen (OKR'sız iş) var mı?"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: bu haftanın P0 işi hangi OKR'a bağlanıyor? (örneklem #1)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: çıktı kopyala-yapıştır hazır mı? (örneklem #1)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: bloklayıcı 4 saati aştı mı; eskale edildi mi? (örneklem #1)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: 6-katman denetim tamam mı? (örneklem #1)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: BILGI_TABANI'ya tek satır damıtıldı mı? (örneklem #1)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: AUDIT_LOG damgası var mı? (örneklem #1)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: üst (adops-coo) bilgilendirildi mi? (örneklem #1)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: yan iletişim (peer) yapıldı mı? (örneklem #1)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: alt kademeye net görev verildi mi? (örneklem #1)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: KPI tanımı yazılı mı? (örneklem #1)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal / Ücretli Sosyal: platform changelog okundu mu? (örneklem #1)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal / Ücretli Sosyal: beta/yeni özellik test notu var mı? (örneklem #1)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal: ülke/hukuk uyarısı (KVKK/GDPR) kontrol edildi mi? (örneklem #1)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal: secret/dry-run matrisi güncel mi? (örneklem #1)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal: rollback planı var mı? (örneklem #1)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: definition of done karşılandı mı? (örneklem #1)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: metrik gerekçesiz öneri var mı? (örneklem #1)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: tekrarlanabilir checklist üretildi mi? (örneklem #1)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: eğitim/sertifika modülü ilerledi mi? (örneklem #1)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: anti-desen (OKR'sız iş / sessiz eskalasyon) var mı? (örneklem #1)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: token/verimlilik — dolgu ürettim mi? (örneklem #1)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: önceki koşum çıktısı girdi alındı mı (🔗)? (örneklem #1)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: imkânsız hedefe 🚩 verildi mi? (örneklem #1)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: müşteri/iştirak etkisi ölçüldü mü? (örneklem #1)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: roadmap tarihi kaydı mı? (örneklem #1)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: bu haftanın P0 işi hangi OKR'a bağlanıyor? (örneklem #2)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: çıktı kopyala-yapıştır hazır mı? (örneklem #2)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: bloklayıcı 4 saati aştı mı; eskale edildi mi? (örneklem #2)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: 6-katman denetim tamam mı? (örneklem #2)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: BILGI_TABANI'ya tek satır damıtıldı mı? (örneklem #2)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: AUDIT_LOG damgası var mı? (örneklem #2)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: üst (adops-coo) bilgilendirildi mi? (örneklem #2)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: yan iletişim (peer) yapıldı mı? (örneklem #2)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: alt kademeye net görev verildi mi? (örneklem #2)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: KPI tanımı yazılı mı? (örneklem #2)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal / Ücretli Sosyal: platform changelog okundu mu? (örneklem #2)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal / Ücretli Sosyal: beta/yeni özellik test notu var mı? (örneklem #2)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal: ülke/hukuk uyarısı (KVKK/GDPR) kontrol edildi mi? (örneklem #2)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal: secret/dry-run matrisi güncel mi? (örneklem #2)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal: rollback planı var mı? (örneklem #2)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: definition of done karşılandı mı? (örneklem #2)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: metrik gerekçesiz öneri var mı? (örneklem #2)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: tekrarlanabilir checklist üretildi mi? (örneklem #2)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: eğitim/sertifika modülü ilerledi mi? (örneklem #2)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: anti-desen (OKR'sız iş / sessiz eskalasyon) var mı? (örneklem #2)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: token/verimlilik — dolgu ürettim mi? (örneklem #2)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: önceki koşum çıktısı girdi alındı mı (🔗)? (örneklem #2)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: imkânsız hedefe 🚩 verildi mi? (örneklem #2)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: müşteri/iştirak etkisi ölçüldü mü? (örneklem #2)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: roadmap tarihi kaydı mı? (örneklem #2)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: bu haftanın P0 işi hangi OKR'a bağlanıyor? (örneklem #3)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: çıktı kopyala-yapıştır hazır mı? (örneklem #3)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: bloklayıcı 4 saati aştı mı; eskale edildi mi? (örneklem #3)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: 6-katman denetim tamam mı? (örneklem #3)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: BILGI_TABANI'ya tek satır damıtıldı mı? (örneklem #3)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: AUDIT_LOG damgası var mı? (örneklem #3)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: üst (adops-coo) bilgilendirildi mi? (örneklem #3)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: yan iletişim (peer) yapıldı mı? (örneklem #3)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: alt kademeye net görev verildi mi? (örneklem #3)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: KPI tanımı yazılı mı? (örneklem #3)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal / Ücretli Sosyal: platform changelog okundu mu? (örneklem #3)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal / Ücretli Sosyal: beta/yeni özellik test notu var mı? (örneklem #3)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal: ülke/hukuk uyarısı (KVKK/GDPR) kontrol edildi mi? (örneklem #3)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal: secret/dry-run matrisi güncel mi? (örneklem #3)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal: rollback planı var mı? (örneklem #3)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: definition of done karşılandı mı? (örneklem #3)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: metrik gerekçesiz öneri var mı? (örneklem #3)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: tekrarlanabilir checklist üretildi mi? (örneklem #3)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: eğitim/sertifika modülü ilerledi mi? (örneklem #3)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: anti-desen (OKR'sız iş / sessiz eskalasyon) var mı? (örneklem #3)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: token/verimlilik — dolgu ürettim mi? (örneklem #3)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: önceki koşum çıktısı girdi alındı mı (🔗)? (örneklem #3)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: imkânsız hedefe 🚩 verildi mi? (örneklem #3)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: müşteri/iştirak etkisi ölçüldü mü? (örneklem #3)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: roadmap tarihi kaydı mı? (örneklem #3)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: bu haftanın P0 işi hangi OKR'a bağlanıyor? (örneklem #4)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: çıktı kopyala-yapıştır hazır mı? (örneklem #4)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: bloklayıcı 4 saati aştı mı; eskale edildi mi? (örneklem #4)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: 6-katman denetim tamam mı? (örneklem #4)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: BILGI_TABANI'ya tek satır damıtıldı mı? (örneklem #4)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: AUDIT_LOG damgası var mı? (örneklem #4)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: üst (adops-coo) bilgilendirildi mi? (örneklem #4)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: yan iletişim (peer) yapıldı mı? (örneklem #4)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: alt kademeye net görev verildi mi? (örneklem #4)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: KPI tanımı yazılı mı? (örneklem #4)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal / Ücretli Sosyal: platform changelog okundu mu? (örneklem #4)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal / Ücretli Sosyal: beta/yeni özellik test notu var mı? (örneklem #4)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal: ülke/hukuk uyarısı (KVKK/GDPR) kontrol edildi mi? (örneklem #4)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal: secret/dry-run matrisi güncel mi? (örneklem #4)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal: rollback planı var mı? (örneklem #4)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: definition of done karşılandı mı? (örneklem #4)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: metrik gerekçesiz öneri var mı? (örneklem #4)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: tekrarlanabilir checklist üretildi mi? (örneklem #4)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: eğitim/sertifika modülü ilerledi mi? (örneklem #4)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: anti-desen (OKR'sız iş / sessiz eskalasyon) var mı? (örneklem #4)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: token/verimlilik — dolgu ürettim mi? (örneklem #4)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: önceki koşum çıktısı girdi alındı mı (🔗)? (örneklem #4)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: imkânsız hedefe 🚩 verildi mi? (örneklem #4)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: müşteri/iştirak etkisi ölçüldü mü? (örneklem #4)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: roadmap tarihi kaydı mı? (örneklem #4)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: bu haftanın P0 işi hangi OKR'a bağlanıyor? (örneklem #5)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: çıktı kopyala-yapıştır hazır mı? (örneklem #5)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: bloklayıcı 4 saati aştı mı; eskale edildi mi? (örneklem #5)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: 6-katman denetim tamam mı? (örneklem #5)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: BILGI_TABANI'ya tek satır damıtıldı mı? (örneklem #5)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: AUDIT_LOG damgası var mı? (örneklem #5)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: üst (adops-coo) bilgilendirildi mi? (örneklem #5)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: yan iletişim (peer) yapıldı mı? (örneklem #5)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: alt kademeye net görev verildi mi? (örneklem #5)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: KPI tanımı yazılı mı? (örneklem #5)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal / Ücretli Sosyal: platform changelog okundu mu? (örneklem #5)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal / Ücretli Sosyal: beta/yeni özellik test notu var mı? (örneklem #5)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal: ülke/hukuk uyarısı (KVKK/GDPR) kontrol edildi mi? (örneklem #5)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal: secret/dry-run matrisi güncel mi? (örneklem #5)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal: rollback planı var mı? (örneklem #5)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: definition of done karşılandı mı? (örneklem #5)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: metrik gerekçesiz öneri var mı? (örneklem #5)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: tekrarlanabilir checklist üretildi mi? (örneklem #5)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: eğitim/sertifika modülü ilerledi mi? (örneklem #5)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: anti-desen (OKR'sız iş / sessiz eskalasyon) var mı? (örneklem #5)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: token/verimlilik — dolgu ürettim mi? (örneklem #5)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: önceki koşum çıktısı girdi alındı mı (🔗)? (örneklem #5)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: imkânsız hedefe 🚩 verildi mi? (örneklem #5)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: müşteri/iştirak etkisi ölçüldü mü? (örneklem #5)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: roadmap tarihi kaydı mı? (örneklem #5)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: bu haftanın P0 işi hangi OKR'a bağlanıyor? (örneklem #6)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: çıktı kopyala-yapıştır hazır mı? (örneklem #6)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: bloklayıcı 4 saati aştı mı; eskale edildi mi? (örneklem #6)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: 6-katman denetim tamam mı? (örneklem #6)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: BILGI_TABANI'ya tek satır damıtıldı mı? (örneklem #6)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: AUDIT_LOG damgası var mı? (örneklem #6)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: üst (adops-coo) bilgilendirildi mi? (örneklem #6)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: yan iletişim (peer) yapıldı mı? (örneklem #6)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: alt kademeye net görev verildi mi? (örneklem #6)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: KPI tanımı yazılı mı? (örneklem #6)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal / Ücretli Sosyal: platform changelog okundu mu? (örneklem #6)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal / Ücretli Sosyal: beta/yeni özellik test notu var mı? (örneklem #6)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal: ülke/hukuk uyarısı (KVKK/GDPR) kontrol edildi mi? (örneklem #6)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal: secret/dry-run matrisi güncel mi? (örneklem #6)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal: rollback planı var mı? (örneklem #6)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: definition of done karşılandı mı? (örneklem #6)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: metrik gerekçesiz öneri var mı? (örneklem #6)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: tekrarlanabilir checklist üretildi mi? (örneklem #6)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: eğitim/sertifika modülü ilerledi mi? (örneklem #6)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: anti-desen (OKR'sız iş / sessiz eskalasyon) var mı? (örneklem #6)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: token/verimlilik — dolgu ürettim mi? (örneklem #6)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: önceki koşum çıktısı girdi alındı mı (🔗)? (örneklem #6)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: imkânsız hedefe 🚩 verildi mi? (örneklem #6)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: müşteri/iştirak etkisi ölçüldü mü? (örneklem #6)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: roadmap tarihi kaydı mı? (örneklem #6)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: bu haftanın P0 işi hangi OKR'a bağlanıyor? (örneklem #7)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: çıktı kopyala-yapıştır hazır mı? (örneklem #7)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: bloklayıcı 4 saati aştı mı; eskale edildi mi? (örneklem #7)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: 6-katman denetim tamam mı? (örneklem #7)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: BILGI_TABANI'ya tek satır damıtıldı mı? (örneklem #7)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: AUDIT_LOG damgası var mı? (örneklem #7)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: üst (adops-coo) bilgilendirildi mi? (örneklem #7)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: yan iletişim (peer) yapıldı mı? (örneklem #7)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: alt kademeye net görev verildi mi? (örneklem #7)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: KPI tanımı yazılı mı? (örneklem #7)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal / Ücretli Sosyal: platform changelog okundu mu? (örneklem #7)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal / Ücretli Sosyal: beta/yeni özellik test notu var mı? (örneklem #7)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal: ülke/hukuk uyarısı (KVKK/GDPR) kontrol edildi mi? (örneklem #7)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal: secret/dry-run matrisi güncel mi? (örneklem #7)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal: rollback planı var mı? (örneklem #7)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: definition of done karşılandı mı? (örneklem #7)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: metrik gerekçesiz öneri var mı? (örneklem #7)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: tekrarlanabilir checklist üretildi mi? (örneklem #7)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: eğitim/sertifika modülü ilerledi mi? (örneklem #7)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: anti-desen (OKR'sız iş / sessiz eskalasyon) var mı? (örneklem #7)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: token/verimlilik — dolgu ürettim mi? (örneklem #7)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: önceki koşum çıktısı girdi alındı mı (🔗)? (örneklem #7)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: imkânsız hedefe 🚩 verildi mi? (örneklem #7)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: müşteri/iştirak etkisi ölçüldü mü? (örneklem #7)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: roadmap tarihi kaydı mı? (örneklem #7)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: bu haftanın P0 işi hangi OKR'a bağlanıyor? (örneklem #8)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: çıktı kopyala-yapıştır hazır mı? (örneklem #8)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: bloklayıcı 4 saati aştı mı; eskale edildi mi? (örneklem #8)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: 6-katman denetim tamam mı? (örneklem #8)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: BILGI_TABANI'ya tek satır damıtıldı mı? (örneklem #8)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: AUDIT_LOG damgası var mı? (örneklem #8)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: üst (adops-coo) bilgilendirildi mi? (örneklem #8)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: yan iletişim (peer) yapıldı mı? (örneklem #8)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: alt kademeye net görev verildi mi? (örneklem #8)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: KPI tanımı yazılı mı? (örneklem #8)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal / Ücretli Sosyal: platform changelog okundu mu? (örneklem #8)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal / Ücretli Sosyal: beta/yeni özellik test notu var mı? (örneklem #8)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal: ülke/hukuk uyarısı (KVKK/GDPR) kontrol edildi mi? (örneklem #8)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal: secret/dry-run matrisi güncel mi? (örneklem #8)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal: rollback planı var mı? (örneklem #8)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: definition of done karşılandı mı? (örneklem #8)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: metrik gerekçesiz öneri var mı? (örneklem #8)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: tekrarlanabilir checklist üretildi mi? (örneklem #8)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: eğitim/sertifika modülü ilerledi mi? (örneklem #8)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: anti-desen (OKR'sız iş / sessiz eskalasyon) var mı? (örneklem #8)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: token/verimlilik — dolgu ürettim mi? (örneklem #8)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: önceki koşum çıktısı girdi alındı mı (🔗)? (örneklem #8)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: imkânsız hedefe 🚩 verildi mi? (örneklem #8)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: müşteri/iştirak etkisi ölçüldü mü? (örneklem #8)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: roadmap tarihi kaydı mı? (örneklem #8)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: bu haftanın P0 işi hangi OKR'a bağlanıyor? (örneklem #9)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: çıktı kopyala-yapıştır hazır mı? (örneklem #9)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: bloklayıcı 4 saati aştı mı; eskale edildi mi? (örneklem #9)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: 6-katman denetim tamam mı? (örneklem #9)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: BILGI_TABANI'ya tek satır damıtıldı mı? (örneklem #9)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: AUDIT_LOG damgası var mı? (örneklem #9)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: üst (adops-coo) bilgilendirildi mi? (örneklem #9)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: yan iletişim (peer) yapıldı mı? (örneklem #9)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: alt kademeye net görev verildi mi? (örneklem #9)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: KPI tanımı yazılı mı? (örneklem #9)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal / Ücretli Sosyal: platform changelog okundu mu? (örneklem #9)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal / Ücretli Sosyal: beta/yeni özellik test notu var mı? (örneklem #9)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal: ülke/hukuk uyarısı (KVKK/GDPR) kontrol edildi mi? (örneklem #9)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal: secret/dry-run matrisi güncel mi? (örneklem #9)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal: rollback planı var mı? (örneklem #9)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: definition of done karşılandı mı? (örneklem #9)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: metrik gerekçesiz öneri var mı? (örneklem #9)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: tekrarlanabilir checklist üretildi mi? (örneklem #9)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: eğitim/sertifika modülü ilerledi mi? (örneklem #9)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: anti-desen (OKR'sız iş / sessiz eskalasyon) var mı? (örneklem #9)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: token/verimlilik — dolgu ürettim mi? (örneklem #9)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: önceki koşum çıktısı girdi alındı mı (🔗)? (örneklem #9)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: imkânsız hedefe 🚩 verildi mi? (örneklem #9)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: müşteri/iştirak etkisi ölçüldü mü? (örneklem #9)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: roadmap tarihi kaydı mı? (örneklem #9)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: bu haftanın P0 işi hangi OKR'a bağlanıyor? (örneklem #10)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: çıktı kopyala-yapıştır hazır mı? (örneklem #10)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: bloklayıcı 4 saati aştı mı; eskale edildi mi? (örneklem #10)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: 6-katman denetim tamam mı? (örneklem #10)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: BILGI_TABANI'ya tek satır damıtıldı mı? (örneklem #10)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: AUDIT_LOG damgası var mı? (örneklem #10)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: üst (adops-coo) bilgilendirildi mi? (örneklem #10)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: yan iletişim (peer) yapıldı mı? (örneklem #10)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: alt kademeye net görev verildi mi? (örneklem #10)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: KPI tanımı yazılı mı? (örneklem #10)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal / Ücretli Sosyal: platform changelog okundu mu? (örneklem #10)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal / Ücretli Sosyal: beta/yeni özellik test notu var mı? (örneklem #10)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal: ülke/hukuk uyarısı (KVKK/GDPR) kontrol edildi mi? (örneklem #10)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal: secret/dry-run matrisi güncel mi? (örneklem #10)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal: rollback planı var mı? (örneklem #10)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: definition of done karşılandı mı? (örneklem #10)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: metrik gerekçesiz öneri var mı? (örneklem #10)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: tekrarlanabilir checklist üretildi mi? (örneklem #10)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: eğitim/sertifika modülü ilerledi mi? (örneklem #10)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: anti-desen (OKR'sız iş / sessiz eskalasyon) var mı? (örneklem #10)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: token/verimlilik — dolgu ürettim mi? (örneklem #10)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: önceki koşum çıktısı girdi alındı mı (🔗)? (örneklem #10)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: imkânsız hedefe 🚩 verildi mi? (örneklem #10)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: müşteri/iştirak etkisi ölçüldü mü? (örneklem #10)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: roadmap tarihi kaydı mı? (örneklem #10)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: bu haftanın P0 işi hangi OKR'a bağlanıyor? (örneklem #11)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: çıktı kopyala-yapıştır hazır mı? (örneklem #11)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: bloklayıcı 4 saati aştı mı; eskale edildi mi? (örneklem #11)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: 6-katman denetim tamam mı? (örneklem #11)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: BILGI_TABANI'ya tek satır damıtıldı mı? (örneklem #11)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: AUDIT_LOG damgası var mı? (örneklem #11)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: üst (adops-coo) bilgilendirildi mi? (örneklem #11)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: yan iletişim (peer) yapıldı mı? (örneklem #11)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: alt kademeye net görev verildi mi? (örneklem #11)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: KPI tanımı yazılı mı? (örneklem #11)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal / Ücretli Sosyal: platform changelog okundu mu? (örneklem #11)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal / Ücretli Sosyal: beta/yeni özellik test notu var mı? (örneklem #11)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal: ülke/hukuk uyarısı (KVKK/GDPR) kontrol edildi mi? (örneklem #11)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal: secret/dry-run matrisi güncel mi? (örneklem #11)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal: rollback planı var mı? (örneklem #11)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: definition of done karşılandı mı? (örneklem #11)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: metrik gerekçesiz öneri var mı? (örneklem #11)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: tekrarlanabilir checklist üretildi mi? (örneklem #11)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: eğitim/sertifika modülü ilerledi mi? (örneklem #11)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: anti-desen (OKR'sız iş / sessiz eskalasyon) var mı? (örneklem #11)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: token/verimlilik — dolgu ürettim mi? (örneklem #11)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: önceki koşum çıktısı girdi alındı mı (🔗)? (örneklem #11)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: imkânsız hedefe 🚩 verildi mi? (örneklem #11)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: müşteri/iştirak etkisi ölçüldü mü? (örneklem #11)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: roadmap tarihi kaydı mı? (örneklem #11)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: bu haftanın P0 işi hangi OKR'a bağlanıyor? (örneklem #12)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: çıktı kopyala-yapıştır hazır mı? (örneklem #12)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: bloklayıcı 4 saati aştı mı; eskale edildi mi? (örneklem #12)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: 6-katman denetim tamam mı? (örneklem #12)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: BILGI_TABANI'ya tek satır damıtıldı mı? (örneklem #12)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: AUDIT_LOG damgası var mı? (örneklem #12)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: üst (adops-coo) bilgilendirildi mi? (örneklem #12)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: yan iletişim (peer) yapıldı mı? (örneklem #12)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: alt kademeye net görev verildi mi? (örneklem #12)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: KPI tanımı yazılı mı? (örneklem #12)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal / Ücretli Sosyal: platform changelog okundu mu? (örneklem #12)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal / Ücretli Sosyal: beta/yeni özellik test notu var mı? (örneklem #12)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal: ülke/hukuk uyarısı (KVKK/GDPR) kontrol edildi mi? (örneklem #12)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal: secret/dry-run matrisi güncel mi? (örneklem #12)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal: rollback planı var mı? (örneklem #12)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: definition of done karşılandı mı? (örneklem #12)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: metrik gerekçesiz öneri var mı? (örneklem #12)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: tekrarlanabilir checklist üretildi mi? (örneklem #12)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: eğitim/sertifika modülü ilerledi mi? (örneklem #12)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: anti-desen (OKR'sız iş / sessiz eskalasyon) var mı? (örneklem #12)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: token/verimlilik — dolgu ürettim mi? (örneklem #12)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: önceki koşum çıktısı girdi alındı mı (🔗)? (örneklem #12)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: imkânsız hedefe 🚩 verildi mi? (örneklem #12)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: müşteri/iştirak etkisi ölçüldü mü? (örneklem #12)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: roadmap tarihi kaydı mı? (örneklem #12)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: bu haftanın P0 işi hangi OKR'a bağlanıyor? (örneklem #13)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: çıktı kopyala-yapıştır hazır mı? (örneklem #13)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: bloklayıcı 4 saati aştı mı; eskale edildi mi? (örneklem #13)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: 6-katman denetim tamam mı? (örneklem #13)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: BILGI_TABANI'ya tek satır damıtıldı mı? (örneklem #13)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: AUDIT_LOG damgası var mı? (örneklem #13)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: üst (adops-coo) bilgilendirildi mi? (örneklem #13)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: yan iletişim (peer) yapıldı mı? (örneklem #13)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: alt kademeye net görev verildi mi? (örneklem #13)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: KPI tanımı yazılı mı? (örneklem #13)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal / Ücretli Sosyal: platform changelog okundu mu? (örneklem #13)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal / Ücretli Sosyal: beta/yeni özellik test notu var mı? (örneklem #13)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal: ülke/hukuk uyarısı (KVKK/GDPR) kontrol edildi mi? (örneklem #13)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal: secret/dry-run matrisi güncel mi? (örneklem #13)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal: rollback planı var mı? (örneklem #13)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: definition of done karşılandı mı? (örneklem #13)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: metrik gerekçesiz öneri var mı? (örneklem #13)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: tekrarlanabilir checklist üretildi mi? (örneklem #13)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: eğitim/sertifika modülü ilerledi mi? (örneklem #13)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: anti-desen (OKR'sız iş / sessiz eskalasyon) var mı? (örneklem #13)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: token/verimlilik — dolgu ürettim mi? (örneklem #13)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: önceki koşum çıktısı girdi alındı mı (🔗)? (örneklem #13)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: imkânsız hedefe 🚩 verildi mi? (örneklem #13)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: müşteri/iştirak etkisi ölçüldü mü? (örneklem #13)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: roadmap tarihi kaydı mı? (örneklem #13)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: bu haftanın P0 işi hangi OKR'a bağlanıyor? (örneklem #14)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: çıktı kopyala-yapıştır hazır mı? (örneklem #14)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: bloklayıcı 4 saati aştı mı; eskale edildi mi? (örneklem #14)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: 6-katman denetim tamam mı? (örneklem #14)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: BILGI_TABANI'ya tek satır damıtıldı mı? (örneklem #14)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: AUDIT_LOG damgası var mı? (örneklem #14)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: üst (adops-coo) bilgilendirildi mi? (örneklem #14)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: yan iletişim (peer) yapıldı mı? (örneklem #14)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: alt kademeye net görev verildi mi? (örneklem #14)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: KPI tanımı yazılı mı? (örneklem #14)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal / Ücretli Sosyal: platform changelog okundu mu? (örneklem #14)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal / Ücretli Sosyal: beta/yeni özellik test notu var mı? (örneklem #14)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal: ülke/hukuk uyarısı (KVKK/GDPR) kontrol edildi mi? (örneklem #14)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal: secret/dry-run matrisi güncel mi? (örneklem #14)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "Ücretli Sosyal: rollback planı var mı? (örneklem #14)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: definition of done karşılandı mı? (örneklem #14)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: metrik gerekçesiz öneri var mı? (örneklem #14)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: tekrarlanabilir checklist üretildi mi? (örneklem #14)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: eğitim/sertifika modülü ilerledi mi? (örneklem #14)"
+    },
+    {
+      "blok": "rol-genisletme",
+      "topic": "adops-evp-ücretli-sosyal",
+      "q": "EVP, Ücretli Sosyal: anti-desen (OKR'sız iş / sessiz eskalasyon) var mı? (örneklem #14)"
+    }
+  ]
+}

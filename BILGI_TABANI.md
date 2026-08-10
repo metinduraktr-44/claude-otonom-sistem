@@ -38,6 +38,54 @@
 - Gelir motoru kararı: hedef iş = CLAUDE OTONOM SİSTEM'in kendisi (bileşen kütüphanesi ürünleştirme). Mevcut 5 iş (Tahmin Uzmanı, VESTRA, İBB Kültür AŞ, Movéa, Response DGA) pilot iç müşteri — dogfooding. Detay: GELIR_MOTORU.md.
 
 <!-- SONRAKİ GİRİŞLER BURAYA — en yeni en üstte -->
+## 2026-08-04T09:41:05Z — skill ajans envanteri
+- skills=696; domains=50; titles=216; pilot_prompts=2440; ekipler=50
+- 🚩 900B karakter RED; Claude Code MASTER üretilidi.
+
+## 2026-08-04T09:41:04Z — MCP×etki×prompt motoru
+- MCP=174; tech=141; cult=116; org_roles=104; prompts_index=12688
+- 🚩 900M karakter/prompt reddedildi (K-017 emsali); 122×(4–12KiB) sözleşme.
+
+## 2026-08-04T09:41:04Z — skill ajans envanteri
+- skills=696; domains=50; titles=216; pilot_prompts=2440; ekipler=50
+- 🚩 900B karakter RED; Claude Code MASTER üretilidi.
+
+## 2026-08-04T09:41:03Z — MCP×etki×prompt motoru
+- MCP=174; tech=141; cult=116; org_roles=104; prompts_index=12688
+- 🚩 900M karakter/prompt reddedildi (K-017 emsali); 122×(4–12KiB) sözleşme.
+
+## 2026-08-04T09:40:00Z — skill ajans envanteri
+- skills=696; domains=50; titles=216; pilot_prompts=2440; ekipler=50
+- 🚩 900B karakter RED; Claude Code MASTER üretilidi.
+
+## 2026-08-04T09:40:00Z — MCP×etki×prompt motoru
+- MCP=174; tech=141; cult=116; org_roles=104; prompts_index=12688
+- 🚩 900M karakter/prompt reddedildi (K-017 emsali); 122×(4–12KiB) sözleşme.
+
+## 2026-08-04T08:44:49Z — skill ajans envanteri
+- skills=696; domains=50; titles=216; pilot_prompts=2440; ekipler=50
+- 🚩 900B karakter RED; Claude Code MASTER üretilidi.
+
+## 2026-08-04T08:44:48Z — MCP×etki×prompt motoru
+- MCP=174; tech=141; cult=116; org_roles=104; prompts_index=12688
+- 🚩 900M karakter/prompt reddedildi (K-017 emsali); 122×(4–12KiB) sözleşme.
+
+## 2026-08-04T08:43:07Z — skill ajans envanteri
+- skills=696; domains=50; titles=216; pilot_prompts=2440; ekipler=50
+- 🚩 900B karakter RED; Claude Code MASTER üretilidi.
+
+## 2026-08-04T08:43:07Z — MCP×etki×prompt motoru
+- MCP=174; tech=141; cult=116; org_roles=104; prompts_index=12688
+- 🚩 900M karakter/prompt reddedildi (K-017 emsali); 122×(4–12KiB) sözleşme.
+
+## 2026-08-03T16:03:13Z — skill ajans envanteri
+- skills=696; domains=50; titles=216; pilot_prompts=2440; ekipler=50
+- 🚩 900B karakter RED; Claude Code MASTER üretilidi.
+
+## 2026-08-03T15:49:56Z — MCP×etki×prompt motoru
+- MCP=174; tech=141; cult=116; org_roles=104; prompts_index=12688
+- 🚩 900M karakter/prompt reddedildi (K-017 emsali); 122×(4–12KiB) sözleşme.
+
 
 ## 2026-07-17T01:24:30Z — nightly run
 - Ran read->distill->produce->validate->stamp. Generation: off.
@@ -119,3 +167,46 @@
 
 ## 2026-08-04T12:51:20Z — OpenRouter saglayici baglama
 - scripts/daily_agency.py llm() OpenRouter-tercihli (OPENROUTER_API_KEY -> https://openrouter.ai/api/v1/chat/completions; OPENROUTER_MODEL varsayilan anthropic/claude-3.5-sonnet), Anthropic geri dusum. nightly.sh iki saglayiciyi taniyor. scripts/llm_smoke.py canli baglanti testi. Anahtar ortamda YOK -> kullanici Secrets panelinden ekler (chat'e yapistirilmaz).
+- [2026-08-04T08:39:12Z] holding-istirak: 8 birim · 633 rol · 957 soru · 10 ülke · 48 rol kartı · SECRETS dry-run · CLAUDE-CODE MASTER V2 · 🚩900B RED
+- [2026-08-04T08:44:48Z] MASTER-V2 UYGULANDI (Claude Code iptal): FAZ0-6 · kart=120 · 10 ülke arşiv · dry-run · IS_LISTESI · 7 transfer paket · adops push yetkisi yok → paket HQ
+## 2026-08-04T01:17:34Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-08-04T08:44:35Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-04-SEC-AUD.md); K4 Cowork oturumu taslağı doldurur.
+- [2026-08-04T08:50:51Z] title+500 soru (316500 indeks) · top100/domain (uydurma yok, pending slot) · 🚩900B RED · main merge conflict çözüldü · merge onaylı
+- [2026-08-04T08:52:35Z] PR #13 MERGED squash · 500 soru/title · top100 · 🚩900B RED · kisi uydurma yok
+
+- [2026-08-04T09:40:08Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-04-SEC-AUD.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-08-04T09:40:09Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-08-04T09:41:04Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-04-SEC-AUD.md); K4 Cowork oturumu taslağı doldurur.
+### 2026-08-04T09:41:04Z — LIVE TERMINAL
+- `scripts/live_dashboard.sh` + tmux `holding-live` (60s)
+- Tüm metrikler terminalde; watch döngüsü aktif
+
+- [2026-08-04T09:41:05Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-04-SEC-AUD.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-08-05T01:21:16Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-08-05T08:42:10Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-05-SEC-SUP.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-08-06T01:18:32Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-08-06T08:43:53Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-06-HRA-REC.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-08-07T01:59:44Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-08-07T07:22:06Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-07-HRA-PRF.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-08-08T00:42:39Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-08-08T06:59:30Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-08-HRA-LRN.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-08-09T00:44:58Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-08-09T07:02:14Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-09-LGL-LIC.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-08-10T00:47:04Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-08-10T07:48:41Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-10-LGL-PRV.md); K4 Cowork oturumu taslağı doldurur.

@@ -1,0 +1,740 @@
+{
+  "rol": "Group CFO",
+  "dept": "BOARD",
+  "adet": 122,
+  "ts": "2026-08-04T08:44:48Z",
+  "items": [
+    {
+      "id": "BOARD::group-cfo::strateji-01",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__strateji-01.md",
+      "chars": 4188,
+      "sha256": "099ca70c18cedaeec3586807d67624d73a10c1b9865215ea4d6e331fc7239f99"
+    },
+    {
+      "id": "BOARD::group-cfo::strateji-02",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__strateji-02.md",
+      "chars": 4188,
+      "sha256": "20d45705ee2de886fe878deed07bd9fd76da63e9ff72e623986d17e08e0fd0a2"
+    },
+    {
+      "id": "BOARD::group-cfo::strateji-03",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__strateji-03.md",
+      "chars": 4188,
+      "sha256": "ca983e17020ec99848202b24627d7d1962920e9b2311a3e8a396a6ee807151bd"
+    },
+    {
+      "id": "BOARD::group-cfo::strateji-04",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__strateji-04.md",
+      "chars": 4188,
+      "sha256": "830494143432cf13375b8ff1ff6c9967f20297a4b91f9110cf9208385282d658"
+    },
+    {
+      "id": "BOARD::group-cfo::strateji-05",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__strateji-05.md",
+      "chars": 4188,
+      "sha256": "889cb7626e33e3a699fc960c194a53c92f5e921b0fc153a0d0bbdf5bdaf5a82e"
+    },
+    {
+      "id": "BOARD::group-cfo::strateji-06",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__strateji-06.md",
+      "chars": 4188,
+      "sha256": "974399ab3ad864bfd28daa8b1da92b50aead7c762cd7e58dbad397a4e69b0753"
+    },
+    {
+      "id": "BOARD::group-cfo::strateji-07",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__strateji-07.md",
+      "chars": 4188,
+      "sha256": "dfb23075c87f6c0d0494cab5f33e9339f5bada312733cd5603f488b1dfa06eed"
+    },
+    {
+      "id": "BOARD::group-cfo::strateji-08",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__strateji-08.md",
+      "chars": 4188,
+      "sha256": "80579b20b1dfb9e616acaf27bf6e737ed0a377cb5f188c88b2d853835ec6f6e0"
+    },
+    {
+      "id": "BOARD::group-cfo::strateji-09",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__strateji-09.md",
+      "chars": 4188,
+      "sha256": "46a67a6e674c8e49e678f2e4ac374dc345294878dcdce0db1710acb9465d62de"
+    },
+    {
+      "id": "BOARD::group-cfo::strateji-10",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__strateji-10.md",
+      "chars": 4191,
+      "sha256": "dd53781e1005b21eec3fe35f99412515abf8b7947f6fe54e91d638093b4921f4"
+    },
+    {
+      "id": "BOARD::group-cfo::strateji-11",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__strateji-11.md",
+      "chars": 4191,
+      "sha256": "d1bcd8fa195e2f3e05af3f17dbcaee13a2c1b15682bf91de2fe2c7784d09dd15"
+    },
+    {
+      "id": "BOARD::group-cfo::strateji-12",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__strateji-12.md",
+      "chars": 4191,
+      "sha256": "86f4b096308e9ffaf2ef0002b50bcc891637ef950ac2bd87653f2a427981f342"
+    },
+    {
+      "id": "BOARD::group-cfo::strateji-13",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__strateji-13.md",
+      "chars": 4191,
+      "sha256": "b461e2baf1b07b89f27f311f99b9881729556f7014db1d3d74892279b6a73adf"
+    },
+    {
+      "id": "BOARD::group-cfo::strateji-14",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__strateji-14.md",
+      "chars": 4191,
+      "sha256": "124e024ce5de0cd143b5387f45360b1271319888db901df01bb39948f0e62903"
+    },
+    {
+      "id": "BOARD::group-cfo::strateji-15",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__strateji-15.md",
+      "chars": 4191,
+      "sha256": "30abcc57c43f2bd774a8fa8ccbeb275be776b4ce1b2a1fa05a4d7003c330119a"
+    },
+    {
+      "id": "BOARD::group-cfo::strateji-16",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__strateji-16.md",
+      "chars": 4191,
+      "sha256": "7f53106e1e06fee131a249ff2fd526a5ca4a3986ae105b8c681a8e8c07641ea2"
+    },
+    {
+      "id": "BOARD::group-cfo::strateji-17",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__strateji-17.md",
+      "chars": 4191,
+      "sha256": "31333e7c836d8d148c3916e1e8140115d8c51d00dae35d06aafdd739e66e981d"
+    },
+    {
+      "id": "BOARD::group-cfo::arastirma-01",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__arastirma-01.md",
+      "chars": 4185,
+      "sha256": "33579afc1d0dbab56ffa5e8c4fabb8d5baa82c3b8331ad5b67643ff031e4ee63"
+    },
+    {
+      "id": "BOARD::group-cfo::arastirma-02",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__arastirma-02.md",
+      "chars": 4185,
+      "sha256": "4ca53436d64e3880f336261dded415a258a7264ea32c06cba8c19398c53305fa"
+    },
+    {
+      "id": "BOARD::group-cfo::arastirma-03",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__arastirma-03.md",
+      "chars": 4185,
+      "sha256": "418171610260f974d0c5f3b03694a48ada9ed3debf14d3805aed74565c203fa4"
+    },
+    {
+      "id": "BOARD::group-cfo::arastirma-04",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__arastirma-04.md",
+      "chars": 4185,
+      "sha256": "b403e37f71539a11f8d2b74104f2af220e4ff77d66a6fcaba33b3669a0c0b0fb"
+    },
+    {
+      "id": "BOARD::group-cfo::arastirma-05",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__arastirma-05.md",
+      "chars": 4185,
+      "sha256": "0c8b9b8c73573fa997dbf2fa28ac8707838acf9f8ca90c760c3300ca51235bfe"
+    },
+    {
+      "id": "BOARD::group-cfo::arastirma-06",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__arastirma-06.md",
+      "chars": 4185,
+      "sha256": "8c8613c3127241a17dda374916a6b6859d8fde11780c31ffd81001526c27520b"
+    },
+    {
+      "id": "BOARD::group-cfo::arastirma-07",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__arastirma-07.md",
+      "chars": 4185,
+      "sha256": "1b97a98172f466f59e1c8abebe9dbe7fd0e182691942576eb8c5915692c29f55"
+    },
+    {
+      "id": "BOARD::group-cfo::arastirma-08",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__arastirma-08.md",
+      "chars": 4185,
+      "sha256": "b6147b2a3ea542e32b4bf11419a5492981828a34f3771ae419a32f391be9e047"
+    },
+    {
+      "id": "BOARD::group-cfo::arastirma-09",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__arastirma-09.md",
+      "chars": 4185,
+      "sha256": "28fb1ab2f5be08d63a68a89ba5b43062e38055573bfd442649ce69c7b6586aec"
+    },
+    {
+      "id": "BOARD::group-cfo::arastirma-10",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__arastirma-10.md",
+      "chars": 4188,
+      "sha256": "25b8e60c6174b5bdc86b71223c13737661282adaec3303c526094aee998c1673"
+    },
+    {
+      "id": "BOARD::group-cfo::arastirma-11",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__arastirma-11.md",
+      "chars": 4188,
+      "sha256": "028c51fb1ee457b487e77a956218f74faee68371d0b960f7d28b4daa733b1627"
+    },
+    {
+      "id": "BOARD::group-cfo::arastirma-12",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__arastirma-12.md",
+      "chars": 4188,
+      "sha256": "ca1170da0cdc87302c748345054f0018be44438dcecdbde57738bbce92aff6fd"
+    },
+    {
+      "id": "BOARD::group-cfo::arastirma-13",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__arastirma-13.md",
+      "chars": 4188,
+      "sha256": "8b1b01505a1197d9f4b58fad9857b85293419aec735b2b40d24cfa27e8b1e085"
+    },
+    {
+      "id": "BOARD::group-cfo::arastirma-14",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__arastirma-14.md",
+      "chars": 4188,
+      "sha256": "30609af46986c24dea3f6a6ce569ae5a2b58bb01f14f55b5a043963529ac4e55"
+    },
+    {
+      "id": "BOARD::group-cfo::arastirma-15",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__arastirma-15.md",
+      "chars": 4188,
+      "sha256": "34191f04fc9350455ab5ad1555815d3e7b9196eb5126000ede77d08f3bc8ac3c"
+    },
+    {
+      "id": "BOARD::group-cfo::arastirma-16",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__arastirma-16.md",
+      "chars": 4188,
+      "sha256": "a1d823576c39c458ae491a87bfc263211e094b5d9164fa06d5ce053c073f5ceb"
+    },
+    {
+      "id": "BOARD::group-cfo::arastirma-17",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__arastirma-17.md",
+      "chars": 4188,
+      "sha256": "ae802d7bea02af480c32e7532110ee6efdc2679551def092c59ca6815fecc2ef"
+    },
+    {
+      "id": "BOARD::group-cfo::uretim-01",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__uretim-01.md",
+      "chars": 4157,
+      "sha256": "dce2ff5c10f705abc9512c3817706d29843beaadb468c436d4b70393a893d787"
+    },
+    {
+      "id": "BOARD::group-cfo::uretim-02",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__uretim-02.md",
+      "chars": 4157,
+      "sha256": "0c7846e9797ad6958e0e633d4ef9aa735e977c0dca5ad09d658ff164566fc874"
+    },
+    {
+      "id": "BOARD::group-cfo::uretim-03",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__uretim-03.md",
+      "chars": 4157,
+      "sha256": "a93329be449dcacb3ff71cbca597ffacb8825757845f2f2dddf12fe516bd9b82"
+    },
+    {
+      "id": "BOARD::group-cfo::uretim-04",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__uretim-04.md",
+      "chars": 4157,
+      "sha256": "f391b85c4823e0ade03103a16b720a041e93ec13100c0a5980913efc8a68343b"
+    },
+    {
+      "id": "BOARD::group-cfo::uretim-05",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__uretim-05.md",
+      "chars": 4157,
+      "sha256": "b8d3f8560093fd422c2afc001128e3fe03f4ee4305877f8dd54fd6dba7b7f265"
+    },
+    {
+      "id": "BOARD::group-cfo::uretim-06",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__uretim-06.md",
+      "chars": 4157,
+      "sha256": "6f6e3fda8373d9b62749c277ebbc5f6c11017dfeaa24f0530e22a1d354e8b664"
+    },
+    {
+      "id": "BOARD::group-cfo::uretim-07",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__uretim-07.md",
+      "chars": 4157,
+      "sha256": "86f4ef5f4e2d97bf0ed674f1951bba5c9784fb32069690804d4808a50986fd3c"
+    },
+    {
+      "id": "BOARD::group-cfo::uretim-08",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__uretim-08.md",
+      "chars": 4157,
+      "sha256": "29bfba4b30b74d9b990c0a9dd3d8fed756395032ec68a746dafc8dcc6bc8e1b3"
+    },
+    {
+      "id": "BOARD::group-cfo::uretim-09",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__uretim-09.md",
+      "chars": 4157,
+      "sha256": "d24aa9af925d4b84c36e5f4a8c7e7199fa369fb5b91a8eadfb75377bddd11890"
+    },
+    {
+      "id": "BOARD::group-cfo::uretim-10",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__uretim-10.md",
+      "chars": 4160,
+      "sha256": "c6b9671ddeff4d95d9c27c30d168359af10e651195a26ec815462e01356cdd3a"
+    },
+    {
+      "id": "BOARD::group-cfo::uretim-11",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__uretim-11.md",
+      "chars": 4160,
+      "sha256": "c033babd19edac5fc07493be503846f69f5add2e721c49fd1caa35ab095fdc64"
+    },
+    {
+      "id": "BOARD::group-cfo::uretim-12",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__uretim-12.md",
+      "chars": 4160,
+      "sha256": "01c9114ed1613696c7bbc919eff4901cc5c23281d0efaf8f2f9576b659ca2bd2"
+    },
+    {
+      "id": "BOARD::group-cfo::uretim-13",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__uretim-13.md",
+      "chars": 4160,
+      "sha256": "b1249a5305f4f3316ff313e5bf0c60e7ec6c255d1485d38bfeb86ab8d1a34ded"
+    },
+    {
+      "id": "BOARD::group-cfo::uretim-14",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__uretim-14.md",
+      "chars": 4160,
+      "sha256": "33ad8673e63312abbb0aa6f4ea27cd9cbf04af1a45b7211105483e9ec22cb8f1"
+    },
+    {
+      "id": "BOARD::group-cfo::uretim-15",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__uretim-15.md",
+      "chars": 4160,
+      "sha256": "e647a38790833fe46f3a0b112d1fe63de23a1aee81ef597fe7acda53064dc0a4"
+    },
+    {
+      "id": "BOARD::group-cfo::uretim-16",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__uretim-16.md",
+      "chars": 4160,
+      "sha256": "a7207ff5e889a8b578413347b8d1852e6ee06061916a845e8cdbe15e5c117855"
+    },
+    {
+      "id": "BOARD::group-cfo::uretim-17",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__uretim-17.md",
+      "chars": 4160,
+      "sha256": "3f5557ac53e9dc4b1476b6dbfb4932ee578fe7da5d5d0fd2ea06fa1a46e2812f"
+    },
+    {
+      "id": "BOARD::group-cfo::denetim-01",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__denetim-01.md",
+      "chars": 4164,
+      "sha256": "f5aa225417b2d631278b59065fb61ffa9155a09d3e4b7c60a4fe3e92bb39e617"
+    },
+    {
+      "id": "BOARD::group-cfo::denetim-02",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__denetim-02.md",
+      "chars": 4164,
+      "sha256": "e1b80bad9cbd6129c986150e16f0e3f614128c78e55dd7d1aa5b1dc0ee9d7b36"
+    },
+    {
+      "id": "BOARD::group-cfo::denetim-03",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__denetim-03.md",
+      "chars": 4164,
+      "sha256": "94d707d7b907bc90a793368cb6401821bc10816ff390b648d05b133dc2a44b1a"
+    },
+    {
+      "id": "BOARD::group-cfo::denetim-04",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__denetim-04.md",
+      "chars": 4164,
+      "sha256": "ccc96908c58915f39ae9692d71d01363f0fd23486726495bb945d97710253a0c"
+    },
+    {
+      "id": "BOARD::group-cfo::denetim-05",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__denetim-05.md",
+      "chars": 4164,
+      "sha256": "0049b0bf388052a82495b241421359c68bbbd41fe09ec1d0540407fc2db0f2be"
+    },
+    {
+      "id": "BOARD::group-cfo::denetim-06",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__denetim-06.md",
+      "chars": 4164,
+      "sha256": "f80e3c142fa8da6434936ca2b368be773121331e50e8b1cede0bc13f977a06b6"
+    },
+    {
+      "id": "BOARD::group-cfo::denetim-07",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__denetim-07.md",
+      "chars": 4164,
+      "sha256": "a6fcc3ea30036cf2f2f13cfef2c490ebe5dfcb8121c339d934c29f6498fa7b72"
+    },
+    {
+      "id": "BOARD::group-cfo::denetim-08",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__denetim-08.md",
+      "chars": 4164,
+      "sha256": "ba1d03b05c0a2e59049298ccce44af1a634e37ba69f6590e6611d278c9bdf8b8"
+    },
+    {
+      "id": "BOARD::group-cfo::denetim-09",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__denetim-09.md",
+      "chars": 4164,
+      "sha256": "29cb3914f7f966c00ac059e8a2a205ae4eb44aa8309a700ca13243750d7538b8"
+    },
+    {
+      "id": "BOARD::group-cfo::denetim-10",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__denetim-10.md",
+      "chars": 4167,
+      "sha256": "1a8c24bd00e1fea16b3a66b1d6ee425ba93b888f357cc2c7f5b89f98ca92c905"
+    },
+    {
+      "id": "BOARD::group-cfo::denetim-11",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__denetim-11.md",
+      "chars": 4167,
+      "sha256": "2e42636d31b6b722694326e6ccd5453dee121f2e4934265e4fc40c5910a96ba1"
+    },
+    {
+      "id": "BOARD::group-cfo::denetim-12",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__denetim-12.md",
+      "chars": 4167,
+      "sha256": "4c2f1ad9a3ab7a16d4925c0567d808c3bf3feb8659b024bc42337c62bfca77f9"
+    },
+    {
+      "id": "BOARD::group-cfo::denetim-13",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__denetim-13.md",
+      "chars": 4167,
+      "sha256": "9ae90a65dffcab947f62f0c3705a6a3f4352c742b8a5c34f78a548322d9291b2"
+    },
+    {
+      "id": "BOARD::group-cfo::denetim-14",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__denetim-14.md",
+      "chars": 4167,
+      "sha256": "d45b7a34c772a3dd5aa292306b0ca497983f745a8da278a7a9a5cc90434e8b3b"
+    },
+    {
+      "id": "BOARD::group-cfo::denetim-15",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__denetim-15.md",
+      "chars": 4167,
+      "sha256": "ec693c64d82566ec0c7fd905174e0cdb1c368edcbf854160105082d7639a39e2"
+    },
+    {
+      "id": "BOARD::group-cfo::denetim-16",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__denetim-16.md",
+      "chars": 4167,
+      "sha256": "5c54454ad5f74a5d1ec9109916491b7b0e392ea708349251e8032fc6fdc52358"
+    },
+    {
+      "id": "BOARD::group-cfo::denetim-17",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__denetim-17.md",
+      "chars": 4167,
+      "sha256": "c3d5ad7d4bc9c3fdd95375148debd4835b7a5ff8702acdaf85b65ab42604566e"
+    },
+    {
+      "id": "BOARD::group-cfo::operasyon-01",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__operasyon-01.md",
+      "chars": 4186,
+      "sha256": "dae6c196a8fb36b7403042e43706e133f1688ed64f35d4f6be1cc0fcc735871a"
+    },
+    {
+      "id": "BOARD::group-cfo::operasyon-02",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__operasyon-02.md",
+      "chars": 4186,
+      "sha256": "acabcbf5311442f816a942ad65a588a5505e9c90cc708d240093f8fb79f0dab3"
+    },
+    {
+      "id": "BOARD::group-cfo::operasyon-03",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__operasyon-03.md",
+      "chars": 4186,
+      "sha256": "191475c94ef2f9e9409066a73a18f3860078605eb884bc1c4085561e27d10fd2"
+    },
+    {
+      "id": "BOARD::group-cfo::operasyon-04",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__operasyon-04.md",
+      "chars": 4186,
+      "sha256": "c847232371f0128468111db19c2cf1c585b0f321cc0acb0aa4363577010d5f46"
+    },
+    {
+      "id": "BOARD::group-cfo::operasyon-05",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__operasyon-05.md",
+      "chars": 4186,
+      "sha256": "b2bbd92eb3427e5a41a01edaa97a17d5947d4931fbae6374641654566b26aba5"
+    },
+    {
+      "id": "BOARD::group-cfo::operasyon-06",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__operasyon-06.md",
+      "chars": 4186,
+      "sha256": "c9f3d50726751aa445651e598ffa535689a8413f3e177969603a258b68589df0"
+    },
+    {
+      "id": "BOARD::group-cfo::operasyon-07",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__operasyon-07.md",
+      "chars": 4186,
+      "sha256": "17e3534d5e67c67e8fb6c0637763527e8f25db87d0ddec9e3a7596a66c9d5d5f"
+    },
+    {
+      "id": "BOARD::group-cfo::operasyon-08",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__operasyon-08.md",
+      "chars": 4186,
+      "sha256": "7de663e172c1aa28e7795a1038bea3e5f1df51c41030511e288c9a146b5933c1"
+    },
+    {
+      "id": "BOARD::group-cfo::operasyon-09",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__operasyon-09.md",
+      "chars": 4186,
+      "sha256": "f029b7d17557662b885e1bf7f69ebca9d16ac1a009ca75ec35faa047c2e8eb5e"
+    },
+    {
+      "id": "BOARD::group-cfo::operasyon-10",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__operasyon-10.md",
+      "chars": 4189,
+      "sha256": "0b5fc39b93440b34cf0985a0227536bba169ec49bac9e7063d70330a392fb996"
+    },
+    {
+      "id": "BOARD::group-cfo::operasyon-11",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__operasyon-11.md",
+      "chars": 4189,
+      "sha256": "f83c28431a0c4c6230385d9323c398244357d0ab56dae7b2475163234ecb190a"
+    },
+    {
+      "id": "BOARD::group-cfo::operasyon-12",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__operasyon-12.md",
+      "chars": 4189,
+      "sha256": "87bed37a08d88f0ba0451c5b7b1c6ec3677d5588ede998b48a454bdc3a859dbb"
+    },
+    {
+      "id": "BOARD::group-cfo::operasyon-13",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__operasyon-13.md",
+      "chars": 4189,
+      "sha256": "878eea9382876895daf68b5c7ec014a9d967f591d32403a6257fc8556e93b6f2"
+    },
+    {
+      "id": "BOARD::group-cfo::operasyon-14",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__operasyon-14.md",
+      "chars": 4189,
+      "sha256": "2b3d73d7e846f97a928f280336f7158ad7b7c3dfc94d4e401e665343284bc54c"
+    },
+    {
+      "id": "BOARD::group-cfo::operasyon-15",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__operasyon-15.md",
+      "chars": 4189,
+      "sha256": "74a5f93b17bce2a31c0be104e4cd47022c4eec6cdb907388abbe3867b6fda824"
+    },
+    {
+      "id": "BOARD::group-cfo::operasyon-16",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__operasyon-16.md",
+      "chars": 4189,
+      "sha256": "2c6e152f7c4c63199fd8d1bfdcb98f9f26ce5297a24d4d4bc0d765d57035ce73"
+    },
+    {
+      "id": "BOARD::group-cfo::operasyon-17",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__operasyon-17.md",
+      "chars": 4189,
+      "sha256": "b7eab6d12dcd4f8d29a7ae9dca51be00522616e220336367cd20ba98dac7d486"
+    },
+    {
+      "id": "BOARD::group-cfo::gelir-01",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__gelir-01.md",
+      "chars": 4139,
+      "sha256": "5eec5c3e2e7628670a043a705fd436b9e34c5f1f0419dc8e0b4108a975d2ff6f"
+    },
+    {
+      "id": "BOARD::group-cfo::gelir-02",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__gelir-02.md",
+      "chars": 4139,
+      "sha256": "4915315e98f498b5338b27d0dd88c54dca74d7e3548e5a067a21f5245bdc482c"
+    },
+    {
+      "id": "BOARD::group-cfo::gelir-03",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__gelir-03.md",
+      "chars": 4139,
+      "sha256": "930ba378603038b81b7b714f75a604e3091af645cb4ec14f286b7c17e56d83fa"
+    },
+    {
+      "id": "BOARD::group-cfo::gelir-04",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__gelir-04.md",
+      "chars": 4139,
+      "sha256": "2e048a50a5da8188b9bb1f8f251bac8db26fbef8f577b277dcc061e112bdfeb8"
+    },
+    {
+      "id": "BOARD::group-cfo::gelir-05",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__gelir-05.md",
+      "chars": 4139,
+      "sha256": "f4c610e84818359fb92274933e40646f1cdac8919778beb30687d5f8e8a8ca1d"
+    },
+    {
+      "id": "BOARD::group-cfo::gelir-06",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__gelir-06.md",
+      "chars": 4139,
+      "sha256": "33afc52b3eb7d315ec5509b6347ac69b59054fa28558a0fd62999465653ff735"
+    },
+    {
+      "id": "BOARD::group-cfo::gelir-07",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__gelir-07.md",
+      "chars": 4139,
+      "sha256": "3e706005b77a3332e800d454124c749ed53d3db1327523acc71171e9540eeda9"
+    },
+    {
+      "id": "BOARD::group-cfo::gelir-08",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__gelir-08.md",
+      "chars": 4139,
+      "sha256": "73d9d86ae4167c376bd9d413fe38c80f0569c1f6207646f5755bcb9c5e547324"
+    },
+    {
+      "id": "BOARD::group-cfo::gelir-09",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__gelir-09.md",
+      "chars": 4139,
+      "sha256": "a2cff51a2132872db841e859a10e296a5e18899def69233c4c5a25a6824f3fac"
+    },
+    {
+      "id": "BOARD::group-cfo::gelir-10",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__gelir-10.md",
+      "chars": 4142,
+      "sha256": "a7d3b927aaf14130608f9885f6c791913d585e4a62209d313673d4e8245e947e"
+    },
+    {
+      "id": "BOARD::group-cfo::gelir-11",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__gelir-11.md",
+      "chars": 4142,
+      "sha256": "47488eabc7d11e8c0d3b1521d3a0bda8a5dc142e5aafe937f3a2269bc8f2eb8a"
+    },
+    {
+      "id": "BOARD::group-cfo::gelir-12",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__gelir-12.md",
+      "chars": 4142,
+      "sha256": "80022f375b7e488f9fb5d914192c3c4067afbd096b294e56ddc019f7d1187c26"
+    },
+    {
+      "id": "BOARD::group-cfo::gelir-13",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__gelir-13.md",
+      "chars": 4142,
+      "sha256": "0029ddeceb5864afae685ee6b46b008c8c354968308b688f29996b2c93cd4d32"
+    },
+    {
+      "id": "BOARD::group-cfo::gelir-14",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__gelir-14.md",
+      "chars": 4142,
+      "sha256": "b507102b6e2a70872b617d27958ce90e8e63dcc26e74331c02c050457fedb5c4"
+    },
+    {
+      "id": "BOARD::group-cfo::gelir-15",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__gelir-15.md",
+      "chars": 4142,
+      "sha256": "cf1410e03acbb0d93ba12f44041f6a8ff7fd519238de6d2311913ce3db6bf42e"
+    },
+    {
+      "id": "BOARD::group-cfo::gelir-16",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__gelir-16.md",
+      "chars": 4142,
+      "sha256": "f927369c9e37095e60f3b10e13d892330b0f73628dec046716b0bc819406a977"
+    },
+    {
+      "id": "BOARD::group-cfo::gelir-17",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__gelir-17.md",
+      "chars": 4142,
+      "sha256": "dc49117970bc4b66b26e9198448fa07d503fa5ebd4287c6962d777b145adc81a"
+    },
+    {
+      "id": "BOARD::group-cfo::iletisim-01",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__iletisim-01.md",
+      "chars": 4178,
+      "sha256": "dd656f5f1469beee11995ad15e13c228184630a7f22e146bb459703d2de07145"
+    },
+    {
+      "id": "BOARD::group-cfo::iletisim-02",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__iletisim-02.md",
+      "chars": 4178,
+      "sha256": "780b50b81ab7128bdfaf6996b43117f211c4a1af21f7e067923601a8104172cc"
+    },
+    {
+      "id": "BOARD::group-cfo::iletisim-03",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__iletisim-03.md",
+      "chars": 4178,
+      "sha256": "849b47bd4a81de7d9806179b872c53d656d320ddba3ff80e247a320cc83aca03"
+    },
+    {
+      "id": "BOARD::group-cfo::iletisim-04",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__iletisim-04.md",
+      "chars": 4178,
+      "sha256": "78279703c0c990bd5107d73ed30f746ace076e9cd31d3d08c7ba526f2a3f2410"
+    },
+    {
+      "id": "BOARD::group-cfo::iletisim-05",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__iletisim-05.md",
+      "chars": 4178,
+      "sha256": "b8d972bac64314bc99cda374e8ba53d3eaee13eb6f4c39e824ba7b7bfe8a0696"
+    },
+    {
+      "id": "BOARD::group-cfo::iletisim-06",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__iletisim-06.md",
+      "chars": 4178,
+      "sha256": "e549a2b0af19420ac41da103bc97a407fa3e92e69f0338f319a06f18c1f1a6b4"
+    },
+    {
+      "id": "BOARD::group-cfo::iletisim-07",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__iletisim-07.md",
+      "chars": 4178,
+      "sha256": "a7b43c4e59601f8a8b61bd5b2e6827d0180b4785608ab6bc42a0bf4e2182960e"
+    },
+    {
+      "id": "BOARD::group-cfo::iletisim-08",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__iletisim-08.md",
+      "chars": 4178,
+      "sha256": "f53375da82907c5a11993593f631f87583be6ad4cac479f76d8e87b612560f25"
+    },
+    {
+      "id": "BOARD::group-cfo::iletisim-09",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__iletisim-09.md",
+      "chars": 4178,
+      "sha256": "21c89338a76aae0a4a98d230f4525fc7e0e6b7c64151bf6038c4b0e4396d855c"
+    },
+    {
+      "id": "BOARD::group-cfo::iletisim-10",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__iletisim-10.md",
+      "chars": 4181,
+      "sha256": "7fc5ec3f4a31a665bf0a6d22a3812df4f3fa4c93fe5f11fee51dd7a784683b8c"
+    },
+    {
+      "id": "BOARD::group-cfo::iletisim-11",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__iletisim-11.md",
+      "chars": 4181,
+      "sha256": "99c9c0be8488d6ad7250ca2e7275ad077ef30c45570de71bc5f4650bd185955e"
+    },
+    {
+      "id": "BOARD::group-cfo::iletisim-12",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__iletisim-12.md",
+      "chars": 4181,
+      "sha256": "640b06115c0159b046a13dec0bf97ecfe0519d4b70d08bc68c8c09817eafa0b5"
+    },
+    {
+      "id": "BOARD::group-cfo::iletisim-13",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__iletisim-13.md",
+      "chars": 4181,
+      "sha256": "4bce7bb0cb0cc70644a4d79afc634632824c1cec40498a59023f2b429cc1061c"
+    },
+    {
+      "id": "BOARD::group-cfo::iletisim-14",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__iletisim-14.md",
+      "chars": 4181,
+      "sha256": "7a61bac9ef562b861d62f31363d58a4303474410cbb47337da6ffec4ca384c6a"
+    },
+    {
+      "id": "BOARD::group-cfo::iletisim-15",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__iletisim-15.md",
+      "chars": 4181,
+      "sha256": "7c554c7cc2174222f6a9d94080bbb0f3696f181dbbd2981f0aadc0a58890ee04"
+    },
+    {
+      "id": "BOARD::group-cfo::iletisim-16",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__iletisim-16.md",
+      "chars": 4181,
+      "sha256": "0e01fba79da3337d0ba6d2cae17445e63ee6d4dbda6f67c1e26dc2b3228a6139"
+    },
+    {
+      "id": "BOARD::group-cfo::iletisim-17",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__iletisim-17.md",
+      "chars": 4181,
+      "sha256": "0c44ac445c11dab424326e55acf0769d2f8de0708887732a10c1b59c24816b36"
+    },
+    {
+      "id": "BOARD::group-cfo::ozel-01",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__ozel-01.md",
+      "chars": 4130,
+      "sha256": "57389f1d75cb49523c927ba1a2e701bf28446dae65aff9b23289b2723011f644"
+    },
+    {
+      "id": "BOARD::group-cfo::ozel-02",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__ozel-02.md",
+      "chars": 4142,
+      "sha256": "55b4fc3f291504547498255f0cee39c15f961ce8d20d98fb3e101e60db98675d"
+    },
+    {
+      "id": "BOARD::group-cfo::ozel-03",
+      "path": "uretim/promptlar/BOARD/group-cfo/BOARD__group-cfo__ozel-03.md",
+      "chars": 4114,
+      "sha256": "c27b12426a5a42180dfe7e02dc3a50e197c8815fb3da1958caf82ddfe134b310"
+    }
+  ]
+}

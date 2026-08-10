@@ -1,0 +1,1363 @@
+{
+  "ts": "2026-08-04T08:44:48Z",
+  "hiyerarsi": [
+    "KURUL (Chairman)",
+    "C-OFİS (Group CEO/COO)",
+    "C-LEVEL (CTO/CAIO/CDO/...)",
+    "DOMAIN-YÖNETİM (46 dept)",
+    "YÖNETİM / IC / GM-OFİSİ / WORKER"
+  ],
+  "board": [
+    {
+      "rol": "Chairman / Sahip",
+      "slug": "owner",
+      "katman": "KURUL",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Group CEO",
+      "slug": "group-ceo",
+      "katman": "C-OFİS",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Group COO",
+      "slug": "group-coo",
+      "katman": "C-OFİS",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Group CTO",
+      "slug": "group-cto",
+      "katman": "C-LEVEL",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Group CFO",
+      "slug": "group-cfo",
+      "katman": "C-LEVEL",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Group CCO",
+      "slug": "group-cco",
+      "katman": "C-LEVEL",
+      "prompt_adet": 122
+    }
+  ],
+  "c_levels": [
+    {
+      "kod": "CTO",
+      "katman": "C-LEVEL",
+      "rapor": "Group CEO",
+      "departmanlar": [
+        "ENG-PLT",
+        "ENG-APP",
+        "ENG-DEV",
+        "ENG-QA"
+      ]
+    },
+    {
+      "kod": "CAIO",
+      "katman": "C-LEVEL",
+      "rapor": "Group CEO",
+      "departmanlar": [
+        "AI-RES",
+        "AI-AGT",
+        "AI-PRM",
+        "AI-SAF"
+      ]
+    },
+    {
+      "kod": "CDO",
+      "katman": "C-LEVEL",
+      "rapor": "Group CEO",
+      "departmanlar": [
+        "DAT-ENG",
+        "DAT-SCI",
+        "DAT-BI"
+      ]
+    },
+    {
+      "kod": "CPO",
+      "katman": "C-LEVEL",
+      "rapor": "Group CEO",
+      "departmanlar": [
+        "PRD-MGT",
+        "PRD-DSN",
+        "PRD-OPS"
+      ]
+    },
+    {
+      "kod": "CMO",
+      "katman": "C-LEVEL",
+      "rapor": "Group CEO",
+      "departmanlar": [
+        "MKT-BRD",
+        "MKT-PRF",
+        "MKT-SEO",
+        "MKT-SOC"
+      ]
+    },
+    {
+      "kod": "CRO",
+      "katman": "C-LEVEL",
+      "rapor": "Group CEO",
+      "departmanlar": [
+        "REV-SLS",
+        "REV-PRT",
+        "REV-CSM",
+        "REV-OPS"
+      ]
+    },
+    {
+      "kod": "CCO",
+      "katman": "C-LEVEL",
+      "rapor": "Group CEO",
+      "departmanlar": [
+        "MED-PUB",
+        "MED-CRE",
+        "MED-LOC"
+      ]
+    },
+    {
+      "kod": "COO",
+      "katman": "C-LEVEL",
+      "rapor": "Group CEO",
+      "departmanlar": [
+        "OPS-PMO",
+        "OPS-BIZ",
+        "OPS-TLS"
+      ]
+    },
+    {
+      "kod": "CFO",
+      "katman": "C-LEVEL",
+      "rapor": "Group CEO",
+      "departmanlar": [
+        "FIN-FPA",
+        "FIN-ACC",
+        "FIN-REV"
+      ]
+    },
+    {
+      "kod": "CISO",
+      "katman": "C-LEVEL",
+      "rapor": "Group CEO",
+      "departmanlar": [
+        "SEC-OPS",
+        "SEC-AUD",
+        "SEC-SUP"
+      ]
+    },
+    {
+      "kod": "CHRO",
+      "katman": "C-LEVEL",
+      "rapor": "Group CEO",
+      "departmanlar": [
+        "HRA-REC",
+        "HRA-PRF",
+        "HRA-LRN"
+      ]
+    },
+    {
+      "kod": "CLO",
+      "katman": "C-LEVEL",
+      "rapor": "Group CEO",
+      "departmanlar": [
+        "LGL-LIC",
+        "LGL-PRV"
+      ]
+    },
+    {
+      "kod": "CIO",
+      "katman": "C-LEVEL",
+      "rapor": "Group CEO",
+      "departmanlar": [
+        "INF-MCP",
+        "INF-SET",
+        "INF-HKS",
+        "INF-LOP"
+      ]
+    },
+    {
+      "kod": "CSO",
+      "katman": "C-LEVEL",
+      "rapor": "Group CEO",
+      "departmanlar": [
+        "STR-INT",
+        "STR-CMP",
+        "STR-GRW"
+      ]
+    }
+  ],
+  "departmanlar": [
+    {
+      "kod": "ENG-PLT",
+      "ad": "Platform Mühendisliği",
+      "baskan": "CTO",
+      "katman": "DOMAIN-YÖNETİM",
+      "roller": [
+        "Platform Mühendisi",
+        "Altyapı Mühendisi",
+        "API Mühendisi"
+      ]
+    },
+    {
+      "kod": "ENG-APP",
+      "ad": "Uygulama Geliştirme",
+      "baskan": "CTO",
+      "katman": "DOMAIN-YÖNETİM",
+      "roller": [
+        "Backend Mühendisi",
+        "Frontend Mühendisi",
+        "Mobil Mühendisi"
+      ]
+    },
+    {
+      "kod": "ENG-DEV",
+      "ad": "DevOps & SRE",
+      "baskan": "CTO",
+      "katman": "DOMAIN-YÖNETİM",
+      "roller": [
+        "DevOps Mühendisi",
+        "Site Güvenilirlik Mühendisi (SRE)"
+      ]
+    },
+    {
+      "kod": "ENG-QA",
+      "ad": "Kalite & Test",
+      "baskan": "CTO",
+      "katman": "DOMAIN-YÖNETİM",
+      "roller": [
+        "Test Otomasyon Mühendisi",
+        "QA Analisti"
+      ]
+    },
+    {
+      "kod": "AI-RES",
+      "ad": "AI Araştırma",
+      "baskan": "CAIO",
+      "katman": "DOMAIN-YÖNETİM",
+      "roller": [
+        "AI Araştırmacısı",
+        "Model Değerlendirme Uzmanı (Evals)"
+      ]
+    },
+    {
+      "kod": "AI-AGT",
+      "ad": "Ajan Mühendisliği",
+      "baskan": "CAIO",
+      "katman": "DOMAIN-YÖNETİM",
+      "roller": [
+        "Ajan Mühendisi",
+        "Orkestrasyon Mühendisi",
+        "Araç (Tool) Entegrasyon Mühendisi"
+      ]
+    },
+    {
+      "kod": "AI-PRM",
+      "ad": "Prompt & Context Mühendisliği",
+      "baskan": "CAIO",
+      "katman": "DOMAIN-YÖNETİM",
+      "roller": [
+        "Prompt Mühendisi",
+        "Context Mühendisi"
+      ]
+    },
+    {
+      "kod": "AI-SAF",
+      "ad": "AI Güvenliği & Hizalama",
+      "baskan": "CAIO",
+      "katman": "DOMAIN-YÖNETİM",
+      "roller": [
+        "Hizalama Uzmanı",
+        "Red-Team Uzmanı"
+      ]
+    },
+    {
+      "kod": "DAT-ENG",
+      "ad": "Veri Mühendisliği",
+      "baskan": "CDO",
+      "katman": "DOMAIN-YÖNETİM",
+      "roller": [
+        "Veri Mühendisi",
+        "Veri Boru Hattı Mühendisi"
+      ]
+    },
+    {
+      "kod": "DAT-SCI",
+      "ad": "Veri Bilimi",
+      "baskan": "CDO",
+      "katman": "DOMAIN-YÖNETİM",
+      "roller": [
+        "Veri Bilimci",
+        "Makine Öğrenmesi Mühendisi"
+      ]
+    },
+    {
+      "kod": "DAT-BI",
+      "ad": "Analitik & BI",
+      "baskan": "CDO",
+      "katman": "DOMAIN-YÖNETİM",
+      "roller": [
+        "BI Analisti",
+        "Veri Görselleştirme Uzmanı"
+      ]
+    },
+    {
+      "kod": "PRD-MGT",
+      "ad": "Ürün Yönetimi",
+      "baskan": "CPO",
+      "katman": "DOMAIN-YÖNETİM",
+      "roller": [
+        "Ürün Yöneticisi",
+        "Teknik Ürün Yöneticisi"
+      ]
+    },
+    {
+      "kod": "PRD-DSN",
+      "ad": "Tasarım",
+      "baskan": "CPO",
+      "katman": "DOMAIN-YÖNETİM",
+      "roller": [
+        "Ürün Tasarımcısı (UX)",
+        "Arayüz Tasarımcısı (UI)",
+        "Tasarım Sistemi Uzmanı"
+      ]
+    },
+    {
+      "kod": "PRD-OPS",
+      "ad": "Ürün Operasyonları",
+      "baskan": "CPO",
+      "katman": "DOMAIN-YÖNETİM",
+      "roller": [
+        "Ürün Operasyon Uzmanı",
+        "Kullanıcı Araştırmacısı"
+      ]
+    },
+    {
+      "kod": "MKT-BRD",
+      "ad": "Marka & İçerik",
+      "baskan": "CMO",
+      "katman": "DOMAIN-YÖNETİM",
+      "roller": [
+        "Marka Stratejisti",
+        "İçerik Pazarlama Uzmanı"
+      ]
+    },
+    {
+      "kod": "MKT-PRF",
+      "ad": "Performans Pazarlama (AdOps)",
+      "baskan": "CMO",
+      "katman": "DOMAIN-YÖNETİM",
+      "roller": [
+        "Performans Pazarlama Uzmanı",
+        "Medya Satın Alma Uzmanı",
+        "Atıf (Attribution) Analisti"
+      ]
+    },
+    {
+      "kod": "MKT-SEO",
+      "ad": "SEO & Organik Büyüme",
+      "baskan": "CMO",
+      "katman": "DOMAIN-YÖNETİM",
+      "roller": [
+        "SEO Uzmanı",
+        "İçerik Optimizasyon Uzmanı"
+      ]
+    },
+    {
+      "kod": "MKT-SOC",
+      "ad": "Sosyal Medya",
+      "baskan": "CMO",
+      "katman": "DOMAIN-YÖNETİM",
+      "roller": [
+        "Sosyal Medya Yöneticisi",
+        "Topluluk Yöneticisi"
+      ]
+    },
+    {
+      "kod": "REV-SLS",
+      "ad": "Satış",
+      "baskan": "CRO",
+      "katman": "DOMAIN-YÖNETİM",
+      "roller": [
+        "Satış Temsilcisi (AE)",
+        "Satış Geliştirme Temsilcisi (SDR)"
+      ]
+    },
+    {
+      "kod": "REV-PRT",
+      "ad": "İş Ortaklıkları",
+      "baskan": "CRO",
+      "katman": "DOMAIN-YÖNETİM",
+      "roller": [
+        "Ortaklık Yöneticisi",
+        "Sponsorluk Geliştirme Uzmanı"
+      ]
+    },
+    {
+      "kod": "REV-CSM",
+      "ad": "Müşteri Başarısı",
+      "baskan": "CRO",
+      "katman": "DOMAIN-YÖNETİM",
+      "roller": [
+        "Müşteri Başarı Yöneticisi",
+        "Onboarding Uzmanı"
+      ]
+    },
+    {
+      "kod": "REV-OPS",
+      "ad": "Gelir Operasyonları",
+      "baskan": "CRO",
+      "katman": "DOMAIN-YÖNETİM",
+      "roller": [
+        "RevOps Analisti",
+        "CRM Uzmanı"
+      ]
+    },
+    {
+      "kod": "MED-PUB",
+      "ad": "Yayıncılık & Makale",
+      "baskan": "CCO",
+      "katman": "DOMAIN-YÖNETİM",
+      "roller": [
+        "Teknik Yazar",
+        "Editör",
+        "Araştırma Yazarı"
+      ]
+    },
+    {
+      "kod": "MED-CRE",
+      "ad": "Video & Kreatif",
+      "baskan": "CCO",
+      "katman": "DOMAIN-YÖNETİM",
+      "roller": [
+        "Video Editörü",
+        "Grafik Tasarımcısı"
+      ]
+    },
+    {
+      "kod": "MED-LOC",
+      "ad": "Yerelleştirme (TR)",
+      "baskan": "CCO",
+      "katman": "DOMAIN-YÖNETİM",
+      "roller": [
+        "Yerelleştirme Uzmanı",
+        "Çevirmen-Editör"
+      ]
+    },
+    {
+      "kod": "OPS-PMO",
+      "ad": "Program Yönetimi (PMO)",
+      "baskan": "COO",
+      "katman": "DOMAIN-YÖNETİM",
+      "roller": [
+        "Program Yöneticisi",
+        "Proje Koordinatörü"
+      ]
+    },
+    {
+      "kod": "OPS-BIZ",
+      "ad": "İş Operasyonları",
+      "baskan": "COO",
+      "katman": "DOMAIN-YÖNETİM",
+      "roller": [
+        "İş Operasyon Analisti",
+        "Süreç İyileştirme Uzmanı"
+      ]
+    },
+    {
+      "kod": "OPS-TLS",
+      "ad": "Araç & Tedarik",
+      "baskan": "COO",
+      "katman": "DOMAIN-YÖNETİM",
+      "roller": [
+        "Araç Yönetim Uzmanı",
+        "Tedarik Analisti"
+      ]
+    },
+    {
+      "kod": "FIN-FPA",
+      "ad": "Finansal Planlama (FP&A)",
+      "baskan": "CFO",
+      "katman": "DOMAIN-YÖNETİM",
+      "roller": [
+        "FP&A Analisti",
+        "Bütçe Uzmanı"
+      ]
+    },
+    {
+      "kod": "FIN-ACC",
+      "ad": "Muhasebe & Raporlama",
+      "baskan": "CFO",
+      "katman": "DOMAIN-YÖNETİM",
+      "roller": [
+        "Muhasebe Uzmanı",
+        "Finansal Raporlama Analisti"
+      ]
+    },
+    {
+      "kod": "FIN-REV",
+      "ad": "Gelir Motoru İzleme",
+      "baskan": "CFO",
+      "katman": "DOMAIN-YÖNETİM",
+      "roller": [
+        "Gelir Analisti",
+        "Monetizasyon Uzmanı"
+      ]
+    },
+    {
+      "kod": "SEC-OPS",
+      "ad": "Güvenlik Operasyonları",
+      "baskan": "CISO",
+      "katman": "DOMAIN-YÖNETİM",
+      "roller": [
+        "Güvenlik Operasyon Analisti",
+        "Olay Müdahale Uzmanı"
+      ]
+    },
+    {
+      "kod": "SEC-AUD",
+      "ad": "Uyum Denetimi (5 Kural)",
+      "baskan": "CISO",
+      "katman": "DOMAIN-YÖNETİM",
+      "roller": [
+        "Denetçi (Auditor)",
+        "Bileşen Güvenlik İnceleme Uzmanı"
+      ]
+    },
+    {
+      "kod": "SEC-SUP",
+      "ad": "Tedarik Zinciri Güvenliği",
+      "baskan": "CISO",
+      "katman": "DOMAIN-YÖNETİM",
+      "roller": [
+        "Tedarik Zinciri Güvenlik Analisti",
+        "Bağımlılık İzleme Uzmanı"
+      ]
+    },
+    {
+      "kod": "HRA-REC",
+      "ad": "Ajan İşe Alım",
+      "baskan": "CHRO",
+      "katman": "DOMAIN-YÖNETİM",
+      "roller": [
+        "Ajan İşe Alım Uzmanı",
+        "Yetenek Haritalama Analisti"
+      ]
+    },
+    {
+      "kod": "HRA-PRF",
+      "ad": "Performans & Kalite",
+      "baskan": "CHRO",
+      "katman": "DOMAIN-YÖNETİM",
+      "roller": [
+        "Performans Değerlendirme Uzmanı",
+        "Kalite Güvence Analisti"
+      ]
+    },
+    {
+      "kod": "HRA-LRN",
+      "ad": "Eğitim & Bilgi Tabanı",
+      "baskan": "CHRO",
+      "katman": "DOMAIN-YÖNETİM",
+      "roller": [
+        "Bilgi Tabanı Küratörü",
+        "Öğrenim Damıtma Uzmanı"
+      ]
+    },
+    {
+      "kod": "LGL-LIC",
+      "ad": "Lisans Uyumu (MIT)",
+      "baskan": "CLO",
+      "katman": "DOMAIN-YÖNETİM",
+      "roller": [
+        "Lisans Uyum Uzmanı",
+        "Atıf (Attribution) Denetçisi"
+      ]
+    },
+    {
+      "kod": "LGL-PRV",
+      "ad": "Veri Gizliliği",
+      "baskan": "CLO",
+      "katman": "DOMAIN-YÖNETİM",
+      "roller": [
+        "Gizlilik Uzmanı (KVKK/GDPR)",
+        "Veri Sınıflandırma Analisti"
+      ]
+    },
+    {
+      "kod": "INF-MCP",
+      "ad": "MCP Entegrasyonları",
+      "baskan": "CIO",
+      "katman": "DOMAIN-YÖNETİM",
+      "roller": [
+        "MCP Entegrasyon Mühendisi",
+        "Bağlayıcı (Connector) Uzmanı"
+      ]
+    },
+    {
+      "kod": "INF-SET",
+      "ad": "Ayar & Yapılandırma",
+      "baskan": "CIO",
+      "katman": "DOMAIN-YÖNETİM",
+      "roller": [
+        "Yapılandırma Yöneticisi",
+        "Ortam (Environment) Uzmanı"
+      ]
+    },
+    {
+      "kod": "INF-HKS",
+      "ad": "Hooks & Otomasyon",
+      "baskan": "CIO",
+      "katman": "DOMAIN-YÖNETİM",
+      "roller": [
+        "Hook Geliştirici",
+        "Otomasyon Mühendisi"
+      ]
+    },
+    {
+      "kod": "INF-LOP",
+      "ad": "Döngüler & Zamanlama",
+      "baskan": "CIO",
+      "katman": "DOMAIN-YÖNETİM",
+      "roller": [
+        "Döngü Operatörü",
+        "Zamanlama (Scheduler) Uzmanı"
+      ]
+    },
+    {
+      "kod": "STR-INT",
+      "ad": "Pazar İstihbaratı",
+      "baskan": "CSO",
+      "katman": "DOMAIN-YÖNETİM",
+      "roller": [
+        "Pazar İstihbarat Analisti",
+        "Trend Araştırmacısı"
+      ]
+    },
+    {
+      "kod": "STR-CMP",
+      "ad": "Rakip Analizi",
+      "baskan": "CSO",
+      "katman": "DOMAIN-YÖNETİM",
+      "roller": [
+        "Rakip Analiz Uzmanı",
+        "Kıyaslama (Benchmark) Analisti"
+      ]
+    },
+    {
+      "kod": "STR-GRW",
+      "ad": "Büyüme & Yatırım",
+      "baskan": "CSO",
+      "katman": "DOMAIN-YÖNETİM",
+      "roller": [
+        "Büyüme Stratejisti",
+        "Yatırım Analisti"
+      ]
+    }
+  ],
+  "roller": [
+    {
+      "rol": "Platform Mühendisi",
+      "dept": "ENG-PLT",
+      "baskan": "CTO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Altyapı Mühendisi",
+      "dept": "ENG-PLT",
+      "baskan": "CTO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "API Mühendisi",
+      "dept": "ENG-PLT",
+      "baskan": "CTO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Backend Mühendisi",
+      "dept": "ENG-APP",
+      "baskan": "CTO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Frontend Mühendisi",
+      "dept": "ENG-APP",
+      "baskan": "CTO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Mobil Mühendisi",
+      "dept": "ENG-APP",
+      "baskan": "CTO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "DevOps Mühendisi",
+      "dept": "ENG-DEV",
+      "baskan": "CTO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Site Güvenilirlik Mühendisi (SRE)",
+      "dept": "ENG-DEV",
+      "baskan": "CTO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Test Otomasyon Mühendisi",
+      "dept": "ENG-QA",
+      "baskan": "CTO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "QA Analisti",
+      "dept": "ENG-QA",
+      "baskan": "CTO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "AI Araştırmacısı",
+      "dept": "AI-RES",
+      "baskan": "CAIO",
+      "katman": "YÖNETİM",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Model Değerlendirme Uzmanı (Evals)",
+      "dept": "AI-RES",
+      "baskan": "CAIO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Ajan Mühendisi",
+      "dept": "AI-AGT",
+      "baskan": "CAIO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Orkestrasyon Mühendisi",
+      "dept": "AI-AGT",
+      "baskan": "CAIO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Araç (Tool) Entegrasyon Mühendisi",
+      "dept": "AI-AGT",
+      "baskan": "CAIO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Prompt Mühendisi",
+      "dept": "AI-PRM",
+      "baskan": "CAIO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Context Mühendisi",
+      "dept": "AI-PRM",
+      "baskan": "CAIO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Hizalama Uzmanı",
+      "dept": "AI-SAF",
+      "baskan": "CAIO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Red-Team Uzmanı",
+      "dept": "AI-SAF",
+      "baskan": "CAIO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Veri Mühendisi",
+      "dept": "DAT-ENG",
+      "baskan": "CDO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Veri Boru Hattı Mühendisi",
+      "dept": "DAT-ENG",
+      "baskan": "CDO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Veri Bilimci",
+      "dept": "DAT-SCI",
+      "baskan": "CDO",
+      "katman": "YÖNETİM",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Makine Öğrenmesi Mühendisi",
+      "dept": "DAT-SCI",
+      "baskan": "CDO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "BI Analisti",
+      "dept": "DAT-BI",
+      "baskan": "CDO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Veri Görselleştirme Uzmanı",
+      "dept": "DAT-BI",
+      "baskan": "CDO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Ürün Yöneticisi",
+      "dept": "PRD-MGT",
+      "baskan": "CPO",
+      "katman": "YÖNETİM",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Teknik Ürün Yöneticisi",
+      "dept": "PRD-MGT",
+      "baskan": "CPO",
+      "katman": "YÖNETİM",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Ürün Tasarımcısı (UX)",
+      "dept": "PRD-DSN",
+      "baskan": "CPO",
+      "katman": "YÖNETİM",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Arayüz Tasarımcısı (UI)",
+      "dept": "PRD-DSN",
+      "baskan": "CPO",
+      "katman": "YÖNETİM",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Tasarım Sistemi Uzmanı",
+      "dept": "PRD-DSN",
+      "baskan": "CPO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Ürün Operasyon Uzmanı",
+      "dept": "PRD-OPS",
+      "baskan": "CPO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Kullanıcı Araştırmacısı",
+      "dept": "PRD-OPS",
+      "baskan": "CPO",
+      "katman": "YÖNETİM",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Marka Stratejisti",
+      "dept": "MKT-BRD",
+      "baskan": "CMO",
+      "katman": "YÖNETİM",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "İçerik Pazarlama Uzmanı",
+      "dept": "MKT-BRD",
+      "baskan": "CMO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Performans Pazarlama Uzmanı",
+      "dept": "MKT-PRF",
+      "baskan": "CMO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Medya Satın Alma Uzmanı",
+      "dept": "MKT-PRF",
+      "baskan": "CMO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Atıf (Attribution) Analisti",
+      "dept": "MKT-PRF",
+      "baskan": "CMO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "SEO Uzmanı",
+      "dept": "MKT-SEO",
+      "baskan": "CMO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "İçerik Optimizasyon Uzmanı",
+      "dept": "MKT-SEO",
+      "baskan": "CMO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Sosyal Medya Yöneticisi",
+      "dept": "MKT-SOC",
+      "baskan": "CMO",
+      "katman": "YÖNETİM",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Topluluk Yöneticisi",
+      "dept": "MKT-SOC",
+      "baskan": "CMO",
+      "katman": "YÖNETİM",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Satış Temsilcisi (AE)",
+      "dept": "REV-SLS",
+      "baskan": "CRO",
+      "katman": "YÖNETİM",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Satış Geliştirme Temsilcisi (SDR)",
+      "dept": "REV-SLS",
+      "baskan": "CRO",
+      "katman": "YÖNETİM",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Ortaklık Yöneticisi",
+      "dept": "REV-PRT",
+      "baskan": "CRO",
+      "katman": "YÖNETİM",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Sponsorluk Geliştirme Uzmanı",
+      "dept": "REV-PRT",
+      "baskan": "CRO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Müşteri Başarı Yöneticisi",
+      "dept": "REV-CSM",
+      "baskan": "CRO",
+      "katman": "YÖNETİM",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Onboarding Uzmanı",
+      "dept": "REV-CSM",
+      "baskan": "CRO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "RevOps Analisti",
+      "dept": "REV-OPS",
+      "baskan": "CRO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "CRM Uzmanı",
+      "dept": "REV-OPS",
+      "baskan": "CRO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Teknik Yazar",
+      "dept": "MED-PUB",
+      "baskan": "CCO",
+      "katman": "YÖNETİM",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Editör",
+      "dept": "MED-PUB",
+      "baskan": "CCO",
+      "katman": "YÖNETİM",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Araştırma Yazarı",
+      "dept": "MED-PUB",
+      "baskan": "CCO",
+      "katman": "YÖNETİM",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Video Editörü",
+      "dept": "MED-CRE",
+      "baskan": "CCO",
+      "katman": "YÖNETİM",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Grafik Tasarımcısı",
+      "dept": "MED-CRE",
+      "baskan": "CCO",
+      "katman": "YÖNETİM",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Yerelleştirme Uzmanı",
+      "dept": "MED-LOC",
+      "baskan": "CCO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Çevirmen-Editör",
+      "dept": "MED-LOC",
+      "baskan": "CCO",
+      "katman": "YÖNETİM",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Program Yöneticisi",
+      "dept": "OPS-PMO",
+      "baskan": "COO",
+      "katman": "YÖNETİM",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Proje Koordinatörü",
+      "dept": "OPS-PMO",
+      "baskan": "COO",
+      "katman": "YÖNETİM",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "İş Operasyon Analisti",
+      "dept": "OPS-BIZ",
+      "baskan": "COO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Süreç İyileştirme Uzmanı",
+      "dept": "OPS-BIZ",
+      "baskan": "COO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Araç Yönetim Uzmanı",
+      "dept": "OPS-TLS",
+      "baskan": "COO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Tedarik Analisti",
+      "dept": "OPS-TLS",
+      "baskan": "COO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "FP&A Analisti",
+      "dept": "FIN-FPA",
+      "baskan": "CFO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Bütçe Uzmanı",
+      "dept": "FIN-FPA",
+      "baskan": "CFO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Muhasebe Uzmanı",
+      "dept": "FIN-ACC",
+      "baskan": "CFO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Finansal Raporlama Analisti",
+      "dept": "FIN-ACC",
+      "baskan": "CFO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Gelir Analisti",
+      "dept": "FIN-REV",
+      "baskan": "CFO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Monetizasyon Uzmanı",
+      "dept": "FIN-REV",
+      "baskan": "CFO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Güvenlik Operasyon Analisti",
+      "dept": "SEC-OPS",
+      "baskan": "CISO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Olay Müdahale Uzmanı",
+      "dept": "SEC-OPS",
+      "baskan": "CISO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Denetçi (Auditor)",
+      "dept": "SEC-AUD",
+      "baskan": "CISO",
+      "katman": "YÖNETİM",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Bileşen Güvenlik İnceleme Uzmanı",
+      "dept": "SEC-AUD",
+      "baskan": "CISO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Tedarik Zinciri Güvenlik Analisti",
+      "dept": "SEC-SUP",
+      "baskan": "CISO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Bağımlılık İzleme Uzmanı",
+      "dept": "SEC-SUP",
+      "baskan": "CISO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Ajan İşe Alım Uzmanı",
+      "dept": "HRA-REC",
+      "baskan": "CHRO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Yetenek Haritalama Analisti",
+      "dept": "HRA-REC",
+      "baskan": "CHRO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Performans Değerlendirme Uzmanı",
+      "dept": "HRA-PRF",
+      "baskan": "CHRO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Kalite Güvence Analisti",
+      "dept": "HRA-PRF",
+      "baskan": "CHRO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Bilgi Tabanı Küratörü",
+      "dept": "HRA-LRN",
+      "baskan": "CHRO",
+      "katman": "YÖNETİM",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Öğrenim Damıtma Uzmanı",
+      "dept": "HRA-LRN",
+      "baskan": "CHRO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Lisans Uyum Uzmanı",
+      "dept": "LGL-LIC",
+      "baskan": "CLO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Atıf (Attribution) Denetçisi",
+      "dept": "LGL-LIC",
+      "baskan": "CLO",
+      "katman": "YÖNETİM",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Gizlilik Uzmanı (KVKK/GDPR)",
+      "dept": "LGL-PRV",
+      "baskan": "CLO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Veri Sınıflandırma Analisti",
+      "dept": "LGL-PRV",
+      "baskan": "CLO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "MCP Entegrasyon Mühendisi",
+      "dept": "INF-MCP",
+      "baskan": "CIO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Bağlayıcı (Connector) Uzmanı",
+      "dept": "INF-MCP",
+      "baskan": "CIO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Yapılandırma Yöneticisi",
+      "dept": "INF-SET",
+      "baskan": "CIO",
+      "katman": "YÖNETİM",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Ortam (Environment) Uzmanı",
+      "dept": "INF-SET",
+      "baskan": "CIO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Hook Geliştirici",
+      "dept": "INF-HKS",
+      "baskan": "CIO",
+      "katman": "YÖNETİM",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Otomasyon Mühendisi",
+      "dept": "INF-HKS",
+      "baskan": "CIO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Döngü Operatörü",
+      "dept": "INF-LOP",
+      "baskan": "CIO",
+      "katman": "YÖNETİM",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Zamanlama (Scheduler) Uzmanı",
+      "dept": "INF-LOP",
+      "baskan": "CIO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Pazar İstihbarat Analisti",
+      "dept": "STR-INT",
+      "baskan": "CSO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Trend Araştırmacısı",
+      "dept": "STR-INT",
+      "baskan": "CSO",
+      "katman": "YÖNETİM",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Rakip Analiz Uzmanı",
+      "dept": "STR-CMP",
+      "baskan": "CSO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Kıyaslama (Benchmark) Analisti",
+      "dept": "STR-CMP",
+      "baskan": "CSO",
+      "katman": "IC",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Büyüme Stratejisti",
+      "dept": "STR-GRW",
+      "baskan": "CSO",
+      "katman": "YÖNETİM",
+      "prompt_adet": 122
+    },
+    {
+      "rol": "Yatırım Analisti",
+      "dept": "STR-GRW",
+      "baskan": "CSO",
+      "katman": "IC",
+      "prompt_adet": 122
+    }
+  ],
+  "ozet": {
+    "c_level": 14,
+    "departman": 46,
+    "rol": 98,
+    "board": 6,
+    "prompt_toplam_hedef": 12688
+  },
+  "flag": {
+    "istek": "900000000 karakter/prompt",
+    "karar": "REDDEDILDI",
+    "neden": "LLM bağlam + depo boyutu + anlamsız dolgu",
+    "esdeger": "122 yapılandırılmış prompt/rol · 4000-12000 karakter · referans zinciri"
+  }
+}
