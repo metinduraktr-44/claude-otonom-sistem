@@ -195,3 +195,8 @@
 ### 2026-08-10T10:13:01Z — DOMAIN OBS PIPELINE
 - uploads/*.docx → Domain 1-7 matrix + OTel K8s + TF alerts + CI
 - 🚩900M RED · terraform apply secret gerektirir (dry-run CI)
+
+### 2026-08-10T12:34:26Z — GEMINI LIVE
+- scripts/gemini_client.py · daily_agency LLM öncelik Gemini
+- Smoke LIVE (gemini-flash-latest) · key yalnızca .env (gitignore)
+- 🚩 Key chat'te ifşa → rotate önerilir: https://aistudio.google.com/apikey
