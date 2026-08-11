@@ -1,5 +1,5 @@
 # HOLDING KONSOLİDE RAPOR — metinduraktr-44 Portföyü
-> Üretim: 2026-08-10T08:40:46Z · Kaynak: data/holding.json · Mod: CANLI (API)
+> Üretim: 2026-08-11T08:10:54Z · Kaynak: data/holding.json · Mod: CANLI (API)
 
 ## Kurul
 | Rol | Görev |
@@ -14,8 +14,8 @@
 ## İş Birimleri
 | Birim | Repo | Segment | Alan | Gelir | Son commit | Açık issue |
 |---|---|---|---|---|---|---|
-| Holding HQ / OS | claude-otonom-sistem | os | Ortak standart, gözetim, jeneratörler | — | 2026-08-10 | 7 |
-| AdOps Agency | adops-agents | agency | Performans pazarlama & programatik | ✓ | 2026-08-10 | 608 |
+| Holding HQ / OS | claude-otonom-sistem | os | Ortak standart, gözetim, jeneratörler | — | 2026-08-11 | 8 |
+| AdOps Agency | adops-agents | agency | Performans pazarlama & programatik | ✓ | 2026-08-11 | 608 |
 | Tahmin Uzmanı | a-agency-tahmin-uzman- | agency | Spor/finans/danışmanlık forecast | ✓ | — | — |
 | Performer | performer-growth-hub | agency | Uygulama büyüme / app growth | ✓ | — | — |
 | Movéa (M-AIOS) | or-na.com | brand | Premium medikal scrubs DTC | ✓ | — | — |
