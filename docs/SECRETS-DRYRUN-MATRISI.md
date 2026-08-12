@@ -1,5 +1,5 @@
 # SECRETS & DRY-RUN MATRİSİ
-> Üretim: 2026-08-11T03:39:19Z · İlke: secret ASLA commit edilmez · free tier tercih · credential yoksa dry-run
+> Üretim: 2026-08-12T04:02:17Z · İlke: secret ASLA commit edilmez · free tier tercih · credential yoksa dry-run
 
 ## Onay politikası (Metin)
 Kullanıcı free API/profil açmaya onay verdi. Bu ortamda **yüzlerce satıcı hesabı açılmadı** (kimlik/ödeme/ToS).
