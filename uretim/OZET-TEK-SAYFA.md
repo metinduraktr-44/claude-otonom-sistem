@@ -1,5 +1,5 @@
 # TEK SAYFA ÖZET — Holding × Skill × MCP Ajans
-> 2026-08-14T04:03:10Z
+> 2026-08-15T02:47:40Z
 
 ## Yapılanlar (madde madde)
 1. **Holding iştirak org** üretildi — `8` birim, `633` rol, prompt hedef `77226` (`data/holding_istirak_org.json`, `docs/HOLDING-ISTIRAK-ORG.md`).
