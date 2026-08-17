@@ -114,3 +114,4 @@
 {"ts_start":"2026-08-16T00:32:46Z","ts_end":"2026-08-16T00:32:46Z","islem":"nightly","denetim":"RUN"}
 {"ts_start": "2026-08-16T06:45:48Z", "ts_end": "2026-08-16T06:45:48Z", "islem": "daily-agency", "departman": "STR-CMP", "cikti": "uretim/gunluk/2026-08-16-STR-CMP.md", "denetim": "RUN", "onceki_ogrenim_kullanildi": "evet (BILGI_TABANI.md okunur — K4 doldurur)"}
 {"ts_start":"2026-08-17T00:31:35Z","ts_end":"2026-08-17T00:31:35Z","islem":"nightly","denetim":"RUN"}
+{"ts_start": "2026-08-17T07:02:42Z", "ts_end": "2026-08-17T07:02:42Z", "islem": "daily-agency", "departman": "STR-GRW", "cikti": "uretim/gunluk/2026-08-17-STR-GRW.md", "denetim": "RUN", "onceki_ogrenim_kullanildi": "evet (BILGI_TABANI.md okunur — K4 doldurur)"}
