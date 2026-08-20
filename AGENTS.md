@@ -5,11 +5,32 @@ Self-improving Claude orchestration (Holding HQ). Runtime = Python 3 stdlib + Ba
 
 ## Cursor Cloud specific instructions
 
-- **Update script** should only refresh nothing heavy: `python3 --version` is enough (no root package.json/requirements).
-- Do **not** `npm install` under `katalog/` for day-to-day work.
-- Generators (`build_org_cards.py`, `build_question_bank.py`, `daily_agency.py`, `install_free_mit_agents.py`) mutate tracked files — after smoke tests, keep intentional commits only.
-- **MIT free Status Agents:** `python3 scripts/install_free_mit_agents.py` → `.claude/katalog-mit/` + `data/mit_free_agents_manifest.json`. Docs: `docs/MIT-UCRETSIZ-AGENTS-NIGHTLY.md`.
-- **Nightly free mode:** without `OPENROUTER_API_KEY` / `ANTHROPIC_API_KEY`, `scripts/nightly.sh` only stamps + validates (no paid generation).
-- Optional LLM priority: OpenRouter → Gemini (`GEMINI_API_KEY`, optional `GEMINI_MODEL=gemini-flash-latest`) → Anthropic. Smoke: `python3 scripts/llm_smoke.py`. Never paste keys in chat; use Secrets panel.
-- Standard commands: see `README.md`, `KULLANIM-KILAVUZU.md`, `docs/MEGA-PRONT-MASTER.md`, `docs/CILT11-ENTERPRISE-MCP-ROUTING.md`.
-- Slash-skill floods (Twilio/Azure/…): treat as routing inventory (`docs/SKILL-AJANS-HIYERARSI.md`), not mandatory live MCP execution in this VM.
+This repository is a **Python 3 (standard-library only) + Bash automation system** orchestrated by GitHub Actions. No compiled app, web server, or root `package.json` / `requirements.txt` for runnable code — `python3` is enough. Do **not** `npm install` under `katalog/` for day-to-day work.
+
+### What this repo is
+- Runnable app = `scripts/`. Content = `docs/`, `pilots/`, `katalog/`, `uretim/`, `infra/`.
+- `katalog/` is vendored third-party (davila7/claude-code-templates). Nested package files are **not** repo deps.
+- `pilots/` are Claude Code plugin definitions (markdown/JSON), not runnable programs.
+
+### Core scripts (repo root)
+- `python3 scripts/validate.py` — `DENETIM: GECTI`
+- `python3 scripts/daily_agency.py --dogrula` / günlük generator
+- `python3 scripts/holding_report.py`
+- `python3 scripts/gemini_client.py smoke` / `openrouter_client.py smoke`
+- `python3 scripts/domain_matrix_uret.py --dogrula`
+- `bash scripts/live_dashboard.sh` / `bash scripts/nightly.sh`
+
+### LLM priority
+**Gemini → OpenRouter → Anthropic → iskelet.** Keys in Cursor Secrets / `.env` (gitignore). Never paste keys in chat.
+
+### Gotchas
+- Daily output idempotent (`SKIP` if today’s file exists).
+- Generators mutate `AUDIT_LOG.jsonl` / `BILGI_TABANI.md`.
+- No key → dry-run skeleton. Turkish: GECTI=pass, KALDI=fail.
+- 🚩 ≥900M chars/prompt RED. Contract: 122 prompts/role + 500 questions/title.
+
+### Infra
+`infra/otel/`, `infra/terraform/observability/`, `.github/workflows/enterprise-k8s-otel-pipeline.yml`
+
+### Reading
+`uretim/OZET-TEK-SAYFA.md`, `docs/SECRETS-DRYRUN-MATRISI.md`, `uretim/domain-matrix/README.md`
