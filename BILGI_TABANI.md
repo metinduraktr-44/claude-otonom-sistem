@@ -273,3 +273,7 @@
 - Ran read->distill->produce->validate->stamp. Generation: off.
 
 - [2026-08-20T06:52:38Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-20-ENG-DEV.md); K4 Cowork oturumu taslağı doldurur.
+
+### 2026-08-20T11:25:26Z — MERGE WAVE
+- PR #16/#17 (+#14/#10/#11/#15) MERGED · open=0
+- Tek sayfa rapor: uretim/OZET-TEK-SAYFA.md

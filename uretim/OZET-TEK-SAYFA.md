@@ -1,32 +1,54 @@
-# TEK SAYFA ÖZET — Holding × Skill × MCP Ajans
-> 2026-08-20T02:52:11Z
+# HOLDING HQ — TEK SAYFA RAPOR
+> Damga: 2026-08-20T11:25:26Z · main @ 753dcfe5 · Onay: Metin (her şey merge)
 
-## Yapılanlar (madde madde)
-1. **Holding iştirak org** üretildi — `8` birim, `633` rol, prompt hedef `77226` (`data/holding_istirak_org.json`, `docs/HOLDING-ISTIRAK-ORG.md`).
-2. **Ülke/pazar iskeleti** — `10` ülke + nightly research workflow (`data/ulke_pazar_iskeleti.json`, `docs/ULKE-PAZAR-ISKELETI.md`).
-3. **Öz-denetim soru bankası** — `957` soru (≥501) evrensel+departman+kademe (`data/soru_bankasi.json`, `docs/OZ-DENETIM-SORU-BANKASI.md`).
-4. **AdOps-tarzı rol kartları (pilot)** — `48` kart `uretim/rol-kartlari/` (kimlik, RACI, KPI, 17 soru, top-5, 7×24).
-5. **Secrets/dry-run matrisi** — `docs/SECRETS-DRYRUN-MATRISI.md` + `.env.example` (gerçek key yok; free hesap toplu açılmadı).
-6. **Claude Code MASTER V2** — `uretim/devir/CLAUDE-CODE-MASTER-PROMPT-HOLDING-V2.md` (yapıştır-uygula).
-7. **Önceki paket korundu** — 696 skill · 174 MCP · 216 skill-title · etki arşivi · PR #13 hattı.
-8. **🚩 900M/900B/9e17 karakter** — reddedildi; sözleşme: 122×4–12 KiB + referans zinciri.
-9. **Cowork URL** — beklenmedi; repo döngüsü ve MASTER prompt ile devam.
-10. **Onay kullanımı** — secret şablon + dry-run; ToS/ödeme gerektiren yüzlerce hesap açılmadı.
+## HEALTHY
+| Kontrol | Durum |
+|---|---|
+| Open PR | **0** (hepsi merge/closed) |
+| PR #17 Domain+OTel+Gemini | MERGED |
+| PR #16 OpenRouter | MERGED |
+| PR #14 Mega/MIT/Gemini | MERGED |
+| PR #13 Holding 500 soru | MERGED |
+| Dependabot #10/#11/#15 | MERGED |
+| LLM zinciri | Gemini → OpenRouter → Anthropic → iskelet |
+| 🚩900M prompt | RED (sözleşme: 122/rol + 500 soru indeksi) |
+| Secret commit | YOK (.env gitignore) |
 
-## Sayılar
-| Metrik | Değer |
-|---|---:|
-| İştirak | 8 |
-| Rol | 633 |
-| Prompt hedef (holding org) | 77226 |
-| Soru bankası | 957 |
-| Ülke | 10 |
-| Pilot rol kartı | 48 |
+## ROADMAP (healthy path)
+1. **Secrets canlı** — Gemini rotate + OpenRouter + (opsiyonel) DD/Sentry/PD
+2. **LLM smoke yeşil** — kota/billing sonrası `gemini_client.py smoke`
+3. **Observability apply** — TF plan/apply + OTel kubectl (cluster)
+4. **Holding ritmi** — daily/weekly/monthly workflows (zaten CI)
+5. **İştirak TRANSFER** — adops/performer/… paketlerini hedef repolara sen uygula
+6. **Aylık etki arşivi** — top-100 refresh (uydurma bio yok)
 
-## Sonraki 3 aksiyon
-1. Claude Code'a HOLDING-V2 MASTER yapıştır → FAZ 0–6
-2. GitHub Secrets'a ihtiyaç duyulan free-tier key'leri ekle (matrise göre)
-3. Aylık etki + ülke arşiv cron'unu yeşil tut
+## İŞ LİSTESİ — BENDE (agent)
+| # | İş | Not |
+|---|---|---|
+| A1 | AGENTS.md birleşik sürümü main’e | bu PR |
+| A2 | Live dashboard LLM satırları | main’de |
+| A3 | Domain matrix / OTel / TF artefakt bakımı | `infra/` `data/domain_matrix.json` |
+| A4 | Dry-run CI izleme | workflow yeşil tut |
+| A5 | Cross-repo push | **yapamam** — TRANSFER paketleri hazır |
 
-## PR
-https://github.com/metinduraktr-44/claude-otonom-sistem/pull/13
+## İŞ LİSTESİ — SENDE (Metin)
+| # | İş | URL |
+|---|---|---|
+| M1 | Gemini key **rotate** + Secrets | https://aistudio.google.com/apikey |
+| M2 | Gemini kota/billing | https://ai.google.dev/gemini-api/docs/rate-limits |
+| M3 | OpenRouter key (2. sıra LLM) | https://openrouter.ai/keys |
+| M4 | Cursor Cloud Secrets paneli | https://cursor.com/dashboard |
+| M5 | Datadog keys (opsiyonel TF) | https://app.datadoghq.com/organization-settings/api-keys |
+| M6 | Sentry token (opsiyonel) | https://sentry.io/settings/account/api/auth-tokens/ |
+| M7 | PagerDuty token (opsiyonel) | https://support.pagerduty.com/main/docs/api-access-keys |
+| M8 | Slack `#alerts-critical` / `#alerts-warnings` | https://api.slack.com/apps |
+| M9 | Cluster’a OTel apply (opsiyonel) | `infra/README.md` |
+| M10 | İştirak repolara TRANSFER uygula | `uretim/devir/istirak/*-TRANSFER.md` |
+
+## KOMUTLAR
+```bash
+python3 scripts/validate.py
+python3 scripts/gemini_client.py smoke
+python3 scripts/openrouter_client.py smoke
+bash scripts/live_dashboard.sh
+```
