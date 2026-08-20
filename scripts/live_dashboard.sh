@@ -17,7 +17,8 @@ loop_once() {
   git status -sb 2>/dev/null | head -5
   echo
   echo "── LLM ──"
-  python3 scripts/gemini_client.py status 2>/dev/null | head -10
+  python3 scripts/gemini_client.py status 2>/dev/null | head -8
+  python3 scripts/openrouter_client.py status 2>/dev/null | head -8
   echo
   echo "── SAYILAR / DOĞRULA (salt okuma) ──"
   python3 - <<'PY'
