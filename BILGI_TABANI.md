@@ -149,6 +149,24 @@
 - Ran read->distill->produce->validate->stamp. Generation: off.
 
 - [2026-08-03T09:54:00Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-03-SEC-OPS.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-08-03T15:57:47Z — mega-pront & unvan hiyerarsisi
+- CILT9 (UNVAN-HIYERARSISI) + MEGA-PRONT-MASTER uretildi. C->isci 7 kademe, top-100 insan-referans arastirma protokolu, aylik zaman-damgali arsiv (arastirma/{alan}/{unvan}/{YYYY-MM}), +100 yetenek matrisi, unvan-basi pront paketi politikasi. GitHub + Lovable (3 mod: Plan/Agent/Visual, Supabase, GitHub sync) + tum tools uyarlamasi. Imkansiz boyutlar (900B/900M karakter, tek-tur top-100) anayasa CILT1 §0 kirmizi bayragiyla isaretlendi; yerine kumulatif rotasyonlu dongu. Claude Code orkestrasyonu: subagent<agent-team</batch, CLAUDE.md ortak sozlesme.
+
+## 2026-08-04T08:36:39Z — holding + cok-ulke + app mimarisi (CILT10)
+- CILT10 + UNVAN-KARTI-SABLONU uretildi. Katmanli yapi: app(iOS/Android/Web) -> holding -> istirak -> C->isci org -> ulke kopyasi. AdOps 20 departman taksonomisi + EVP rol-karti semasi + 501 soru bankasi entegre. Kisisel+grup workflow (egitim/to-do/roadmap/toplanti/ust-yan-alt iletisim). Gecelik top-5 arastirma (org x ulke x unvan) zaman-damgali arsiv + aylik tazeleme. Kirmizi bayrak: 900 katrilyon karakter imkansiz; ajan hesap/API-key/secret ACAMAZ (kullanici Secrets panelinden ekler); claude.ai/cowork linkleri erisilemez.
+
+## 2026-08-04T08:48:54Z — mega-pront UYGULAMA (seed)
+- Yapistir iptal, pront uygulandi: scripts/build_org_cards.py yazildi -> .claude/org/org.json (46 departman) -> .claude/agents/{KOD}/{kod}-lead.md 46 gercek rol karti. arastirma/ iskele: gercek TR ulke profili (pazar 3.26B USD, 1 Agu 2026 reklam yonetmeligi, KVKK) + MKT-PRF top-5 (Nick Shackelford/Clutch/Meta Advantage+/TikTok Smart+, kaynakli+zaman-damgali). uretim/workflows kisisel+grup (MKT-PRF). app/ blueprint (Supabase+RN, gerekli secretler kullanici tarafindan). validate.py GECTI.
+
+## 2026-08-04T08:55:14Z — 532 soru bankasi + karta gomme
+- build_question_bank.py -> data/soru_bankasi.json + docs/OZ-DENETIM-SORU-BANKASI.md (532: evrensel 119 + departman 386 + kademe 27). build_org_cards.py her rol kartina departman+kademe alt-seti gomer + tam bankaya referans. Reddedilen: 900B karakter (imkansiz), top-100 uydurma (veri butunlugu). Merge: ajan yapamaz (gh read-only).
+
+- [2026-08-04T09:40:02Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-04-SEC-AUD.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-08-04T09:40:02Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+## 2026-08-04T12:51:20Z — OpenRouter saglayici baglama
+- scripts/daily_agency.py llm() OpenRouter-tercihli (OPENROUTER_API_KEY -> https://openrouter.ai/api/v1/chat/completions; OPENROUTER_MODEL varsayilan anthropic/claude-3.5-sonnet), Anthropic geri dusum. nightly.sh iki saglayiciyi taniyor. scripts/llm_smoke.py canli baglanti testi. Anahtar ortamda YOK -> kullanici Secrets panelinden ekler (chat'e yapistirilmaz).
 - [2026-08-04T08:39:12Z] holding-istirak: 8 birim · 633 rol · 957 soru · 10 ülke · 48 rol kartı · SECRETS dry-run · CLAUDE-CODE MASTER V2 · 🚩900B RED
 - [2026-08-04T08:44:48Z] MASTER-V2 UYGULANDI (Claude Code iptal): FAZ0-6 · kart=120 · 10 ülke arşiv · dry-run · IS_LISTESI · 7 transfer paket · adops push yetkisi yok → paket HQ
 ## 2026-08-04T01:17:34Z — nightly run
@@ -195,6 +213,18 @@
 - Ran read->distill->produce->validate->stamp. Generation: off.
 
 - [2026-08-10T07:48:41Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-10-LGL-PRV.md); K4 Cowork oturumu taslağı doldurur.
+
+## 2026-08-10T09:40:02Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+## 2026-08-10T09:40:02Z — MIT ucretsiz Status Agents + CILT11
+- docx 6-domain routing urune uyarlandi; install_free_mit_agents.py + Nightly OpenRouter/ucretsiz mod.
+
+## 2026-08-10T09:40:23Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+## 2026-08-10T12:33:48Z — Gemini LLM katmani
+- llm() oncelik: OpenRouter → Gemini → Anthropic. Chat anahtari sizmıs sayilir — rotate + Secrets.
 ### 2026-08-10T10:13:01Z — DOMAIN OBS PIPELINE
 - uploads/*.docx → Domain 1-7 matrix + OTel K8s + TF alerts + CI
 - 🚩900M RED · terraform apply secret gerektirir (dry-run CI)

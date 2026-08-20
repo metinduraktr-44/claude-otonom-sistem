@@ -1,0 +1,238 @@
+{
+  "ts": "2026-08-10T09:40:23Z",
+  "lisans": "MIT",
+  "license_path": "katalog/LICENSE-UPSTREAM",
+  "upstream": "github.com/davila7/claude-code-templates",
+  "ucretsiz": true,
+  "nightly_ucretsiz_mod": "OPENROUTER_API_KEY ve ANTHROPIC_API_KEY yoksa nightly damga+validate; ajan dosyalari ucretsiz kullanilir",
+  "adet_hedef": 32,
+  "adet_kurulu": 32,
+  "adet_eksik": 0,
+  "installed": [
+    {
+      "category": "deep-research-team",
+      "name": "research-orchestrator",
+      "source": "katalog/agents/deep-research-team/research-orchestrator.md",
+      "dest": ".claude/katalog-mit/deep-research-team/research-orchestrator.md",
+      "sha256": "eea6c9489f369260a142fa07435b722be2dfc6114ab5c3ad612932c2e8dd3279"
+    },
+    {
+      "category": "deep-research-team",
+      "name": "research-coordinator",
+      "source": "katalog/agents/deep-research-team/research-coordinator.md",
+      "dest": ".claude/katalog-mit/deep-research-team/research-coordinator.md",
+      "sha256": "f0a2c7edf2ef30cc2b2de453406fea35280b65d8587963832fdc1726d7884f9f"
+    },
+    {
+      "category": "deep-research-team",
+      "name": "research-analyst",
+      "source": "katalog/agents/deep-research-team/research-analyst.md",
+      "dest": ".claude/katalog-mit/deep-research-team/research-analyst.md",
+      "sha256": "68f402dbfce05cbfcb3a8c59e786a35b0053d1f9350a5996e542610354be2b06"
+    },
+    {
+      "category": "deep-research-team",
+      "name": "research-synthesizer",
+      "source": "katalog/agents/deep-research-team/research-synthesizer.md",
+      "dest": ".claude/katalog-mit/deep-research-team/research-synthesizer.md",
+      "sha256": "22a11f858a96fe713e5782ea65a0669f1e9ce32b10fdbb1407e26cf88ab2c286"
+    },
+    {
+      "category": "deep-research-team",
+      "name": "fact-checker",
+      "source": "katalog/agents/deep-research-team/fact-checker.md",
+      "dest": ".claude/katalog-mit/deep-research-team/fact-checker.md",
+      "sha256": "524aeaae33daf919151537c2c90e2605d759058fd5b3c20ae23e69e687fc8421"
+    },
+    {
+      "category": "deep-research-team",
+      "name": "search-specialist",
+      "source": "katalog/agents/deep-research-team/search-specialist.md",
+      "dest": ".claude/katalog-mit/deep-research-team/search-specialist.md",
+      "sha256": "28c5463ba969c34717ac7a54fe16f8827ce79d0beb746ec5c6a20d053f86a811"
+    },
+    {
+      "category": "deep-research-team",
+      "name": "competitive-intelligence-analyst",
+      "source": "katalog/agents/deep-research-team/competitive-intelligence-analyst.md",
+      "dest": ".claude/katalog-mit/deep-research-team/competitive-intelligence-analyst.md",
+      "sha256": "a9145fde7ad0f27b64ec9e7563a069cddd54578b9ff5e16f4648c26e1cf8511e"
+    },
+    {
+      "category": "deep-research-team",
+      "name": "report-generator",
+      "source": "katalog/agents/deep-research-team/report-generator.md",
+      "dest": ".claude/katalog-mit/deep-research-team/report-generator.md",
+      "sha256": "06e8cf998bd1c9fbf39db98c1a6d2d444591aa2bbfbef91879854765a34b1059"
+    },
+    {
+      "category": "ai-specialists",
+      "name": "prompt-engineer",
+      "source": "katalog/agents/ai-specialists/prompt-engineer.md",
+      "dest": ".claude/katalog-mit/ai-specialists/prompt-engineer.md",
+      "sha256": "eca7120367345b276fd5273103e86067eacb55ba60bcbf216ec595259d5ed75f"
+    },
+    {
+      "category": "ai-specialists",
+      "name": "llm-architect",
+      "source": "katalog/agents/ai-specialists/llm-architect.md",
+      "dest": ".claude/katalog-mit/ai-specialists/llm-architect.md",
+      "sha256": "78ca2328811dea5104dba694e5b4ba8b06e6375c4c3a61faa1757bebfa0943f6"
+    },
+    {
+      "category": "ai-specialists",
+      "name": "task-decomposition-expert",
+      "source": "katalog/agents/ai-specialists/task-decomposition-expert.md",
+      "dest": ".claude/katalog-mit/ai-specialists/task-decomposition-expert.md",
+      "sha256": "8e5836304a78f03039565ac010d0c55969b180a5ca6471e1d63d619d8a34fd23"
+    },
+    {
+      "category": "ai-specialists",
+      "name": "ai-ethics-advisor",
+      "source": "katalog/agents/ai-specialists/ai-ethics-advisor.md",
+      "dest": ".claude/katalog-mit/ai-specialists/ai-ethics-advisor.md",
+      "sha256": "5e559ea7b5b648ef3a798a9fc150a6c8a6ef6c2927fb4f49c0044a8d94f346cd"
+    },
+    {
+      "category": "expert-advisors",
+      "name": "multi-agent-coordinator",
+      "source": "katalog/agents/expert-advisors/multi-agent-coordinator.md",
+      "dest": ".claude/katalog-mit/expert-advisors/multi-agent-coordinator.md",
+      "sha256": "1405ba7c8d2e8bcdb60f8c4215e1fcfb8705b9f65ff7db096af1165363203e29"
+    },
+    {
+      "category": "expert-advisors",
+      "name": "workflow-orchestrator",
+      "source": "katalog/agents/expert-advisors/workflow-orchestrator.md",
+      "dest": ".claude/katalog-mit/expert-advisors/workflow-orchestrator.md",
+      "sha256": "b430a62f5a5416ab39acae29a32a5e1f957618e2e6923954f21f6a37fe9773a3"
+    },
+    {
+      "category": "expert-advisors",
+      "name": "knowledge-synthesizer",
+      "source": "katalog/agents/expert-advisors/knowledge-synthesizer.md",
+      "dest": ".claude/katalog-mit/expert-advisors/knowledge-synthesizer.md",
+      "sha256": "228fb5e3ab32f67637cb27733a1c1b5da2f38d634502769b0a9d19ade55ab8f9"
+    },
+    {
+      "category": "expert-advisors",
+      "name": "planner",
+      "source": "katalog/agents/expert-advisors/planner.md",
+      "dest": ".claude/katalog-mit/expert-advisors/planner.md",
+      "sha256": "02e4b8fbe6a35205d4d808891943171b4390ed9a4079e56dada77e86bb2cb2a4"
+    },
+    {
+      "category": "expert-advisors",
+      "name": "critical-thinking",
+      "source": "katalog/agents/expert-advisors/critical-thinking.md",
+      "dest": ".claude/katalog-mit/expert-advisors/critical-thinking.md",
+      "sha256": "ac2234425d1a594d567cbab90d5162e779ab778f93378ee288e6a6ca3c356d68"
+    },
+    {
+      "category": "expert-advisors",
+      "name": "agent-organizer",
+      "source": "katalog/agents/expert-advisors/agent-organizer.md",
+      "dest": ".claude/katalog-mit/expert-advisors/agent-organizer.md",
+      "sha256": "58790a868daf43ac46af939a0775c0a38bac3d19e2a01aee82689361a93700a8"
+    },
+    {
+      "category": "business-marketing",
+      "name": "market-researcher",
+      "source": "katalog/agents/business-marketing/market-researcher.md",
+      "dest": ".claude/katalog-mit/business-marketing/market-researcher.md",
+      "sha256": "c4b320ee20aa00d420cc6c5d1b81341daf8d71cce7be5c87a0952a1c6a8ad6da"
+    },
+    {
+      "category": "business-marketing",
+      "name": "competitive-analyst",
+      "source": "katalog/agents/business-marketing/competitive-analyst.md",
+      "dest": ".claude/katalog-mit/business-marketing/competitive-analyst.md",
+      "sha256": "b542c3a48d45bbd2a120c6eeb6f8ce995463a839ec5b1d5e88d4619f9cdec4ac"
+    },
+    {
+      "category": "business-marketing",
+      "name": "content-marketer",
+      "source": "katalog/agents/business-marketing/content-marketer.md",
+      "dest": ".claude/katalog-mit/business-marketing/content-marketer.md",
+      "sha256": "fcaff410429dfa3298cb808de67c11976ea30c7fc8eb615b418b524883924ad3"
+    },
+    {
+      "category": "business-marketing",
+      "name": "product-strategist",
+      "source": "katalog/agents/business-marketing/product-strategist.md",
+      "dest": ".claude/katalog-mit/business-marketing/product-strategist.md",
+      "sha256": "aa7019a6c15447733f0577d21813597f63c143f447402645bdd66b62b33b47d3"
+    },
+    {
+      "category": "business-marketing",
+      "name": "seo-specialist",
+      "source": "katalog/agents/business-marketing/seo-specialist.md",
+      "dest": ".claude/katalog-mit/business-marketing/seo-specialist.md",
+      "sha256": "6347bb0c785d7bc5eae9fca3af1b478079f6a2ac4befae9dfe45254018e3bc76"
+    },
+    {
+      "category": "development-tools",
+      "name": "code-reviewer",
+      "source": "katalog/agents/development-tools/code-reviewer.md",
+      "dest": ".claude/katalog-mit/development-tools/code-reviewer.md",
+      "sha256": "970643dc8c5ecd3810654ad7cc2dce012420f54eef81ecefe72236f9403f5635"
+    },
+    {
+      "category": "development-tools",
+      "name": "debugger",
+      "source": "katalog/agents/development-tools/debugger.md",
+      "dest": ".claude/katalog-mit/development-tools/debugger.md",
+      "sha256": "a0350253df28653978d4d1bc8593b33748502350f0de6a101ed9dc8d5621e720"
+    },
+    {
+      "category": "development-tools",
+      "name": "qa-expert",
+      "source": "katalog/agents/development-tools/qa-expert.md",
+      "dest": ".claude/katalog-mit/development-tools/qa-expert.md",
+      "sha256": "db24ac70e51992249be41ad52f8015d3b983f9fe04a37725e70f4965db05afd4"
+    },
+    {
+      "category": "git",
+      "name": "commit-guardian",
+      "source": "katalog/agents/git/commit-guardian.md",
+      "dest": ".claude/katalog-mit/git/commit-guardian.md",
+      "sha256": "8638222378c7c8d1e336b1c3302dcd3feb566c2aad3bec004d128d814f49f6a9"
+    },
+    {
+      "category": "git",
+      "name": "git-workflow-manager",
+      "source": "katalog/agents/git/git-workflow-manager.md",
+      "dest": ".claude/katalog-mit/git/git-workflow-manager.md",
+      "sha256": "73d261e91d7810f72c84e14f4728bcb364d4f3420b5a3f595079fce4803b2cfb"
+    },
+    {
+      "category": "security",
+      "name": "security-auditor",
+      "source": "katalog/agents/security/security-auditor.md",
+      "dest": ".claude/katalog-mit/security/security-auditor.md",
+      "sha256": "7e3038a2fb3bfd2ed3619d9d9154f64bd7847f7a18719fe2e29712dca595be2e"
+    },
+    {
+      "category": "security",
+      "name": "compliance-auditor",
+      "source": "katalog/agents/security/compliance-auditor.md",
+      "dest": ".claude/katalog-mit/security/compliance-auditor.md",
+      "sha256": "52ef136053a85412c0e02dd081ebeb08e65d0ad52ab1274d996a86e4a9871f63"
+    },
+    {
+      "category": "documentation",
+      "name": "technical-writer",
+      "source": "katalog/agents/documentation/technical-writer.md",
+      "dest": ".claude/katalog-mit/documentation/technical-writer.md",
+      "sha256": "717753871ef6924eed5dfa3a248691c6c85d62268c5f0e9764b3961615c91bdb"
+    },
+    {
+      "category": "mcp-dev-team",
+      "name": "mcp-security-auditor",
+      "source": "katalog/agents/mcp-dev-team/mcp-security-auditor.md",
+      "dest": ".claude/katalog-mit/mcp-dev-team/mcp-security-auditor.md",
+      "sha256": "8e4666e5eff12bbd45d1d4036f6965d392fa822067f54e672ac5764e44290ff5"
+    }
+  ],
+  "missing": []
+}

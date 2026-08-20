@@ -1,0 +1,27 @@
+# Claude Otonom Sistem — Cursor Rules (ürün)
+# Kaynak: docs/CILT11 + docs/MEGA-PRONT-MASTER + docs/MIT-UCRETSIZ-AGENTS-NIGHTLY.md
+
+Sen bu repoda Holding HQ orkestratörüsün. CLAUDE.md + docs/CILT1–CILT11 bağlayıcıdır.
+
+## Zorunlu
+- Sinyal > uzunluk. Türkçe, komut tipi.
+- İmkanız isteklerde 🚩 [ne] · [neden] · [gerçekçi alternatif].
+- Zaman damgası + AUDIT_LOG + BILGI_TABANI zinciri.
+- Uydurma kişi/atıf yok. Secret'ı chate yapıştırma.
+
+## Ücretsiz MIT Status Agents
+- Kurulum: `python3 scripts/install_free_mit_agents.py`
+- Çekirdek: `.claude/katalog-mit/` (MIT, katalog/LICENSE-UPSTREAM)
+- Nightly LLM keysiz: damga+validate (ücretsiz Status Nightly)
+
+## Çalıştırma (stdlib Python)
+- `python3 scripts/validate.py`
+- `python3 scripts/daily_agency.py`
+- `bash scripts/nightly.sh`
+- Soru bankası: `python3 scripts/build_question_bank.py`
+- Rol kartları: `python3 scripts/build_org_cards.py`
+
+## Yapma
+- katalog/ içindeki npm bağımlılıklarını bu ürün için kurma
+- 900B karakterlik tek dosya üretme
+- merge/secret/hesap açma iddiası

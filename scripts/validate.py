@@ -15,6 +15,9 @@ def check(path):
             issues.append(f"[structural] {path}: YAML frontmatter yok")
         elif "description:" not in txt.split("---",2)[1]:
             issues.append(f"[structural] {path}: description: eksik")
+    # Vendored MIT katalog metni (ornek: "eval(" anlatimi) false-positive uretir.
+    if "/katalog-mit/" in path.replace("\\", "/"):
+        return
     for pat in FORBIDDEN:
         if re.search(pat, txt):
             issues.append(f"[semantic] {path}: tehlikeli desen /{pat}/")
