@@ -6,14 +6,30 @@ kayboldu; bu sürüm AdOps daily_ops.py deseni + CILT5 §99 rotasyonu + CILT6 ri
 tersine mühendislikle yeniden üretildi. Rotasyon 5 tarihsel indeksle doğrulanır (--dogrula).
 Üretir: uretim/gunluk/{tarih}-{DEPT}.md (standup + işe alım iskeleti + makale taslağı
 + öz-denetim soruları), IS_LISTESI damgası, AUDIT_LOG.jsonl + BILGI_TABANI.md zinciri.
-ANTHROPIC_API_KEY varsa makale LLM ile yazılır; yoksa deterministik iskelet (döngü
-asla kırılmaz — CILT6: K2 anahtarsız da çalışır; K4 Cowork taslakları doldurur).
+GEMINI_API_KEY (öncelik) veya ANTHROPIC_API_KEY varsa makale LLM ile yazılır;
+yoksa deterministik iskelet (döngü asla kırılmaz — CILT6: K2 anahtarsız da çalışır).
 Kipler: (varsayılan) günlük · --haftalik liderlik tutanağı · --aylik kurul tutanağı
         · --dogrula rotasyon testi · --org-json .claude/org/org.json'ı yeniden yazar
 """
 import json, os, re, sys, datetime, urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+def _load_dotenv():
+    env_path = os.path.join(ROOT, ".env")
+    if not os.path.isfile(env_path):
+        return
+    with open(env_path, encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line or line.startswith("#") or "=" not in line:
+                continue
+            k, _, v = line.partition("=")
+            k, v = k.strip(), v.strip().strip("'").strip('"')
+            if k and k not in os.environ:
+                os.environ[k] = v
+
+_load_dotenv()
 NOW = datetime.datetime.now(datetime.timezone.utc)
 TS = NOW.strftime("%Y-%m-%dT%H:%M:%SZ")
 TODAY = NOW.strftime("%Y-%m-%d")
@@ -126,6 +142,16 @@ def append(p, content):
         f.write(content)
 
 def llm(prompt, max_tokens=1600):
+    """Önce Gemini, sonra Anthropic. Key yoksa None (iskelet devam)."""
+    try:
+        sys.path.insert(0, os.path.join(ROOT, "scripts"))
+        from gemini_client import chat as gm_chat, configured as gm_ok
+        if gm_ok():
+            text = gm_chat(prompt, max_tokens=max_tokens)
+            if text:
+                return text
+    except Exception as e:
+        print("GEMINI SKIPPED:", e)
     key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
     if not key:
         return None

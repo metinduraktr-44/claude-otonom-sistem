@@ -8,7 +8,13 @@ Yapılan: şablon + dry-run matrisi + `.env.example`. Gerçek anahtarlar GitHub 
 | Secret | Kullanım | Nereden | Credential yoksa | Zorunlu |
 |---|---|---|---|---|
 | `GITHUB_TOKEN` | GitHub API (holding_report) | PAT/fine-grained | dry-run: statik rapor | opsiyonel |
-| `ANTHROPIC_API_KEY` | Claude Code / API | console.anthropic.com | dry-run: MASTER prompt uygula | opsiyonel |
+| `GEMINI_API_KEY` | Holding LLM (öncelik) — gemini_client + daily_agency | https://aistudio.google.com/apikey | dry-run iskelet | **önerilen** |
+| `GEMINI_MODEL` | Model id (varsayılan gemini-flash-latest) | AI Studio models | varsayılan | opsiyonel |
+| `OPENROUTER_API_KEY` | Holding LLM (alternatif) | https://openrouter.ai/keys | dry-run iskelet | opsiyonel |
+| `DATADOG_API_KEY` / `DATADOG_APP_KEY` | Domain 2 monitors (TF) | https://app.datadoghq.com/organization-settings/api-keys | terraform plan skip | opsiyonel |
+| `SENTRY_AUTH_TOKEN` | Domain 2 issue alerts (TF) | https://sentry.io/settings/account/api/auth-tokens/ | skip | opsiyonel |
+| `PAGERDUTY_TOKEN` | On-call escalation (TF) | https://support.pagerduty.com/main/docs/api-access-keys | skip | opsiyonel |
+| `ANTHROPIC_API_KEY` | Claude doğrudan (OpenRouter yoksa) | console.anthropic.com | dry-run | opsiyonel |
 | `OPENAI_API_KEY` | opsiyonel LLM | platform.openai.com | dry-run | opsiyonel |
 | `EXA_API_KEY` | Exa search MCP | dashboard.exa.ai | WebSearch fallback | opsiyonel |
 | `BRIGHT_DATA_API_TOKEN` | Bright Data MCP | brightdata.com | dry-run scrape checklist | opsiyonel |
