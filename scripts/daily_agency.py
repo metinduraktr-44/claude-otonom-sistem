@@ -6,8 +6,8 @@ kayboldu; bu sürüm AdOps daily_ops.py deseni + CILT5 §99 rotasyonu + CILT6 ri
 tersine mühendislikle yeniden üretildi. Rotasyon 5 tarihsel indeksle doğrulanır (--dogrula).
 Üretir: uretim/gunluk/{tarih}-{DEPT}.md (standup + işe alım iskeleti + makale taslağı
 + öz-denetim soruları), IS_LISTESI damgası, AUDIT_LOG.jsonl + BILGI_TABANI.md zinciri.
-GEMINI_API_KEY (öncelik) veya ANTHROPIC_API_KEY varsa makale LLM ile yazılır;
-yoksa deterministik iskelet (döngü asla kırılmaz — CILT6: K2 anahtarsız da çalışır).
+GEMINI → OPENROUTER → ANTHROPIC sırasıyla LLM; key yoksa deterministik iskelet
+(döngü asla kırılmaz — CILT6: K2 anahtarsız da çalışır).
 Kipler: (varsayılan) günlük · --haftalik liderlik tutanağı · --aylik kurul tutanağı
         · --dogrula rotasyon testi · --org-json .claude/org/org.json'ı yeniden yazar
 """
