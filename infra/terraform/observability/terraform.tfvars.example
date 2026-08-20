@@ -1,0 +1,14 @@
+# Örnek tfvars — gerçek değerleri doldur; commit etme
+environment           = "production"
+service_name          = "api-service-prod"
+sentry_organization   = "YOUR_ORG"
+sentry_project_slug   = "YOUR_PROJECT"
+pagerduty_user_email  = "oncall@example.com"
+slack_channel_critical = "alerts-critical"
+slack_channel_warnings = "alerts-warnings"
+
+# Sensitive — export veya TF_VAR_*:
+# export TF_VAR_datadog_api_key=...
+# export TF_VAR_datadog_app_key=...
+# export TF_VAR_sentry_auth_token=...
+# export PAGERDUTY_TOKEN=...

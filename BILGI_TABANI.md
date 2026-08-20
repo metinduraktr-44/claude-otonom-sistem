@@ -222,6 +222,14 @@
 
 ## 2026-08-10T12:33:48Z — Gemini LLM katmani
 - llm() oncelik: OpenRouter → Gemini → Anthropic. Chat anahtari sizmıs sayilir — rotate + Secrets.
+### 2026-08-10T10:13:01Z — DOMAIN OBS PIPELINE
+- uploads/*.docx → Domain 1-7 matrix + OTel K8s + TF alerts + CI
+- 🚩900M RED · terraform apply secret gerektirir (dry-run CI)
+
+### 2026-08-10T12:34:26Z — GEMINI LIVE
+- scripts/gemini_client.py · daily_agency LLM öncelik Gemini
+- Smoke LIVE (gemini-flash-latest) · key yalnızca .env (gitignore)
+- 🚩 Key chat'te ifşa → rotate önerilir: https://aistudio.google.com/apikey
 ## 2026-08-11T00:46:47Z — nightly run
 - Ran read->distill->produce->validate->stamp. Generation: off.
 

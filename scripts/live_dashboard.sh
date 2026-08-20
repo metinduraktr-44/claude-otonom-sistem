@@ -16,6 +16,9 @@ loop_once() {
   git log -1 --oneline 2>/dev/null || true
   git status -sb 2>/dev/null | head -5
   echo
+  echo "── LLM ──"
+  python3 scripts/gemini_client.py status 2>/dev/null | head -10
+  echo
   echo "── SAYILAR / DOĞRULA (salt okuma) ──"
   python3 - <<'PY'
 import json
