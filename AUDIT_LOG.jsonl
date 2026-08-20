@@ -103,3 +103,23 @@
 {"ts_start": "2026-08-10T07:48:41Z", "ts_end": "2026-08-10T07:48:41Z", "islem": "daily-agency", "departman": "LGL-PRV", "cikti": "uretim/gunluk/2026-08-10-LGL-PRV.md", "denetim": "RUN", "onceki_ogrenim_kullanildi": "evet (BILGI_TABANI.md okunur — K4 doldurur)"}
 {"ts_start": "2026-08-10T10:13:01Z", "ts_end": "2026-08-10T10:13:01Z", "islem": "domain_obs_pipeline_materyalize", "uzmanlar": ["BAS_MIMAR", "OTOMASYON", "DENETCI"], "girdi_ozet": "9 docx Domain/OTel/PagerDuty/Sentry/900M", "cikti_ozet": "infra+workflow+domain_matrix; 900M RED", "denetim": "GECTI", "ogrenim": "docx→repo artefakt; canlı apply secret+cluster ister", "onceki_ogrenim_kullanildi": true}
 {"ts_start": "2026-08-10T12:34:26Z", "ts_end": "2026-08-10T12:34:26Z", "islem": "gemini_live_wire", "uzmanlar": ["OTOMASYON", "DENETCI"], "girdi_ozet": "generativelanguage gemini-flash-latest curl", "cikti_ozet": "gemini_client LIVE smoke GECTI", "denetim": "GECTI", "ogrenim": "Gemini LIVE; secret .env only; rotate if exposed", "onceki_ogrenim_kullanildi": true}
+{"ts_start":"2026-08-11T00:46:47Z","ts_end":"2026-08-11T00:46:47Z","islem":"nightly","denetim":"RUN"}
+{"ts_start": "2026-08-11T07:14:03Z", "ts_end": "2026-08-11T07:14:03Z", "islem": "daily-agency", "departman": "INF-MCP", "cikti": "uretim/gunluk/2026-08-11-INF-MCP.md", "denetim": "RUN", "onceki_ogrenim_kullanildi": "evet (BILGI_TABANI.md okunur — K4 doldurur)"}
+{"ts_start":"2026-08-12T00:54:28Z","ts_end":"2026-08-12T00:54:28Z","islem":"nightly","denetim":"RUN"}
+{"ts_start": "2026-08-12T07:38:48Z", "ts_end": "2026-08-12T07:38:48Z", "islem": "daily-agency", "departman": "INF-SET", "cikti": "uretim/gunluk/2026-08-12-INF-SET.md", "denetim": "RUN", "onceki_ogrenim_kullanildi": "evet (BILGI_TABANI.md okunur — K4 doldurur)"}
+{"ts_start":"2026-08-13T00:55:49Z","ts_end":"2026-08-13T00:55:50Z","islem":"nightly","denetim":"RUN"}
+{"ts_start": "2026-08-13T07:40:01Z", "ts_end": "2026-08-13T07:40:01Z", "islem": "daily-agency", "departman": "INF-HKS", "cikti": "uretim/gunluk/2026-08-13-INF-HKS.md", "denetim": "RUN", "onceki_ogrenim_kullanildi": "evet (BILGI_TABANI.md okunur — K4 doldurur)"}
+{"ts_start":"2026-08-14T00:55:32Z","ts_end":"2026-08-14T00:55:33Z","islem":"nightly","denetim":"RUN"}
+{"ts_start": "2026-08-14T07:37:46Z", "ts_end": "2026-08-14T07:37:46Z", "islem": "daily-agency", "departman": "INF-LOP", "cikti": "uretim/gunluk/2026-08-14-INF-LOP.md", "denetim": "RUN", "onceki_ogrenim_kullanildi": "evet (BILGI_TABANI.md okunur — K4 doldurur)"}
+{"ts_start":"2026-08-15T00:31:46Z","ts_end":"2026-08-15T00:31:46Z","islem":"nightly","denetim":"RUN"}
+{"ts_start": "2026-08-15T06:44:09Z", "ts_end": "2026-08-15T06:44:09Z", "islem": "daily-agency", "departman": "STR-INT", "cikti": "uretim/gunluk/2026-08-15-STR-INT.md", "denetim": "RUN", "onceki_ogrenim_kullanildi": "evet (BILGI_TABANI.md okunur — K4 doldurur)"}
+{"ts_start":"2026-08-16T00:32:46Z","ts_end":"2026-08-16T00:32:46Z","islem":"nightly","denetim":"RUN"}
+{"ts_start": "2026-08-16T06:45:48Z", "ts_end": "2026-08-16T06:45:48Z", "islem": "daily-agency", "departman": "STR-CMP", "cikti": "uretim/gunluk/2026-08-16-STR-CMP.md", "denetim": "RUN", "onceki_ogrenim_kullanildi": "evet (BILGI_TABANI.md okunur — K4 doldurur)"}
+{"ts_start":"2026-08-17T00:31:35Z","ts_end":"2026-08-17T00:31:35Z","islem":"nightly","denetim":"RUN"}
+{"ts_start": "2026-08-17T07:02:42Z", "ts_end": "2026-08-17T07:02:42Z", "islem": "daily-agency", "departman": "STR-GRW", "cikti": "uretim/gunluk/2026-08-17-STR-GRW.md", "denetim": "RUN", "onceki_ogrenim_kullanildi": "evet (BILGI_TABANI.md okunur — K4 doldurur)"}
+{"ts_start":"2026-08-18T00:31:04Z","ts_end":"2026-08-18T00:31:04Z","islem":"nightly","denetim":"RUN"}
+{"ts_start": "2026-08-18T06:50:01Z", "ts_end": "2026-08-18T06:50:01Z", "islem": "daily-agency", "departman": "ENG-PLT", "cikti": "uretim/gunluk/2026-08-18-ENG-PLT.md", "denetim": "RUN", "onceki_ogrenim_kullanildi": "evet (BILGI_TABANI.md okunur — K4 doldurur)"}
+{"ts_start":"2026-08-19T00:31:18Z","ts_end":"2026-08-19T00:31:19Z","islem":"nightly","denetim":"RUN"}
+{"ts_start": "2026-08-19T06:51:04Z", "ts_end": "2026-08-19T06:51:04Z", "islem": "daily-agency", "departman": "ENG-APP", "cikti": "uretim/gunluk/2026-08-19-ENG-APP.md", "denetim": "RUN", "onceki_ogrenim_kullanildi": "evet (BILGI_TABANI.md okunur — K4 doldurur)"}
+{"ts_start":"2026-08-20T00:31:17Z","ts_end":"2026-08-20T00:31:17Z","islem":"nightly","denetim":"RUN"}
+{"ts_start": "2026-08-20T06:52:38Z", "ts_end": "2026-08-20T06:52:38Z", "islem": "daily-agency", "departman": "ENG-DEV", "cikti": "uretim/gunluk/2026-08-20-ENG-DEV.md", "denetim": "RUN", "onceki_ogrenim_kullanildi": "evet (BILGI_TABANI.md okunur — K4 doldurur)"}

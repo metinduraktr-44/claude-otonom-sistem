@@ -200,3 +200,43 @@
 - scripts/gemini_client.py · daily_agency LLM öncelik Gemini
 - Smoke LIVE (gemini-flash-latest) · key yalnızca .env (gitignore)
 - 🚩 Key chat'te ifşa → rotate önerilir: https://aistudio.google.com/apikey
+## 2026-08-11T00:46:47Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-08-11T07:14:03Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-11-INF-MCP.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-08-12T00:54:28Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-08-12T07:38:48Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-12-INF-SET.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-08-13T00:55:50Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-08-13T07:40:01Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-13-INF-HKS.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-08-14T00:55:33Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-08-14T07:37:46Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-14-INF-LOP.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-08-15T00:31:46Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-08-15T06:44:09Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-15-STR-INT.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-08-16T00:32:46Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-08-16T06:45:48Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-16-STR-CMP.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-08-17T00:31:35Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-08-17T07:02:42Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-17-STR-GRW.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-08-18T00:31:04Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-08-18T06:50:01Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-18-ENG-PLT.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-08-19T00:31:19Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-08-19T06:51:04Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-19-ENG-APP.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-08-20T00:31:17Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-08-20T06:52:38Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-20-ENG-DEV.md); K4 Cowork oturumu taslağı doldurur.
