@@ -4,13 +4,21 @@ set -uo pipefail
 TS_START=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 echo "[nightly] start $TS_START"
 
-# 1) (optional) LLM generation — only if key present. Uses PAID credits.
-if [ -n "${ANTHROPIC_API_KEY:-}" ]; then
-  echo "[nightly] ANTHROPIC_API_KEY present — generation step would run here."
-  # Placeholder: call your generation script (curl to api.anthropic.com) to
-  # produce/improve one component, then write it into components/.
+# 1) (optional) LLM generation — only if a provider key is present. Uses PAID credits.
+# Oncelik: OPENROUTER -> GEMINI -> ANTHROPIC.
+if [ -n "${OPENROUTER_API_KEY:-}" ]; then
+  echo "[nightly] OPENROUTER_API_KEY present — generation via OpenRouter (${OPENROUTER_MODEL:-anthropic/claude-3.5-sonnet})."
+elif [ -n "${GEMINI_API_KEY:-}" ]; then
+  echo "[nightly] GEMINI_API_KEY present — generation via Gemini (${GEMINI_MODEL:-gemini-flash-latest})."
+elif [ -n "${ANTHROPIC_API_KEY:-}" ]; then
+  echo "[nightly] ANTHROPIC_API_KEY present — generation via Anthropic."
 else
-  echo "[nightly] no ANTHROPIC_API_KEY — skipping generation (timestamp+validate only)."
+  echo "[nightly] FREE Status Nightly — no LLM key; timestamp+validate only (MIT agents ok)."
+fi
+
+# 1b) MIT free agents çekirdeği (kredi harcamaz; katalog/ → .claude/katalog-mit)
+if [ -f scripts/install_free_mit_agents.py ]; then
+  python3 scripts/install_free_mit_agents.py || echo "[nightly] mit-free agents install uyarısı"
 fi
 
 # 2) validate
@@ -21,7 +29,11 @@ TS_END=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 {
   echo ""
   echo "## $TS_END — nightly run"
-  echo "- Ran read->distill->produce->validate->stamp. Generation: ${ANTHROPIC_API_KEY:+on}${ANTHROPIC_API_KEY:-off}."
+  if [ -n "${OPENROUTER_API_KEY:-}" ]; then GEN="on (OpenRouter)"
+  elif [ -n "${GEMINI_API_KEY:-}" ]; then GEN="on (Gemini)"
+  elif [ -n "${ANTHROPIC_API_KEY:-}" ]; then GEN="on (Anthropic)"
+  else GEN="off"; fi
+  echo "- Ran read->distill->produce->validate->stamp. Generation: ${GEN}."
 } >> BILGI_TABANI.md
 echo "{\"ts_start\":\"$TS_START\",\"ts_end\":\"$TS_END\",\"islem\":\"nightly\",\"denetim\":\"RUN\"}" >> AUDIT_LOG.jsonl
 echo "[nightly] end $TS_END"

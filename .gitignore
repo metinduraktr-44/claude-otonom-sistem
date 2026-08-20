@@ -3,3 +3,8 @@
 *.log
 .DS_Store
 node_modules/
+
+# Python
+__pycache__/
+*.pyc
+!.env.example

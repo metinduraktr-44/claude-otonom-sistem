@@ -10,10 +10,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with: { python-version: "3.11" }
       - name: Aylık kurul tutanağı (faz kapıları + upstream delta gündemi)
         run: python3 scripts/daily_agency.py --aylik
+      - name: MCP×etki arşivi + prompt index yenile (pilot materyalize)
+        run: python3 scripts/mcp_ajans_etki_uret.py --hepsi --pilot --dogrula
       - name: Commit
         run: |
           git config user.name "otonom-bot"

@@ -1,0 +1,25 @@
+name: skill-ajans-dongu
+on:
+  schedule:
+    - cron: "30 5 1 * *"   # ayın 1'i 05:30 UTC — aylik-kurul öncesi
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v7
+        with: { python-version: "3.11" }
+      - name: Skill ajans + etki arşivi yenile
+        run: |
+          python3 scripts/skill_ajans_uretim.py --hepsi --dogrula
+          python3 scripts/mcp_ajans_etki_uret.py --hepsi --pilot --dogrula
+      - name: Commit
+        run: |
+          git config user.name "otonom-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A
+          git commit -m "skill-ajans: $(date -u +%Y-%m-%dT%H:%M:%SZ)" || echo "no changes"
+          git push || echo "push skipped"

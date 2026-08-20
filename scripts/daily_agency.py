@@ -6,14 +6,30 @@ kayboldu; bu sürüm AdOps daily_ops.py deseni + CILT5 §99 rotasyonu + CILT6 ri
 tersine mühendislikle yeniden üretildi. Rotasyon 5 tarihsel indeksle doğrulanır (--dogrula).
 Üretir: uretim/gunluk/{tarih}-{DEPT}.md (standup + işe alım iskeleti + makale taslağı
 + öz-denetim soruları), IS_LISTESI damgası, AUDIT_LOG.jsonl + BILGI_TABANI.md zinciri.
-ANTHROPIC_API_KEY varsa makale LLM ile yazılır; yoksa deterministik iskelet (döngü
-asla kırılmaz — CILT6: K2 anahtarsız da çalışır; K4 Cowork taslakları doldurur).
+GEMINI → OPENROUTER → ANTHROPIC sırasıyla LLM; key yoksa deterministik iskelet
+(döngü asla kırılmaz — CILT6: K2 anahtarsız da çalışır).
 Kipler: (varsayılan) günlük · --haftalik liderlik tutanağı · --aylik kurul tutanağı
         · --dogrula rotasyon testi · --org-json .claude/org/org.json'ı yeniden yazar
 """
 import json, os, re, sys, datetime, urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+def _load_dotenv():
+    env_path = os.path.join(ROOT, ".env")
+    if not os.path.isfile(env_path):
+        return
+    with open(env_path, encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line or line.startswith("#") or "=" not in line:
+                continue
+            k, _, v = line.partition("=")
+            k, v = k.strip(), v.strip().strip("'").strip('"')
+            if k and k not in os.environ:
+                os.environ[k] = v
+
+_load_dotenv()
 NOW = datetime.datetime.now(datetime.timezone.utc)
 TS = NOW.strftime("%Y-%m-%dT%H:%M:%SZ")
 TODAY = NOW.strftime("%Y-%m-%d")
@@ -126,6 +142,61 @@ def append(p, content):
         f.write(content)
 
 def llm(prompt, max_tokens=1600):
+    """LLM cagrisi. Oncelik: OpenRouter -> Gemini -> Anthropic.
+    Hepsi yoksa None (deterministik iskelet — dongu kirilmaz).
+    Env: OPENROUTER_API_KEY(+OPENROUTER_MODEL), GEMINI_API_KEY(+GEMINI_MODEL),
+    ANTHROPIC_API_KEY. Anahtari asla loglama/commit etme."""
+    # 1) OpenRouter
+    or_key = os.environ.get("OPENROUTER_API_KEY", "").strip()
+    if or_key:
+        model = os.environ.get("OPENROUTER_MODEL", "anthropic/claude-3.5-sonnet").strip()
+        body = json.dumps({"model": model, "max_tokens": max_tokens,
+                           "messages": [{"role": "user", "content": prompt}]}).encode()
+        req = urllib.request.Request(
+            "https://openrouter.ai/api/v1/chat/completions", data=body,
+            headers={"Authorization": "Bearer " + or_key,
+                     "content-type": "application/json",
+                     "HTTP-Referer": "https://github.com/metinduraktr-44/claude-otonom-sistem",
+                     "X-Title": "claude-otonom-sistem"})
+        try:
+            with urllib.request.urlopen(req, timeout=120) as r:
+                data = json.loads(r.read())
+            return data["choices"][0]["message"]["content"]
+        except Exception as e:
+            print("LLM (OpenRouter) SKIPPED:", e)
+            # dusmeye devam et
+    # 2) Gemini (Google AI Studio / generativelanguage)
+    # Not: gemini-flash-latest "thoughts" tokenlari maxOutputTokens'tan yer;
+    # kucuk limitlerde parts bos gelebilir — taban 1024 kullan.
+    gem_key = os.environ.get("GEMINI_API_KEY", "").strip()
+    if gem_key:
+        model = os.environ.get("GEMINI_MODEL", "gemini-flash-latest").strip()
+        out_tokens = max(int(max_tokens), 1024)
+        body = json.dumps({
+            "contents": [{"parts": [{"text": prompt}]}],
+            "generationConfig": {"maxOutputTokens": out_tokens},
+        }).encode()
+        url = ("https://generativelanguage.googleapis.com/v1beta/models/"
+               + model + ":generateContent")
+        req = urllib.request.Request(
+            url, data=body,
+            headers={"Content-Type": "application/json", "X-goog-api-key": gem_key},
+            method="POST")
+        try:
+            with urllib.request.urlopen(req, timeout=120) as r:
+                data = json.loads(r.read())
+            cands = data.get("candidates") or []
+            if not cands:
+                print("LLM (Gemini) SKIPPED: no candidates", data.get("promptFeedback"))
+            else:
+                parts = (cands[0].get("content") or {}).get("parts") or []
+                text = "".join(p.get("text", "") for p in parts if isinstance(p, dict))
+                if text.strip():
+                    return text
+                print("LLM (Gemini) SKIPPED: empty parts finish=", cands[0].get("finishReason"))
+        except Exception as e:
+            print("LLM (Gemini) SKIPPED:", e)
+    # 3) Anthropic
     key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
     if not key:
         return None
@@ -139,7 +210,7 @@ def llm(prompt, max_tokens=1600):
             data = json.loads(r.read())
         return "".join(b.get("text", "") for b in data.get("content", []))
     except Exception as e:
-        print("LLM SKIPPED:", e)
+        print("LLM (Anthropic) SKIPPED:", e)
         return None
 
 def sorular(n=8):

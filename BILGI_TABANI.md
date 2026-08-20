@@ -38,6 +38,54 @@
 - Gelir motoru kararı: hedef iş = CLAUDE OTONOM SİSTEM'in kendisi (bileşen kütüphanesi ürünleştirme). Mevcut 5 iş (Tahmin Uzmanı, VESTRA, İBB Kültür AŞ, Movéa, Response DGA) pilot iç müşteri — dogfooding. Detay: GELIR_MOTORU.md.
 
 <!-- SONRAKİ GİRİŞLER BURAYA — en yeni en üstte -->
+## 2026-08-04T09:41:05Z — skill ajans envanteri
+- skills=696; domains=50; titles=216; pilot_prompts=2440; ekipler=50
+- 🚩 900B karakter RED; Claude Code MASTER üretilidi.
+
+## 2026-08-04T09:41:04Z — MCP×etki×prompt motoru
+- MCP=174; tech=141; cult=116; org_roles=104; prompts_index=12688
+- 🚩 900M karakter/prompt reddedildi (K-017 emsali); 122×(4–12KiB) sözleşme.
+
+## 2026-08-04T09:41:04Z — skill ajans envanteri
+- skills=696; domains=50; titles=216; pilot_prompts=2440; ekipler=50
+- 🚩 900B karakter RED; Claude Code MASTER üretilidi.
+
+## 2026-08-04T09:41:03Z — MCP×etki×prompt motoru
+- MCP=174; tech=141; cult=116; org_roles=104; prompts_index=12688
+- 🚩 900M karakter/prompt reddedildi (K-017 emsali); 122×(4–12KiB) sözleşme.
+
+## 2026-08-04T09:40:00Z — skill ajans envanteri
+- skills=696; domains=50; titles=216; pilot_prompts=2440; ekipler=50
+- 🚩 900B karakter RED; Claude Code MASTER üretilidi.
+
+## 2026-08-04T09:40:00Z — MCP×etki×prompt motoru
+- MCP=174; tech=141; cult=116; org_roles=104; prompts_index=12688
+- 🚩 900M karakter/prompt reddedildi (K-017 emsali); 122×(4–12KiB) sözleşme.
+
+## 2026-08-04T08:44:49Z — skill ajans envanteri
+- skills=696; domains=50; titles=216; pilot_prompts=2440; ekipler=50
+- 🚩 900B karakter RED; Claude Code MASTER üretilidi.
+
+## 2026-08-04T08:44:48Z — MCP×etki×prompt motoru
+- MCP=174; tech=141; cult=116; org_roles=104; prompts_index=12688
+- 🚩 900M karakter/prompt reddedildi (K-017 emsali); 122×(4–12KiB) sözleşme.
+
+## 2026-08-04T08:43:07Z — skill ajans envanteri
+- skills=696; domains=50; titles=216; pilot_prompts=2440; ekipler=50
+- 🚩 900B karakter RED; Claude Code MASTER üretilidi.
+
+## 2026-08-04T08:43:07Z — MCP×etki×prompt motoru
+- MCP=174; tech=141; cult=116; org_roles=104; prompts_index=12688
+- 🚩 900M karakter/prompt reddedildi (K-017 emsali); 122×(4–12KiB) sözleşme.
+
+## 2026-08-03T16:03:13Z — skill ajans envanteri
+- skills=696; domains=50; titles=216; pilot_prompts=2440; ekipler=50
+- 🚩 900B karakter RED; Claude Code MASTER üretilidi.
+
+## 2026-08-03T15:49:56Z — MCP×etki×prompt motoru
+- MCP=174; tech=141; cult=116; org_roles=104; prompts_index=12688
+- 🚩 900M karakter/prompt reddedildi (K-017 emsali); 122×(4–12KiB) sözleşme.
+
 
 ## 2026-07-17T01:24:30Z — nightly run
 - Ran read->distill->produce->validate->stamp. Generation: off.
@@ -101,3 +149,127 @@
 - Ran read->distill->produce->validate->stamp. Generation: off.
 
 - [2026-08-03T09:54:00Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-03-SEC-OPS.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-08-03T15:57:47Z — mega-pront & unvan hiyerarsisi
+- CILT9 (UNVAN-HIYERARSISI) + MEGA-PRONT-MASTER uretildi. C->isci 7 kademe, top-100 insan-referans arastirma protokolu, aylik zaman-damgali arsiv (arastirma/{alan}/{unvan}/{YYYY-MM}), +100 yetenek matrisi, unvan-basi pront paketi politikasi. GitHub + Lovable (3 mod: Plan/Agent/Visual, Supabase, GitHub sync) + tum tools uyarlamasi. Imkansiz boyutlar (900B/900M karakter, tek-tur top-100) anayasa CILT1 §0 kirmizi bayragiyla isaretlendi; yerine kumulatif rotasyonlu dongu. Claude Code orkestrasyonu: subagent<agent-team</batch, CLAUDE.md ortak sozlesme.
+
+## 2026-08-04T08:36:39Z — holding + cok-ulke + app mimarisi (CILT10)
+- CILT10 + UNVAN-KARTI-SABLONU uretildi. Katmanli yapi: app(iOS/Android/Web) -> holding -> istirak -> C->isci org -> ulke kopyasi. AdOps 20 departman taksonomisi + EVP rol-karti semasi + 501 soru bankasi entegre. Kisisel+grup workflow (egitim/to-do/roadmap/toplanti/ust-yan-alt iletisim). Gecelik top-5 arastirma (org x ulke x unvan) zaman-damgali arsiv + aylik tazeleme. Kirmizi bayrak: 900 katrilyon karakter imkansiz; ajan hesap/API-key/secret ACAMAZ (kullanici Secrets panelinden ekler); claude.ai/cowork linkleri erisilemez.
+
+## 2026-08-04T08:48:54Z — mega-pront UYGULAMA (seed)
+- Yapistir iptal, pront uygulandi: scripts/build_org_cards.py yazildi -> .claude/org/org.json (46 departman) -> .claude/agents/{KOD}/{kod}-lead.md 46 gercek rol karti. arastirma/ iskele: gercek TR ulke profili (pazar 3.26B USD, 1 Agu 2026 reklam yonetmeligi, KVKK) + MKT-PRF top-5 (Nick Shackelford/Clutch/Meta Advantage+/TikTok Smart+, kaynakli+zaman-damgali). uretim/workflows kisisel+grup (MKT-PRF). app/ blueprint (Supabase+RN, gerekli secretler kullanici tarafindan). validate.py GECTI.
+
+## 2026-08-04T08:55:14Z — 532 soru bankasi + karta gomme
+- build_question_bank.py -> data/soru_bankasi.json + docs/OZ-DENETIM-SORU-BANKASI.md (532: evrensel 119 + departman 386 + kademe 27). build_org_cards.py her rol kartina departman+kademe alt-seti gomer + tam bankaya referans. Reddedilen: 900B karakter (imkansiz), top-100 uydurma (veri butunlugu). Merge: ajan yapamaz (gh read-only).
+
+- [2026-08-04T09:40:02Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-04-SEC-AUD.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-08-04T09:40:02Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+## 2026-08-04T12:51:20Z — OpenRouter saglayici baglama
+- scripts/daily_agency.py llm() OpenRouter-tercihli (OPENROUTER_API_KEY -> https://openrouter.ai/api/v1/chat/completions; OPENROUTER_MODEL varsayilan anthropic/claude-3.5-sonnet), Anthropic geri dusum. nightly.sh iki saglayiciyi taniyor. scripts/llm_smoke.py canli baglanti testi. Anahtar ortamda YOK -> kullanici Secrets panelinden ekler (chat'e yapistirilmaz).
+- [2026-08-04T08:39:12Z] holding-istirak: 8 birim · 633 rol · 957 soru · 10 ülke · 48 rol kartı · SECRETS dry-run · CLAUDE-CODE MASTER V2 · 🚩900B RED
+- [2026-08-04T08:44:48Z] MASTER-V2 UYGULANDI (Claude Code iptal): FAZ0-6 · kart=120 · 10 ülke arşiv · dry-run · IS_LISTESI · 7 transfer paket · adops push yetkisi yok → paket HQ
+## 2026-08-04T01:17:34Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-08-04T08:44:35Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-04-SEC-AUD.md); K4 Cowork oturumu taslağı doldurur.
+- [2026-08-04T08:50:51Z] title+500 soru (316500 indeks) · top100/domain (uydurma yok, pending slot) · 🚩900B RED · main merge conflict çözüldü · merge onaylı
+- [2026-08-04T08:52:35Z] PR #13 MERGED squash · 500 soru/title · top100 · 🚩900B RED · kisi uydurma yok
+
+- [2026-08-04T09:40:08Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-04-SEC-AUD.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-08-04T09:40:09Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-08-04T09:41:04Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-04-SEC-AUD.md); K4 Cowork oturumu taslağı doldurur.
+### 2026-08-04T09:41:04Z — LIVE TERMINAL
+- `scripts/live_dashboard.sh` + tmux `holding-live` (60s)
+- Tüm metrikler terminalde; watch döngüsü aktif
+
+- [2026-08-04T09:41:05Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-04-SEC-AUD.md); K4 Cowork oturumu taslağı doldurur.
+### 2026-08-04T12:50:48Z — OPENROUTER
+- scripts/openrouter_client.py · daily_agency llm öncelik OpenRouter
+- Bu cloud run'da OPENROUTER_API_KEY YOK → dry-run; Cursor Secrets'a ekle
+## 2026-08-05T01:21:16Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-08-05T08:42:10Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-05-SEC-SUP.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-08-06T01:18:32Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-08-06T08:43:53Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-06-HRA-REC.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-08-07T01:59:44Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-08-07T07:22:06Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-07-HRA-PRF.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-08-08T00:42:39Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-08-08T06:59:30Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-08-HRA-LRN.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-08-09T00:44:58Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-08-09T07:02:14Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-09-LGL-LIC.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-08-10T00:47:04Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-08-10T07:48:41Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-10-LGL-PRV.md); K4 Cowork oturumu taslağı doldurur.
+
+## 2026-08-10T09:40:02Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+## 2026-08-10T09:40:02Z — MIT ucretsiz Status Agents + CILT11
+- docx 6-domain routing urune uyarlandi; install_free_mit_agents.py + Nightly OpenRouter/ucretsiz mod.
+
+## 2026-08-10T09:40:23Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+## 2026-08-10T12:33:48Z — Gemini LLM katmani
+- llm() oncelik: OpenRouter → Gemini → Anthropic. Chat anahtari sizmıs sayilir — rotate + Secrets.
+### 2026-08-10T10:13:01Z — DOMAIN OBS PIPELINE
+- uploads/*.docx → Domain 1-7 matrix + OTel K8s + TF alerts + CI
+- 🚩900M RED · terraform apply secret gerektirir (dry-run CI)
+
+### 2026-08-10T12:34:26Z — GEMINI LIVE
+- scripts/gemini_client.py · daily_agency LLM öncelik Gemini
+- Smoke LIVE (gemini-flash-latest) · key yalnızca .env (gitignore)
+- 🚩 Key chat'te ifşa → rotate önerilir: https://aistudio.google.com/apikey
+## 2026-08-11T00:46:47Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-08-11T07:14:03Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-11-INF-MCP.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-08-12T00:54:28Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-08-12T07:38:48Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-12-INF-SET.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-08-13T00:55:50Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-08-13T07:40:01Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-13-INF-HKS.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-08-14T00:55:33Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-08-14T07:37:46Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-14-INF-LOP.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-08-15T00:31:46Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-08-15T06:44:09Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-15-STR-INT.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-08-16T00:32:46Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-08-16T06:45:48Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-16-STR-CMP.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-08-17T00:31:35Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-08-17T07:02:42Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-17-STR-GRW.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-08-18T00:31:04Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-08-18T06:50:01Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-18-ENG-PLT.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-08-19T00:31:19Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-08-19T06:51:04Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-19-ENG-APP.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-08-20T00:31:17Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-08-20T06:52:38Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-20-ENG-DEV.md); K4 Cowork oturumu taslağı doldurur.
