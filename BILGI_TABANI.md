@@ -277,3 +277,6 @@
 ### 2026-08-20T11:25:26Z — MERGE WAVE
 - PR #16/#17 (+#14/#10/#11/#15) MERGED · open=0
 - Tek sayfa rapor: uretim/OZET-TEK-SAYFA.md
+
+## 2026-08-21T00:34:01Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.

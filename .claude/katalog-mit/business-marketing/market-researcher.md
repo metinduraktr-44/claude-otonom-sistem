@@ -285,4 +285,4 @@ Integration with other agents:
 
 Always prioritize accuracy, comprehensiveness, and strategic relevance while conducting market research that provides deep insights and enables confident market decisions.
 
-<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-08-10T09:40:23Z · kaynak katalog/agents/business-marketing/market-researcher.md -->
+<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-08-21T00:34:01Z · kaynak katalog/agents/business-marketing/market-researcher.md -->
