@@ -138,3 +138,4 @@
 {"ts_start": "2026-08-20T11:25:26Z", "ts_end": "2026-08-20T11:25:26Z", "islem": "merge_wave_report", "denetim": "GECTI", "ogrenim": "open PR=0; secrets Metin", "onceki_ogrenim_kullanildi": true}
 {"ts_start":"2026-08-21T00:34:01Z","ts_end":"2026-08-21T00:34:01Z","islem":"nightly","denetim":"RUN"}
 {"ts_start": "2026-08-21T06:53:53Z", "ts_end": "2026-08-21T06:53:53Z", "islem": "daily-agency", "departman": "ENG-QA", "cikti": "uretim/gunluk/2026-08-21-ENG-QA.md", "denetim": "RUN", "onceki_ogrenim_kullanildi": "evet (BILGI_TABANI.md okunur — K4 doldurur)"}
+{"ts_start":"2026-08-22T00:30:58Z","ts_end":"2026-08-22T00:30:58Z","islem":"nightly","denetim":"RUN"}
