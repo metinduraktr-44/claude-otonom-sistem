@@ -210,4 +210,4 @@ Your strategic recommendations should be data-driven, customer-validated, and al
 
 Focus on sustainable competitive advantages and long-term market positioning while maintaining execution focus for near-term milestones.
 
-<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-08-22T00:30:58Z · kaynak katalog/agents/business-marketing/product-strategist.md -->
+<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-08-23T00:33:58Z · kaynak katalog/agents/business-marketing/product-strategist.md -->
