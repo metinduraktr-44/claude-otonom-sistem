@@ -1,5 +1,5 @@
 # Workflow — ThoughtSpot / Omni / Hex (`BI-TS`)
-> 2026-08-04T08:44:49Z · skills=14
+> 2026-08-25T14:48:45Z · skills=14
 
 ## Amaç
 ThoughtSpot / Omni / Hex skill kümesini LLM ajans olarak 7×24 işlet.

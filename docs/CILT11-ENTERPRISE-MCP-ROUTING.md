@@ -43,9 +43,14 @@ Her domain için +20 yönlendirme ilkesi kullanıcı docx'inde tanımlı; uygula
 | Aylık skill | `skill-ajans-dongu.yml` | Evet |
 | Upstream SHA | `upstream-sync.yml` | Evet |
 
+## Tam skill tablosu
+Her slash-skill satırı: `docs/CILT12-MCP-SKILL-ROUTING-DETAY.md` (696 skill × 50 domain).
+İş listesi: `docs/IS-LISTESI-MEGA-AJANS.md`. Claude Code yapıştırma: `uretim/devir/CLAUDE-CODE-YAPISTIR-MEGA.md`.
+
 ## Kurulum
 ```bash
 python3 scripts/install_free_mit_agents.py
-# Claude Code: .claude/system_prompt
+python3 scripts/skill_ajans_uretim.py --dogrula
+# Claude Code: uretim/devir/CLAUDE-CODE-YAPISTIR-MEGA.md
 # Cursor: .cursorrules
 ```

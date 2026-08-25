@@ -38,6 +38,10 @@
 - Gelir motoru kararı: hedef iş = CLAUDE OTONOM SİSTEM'in kendisi (bileşen kütüphanesi ürünleştirme). Mevcut 5 iş (Tahmin Uzmanı, VESTRA, İBB Kültür AŞ, Movéa, Response DGA) pilot iç müşteri — dogfooding. Detay: GELIR_MOTORU.md.
 
 <!-- SONRAKİ GİRİŞLER BURAYA — en yeni en üstte -->
+## 2026-08-25T14:48:45Z — skill ajans envanteri
+- skills=696; domains=50; titles=216; pilot_prompts=2440; ekipler=50
+- 🚩 900B karakter RED; Claude Code MASTER üretilidi.
+
 ## 2026-08-04T09:41:05Z — skill ajans envanteri
 - skills=696; domains=50; titles=216; pilot_prompts=2440; ekipler=50
 - 🚩 900B karakter RED; Claude Code MASTER üretilidi.
@@ -301,3 +305,5 @@
 ### 2026-08-25T14:11:49Z — LIVE TERMINAL RESTART
 - tmux holding-live 60s · live_dashboard salt-okuma
 - dotenv missing → LLM DRY-RUN (Secrets bekleniyor)
+
+- [2026-08-25T14:48:27Z] mega-skill-claude-paste: CILT12 routing (696) + IS-LISTESI + Claude Code yapıştırma üretildi; 900B RED eşdeğer uygulandı.

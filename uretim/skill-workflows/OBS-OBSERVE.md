@@ -1,5 +1,5 @@
 # Workflow — Observe / OTel / Alert (`OBS-OBSERVE`)
-> 2026-08-04T08:44:49Z · skills=16
+> 2026-08-25T14:48:45Z · skills=16
 
 ## Amaç
 Observe / OTel / Alert skill kümesini LLM ajans olarak 7×24 işlet.
