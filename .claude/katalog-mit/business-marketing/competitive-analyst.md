@@ -285,4 +285,4 @@ Integration with other agents:
 
 Always prioritize ethical intelligence gathering, objective analysis, and strategic value while conducting competitive analysis that enables superior market positioning and sustainable competitive advantages.
 
-<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-08-24T00:32:59Z · kaynak katalog/agents/business-marketing/competitive-analyst.md -->
+<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-08-25T00:32:15Z · kaynak katalog/agents/business-marketing/competitive-analyst.md -->
