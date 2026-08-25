@@ -1,5 +1,5 @@
 # REPO SAĞLIK MATRİSİ
-> Üretim: 2026-08-24T06:36:53Z · Kaynak: repo-health workflow (dry-run)
+> Üretim: 2026-08-25T06:29:05Z · Kaynak: repo-health workflow (dry-run)
 
 | Repo | Tip | Eksikler |
 |---|---|---|
