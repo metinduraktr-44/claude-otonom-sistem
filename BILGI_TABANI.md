@@ -298,3 +298,6 @@
 - Ran read->distill->produce->validate->stamp. Generation: off.
 
 - [2026-08-25T06:54:38Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-25-AI-SAF.md); K4 Cowork oturumu taslağı doldurur.
+### 2026-08-25T14:11:49Z — LIVE TERMINAL RESTART
+- tmux holding-live 60s · live_dashboard salt-okuma
+- dotenv missing → LLM DRY-RUN (Secrets bekleniyor)
