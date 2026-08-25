@@ -30,3 +30,9 @@
 
 ## PR
 https://github.com/metinduraktr-44/claude-otonom-sistem/pull/13
+
+## Slash Skill Wave (2026-08-25T14:48:12Z)
+- Katalog: `data/slash_skill_katalog.json` · `uretim/slash-skill-katalog/README.md`
+- MASTER: `uretim/devir/MASTER-SLASH-SKILL-AJANS-V3.md`
+- İş listesi: `uretim/IS-LISTESI-SLASH-WAVE.md`
+- 🚩900B RED · paste İPTAL · in-agent
