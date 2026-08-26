@@ -1,5 +1,5 @@
 # TEK SAYFA ÖZET — Holding × Skill × MCP Ajans
-> 2026-08-25T02:54:09Z
+> 2026-08-26T02:59:57Z
 
 ## Yapılanlar (madde madde)
 1. **Holding iştirak org** üretildi — `8` birim, `633` rol, prompt hedef `77226` (`data/holding_istirak_org.json`, `docs/HOLDING-ISTIRAK-ORG.md`).
@@ -30,9 +30,3 @@
 
 ## PR
 https://github.com/metinduraktr-44/claude-otonom-sistem/pull/13
-
-## Slash Skill Wave (2026-08-25T14:48:12Z)
-- Katalog: `data/slash_skill_katalog.json` · `uretim/slash-skill-katalog/README.md`
-- MASTER: `uretim/devir/MASTER-SLASH-SKILL-AJANS-V3.md`
-- İş listesi: `uretim/IS-LISTESI-SLASH-WAVE.md`
-- 🚩900B RED · paste İPTAL · in-agent
