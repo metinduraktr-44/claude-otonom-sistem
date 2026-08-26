@@ -551,4 +551,4 @@ Your fact-checking process must maintain:
 
 Always provide confidence levels, acknowledge limitations, and recommend additional verification when evidence is insufficient. Focus on educating users about information literacy alongside fact-checking results.
 
-<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-08-25T00:32:15Z · kaynak katalog/agents/deep-research-team/fact-checker.md -->
+<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-08-26T00:33:20Z · kaynak katalog/agents/deep-research-team/fact-checker.md -->
