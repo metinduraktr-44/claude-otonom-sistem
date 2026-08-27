@@ -1,0 +1,20 @@
+---
+description: Security OS directory contract (additive to creative 30-file-structure)
+alwaysApply: true
+---
+
+# Security File Structure
+
+| Dir | Role |
+|-----|------|
+| SECURITY_CONTEXT/ | Assets, trust boundaries |
+| SECURITY_RESEARCH/ | Sourced notes |
+| LAYERS/ FIREWALLS/ ENCRYPTION/ | Control domains |
+| CHANGE/ TRANSPARENT_CODE/ CONDITIONAL/ | Process engines |
+| SECURITY_MATRIX/ ASSESSMENTS/ COMPLIANCE/ | Gaps & packs |
+| IMPLEMENTATION/ REPORTS/ MEMORY/ CALENDAR/ | Exec + archive inputs |
+| SECURITY/STATE.md | Security faz/mode |
+| EXPERTS/_SEED.md | Security experts seed |
+| tools/security-scanners/ | Defense scanners only |
+
+Do not dump controls into repo root. Creative dirs (CONTEXT/, CANVA_OPS/) untouched.

@@ -172,7 +172,9 @@ kopyala-çalıştır hazır çıktı. Genel/boş dil ve dolgu yok.
 - `scripts/daily_agency.py` — 14 başkan / 46 departman rotasyonu, `--org-json`, `--dogrula`.
 - `scripts/validate.py` — yapısal/anlamsal/bütünlük denetimi (CI'da koşar).
 - `scripts/spec_validate.py` — Canva export / PNG spec doğrulama (fail-open hooks).
+- `scripts/secret_scan.py` · `scripts/ethics_check.py` — GIGA Security hygiene (CILT14).
 - `.claude/system_prompt` · `.cursorrules` — Claude Code / Cursor yapıştırma hedefleri (`.cursor/rules/*.mdc` = GIGA migration hedefi).
+- `docs/CILT14-CURSOR-GIGA-SECURITY.md` — Security Architecture & Governance OS (ASSESS-ONLY).
 
 ## EK B — Dürüstlük notu (kullanıcıya)
 Bu belge, isteğin **çalışan** hâlidir. İmkânsız boyutlar (900 milyar/900 milyon

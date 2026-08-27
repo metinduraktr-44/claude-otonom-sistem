@@ -2,7 +2,7 @@
   "mcpServers": {
     "canva": {
       "url": "https://mcp.canva.com/mcp",
-      "description": "Canva remote MCP \u2014 OAuth via Cursor Settings. Without auth: BRIEF-ONLY."
+      "description": "Canva remote MCP — OAuth via Cursor Settings. Without auth: BRIEF-ONLY."
     }
   }
 }
