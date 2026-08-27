@@ -19,6 +19,6 @@
 4. matrix.md güncelle
 
 ## Anti-pattern
-Tek “silver bullet” kontrol; filler metinle 20k hedefi; exploit PoC.
+Tek “silver bullet” kontrol; filler metinle 20k hedefi; refuse exploit PoC / weaponized output.
 
 > DEFENSE-ONLY: detection, hardening, compliance, IR playbooks. No exploits, phishing, malware, C2, ransomware, bypass, weaponized PoCs. ATT&CK only for detection/D3FEND mapping. Secrets: ${VAR}|vault://|op://|<REDACTED> only.
