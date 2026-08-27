@@ -1,18 +1,21 @@
 {
   "name": "@agency/canva-client",
   "version": "0.1.0",
-  "description": "Canva API client scaffold — OAuth PKCE TODO",
+  "description": "Canva OAuth PKCE client scaffold — Creative Agency OS",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
-    "start": "node dist/index.js"
+    "typecheck": "tsc --noEmit"
   },
-  "keywords": ["canva", "creative-agency"],
-  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
   "devDependencies": {
-    "typescript": "^5.5.0"
-  }
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "private": true
 }

@@ -1,38 +1,47 @@
-# Canva Client — OAuth PKCE TODO
+# Canva Client — OAuth PKCE Scaffold
 
-TypeScript scaffold for Canva Connect API integration.
+> Creative Agency OS · `tools/canva-client/`  
+> **Varsayılan mod:** `CANVA:BRIEF-ONLY` — OAuth gerekmez
 
-## Status
-- **Faz 0:** Endpoint stubs (autofill, export, resize)
-- **Faz 4:** OAuth PKCE flow
+## Durum
 
-## OAuth PKCE (TODO)
-1. Register app at [Canva Developer Portal](https://www.canva.com/developers/)
-2. Set redirect URI (local: `http://127.0.0.1:3000/callback`)
-3. Store in Cursor Secrets:
-   - `CANVA_CLIENT_ID`
-   - `CANVA_CLIENT_SECRET` (if required)
-4. Implement PKCE: code_verifier + code_challenge (S256)
-5. Token refresh → `accessToken` in client config
+| Bileşen | Durum |
+|---------|-------|
+| PKCE verifier/challenge | ✅ skeleton |
+| Authorize URL builder | ✅ skeleton |
+| Token exchange | ⏳ TODO |
+| Token refresh | ⏳ TODO |
+| Job polling (autofill/resize/export) | ⏳ TODO |
+| DESIGN_REGISTRY integration | ✅ format helper |
 
-## MCP alternative
-Cursor MCP: `.cursor/mcp.json` → `https://mcp.canva.com/mcp`  
-Prefer MCP when CANVA:ON in Cursor; use this client for batch/script automation.
+## Kurulum (CANVA:ON için)
 
-## Build
 ```bash
 cd tools/canva-client
 npm install
 npm run build
-npm start
 ```
 
-## Registry
-Design tracking: `CANVA_OPS/DESIGN_REGISTRY.csv`
+## Environment (Cursor Secrets / .env)
 
-## Endpoints (stub)
-| Method | Purpose |
-|--------|---------|
-| `autofill()` | Brief data → design fields |
-| `export()` | PNG/JPG/PDF/MP4 export |
-| `resize()` | Channel spec dimensions |
+```
+CANVA_CLIENT_ID=
+CANVA_CLIENT_SECRET=
+CANVA_REDIRECT_URI=http://localhost:3000/callback
+```
+
+## MCP alternatifi
+
+Canva MCP (`https://mcp.canva.com/mcp`) — `.cursor/mcp.json`  
+OAuth gerektirmeden MCP üzerinden design ops mümkün olabilir; PKCE yine de export pipeline için önerilir.
+
+## Registry
+
+Export sonrası satır: `CANVA_OPS/DESIGN_REGISTRY.csv`  
+Helper: `formatRegistryRow()` in `src/index.ts`
+
+## Referans
+
+- Rule: `.cursor/rules/40-canva-ops.mdc`
+- Skills: `.cursor/skills/canva-*`
+- MCP doc: `CANVA_OPS/MCP_TOOLS.md`

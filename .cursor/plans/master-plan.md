@@ -8,7 +8,8 @@
 - [x] `.cursor/skills/` Canva + agency skills
 - [x] `STATE.md`, `CONTEXT/`, klasör iskeleti
 - [x] `tools/canva-client/` scaffold
-- [x] `scripts/spec_validate.py` stub
+- [x] `scripts/spec_validate.py` (Pillow pixel/ratio/size)
+- [x] Faz 0 ingestion — CONTEXT_BRIEF, ORG, MATRIX
 - [ ] Cursor restart + `/baslat` smoke
 
 ## Faz 1 — Context Ingestion

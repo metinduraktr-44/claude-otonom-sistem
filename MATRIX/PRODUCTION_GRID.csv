@@ -1,0 +1,13 @@
+channel,format,width,height,ratio,max_kb,placement,platform
+meta,feed_image,1080,1350,4:5,30720,feed,meta
+meta,stories_reels,1080,1920,9:16,30720,stories,meta
+meta,carousel,1080,1080,1:1,30720,feed,meta
+meta,link_preview,1200,628,1.91:1,30720,link,meta
+tiktok,in_feed,1080,1920,9:16,294912,in_feed,tiktok
+google,horizontal,1200,628,1.91:1,5120,display,google
+google,square,1200,1200,1:1,5120,display,google
+youtube,standard,1920,1080,16:9,,-,youtube
+youtube,shorts,1080,1920,9:16,,-,youtube
+iab,medium_rectangle,300,250,1.2:1,150,display,iab
+iab,leaderboard,728,90,8.09:1,150,display,iab
+iab,mobile_banner,320,50,6.4:1,150,mobile,iab

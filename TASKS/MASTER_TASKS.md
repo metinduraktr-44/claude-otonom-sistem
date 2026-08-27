@@ -1,17 +1,15 @@
-# MASTER TASKS — Ajans Görev Listesi
+# MASTER_TASKS — Ajans Görev Listesi
 
-> Faz 0 bootstrap. Faz 1+ ingestion sonrası genişlet.
+## Faz 0 — Bootstrap ✅
 
-## Aktif
-- [ ] CONTEXT_BRIEF doldur
-- [ ] `/baslat` smoke test
-- [ ] Canva OAuth PKCE kurulumu (opsiyonel)
+- [x] `.cursor/` rules, commands, skills, hooks, mcp
+- [x] Klasör iskeleti + Faz 0 ingestion
+- [x] `tools/canva-client/` + `scripts/spec_validate.py`
 
-## Backlog (Faz 1–7)
-- [ ] `.cursorrules` → `.mdc` migrasyon
-- [ ] İlk brief → scenario → QA döngüsü
-- [ ] spec_validate.py MATRIX kuralları (Faz 5)
-- [ ] Production pipeline uçtan uca (Faz 7)
+## Faz 1 — Context (sıradaki)
 
-## Tamamlanan
-- [x] GIGA Master bootstrap iskelet (Faz 0)
+- [ ] Aktif marka/müşteri seçimi
+- [ ] CONTEXT/INBOX materyal işleme
+- [ ] İlk RESEARCH notları
+
+Bkz. `.cursor/plans/master-plan.md`

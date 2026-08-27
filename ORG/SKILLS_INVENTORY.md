@@ -1,30 +1,33 @@
-# SKILLS INVENTORY — Creative Agency
+# SKILLS_INVENTORY — Slash Skill Envanteri
 
-> `.cursor/skills/` envanteri. Faz 2 senkron.
+> Kaynak: `data/slash_skill_katalog.json` · 688 skill · 9 domain · 2026-08-25
 
-## Canva Pipeline
-| Skill | Açıklama |
-|-------|----------|
-| canva-edit-design | Design create/edit (MCP) |
-| canva-brand-check | Marka tutarlılığı |
-| canva-design-feedback | Görsel eleştiri |
-| canva-implement-feedback | Feedback uygulama |
-| canva-resize-for-social | Kanal resize |
-| canva-bulk-create | Toplu varyant |
-| canva-export-pipeline | Export workflow |
-| canva-production-pipeline | Uçtan uca pipeline |
+## Özet
 
-## Agency Core
-| Skill | Açıklama |
-|-------|----------|
-| brief-writer | Kampanya brief |
-| creative-scenarios | Senaryo/storyboard |
-| spec-matrix | Kanal spec lookup |
-| expert-engine | Persona yönetimi |
-| archive-loop | Arşivleme |
+| Metrik | Değer |
+|--------|------:|
+| Toplam skill | 688 |
+| Domain | 9 |
+| Title (ünvan) | 30 |
+| Prompt hedef (index) | 10980 |
 
-## Commands (slash)
-`baslat` · `devam` · `resume` · `faz-raporu` · `aylik-dongu` · `canva-uret` · `brief-uret` · `uzman-guncelle` · `spec-dogrula` · `arsivle`
+## Creative Agency OS skills (`.cursor/skills/`)
 
-## Rules (.mdc)
-`00-agency-core` · `10-brand-guardrails` · `20-spec-validation` · `30-file-structure` · `40-canva-ops`
+14 ajans-özel skill — holding kataloğunu **duplicate etmez**, referans alır:
+
+`brief-writer` · `creative-scenarios` · `spec-matrix` · `expert-engine` · `archive-loop` · `canva-edit-design` · `canva-brand-check` · `canva-design-feedback` · `canva-implement-feedback` · `canva-resize-for-social` · `canva-bulk-create` · `canva-export-pipeline` · `canva-production-pipeline`
+
+## Holding skill katalog referansı
+
+- Tam katalog: `data/slash_skill_katalog.json`
+- Üretim script: `scripts/slash_skill_katalog_uret.py`
+- Skill-title haritası: `data/skill_title_haritasi.json`
+- Skill envanteri: `data/skill_envanteri.json`
+
+## Red flag
+
+🚩 ≥900M/900B karakter/prompt RED — sözleşme: 122×4–12 KiB + referans zinciri
+
+## Matris
+
+Departman eşlemesi: `ORG/SKILL_MATRIX.md`
