@@ -1,0 +1,17 @@
+---
+description: LATOS kanonik dizin ağacı (Canva 30-file-structure ile çakışmaz — ID 32).
+globs: 
+alwaysApply: true
+---
+
+# LATOS File Structure
+
+Yazma yerleri:
+- Envanter → `ROSTER/`
+- Kart → `JOB_CARDS/{title}/`
+- Uzman → `EXPERTS/` · Yetenek → `SKILLS_TALENT/` + `EXPERTS_TALENT/`
+- Prompt → `PROMPTS/{TITLES,TEAMS,EXECUTION}/`
+- Tahmin → `FORECASTS/` · QA → `QA/` · STATE → `LATOS/STATE.md`
+- Arşiv silme yok → `ARCHIVE/YYYY-MM-DD_HHMM/`
+
+Canva (`SCENARIOS/`, `BRIEFS/`) ve Security (`SECURITY/`, `COMPLIANCE/`) yollarına yazma.

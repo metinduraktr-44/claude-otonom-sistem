@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "hooks": {
+    "afterFileEdit": [
+      {
+        "command": "python3 scripts/qa_check.py --hook",
+        "description": "LATOS QA (fail-open). Job-card/inventory heuristics."
+      },
+      {
+        "command": "python3 scripts/citation_check.py --hook",
+        "description": "LATOS citation heuristic (fail-open)."
+      }
+    ],
+    "beforeShellExecution": [
+      {
+        "command": "bash .cursor/hooks/guard.sh",
+        "description": "Block dangerous shell; allow git recovery; fail-open."
+      }
+    ],
+    "stop": [
+      {
+        "command": "bash .cursor/hooks/phase-audit.sh",
+        "description": "Phase audit stub — STATE + QA log (fail-open)."
+      }
+    ]
+  },
+  "_merge_notes": "When Canva/Security land: keep their afterFileEdit entries (spec_validate, secret-scan, ethics-check) alongside LATOS; all fail-open."
+}

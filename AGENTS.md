@@ -34,3 +34,55 @@ This repository is a **Python 3 (standard-library only) + Bash automation system
 
 ### Reading
 `uretim/OZET-TEK-SAYFA.md`, `docs/SECRETS-DRYRUN-MATRISI.md`, `uretim/domain-matrix/README.md`
+
+---
+
+## Creative Agency OS / Canva Dual-Mode (GIGA)
+
+> Separate from Cloud Agent testing guidance above. Holding HQ scripts unchanged. Full Canva tree may live on its PR; stub index on this branch.
+
+| Item | Path |
+|------|------|
+| Index (stub/full) | `docs/CILT13-CURSOR-GIGA-CANVA.md` |
+| Checklist | `docs/IS-LISTESI-GIGA-CANVA.md` (Canva PR) |
+| Paste | `uretim/devir/CURSOR-GIGA-MASTER-CANVA.md` (Canva PR) |
+
+**Default flag:** `CANVA:BRIEF-ONLY`. Additive with LATOS/Security.
+
+---
+
+## Security Architecture & Governance OS (GIGA)
+
+> Additive to Cloud + Creative Agency. Defense-only. Full tree may live on Security PR; stub index here.
+
+| Item | Path |
+|------|------|
+| Index (stub/full) | `docs/CILT14-CURSOR-GIGA-SECURITY.md` |
+| Checklist | `docs/IS-LISTESI-GIGA-SECURITY.md` (Security PR) |
+| Paste | `uretim/devir/CURSOR-GIGA-MASTER-SECURITY.md` (Security PR) |
+
+**Default mode:** `MODE=ASSESS-ONLY`. No exploits / weaponized PoCs.
+
+---
+
+## LATOS — Living AI Talent & Organization System (GIGA)
+
+> Additive to Cloud + Canva + Security. Title/job-card/talent OS. Not a 900M single prompt — 🚩 RED; phased self-expand.
+
+| Item | Path |
+|------|------|
+| Paste prompt | `uretim/devir/CURSOR-GIGA-MASTER-LATOS.md` |
+| Index | `docs/CILT15-CURSOR-GIGA-LATOS.md` |
+| Checklist | `docs/IS-LISTESI-GIGA-LATOS.md` |
+| Rules | `.cursor/rules/00-latos-core.mdc` … `50-forecast-calibration.mdc` (`32-latos-file-structure` — avoids Canva `30-file-structure`) |
+| State | `LATOS/STATE.md` (+ section in root `STATE.md`) |
+| Inventory | `ROSTER/TITLE_INVENTORY.md` |
+| QA | `python3 scripts/qa_check.py` · `python3 scripts/citation_check.py` |
+
+**Agent commands:** `/baslat-latos` · `/title-kesif` · `/is-karti` · `/uzman-guncelle` · `/yetenek-guncelle` · `/roadmap` · `/prompt-uret` · `/tahmin` · `/aylik-dongu` (+ shared `/devam` `/resume` `/faz-raporu` `/arsivle`)
+
+**Inventory sources:** `data/skill_title_haritasi.json` · `.claude/org/org.json` · `docs/UNVAN-HIYERARSISI.md` · `.claude/agents` · git-deleted `uretim/rol-kartlari/`
+
+**Hybrid:** skill if discovered after restart; else master-prompt inline — same output paths.
+
+**Do not** invent title lists or verified top-100 people; mark `unverified`.

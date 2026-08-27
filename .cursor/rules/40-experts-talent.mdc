@@ -1,0 +1,13 @@
+---
+description: Uzman/yetenek girdilerinde kaynak+URL+timestamp; unverified işaretle.
+globs: EXPERTS/**,EXPERTS_TALENT/**
+alwaysApply: false
+---
+
+# Experts & Talent Citations
+
+Her kişi/yetenek satırı:
+- name · role/org · evidence URL(s) · timestamp (UTC) · quality note
+- Doğrulanamazsa `status: unverified` — yayın/“top-100 kesin” iddiası yok.
+- Uydurma isim listesi yasak; seed mini-listeler metodoloji örneğidir.
+- Aylık döngü: READ→DELTA→DIFF→WRITE→DIGEST.
