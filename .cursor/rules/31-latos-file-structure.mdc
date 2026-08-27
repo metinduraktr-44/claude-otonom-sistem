@@ -1,0 +1,23 @@
+---
+description: LATOS kanonik dosya ağacı — additive agency/security ile
+alwaysApply: true
+---
+
+# LATOS File Structure
+
+| Yol | İçerik |
+|-----|--------|
+| `ROSTER/TITLE_INVENTORY.md` | Master title listesi (633+) |
+| `JOB_CARDS/{slug}/` | İş kartları (Faz 4) |
+| `EXPERTS/{title}/` | Top-100 uzman arşivi |
+| `EXPERTS_TALENT/{skill}/` | Yetenek uzmanları |
+| `SKILLS_TALENT/` | Yetenek taksonomisi |
+| `FORECASTS/{title}/` | Günlük tahminler |
+| `PROMPTS/{TITLES,TEAMS,EXECUTION}/` | Prompt setleri |
+| `ROADMAP/` · `OPERATIONS/` | Hedef & 7/24 |
+| `CONTEXT/` · `RESEARCH/` · `TASKS/` | Bağlam & araştırma |
+| `ORG/ORG_CHART.md` | LATOS hiyerarşi görünümü |
+| `.cursor/skills/*-engine/` | LATOS skill factory |
+| `.cursor/plans/latos-master-plan.md` | Faz 0–9 plan |
+
+Security (`SECURITY_*`, `LAYERS/`) ve agency (`BRIEFS/`, `CANVA_OPS/`) klasörlerine dokunma. Root'a rastgele dosya ekleme.

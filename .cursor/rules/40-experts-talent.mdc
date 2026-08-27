@@ -1,0 +1,22 @@
+---
+description: Uzman ve yetenek kayıtları — kaynak, URL, timestamp zorunlu
+globs: EXPERTS/**, EXPERTS_TALENT/**
+alwaysApply: false
+---
+
+# Experts & Talent
+
+Her uzman/yetenek girdisi:
+- **İsim** · ünvan/kurum
+- **Kanıt URL'leri** (en az 1)
+- **Timestamp** (UTC ISO-8601)
+- Doğrulanamayan → `unverified` etiketi
+
+## İnsan denetimi
+Top-100 listeleri yayınlanmadan önce insan onayı gerekir. LLM hallüsinasyon riski — bağlayıcı değil.
+
+## Motor
+`latos-expert-engine` skill veya inline. Aylık güncelleme: `/latos-aylik-dongu` + `CALENDAR/EXPERTS_UPDATE.md`.
+
+## QA
+`scripts/citation_check.py` — URL/timestamp eksikse uyarı.

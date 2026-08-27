@@ -1,0 +1,22 @@
+---
+description: Tahmin kalibrasyonu — Brier score, Tetlock, olasılıksal düşünme
+globs: FORECASTS/**
+alwaysApply: false
+---
+
+# Forecast Calibration
+
+Her title günde min **200 tahmin** hedefi (`FORECASTS/{title}/YYYY-MM-DD.md`) — **fazlı üretim**, tek günde tamamlanmaz.
+
+## Pratikler (Tetlock)
+- Olasılıkla ifade et (%)
+- Disconfirming kanıt ara
+- Fermi parçalama
+- Sık güncelle; gerçekleşince skorla
+
+## Metrik
+- **Brier score** — `FORECASTS/CALIBRATION.md`
+- Referans: superforecaster ~0.166 vs normal ~0.259
+
+## Guardrail
+Tahminler bağlayıcı değil; insan denetimi. Kötü kalibrasyon → recalibrate.

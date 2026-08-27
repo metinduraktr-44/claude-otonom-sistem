@@ -2,6 +2,10 @@
 > Protokol: Her işlem [4] ÖĞREN adımında buraya "## [tarih] — [konu]" girişi ekler. En yeni en üstte.
 > Çelişki kuralı: Yeni öğrenim eskisiyle çelişiyorsa ⚠️ ÇELİŞKİ etiketi + hangisinin geçerli olduğu yazılır.
 
+## 2026-08-27 — LATOS GIGA Faz 0–1 bootstrap
+
+CURSOR LATOS track additive kuruldu: 633 title envanter (`ROSTER/TITLE_INVENTORY.md`), 72 git-silinmiş rol-kartlari dokümante, hooks qa/citation, 8 skill + 3 subagent iskelet, 2 JOB_CARDS skeleton. Karakter hedefleri fazlı; 900M char/prompt imkânsız — dürüst plan. Sonraki: Faz 1 git detay, Faz 2 research, restart+DEVAM.
+
 ## 2026-08-27 — Security GIGA Faz 1–4 tranche (defense-only)
 
 Research DIGEST + 11 ORG rol + EXPERTS top100 seed + 6 skill derinlik + **120 kontrol** (6×20) + matrix CSV. MODE=ASSESS-ONLY. Sonraki: controls 021–100, skill 20k kalan, GHA pin gap.

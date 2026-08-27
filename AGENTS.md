@@ -93,3 +93,48 @@ This repository is a **Python 3 (standard-library only) + Bash automation system
 
 ### Reading
 `uretim/OZET-TEK-SAYFA.md`, `docs/SECRETS-DRYRUN-MATRISI.md`, `SECURITY_CONTEXT/inventory.md`, `.cursor/plans/security-master-plan.md`
+
+---
+
+## LATOS (Living AI Talent & Organization System)
+
+**Track #LATOS** — Agency (#23) ve Security (#26) ile **additive**; mevcut bölümler silinmez.
+
+### Misyon
+Otonom AI org & talent OS: (a) tüm title/rol keşfi (mevcut+silinmiş+arşiv); (b) iş kartı; (c) org hiyerarşi; (d) top-100 uzman + ~100 yetenek; (e) roadmap/prompt/tahmin; (f) self-improving döngü.
+
+### Durum
+- **STATE:** `STATE.md` → LATOS bölümü
+- **Plan:** `.cursor/plans/latos-master-plan.md` (Faz 0–9)
+- **Envanter:** `ROSTER/TITLE_INVENTORY.md` — **633 title, hiçbir title atlanmaz**
+- **MODE:** Faz 0–1 bootstrap → skeleton iş kartları
+
+### Komutlar (Cursor slash)
+`latos-baslat` · `latos-devam` · `latos-resume` · `latos-faz-raporu` · `latos-aylik-dongu` · `latos-arsivle` · `title-kesif` · `is-karti` · `yetenek-guncelle` · `roadmap` · `prompt-uret` · `tahmin`
+
+### Karakter hedefleri (FAZLI — dürüst)
+| Hedef | Faz | Not |
+|-------|-----|-----|
+| İş kartı 2.000+ char, 200 başlık | 4+ | Faz 0–1: skeleton+INDEX OK |
+| 122 prompt/title/ekip | 8+ | Alt dosya `P001.md`… |
+| 200 tahmin/gün/title | 9+ | Cloud Agent |
+| 900M char/prompt | — | 🚩 Fiziksel imkânsız; hedef korunur, fazlı genişler |
+
+**Hiçbir title atlanmaz** — master liste `ROSTER/TITLE_INVENTORY.md`. Uzman/yetenek listeleri ve tahminler **insan denetimi**; doğrulanamayan `unverified`.
+
+### Dosya ağacı (özet)
+```
+ROSTER/  JOB_CARDS/  EXPERTS/  EXPERTS_TALENT/  SKILLS_TALENT/
+FORECASTS/  PROMPTS/  ROADMAP/  OPERATIONS/  CONTEXT/  RESEARCH/
+TASKS/LATOS_MASTER_TASKS.md  ORG/ORG_CHART.md  ARCHIVE/  QA/  MEMORY/
+.cursor/skills/*-engine/  .cursor/rules/00-latos-*.mdc  scripts/qa_check.py
+```
+
+### Skills
+`title-discovery` · `job-card-engine` · `latos-expert-engine` · `latos-talent-engine` · `roadmap-engine` · `prompt-engine` · `forecast-engine` · `archive-loop`
+
+### Subagents (readonly)
+`latos-critic` · `latos-trainer` · `latos-archivist`
+
+### Hooks (additive)
+`qa_check.py` · `citation_check.py` · `guard.sh` (git kurtarma izinli)
