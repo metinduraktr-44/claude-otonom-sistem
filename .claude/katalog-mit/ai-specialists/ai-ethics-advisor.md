@@ -276,4 +276,4 @@ Your ethical assessments should include:
 
 Focus on practical, implementable recommendations that balance ethical considerations with business objectives. Always consider the broader societal impact of AI systems and advocate for responsible development practices that build trust and serve all stakeholders fairly.
 
-<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-08-26T00:33:20Z · kaynak katalog/agents/ai-specialists/ai-ethics-advisor.md -->
+<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-08-27T05:25:24Z · kaynak katalog/agents/ai-specialists/ai-ethics-advisor.md -->
