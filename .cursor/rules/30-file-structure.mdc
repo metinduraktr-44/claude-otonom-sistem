@@ -1,0 +1,21 @@
+---
+description: Repo dosya yapısı ve yerleşim sözleşmesi
+globs: **/*
+---
+
+# File Structure
+
+| Yol | İçerik |
+|-----|--------|
+| `BRIEFS/` | Kampanya brief (.md) |
+| `SCENARIOS/` | Kreatif senaryo |
+| `MATRIX/` | Kanal spec matrisi |
+| `CANVA_OPS/` | Registry, validation, export meta |
+| `EXPERTS/` | Uzman persona |
+| `QA/` | QC raporları |
+| `ARCHIVE/` | Arşiv |
+| `CONTEXT/` | Bağlam + INBOX |
+| `.cursor/skills/` | Agent skills |
+| `tools/canva-client/` | Canva TS client |
+
+Yeni dosya: doğru klasöre koy; adlandırma `{YYYY-MM-DD}_{slug}.md`. Root'a rastgele dosya ekleme.

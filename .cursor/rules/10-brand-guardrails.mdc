@@ -1,0 +1,16 @@
+---
+description: Marka ve brief guardrails — ton, yasaklı ifadeler, marka tutarlılığı
+globs: BRIEFS/**, SCENARIOS/**
+---
+
+# Brand Guardrails
+
+Brief ve senaryo dosyalarında:
+
+1. **Ton:** CONTEXT_BRIEF'teki marka tonuna uy; agresif/sansasyonel dil yok (marka istemedikçe).
+2. **Claim:** Kanıtsız süperlatif, tıbbi/hukuki iddia, rakip ismi karşılaştırması yasak (brief açıkça izin vermedikçe).
+3. **CTA:** Her senaryoda tek net CTA; kanal spec'ine uygun uzunluk (`MATRIX/`).
+4. **Safe zone:** 9:16 ve 4:5 için kritik metin/logo merkez %80'de; UI overlap riski not et.
+5. **Dil:** TR birincil; EN varyant istenirse ayrı bölüm.
+
+Onay öncesi `critic-copy` subagent önerilir.

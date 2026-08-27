@@ -1,7 +1,44 @@
-# AGENTS.md — Claude Otonom Sistem
+# AGENTS.md — Claude Otonom Sistem + Creative Agency OS
 
 ## Product
-Self-improving Claude orchestration (Holding HQ). Runtime = Python 3 stdlib + Bash + GitHub Actions. `katalog/` = MIT vendored templates (davila7), not app dependencies.
+Self-improving Claude orchestration (Holding HQ) + **Otonom AI Creative Agency Operating System** (GIGA Master bootstrap). Runtime = Python 3 stdlib + Bash + GitHub Actions. `katalog/` = MIT vendored templates (davila7), not app dependencies.
+
+## Creative Agency OS (GIGA Master — Faz 0 iskelet)
+- **Durum:** `STATE.md` — phase=0, CANVA=BRIEF-ONLY (varsayılan)
+- **Bağlam:** `CONTEXT/CONTEXT_BRIEF.md` — post-ingestion TODO
+- **Kanal spec:** `MATRIX/CHANNEL_MATRIX.md`
+- **Plan:** `.cursor/plans/master-plan.md` (Faz 0–7)
+- **Komutlar:** `.cursor/commands/` — `/baslat`, `/devam`, `/canva-uret`, …
+- **Skills:** `.cursor/skills/` — Canva pipeline, brief-writer, spec-matrix, …
+- **Critics:** `.cursor/agents/` — critic-copy, critic-design, critic-spec (readonly)
+- **Canva client:** `tools/canva-client/` (OAuth PKCE TODO)
+- **Spec validator:** `python3 scripts/spec_validate.py` → `CANVA_OPS/VALIDATION.log`
+- **🚩 Prompt boyutu:** 900k+ karakter tek dosyada YASAK; fazlı `.cursor/rules/*.mdc` + skills ile kümülatif
+- **Legacy:** `.cursorrules` → `.cursor/rules/*.mdc` migrasyonu yap (not: eski dosya hâlâ referans)
+
+### Klasör sözleşmeleri
+| Klasör | Amaç |
+|--------|------|
+| `BRIEFS/` | Kampanya brief çıktıları |
+| `SCENARIOS/` | Kreatif senaryo/storyboard |
+| `MATRIX/` | Kanal × format spec matrisi |
+| `CANVA_OPS/` | Design registry, validation log, export metadata |
+| `EXPERTS/` | Uzman persona envanteri (Faz 2+) |
+| `QA/` | Kalite kontrol raporları |
+| `ARCHIVE/` | Arşivlenmiş kampanyalar |
+| `RESEARCH/` | Pazar/rakip araştırması |
+| `TASKS/` | Master görev listesi |
+| `ORG/` | Org chart + skills envanteri |
+
+### Agency komutları (Cursor slash)
+`baslat` · `devam` · `resume` · `faz-raporu` · `aylik-dongu` · `canva-uret` · `brief-uret` · `uzman-guncelle` · `spec-dogrula` · `arsivle`
+
+### TODO (post-ingestion — Faz 1+)
+- [ ] CONTEXT_BRIEF doldur (marka, kanal, KPI)
+- [ ] EXPERTS/ persona seed
+- [ ] Canva OAuth PKCE (`tools/canva-client/`)
+- [ ] `.cursorrules` → `.mdc` tam migrasyon
+- [ ] İlk brief → spec-dogrula → QA döngüsü
 
 ## Cursor Cloud specific instructions
 

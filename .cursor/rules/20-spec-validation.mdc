@@ -1,0 +1,18 @@
+---
+description: Kanal spec doğrulama — boyut, oran, dosya limiti
+globs: MATRIX/**, CANVA_OPS/**
+---
+
+# Spec Validation
+
+`MATRIX/CHANNEL_MATRIX.md` bağlayıcı referanstır.
+
+- Export öncesi: genişlik × yükseklik, aspect ratio, max file size kontrolü
+- Safe zone: Meta 9:16 üst %14, alt %20–35, yan %6
+- TikTok: 9:16 zorunlu; video 9–15s öneri
+- Google Display: 1200×628 (1.91:1) + 1200×1200 (1:1)
+- IAB: 300×250, 728×90, 320×50, 300×600 standart
+
+Doğrulama: `python3 scripts/spec_validate.py <dosya>` veya `/spec-dogrula`.
+
+Sapma → `CANVA_OPS/VALIDATION.log` + düzeltme önerisi.

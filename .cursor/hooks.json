@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "hooks": {
+    "afterFileEdit": [
+      {
+        "command": "python3 scripts/spec_validate.py --hook",
+        "description": "MATRIX/CANVA_OPS dosya düzenlemelerinde spec validator stub çalıştırır; sonuç CANVA_OPS/VALIDATION.log"
+      }
+    ],
+    "stop": [
+      {
+        "command": "echo '[hooks] stop placeholder — Faz 2: faz-raporu + STATE.md güncelleme'",
+        "description": "Oturum bitişinde durum damgası (placeholder)"
+      }
+    ]
+  }
+}
