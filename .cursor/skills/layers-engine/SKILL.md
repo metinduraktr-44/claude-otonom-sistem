@@ -25,3 +25,6 @@ ASSESS-ONLY. Batch üretim `/kontrol-uret` ile; exploit yok.
 
 ## TODO
 20k: D3FEND teknik map derinliği, katman diyagram SVG/md, 100 kontrol tamamı (şimdi 001–020).
+
+## Depth status
+Bu tur ~3434 karakter (SKILL+references). **Kalan ~20k hedefe:** ~16566. Sonraki: ek kanonik özet + holding örnekleri (padding yok).

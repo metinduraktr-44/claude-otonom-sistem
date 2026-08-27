@@ -25,3 +25,6 @@ ASSESS-ONLY. Weak-crypto kırma / downgrade saldırı tarifi YASAK.
 
 ## TODO
 20k: algoritma allowlist tablosu, library sürüm matrisi, HNDL risk skorlama.
+
+## Depth status
+Bu tur ~4114 karakter (SKILL+references). **Kalan ~20k hedefe:** ~15886. Sonraki: ek kanonik özet + holding örnekleri (padding yok).

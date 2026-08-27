@@ -29,3 +29,6 @@ Türkçe sinyal · dosya yolu · GECTI|KALDI · 1 satır öğrenim
 
 ## Depth
 `references/` — politika + runbook. **TODO ~20k:** vault sağlayıcı matrisleri, GHA mask örnekleri, false-positive katalog (kalan ~12k).
+
+## Depth status
+Bu tur ~5945 karakter (SKILL+references). **Kalan ~20k hedefe:** ~14055. Sonraki: ek kanonik özet + holding örnekleri (padding yok).

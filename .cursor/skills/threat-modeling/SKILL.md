@@ -28,3 +28,6 @@ Tablo: varlık | tehdit sınıfı | kontrol | öncelik
 
 ## Depth TODO
 ~20k hedef; kalan: LINDDUN privacy, abuse-case şablonları, diagram örnekleri.
+
+## Depth status
+Bu tur ~5030 karakter (SKILL+references). **Kalan ~20k hedefe:** ~14970. Sonraki: ek kanonik özet + holding örnekleri (padding yok).

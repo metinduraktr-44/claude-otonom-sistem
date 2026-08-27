@@ -28,3 +28,6 @@ Tek satır crosswalk veya tablo; GECTI|KALDI
 
 ## TODO ~20k
 SOC2 CC mapping, Tam CIS IG1 checklist, FedRAMP düşük profil ASSESS.
+
+## Depth status
+Bu tur ~4796 karakter (SKILL+references). **Kalan ~20k hedefe:** ~15204. Sonraki: ek kanonik özet + holding örnekleri (padding yok).

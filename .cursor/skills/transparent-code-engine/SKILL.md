@@ -25,3 +25,6 @@ ASSESS-ONLY. Supply-chain saldırı simülasyonu / exploit yok.
 
 ## TODO
 20k: CycloneDX örnek pipeline, Scorecard skor yorumu, attestation verify runbook.
+
+## Depth status
+Bu tur ~3816 karakter (SKILL+references). **Kalan ~20k hedefe:** ~16184. Sonraki: ek kanonik özet + holding örnekleri (padding yok).
