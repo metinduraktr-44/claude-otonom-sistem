@@ -19,7 +19,7 @@ faz: 3
 mode: ASSESS-ONLY
 son_komut: devam-faz3-controls
 ts: 2026-08-27T13:00:00Z
-ethics: pending-retest
-secret_scan: pending-retest
-notlar: "FAZ1 CONTEXT + kontrol katalogları + matrix + ORG. Detay: SECURITY/STATE.md"
+ethics: GECTI
+secret_scan: GECTI
+notlar: "FAZ1+3/5 GEÇTİ. Detay: SECURITY/STATE.md"
 ```
