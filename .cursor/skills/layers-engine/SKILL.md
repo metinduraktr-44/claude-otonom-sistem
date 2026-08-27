@@ -1,6 +1,6 @@
 ---
 name: layers-engine
-description: "Katmanlı güvenlik kontrolleri üret/doğrula. Defense-only Security OS skill. Use for ASSESS-ONLY gap/control work."
+description: "Defense-in-depth layer controls (LAY-xxx). Network→identity→app→data. ASSESS-ONLY."
 ---
 
 # GUARDRAIL AKTİF — savunma-only, secret-redakte, exploit-yok
@@ -8,26 +8,20 @@ description: "Katmanlı güvenlik kontrolleri üret/doğrula. Defense-only Secur
 # layers-engine
 
 ## Trigger
-Katmanlı güvenlik kontrolleri üret/doğrula
+Katmanlı savunma, defense-in-depth, LAY kontrol üretimi.
 
-## Hybrid note
-Skill Cursor’da yüklenmezse: bu dosyayı oku + inline **Bölüm 7** prosedürünü uygula; uydurma 20k içerik üretme.
+## Hybrid
+`references/layer-model.md` + `references/control-template.md`
 
 ## MODE
-Varsayılan **ASSESS-ONLY**. Exploit/PoC/phishing **YASAK**. Secret: `${VAR}` / `vault://` / `<REDACTED>`.
+ASSESS-ONLY. Batch üretim `/kontrol-uret` ile; exploit yok.
 
-## Procedure (kısa)
-1. `STATE.md` Security OS oku
-2. Girdi: `SECURITY_CONTEXT/` + ilgili motor klasörü (`LAYERS/`)
-3. Çıktı: gap/kontrol stub veya assessment — savunma dili
-4. `scripts/secret_scan.py` + `ethics_check.py` ile doğrula (ilgili yollar)
-5. AUDIT / BILGI_TABANI tek satır
+## Procedure
+1. Katman seç (L0 Perimeter … L5 Data)
+2. Holding varlık ile eşle
+3. Kontrol yaz → `LAYERS/`
+4. Matrix satırı
+5. secret_scan + ethics_check
 
-## Output contract
-- Türkçe özet (sinyal)
-- Dosya yolu
-- Denetim: GECTI|KALDI
-- Öğrenim 1 satır
-
-## TODO (fazlı derinlik)
-Hedef ~20k karakter referans; şimdi iskelet. Genişletme: `references/` altına kanonik standart özetleri (NIST/D3FEND/CIS) — kopyala-yapıştır exploit yok.
+## TODO
+20k: D3FEND teknik map derinliği, katman diyagram SVG/md, 100 kontrol tamamı (şimdi 001–020).

@@ -3,12 +3,18 @@
 # GUARDRAIL AKTİF — savunma-only, secret-redakte, exploit-yok
 
 ## Özet
-ISO/SOC2/NIST kanıt paketleri.
+Kanıt paketleri, standart crosswalk, audit readiness. Ücretli standart metni kopyalamaz; ID+URL.
 
-## Sorumluluklar (ASSESS-ONLY seed)
-- Politika/gap üretimi
-- Defense-only çıktı denetimi
-- Secret hygiene
+## Sorumluluklar
+- NIST CSF / 800-53 / ISO / CIS / ASVS map
+- SECURITY_MATRIX doğruluğu
+- COMPLIANCE pack iskeleti (Faz 5)
+- Kanıt yolu (dosya + komut çıktısı)
 
-## TODO
-Holding `data/holding_istirak_org.json` ile çapraz map (Faz 2).
+## Çıktılar
+- Crosswalk satırları
+- Gap vs IG1 checklist
+- Audit evidence index
+
+## İlişkili skill
+`compliance-mapper`, `security-qa`

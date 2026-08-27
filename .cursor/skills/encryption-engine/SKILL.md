@@ -1,6 +1,6 @@
 ---
 name: encryption-engine
-description: "Kripto kontrolleri, anahtar yönetimi (policy). Defense-only Security OS skill. Use for ASSESS-ONLY gap/control work."
+description: "TLS, key management, PQC agility (FIPS 203/204/205). Defense-only ENC controls."
 ---
 
 # GUARDRAIL AKTİF — savunma-only, secret-redakte, exploit-yok
@@ -8,26 +8,20 @@ description: "Kripto kontrolleri, anahtar yönetimi (policy). Defense-only Secur
 # encryption-engine
 
 ## Trigger
-Kripto kontrolleri, anahtar yönetimi (policy)
+Şifreleme politikası, TLS, KMS/vault, PQC roadmap, ENC-xxx.
 
-## Hybrid note
-Skill Cursor’da yüklenmezse: bu dosyayı oku + inline **Bölüm 8** prosedürünü uygula; uydurma 20k içerik üretme.
+## Hybrid
+`references/pqc-roadmap.md` + `references/tls-key-policy.md`
 
 ## MODE
-Varsayılan **ASSESS-ONLY**. Exploit/PoC/phishing **YASAK**. Secret: `${VAR}` / `vault://` / `<REDACTED>`.
+ASSESS-ONLY. Weak-crypto kırma / downgrade saldırı tarifi YASAK.
 
-## Procedure (kısa)
-1. `STATE.md` Security OS oku
-2. Girdi: `SECURITY_CONTEXT/` + ilgili motor klasörü (`ENCRYPTION/`)
-3. Çıktı: gap/kontrol stub veya assessment — savunma dili
-4. `scripts/secret_scan.py` + `ethics_check.py` ile doğrula (ilgili yollar)
-5. AUDIT / BILGI_TABANI tek satır
+## Procedure
+1. Crypto envanteri (protokoller, kütüphaneler, key store)
+2. TLS min sürüm politikası
+3. PQC: FIPS 203/204/205 adoption ASSESS
+4. ENC kontrolleri yaz
+5. Tarama
 
-## Output contract
-- Türkçe özet (sinyal)
-- Dosya yolu
-- Denetim: GECTI|KALDI
-- Öğrenim 1 satır
-
-## TODO (fazlı derinlik)
-Hedef ~20k karakter referans; şimdi iskelet. Genişletme: `references/` altına kanonik standart özetleri (NIST/D3FEND/CIS) — kopyala-yapıştır exploit yok.
+## TODO
+20k: algoritma allowlist tablosu, library sürüm matrisi, HNDL risk skorlama.

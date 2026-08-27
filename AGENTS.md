@@ -54,10 +54,10 @@ NIST CSF 2.0 · CIS Controls · ISO 27001/27701 · SOC 2 · OWASP ASVS/SAMM · D
 `.env` gitignore · `.env.example` boş değerler · Cursor Secrets / GitHub Secrets · `docs/SECRETS-DRYRUN-MATRISI.md` · hooks: secret_scan + redact-secrets
 
 ### TODO (Faz 1+)
-- [ ] SECURITY_RESEARCH derin tarama + kaynak DIGEST
-- [ ] 6×100 kontrol içerik üretimi (fazlı; şimdi iskelet)
-- [ ] Skill derinlik genişletme (~20k/skill, fazlı)
-- [ ] Canva MCP ile çakışma yok — security MCP örnek dosyada, varsayılan kapalı
+- [x] SECURITY_RESEARCH derin tarama + kaynak DIGEST (threat/standards/supply-chain)
+- [ ] 6×100 kontrol içerik üretimi (fazlı; **120/600** = 001–020×6)
+- [ ] Skill derinlik genişletme (~20k/skill; **6 skill** ilk derinlik)
+- [x] Canva MCP ile çakışma yok — security MCP örnek dosyada, varsayılan kapalı
 
 ## Cursor Cloud specific instructions
 

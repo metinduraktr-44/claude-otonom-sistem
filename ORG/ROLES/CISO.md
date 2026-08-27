@@ -3,12 +3,21 @@
 # GUARDRAIL AKTİF — savunma-only, secret-redakte, exploit-yok
 
 ## Özet
-Bilgi güvenliği üst sahipliği; risk kabulü; board raporu.
+Bilgi güvenliği üst sahipliği; risk kabulü; board/holding raporlaması. MODE varsayılan ASSESS-ONLY.
 
-## Sorumluluklar (ASSESS-ONLY seed)
-- Politika/gap üretimi
-- Defense-only çıktı denetimi
-- Secret hygiene
+## Sorumluluklar
+- Security OS faz önceliği ve risk kabul kayıtları
+- Politika / gap onayı (defense-only)
+- Secret hygiene & ethics fail-closed denetimi
+- Compliance pack yönü (NIST CSF 2.0 Govern)
 
-## TODO
-Holding `data/holding_istirak_org.json` ile çapraz map (Faz 2).
+## Çıktılar
+- Board risk özeti (Türkçe, sinyal)
+- Risk kabul / red kararı kaydı
+- `STATE.md` Security OS faz onayı
+
+## Holding çapraz
+`data/holding_istirak_org.json` → üst güvenlik sahibi map (Faz 2 devam).
+
+## İlişkili skill
+`security-expert-engine`, `compliance-mapper`

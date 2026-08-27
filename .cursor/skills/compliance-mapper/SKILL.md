@@ -1,6 +1,6 @@
 ---
 name: compliance-mapper
-description: "NIST/CIS/ISO/SOC2 eşleme. Defense-only Security OS skill. Use for ASSESS-ONLY gap/control work."
+description: "Map controls to NIST CSF 2.0, 800-53 R5, ISO 27001:2022, CIS v8.1, ASVS 5.0. Defense-only."
 ---
 
 # GUARDRAIL AKTİF — savunma-only, secret-redakte, exploit-yok
@@ -8,26 +8,23 @@ description: "NIST/CIS/ISO/SOC2 eşleme. Defense-only Security OS skill. Use for
 # compliance-mapper
 
 ## Trigger
-NIST/CIS/ISO/SOC2 eşleme
+Crosswalk, matris satırı, compliance pack, kanıt indeksi.
 
-## Hybrid note
-Skill Cursor’da yüklenmezse: bu dosyayı oku + inline **Bölüm 11** prosedürünü uygula; uydurma 20k içerik üretme.
+## Hybrid
+`references/crosswalk-seed.md` + `references/evidence-index.md`
 
 ## MODE
-Varsayılan **ASSESS-ONLY**. Exploit/PoC/phishing **YASAK**. Secret: `${VAR}` / `vault://` / `<REDACTED>`.
+ASSESS-ONLY. Ücretli standart metni kopyalama YOK — ID + URL + doğrulama yöntemi.
 
-## Procedure (kısa)
-1. `STATE.md` Security OS oku
-2. Girdi: `SECURITY_CONTEXT/` + ilgili motor klasörü (`COMPLIANCE/`)
-3. Çıktı: gap/kontrol stub veya assessment — savunma dili
-4. `scripts/secret_scan.py` + `ethics_check.py` ile doğrula (ilgili yollar)
-5. AUDIT / BILGI_TABANI tek satır
+## Procedure
+1. Kontrol ID al (LAY/FW/ENC/CHG/TC/COND)
+2. `SECURITY_RESEARCH/standards-currency.md` sürüm teyit
+3. Kolon doldur: CSF · 800-53 · ISO · CIS · OWASP/ASVS
+4. `doğrulama_yöntemi` yaz (komut/gözlem)
+5. Matrix + kanıt yolu güncelle
 
-## Output contract
-- Türkçe özet (sinyal)
-- Dosya yolu
-- Denetim: GECTI|KALDI
-- Öğrenim 1 satır
+## Output
+Tek satır crosswalk veya tablo; GECTI|KALDI
 
-## TODO (fazlı derinlik)
-Hedef ~20k karakter referans; şimdi iskelet. Genişletme: `references/` altına kanonik standart özetleri (NIST/D3FEND/CIS) — kopyala-yapıştır exploit yok.
+## TODO ~20k
+SOC2 CC mapping, Tam CIS IG1 checklist, FedRAMP düşük profil ASSESS.

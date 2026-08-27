@@ -3,12 +3,18 @@
 # GUARDRAIL AKTİF — savunma-only, secret-redakte, exploit-yok
 
 ## Özet
-Detection, IR koordinasyonu, SOC metrikleri.
+Tespit, izleme, olay müdahalesi orkestrasyonu. Playbook’lar savunma/IR odaklı.
 
-## Sorumluluklar (ASSESS-ONLY seed)
-- Politika/gap üretimi
-- Defense-only çıktı denetimi
-- Secret hygiene
+## Sorumluluklar
+- Detection & IR skill önceliği
+- Hook/scanner sinyalinin operasyonel triage’i
+- AUDIT_LOG / REPORTS gözetimi
+- CONDITIONAL risk sinyali eşikleri
 
-## TODO
-Holding `data/holding_istirak_org.json` ile çapraz map (Faz 2).
+## Çıktılar
+- IR runbook ASSESS stub
+- Alert → aksiyon matrisi
+- Post-incident öğrenim satırı (BILGI_TABANI)
+
+## İlişkili skill
+`incident-response`, `detection-engineering`, `conditional-policy-engine`

@@ -3,12 +3,17 @@
 # GUARDRAIL AKTİF — savunma-only, secret-redakte, exploit-yok
 
 ## Özet
-Privacy by design, DPIA, veri minimizasyonu.
+Veri minimizasyonu, DPIA-light holding otomasyonuna, PII/secret redaksiyon.
 
-## Sorumluluklar (ASSESS-ONLY seed)
-- Politika/gap üretimi
-- Defense-only çıktı denetimi
-- Secret hygiene
+## Sorumluluklar
+- Log/rapor PII & secret redaksiyon politikası
+- LLM prompt’a hassas veri girmeme kuralları
+- Privacy-by-design checklist ASSESS
 
-## TODO
-Holding `data/holding_istirak_org.json` ile çapraz map (Faz 2).
+## Çıktılar
+- DPIA-light notu
+- Redaksiyon kural güncellemesi
+- Privacy gap satırları
+
+## İlişkili skill
+`privacy-engineering`, `secret-hygiene`

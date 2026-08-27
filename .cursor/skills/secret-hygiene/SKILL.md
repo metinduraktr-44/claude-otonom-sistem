@@ -8,26 +8,24 @@ description: "Secret tarama, redaksiyon, vault pattern. Defense-only Security OS
 # secret-hygiene
 
 ## Trigger
-Secret tarama, redaksiyon, vault pattern
+Secret tarama, redaksiyon, vault pattern, dry-run matris, CI log mask.
 
 ## Hybrid note
-Skill Cursor’da yüklenmezse: bu dosyayı oku + inline **Bölüm 7** prosedürünü uygula; uydurma 20k içerik üretme.
+Skill yüklenmezse: bu dosya + `references/holding-secret-policy.md` + `references/scan-runbook.md`.
 
 ## MODE
-Varsayılan **ASSESS-ONLY**. Exploit/PoC/phishing **YASAK**. Secret: `${VAR}` / `vault://` / `<REDACTED>`.
+**ASSESS-ONLY** varsayılan. Secret: `${VAR}` / `vault://` / `<REDACTED>`. Gerçek değer yazma/yazdırma YASAK.
 
-## Procedure (kısa)
+## Procedure
 1. `STATE.md` Security OS oku
-2. Girdi: `SECURITY_CONTEXT/` + ilgili motor klasörü (`scripts/`)
-3. Çıktı: gap/kontrol stub veya assessment — savunma dili
-4. `scripts/secret_scan.py` + `ethics_check.py` ile doğrula (ilgili yollar)
-5. AUDIT / BILGI_TABANI tek satır
+2. Envanter: `SECURITY_CONTEXT/inventory.md` + `docs/SECRETS-DRYRUN-MATRISI.md`
+3. Tarama: `python3 scripts/secret_scan.py <paths>`
+4. Gap: konum+tip only; değer yok
+5. Ethics: `python3 scripts/ethics_check.py <paths>`
+6. AUDIT / BILGI tek satır
 
 ## Output contract
-- Türkçe özet (sinyal)
-- Dosya yolu
-- Denetim: GECTI|KALDI
-- Öğrenim 1 satır
+Türkçe sinyal · dosya yolu · GECTI|KALDI · 1 satır öğrenim
 
-## TODO (fazlı derinlik)
-Hedef ~20k karakter referans; şimdi iskelet. Genişletme: `references/` altına kanonik standart özetleri (NIST/D3FEND/CIS) — kopyala-yapıştır exploit yok.
+## Depth
+`references/` — politika + runbook. **TODO ~20k:** vault sağlayıcı matrisleri, GHA mask örnekleri, false-positive katalog (kalan ~12k).

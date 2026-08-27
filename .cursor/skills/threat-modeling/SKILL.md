@@ -1,6 +1,6 @@
 ---
 name: threat-modeling
-description: "STRIDE/LINDDUN tarzı tehdit modeli — savunma. Defense-only Security OS skill. Use for ASSESS-ONLY gap/control work."
+description: "STRIDE/LINDDUN ASSESS threat model. Defense-only. Use for holding automation surfaces."
 ---
 
 # GUARDRAIL AKTİF — savunma-only, secret-redakte, exploit-yok
@@ -8,26 +8,23 @@ description: "STRIDE/LINDDUN tarzı tehdit modeli — savunma. Defense-only Secu
 # threat-modeling
 
 ## Trigger
-STRIDE/LINDDUN tarzı tehdit modeli — savunma
+Threat model, STRIDE, saldırı yüzeyi ASSESS, DFD, risk önceliklendirme.
 
-## Hybrid note
-Skill Cursor’da yüklenmezse: bu dosyayı oku + inline **Bölüm 10** prosedürünü uygula; uydurma 20k içerik üretme.
+## Hybrid
+`references/holding-stride.md` + `references/dfd-checklist.md`
 
 ## MODE
-Varsayılan **ASSESS-ONLY**. Exploit/PoC/phishing **YASAK**. Secret: `${VAR}` / `vault://` / `<REDACTED>`.
+ASSESS-ONLY. Saldırı adımı / exploit senaryo detayı YASAK — tehdit **sınıfı** + **kontrol**.
 
-## Procedure (kısa)
-1. `STATE.md` Security OS oku
-2. Girdi: `SECURITY_CONTEXT/` + ilgili motor klasörü (`SECURITY_RESEARCH/`)
-3. Çıktı: gap/kontrol stub veya assessment — savunma dili
-4. `scripts/secret_scan.py` + `ethics_check.py` ile doğrula (ilgili yollar)
-5. AUDIT / BILGI_TABANI tek satır
+## Procedure
+1. Varlık listesi (`SECURITY_CONTEXT/`)
+2. Trust boundary çiz
+3. STRIDE satırları → kontrol motoru map
+4. Risk: olasılık×etki (kaba) → P0–P2
+5. Çıktıyı `SECURITY_RESEARCH/` veya assessment dosyasına yaz
 
-## Output contract
-- Türkçe özet (sinyal)
-- Dosya yolu
-- Denetim: GECTI|KALDI
-- Öğrenim 1 satır
+## Output
+Tablo: varlık | tehdit sınıfı | kontrol | öncelik
 
-## TODO (fazlı derinlik)
-Hedef ~20k karakter referans; şimdi iskelet. Genişletme: `references/` altına kanonik standart özetleri (NIST/D3FEND/CIS) — kopyala-yapıştır exploit yok.
+## Depth TODO
+~20k hedef; kalan: LINDDUN privacy, abuse-case şablonları, diagram örnekleri.

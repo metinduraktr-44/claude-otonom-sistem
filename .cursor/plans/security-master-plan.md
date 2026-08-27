@@ -8,14 +8,14 @@
 
 | Faz | Ad | Çıktı | Durum |
 |-----|----|-------|-------|
-| 0 | Bootstrap + Ingestion | rules, commands, hooks, CONTEXT inventory | **bu PR** |
-| 1 | Research | `SECURITY_RESEARCH/` DIGEST, tehdit modeli iskeleti | sonraki `/sec-devam` |
-| 2 | Org + Experts | `ORG/ROLES/` genişlet, `EXPERTS/` DIGEST | bekliyor |
-| 3 | Control engines (batch) | LAYERS…CONDITIONAL stub→içerik (≤10/tur) | bekliyor |
-| 4 | Matrix + Mapping | `SECURITY_MATRIX` doldurma, NIST/D3FEND map | bekliyor |
+| 0 | Bootstrap + Ingestion | rules, commands, hooks, CONTEXT inventory | **tamam (PR)** |
+| 1 | Research | `SECURITY_RESEARCH/` DIGEST, tehdit modeli iskeleti | **bu tur kısmi** |
+| 2 | Org + Experts | `ORG/ROLES/` genişlet, `EXPERTS/` DIGEST | **bu tur seed** |
+| 3 | Control engines (batch) | LAYERS…CONDITIONAL stub→içerik | **120 kontrol** |
+| 4 | Matrix + Mapping | `SECURITY_MATRIX` doldurma, NIST map | **120 satır** |
 | 5 | Compliance packs | `COMPLIANCE/` NIST/CIS/ISO/SOC2 iskelet | bekliyor |
 | 6 | Detection & IR | SecOps skill derinliği, playbook ASSESS | bekliyor |
-| 7 | Skill depth | skill başına ~20k hedef (fazlı) | bekliyor |
+| 7 | Skill depth | skill başına ~20k hedef (fazlı) | **6 skill başladı** |
 | 8 | QA + Archive loop | `QA/`, `ARCHIVE/`, aylık döngü | bekliyor |
 
 ## Faz 0 kabul kriterleri
@@ -26,8 +26,16 @@
 - [x] folder placeholders + matrix skeleton
 - [x] skill skeletons (20)
 - [x] inventory + attack-surface
-- [ ] full 600 controls (ERTALANDI)
-- [ ] 20k/skill (ERTALANDI)
+- [ ] full 600 controls (**120/600** — devam)
+- [ ] 20k/skill (**kısmi 6 skill** — devam)
+
+## Faz 1–4 bu tur
+- [x] threat-landscape / standards-currency / supply-chain
+- [x] ORG roller + EXPERTS top100 seed
+- [x] 6 skill references derinlik
+- [x] controls-001-020 × 6 + matrix CSV
+- [ ] GHA permissions matrisi
+- [ ] controls 021–100
 
 ## Çakışma notları
 - Canva MCP: dokunulmaz; security MCP yalnızca `mcp.security.example.json`

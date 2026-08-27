@@ -2,6 +2,10 @@
 > Protokol: Her işlem [4] ÖĞREN adımında buraya "## [tarih] — [konu]" girişi ekler. En yeni en üstte.
 > Çelişki kuralı: Yeni öğrenim eskisiyle çelişiyorsa ⚠️ ÇELİŞKİ etiketi + hangisinin geçerli olduğu yazılır.
 
+## 2026-08-27 — Security GIGA Faz 1–4 tranche (defense-only)
+
+Research DIGEST + 11 ORG rol + EXPERTS top100 seed + 6 skill derinlik + **120 kontrol** (6×20) + matrix CSV. MODE=ASSESS-ONLY. Sonraki: controls 021–100, skill 20k kalan, GHA pin gap.
+
 ## 2026-07-16 — Master doküman (Cilt 1-4) entegre edildi
 - Cilt 3 (GitHub ekosistem haritası): kategori bazlı kanonik kaynaklar — anthropics/skills, claude-plugins-official/community, modelcontextprotocol/servers [RESMİ]; wshobson/agents, disler/claude-code-hooks-mastery, ruvnet/ruflo [topluluk]. Doğrulama: OpenSSF Scorecard, deps.dev, OSV.dev, Socket.dev, npm provenance.
 - Cilt 4 (operasyon anayasası): 5 güvenlik kuralı (resmi-öncelik, script tedbiri 2.12x risk, güncellik yanılgısı yok, fork yasağı, marketplace-öncelik) + verimlilik çerçevesi (progressive disclosure, DELTA yazımı) — BÜTÜN repolara uygulanır.
