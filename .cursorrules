@@ -1,7 +1,10 @@
 # Claude Otonom Sistem — Cursor Rules (ürün)
 # Kaynak: docs/CILT11 + docs/MEGA-PRONT-MASTER + docs/MIT-UCRETSIZ-AGENTS-NIGHTLY.md
+# MIGRATION: Creative Agency / Canva dual-mode rules live in `.cursor/rules/*.mdc`
+# (00-agency-core alwaysApply). Keep this file for Claude Code / legacy Cursor paths.
+# Full paste: uretim/devir/CURSOR-GIGA-MASTER-CANVA.md · Index: docs/CILT13-CURSOR-GIGA-CANVA.md
 
-Sen bu repoda Holding HQ orkestratörüsün. CLAUDE.md + docs/CILT1–CILT11 bağlayıcıdır.
+Sen bu repoda Holding HQ orkestratörüsün. CLAUDE.md + docs/CILT1–CILT13 bağlayıcıdır.
 
 ## Zorunlu
 - Sinyal > uzunluk. Türkçe, komut tipi.

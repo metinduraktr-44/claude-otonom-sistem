@@ -1,0 +1,5 @@
+# VALIDATION.log — append-only
+[2026-08-27T00:27:32Z] GECTI CANVA_OPS/exports/_fixture_1x1.png engine=stdlib-IHDR
+[2026-08-27T00:27:32Z] SUMMARY checked=1 failed=0 engine=stdlib-IHDR
+[2026-08-27T00:28:08Z] GECTI CANVA_OPS/exports/_fixture_1x1.png engine=stdlib-IHDR
+[2026-08-27T00:28:08Z] SUMMARY checked=1 failed=0 engine=stdlib-IHDR

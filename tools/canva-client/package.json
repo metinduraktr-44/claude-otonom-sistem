@@ -1,0 +1,16 @@
+{
+  "name": "@claude-otonom/canva-client",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Scaffold: Canva Connect OAuth PKCE + autofill poll + resize + export + registry CSV",
+  "type": "module",
+  "scripts": {
+    "dry-run": "node --experimental-strip-types src/cli-dry-run.ts",
+    "build": "echo 'scaffold only — implement tsc when wiring live API'"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
