@@ -12,6 +12,8 @@ Privacy-by-design / DPIA stubs.
 **Guardrail:** DEFENSE-ONLY: detection, hardening, compliance, IR playbooks. No exploits, phishing, malware, C2, ransomware, bypass, weaponized PoCs. ATT&CK only for detection/D3FEND mapping. Secrets: ${VAR}|vault://|op://|<REDACTED> only.
 
 ## Expansion (FAZ 3)
+Deep sample: `references/pii-minimization.md`
+
 Full ~20k char depth is **continuous expansion**, not this PR. Fill `references/TODO.md` stubs iteratively; keep PRs reviewable.
 
 ## Inputs / Outputs

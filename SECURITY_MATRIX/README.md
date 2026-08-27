@@ -1,6 +1,7 @@
 # SECURITY_MATRIX
 
-Control matrix + gap analysis.
+- `matrix.md` — kontrol indeksi
+- `GAP-TEMPLATE.md` — gap şablonu
 
 MODE=`ASSESS-ONLY` default.
 

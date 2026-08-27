@@ -14,7 +14,7 @@ STRIDE/DREAD threat modeling for remediation.
 ## Expansion (FAZ 3)
 Full ~20k char depth is **continuous expansion**, not this PR. Fill `references/TODO.md` stubs iteratively; keep PRs reviewable.
 
-Deep sample: `references/stride-dread.md`
+Deep sample: `references/stride-holding.md`
 
 ## Inputs / Outputs
 - In: SECURITY_CONTEXT/, SECURITY_MATRIX/, TASKS/

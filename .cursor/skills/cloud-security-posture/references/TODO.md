@@ -1,7 +1,7 @@
 # TODO — cloud-security-posture expansion (FAZ 3)
 
-- [ ] Expand to depth (~sections for patterns, checklists, anti-patterns)
-- [ ] Add framework maps (NIST/ISO/D3FEND)
+- [x] Starter deep ref: `cloud-posture-assess.md`
+- [ ] Additional patterns / anti-patterns as needed
 - [ ] Keep SIGNAL > LENGTH; no filler to hit 20k
 - [ ] Full 20k/skill = continuous FAZ 3, not one-shot
 
