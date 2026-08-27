@@ -1,0 +1,20 @@
+---
+description: Security OS dosya yapısı ve yerleşim
+alwaysApply: true
+---
+
+# Security File Structure
+
+| Yol | İçerik |
+|-----|--------|
+| `SECURITY_CONTEXT/` | Inventory, attack-surface |
+| `SECURITY_RESEARCH/` | Araştırma DIGEST |
+| `SECURITY_MATRIX/` | 6×100 matris |
+| `LAYERS/`…`CONDITIONAL/` | Kontrol motorları |
+| `ORG/ROLES/` | CISO + güvenlik rolleri |
+| `ASSESSMENTS/` `COMPLIANCE/` | Değerlendirme paketleri |
+| `IMPLEMENTATION/` | Hardening notları (savunma) |
+| `tools/security-scanners/` | Scanner scaffold |
+| `.cursor/skills/` | Security skill iskeletleri |
+
+Agency klasörleri (`BRIEFS/`, `CANVA_OPS/`, …) varsa dokunma. Root’a rastgele dosya ekleme.

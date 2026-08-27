@@ -1,0 +1,10 @@
+---
+description: 6×100 kontrol mapping — katman klasörleri
+globs: LAYERS/**,FIREWALLS/**,ENCRYPTION/**,CHANGE/**,TRANSPARENT_CODE/**,CONDITIONAL/**
+---
+
+# Control Mapping
+
+Her kontrol dosyası: **ID · ad · amaç · D3FEND/NIST map · doğrulama · ASSESS notu**. Exploit adımı yok.
+
+Hedef: 100/klasör (fazlı). İskelet README’ye uy. Matris: `SECURITY_MATRIX/matrix.md`. MODE=ASSESS-ONLY iken yalnızca doküman/gap.

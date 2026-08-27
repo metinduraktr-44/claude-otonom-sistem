@@ -1,0 +1,19 @@
+{
+  "_comment": "OPTIONAL — copy entries into .cursor/mcp.json only when explicitly enabling. Default OFF. No secrets — use ${VAR} only. Do not remove Canva MCP if present on agency track.",
+  "mcpServers": {
+    "semgrep": {
+      "command": "semgrep",
+      "args": ["mcp"],
+      "env": {
+        "SEMGREP_APP_TOKEN": "${SEMGREP_APP_TOKEN}"
+      }
+    },
+    "snyk": {
+      "command": "npx",
+      "args": ["-y", "snyk@latest", "mcp"],
+      "env": {
+        "SNYK_TOKEN": "${SNYK_TOKEN}"
+      }
+    }
+  }
+}

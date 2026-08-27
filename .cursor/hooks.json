@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "hooks": {
+    "afterFileEdit": [
+      {
+        "command": "python3 scripts/secret_scan.py --hook",
+        "description": "Düzenlenen dosyada secret pattern tarar; uyarı + log (değer yazmaz)"
+      },
+      {
+        "command": "python3 scripts/ethics_check.py --hook",
+        "description": "Offensive/exploit içerik pattern denetimi"
+      }
+    ],
+    "beforeShellExecution": [
+      {
+        "command": ".cursor/hooks/block-dangerous.sh",
+        "description": "Tehlikeli shell kalıplarını reddeder (failClosed)"
+      }
+    ],
+    "beforeReadFile": [
+      {
+        "command": ".cursor/hooks/redact-secrets.sh",
+        "description": "Okuma öncesi secret uyarı/redakt notu"
+      }
+    ],
+    "stop": [
+      {
+        "command": ".cursor/hooks/phase-audit.sh",
+        "description": "Oturum bitişinde Security OS faz/audit damgası"
+      }
+    ]
+  }
+}
