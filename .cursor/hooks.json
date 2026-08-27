@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "hooks": {
+    "afterFileEdit": [
+      {
+        "command": "python3 scripts/spec_validate.py --hook",
+        "description": "Fail-open visual/spec validate after edits; append CANVA_OPS/VALIDATION.log"
+      }
+    ]
+  }
+}

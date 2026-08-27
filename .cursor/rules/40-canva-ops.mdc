@@ -1,0 +1,14 @@
+---
+description: Canva dual-mode ops (MCP + Enterprise client) — use when CANVA:ON, canva-uret, export, resize, or MCP Canva tools
+---
+
+# Canva Ops
+
+Dual-path:
+1. **MCP** `https://mcp.canva.com/mcp` — interactive edit/comment/export via Cursor MCP (OAuth required).
+2. **Enterprise client** `tools/canva-client` — PKCE, autofill poll, resize, export, registry writer.
+
+Gates: Autofill / Brand Kit write / bulk resize need Pro or Enterprise. Without plan → stay BRIEF-ONLY.
+
+Never commit secrets. Poll jobs 2–5s. User must approve commits of editing transactions.
+Default user-facing mode remains BRIEF-ONLY until they say CANVA:ON.

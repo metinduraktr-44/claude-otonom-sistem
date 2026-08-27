@@ -34,3 +34,27 @@ This repository is a **Python 3 (standard-library only) + Bash automation system
 
 ### Reading
 `uretim/OZET-TEK-SAYFA.md`, `docs/SECRETS-DRYRUN-MATRISI.md`, `uretim/domain-matrix/README.md`
+
+---
+
+## Creative Agency OS / Canva Dual-Mode (GIGA)
+
+> Separate from Cloud Agent testing guidance above. Holding HQ scripts unchanged.
+
+Modular Cursor Creative Agency layer (not a 900B single prompt — 🚩 RED).
+
+| Item | Path |
+|------|------|
+| Paste prompt | `uretim/devir/CURSOR-GIGA-MASTER-CANVA.md` |
+| Index | `docs/CILT13-CURSOR-GIGA-CANVA.md` |
+| Checklist | `docs/IS-LISTESI-GIGA-CANVA.md` |
+| Rules / commands / skills | `.cursor/` |
+| State | `STATE.md` |
+| Spec validate | `python3 scripts/spec_validate.py` |
+| Canva client scaffold | `tools/canva-client/` |
+
+**Default flag:** `CANVA:BRIEF-ONLY` (no Canva mutate). Live: user says `CANVA:ON` + MCP OAuth (`https://mcp.canva.com/mcp` in `.cursor/mcp.json`). Do not claim Canva is live without credentials.
+
+**Agent commands:** `/baslat` · `/devam` · `/resume` · `/faz-raporu` · `/canva-uret` · `/brief-uret` · `/spec-dogrula` · `/arsivle`
+
+**Parallel agents:** start 2–3; isolate under `SCENARIOS/{urun}/{n}/`.

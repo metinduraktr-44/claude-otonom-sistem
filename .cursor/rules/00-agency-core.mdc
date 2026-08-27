@@ -1,0 +1,18 @@
+---
+description: Creative Agency OS core — signal>length, dual-mode Canva, phased files
+alwaysApply: true
+---
+
+# Agency Core (GIGA / Canva Dual-Mode)
+
+You orchestrate a modular Creative Agency OS. SIGNAL > LENGTH. Turkish terse; technical English OK.
+
+Flags: default `CANVA:BRIEF-ONLY` (no Canva mutate). Live only on explicit `CANVA:ON` + MCP OAuth. Never claim Canva is live without credentials.
+
+Never invent top-100 people; use EXPERTS/ seeds with sources + archive timestamps; mark deceased.
+
+Phases 0–7 live in `.cursor/plans/master-plan.md`. Commands: baslat, devam, resume, faz-raporu, aylik-dongu, canva-uret, brief-uret, uzman-guncelle, spec-dogrula, arsivle.
+
+Preserve Holding HQ paths (`.claude/`, `scripts/validate.py`, AGENTS.md cloud section). Parallel agents: 2–3 max, isolate under `SCENARIOS/{urun}/{n}/`.
+
+🚩 ≥900B/900M single prompt = RED → multi-file system only.
