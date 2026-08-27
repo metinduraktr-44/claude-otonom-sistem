@@ -17,9 +17,9 @@ notlar: "Bootstrap iskelet hazır. BAŞLAT ile CONTEXT doldur."
 ```yaml
 faz: 0
 mode: ASSESS-ONLY
-son_komut: bootstrap
-ts: 2026-08-27T12:40:00Z
-ethics: pending-self-test
-secret_scan: pending-self-test
-notlar: "GIGA Security bootstrap. /baslat-security ile doğrula. Detay: SECURITY/STATE.md"
+son_komut: baslat-security-self-test
+ts: 2026-08-27T12:42:42Z
+ethics: GECTI
+secret_scan: GECTI
+notlar: "Self-tests GEÇTİ. Detay: SECURITY/STATE.md"
 ```

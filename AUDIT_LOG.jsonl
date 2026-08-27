@@ -152,3 +152,4 @@
 {"ts_start":"2026-08-26T00:33:20Z","ts_end":"2026-08-26T00:33:21Z","islem":"nightly","denetim":"RUN"}
 {"ts_start": "2026-08-26T06:55:33Z", "ts_end": "2026-08-26T06:55:33Z", "islem": "daily-agency", "departman": "DAT-ENG", "cikti": "uretim/gunluk/2026-08-26-DAT-ENG.md", "denetim": "RUN", "onceki_ogrenim_kullanildi": "evet (BILGI_TABANI.md okunur — K4 doldurur)"}
 {"ts_start":"2026-08-27T05:25:24Z","ts_end":"2026-08-27T05:25:24Z","islem":"nightly","denetim":"RUN"}
+{"ts_start":"2026-08-27T12:44:49Z","ts_end":"2026-08-27T12:44:49Z","islem":"giga-security-bootstrap","uzmanlar":["bas-mimar","otomasyon","denetci"],"girdi_ozet":"GIGA security master","cikti_ozet":"CILT14+.cursor security OS","denetim":"GECTI","ogrenim":"hybrid skill/inline + ASSESS-ONLY default","onceki_ogrenim_kullanildi":true}

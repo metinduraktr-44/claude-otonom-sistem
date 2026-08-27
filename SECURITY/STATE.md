@@ -3,9 +3,11 @@
 ```yaml
 faz: 0
 mode: ASSESS-ONLY
-son_komut: bootstrap
-ts: 2026-08-27T12:40:00Z
+son_komut: baslat-security-self-test
+ts: 2026-08-27T12:42:42Z
 ethics: GECTI
-secret_scan: pending
-notlar: "GIGA Security bootstrap. /baslat-security ile doğrula."
+secret_scan: GECTI
+validate: GECTI
+spec_validate: GECTI
+notlar: "Bootstrap + self-tests GEÇTİ. PR: compare URL (token cannot create PR)."
 ```
