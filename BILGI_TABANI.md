@@ -2,6 +2,13 @@
 > Protokol: Her işlem [4] ÖĞREN adımında buraya "## [tarih] — [konu]" girişi ekler. En yeni en üstte.
 > Çelişki kuralı: Yeni öğrenim eskisiyle çelişiyorsa ⚠️ ÇELİŞKİ etiketi + hangisinin geçerli olduğu yazılır.
 
+## 2026-08-27T13:01:29Z — GIGA Agency Faz 1–5 continuum (BRIEF-ONLY)
+- CONTEXT_BRIEF refresh: marka TBD, ürün yolu AdOps CRE seed
+- RESEARCH_NOTES/COMPETITORS/INSIGHTS: Meta/TikTok URL+ts; Andromeda concept diversity
+- SCENARIOS/01–08 substantive; BRIEFS S01–S02 × Meta4:5/9:16 + TikTok9:16
+- PRODUCTION_GRID senaryo×kanal; EXPERTS/DIGEST seed (bio yok); QA hafif GEÇTİ
+- Öğrenim: Marka TBD iken AdOps CRE default ürün yolu ile pipeline tıkanmaz
+
 ## 2026-08-27T00:26:58Z — GIGA Master Creative Agency bootstrap (Faz 0)
 - `.cursor/rules/*.mdc` (5), commands (10), skills (13), agents (3 critics), plans/master-plan Faz 0–7
 - STATE.md phase=0 CANVA=BRIEF-ONLY; CONTEXT/; MATRIX/CHANNEL_MATRIX 2026 specs; tools/canva-client scaffold

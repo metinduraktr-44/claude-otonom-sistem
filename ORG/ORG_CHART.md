@@ -1,6 +1,7 @@
 # ORG_CHART — Holding × Creative Agency
 
-> Kaynak: `data/holding_istirak_org.json` · 8 iştirak · 633 rol · 2026-08-26
+> Kaynak: `data/holding_istirak_org.json` · 8 iştirak · 633 rol · refresh 2026-08-27T12:56:59Z
+> Duplicate yok — detay rol listesi JSON'da; bu dosya eşleme katmanı.
 
 ## Kurul (Group Board)
 
@@ -15,7 +16,7 @@
 
 ## Creative Agency OS → Holding eşlemesi
 
-Bu repo (`claude-otonom-sistem`) **Holding HQ / OS** katmanında çalışır. Kreatif üretim hattı AdOps CRE departmanına bağlanır.
+Bu repo (`claude-otonom-sistem`) **Holding HQ / OS** katmanında çalışır. Kreatif üretim hattı **AdOps CRE** departmanına bağlanır; medya satırı **SOC**.
 
 ```
 KURUL (6)
@@ -25,11 +26,15 @@ KURUL (6)
       └── PRD — Ürün & Premium Paket
  └── AdOps Agency (219 rol) ← Ana kreatif/medyan hattı
       ├── CRE — Kreatif Stüdyo & DCO ★
+      │    ├── Concept & Copy
+      │    ├── Video & Motion
+      │    ├── DCO & Feeds
+      │    └── Ad Format Lab
       ├── SOC — Ücretli Sosyal (Meta, TikTok, …)
       ├── STR — Strateji & Planlama
       ├── ANA — Analitik & Ölçümleme
       └── … (PRG, SEA, MOB, RET, SEO, CRO, CLS, NBD, PRT)
- └── Diğer iştirakler (443 rol) — marka-özel kreatif ihtiyaçları
+ └── Diğer iştirakler — marka-özel kreatif ihtiyaçları (referans JSON)
 ```
 
 ## Rol dağılımı
@@ -54,7 +59,7 @@ KURUL (6)
 | Brief Writer | Kampanya brief | `brief-writer`, `/brief-uret` |
 | Scenario Lead | Kreatif senaryo | `creative-scenarios` |
 | Spec Engineer | Kanal spec doğrulama | `spec-matrix`, `/spec-dogrula` |
-| Canva Operator | Design ops (CANVA:ON) | `canva-*` skills, `/canva-uret` |
+| Canva Operator | Design ops (CANVA:ON only) | `canva-*` skills, `/canva-uret` |
 | Expert Engine | Persona rotasyonu | `expert-engine`, `/uzman-guncelle` |
 | QA Lead | critic-* subagents | `QA/QA_REPORT.md` |
 | Archivist | Kampanya arşivi | `archive-loop`, `/arsivle` |
@@ -62,5 +67,7 @@ KURUL (6)
 ## Referanslar
 
 - Detay org: `docs/HOLDING-ISTIRAK-ORG.md`
-- Rol kartları: `uretim/rol-kartlari/` (48 pilot)
+- Rol kartları: `uretim/rol-kartlari/` (48 pilot) — bio uydurma yok
+- AdOps CRE EVP: `uretim/rol-kartlari/adops-evp-kreatif-stüdyo-dco.md`
 - Ajans org JSON: `data/ajans_org.json`
+- Experts digest: `EXPERTS/DIGEST.md`

@@ -1,5 +1,7 @@
 # SKILL_MATRIX — Departman × Skill Eşlemesi
 
+> refresh 2026-08-27 · Holding katalog duplicate yok
+
 | Departman | Agency skill | Command |
 |-----------|--------------|---------|
 | CRE — Kreatif Stüdyo | brief-writer, creative-scenarios, canva-edit-design | `/brief-uret` |
@@ -14,10 +16,10 @@
 
 | Kanal | Primary skill | Spec ref |
 |-------|---------------|----------|
-| Meta Feed/Reels | canva-resize-for-social | 4:5, 9:16 |
-| TikTok | canva-resize-for-social | 9:16 |
+| Meta Feed/Reels | canva-resize-for-social / brief-writer | 4:5, 9:16 |
+| TikTok | brief-writer + spec-matrix | 9:16 |
 | Google/PMax | spec-matrix | 1.91:1, 1:1 |
 | IAB Display | spec-matrix | 300×250, 728×90 |
-| YouTube | canva-export-pipeline | 16:9, Shorts 9:16 |
+| YouTube | canva-export-pipeline (CANVA:ON) | 16:9, Shorts 9:16 |
 
 688 skill tam liste: `data/slash_skill_katalog.json`

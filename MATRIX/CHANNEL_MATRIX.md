@@ -2,6 +2,7 @@
 
 > Kaynak: Meta Unified Safe Zones (Mar 2026), TikTok Ads, Google Ads, YouTube, IAB standard units.
 > Doğrulama: `python3 scripts/spec_validate.py` · Skill: `spec-matrix`
+> Refresh: 2026-08-27T12:56:59Z · Senaryo bağları: `PRODUCTION_GRID.csv`
 
 ## Meta (Facebook + Instagram)
 
@@ -17,6 +18,8 @@
 
 **Copy limits:** Primary text ~125 char · Headline ~27 char · Image max 30 MB · Video max 4 GB
 
+**Araştırma ref:** https://rule1.ai/articles/instagram-ad-sizes · https://www.1clickreport.com/blog/meta-ads-creative-safe-zones-2026-guide (not: 2026-08-27)
+
 ## TikTok
 
 | Placement | Size (px) | Ratio | Notes |
@@ -24,9 +27,10 @@
 | In-Feed Ad | 1080×1920 | 9:16 | Zorunlu vertical |
 | Video length | — | — | Max 60s ad; öneri 9–15s |
 | Format | — | — | MP4/MOV H.264 + AAC |
-| Max file | — | — | ~287.6 MB (mobile) |
+| Max file | — | — | ~500 MB (auction); bitrate ≥516 kbps |
 
-**Safe zone:** Top/bottom UI overlap — CTA ve logo merkez bölgede
+**Safe zone:** Top/bottom UI overlap — CTA ve logo merkez bölgede  
+**Araştırma ref:** https://www.adsights.ai/resources/guides/tiktok-ad-creative-video-specs-guide · https://tikadtools.com/blog/tiktok-in-feed-ads/ (not: 2026-08-27)
 
 ## Google Ads (Display / PMax / Demand Gen)
 
@@ -74,7 +78,17 @@
 2. **Derive:** 4:5 Feed, 1:1 carousel, 1.91:1 link
 3. **Validate:** Her export → `spec-dogrula` + `CANVA_OPS/VALIDATION.log`
 4. **Registry:** `CANVA_OPS/DESIGN_REGISTRY.csv`
+5. **Senaryo bağları:** `PRODUCTION_GRID.csv` (`scenario_id` × channel × size)
+
+## Senaryo × öncelik kanal (seed)
+
+| Senaryo | Meta 4:5 | Meta 9:16 | TikTok 9:16 | Brief |
+|---------|:--------:|:---------:|:-----------:|-------|
+| S01 Master system | ✓ | ✓ | ✓ | `BRIEFS/2026-08-27_s01_*` |
+| S02 Spec-first | ✓ | ✓ | ✓ | `BRIEFS/2026-08-27_s02_*` |
+| S03–S08 | grid | grid | grid | sonraki tur |
 
 ## Changelog
 - 2026-08-27: Bootstrap seed (Faz 0)
-- TODO Faz 5: platform API changelog sync
+- 2026-08-27T12:56:59Z: Faz 1–4 — research URL, senaryo bağları, PRODUCTION_GRID genişletme
+- TODO Faz 5+: platform API changelog sync; CANVA:ON export doğrulama

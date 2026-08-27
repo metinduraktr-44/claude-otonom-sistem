@@ -3,9 +3,9 @@
 > Tek kaynak: oturum durumu. Her `/devam` veya `/resume` öncesi oku, sonra güncelle.
 
 ## Faz
-- **phase:** `0` (Bootstrap — ingestion tamamlandı)
-- **last_command:** bootstrap
-- **last_updated_utc:** 2026-08-27T00:30:00Z
+- **phase:** `5` (BRIEF-ONLY brief üretimi tamam — S01/S02; Faz 1–4 içerik de bu turda)
+- **last_command:** `/devam` continuum (Faz 0 refresh → 1 Research → 2 Org → 3 Scenarios → 4 Matrix → 5 Briefs → QA)
+- **last_updated_utc:** 2026-08-27T13:01:29Z
 
 ## CANVA modu
 - **default:** `BRIEF-ONLY` — tasarım üretimi yok; brief + spec + senaryo çıktısı
@@ -14,17 +14,27 @@
 
 ## Ingestion özeti (Faz 0)
 - **holding:** 8 iştirak · 633 rol · 688 slash skill
-- **CONTEXT:** `CONTEXT/CONTEXT_BRIEF.md` dolduruldu (holding seed)
-- **MATRIX:** `MATRIX/CHANNEL_MATRIX.md` — Meta/TikTok/Google/YouTube/IAB
-- **ORG:** `ORG/ORG_CHART.md` + `ORG/SKILLS_INVENTORY.md` — holding referanslı
+- **CONTEXT:** `CONTEXT/CONTEXT_BRIEF.md` refresh — marka TBD, ürün yolu AdOps CRE
+- **MATRIX:** `CHANNEL_MATRIX.md` + `PRODUCTION_GRID.csv` senaryo satırları
+- **ORG:** `ORG_CHART.md` + `SKILLS_INVENTORY.md` + `EXPERTS/DIGEST.md`
 
 ## Aktif iş
-- **brief_id:** —
-- **scenario_id:** —
-- **design_id:** —
+- **brief_id:** `ADOPs-CRE-SEED-2026Q3` (S01/S02 × 3 kanal)
+- **scenario_id:** `S01`…`S08` (INDEX: `SCENARIOS/INDEX.md`)
+- **design_id:** — (BRIEF-ONLY)
+
+## Tamamlanan (bu tur)
+- [x] Faz 0 CONTEXT refresh
+- [x] Faz 1 RESEARCH_* 
+- [x] Faz 2 ORG / EXPERTS seed
+- [x] Faz 3 SCENARIOS 01–08
+- [x] Faz 4 MATRIX expand
+- [x] Faz 5 BRIEFS S01–S02 × Meta4:5 / Meta9:16 / TikTok9:16
+- [x] QA hafif rapor
 
 ## Sonraki adım
-1. Cursor yeniden başlat (rules/skills/hooks yüklensin)
-2. Yeni Agent chat → `/devam` veya `/baslat`
-3. Aktif marka/kampanya seç → `/brief-uret`
-4. (Opsiyonel) Canva OAuth PKCE kurulumu — CANVA:ON için
+1. Müşteri/marka kit → `CONTEXT/INBOX/` (TBD kilidi)
+2. S03–S08 için brief dalgası (`/brief-uret`)
+3. critic-copy / critic-spec tam PASS döngüsü
+4. (Opsiyonel) Canva OAuth — yalnızca CANVA:ON istendiğinde
+5. Cursor restart → `/devam` smoke
