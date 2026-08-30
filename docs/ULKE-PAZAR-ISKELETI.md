@@ -1,5 +1,5 @@
 # ÜLKE / PAZAR İSKELETİ
-> Üretim: 2026-08-29T08:33:35Z · 10 ülke · Nightly research döngüsü
+> Üretim: 2026-08-30T07:46:42Z · 10 ülke · Nightly research döngüsü
 
 | Kod | Ülke | Rol | Dil | Hukuk | Öncelik |
 |---|---|---|---|---|---:|
