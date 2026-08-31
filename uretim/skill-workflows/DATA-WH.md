@@ -1,5 +1,5 @@
 # Workflow — Warehouse / Airflow / dbt / Dagster (`DATA-WH`)
-> 2026-08-04T08:44:49Z · skills=38
+> 2026-08-25T14:48:45Z · skills=38
 
 ## Amaç
 Warehouse / Airflow / dbt / Dagster skill kümesini LLM ajans olarak 7×24 işlet.

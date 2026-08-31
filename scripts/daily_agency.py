@@ -271,7 +271,14 @@ def haftalik():
         except Exception:
             continue
         ts = j.get("ts_start") or j.get("ts", "")
-        if ts and (NOW - datetime.datetime.fromisoformat(ts.replace("Z", "+00:00"))).days < 7:
+        if not ts or not isinstance(ts, str):
+            continue
+        # Bozuk/etiket damgalar (ornegin "LIVE") atlanir — dongu kirilmaz.
+        try:
+            parsed = datetime.datetime.fromisoformat(ts.replace("Z", "+00:00"))
+        except ValueError:
+            continue
+        if (NOW - parsed).days < 7:
             girdiler.append(j)
     kaldi = [j for j in girdiler if str(j.get("denetim", "")).upper() == "KALDI"]
     path = f"uretim/toplantilar/{TODAY}-haftalik-liderlik.md"

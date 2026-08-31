@@ -1,5 +1,5 @@
 # Workflow — Twilio / SendGrid / Voice (`COMMS-TW`)
-> 2026-08-04T08:44:49Z · skills=56
+> 2026-08-25T14:48:45Z · skills=56
 
 ## Amaç
 Twilio / SendGrid / Voice skill kümesini LLM ajans olarak 7×24 işlet.
