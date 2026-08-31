@@ -160,3 +160,4 @@
 {"ts_start":"2026-08-30T02:02:43Z","ts_end":"2026-08-30T02:02:44Z","islem":"nightly","denetim":"RUN"}
 {"ts_start": "2026-08-30T11:35:07Z", "ts_end": "2026-08-30T11:35:07Z", "islem": "daily-agency", "departman": "PRD-DSN", "cikti": "uretim/gunluk/2026-08-30-PRD-DSN.md", "denetim": "RUN", "onceki_ogrenim_kullanildi": "evet (BILGI_TABANI.md okunur — K4 doldurur)"}
 {"ts_start":"2026-08-31T01:58:21Z","ts_end":"2026-08-31T01:58:21Z","islem":"nightly","denetim":"RUN"}
+{"ts_start": "2026-08-31T13:10:11Z", "ts_end": "2026-08-31T13:10:11Z", "islem": "daily-agency", "departman": "PRD-OPS", "cikti": "uretim/gunluk/2026-08-31-PRD-OPS.md", "denetim": "RUN", "onceki_ogrenim_kullanildi": "evet (BILGI_TABANI.md okunur — K4 doldurur)"}
