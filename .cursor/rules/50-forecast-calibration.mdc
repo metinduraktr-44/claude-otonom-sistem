@@ -1,0 +1,13 @@
+---
+description: Tahmin kalibrasyonu — Brier + Tetlock; olasılıkla düşün, sık güncelle.
+globs: FORECASTS/**
+alwaysApply: false
+---
+
+# Forecast Calibration
+
+- Günlük hedef: title başına 200 tahmin (fazlı; stub ile başla).
+- Her tahmin: ifade · olasılık · gerekçe · ts · resolve tarihi.
+- Resolve sonrası Brier; trend `FORECASTS/CALIBRATION.md`.
+- Tetlock: parçala, disconfirming kanıt ara, aşırı güveni cezalandır.
+- Halüsinasyon metrik uydurma — veri yoksa `n/a` + neden.

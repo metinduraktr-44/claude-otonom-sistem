@@ -1,12 +1,15 @@
 ---
-description: Kesinti sonrası STATE + ARCHIVE oku, devam
+name: resume
+description: Shared RESUME — STATE'den kaldığı yerden devam.
 ---
 
-# /resume — RESUME
+# /resume
 
-1. `STATE.md` + `ARCHIVE/` son ay + `CANVA_OPS/VALIDATION.log` son satırlar.
-2. Yarım işi tamamla; çakışan paralel senaryoyu `SCENARIOS/{urun}/{n}/` içinde çöz.
-3. `/devam` ile aynı sözleşmeyi kullan.
+## Objective
+Oturum değişiminde `LATOS/STATE.md` (ve varsa kök STATE) oku; açık escalation'ları listele; kaldığın görevden sür.
+
+## Output
+Durum özeti + sıradaki tek eylem.
 
 ## Security OS
-Also read `SECURITY/STATE.md` + last `REPORTS/` / `ARCHIVE/` security snapshot.
+If `SECURITY/STATE.md` active: follow `.cursor/plans/security-master-plan.md`. MODE=ASSESS-ONLY unless scoped.

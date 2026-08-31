@@ -83,3 +83,8 @@ Modular Cursor Security OS (not a 900B single prompt — 🚩 RED). Full ~20k/sk
 **Agent commands:** `/baslat-security` · `/kontrol-uret` · `/gap-analizi` · `/compliance-paket` · `/etik-denetim` (+ shared `/devam` `/resume` `/faz-raporu` `/arsivle`)
 
 **Do not claim** live Semgrep/Snyk without user-enabled MCP + credentials.
+
+### LATOS track
+- Docs: `docs/CILT15-CURSOR-GIGA-LATOS.md`
+- STATE: `LATOS/STATE.md` + root `STATE.md` LATOS bölümü
+- Commands: `.cursor/commands/baslat-latos.md`, `/devam`, job-card skills

@@ -1,12 +1,15 @@
 ---
-description: Expert/seed arşiv yenile — uydurma yasak
+name: aylik-dongu
+description: Aylık uzman/yetenek arşiv döngüsü.
 ---
 
 # /aylik-dongu
 
-1. `EXPERTS/` seed oku; web sadece halka açık kaynak.
-2. `ARCHIVE/{YYYY-MM}/experts/` yaz; deceased işaretle.
-3. Uydurma biografi yok. Kaynak URL zorunlu veya `status: unverified-seed`.
+## Objective
+Tüm motorlarda READ→DELTA→DIFF→WRITE→DIGEST; ARCHIVE snapshot.
 
-## Security experts
-Refresh `EXPERTS/_SEED.md` sources; mark deceased; no fabricated rankings.
+## Output
+Digest + STATE güncellemesi.
+
+## Security OS
+If `SECURITY/STATE.md` active: follow `.cursor/plans/security-master-plan.md`. MODE=ASSESS-ONLY unless scoped.

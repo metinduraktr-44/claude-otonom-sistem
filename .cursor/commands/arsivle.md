@@ -1,10 +1,12 @@
 ---
-description: ARCHIVE/{YYYY-MM}/ snapshot
+name: arsivle
+description: Shared arşiv — ARCHIVE snapshot; silme yok.
 ---
 
 # /arsivle
 
-Skill `archive-loop`: CONTEXT/MATRIX/BRIEFS/CANVA_OPS özetini `ARCHIVE/{YYYY-MM}/` altına kopyala (özet + hash listesi). STATE'e arşiv ts yaz.
+## Objective
+`ARCHIVE/YYYY-MM-DD_HHMM/` altına ilgili LATOS/Canva/Security artefaktlarını kopyala. Ancestor silme.
 
-## Security
-Snapshot SECURITY_MATRIX/REPORTS into `ARCHIVE/{YYYY-MM}/security/`.
+## Output
+Snapshot path.

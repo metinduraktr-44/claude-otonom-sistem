@@ -1,0 +1,12 @@
+---
+description: Hiçbir title atlanmaz — envanter master; karakter hedeflerine fazlı uy.
+globs: 
+alwaysApply: true
+---
+
+# No Skip Titles
+
+- Master liste: `ROSTER/TITLE_INVENTORY.md` (mevcut + silinmiş + arşiv).
+- Uydurma title ekleme; yalnızca repo/git/INBOX kanıtı.
+- İş kartı / prompt üretiminde envanter satırı atlama = QA fail.
+- Hedefler (2k+/200 H / 122 prompt / 200 tahmin) `DEVAM` ile büyür; sayıyı sahte doldurma.

@@ -1,10 +1,19 @@
 ---
 name: expert-engine
-description: Maintain EXPERTS/ seed cards with sources; no fabricated biographies
+description: Mesleki top-N uzman arşivi; unverified; citation zorunlu.
 ---
 
 # expert-engine
 
-Seed names allowed as seeds. Each card: sources[], archived_at, status living|deceased|unknown.
-Monthly: `/aylik-dongu`. Never invent awards or quotes.
+## Instructions
+1. Hibrit: bu skill yoksa / yüklenmediyse LATOS master prompt inline adımlarını uygula — çıktı yolu aynı.
+2. Girdi: `ROSTER/TITLE_INVENTORY.md` + `LATOS/STATE.md`.
+3. Kanıt yoksa `unverified`; uydurma yok.
+4. Bitince STATE güncelle + ≤10 satır rapor.
 
+## Examples
+- `/title-kesif` → title-discovery
+- `/is-karti` → job-card-engine
+
+## References
+- `references/TODO.md` — derinleşme stub (FAZ’larda genişler)

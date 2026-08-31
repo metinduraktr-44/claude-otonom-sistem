@@ -7,8 +7,16 @@
         "description": "Canva/spec validate (fail-open). Creative Agency."
       },
       {
+        "command": "python3 scripts/qa_check.py --hook",
+        "description": "LATOS QA (fail-open). Job-card/inventory heuristics."
+      },
+      {
+        "command": "python3 scripts/citation_check.py --hook",
+        "description": "LATOS citation heuristic (fail-open)."
+      },
+      {
         "command": "bash .cursor/hooks/secret-scan.sh",
-        "description": "Secret hygiene scan (fail-open if script missing; intent failClosed in IDE)."
+        "description": "Secret hygiene scan (fail-open if script missing)."
       },
       {
         "command": "bash .cursor/hooks/ethics-check.sh",
@@ -19,6 +27,16 @@
       {
         "command": "bash .cursor/hooks/dangerous-shell-block.sh",
         "description": "Block clearly dangerous shell patterns; fail-open on script errors."
+      },
+      {
+        "command": "bash .cursor/hooks/guard.sh",
+        "description": "LATOS guard; allow git recovery; fail-open."
+      }
+    ],
+    "stop": [
+      {
+        "command": "bash .cursor/hooks/phase-audit.sh",
+        "description": "Phase audit stub \u2014 STATE + QA log (fail-open)."
       }
     ]
   }

@@ -1,11 +1,15 @@
 ---
-description: Faz 0–7 durum tablosu üret
+name: faz-raporu
+description: Aktif faz QA + envanter diff özeti.
 ---
 
 # /faz-raporu
 
-`STATE.md` + dizin varlıklarına göre Faz 0–7 markdown tablosu yaz.
-Sütunlar: Faz · Durum · Kanıt yolu · Blocker · Son ts.
+## Objective
+`python3 scripts/qa_check.py` + `citation_check.py` sonuçlarını özetle; `QA/QA_REPORT_{faz}.md` yaz.
+
+## Output
+GEÇTİ/KALDI + eksik title listesi (varsa).
 
 ## Security OS
-Include FAZ 0–8 from `docs/IS-LISTESI-GIGA-SECURITY.md` + `SECURITY/STATE.md`.
+If `SECURITY/STATE.md` active: follow `.cursor/plans/security-master-plan.md`. MODE=ASSESS-ONLY unless scoped.

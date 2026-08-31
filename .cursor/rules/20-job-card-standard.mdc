@@ -1,0 +1,17 @@
+---
+description: İş kartı standardı — CARD.md indeks + H00N self-expand; dolgu yasak.
+globs: JOB_CARDS/**
+alwaysApply: false
+---
+
+# Job Card Standard
+
+`JOB_CARDS/{title}/CARD.md` indeks; gövde `H001.md`…`H200.md` (hedef).
+
+Her H dosyası üç blok (hedef ≥200 karakter/blok; kısmiyse `status: partial` yaz):
+1. **Açıklama** — ne / neden
+2. **Yönlendirme** — nasıl / karar
+3. **Eğitim** — öğrenme / kaynak
+
+Minimum CARD gövdesi ≥2000 karakter hedefi; altında `qa_check` uyarır, sahte lorem yazma.
+Kaynak: `docs/UNVAN-KARTI-SABLONU.md` + LATOS Bölüm 7.

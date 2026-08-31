@@ -1,11 +1,15 @@
 ---
-description: EXPERTS/ seed+kaynak güncelle
+name: uzman-guncelle
+description: Title uzman arşivi READ→DELTA→DIFF→WRITE→DIGEST.
 ---
 
 # /uzman-guncelle
 
-Skill `expert-engine`. Seed list korunur; yeni isim = kaynaklı.
-Alanlar: name, domain, status (living|deceased|unknown), sources[], archived_at.
+## Objective
+`EXPERTS/{title}/` güncelle; unverified işaretle; uydurma isim yok.
 
-## Security
-Update `EXPERTS/_SEED.md` (security) separately from creative `EXPERTS/SEED.md`.
+## Output
+Timestamp’li arşiv + digest.
+
+## Security OS
+If `SECURITY/STATE.md` active: follow `.cursor/plans/security-master-plan.md`. MODE=ASSESS-ONLY unless scoped.

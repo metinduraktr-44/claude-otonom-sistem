@@ -1,10 +1,19 @@
 ---
 name: archive-loop
-description: Snapshot agency artifacts into ARCHIVE/YYYY-MM with hashes
+description: READ→DELTA→DIFF→WRITE→DIGEST + ARCHIVE snapshot.
 ---
 
 # archive-loop
 
-Copy/summarize CONTEXT, MATRIX, BRIEFS, CANVA_OPS registry → ARCHIVE/{YYYY-MM}/.
-Write MANIFEST.sha256. Update STATE.md archive_ts.
+## Instructions
+1. Hibrit: bu skill yoksa / yüklenmediyse LATOS master prompt inline adımlarını uygula — çıktı yolu aynı.
+2. Girdi: `ROSTER/TITLE_INVENTORY.md` + `LATOS/STATE.md`.
+3. Kanıt yoksa `unverified`; uydurma yok.
+4. Bitince STATE güncelle + ≤10 satır rapor.
 
+## Examples
+- `/title-kesif` → title-discovery
+- `/is-karti` → job-card-engine
+
+## References
+- `references/TODO.md` — derinleşme stub (FAZ’larda genişler)

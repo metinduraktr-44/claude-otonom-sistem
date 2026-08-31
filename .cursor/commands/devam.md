@@ -1,13 +1,16 @@
 ---
-description: STATE'den sıradaki fazı sürdür
+name: devam
+description: Shared DEVAM — aktif OS STATE oku; sıradaki fazı yürüt (LATOS/Canva/Security).
 ---
 
-# /devam — DEVAM
+# /devam
 
-1. Oku `STATE.md` + ilgili faz klasörü.
-2. Master-plan sıradaki fazı uygula (tek faz / tur).
-3. DENETÇİ kısa checklist → STATE güncelle.
-4. `CANVA:ON` yoksa Canva mutate yok.
+## Objective
+`STATE.md` / `LATOS/STATE.md` / `SECURITY/STATE.md` içinden aktif fazı bul; bir adım ilerle.
 
-## Security OS
-If `SECURITY/STATE.md` active: advance security faz per `.cursor/plans/security-master-plan.md`. Keep MODE=ASSESS-ONLY unless scoped.
+## Requirements
+- LATOS aktifse `ROSTER/` ve `JOB_CARDS/` kurallarına uy.
+- Hibrit skill/inline.
+
+## Output
+≤10 satır faz raporu + sonraki komut önerisi.
