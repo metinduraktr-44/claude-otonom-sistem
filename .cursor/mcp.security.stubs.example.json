@@ -1,0 +1,19 @@
+{
+  "_readme": "OPTIONAL — copy entries into mcp.json only when user enables. Placeholders ${VAR} only. Do NOT claim live Semgrep/Snyk without credentials. Default: OFF.",
+  "mcpServers": {
+    "semgrep": {
+      "command": "npx",
+      "args": ["-y", "@semgrep/mcp"],
+      "env": {
+        "SEMGREP_APP_TOKEN": "${SEMGREP_APP_TOKEN}"
+      }
+    },
+    "snyk": {
+      "command": "npx",
+      "args": ["-y", "snyk", "mcp"],
+      "env": {
+        "SNYK_TOKEN": "${SNYK_TOKEN}"
+      }
+    }
+  }
+}

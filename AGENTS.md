@@ -39,50 +39,52 @@ This repository is a **Python 3 (standard-library only) + Bash automation system
 
 ## Creative Agency OS / Canva Dual-Mode (GIGA)
 
-> Separate from Cloud Agent testing guidance above. Holding HQ scripts unchanged. Full Canva tree may live on its PR; stub index on this branch.
+> Separate from Cloud Agent testing guidance above. Holding HQ scripts unchanged.
+
+Modular Cursor Creative Agency layer (not a 900B single prompt — 🚩 RED).
 
 | Item | Path |
 |------|------|
-| Index (stub/full) | `docs/CILT13-CURSOR-GIGA-CANVA.md` |
-| Checklist | `docs/IS-LISTESI-GIGA-CANVA.md` (Canva PR) |
-| Paste | `uretim/devir/CURSOR-GIGA-MASTER-CANVA.md` (Canva PR) |
+| Paste prompt | `uretim/devir/CURSOR-GIGA-MASTER-CANVA.md` |
+| Index | `docs/CILT13-CURSOR-GIGA-CANVA.md` |
+| Checklist | `docs/IS-LISTESI-GIGA-CANVA.md` |
+| Rules / commands / skills | `.cursor/` |
+| State | `STATE.md` |
+| Spec validate | `python3 scripts/spec_validate.py` |
+| Canva client scaffold | `tools/canva-client/` |
 
-**Default flag:** `CANVA:BRIEF-ONLY`. Additive with LATOS/Security.
+**Default flag:** `CANVA:BRIEF-ONLY` (no Canva mutate). Live: user says `CANVA:ON` + MCP OAuth (`https://mcp.canva.com/mcp` in `.cursor/mcp.json`). Do not claim Canva is live without credentials.
+
+**Agent commands:** `/baslat` · `/devam` · `/resume` · `/faz-raporu` · `/canva-uret` · `/brief-uret` · `/spec-dogrula` · `/arsivle`
+
+**Parallel agents:** start 2–3; isolate under `SCENARIOS/{urun}/{n}/`.
 
 ---
 
 ## Security Architecture & Governance OS (GIGA)
 
-> Additive to Cloud + Creative Agency. Defense-only. Full tree may live on Security PR; stub index here.
+> Additive to Cloud + Creative Agency sections. Defense-only. Do not wipe Canva paths.
+
+Modular Cursor Security OS (not a 900B single prompt — 🚩 RED). Full ~20k/skill = FAZ 3 continuous expansion; this repo ships short SKILL.md + references stubs + deep samples.
 
 | Item | Path |
 |------|------|
-| Index (stub/full) | `docs/CILT14-CURSOR-GIGA-SECURITY.md` |
-| Checklist | `docs/IS-LISTESI-GIGA-SECURITY.md` (Security PR) |
-| Paste | `uretim/devir/CURSOR-GIGA-MASTER-SECURITY.md` (Security PR) |
+| Paste prompt | `uretim/devir/CURSOR-GIGA-MASTER-SECURITY.md` |
+| Index | `docs/CILT14-CURSOR-GIGA-SECURITY.md` |
+| Checklist | `docs/IS-LISTESI-GIGA-SECURITY.md` |
+| Rules / commands / skills | `.cursor/` (security IDs: `00-security-core`, `05-ethics-guardrail`, `31-security-file-structure`, …) |
+| State | `SECURITY/STATE.md` |
+| Scanners | `python3 scripts/secret_scan.py` · `python3 scripts/ethics_check.py` |
+| Tool wrappers | `tools/security-scanners/` |
+| MCP stubs (OFF) | `.cursor/mcp.security.stubs.example.json` (`${VAR}` only) |
 
-**Default mode:** `MODE=ASSESS-ONLY`. No exploits / weaponized PoCs.
+**Default mode:** `MODE=ASSESS-ONLY`. Ethics: no exploits / phishing / malware / C2 / weaponized PoCs. ATT&CK = detection/D3FEND map only. Secrets: `${VAR}` · `vault://` · `op://` · `<REDACTED>`.
 
----
+**Agent commands:** `/baslat-security` · `/kontrol-uret` · `/gap-analizi` · `/compliance-paket` · `/etik-denetim` (+ shared `/devam` `/resume` `/faz-raporu` `/arsivle`)
 
-## LATOS — Living AI Talent & Organization System (GIGA)
+**Do not claim** live Semgrep/Snyk without user-enabled MCP + credentials.
 
-> Additive to Cloud + Canva + Security. Title/job-card/talent OS. Not a 900M single prompt — 🚩 RED; phased self-expand.
-
-| Item | Path |
-|------|------|
-| Paste prompt | `uretim/devir/CURSOR-GIGA-MASTER-LATOS.md` |
-| Index | `docs/CILT15-CURSOR-GIGA-LATOS.md` |
-| Checklist | `docs/IS-LISTESI-GIGA-LATOS.md` |
-| Rules | `.cursor/rules/00-latos-core.mdc` … `50-forecast-calibration.mdc` (`32-latos-file-structure` — avoids Canva `30-file-structure`) |
-| State | `LATOS/STATE.md` (+ section in root `STATE.md`) |
-| Inventory | `ROSTER/TITLE_INVENTORY.md` |
-| QA | `python3 scripts/qa_check.py` · `python3 scripts/citation_check.py` |
-
-**Agent commands:** `/baslat-latos` · `/title-kesif` · `/is-karti` · `/uzman-guncelle` · `/yetenek-guncelle` · `/roadmap` · `/prompt-uret` · `/tahmin` · `/aylik-dongu` (+ shared `/devam` `/resume` `/faz-raporu` `/arsivle`)
-
-**Inventory sources:** `data/skill_title_haritasi.json` · `.claude/org/org.json` · `docs/UNVAN-HIYERARSISI.md` · `.claude/agents` · git-deleted `uretim/rol-kartlari/`
-
-**Hybrid:** skill if discovered after restart; else master-prompt inline — same output paths.
-
-**Do not** invent title lists or verified top-100 people; mark `unverified`.
+### LATOS track
+- Docs: `docs/CILT15-CURSOR-GIGA-LATOS.md`
+- STATE: `LATOS/STATE.md` + root `STATE.md` LATOS bölümü
+- Commands: `.cursor/commands/baslat-latos.md`, `/devam`, job-card skills

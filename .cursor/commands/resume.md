@@ -10,3 +10,6 @@ Oturum değişiminde `LATOS/STATE.md` (ve varsa kök STATE) oku; açık escalati
 
 ## Output
 Durum özeti + sıradaki tek eylem.
+
+## Security OS
+If `SECURITY/STATE.md` active: follow `.cursor/plans/security-master-plan.md`. MODE=ASSESS-ONLY unless scoped.

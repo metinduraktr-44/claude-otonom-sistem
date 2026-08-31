@@ -10,3 +10,6 @@ description: Title uzman arşivi READ→DELTA→DIFF→WRITE→DIGEST.
 
 ## Output
 Timestamp’li arşiv + digest.
+
+## Security OS
+If `SECURITY/STATE.md` active: follow `.cursor/plans/security-master-plan.md`. MODE=ASSESS-ONLY unless scoped.

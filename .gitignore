@@ -1,8 +1,13 @@
 .env
 .env.*
 *.log
+!CANVA_OPS/VALIDATION.log
 .DS_Store
 node_modules/
+tools/canva-client/.tokens.json
+tools/canva-client/.env
+CANVA_OPS/exports/*
+!CANVA_OPS/exports/.gitkeep
 
 # Python
 __pycache__/
