@@ -9,12 +9,12 @@
 | **Security** | #26 DRAFT | #25 ✅ merged | ✅ EVET (main) | 120+ kontrol · ASSESS-ONLY · 6 skill derinlik |
 | **LATOS** | #27 DRAFT | #28 ✅ merged | ✅ EVET (main) | 633 title · 2 JOB_CARDS skeleton |
 
-**main HEAD:** `2cb69c0c` — 8e8f continuum + 6a77 bootstrap union + CILT12 (#22)  
+**main HEAD:** `1b474e00` — 8e8f continuum + 6a77 bootstrap union + CILT12 (#22)  
 **Birleştirme:** `cursor/giga-merge-wave-4570` → origin/main (conflict: `-X ours` + additive)  
 **validate.py:** GECTI (118 dosya)
 
-### Draft PR (#23/#26/#27) — kapatılacak
-İçerik main'e birleştirildi; gh ile kapatılır (duplicate 6a77 PR'leri zaten merged).
+### Draft PR (#23/#26/#27) — ✅ merged & closed
+PR #23 · #26 · #27 → main (2026-08-31T20:30Z). Duplicate 6a77: #24/#25/#28 zaten merged.
 
 ### Açık PR (opsiyonel)
 - #19 live-terminal · #22 ✅ merged (CILT12)
@@ -45,7 +45,7 @@
 - [ ] Canva OAuth PKCE (opsiyonel — yalnızca CANVA:ON)
 
 ### P2
-- [ ] Draft PR #23/#26/#27 kapat (içerik main'de)
+- [x] Draft PR #23/#26/#27 merged (main'de)
 - [ ] EVP kartları Director seviyesine genişlet
 - [ ] Aylık döngü + nightly yeşil
 
@@ -68,13 +68,13 @@
 | Aksiyon | Kısa yönlendirme | URL |
 |---------|------------------|-----|
 | **Cursor restart** | Yeni chat → `/devam` (Agency) · `/sec-devam` (Security) · `/latos-devam` (LATOS) | — |
-| **PR review (kalan)** | #23/#26/#27 kapatılabilir (merged) · #19 opsiyonel | https://github.com/metinduraktr-44/claude-otonom-sistem/pulls |
+| **PR review (kalan)** | #19 live-terminal opsiyonel | https://github.com/metinduraktr-44/claude-otonom-sistem/pulls |
 | **Gemini key rotate** | Eski key chat'te ifşa riski → yeni key oluştur | https://aistudio.google.com/apikey |
 | **OpenRouter key** | Fallback LLM | https://openrouter.ai/keys |
 | **Cursor Secrets** | `GEMINI_API_KEY`, `OPENROUTER_API_KEY` ekle | https://cursor.com/dashboard |
 | **Canva OAuth** | Opsiyonel; CANVA:ON istendiğinde `tools/canva-client/` | https://www.canva.com/developers/ |
 | **Marka kit** | PDF/logo/brief → `CONTEXT/INBOX/` | repo: `CONTEXT/INBOX/` |
-| **Draft PR (kapat)** | #23 https://github.com/metinduraktr-44/claude-otonom-sistem/pull/23 · #26 https://github.com/metinduraktr-44/claude-otonom-sistem/pull/26 · #27 https://github.com/metinduraktr-44/claude-otonom-sistem/pull/27 |
+| **Draft PR** | #23/#26/#27 ✅ merged · #19 açık | https://github.com/metinduraktr-44/claude-otonom-sistem/pull/19 |
 
 ---
 
