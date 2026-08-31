@@ -4,7 +4,21 @@
     "afterFileEdit": [
       {
         "command": "python3 scripts/spec_validate.py --hook",
-        "description": "Fail-open visual/spec validate after edits; append CANVA_OPS/VALIDATION.log"
+        "description": "Canva/spec validate (fail-open). Creative Agency."
+      },
+      {
+        "command": "bash .cursor/hooks/secret-scan.sh",
+        "description": "Secret hygiene scan (fail-open if script missing; intent failClosed in IDE)."
+      },
+      {
+        "command": "bash .cursor/hooks/ethics-check.sh",
+        "description": "Ethics pattern check (fail-open if missing)."
+      }
+    ],
+    "beforeShellExecution": [
+      {
+        "command": "bash .cursor/hooks/dangerous-shell-block.sh",
+        "description": "Block clearly dangerous shell patterns; fail-open on script errors."
       }
     ]
   }

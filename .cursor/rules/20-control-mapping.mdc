@@ -1,0 +1,9 @@
+---
+description: Control cards must carry NIST CSF (+ optional 800-53/ISO/D3FEND) fields
+alwaysApply: true
+---
+
+# Control Mapping
+
+New controls → template `LAYERS/CTRL-SAMPLE-ACCESS.md` fields.
+ATT&CK IDs only under `attack_detect` (detection coverage), never as attack steps.

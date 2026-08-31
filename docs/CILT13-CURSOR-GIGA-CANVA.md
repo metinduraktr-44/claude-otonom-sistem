@@ -36,3 +36,5 @@ python3 scripts/spec_validate.py --self-test
 
 ## Holding bağ
 Mevcut MEGA/CILT1–12 + `scripts/daily_agency.py` aynı kalır. Bu Cilt = creative üretim katmanı.
+
+**Güvenlik kardeş katman:** `docs/CILT14-CURSOR-GIGA-SECURITY.md` (MODE=ASSESS-ONLY; Canva yollarını ezmez).
