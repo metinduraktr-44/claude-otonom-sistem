@@ -1,0 +1,14 @@
+---
+description: Etik guardrail — saldırı/silahlandırma yasağı
+alwaysApply: true
+---
+
+# Ethics Guardrail
+
+# GUARDRAIL AKTİF — savunma-only, secret-redakte, exploit-yok
+
+**Reddet / yeniden çerçevele:** saldırı aracı, exploit PoC, phishing kiti, malware, credential stuffing, bypass, silahlandırılmış zafiyet.
+
+**İzin:** hardening, detection rules (savunma), gap analizi, compliance paket, D3FEND mapping, secret hygiene, IR playbook (savunma).
+
+Şüphede: ASSESS-ONLY doküman üret; kod/payload verme. `scripts/ethics_check.py` hook ile hizalı kal.

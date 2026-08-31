@@ -1,9 +1,11 @@
 ---
-description: Repo dosya yapısı ve yerleşim sözleşmesi
+description: Repo dosya yapısı ve yerleşim sözleşmesi (Agency + Security)
 globs: **/*
 ---
 
 # File Structure
+
+## Creative Agency
 
 | Yol | İçerik |
 |-----|--------|
@@ -17,5 +19,18 @@ globs: **/*
 | `CONTEXT/` | Bağlam + INBOX |
 | `.cursor/skills/` | Agent skills |
 | `tools/canva-client/` | Canva TS client |
+
+## Security OS
+
+| Yol | İçerik |
+|-----|--------|
+| `SECURITY_CONTEXT/` | Inventory, attack-surface |
+| `SECURITY_RESEARCH/` | Araştırma DIGEST |
+| `SECURITY_MATRIX/` | 6×100 matris |
+| `LAYERS/`…`CONDITIONAL/` | Kontrol motorları |
+| `ORG/ROLES/` | CISO + güvenlik rolleri |
+| `ASSESSMENTS/` `COMPLIANCE/` | Değerlendirme paketleri |
+| `IMPLEMENTATION/` | Hardening notları (savunma) |
+| `tools/security-scanners/` | Scanner scaffold |
 
 Yeni dosya: doğru klasöre koy; adlandırma `{YYYY-MM-DD}_{slug}.md`. Root'a rastgele dosya ekleme.

@@ -1,0 +1,14 @@
+---
+description: SecOps — IR, detection, vulnerability mgmt (agent-requested)
+alwaysApply: false
+---
+
+# SecOps
+
+# GUARDRAIL AKTİF — savunma-only, secret-redakte, exploit-yok
+
+Kullanım: incident-response, detection-engineering, vulnerability-management skill’leri çağrıldığında.
+
+**Üret:** tespit kuralı taslağı, IR playbook (contain/eradicate/recover), VM triage checklist — **saldırı adımı yok**.
+
+**Çıktı:** `ASSESSMENTS/` veya `REPORTS/`. Secret redakte. MODE=ASSESS-ONLY varsayılan.

@@ -9,6 +9,10 @@
 - PRODUCTION_GRID senaryo×kanal; EXPERTS/DIGEST seed (bio yok); QA hafif GEÇTİ
 - Öğrenim: Marka TBD iken AdOps CRE default ürün yolu ile pipeline tıkanmaz
 
+## 2026-08-27 — Security GIGA Faz 1–4 tranche (defense-only)
+- Research DIGEST + 11 ORG rol + EXPERTS top100 seed + 6 skill derinlik + **120 kontrol** (6×20) + matrix CSV
+- MODE=ASSESS-ONLY. Sonraki: controls 021–100, skill 20k kalan, GHA pin gap
+
 ## 2026-08-27T00:26:58Z — GIGA Master Creative Agency bootstrap (Faz 0)
 - `.cursor/rules/*.mdc` (5), commands (10), skills (13), agents (3 critics), plans/master-plan Faz 0–7
 - STATE.md phase=0 CANVA=BRIEF-ONLY; CONTEXT/; MATRIX/CHANNEL_MATRIX 2026 specs; tools/canva-client scaffold
@@ -51,6 +55,12 @@
 - Gelir motoru kararı: hedef iş = CLAUDE OTONOM SİSTEM'in kendisi (bileşen kütüphanesi ürünleştirme). Mevcut 5 iş (Tahmin Uzmanı, VESTRA, İBB Kültür AŞ, Movéa, Response DGA) pilot iç müşteri — dogfooding. Detay: GELIR_MOTORU.md.
 
 <!-- SONRAKİ GİRİŞLER BURAYA — en yeni en üstte -->
+## 2026-08-27T12:37:54Z — Security GIGA MASTER Faz 0 bootstrap
+- Track: `cursor/security-giga-bootstrap-8e8f` (agency GIGA'dan ayrı). MODE=ASSESS-ONLY.
+- Eklendi: `.cursor/rules` security mdc, sec-* commands, hooks (secret/ethics/shell/redact/audit), 20 skill iskeleti, 6 motor klasörü, inventory+attack-surface.
+- Öğrenim: Security OS additive tutulmalı; Canva MCP'ye dokunma; 600 kontrol ve 20k skill fazlı.
+- Guardrail: defense-only · secret-redakte · exploit-yok.
+
 ## 2026-08-25T14:48:11Z — skill ajans envanteri
 - skills=696; domains=50; titles=216; pilot_prompts=2440; ekipler=50
 - 🚩 900B karakter RED; Claude Code MASTER üretilidi.

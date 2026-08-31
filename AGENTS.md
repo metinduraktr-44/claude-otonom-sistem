@@ -1,10 +1,10 @@
-# AGENTS.md — Claude Otonom Sistem + Creative Agency OS
+# AGENTS.md — Claude Otonom Sistem + Creative Agency + Security OS
 
 ## Product
-Self-improving Claude orchestration (Holding HQ) + **Otonom AI Creative Agency Operating System** (GIGA Master bootstrap). Runtime = Python 3 stdlib + Bash + GitHub Actions. `katalog/` = MIT vendored templates (davila7), not app dependencies.
+Self-improving Claude orchestration (Holding HQ) + **Otonom AI Creative Agency Operating System** + **Güvenlik Odaklı GIGA MASTER — Otonom AI Security Architecture & Governance OS**. Runtime = Python 3 stdlib + Bash + GitHub Actions. `katalog/` = MIT vendored templates (davila7), not app dependencies.
 
-## Creative Agency OS (GIGA Master — Faz 0)
-- **Durum:** `STATE.md` — phase=0, CANVA=BRIEF-ONLY (varsayılan)
+## Creative Agency OS (GIGA Master — Faz 0–5)
+- **Durum:** `STATE.md` — Agency section · phase=5, CANVA=BRIEF-ONLY (varsayılan)
 - **Bağlam:** `CONTEXT/CONTEXT_BRIEF.md` — holding ingestion (8 iştirak, 633 rol, 688 skill)
 - **Kanal spec:** `MATRIX/CHANNEL_MATRIX.md` + `MATRIX/PRODUCTION_GRID.csv`
 - **Plan:** `.cursor/plans/master-plan.md` (Faz 0–7)
@@ -16,7 +16,7 @@ Self-improving Claude orchestration (Holding HQ) + **Otonom AI Creative Agency O
 - **Holding data:** `data/holding_istirak_org.json`, `data/slash_skill_katalog.json` — duplicate etme, referans al
 - **🚩 Prompt boyutu:** 900k+ karakter tek dosyada YASAK; fazlı `.cursor/rules/*.mdc` + skills ile kümülatif
 
-### Klasör sözleşmeleri
+### Agency klasör sözleşmeleri
 | Klasör | Amaç |
 |--------|------|
 | `CONTEXT/` | Bağlam brief + INBOX |
@@ -34,14 +34,38 @@ Self-improving Claude orchestration (Holding HQ) + **Otonom AI Creative Agency O
 ### Agency komutları (Cursor slash)
 `baslat` · `devam` · `resume` · `faz-raporu` · `aylik-dongu` · `canva-uret` · `brief-uret` · `uzman-guncelle` · `spec-dogrula` · `arsivle`
 
+## Security OS (GIGA Master — Faz 0–4)
+# GUARDRAIL AKTİF — savunma-only, secret-redakte, exploit-yok
+
+- **Durum:** `STATE.md` → Security OS section · **MODE=`ASSESS-ONLY`** (varsayılan)
+- **Bağlam:** `SECURITY_CONTEXT/inventory.md` + `attack-surface.md`
+- **Plan:** `.cursor/plans/security-master-plan.md` (Faz 0–8)
+- **Matris:** `SECURITY_MATRIX/matrix.md` (6×100 kontrol iskeleti)
+- **Komutlar:** `.cursor/commands/` — `/sec-baslat`, `/sec-devam`, `/gap-analizi`, …
+- **Skills:** `.cursor/skills/` — layers/firewall/encryption/… engines (iskelet; hybrid inline)
+- **Subagents:** `.cursor/agents/` — security-reviewer, compliance-auditor, ethics-checker (`readonly: true`)
+- **Scanners:** `python3 scripts/secret_scan.py` · `python3 scripts/ethics_check.py`
+- **Holding çapraz:** `docs/SECRETS-DRYRUN-MATRISI.md`, `SECURITY.md`, `infra/`, `.github/workflows/`
+
+### Defense-only (zorunlu)
+1. Exploit / malware / phishing / C2 / bypass PoC **YOK**
+2. ATT&CK yalnızca tespit/karşı-önlem haritalama; odak **D3FEND**
+3. Secret: yalnızca `${VAR}`, `vault://`, `op://`, `<REDACTED>` — gerçek/realistic secret **YOK**
+4. Tehlikeli shell (`rm -rf`, `curl|bash`, credential exfil) **YOK**
+5. Her faz başı/sonu: `# GUARDRAIL AKTİF — savunma-only, secret-redakte, exploit-yok`
+
+### Security komutları (Cursor slash)
+`sec-baslat` · `sec-devam` · `gap-analizi` · `compliance-paket` · `etik-denetim` · `kontrol-uret` · `sec-uzman-guncelle` · `sec-aylik-dongu` · `sec-faz-raporu` · `sec-arsivle`
+
 ### TODO (Faz 1+)
-- [ ] Aktif marka/kampanya seçimi
+- [ ] Aktif marka/kampanya seçimi (Agency)
 - [ ] Canva OAuth PKCE live (`tools/canva-client/`)
-- [ ] İlk brief → spec-dogrula → QA döngüsü
+- [ ] 6×100 kontrol içerik üretimi (fazlı; **120/600** = 001–020×6)
+- [ ] Skill derinlik genişletme (~20k/skill; **6 skill** ilk derinlik)
 
 ## Cursor Cloud specific instructions
 
-This repository is a **Python 3 (standard-library only) + Bash automation system** orchestrated by GitHub Actions. No compiled app, web server, or root `package.json` / `requirements.txt` for runnable code — `python3` is enough. Do **not** `npm install` under `katalog/` for day-to-day work. Optional: `tools/canva-client/` for Canva OAuth scaffold only.
+This repository is a **Python 3 (standard-library only) + Bash automation system** orchestrated by GitHub Actions. No compiled app, web server, or root `package.json` / `requirements.txt` for runnable code — `python3` is enough. Do **not** `npm install` under `katalog/` for day-to-day work. Optional: `tools/canva-client/` (agency track) / `tools/security-scanners/` (security track).
 
 ### What this repo is
 - Runnable app = `scripts/`. Content = `docs/`, `pilots/`, `katalog/`, `uretim/`, `infra/`.
@@ -51,6 +75,8 @@ This repository is a **Python 3 (standard-library only) + Bash automation system
 ### Core scripts (repo root)
 - `python3 scripts/validate.py` — `DENETIM: GECTI`
 - `python3 scripts/spec_validate.py [--scan]` — creative spec validation
+- `python3 scripts/secret_scan.py` — secret pattern warn/redact log
+- `python3 scripts/ethics_check.py` — offensive/exploit pattern block
 - `python3 scripts/daily_agency.py --dogrula` / günlük generator
 - `python3 scripts/holding_report.py`
 - `python3 scripts/gemini_client.py smoke` / `openrouter_client.py smoke`
@@ -61,13 +87,14 @@ This repository is a **Python 3 (standard-library only) + Bash automation system
 **Gemini → OpenRouter → Anthropic → iskelet.** Keys in Cursor Secrets / `.env` (gitignore). Never paste keys in chat.
 
 ### Gotchas
-- Daily output idempotent (`SKIP` if today’s file exists).
+- Daily output idempotent (`SKIP` if today's file exists).
 - Generators mutate `AUDIT_LOG.jsonl` / `BILGI_TABANI.md`.
 - No key → dry-run skeleton. Turkish: GECTI=pass, KALDI=fail.
 - 🚩 ≥900M chars/prompt RED. Contract: 122 prompts/role + 500 questions/title.
+- Security MODE default **ASSESS-ONLY** — aggressive code changes yok unless scanner/hook scaffolding.
 
 ### Infra
 `infra/otel/`, `infra/terraform/observability/`, `.github/workflows/enterprise-k8s-otel-pipeline.yml`
 
 ### Reading
-`uretim/OZET-TEK-SAYFA.md`, `docs/SECRETS-DRYRUN-MATRISI.md`, `CONTEXT/CONTEXT_BRIEF.md`, `.cursor/plans/master-plan.md`
+`uretim/OZET-TEK-SAYFA.md`, `docs/SECRETS-DRYRUN-MATRISI.md`, `CONTEXT/CONTEXT_BRIEF.md`, `.cursor/plans/master-plan.md`, `SECURITY_CONTEXT/inventory.md`, `.cursor/plans/security-master-plan.md`
