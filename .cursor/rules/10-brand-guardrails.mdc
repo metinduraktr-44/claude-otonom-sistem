@@ -1,0 +1,16 @@
+---
+description: Marka ve brief guardrails — ton, yasaklı ifadeler, marka tutarlılığı
+globs: BRIEFS/**, SCENARIOS/**
+---
+
+# Brand Guardrails
+
+Brief ve senaryo dosyalarında:
+
+1. **Ton:** Holding portföyü — profesyonel, veri-odaklı; agresif/sansasyonel dil yok (brief istemedikçe). Movéa: medikal premium · Çiğköftem: yerel/samimi · AdOps: B2B performans.
+2. **Claim:** Kanıtsız süperlatif, tıbbi/hukuki iddia, rakip ismi karşılaştırması yasak. Hukuk birimi (`hukuk-evp-reklam-politikası`) cross-check Faz 2+.
+3. **CTA:** Tek net CTA; Meta headline ~27 char, primary ~125 char (`MATRIX/CHANNEL_MATRIX.md`).
+4. **Safe zone:** 9:16 top 14% / bottom 20–35%; 4:5 kritik içerik merkez ~80%.
+5. **Dil:** TR birincil; EN varyant ayrı bölüm. 8 iştirak markası — aktif marka `CONTEXT/CONTEXT_BRIEF.md`'den okunur.
+
+Onay öncesi `critic-copy` subagent önerilir.

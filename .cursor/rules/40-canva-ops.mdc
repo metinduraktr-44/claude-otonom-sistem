@@ -1,0 +1,17 @@
+---
+description: Canva MCP/API operasyonları — design edit, export, resize, brand check. Yalnızca CANVA:ON veya canva-uret ile tetiklenir.
+---
+
+# Canva Ops (Agent Requested)
+
+**Önkoşul:** `STATE.md` → CANVA modu ON veya kullanıcı `/canva-uret` istedi.
+
+**Akış:** brief oku → brand check → design create/edit → spec resize → export → registry güncelle (`CANVA_OPS/DESIGN_REGISTRY.csv`).
+
+**MCP:** `.cursor/mcp.json` → `https://mcp.canva.com/mcp`
+
+**Skills:** `canva-edit-design`, `canva-export-pipeline`, `canva-production-pipeline`
+
+**OAuth:** `tools/canva-client/` — PKCE henüz TODO; keys Cursor Secrets'ta.
+
+BRIEF-ONLY modda Canva tool çağırma; yalnızca brief/spec çıktısı üret.
