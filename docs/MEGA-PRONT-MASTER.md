@@ -164,8 +164,14 @@ kopyala-çalıştır hazır çıktı. Genel/boş dil ve dolgu yok.
 - `docs/UNVAN-HIYERARSISI.md` — C→işçi kademe + top-100 protokolü + aylık arşiv döngüsü.
 - `docs/CILT10-HOLDING-COKULKE-MIMARISI.md` — holding → iştirak → ülke → app.
 - `docs/CILT11-ENTERPRISE-MCP-ROUTING.md` — 6 domain skill/MCP routing (docx uyarlaması).
+<<<<<<< ours
 - `docs/CILT12-MCP-SKILL-ROUTING-DETAY.md` — 696 slash-skill tam routing tablosu (minimal+detay).
 - `docs/IS-LISTESI-MEGA-AJANS.md` — FAZ A→I iş listesi (atlanmaz).
+=======
+- `docs/CILT13-CURSOR-GIGA-CANVA.md` — Cursor GIGA Creative Agency OS + Canva dual-mode (🚩 900B RED → çok-dosya).
+- `uretim/devir/CURSOR-GIGA-MASTER-CANVA.md` — Cursor Agent yapıştırma artifact.
+- `docs/IS-LISTESI-GIGA-CANVA.md` — GIGA FAZ 0–7 checklist.
+>>>>>>> theirs
 - `docs/MIT-UCRETSIZ-AGENTS-NIGHTLY.md` — MIT Status Agents + ücretsiz Nightly.
 - `uretim/devir/CLAUDE-CODE-YAPISTIR-MEGA.md` — Claude Code'a tek parça yapıştırma (Cursor→CC).
 - `data/skill_envanteri.json` · `data/skill_title_haritasi.json` · `data/mcp_hiyerarsi.json`.
@@ -173,7 +179,10 @@ kopyala-çalıştır hazır çıktı. Genel/boş dil ve dolgu yok.
 - `scripts/skill_ajans_uretim.py` · `scripts/mcp_ajans_etki_uret.py` — envanter + etki döngüsü.
 - `scripts/daily_agency.py` — 14 başkan / 46 departman rotasyonu, `--org-json`, `--dogrula`.
 - `scripts/validate.py` — yapısal/anlamsal/bütünlük denetimi (CI'da koşar).
-- `.claude/system_prompt` · `.cursorrules` — Claude Code / Cursor yapıştırma hedefleri.
+- `scripts/spec_validate.py` — Canva export / PNG spec doğrulama (fail-open hooks).
+- `scripts/secret_scan.py` · `scripts/ethics_check.py` — GIGA Security hygiene (CILT14).
+- `.claude/system_prompt` · `.cursorrules` — Claude Code / Cursor yapıştırma hedefleri (`.cursor/rules/*.mdc` = GIGA migration hedefi).
+- `docs/CILT14-CURSOR-GIGA-SECURITY.md` — Security Architecture & Governance OS (ASSESS-ONLY).
 
 ## EK B — Dürüstlük notu (kullanıcıya)
 Bu belge, isteğin **çalışan** hâlidir. İmkânsız boyutlar (900 milyar/900 milyon

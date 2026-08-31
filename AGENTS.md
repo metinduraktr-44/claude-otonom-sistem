@@ -34,3 +34,52 @@ This repository is a **Python 3 (standard-library only) + Bash automation system
 
 ### Reading
 `uretim/OZET-TEK-SAYFA.md`, `docs/SECRETS-DRYRUN-MATRISI.md`, `uretim/domain-matrix/README.md`
+
+---
+
+## Creative Agency OS / Canva Dual-Mode (GIGA)
+
+> Separate from Cloud Agent testing guidance above. Holding HQ scripts unchanged.
+
+Modular Cursor Creative Agency layer (not a 900B single prompt — 🚩 RED).
+
+| Item | Path |
+|------|------|
+| Paste prompt | `uretim/devir/CURSOR-GIGA-MASTER-CANVA.md` |
+| Index | `docs/CILT13-CURSOR-GIGA-CANVA.md` |
+| Checklist | `docs/IS-LISTESI-GIGA-CANVA.md` |
+| Rules / commands / skills | `.cursor/` |
+| State | `STATE.md` |
+| Spec validate | `python3 scripts/spec_validate.py` |
+| Canva client scaffold | `tools/canva-client/` |
+
+**Default flag:** `CANVA:BRIEF-ONLY` (no Canva mutate). Live: user says `CANVA:ON` + MCP OAuth (`https://mcp.canva.com/mcp` in `.cursor/mcp.json`). Do not claim Canva is live without credentials.
+
+**Agent commands:** `/baslat` · `/devam` · `/resume` · `/faz-raporu` · `/canva-uret` · `/brief-uret` · `/spec-dogrula` · `/arsivle`
+
+**Parallel agents:** start 2–3; isolate under `SCENARIOS/{urun}/{n}/`.
+
+---
+
+## Security Architecture & Governance OS (GIGA)
+
+> Additive to Cloud + Creative Agency sections. Defense-only. Do not wipe Canva paths.
+
+Modular Cursor Security OS (not a 900B single prompt — 🚩 RED). Full ~20k/skill = FAZ 3 continuous expansion; this repo ships short SKILL.md + references stubs + deep samples.
+
+| Item | Path |
+|------|------|
+| Paste prompt | `uretim/devir/CURSOR-GIGA-MASTER-SECURITY.md` |
+| Index | `docs/CILT14-CURSOR-GIGA-SECURITY.md` |
+| Checklist | `docs/IS-LISTESI-GIGA-SECURITY.md` |
+| Rules / commands / skills | `.cursor/` (security IDs: `00-security-core`, `05-ethics-guardrail`, `31-security-file-structure`, …) |
+| State | `SECURITY/STATE.md` |
+| Scanners | `python3 scripts/secret_scan.py` · `python3 scripts/ethics_check.py` |
+| Tool wrappers | `tools/security-scanners/` |
+| MCP stubs (OFF) | `.cursor/mcp.security.stubs.example.json` (`${VAR}` only) |
+
+**Default mode:** `MODE=ASSESS-ONLY`. Ethics: no exploits / phishing / malware / C2 / weaponized PoCs. ATT&CK = detection/D3FEND map only. Secrets: `${VAR}` · `vault://` · `op://` · `<REDACTED>`.
+
+**Agent commands:** `/baslat-security` · `/kontrol-uret` · `/gap-analizi` · `/compliance-paket` · `/etik-denetim` (+ shared `/devam` `/resume` `/faz-raporu` `/arsivle`)
+
+**Do not claim** live Semgrep/Snyk without user-enabled MCP + credentials.

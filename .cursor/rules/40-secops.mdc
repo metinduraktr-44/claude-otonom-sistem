@@ -1,0 +1,9 @@
+---
+description: SecOps playbooks — IR, detection engineering, vuln mgmt (Agent Requested; no globs)
+---
+
+# SecOps (on request)
+
+Load when user asks IR, detection, vuln triage, CSPM assess.
+Prefer skills: incident-response, detection-engineering, vulnerability-management,
+cloud-security-posture. Stay ASSESS-ONLY unless scoped. No attack tooling.

@@ -39,6 +39,7 @@
 
 <!-- SONRAKİ GİRİŞLER BURAYA — en yeni en üstte -->
 ## 2026-08-25T14:48:45Z — skill ajans envanteri
+## 2026-08-25T14:48:11Z — skill ajans envanteri
 - skills=696; domains=50; titles=216; pilot_prompts=2440; ekipler=50
 - 🚩 900B karakter RED; Claude Code MASTER üretilidi.
 
@@ -307,3 +308,33 @@
 - dotenv missing → LLM DRY-RUN (Secrets bekleniyor)
 
 - [2026-08-25T14:48:27Z] mega-skill-claude-paste: CILT12 routing (696) + IS-LISTESI + Claude Code yapıştırma üretildi; 900B RED eşdeğer uygulandı.
+### 2026-08-25T14:48:10Z — SLASH SKILL WAVE
+- skills=688 domains=9 titles=30
+- 🚩900B RED · Claude Code paste İPTAL · in-agent MASTER V3
+
+## 2026-08-26T00:33:21Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-08-26T06:55:33Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-26-DAT-ENG.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-08-27T05:25:24Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-08-27T12:44:49Z] GIGA Security OS bootstrap: CILT14 + secret_scan/ethics_check; MODE=ASSESS-ONLY; FAZ3=continuous skill depth.
+- [2026-08-27T12:59:09Z] Security FAZ3: 78 CTRL starter + CONTEXT inventory + skill deep refs (defense-only).
+- [2026-08-27T17:28:55Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-27-DAT-SCI.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-08-28T07:21:53Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-08-28T18:23:11Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-28-DAT-BI.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-08-29T04:33:02Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-08-29T12:30:58Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-29-PRD-MGT.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-08-30T02:02:44Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-08-30T11:35:07Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-30-PRD-DSN.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-08-31T01:58:21Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-08-31T13:10:11Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-31-PRD-OPS.md); K4 Cowork oturumu taslağı doldurur.

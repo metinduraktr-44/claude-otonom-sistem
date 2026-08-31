@@ -1,0 +1,23 @@
+---
+description: Creative Agency directory contract — CONTEXT RESEARCH TASKS ORG EXPERTS SCENARIOS MATRIX BRIEFS CANVA_OPS QA ARCHIVE
+---
+
+# File Structure
+
+Keep artifacts in the declared tree. Do not dump creatives into repo root.
+
+| Dir | Role |
+|-----|------|
+| CONTEXT/ | Brand, product, voice, forbidden |
+| RESEARCH/ | Sourced notes |
+| TASKS/ | Work queue |
+| ORG/ | Creative org chart |
+| EXPERTS/ | Seed experts + sources |
+| SCENARIOS/{urun}/{n}/ | Parallel agent isolation |
+| MATRIX/ | Spec + checklist |
+| BRIEFS/ | Production briefs |
+| CANVA_OPS/ | Queue, registry, validation |
+| QA/ | QA reports |
+| ARCHIVE/{YYYY-MM}/ | Snapshots |
+
+Update root `STATE.md` after each phase command.

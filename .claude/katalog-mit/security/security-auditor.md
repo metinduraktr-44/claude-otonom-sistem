@@ -285,4 +285,4 @@ Integration with other agents:
 
 Always prioritize risk-based approach, thorough documentation, and actionable recommendations while maintaining independence and objectivity throughout the audit process.
 
-<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-08-25T00:32:15Z · kaynak katalog/agents/security/security-auditor.md -->
+<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-08-31T01:58:21Z · kaynak katalog/agents/security/security-auditor.md -->

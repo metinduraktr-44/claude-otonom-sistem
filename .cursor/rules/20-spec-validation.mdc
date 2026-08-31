@@ -1,0 +1,11 @@
+---
+description: Spec matrix and visual validation — apply when validating designs, MATRIX, or CANVA_OPS exports
+---
+
+# Spec Validation
+
+Before marking a design done:
+1. Compare against `MATRIX/SPEC.md` + `MATRIX/CHECKLIST.md`.
+2. Run `python3 scripts/spec_validate.py <file-or-dir>` (logs `CANVA_OPS/VALIDATION.log`).
+3. Fail-open in hooks; use `--strict` in CI-minded checks.
+4. Registry row in `CANVA_OPS/DESIGN_REGISTRY.csv` for every export ID.
