@@ -1,50 +1,70 @@
-# TEK SAYFA RAPOR — Claude Otonom Sistem
-> UTC: 2026-08-20T11:25:00Z · Repo: [metinduraktr-44/claude-otonom-sistem](https://github.com/metinduraktr-44/claude-otonom-sistem) · Durum: **healthy (Actions yeşil; LLM keysiz Free Nightly)**
+# TEK SAYFA RAPOR — Merge durumu · 2026-08-31
 
-## Healthy roadmap (sırayla)
-1. **Merge PR #14** (ana paket: ajans + MIT Status Agents + Gemini LLM) → hemen  
-2. **Secrets** (rotate edilmiş `GEMINI_API_KEY`; ops. OpenRouter) → Live LLM  
-3. **PR #12** (AGENTS.md) — #14 merge sonrası kapat veya içerik zaten geldiyse close  
-4. Dependabot (#8/#11/#15) — düşük risk; #10 katalog örneği, isteğe bağlı  
-5. PR #16 / #17 — #14 sonrası **redundant/conflict**; close veya #14 içine alındıysa kapat  
-6. Claude Code’a `.claude/system_prompt` + `uretim/devir/CLAUDE-CODE-MASTER-PROMPT-HOLDING-V2.md`  
-7. Aylık top-N araştırma döngüsü + holding konsolide yeşil kalsın  
+> Damga: 2026-08-31T20:28:36Z · Repo: `metinduraktr-44/claude-otonom-sistem` · `main` validate: **DENETIM: GECTI** (+ `daily_agency --dogrula` GEÇTİ)
 
-## İş listesi
+## 1. Özet durum
 
-### Sende bekleyen (ajan merge/secret yazamaz)
-| # | Aksiyon | URL |
-|---|---|---|
-| 1 | **Merge #14** (MERGEABLE, Ready) | https://github.com/metinduraktr-44/claude-otonom-sistem/pull/14 |
-| 2 | Gemini anahtarını **rotate** et, Secrets’a koy (`GEMINI_API_KEY`) | https://aistudio.google.com/apikey · Repo Secrets: https://github.com/metinduraktr-44/claude-otonom-sistem/settings/secrets/actions |
-| 3 | (Opsiyonel) OpenRouter secret | https://openrouter.ai/keys |
-| 4 | Draft #12 Ready + merge veya #14 sonrası close | https://github.com/metinduraktr-44/claude-otonom-sistem/pull/12 |
-| 5 | Dependabot merge (#8, #11, #15) | https://github.com/metinduraktr-44/claude-otonom-sistem/pulls?q=is%3Apr+is%3Aopen+label%3Adependencies |
-| 6 | #16 / #17: close (çakışmalı / #14 ile örtüşen) | https://github.com/metinduraktr-44/claude-otonom-sistem/pull/16 · https://github.com/metinduraktr-44/claude-otonom-sistem/pull/17 |
-| 7 | Branch protection aç (main force-push engeli) | https://github.com/metinduraktr-44/claude-otonom-sistem/settings/branches |
+| Durum | Adet | Kanıt |
+|-------|------|-------|
+| **Bu turda merge** | **5** | #19, #22, #24, #25, #28 (`gh pr view` → `MERGED`) |
+| Açık (draft, superseded) | 3 | #23 Canva, #26 Security, #27 LATOS — agent **close 403**; kullanıcı kapatmalı |
+| Blocked / conflict | 0 (açık ready PR) | Conflict’ler merge öncesi çözüldü |
+| Hotfix bekleyen | 1 | MEGA-PRONT EK A conflict marker sızıntısı → bu PR `cursor/tek-sayfa-rapor-6a77` |
 
-### Bende bekleyen (sen merge + secret sonrası)
-| # | Aksiyon | Not |
-|---|---|---|
-| 1 | `llm_smoke.py` + live `daily_agency` Gemini ile | Secret gelince |
-| 2 | Nightly/daily Actions yeşil + LLM on doğrula | https://github.com/metinduraktr-44/claude-otonom-sistem/actions |
-| 3 | Conflict kalan PR’ları temizle / rebase | Senin close veya onay sonrası |
-| 4 | Holding rotasyon + top-N arşiv turu | Otomatik cron; LLM ile zenginleşir |
+**Merge kanıtı (mergedAt UTC):**
+- [#19](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/19) live-terminal · 20:24:59
+- [#24](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/24) Canva GIGA · 20:25:02
+- [#25](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/25) Security GIGA · 20:26:09
+- [#28](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/28) LATOS GIGA · 20:27:41
+- [#22](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/22) CILT12 MEGA · 20:28:10
 
-## PR matrisi (şimdi)
-| PR | Durum | Senin hareket |
-|---|---|---|
-| [#14](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/14) | **MERGEABLE · Ready** | **Merge et** |
-| [#12](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/12) | MERGEABLE · draft | Ready + merge veya close |
-| [#16](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/16) | CONFLICT · draft | Close (#14 kapsar) |
-| [#17](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/17) | CONFLICT · draft | Close veya sonra rebase |
-| [#8](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/8) / [#11](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/11) / [#15](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/15) | Dependabot | İsteğe bağlı merge |
-| [#10](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/10) | katalog örnek deps | Düşük öncelik |
+## 2. Healthy roadmap (sonraki 7 adım)
 
-## 🚩 Ajan sınırı
-Merge API / `gh pr merge` bu ortamda **yazamaz** (read-only). Onayın alındı; #14 conflict temizlendi ve Ready yapıldı — **Merge butonu sende**.
+1. **Hotfix merge** — `docs/MEGA-PRONT-MASTER.md` marker temizliği (`cursor/tek-sayfa-rapor-6a77`).
+2. **Security FAZ6** — `COMPLIANCE/` NIST/ISO paket · `/compliance-paket` · MODE=ASSESS-ONLY.
+3. **LATOS FAZ4 kartlar** — `JOB_CARDS/` envanter title’larına CARD iskeleti · `/is-karti` · QA gate.
+4. **Canva FAZ1 CONTEXT** — `CONTEXT/{BRAND,PRODUCT,VOICE}.md` doldur · flag `CANVA:BRIEF-ONLY`.
+5. **Canva BRIEF→ON (opsiyonel)** — MCP OAuth sonrası `CANVA:ON` + queue dry-run → `spec_validate`.
+6. **Secrets / Gemini** — Cursor Secrets: `GEMINI_API_KEY` (öncelik) · isteğe bağlı OpenRouter/Anthropic.
+7. **Cursor restart** — skills/hooks keşif; draft #23/#26/#27 kapat.
 
-## Kısa sağlık
-- Validate: GEÇTİ · Free Status Nightly: keysiz çalışır · MIT 32 ajan: `.claude/katalog-mit/`  
-- LLM sırası: OpenRouter → Gemini → Anthropic  
-- Yapıştır: `.claude/system_prompt` · `docs/MEGA-PRONT-MASTER.md` · `docs/MIT-UCRETSIZ-AGENTS-NIGHTLY.md`
+## 3. İş listesi
+
+**P0**
+- MEGA-PRONT conflict marker hotfix merge
+- Draft PR #23/#26/#27 kapat (superseded by #24/#25/#28)
+- Security FAZ6 compliance starter
+- LATOS FAZ4 job-card genişleme (CISO örneği ötesinde)
+
+**P1**
+- Canva CONTEXT + 2–3 SCENARIOS · BRIEF-ONLY
+- LATOS FAZ2 RESEARCH + MASTER_TASKS
+- Security ARCHIVE/`CALENDAR` iskeleti
+- Silinmiş `uretim/rol-kartlari` restore kararı (insan)
+
+## 4. Sende bekleyenler (agent / sistem)
+
+- Hotfix PR push/merge: `cursor/tek-sayfa-rapor-6a77` (bu tur).
+- Draft close: **403** (`Resource not accessible by integration`) — agent kapatamaz.
+- Sonraki içerik turları: Security FAZ6 / LATOS FAZ4 / Canva CONTEXT — secrets + OAuth yoksa BRIEF-ONLY/ASSESS-ONLY ile devam.
+
+## 5. Sende bekleyenler (Metin / kullanıcı)
+
+| İş | Ne yap | URL |
+|----|--------|-----|
+| Draft kapat | #23, #26, #27 → Close | [PR list](https://github.com/metinduraktr-44/claude-otonom-sistem/pulls) |
+| Hotfix (gerekirse) | `tek-sayfa-rapor` PR Merge | branch `cursor/tek-sayfa-rapor-6a77` |
+| Secrets | `GEMINI_API_KEY` (+ opsiyonel OpenRouter/Anthropic) | Cursor → Settings → Secrets / Cloud Agents |
+| Canva MCP OAuth | Canva connector Authorize | Cursor → Settings → MCP · `https://mcp.canva.com/mcp` |
+| Cursor restart | Skills/hooks yenile | Cursor restart / yeni Agent |
+| Billing Gemini | Ücretli model/kota | Google AI Studio / Cursor billing |
+| Rol-kart restore | 72 silinmiş dosya — onay | `LATOS/STATE.md` escalation |
+
+## 6. İlgili URL’ler
+
+- Repo: https://github.com/metinduraktr-44/claude-otonom-sistem
+- Merged: [#19](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/19) · [#22](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/22) · [#24](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/24) · [#25](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/25) · [#28](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/28)
+- Draft (kapat): [#23](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/23) · [#26](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/26) · [#27](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/27)
+- Docs: `docs/CILT13-CURSOR-GIGA-CANVA.md` · `docs/CILT14-CURSOR-GIGA-SECURITY.md` · `docs/CILT15-CURSOR-GIGA-LATOS.md` · `docs/IS-LISTESI-GIGA-*.md` · `STATE.md`
+
+⏱️ Damga: 2026-08-31T20:28:36Z · 🔍 Denetim: GEÇTİ · 📚 Öğrenim: Merge izni var; close yok; append-only conflict güvenli · 🔗 Önceki: evet
