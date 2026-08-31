@@ -1,21 +1,23 @@
 # TEK SAYFA ÖZET — LIVE (3 GIGA Hat Merge)
-> 2026-08-31T20:30:00Z · main HEAD birleşik
+> 2026-08-31T20:35:00Z · main HEAD birleşik
 
 ## 1. Durum özeti
 
-| Hat | PR | Branch | Merge | CI | Not |
-|-----|-----|--------|-------|-----|-----|
-| **Agency** | #23 | `cursor/giga-master-bootstrap-8e8f` | ✅ EVET | CodeRabbit pass | AUDIT conflict çözüldü; Faz 0–5 BRIEF-ONLY |
-| **Security** | #26 | `cursor/security-giga-bootstrap-8e8f` | ✅ EVET | validate pass | 120/600 kontrol; additive hooks |
-| **LATOS** | #27 | `cursor/latos-bootstrap-8e8f` | ✅ EVET | CodeRabbit pass | 633 title; 2 JOB_CARDS skeleton |
+| Hat | PR (8e8f) | PR (6a77 alt) | Merge durumu | Not |
+|-----|-----------|---------------|--------------|-----|
+| **Agency** | #23 DRAFT | #24 ✅ merged | ✅ EVET (main) | Faz 0–5 BRIEF-ONLY · 6 brief · 8 senaryo |
+| **Security** | #26 DRAFT | #25 ✅ merged | ✅ EVET (main) | 120+ kontrol · ASSESS-ONLY · 6 skill derinlik |
+| **LATOS** | #27 DRAFT | #28 ✅ merged | ✅ EVET (main) | 633 title · 2 JOB_CARDS skeleton |
 
-**main HEAD:** `4b020ebc` — `merge: PR #27 LATOS GIGA bootstrap (additive 3-track union)`  
-**Birleştirme yolu:** `cursor/giga-merge-wave-4570` → `main` (conflict resolution additive)  
-**validate.py:** GECTI (110 dosya)
+**main HEAD:** `2cb69c0c` — 8e8f continuum + 6a77 bootstrap union + CILT12 (#22)  
+**Birleştirme:** `cursor/giga-merge-wave-4570` → origin/main (conflict: `-X ours` + additive)  
+**validate.py:** GECTI (118 dosya)
 
-### Açık draft PR (birleştirilmedi — duplicate track)
-- #24 Agency alt track · #25 Security alt track · #28 LATOS alt track (6a77 branch'leri)
-- #19 live-terminal · #22 CILT12 — kullanıcı onayı dışı
+### Draft PR (#23/#26/#27) — kapatılacak
+İçerik main'e birleştirildi; gh ile kapatılır (duplicate 6a77 PR'leri zaten merged).
+
+### Açık PR (opsiyonel)
+- #19 live-terminal · #22 ✅ merged (CILT12)
 
 ---
 
@@ -24,7 +26,7 @@
 | Track | Faz | Durum | Sonraki kapı |
 |-------|-----|-------|--------------|
 | **Agency** | 0–5 ✅ / 6–7 ⏳ | BRIEF-ONLY · S01–S02 brief ×3 kanal · 8 senaryo | Marka kit → S03–S08 brief · critic PASS |
-| **Security** | 0–4 ✅ / 5–8 ⏳ | ASSESS-ONLY · 120 kontrol · 6 skill derinlik | Controls 021–100 · compliance pack Faz 5 |
+| **Security** | 0–4 ✅ / 5–8 ⏳ | ASSESS-ONLY · 120+ kontrol · 6 skill derinlik | Controls 021–100 · compliance pack Faz 5 |
 | **LATOS** | 0–1 🔄 / 2–9 ⏳ | 633 title envanter · 2 iş kartı skeleton | Git-deleted 72 rol doc · 10 title pilot batch |
 
 ---
@@ -43,7 +45,7 @@
 - [ ] Canva OAuth PKCE (opsiyonel — yalnızca CANVA:ON)
 
 ### P2
-- [ ] Duplicate draft PR #24/#25/#28 kapat veya arşivle
+- [ ] Draft PR #23/#26/#27 kapat (içerik main'de)
 - [ ] EVP kartları Director seviyesine genişlet
 - [ ] Aylık döngü + nightly yeşil
 
@@ -66,14 +68,14 @@
 | Aksiyon | Kısa yönlendirme | URL |
 |---------|------------------|-----|
 | **Cursor restart** | Yeni chat → `/devam` (Agency) · `/sec-devam` (Security) · `/latos-devam` (LATOS) | — |
-| **PR review (kalan)** | #24/#25/#28 duplicate; #19/#22 opsiyonel | https://github.com/metinduraktr-44/claude-otonom-sistem/pulls |
+| **PR review (kalan)** | #23/#26/#27 kapatılabilir (merged) · #19 opsiyonel | https://github.com/metinduraktr-44/claude-otonom-sistem/pulls |
 | **Gemini key rotate** | Eski key chat'te ifşa riski → yeni key oluştur | https://aistudio.google.com/apikey |
 | **OpenRouter key** | Fallback LLM | https://openrouter.ai/keys |
 | **Cursor Secrets** | `GEMINI_API_KEY`, `OPENROUTER_API_KEY` ekle | https://cursor.com/dashboard |
 | **Canva OAuth** | Opsiyonel; CANVA:ON istendiğinde `tools/canva-client/` | https://www.canva.com/developers/ |
 | **Marka kit** | PDF/logo/brief → `CONTEXT/INBOX/` | repo: `CONTEXT/INBOX/` |
-| **Draft PR (açık)** | #24 https://github.com/metinduraktr-44/claude-otonom-sistem/pull/24 · #25 https://github.com/metinduraktr-44/claude-otonom-sistem/pull/25 · #28 https://github.com/metinduraktr-44/claude-otonom-sistem/pull/28 |
+| **Draft PR (kapat)** | #23 https://github.com/metinduraktr-44/claude-otonom-sistem/pull/23 · #26 https://github.com/metinduraktr-44/claude-otonom-sistem/pull/26 · #27 https://github.com/metinduraktr-44/claude-otonom-sistem/pull/27 |
 
 ---
 
-⏱️ Damga: 2026-08-31T20:30:00Z · 🔍 Denetim: GEÇTİ · 📚 Öğrenim: 3 GIGA hat additive merge — AUDIT/BILGI zinciri korundu · 🔗 Önceki: evet
+⏱️ Damga: 2026-08-31T20:35:00Z · 🔍 Denetim: GEÇTİ · 📚 Öğrenim: 8e8f+6a77 additive union — AUDIT/BILGI zinciri korundu · 🔗 Önceki: evet
