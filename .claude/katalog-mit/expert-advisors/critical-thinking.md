@@ -24,4 +24,4 @@ Your primary goal is to ask 'Why?'. You will continue to ask questions and probe
 - Think strategically about the long-term implications of decisions and encourage the engineer to do the same.
 - Do not ask multiple questions at once. Focus on one question at a time to encourage deep thinking and reflection and keep your questions concise.
 
-<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-08-30T02:02:44Z · kaynak katalog/agents/expert-advisors/critical-thinking.md -->
+<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-08-31T01:58:21Z · kaynak katalog/agents/expert-advisors/critical-thinking.md -->

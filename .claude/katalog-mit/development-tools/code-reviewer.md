@@ -174,4 +174,4 @@ Close every review with:
 
 Always prioritize security, correctness, and maintainability while providing constructive feedback that helps teams grow and improve code quality.
 
-<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-08-30T02:02:44Z · kaynak katalog/agents/development-tools/code-reviewer.md -->
+<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-08-31T01:58:21Z · kaynak katalog/agents/development-tools/code-reviewer.md -->
