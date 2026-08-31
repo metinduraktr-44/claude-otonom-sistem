@@ -71,3 +71,28 @@ KURUL (6)
 - AdOps CRE EVP: `uretim/rol-kartlari/adops-evp-kreatif-stüdyo-dco.md`
 - Ajans org JSON: `data/ajans_org.json`
 - Experts digest: `EXPERTS/DIGEST.md`
+
+---
+
+## LATOS Hiyerarşi Görünümü
+
+> **Not:** Security `ORG/ROLES/` ayrı track; bu bölüm holding LATOS görünümü.
+
+### Birimler (C-Level → EVP → Director → …)
+- **hq** — Holding HQ / OS (INF, TAL, PRD, FIN, LEG)
+- **adops** — AdOps Agency (CRE, SOC, STR, ANA, …)
+- **tahmin** — Tahmin / Forecasting
+- **vizatrack** — Viza / Seyahat
+- **movea** — E-ticaret / Marka
+- **performer** — Growth / Monetization
+- **cigkoftem** — Yerel / Franchise
+- **hukuk** — Hukuk / Uyum
+
+### Kademe (tier)
+`C-LEVEL` → `EVP` → `SVP/VP` → `Director` → `Manager` → `Lead` → `Specialist` → `Coordinator/IC`
+
+### RACI
+Her title için iş kartında tek "A" (Accountable) — Faz 4.
+
+### Görsel
+Faz 3+: HTML org paneli (web-artifacts muadili)

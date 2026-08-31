@@ -87,3 +87,31 @@ Yeni girdiler: `CONTEXT/INBOX/` — marka kit, brief PDF, rakip örnekleri buray
 - [ ] Aktif müşteri/marka seçimi ve brand kit yükleme (`CONTEXT/INBOX/`)
 - [ ] Kampanya KPI ve deadline kilidi
 - [ ] Canva OAuth PKCE — yalnızca CANVA:ON istendiğinde (`tools/canva-client/`)
+
+---
+
+## LATOS Bölümü
+
+> **Güncelleme:** 2026-08-27T20:15:00Z · Faz 0–1 bootstrap
+
+### Kaynaklar Tarandı
+| Kaynak | Bulgu |
+|--------|-------|
+| `data/holding_istirak_org.json` | 633 rol, 8 istirak birimi |
+| `uretim/rol-kartlari/` | EVP/C-level kartları (kısmi) |
+| `data/slash_skill_katalog.json` | 688 skill, 30 title index |
+| `ORG/ROLES/` | 11 Security rol (ayrı track) |
+| Git deleted | ~72 `uretim/rol-kartlari/*.md` (kurtarılabilir, insan onaylı) |
+
+### Track Ayrımı (additive)
+- **Agency** — BRIEFS/, CANVA_OPS/
+- **Security** — SECURITY_*, LAYERS/, 6×100 matris
+- **LATOS** — ROSTER/, JOB_CARDS/, EXPERTS/, FORECASTS/
+
+### Karakter Hedefleri (dürüst)
+- Faz 0–1: skeleton + envanter (633 title)
+- Tam iş kartı/prompt/tahmin hedefleri Faz 4–9, fazlı
+
+## INBOX
+
+Yeni girdiler: `CONTEXT/INBOX/` — marka kit, brief PDF, rakip örnekleri, önceki chat dökümleri

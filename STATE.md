@@ -77,3 +77,31 @@
 3. GHA permissions matrisi + SHA pin gap ASSESS
 4. Faz 5 compliance pack iskeleti
 5. Canva MCP dokunulmadı — security MCP örnek kapalı
+
+---
+
+## LATOS (Living AI Talent & Organization System)
+
+### Faz
+- **phase:** `0–1` (Bootstrap + Title Discovery START)
+- **last_command:** `latos-baslat` / Faz 0 bootstrap
+- **last_updated_utc:** 2026-08-27T20:20:00Z
+
+### Envanter
+- **title_count:** 633 (`data/holding_istirak_org.json`)
+- **master_list:** `ROSTER/TITLE_INVENTORY.md`
+- **job_cards_skeleton:** 2 (hq-ceo, adops-ceo)
+- **git_deleted_rol_kartlari:** 72 (dokümante; restore insan onaylı)
+
+### Karakter hedefleri (fazlı — tamamlanmadı)
+- İş kartı 2000+/200 başlık → Faz 4
+- 122 prompt/title → Faz 8
+- 200 tahmin/gün → Faz 9
+- 900M char/prompt → imkânsız; fazlı yaklaşım dokümante
+
+### Sonraki adım (LATOS)
+1. Faz 1 tamamla: git deleted title detay dokümantasyonu
+2. Faz 2: `RESEARCH/_ORG_BEST_PRACTICE.md` genişlet
+3. Faz 3: `ORG/ORG_CHART.md` görsel/HTML
+4. Skill restart: Cursor restart + yeni chat + `/latos-devam`
+5. JOB_CARDS batch skeleton (10 title pilot)

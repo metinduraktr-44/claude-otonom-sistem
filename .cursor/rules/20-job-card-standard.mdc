@@ -1,0 +1,22 @@
+---
+description: İş kartı standardı — JOB_CARDS format ve fazlı karakter hedefleri
+globs: JOB_CARDS/**
+alwaysApply: false
+---
+
+# Job Card Standard
+
+Her title: `JOB_CARDS/{slug}/CARD.md` (indeks) + opsiyonel `H001.md`…`H200.md`.
+
+## Hedef (Faz 4+, fazlı)
+- **Min 2.000 karakter** toplam
+- **Min 200 başlık** (H001–H200 veya eşdeğer)
+- Her başlık: 200 char açıklama + 200 char yönlendirme + 200 char eğitim
+
+## Faz 0–1 iskelet (şimdi)
+- `CARD.md`: kimlik, misyon, RACI, KPI, araçlar, escalation — **skeleton OK**
+- `INDEX.md`: başlık listesi placeholder
+- Durum: `status: skeleton` frontmatter veya tablo sütunu
+
+## QA
+Tamamlanmış sayılmaz: envanterde var, JOB_CARDS yok veya skeleton. `qa_check.py` uyarı verir, bloklamaz.

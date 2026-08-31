@@ -13,12 +13,27 @@
       {
         "command": "python3 scripts/ethics_check.py --hook",
         "description": "Offensive/exploit içerik pattern denetimi"
+      },
+      {
+        "command": "python3 scripts/qa_check.py",
+        "description": "LATOS: title inventory diff + char target skeleton check"
+      },
+      {
+        "command": "python3 scripts/citation_check.py",
+        "description": "LATOS: EXPERTS/FORECASTS URL+timestamp kontrolü"
       }
     ],
     "beforeShellExecution": [
       {
+        "command": ".cursor/hooks/guard.sh",
+        "description": "Tehlikeli shell reddet; git kurtarma izinli (failClosed)",
+        "matcher": "rm -rf|push --force|curl.*\\|.*sh",
+        "failClosed": true,
+        "timeout": 10
+      },
+      {
         "command": ".cursor/hooks/block-dangerous.sh",
-        "description": "Tehlikeli shell kalıplarını reddeder (failClosed)"
+        "description": "Ek tehlikeli kalıp koruması (legacy)"
       }
     ],
     "beforeReadFile": [
@@ -30,7 +45,7 @@
     "stop": [
       {
         "command": ".cursor/hooks/phase-audit.sh",
-        "description": "Oturum bitişinde Security OS faz/audit damgası"
+        "description": "Oturum bitişinde Security OS + LATOS faz/audit damgası"
       }
     ]
   }

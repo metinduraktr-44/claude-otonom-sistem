@@ -1,0 +1,21 @@
+---
+description: Hiçbir title atlanmaz — mevcut + silinmiş + arşiv envanter kuralı
+alwaysApply: true
+---
+
+# No Skip Titles
+
+**HİÇBİR title atlanmaz.** Master liste: `ROSTER/TITLE_INVENTORY.md`.
+
+## Kaynaklar (hepsi envantere girer)
+1. **Mevcut:** `data/holding_istirak_org.json` (633 rol), `uretim/rol-kartlari/`, `ORG/`, agent tanımları
+2. **Silinmiş:** `git log --all --diff-filter=D` ile `uretim/rol-kartlari/` — kurtarma insan onaylı
+3. **Arşiv:** `ARCHIVE/`, `CONTEXT/INBOX/`, deprecated klasörler
+
+## QA
+- Envanter vs `JOB_CARDS/{title}/` diff — eksik title = Faz 4 backlog
+- Yeni title keşfi → envantere ekle, sıra numarası koru
+- `scripts/qa_check.py` hook ile otomatik diff
+
+## Karakter hedefleri
+Skeleton + index Faz 0–1'de OK. Tam 200 başlık × 200+200+200 yalnızca fazlı `DEVAM` ile.
