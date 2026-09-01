@@ -1,6 +1,6 @@
 # CLAUDE CODE MASTER PROMPT — SKILL AJANS (yapıştır)
 
-> Üretim: 2026-08-25T14:48:45Z · Kaynak repo: claude-otonom-sistem · Dal: cursor/mcp-ajans-etki-arsivi-8e8f
+> Üretim: 2026-09-01T10:22:05Z · Kaynak repo: claude-otonom-sistem · Dal: cursor/mcp-ajans-etki-arsivi-8e8f
 > Bu dosyayı Claude Code'a **tek parça** yapıştır. Cursor Cloud bu paketi üretti; sen uygulayıp push edersin.
 
 ## 🚩 ZORUNLU RED

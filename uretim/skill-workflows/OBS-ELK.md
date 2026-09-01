@@ -1,5 +1,5 @@
 # Workflow — Elastic / Kibana / EDOT (`OBS-ELK`)
-> 2026-08-25T14:48:45Z · skills=33
+> 2026-09-01T10:22:05Z · skills=33
 
 ## Amaç
 Elastic / Kibana / EDOT skill kümesini LLM ajans olarak 7×24 işlet.

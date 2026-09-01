@@ -4,7 +4,7 @@
 - title: **CockroachDB security/ops Skill Uzmanı (IC)**
 - domain: `SEC-CRDB`
 - skills: `/analyzing-range-distribution`, `/analyzing-schema-change-storage-risk`, `/auditing-table-statistics`, `/benchmarking-transaction-patterns`, `/cockroachdb-sql`, `/configuring-audit-logging`
-- ts: 2026-08-04T08:44:49Z
+- ts: 2026-09-01T10:22:05Z
 - hedef: 4000-12000 karakter · 🚩 900B/900M YASAK
 
 ## 1. Kimlik

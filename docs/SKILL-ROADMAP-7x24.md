@@ -1,5 +1,5 @@
 # SKILL AJANS 7×24 ROADMAP
-> 2026-08-25T14:48:45Z
+> 2026-09-01T10:22:05Z
 
 ## Günlük
 - 06:00Z skill sağlık (dry-run smoke, auth durumu)

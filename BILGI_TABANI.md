@@ -59,6 +59,14 @@
 - Gelir motoru kararı: hedef iş = CLAUDE OTONOM SİSTEM'in kendisi (bileşen kütüphanesi ürünleştirme). Mevcut 5 iş (Tahmin Uzmanı, VESTRA, İBB Kültür AŞ, Movéa, Response DGA) pilot iç müşteri — dogfooding. Detay: GELIR_MOTORU.md.
 
 <!-- SONRAKİ GİRİŞLER BURAYA — en yeni en üstte -->
+## 2026-09-01T10:22:06Z — MCP×etki×prompt motoru
+- MCP=174; tech=141; cult=116; org_roles=104; prompts_index=12688
+- 🚩 900M karakter/prompt reddedildi (K-017 emsali); 122×(4–12KiB) sözleşme.
+
+## 2026-09-01T10:22:05Z — skill ajans envanteri
+- skills=696; domains=50; titles=216; pilot_prompts=2440; ekipler=50
+- 🚩 900B karakter RED; Claude Code MASTER üretilidi.
+
 ## 2026-08-27T12:37:54Z — Security GIGA MASTER Faz 0 bootstrap
 - Track: `cursor/security-giga-bootstrap-8e8f` (agency GIGA'dan ayrı). MODE=ASSESS-ONLY.
 - Eklendi: `.cursor/rules` security mdc, sec-* commands, hooks (secret/ethics/shell/redact/audit), 20 skill iskeleti, 6 motor klasörü, inventory+attack-surface.

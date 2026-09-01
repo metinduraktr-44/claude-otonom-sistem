@@ -4,7 +4,7 @@
 - title: **Feature flags / Confidence Skill Uzmanı (IC)**
 - domain: `FEAT-CONF`
 - skills: `/analyze-experiments`, `/analyzing-experiment-session-replays`, `/auditing-experiments-flags`, `/chaos-experiment`, `/cleaning-up-stale-feature-flags`, `/configuring-experiment-analytics`
-- ts: 2026-08-04T08:44:49Z
+- ts: 2026-09-01T10:22:05Z
 - hedef: 4000-12000 karakter · 🚩 900B/900M YASAK
 
 ## 1. Kimlik

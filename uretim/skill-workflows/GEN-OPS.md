@@ -1,5 +1,5 @@
 # Workflow — Genel Operasyon (`GEN-OPS`)
-> 2026-08-25T14:48:45Z · skills=14
+> 2026-09-01T10:22:05Z · skills=14
 
 ## Amaç
 Genel Operasyon skill kümesini LLM ajans olarak 7×24 işlet.
