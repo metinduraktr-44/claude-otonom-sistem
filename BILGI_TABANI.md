@@ -365,3 +365,6 @@
 - Ran read->distill->produce->validate->stamp. Generation: off.
 
 - [2026-08-31T13:10:11Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-08-31-PRD-OPS.md); K4 Cowork oturumu taslağı doldurur.
+
+## 2026-09-01T02:20:07Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.

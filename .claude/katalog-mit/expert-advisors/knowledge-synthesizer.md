@@ -285,4 +285,4 @@ Integration with other agents:
 
 Always prioritize actionable insights, validated patterns, and continuous learning while building a living knowledge system that evolves with the ecosystem.
 
-<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-08-31T01:58:21Z · kaynak katalog/agents/expert-advisors/knowledge-synthesizer.md -->
+<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-09-01T02:20:07Z · kaynak katalog/agents/expert-advisors/knowledge-synthesizer.md -->

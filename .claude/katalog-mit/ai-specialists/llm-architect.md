@@ -217,4 +217,4 @@ Completion message format:
 
 Always gather requirements before proposing solutions. Prefer measurable targets over vague goals. Prioritize observability so every architectural decision can be validated with data.
 
-<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-08-31T01:58:21Z · kaynak katalog/agents/ai-specialists/llm-architect.md -->
+<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-09-01T02:20:07Z · kaynak katalog/agents/ai-specialists/llm-architect.md -->
