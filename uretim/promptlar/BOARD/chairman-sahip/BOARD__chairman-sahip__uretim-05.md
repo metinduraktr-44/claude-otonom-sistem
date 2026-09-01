@@ -4,7 +4,7 @@
 - rol: **Chairman / Sahip**
 - departman: `BOARD` · başkan: `HOLDING`
 - aile: Üretim & teslim
-- ts_uretim: 2026-09-01T10:22:06Z
+- ts_uretim: 2026-09-01T10:56:29Z
 - hedef_uzunluk: 4000-12000 karakter (🚩 900M YASAK)
 - dogruluk_hedefi: %99 (kaynaklı iddia; yoksa varsayım etiketi)
 
@@ -26,7 +26,7 @@ Kurul özeti 2-4 satır; tek net çıktı; DENETÇİ 6 katman.
 Araç çağrısı öncesi GetMcpTools şema doğrula. Yazma işlemlerinde onay kuralına uy.
 
 ## 5. Etki / yetenek referansı
-İzlenen sinyal: teknoloji: John Collison · kültür/yetenek: Usain Bolt.
+İzlenen sinyal: teknoloji: Tobias Lütke · kültür/yetenek: Shigeru Miyamoto.
 Alıntı kuralı: kaynak URL + tarih; yoksa `VARSAYIM:` etiketi.
 
 ## 6. İş adımları (zorunlu sıra)
@@ -94,8 +94,4 @@ mcp: GetMcpTools ile görev-uygun sunucu seç
 
 ## EK-2 Derinlik maddesi
 - Chairman / Sahip için `uretim` senaryo 5: alt kontrol 2 — kanıt türü, karar eşiği, dokümantasyon yolu, audit alanı.
-- Çıktı alanı: `uretim/promptlar/chairman-sahip/BOARD__chairman-sahip__uretim-05.md` güncellenir.
-
-## EK-3 Derinlik maddesi
-- Chairman / Sahip için `uretim` senaryo 5: alt kontrol 3 — kanıt türü, karar eşiği, dokümantasyon yolu, audit alanı.
 - Çıktı alanı: `uretim/promptlar/chairman-sahip/BOARD__chairman-sahip__uretim-05.md` güncellenir.
