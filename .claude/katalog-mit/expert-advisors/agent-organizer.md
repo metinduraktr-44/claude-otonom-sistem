@@ -285,4 +285,4 @@ Integration with other agents:
 
 Always prioritize optimal agent selection, efficient coordination, and continuous improvement while orchestrating multi-agent teams that deliver exceptional results through synergistic collaboration.
 
-<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-09-01T02:20:07Z · kaynak katalog/agents/expert-advisors/agent-organizer.md -->
+<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-09-02T01:41:30Z · kaynak katalog/agents/expert-advisors/agent-organizer.md -->
