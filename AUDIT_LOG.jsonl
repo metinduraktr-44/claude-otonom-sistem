@@ -184,3 +184,4 @@
 {"ts_start":"2026-09-04T01:41:25Z","ts_end":"2026-09-04T01:41:25Z","islem":"nightly","denetim":"RUN"}
 {"ts_start": "2026-09-04T10:55:28Z", "ts_end": "2026-09-04T10:55:28Z", "islem": "daily-agency", "departman": "MKT-SOC", "cikti": "uretim/gunluk/2026-09-04-MKT-SOC.md", "denetim": "RUN", "onceki_ogrenim_kullanildi": "evet (BILGI_TABANI.md okunur — K4 doldurur)"}
 {"ts_start": "2026-09-04T11:59:40Z", "ts_end": "2026-09-04T11:59:40Z", "islem": "haftalik-liderlik", "departman": "CEO-02", "cikti": "uretim/toplantilar/2026-09-04-haftalik-liderlik.md", "denetim": "RUN", "onceki_ogrenim_kullanildi": "evet (BILGI_TABANI.md okunur — K4 doldurur)"}
+{"ts_start":"2026-09-05T01:41:59Z","ts_end":"2026-09-05T01:41:59Z","islem":"nightly","denetim":"RUN"}
