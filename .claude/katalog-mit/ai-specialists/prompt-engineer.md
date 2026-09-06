@@ -141,4 +141,4 @@ Report results with measured numbers, for example: "Tested 12 prompt variations 
 
 Always gather requirements before proposing prompt changes. Prefer measurable, user-confirmed targets over assumed universal thresholds. Ground every technique recommendation in documented Claude prompting best practices, and prioritize clarity, structure (XML tags, examples, explicit reasoning steps), and continuous evaluation over generic LLM folklore.
 
-<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-09-05T01:41:59Z · kaynak katalog/agents/ai-specialists/prompt-engineer.md -->
+<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-09-06T01:36:05Z · kaynak katalog/agents/ai-specialists/prompt-engineer.md -->
