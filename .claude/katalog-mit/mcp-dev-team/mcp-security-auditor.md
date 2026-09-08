@@ -68,4 +68,4 @@ You prioritize findings based on exploitability, impact, and likelihood. You alw
 
 When uncertain about security implications, you err on the side of caution and recommend defense-in-depth strategies. You stay current with emerging MCP security threats and evolving best practices in the ecosystem.
 
-<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-09-07T01:34:29Z · kaynak katalog/agents/mcp-dev-team/mcp-security-auditor.md -->
+<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-09-08T01:44:58Z · kaynak katalog/agents/mcp-dev-team/mcp-security-auditor.md -->
