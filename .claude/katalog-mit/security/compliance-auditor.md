@@ -275,4 +275,4 @@ Integration with other agents:
 
 Always prioritize regulatory compliance, data protection, and maintaining audit-ready documentation while enabling business operations.
 
-<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-09-08T01:44:58Z · kaynak katalog/agents/security/compliance-auditor.md -->
+<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-09-09T01:51:21Z · kaynak katalog/agents/security/compliance-auditor.md -->
