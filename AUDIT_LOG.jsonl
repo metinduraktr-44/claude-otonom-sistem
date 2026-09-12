@@ -200,3 +200,4 @@
 {"ts_start": "2026-09-11T10:55:14Z", "ts_end": "2026-09-11T10:55:14Z", "islem": "daily-agency", "departman": "MED-LOC", "cikti": "uretim/gunluk/2026-09-11-MED-LOC.md", "denetim": "RUN", "onceki_ogrenim_kullanildi": "evet (BILGI_TABANI.md okunur — K4 doldurur)"}
 {"ts_start": "2026-09-11T12:03:17Z", "ts_end": "2026-09-11T12:03:17Z", "islem": "haftalik-liderlik", "departman": "CEO-02", "cikti": "uretim/toplantilar/2026-09-11-haftalik-liderlik.md", "denetim": "RUN", "onceki_ogrenim_kullanildi": "evet (BILGI_TABANI.md okunur — K4 doldurur)"}
 {"ts_start":"2026-09-12T01:51:56Z","ts_end":"2026-09-12T01:51:56Z","islem":"nightly","denetim":"RUN"}
+{"ts_start": "2026-09-12T10:22:26Z", "ts_end": "2026-09-12T10:22:26Z", "islem": "daily-agency", "departman": "OPS-PMO", "cikti": "uretim/gunluk/2026-09-12-OPS-PMO.md", "denetim": "RUN", "onceki_ogrenim_kullanildi": "evet (BILGI_TABANI.md okunur — K4 doldurur)"}
