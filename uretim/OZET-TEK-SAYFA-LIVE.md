@@ -1,82 +1,52 @@
 # TEK SAYFA ÖZET — LIVE (3 GIGA Hat)
-> 2026-09-02T20:50:00Z · main HEAD birleşik · Metin onayı merge turu
+> 2026-09-02T20:51:53Z · main HEAD `660fdc3e` · Metin onayı merge turu tamam
 
 ## 1. Durum özeti
 
 | Hat | PR | Merge durumu | Not |
 |-----|-----|--------------|-----|
-| **Agency** | #23 · #24 | ✅ merged (önceki tur) | Faz 0–5 BRIEF-ONLY · 6 brief · 8 senaryo |
-| **Security** | #25 · #26 | ✅ merged (önceki tur) | 120+ kontrol · ASSESS-ONLY · 6 skill derinlik |
-| **LATOS** | #27 · #28 | ✅ merged (önceki tur) | 633 title · 2 JOB_CARDS skeleton |
-| **live-terminal** | #19 | ✅ merged (önceki tur) | AUDIT parse fix · LIVE damgası korunur |
-| **CILT12 / MEGA** | #22 · #29 | ✅ merged (bu tur #29) | MEGA-PRONT conflict marker hotfix + merge raporu |
-| **dependabot** | #30 | ✅ merged (bu tur) | actions/setup-python 5→7 · CI yeşil |
+| **Agency / Canva** | #23 · #24 | ✅ MERGED | Faz 0–5 BRIEF-ONLY |
+| **Security** | #25 · #26 | ✅ MERGED | ASSESS-ONLY · FAZ6 sırada |
+| **LATOS** | #27 · #28 | ✅ MERGED | 633 title · JOB_CARDS genişleme sırada |
+| **live-terminal** | #19 | ✅ MERGED | AUDIT LIVE damgası |
+| **CILT12 / MEGA** | #22 · #29 | ✅ MERGED (bu tur #29) | conflict marker hotfix + rapor |
+| **dependabot CI** | #30 | ✅ MERGED (bu tur) | setup-python 5→7 |
+| **katalog npm** | #31 | ⏭ OPEN — skip | vendored `katalog/**` |
 
-**main HEAD:** `88ff23b4` — 3 GIGA hat union + MEGA hotfix + dependabot  
-**Bu tur merge:** #29 (2026-09-02T20:50:17Z) · #30 (2026-09-02T20:50:20Z)  
-**Önceki tur (doğrulandı):** #19 · #23 · #26 · #27 · #28 · #24 · #25 · #22  
-**Açık PR:** yok  
-**validate.py:** GECTI (118 dosya)
+**Bu tur:** #29 `2026-09-02T20:50:17Z` · #30 `2026-09-02T20:50:20Z`  
+**Workstream açık PR:** 0 · **validate:** GECTI · **dogrula:** GEÇTİ
 
----
+## 2. Healthy roadmap (7)
 
-## 2. Healthy roadmap
+1. Cursor restart + `/devam` üçlüsü  
+2. `GEMINI_API_KEY` Secrets  
+3. Security FAZ6 COMPLIANCE  
+4. LATOS 10 JOB_CARDS  
+5. Canva CONTEXT BRIEF-ONLY  
+6. Agency S03–S08 brief  
+7. Opsiyonel Canva OAuth MCP  
 
-| Track | Faz | Durum | Sonraki kapı |
-|-------|-----|-------|--------------|
-| **Agency** | 0–5 ✅ / 6–7 ⏳ | BRIEF-ONLY · S01–S02 brief ×3 kanal · 8 senaryo | Marka kit → S03–S08 brief · critic PASS |
-| **Security** | 0–4 ✅ / 5–8 ⏳ | ASSESS-ONLY · 120/600 kontrol · 6 skill derinlik | Controls 021–100 · compliance pack Faz 5 |
-| **LATOS** | 0–1 🔄 / 2–9 ⏳ | 633 title envanter · 2 iş kartı skeleton | Git-deleted 72 rol doc · 10 title pilot batch |
+## 3. P0 / P1
 
----
+**P0:** Restart smoke · Gemini Secrets · Security FAZ6 · LATOS 10 kart  
+**P1:** Canva CONTEXT · Agency brief · LATOS RESEARCH/restore · Security 021–100 · nightly yeşil  
 
-## 3. İş listesi (repo)
+## 4. Sende (agent)
 
-### P0
-- [ ] Cursor restart → `/devam` · `/sec-devam` · `/latos-devam` smoke
-- [ ] Marka kit → `CONTEXT/INBOX/` (Agency TBD kilidi)
-- [ ] Secrets: Gemini + OpenRouter → Cursor Secrets (LLM dry-run kalkar)
+Merge tamam · validate yeşil · FAZ turları secrets’sız BRIEF/ASSESS ile devam · #31 skip
 
-### P1
-- [ ] Agency: S03–S08 brief dalgası + critic-copy/spec PASS
-- [ ] Security: controls 021–100 × 6 motor + GHA pin gap ASSESS
-- [ ] LATOS: Faz 1 git-deleted title doc + 10 JOB_CARDS skeleton
-- [ ] Canva OAuth PKCE (opsiyonel — yalnızca CANVA:ON)
+## 5. Bende (Metin)
 
-### P2
-- [x] Draft PR #23/#26/#27 merged
-- [x] #19 live-terminal merged
-- [x] #29 MEGA hotfix + #30 dependabot merged (2026-09-02)
-- [ ] EVP kartları Director seviyesine genişlet
-- [ ] Aylık döngü + nightly yeşil
+| Aksiyon | URL |
+|---------|-----|
+| Gemini Secrets | https://aistudio.google.com/apikey · https://cursor.com/dashboard |
+| Canva OAuth (ops.) | `https://mcp.canva.com/mcp` |
+| Restart | https://cursor.com/agents/bc-54743038-5093-5289-9a11-a944767d12ed |
+| Repo / pulls | https://github.com/metinduraktr-44/claude-otonom-sistem · …/pulls |
+| #31 opsiyonel | https://github.com/metinduraktr-44/claude-otonom-sistem/pull/31 |
 
----
+## 6. Path’ler
 
-## 4. Sende bekleyenler (agent/cloud)
+`docs/CILT13|14|15` · `docs/IS-LISTESI-GIGA-*` · `uretim/devir/CURSOR-GIGA-MASTER-*` · `uretim/devir/CLAUDE-CODE-YAPISTIR-MEGA.md` · `uretim/TEK-SAYFA-RAPOR-MERGE-DURUM.md`
 
-| Otomasyon | Durum | Tetik |
-|-----------|-------|-------|
-| `bash scripts/nightly.sh` | GHA cron | Her gece validate + damga |
-| `python3 scripts/daily_agency.py` | Key yoksa SKIP/skeleton | GHA + manuel |
-| `python3 scripts/qa_check.py` | 631/633 pending (beklenen) | `/latos-devam` sonrası |
-| CI validate workflow | main push sonrası | Otomatik |
-| LLM smoke (Gemini→OpenRouter) | DRY-RUN | Secrets sonrası |
-| skill-ajans-dongu GHA | setup-python v7 (post-#30) | Bir sonraki cron |
-
----
-
-## 5. Bende bekleyenler (Metin)
-
-| Aksiyon | Kısa yönlendirme | URL |
-|---------|------------------|-----|
-| **Cursor restart** | Yeni chat → `/devam` · `/sec-devam` · `/latos-devam` | — |
-| **Gemini key rotate** | Eski key chat'te ifşa riski → yeni key oluştur | https://aistudio.google.com/apikey |
-| **OpenRouter key** | Fallback LLM | https://openrouter.ai/keys |
-| **Cursor Secrets** | `GEMINI_API_KEY`, `OPENROUTER_API_KEY` ekle | https://cursor.com/dashboard |
-| **Canva OAuth** | Opsiyonel; CANVA:ON istendiğinde `tools/canva-client/` | https://www.canva.com/developers/ |
-| **Marka kit** | PDF/logo/brief → `CONTEXT/INBOX/` | repo: `CONTEXT/INBOX/` |
-| **PR review** | Tüm GIGA PR'lar merged — açık PR yok | https://github.com/metinduraktr-44/claude-otonom-sistem/pulls |
-
----
-
-⏱️ Damga: 2026-09-02T20:50:00Z · 🔍 Denetim: GEÇTİ · 📚 Öğrenim: Merge turu tamam — #29/#30 main'de; açık PR kalmadı · 🔗 Önceki: evet
+⏱️ Damga: 2026-09-02T20:51:53Z · 🔍 Denetim: GEÇTİ · 📚 Öğrenim: Merge turu kapandı; kullanıcı aksiyonu Secrets+restart · 🔗 Önceki: evet
