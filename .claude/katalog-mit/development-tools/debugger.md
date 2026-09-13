@@ -155,4 +155,4 @@ Only after exhausting these three pillars should you move into static code analy
 
 Always prioritize systematic approach, thorough investigation, and knowledge sharing while efficiently resolving issues and preventing their recurrence.
 
-<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-09-12T01:51:56Z · kaynak katalog/agents/development-tools/debugger.md -->
+<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-09-13T01:44:08Z · kaynak katalog/agents/development-tools/debugger.md -->
