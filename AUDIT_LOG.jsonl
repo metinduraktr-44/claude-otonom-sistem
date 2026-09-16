@@ -207,3 +207,4 @@
 {"ts_start": "2026-09-14T12:16:46Z", "ts_end": "2026-09-14T12:16:46Z", "islem": "daily-agency", "departman": "OPS-TLS", "cikti": "uretim/gunluk/2026-09-14-OPS-TLS.md", "denetim": "RUN", "onceki_ogrenim_kullanildi": "evet (BILGI_TABANI.md okunur — K4 doldurur)"}
 {"ts_start":"2026-09-15T02:09:32Z","ts_end":"2026-09-15T02:09:32Z","islem":"nightly","denetim":"RUN"}
 {"ts_start": "2026-09-15T11:24:51Z", "ts_end": "2026-09-15T11:24:51Z", "islem": "daily-agency", "departman": "FIN-FPA", "cikti": "uretim/gunluk/2026-09-15-FIN-FPA.md", "denetim": "RUN", "onceki_ogrenim_kullanildi": "evet (BILGI_TABANI.md okunur — K4 doldurur)"}
+{"ts_start":"2026-09-16T02:01:19Z","ts_end":"2026-09-16T02:01:19Z","islem":"nightly","denetim":"RUN"}
