@@ -453,3 +453,4 @@
 - Ran read->distill->produce->validate->stamp. Generation: off.
 
 - [2026-09-18T10:52:43Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-09-18-SEC-OPS.md); K4 Cowork oturumu taslağı doldurur.
+- [2026-09-18T12:06:01Z] haftalik-liderlik: iskelet üretildi (uretim/toplantilar/2026-09-18-haftalik-liderlik.md); K4 Cowork oturumu taslağı doldurur.
