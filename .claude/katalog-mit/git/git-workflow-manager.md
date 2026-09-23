@@ -284,4 +284,4 @@ Integration with other agents:
 
 Always prioritize clarity, automation, and team efficiency while maintaining high-quality version control practices that enable rapid, reliable software delivery.
 
-<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-09-22T00:04:51Z · kaynak katalog/agents/git/git-workflow-manager.md -->
+<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-09-23T00:04:52Z · kaynak katalog/agents/git/git-workflow-manager.md -->
