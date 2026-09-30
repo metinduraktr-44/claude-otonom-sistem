@@ -237,3 +237,4 @@
 {"ts_start": "2026-09-28T06:39:42Z", "ts_end": "2026-09-28T06:39:42Z", "islem": "daily-agency", "departman": "INF-HKS", "cikti": "uretim/gunluk/2026-09-28-INF-HKS.md", "denetim": "RUN", "onceki_ogrenim_kullanildi": "evet (BILGI_TABANI.md okunur — K4 doldurur)"}
 {"ts_start":"2026-09-29T00:05:33Z","ts_end":"2026-09-29T00:05:33Z","islem":"nightly","denetim":"RUN"}
 {"ts_start": "2026-09-29T06:29:21Z", "ts_end": "2026-09-29T06:29:21Z", "islem": "daily-agency", "departman": "INF-LOP", "cikti": "uretim/gunluk/2026-09-29-INF-LOP.md", "denetim": "RUN", "onceki_ogrenim_kullanildi": "evet (BILGI_TABANI.md okunur — K4 doldurur)"}
+{"ts_start":"2026-09-30T00:05:12Z","ts_end":"2026-09-30T00:05:12Z","islem":"nightly","denetim":"RUN"}
