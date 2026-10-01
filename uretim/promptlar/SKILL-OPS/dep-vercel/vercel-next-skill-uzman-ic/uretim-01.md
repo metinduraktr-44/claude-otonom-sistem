@@ -4,7 +4,7 @@
 - title: **Vercel / Next Skill Uzmanı (IC)**
 - domain: `DEP-VERCEL`
 - skills: `/ai-gateway`, `/ai-sdk`, `/auth`, `/auth-setup`, `/bootstrap`, `/cdn-caching`
-- ts: 2026-09-01T10:22:05Z
+- ts: 2026-10-01T11:45:55Z
 - hedef: 4000-12000 karakter · 🚩 900B/900M YASAK
 
 ## 1. Kimlik

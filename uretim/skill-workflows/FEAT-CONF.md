@@ -1,5 +1,5 @@
 # Workflow — Feature flags / Confidence (`FEAT-CONF`)
-> 2026-09-01T10:22:05Z · skills=20
+> 2026-10-01T11:45:55Z · skills=20
 
 ## Amaç
 Feature flags / Confidence skill kümesini LLM ajans olarak 7×24 işlet.

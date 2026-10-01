@@ -4,7 +4,7 @@
 - title: **Encore Skill Uzmanı (IC)**
 - domain: `BE-ENCORE`
 - skills: `/add-infrastructure`, `/create-service`, `/debug-traces`, `/encore-api`, `/encore-auth`, `/encore-code-review`
-- ts: 2026-09-01T10:22:05Z
+- ts: 2026-10-01T11:45:55Z
 - hedef: 4000-12000 karakter · 🚩 900B/900M YASAK
 
 ## 1. Kimlik

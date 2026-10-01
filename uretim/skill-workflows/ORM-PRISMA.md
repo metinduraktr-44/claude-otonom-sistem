@@ -1,5 +1,5 @@
 # Workflow — Prisma (`ORM-PRISMA`)
-> 2026-09-01T10:22:05Z · skills=34
+> 2026-10-01T11:45:55Z · skills=34
 
 ## Amaç
 Prisma skill kümesini LLM ajans olarak 7×24 işlet.
