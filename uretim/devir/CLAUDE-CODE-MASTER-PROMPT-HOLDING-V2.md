@@ -1,6 +1,6 @@
 # CLAUDE CODE MASTER PROMPT — HOLDING V2 (yapıştır)
 
-> Üretim: 2026-09-30T02:18:02Z · Repo: claude-otonom-sistem · Dal: cursor/mcp-ajans-etki-arsivi-8e8f
+> Üretim: 2026-10-01T02:22:42Z · Repo: claude-otonom-sistem · Dal: cursor/mcp-ajans-etki-arsivi-8e8f
 > Cursor Cloud üretti → Claude Code'a **tek parça** yapıştır.
 
 ## 🚩 ZORUNLU RED

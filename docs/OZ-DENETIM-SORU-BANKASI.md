@@ -1,5 +1,5 @@
 # ÖZ-DENETİM SORU BANKASI (957 soru)
-> Üretim: 2026-09-30T02:18:02Z · Kaynak: scripts/holding_istirak_ajans_uret.py · data/soru_bankasi.json
+> Üretim: 2026-10-01T02:22:42Z · Kaynak: scripts/holding_istirak_ajans_uret.py · data/soru_bankasi.json
 
 Her ajan her süreçte kendine bu soruları sorar. Günlük döngü örnek çeker.
 Kart başına alt-set: departman + kademe. Hedef ≥501.
