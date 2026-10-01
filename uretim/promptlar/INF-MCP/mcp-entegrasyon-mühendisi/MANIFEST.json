@@ -2,739 +2,739 @@
   "rol": "MCP Entegrasyon Mühendisi",
   "dept": "INF-MCP",
   "adet": 122,
-  "ts": "2026-10-01T11:45:55Z",
+  "ts": "2026-10-01T12:14:48Z",
   "items": [
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::strateji-01",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__strateji-01.md",
-      "chars": 4143,
-      "sha256": "944f82505f307b885c12ea5d7fb9afd4d3ced17313f1bdab325c0b9423c69e45"
+      "chars": 4137,
+      "sha256": "16032bce7df4f32471e9c5671e5299b8513cbdb8e96275ec176a850995dc623e"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::strateji-02",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__strateji-02.md",
-      "chars": 4143,
-      "sha256": "fcc351f449a7913ffa43b74ff0246bf9cf44acb628991be104913d93f50fddbc"
+      "chars": 4137,
+      "sha256": "d611ad45e2ac7e276cef968ed143b24ceede1c87e71797319b22f90d3eb0b4e1"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::strateji-03",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__strateji-03.md",
-      "chars": 4143,
-      "sha256": "38dd0e199265afaa5c7ed97467ee04c90701a3b9ce76103e8f16ff3e42acd222"
+      "chars": 4137,
+      "sha256": "e23aaaecf8b1fe690b10e6aa0f5dae687d701c1c4dc07087b6f83248f65937b5"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::strateji-04",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__strateji-04.md",
-      "chars": 4143,
-      "sha256": "41c379e95dd9d594bcdb438f8ce4a8c1736f7fed37123c2cefaba11ae4961c99"
+      "chars": 4137,
+      "sha256": "0b81feabcbb148ec6e5acead9f5ffb90b3e5151e47ac9bd0832d78c6d750dd03"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::strateji-05",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__strateji-05.md",
-      "chars": 4143,
-      "sha256": "99ee05262cb66b71c8f1b25e67042b7026b2951b082c0e2bfa4d8dce741a99b8"
+      "chars": 4137,
+      "sha256": "88e8eb62e7ef13885cea4c9e039a33d1ec597cdf1e33fb7f88c44bed5b6e3a57"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::strateji-06",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__strateji-06.md",
-      "chars": 4143,
-      "sha256": "9e44636ba4cd7668bbfd51f9cceeeccdbd82706148bf3b4972d8f6e430dfd0d3"
+      "chars": 4137,
+      "sha256": "edefce9c9e8cec364ae1dec87520d3ff35fadb42a83ff5807d8a8edaafd7020d"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::strateji-07",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__strateji-07.md",
-      "chars": 4143,
-      "sha256": "c43762ed128d0220b5df98637d2da8daa0d62946d5eea3942087f9eec15234c0"
+      "chars": 4137,
+      "sha256": "cf78f71e431ad15d3412ab2356e40a4d6a2e9bdc4250ee4d7a29684d916d824b"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::strateji-08",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__strateji-08.md",
-      "chars": 4143,
-      "sha256": "43289780f36a96622c4fba6d2ef118ce2779aee94267aa5ad3f1032ed4d0dd3a"
+      "chars": 4137,
+      "sha256": "faa5c1c5a3a3343e1b5d4143667d61e744a0b166e017e2b65d66b358a9b7c617"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::strateji-09",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__strateji-09.md",
-      "chars": 4143,
-      "sha256": "21efd74aa0617c9ac28699c7ee13ddc02e7fd88100e66c8e2ee7ee514926863f"
+      "chars": 4137,
+      "sha256": "e599d42b4463857708d9c9121e5c26dc9f096c8200c60dc9bcf43aa1d86de1e1"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::strateji-10",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__strateji-10.md",
-      "chars": 4145,
-      "sha256": "9515e929d4020baa93c6b06507849a3d2c354fe0394ca449f4ecd3309aff4add"
+      "chars": 4139,
+      "sha256": "6f19d44b24390c8a2bb6f9f8b4adaa0b51931b4b6fa98febedd703aa2f2d3cc0"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::strateji-11",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__strateji-11.md",
-      "chars": 4145,
-      "sha256": "884bf55404f306db7bc1c1be155288f33f66fa5b629376f8086c0f8aa3472da5"
+      "chars": 4139,
+      "sha256": "ddc8c5246c7e027da12c3abd998ffa4c766f09c026e9a07a93c398698d0efda9"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::strateji-12",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__strateji-12.md",
-      "chars": 4145,
-      "sha256": "160b111dd1fd87031023ed7f939c625693e328be643dafacc32a237b2b203c74"
+      "chars": 4139,
+      "sha256": "69df642612cf5f5dd7ea4de25fcffd339e9c4a6d5172a7344809b94ee4d30616"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::strateji-13",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__strateji-13.md",
-      "chars": 4145,
-      "sha256": "aa86f54bf8ca402e8efa09960c64140d7101373513499847c1a9cf796a2a7802"
+      "chars": 4139,
+      "sha256": "24881c73f125a89c6b059302f32bd7a47f9232b1a434b3ea60e52efe2010e8e3"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::strateji-14",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__strateji-14.md",
-      "chars": 4145,
-      "sha256": "399c985d68b984512a715f636d0a4afa44dd7f7510aeeb08f495efd4edaf34f1"
+      "chars": 4139,
+      "sha256": "ee1e38d9cde48f85ec055edbf4c56c7cb46cee66e86f968065fc2354bbe548dd"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::strateji-15",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__strateji-15.md",
-      "chars": 4145,
-      "sha256": "62c0dc30675f06bed4343b1e99a4fde63885a008a144ff4ba35e33ede78cfb20"
+      "chars": 4139,
+      "sha256": "552af35ba4fe7748cbe5bc505ffa3ce8bf50a934119a09dc5ab4a6e2c5072e8d"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::strateji-16",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__strateji-16.md",
-      "chars": 4145,
-      "sha256": "21baf8cb23ab76ba2923dfb0c038731e8bc7513a3f8a12773803d6e405196db9"
+      "chars": 4139,
+      "sha256": "03d13aaa0935ea4d728fed353755bcdbe79757ba7894c8e8bacbde7d69a752f3"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::strateji-17",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__strateji-17.md",
-      "chars": 4145,
-      "sha256": "73034ade6859f8506da120235dc8f08264547ce7c391a3954bdf3e5a6f0c9379"
+      "chars": 4139,
+      "sha256": "76fd6dc4dd3d8bf779b5f4c8334bec2e81f40ed07e08605a391b041f7e8209cf"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::arastirma-01",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__arastirma-01.md",
-      "chars": 4138,
-      "sha256": "713eceb8d1f0d54d4706b520e803ed0f252c3216b0daa16d07ef54982cbb14ab"
+      "chars": 4132,
+      "sha256": "8dcccc38d591171025a3a3d83e84508351e9e5e1535407fd29c018c61cbfc50b"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::arastirma-02",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__arastirma-02.md",
-      "chars": 4138,
-      "sha256": "14e6e2ab20a5c2509e6449f0187766c455bdc1a62b1a800542af4e20f8782a92"
+      "chars": 4132,
+      "sha256": "b69038f0f347ef453a96c9816892df64a96551139384edf70c2b763c3bde1485"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::arastirma-03",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__arastirma-03.md",
-      "chars": 4138,
-      "sha256": "a0becc80079a2e4731243ebdeb433636c11385f5504acd611a76a71a3b3e41eb"
+      "chars": 4132,
+      "sha256": "f47c14c65a27cf9a9b3c33981c95b63a80a155c9cc41752db25220dce9773b6e"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::arastirma-04",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__arastirma-04.md",
-      "chars": 4138,
-      "sha256": "dc3d1e45d275e196ced6d31a50ada21d3bf63a9374f86b054032dc2eeb591076"
+      "chars": 4132,
+      "sha256": "5adc6bded6f6c3c599b64573affc71eb74e866c9e81a1f1bcb8e02def54a42a2"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::arastirma-05",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__arastirma-05.md",
-      "chars": 4138,
-      "sha256": "c1e93aea9cc0535a25d7d507535db88c9e70596d029826883aa98ff2f7748de7"
+      "chars": 4132,
+      "sha256": "5b2b235971fd85b0be3e9ae353c40ade0a63bd9c07a2f1bb8efa08d31bb473b8"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::arastirma-06",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__arastirma-06.md",
-      "chars": 4138,
-      "sha256": "a92c239c960836d7739c16f9c8386851e18fb856c8d4ba9c1367fcb292bd1a01"
+      "chars": 4132,
+      "sha256": "bb6a06e15206aec1330317af7c97e7f287294dc3c5964fed55d8e5454ef60ed7"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::arastirma-07",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__arastirma-07.md",
-      "chars": 4138,
-      "sha256": "3d3923a556e203aa841f392eded9043e2fdb7aa86c40fa9ad3a214c1533c9a14"
+      "chars": 4132,
+      "sha256": "4b1962d2a8adcd38b3b23719e72222276129f3f598fa67f9f103d7cc199665bf"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::arastirma-08",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__arastirma-08.md",
-      "chars": 4138,
-      "sha256": "cf54ce90ae6c6b250ff459138c3da7ce96c12414b62cfe044aa0ef6e998b0602"
+      "chars": 4132,
+      "sha256": "7969e40e90f726b375e1a19a7a07d4d46c304abf1f84a0a999867c16582b98e8"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::arastirma-09",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__arastirma-09.md",
-      "chars": 4138,
-      "sha256": "e2d27249e3ae258699b2e42060d2ae078849d2b3f8ee93fba7a6753b994853e5"
+      "chars": 4132,
+      "sha256": "2a7ef9525d2aa06accfbea7c46b8f48beff88b42c502e7ba577c691b436af446"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::arastirma-10",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__arastirma-10.md",
-      "chars": 4140,
-      "sha256": "1abf06e4cf7ad5601659e7fcc2a6e2f63be72943959279114f2a187ab1f6404b"
+      "chars": 4134,
+      "sha256": "935195197b66b9df6406f1aa5393e913ad28db35b5035d51f7502449750d987c"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::arastirma-11",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__arastirma-11.md",
-      "chars": 4140,
-      "sha256": "1383a296a6657766b85e9adbb2a222a4a6722c286c8e0746980d526e99355e68"
+      "chars": 4134,
+      "sha256": "a23af0e26cdee7e269a258d31f02558956c35dff2e447928b59759faa07e7ff0"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::arastirma-12",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__arastirma-12.md",
-      "chars": 4140,
-      "sha256": "517ebdccbc41a61878972ad091f3f9e1ecb7cb531bc2386b0e5c109699b09313"
+      "chars": 4134,
+      "sha256": "f2db215c798802c44b89b488437174b282a3ab09555c3af4423d2429bc89148f"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::arastirma-13",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__arastirma-13.md",
-      "chars": 4140,
-      "sha256": "dc3a18de24b0370a29c3c2dfad52c0fa7aa04f58505ec8f234aeb7a95cfb8b58"
+      "chars": 4134,
+      "sha256": "8e5dc2b83d5cc48a68fa47dc7f82e7559a154aa6491faebf9e848687cc84596f"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::arastirma-14",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__arastirma-14.md",
-      "chars": 4140,
-      "sha256": "c31488487963f643c5d4445e090639e6bb9a2a52d9743436b23d9c8431aa5c8f"
+      "chars": 4134,
+      "sha256": "bbcfdd8cfdfbe60586edeb1ab8240b1ac1380e1044d9a01efa7ed2a27c644ff2"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::arastirma-15",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__arastirma-15.md",
-      "chars": 4140,
-      "sha256": "be1696217fd7774f868aa3ebffe63777b0df081ba678f39b708b067e8f048aa1"
+      "chars": 4134,
+      "sha256": "4f3b45999da2bb9d2a531f0441ec2e53a38efd94f2e37544c830c65e99e0f1eb"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::arastirma-16",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__arastirma-16.md",
-      "chars": 4140,
-      "sha256": "169a2837ff1516c671dd79e28aa014a5bdadcfe3c5a3bbc21cb84b985c360ddb"
+      "chars": 4134,
+      "sha256": "d3af673798b3bfefa930d532b87695d6959dd5dad23984dcf827eee2f77808f0"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::arastirma-17",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__arastirma-17.md",
-      "chars": 4140,
-      "sha256": "dc7bd75a979ce1534d0a4f4686ef7c4558a3f0f359e61b9bedd18313562b4d55"
+      "chars": 4134,
+      "sha256": "84ea640cd96060c5a976af433520ef0f88ab5759cbec7cc9aa92fe469401c9c3"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::uretim-01",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__uretim-01.md",
-      "chars": 4116,
-      "sha256": "0c86a5cef7162e079ac2a5713b51bbefbd9ae93391f6ddb6e23f91f35b4591e7"
+      "chars": 4110,
+      "sha256": "9269d73db0872cc298157605af4cd10278a89ff366c7fbb4a8e40d4434a5c881"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::uretim-02",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__uretim-02.md",
-      "chars": 4116,
-      "sha256": "40625bd57f90bc6c04f13ca1bec8ff13fc6347e6c2fcdfb131d67c9e681f1f5b"
+      "chars": 4110,
+      "sha256": "25fb19583c76b33d88a50f9657d8c11ab71a3ee73128725955db6493e18a3871"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::uretim-03",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__uretim-03.md",
-      "chars": 4116,
-      "sha256": "72eafd43e0564d01e97ee39321d939a66477789f64695022c71416c49049ce5e"
+      "chars": 4110,
+      "sha256": "3f9d85cc9e5867099d506f78347bcffb7c49a6d66fa84ff3de8d59dbdc8f580c"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::uretim-04",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__uretim-04.md",
-      "chars": 4116,
-      "sha256": "ca58ad69b3a44c7cc1ff68dc9dde96f0fe0cc6578864f24413c728a7fd70d603"
+      "chars": 4110,
+      "sha256": "eaf9d0248ce56c23c1469d8d7583cbcfb18ce41d774d070fd0e770c5e4f48ec0"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::uretim-05",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__uretim-05.md",
-      "chars": 4116,
-      "sha256": "c37383d072eb585c189d804665a50b483e90066f5a97ab81e6f80aa5f2f8bcd6"
+      "chars": 4110,
+      "sha256": "f66c425848a81b98612c7c4d166c81b1e913c1ea7378ef34378a585ee1731f6b"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::uretim-06",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__uretim-06.md",
-      "chars": 4116,
-      "sha256": "a2f2f84fd6f3c693e16e53b6165f9f619f0eb1d94a0a7a905c802075ac3974a1"
+      "chars": 4110,
+      "sha256": "d763cb7e77ad072210670335ec33e2302fcc8737b1a6171a84813c4590acdf81"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::uretim-07",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__uretim-07.md",
-      "chars": 4116,
-      "sha256": "9d2002f0a6c2a5657d94ed7a502e26bc4224acc5097694e9e3a6f4c3cc78bd9c"
+      "chars": 4110,
+      "sha256": "70e657983ee87b36a8e5f1e93b8065bb86ef1d3b4da182770829c8ebaa9edd29"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::uretim-08",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__uretim-08.md",
-      "chars": 4116,
-      "sha256": "830508796e2cb24e3c2dea816478e1e3b7d0bedf5d55deb33cc464ecb9ca7f1e"
+      "chars": 4110,
+      "sha256": "1445f3869c1c98b00dbf13179bd5942339f4466dd65c25abc051125b05f88cb5"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::uretim-09",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__uretim-09.md",
-      "chars": 4116,
-      "sha256": "a7be51f8fb6d0b3850429aa24103b76804166c18217a9f013cfb18921ddaa0de"
+      "chars": 4110,
+      "sha256": "147140642d4d43f564955e4f47dc4014fbc5b1579ede6a6671ff97581ed44a39"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::uretim-10",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__uretim-10.md",
-      "chars": 4118,
-      "sha256": "ad4363d45d2aa2ff67e35fa8229b084ec8cec4b810aca3f5b643f2f092a81076"
+      "chars": 4112,
+      "sha256": "4eba2c4b978e41a91fc8ebd4d39cd844cd0a7712726afa00c42db45aab4a08b0"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::uretim-11",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__uretim-11.md",
-      "chars": 4118,
-      "sha256": "4ccdf8a5ac7ba3b5c0b735069a80fe7de66dabd0f1709804e9ecf930078668e7"
+      "chars": 4112,
+      "sha256": "27795edf95d0d6f919e190d6566eb317cfcc05480d95bed1b149d39108215926"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::uretim-12",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__uretim-12.md",
-      "chars": 4118,
-      "sha256": "77c1e78bb0a973c7b29c3e9ac6cda33052c017d374a3b9bcfc5e47cc47c65c34"
+      "chars": 4112,
+      "sha256": "4616c9ddeadefcc4cd75b68160f78158fd07df5e5aa4af27d9eb7df50c5caeb2"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::uretim-13",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__uretim-13.md",
-      "chars": 4118,
-      "sha256": "9b0c0e15581802f6af7ca3dc29a5cb9f6253beab0ffb4e0f74663f858cfc1878"
+      "chars": 4112,
+      "sha256": "15c74e66adef020b3c8a0c69450e7c5857c698f4deb64fce91954aaaef394380"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::uretim-14",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__uretim-14.md",
-      "chars": 4118,
-      "sha256": "c5d3aa651656cc58cabcf4cc3988aa8a0a7383e375a0a26d23d83b359d5178a2"
+      "chars": 4112,
+      "sha256": "1f5d606dfa8af6360a66dd236b529ef22c5b3886a5bb0f90d6bb2be645644010"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::uretim-15",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__uretim-15.md",
-      "chars": 4118,
-      "sha256": "5eb3c855599e5a9862a8291943203da62b262ce5000392ec49563216fbafd15d"
+      "chars": 4112,
+      "sha256": "1978dc8cf40b0f2baef18375611285dee3e8853b1baeafeea328b986be531df4"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::uretim-16",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__uretim-16.md",
-      "chars": 4118,
-      "sha256": "ebc6f0108ad227e47967b607b5f7bf6d124f9f0cd20b8c7723f1afe7ad902257"
+      "chars": 4112,
+      "sha256": "bab940db9e94d3d93b4463fa5bf5389725d7b6527b867c22dc1398f23e91aaf4"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::uretim-17",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__uretim-17.md",
-      "chars": 4118,
-      "sha256": "a49152e240154b48631de4d60be27fd81320284fea4708c0ac06b87e4d1cb101"
+      "chars": 4112,
+      "sha256": "6e676b3e652445481eb22087b1b637b3fe6cd416a180bfb341e9f685946000f2"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::denetim-01",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__denetim-01.md",
-      "chars": 4121,
-      "sha256": "d2a1b1ac253456aa3d5581c96be914b198a3ef7684c6ad80dfd7e24a08ab1b38"
+      "chars": 4115,
+      "sha256": "f7d1dbf8e45407b04b00a26d47fb50105328e56fb8f16a65c40e15013e52ed9d"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::denetim-02",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__denetim-02.md",
-      "chars": 4121,
-      "sha256": "4f7ed78d19f014bdfbc0489b439affc7527795acfa5afda21edfc228ba09d1f2"
+      "chars": 4115,
+      "sha256": "aecd05bc4355c209a01b1d599e52b76bccfd3b86af4dc5f2d0924c5901cc5c6f"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::denetim-03",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__denetim-03.md",
-      "chars": 4121,
-      "sha256": "5190ede3717c3d5d6a2618adb406d37e95d05c5030bb2c1d8c8f072947d95121"
+      "chars": 4115,
+      "sha256": "363f12a626fd287d954cc4834427e578699bf6d4d1afa1cd3b8d8fdb435e731d"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::denetim-04",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__denetim-04.md",
-      "chars": 4121,
-      "sha256": "a72f8e681a2fdbe6c681dbb8ef440a90d5aa1d4d1367a65c2d7ec95226d7ffe6"
+      "chars": 4115,
+      "sha256": "14eb4b9e33f4bea1fe8a063b6360de872496edc961793dc2701272d104407e95"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::denetim-05",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__denetim-05.md",
-      "chars": 4121,
-      "sha256": "1754493336991b26aa7ab0abccfd61d1f547dbad89b4d1d6089c68eed7af5301"
+      "chars": 4115,
+      "sha256": "b74c53a3c536f04c7e594d74b87518a637752558f511bfa71de5c95059af87f4"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::denetim-06",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__denetim-06.md",
-      "chars": 4121,
-      "sha256": "ad43ec48d7a8ce29da4fdc20739fc784ea4b7e23d92eeef0db3ee4206f6063de"
+      "chars": 4115,
+      "sha256": "ec8a50e7145401a699fa7b6705c2c5f0032b901584cadb02d0accab5bf784463"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::denetim-07",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__denetim-07.md",
-      "chars": 4121,
-      "sha256": "ff5be55a0bda30ce0464d8c58f84884da88c2256e1db4a700b95bde3fab1688a"
+      "chars": 4115,
+      "sha256": "1e94bb1d198c5cecaa606193eef463401dc4dad8be77a003636336228c78e945"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::denetim-08",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__denetim-08.md",
-      "chars": 4121,
-      "sha256": "f8232f546820b0e04fe4a068b994656ee698ab70bef76aac731fb06e2299a0b4"
+      "chars": 4115,
+      "sha256": "4cacd7918e7610d3a573b128eba4801b5ce748b2d0d0266fdb7c1e74d0b8c87f"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::denetim-09",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__denetim-09.md",
-      "chars": 4121,
-      "sha256": "f2c7a0feeb05aa1727ac01a006be2228caa7a0f998fd9b8327ad8ba072955c1d"
+      "chars": 4115,
+      "sha256": "389c707eefef65cde7cd325fcfcaa87fb34f3f7cb34978cfdfa68e15458a618f"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::denetim-10",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__denetim-10.md",
-      "chars": 4123,
-      "sha256": "1125e35fbea15a996a03450e7e291a92b1d13ceadc3c0b54b6177883071a7473"
+      "chars": 4117,
+      "sha256": "54e543e7ed0d23794eaecd6e32cb84b7558f04a609b3b2d78670c327bd991276"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::denetim-11",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__denetim-11.md",
-      "chars": 4123,
-      "sha256": "3f37b01eb3bc53829336473a8e23d83a36583db3ff0eb0df3d50d672dc51ec95"
+      "chars": 4117,
+      "sha256": "e697fc05486578b0cc024059218b50fbc1843325b0cf2fa16500492ee5dc3b69"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::denetim-12",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__denetim-12.md",
-      "chars": 4123,
-      "sha256": "99f29ea3ea5f4833b5525d2e43378b5948b3b1e0a02d80be956225d287e9422f"
+      "chars": 4117,
+      "sha256": "d2fcadb21ea0a3a5810da56b01bc4bf3cd0db62dab72e4a71e10abfd0c00db5a"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::denetim-13",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__denetim-13.md",
-      "chars": 4123,
-      "sha256": "d21d298fd718b1237a84bb57e56db46fe7d7d53024057bc700f578ab8bad01d9"
+      "chars": 4117,
+      "sha256": "8f2001766037657be06d5984ad6482fc368e3af7a76d7160d420f12e8679535b"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::denetim-14",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__denetim-14.md",
-      "chars": 4123,
-      "sha256": "681a6bd2b2149a72c2f5a6c2969cba3a16d57a6730b6b0576eba5ff22a882069"
+      "chars": 4117,
+      "sha256": "01bec9bf573526cc736cd6dca23223feb94c4be5a390b5835ca2e3ba6baa3c95"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::denetim-15",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__denetim-15.md",
-      "chars": 4123,
-      "sha256": "9bccd66057556be68ce5960aad75e3dbd6a7923db271d6bc5e4d227e03d43289"
+      "chars": 4117,
+      "sha256": "8a891c287f25bc323fcd564edca1152af04112e721bef6918ba31bdba7eaaf78"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::denetim-16",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__denetim-16.md",
-      "chars": 4123,
-      "sha256": "4c2bb0eafe05e6e3439c3f22d90ce59b52672bcdb4d9abfe9ed393f12c9e1192"
+      "chars": 4117,
+      "sha256": "bd0ab1808de9fd8aa495c5c3a11f4ceb093bacd11bef92debee6234251354511"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::denetim-17",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__denetim-17.md",
-      "chars": 4123,
-      "sha256": "a33c1c107e3c89a1ee0842e7cd7fc27f84d5476ff2ef088f062185ffac740feb"
+      "chars": 4117,
+      "sha256": "570ce5bb5c2bdb5539836833a7190ea7c989c5ccba7ba656ded68e5541aab96e"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::operasyon-01",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__operasyon-01.md",
-      "chars": 4139,
-      "sha256": "778c6792e507ff94bfcefef84e520126a4fb3e2c8ff2c768d7fb52da3f44570a"
+      "chars": 4133,
+      "sha256": "f11edd19f97fcb499f5dceea85924c58b4a23b05ca81ffcaac8621f0e0ee3b42"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::operasyon-02",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__operasyon-02.md",
-      "chars": 4139,
-      "sha256": "9c4d73dd2bfb152a7812f60142f103df6cdaa02bf61300a464ae60668b3a3a47"
+      "chars": 4133,
+      "sha256": "a0524df5f98d932ed7741dfb1f30552ff7d5fb87b03abbb4a4d69a3bda129484"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::operasyon-03",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__operasyon-03.md",
-      "chars": 4139,
-      "sha256": "47aaff144d51a1f409a2c246938f8c05ebd13df22d369013a4560b88362ff8df"
+      "chars": 4133,
+      "sha256": "916095f8ca8e6c121e46d002c3a32b9253edbd244c7af907d812d73a6b3e1d85"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::operasyon-04",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__operasyon-04.md",
-      "chars": 4139,
-      "sha256": "e6fa40b9a40034e35c4663443d23c85b9fbce747d99bc7202233da84da3b35e4"
+      "chars": 4133,
+      "sha256": "63bd0a817a0713ea67945a9ab773b0198bec09b6be23893948ed9471baefa182"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::operasyon-05",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__operasyon-05.md",
-      "chars": 4139,
-      "sha256": "2ab58cdfb7a0912019116645732c5cf5e2c155120c40720ef93b89647d187b8f"
+      "chars": 4133,
+      "sha256": "dd5226b00bcb68c429e2feb2cb02e25d6a1c167da182cac580d0829b3d47d460"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::operasyon-06",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__operasyon-06.md",
-      "chars": 4139,
-      "sha256": "bf9b472de3f653f1e2e813ce463c3290305aa86e83c000bf7ba473c57756f174"
+      "chars": 4133,
+      "sha256": "580102e271a27d68a3bbf5d896c482aa5157b3b7c367a756c0ab0549db424a2e"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::operasyon-07",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__operasyon-07.md",
-      "chars": 4139,
-      "sha256": "6afc1e23fb0579df4f47e1d482a5462fa77ddfa611c5c238f1e4afcdf31d11eb"
+      "chars": 4133,
+      "sha256": "4cd5974a438fe097a05a58410415371b10acf64a204d8c53a20fc1f208aba2bb"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::operasyon-08",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__operasyon-08.md",
-      "chars": 4139,
-      "sha256": "7f5c6836c913797c9b4f2aee37d73e7e0c6cb0802621d65f53e2eb74cd0731dd"
+      "chars": 4133,
+      "sha256": "e3efbf84f97ae6ebb9fa3ecc56f10dd44170bc059ee95db148ecaae5f75448c2"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::operasyon-09",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__operasyon-09.md",
-      "chars": 4139,
-      "sha256": "48d125cc4a4b543dfd8d95ab45f997a11225eec13c89c581e9129fd1575a11ec"
+      "chars": 4133,
+      "sha256": "a9bddd6ac37179d9a72adb28d9c5c2054dd14823fb92de351503e42b1bb65a58"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::operasyon-10",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__operasyon-10.md",
-      "chars": 4141,
-      "sha256": "23e8632848573f3fc1556e909ef98826ce17124bee5d49a2f560a0668a59395d"
+      "chars": 4135,
+      "sha256": "5e14fe37f02f44a118fa10b5392fe3b8860b3808b3a664c7fa6ef81bfe6b7384"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::operasyon-11",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__operasyon-11.md",
-      "chars": 4141,
-      "sha256": "3572be74b6cdeb02c5d994141f9db07f147403b7d773a42155ef5b7187d0fb1b"
+      "chars": 4135,
+      "sha256": "dd29c1b09babe6f940e97975b301d06e7b4913adbec1ec49e75aa46531cd4140"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::operasyon-12",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__operasyon-12.md",
-      "chars": 4141,
-      "sha256": "7796a25067a541f05b79119baa052bd7f3ca7cd899220fc32da132cbcce59dea"
+      "chars": 4135,
+      "sha256": "f1f10d1f9d2c99fa8b09f97b1cc6e166e2915d2471ee933e035a649fd38c1f0a"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::operasyon-13",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__operasyon-13.md",
-      "chars": 4141,
-      "sha256": "4aa34609e098cf72c8034fafc4630ae3e969d61207574b1726f7d10821d941ff"
+      "chars": 4135,
+      "sha256": "f188b0908fb9404fb3b64bf72e91b310c64d3a5fd1892de837ba9dec933fce00"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::operasyon-14",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__operasyon-14.md",
-      "chars": 4141,
-      "sha256": "c983fbb55b5cd4eaad18cddbb21786660cf4576e00b20622e71e1caf4e253167"
+      "chars": 4135,
+      "sha256": "1abda51d587c5491711e458cdc9fa15b0984f459026cd6456a4f0a779b982731"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::operasyon-15",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__operasyon-15.md",
-      "chars": 4141,
-      "sha256": "c0857ba88604e6e6f2b30adb4d006eda27a43ea0b43ad4fbdd048634ee94c050"
+      "chars": 4135,
+      "sha256": "6a76ecc5dd4ca479f39fbf92eeebb4da51c6e2c30cbc55540e7beb99eb1ea5ed"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::operasyon-16",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__operasyon-16.md",
-      "chars": 4141,
-      "sha256": "92860ad2b1c26d9abe934a51d2538c525daf5895655fc08adc4b7cf2f1b8b4e0"
+      "chars": 4135,
+      "sha256": "79b9457e8c74998a9ec6559e740e4bc1f07125796a6963d48d9e11ec69c23d21"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::operasyon-17",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__operasyon-17.md",
-      "chars": 4141,
-      "sha256": "b529b3ce76051378871fdc200fb96e1068fbde618c18ebb53a11cef4d462ce15"
+      "chars": 4135,
+      "sha256": "23b81a3e5a654b824b0fa5673a35cdfee7ce87c08ed76d05c4b84d5a0c455368"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::gelir-01",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__gelir-01.md",
-      "chars": 4100,
-      "sha256": "674d1b0ce75bc17e79d10409bd602d1339c56d75122eb252b84320a5882f6db3"
+      "chars": 4094,
+      "sha256": "e7995838c06fbb79bd1611961c5501ad35a4350ade32099f5fd2fa78d730767f"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::gelir-02",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__gelir-02.md",
-      "chars": 4100,
-      "sha256": "5b7f174ea892e740a7f2da2887fe2cabf503b06456213bd094ca7f4ff233225f"
+      "chars": 4094,
+      "sha256": "b3d02ed73ebe061b1c0d2ac54df151a150482e22ed9133f8c5f81f75bed932f2"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::gelir-03",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__gelir-03.md",
-      "chars": 4100,
-      "sha256": "493ac35e941904098ee3f5b8e8ea816f0ed4ca6965efb4a0de8d182a83e04e74"
+      "chars": 4094,
+      "sha256": "433af50e3904d55dbad3035ae605fa2a3133103a186a82751e629f43f5e4c745"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::gelir-04",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__gelir-04.md",
-      "chars": 4100,
-      "sha256": "cb9206a087e62b62f7842ca958cd13d32573ec8d5fcbb49c95031a5e8bf933c0"
+      "chars": 4094,
+      "sha256": "af4b7df0c464eb838b94bc863af1ebc5881b3f2dad9caab1ab9a4704c7163f0f"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::gelir-05",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__gelir-05.md",
-      "chars": 4100,
-      "sha256": "dda1d3fe45fd4a0d51c33b5b5355049c607c40f4b7785d2d06d33674a29c050d"
+      "chars": 4094,
+      "sha256": "c11a9b5ae849e8eed11a0904cc1ddea65ccad1d6dd5b6f2c83ce7524d0fd2af9"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::gelir-06",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__gelir-06.md",
-      "chars": 4100,
-      "sha256": "65bcdb615105e26926bb6c66bf5f2259d4df1235d2f0cf6c8c91c0e47f725e5e"
+      "chars": 4094,
+      "sha256": "8743e491e7aa5cd2c4cb11ad68e43438cb2ce61ceaad07a80431cffb3c49ff3e"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::gelir-07",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__gelir-07.md",
-      "chars": 4100,
-      "sha256": "5b3a3d5fe783aacb1dae5a50e239ddfe61cb148b937154c7234054c96d1d0453"
+      "chars": 4094,
+      "sha256": "a05ec8c4a8bb31451335a264b33a6bfb5183ca584e95d779a7fd1acb552a957a"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::gelir-08",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__gelir-08.md",
-      "chars": 4100,
-      "sha256": "3acf03eb2118f826d256595f2e44aa70804f0d948fe7621b0f448aa1cc22703f"
+      "chars": 4094,
+      "sha256": "b9493bf4b39714031316c09483c3a66e2d12165ba8269491a165a1d77f92a3eb"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::gelir-09",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__gelir-09.md",
-      "chars": 4100,
-      "sha256": "e14e96dd9f2acd3d249603a519344e7a1b17b990fd022df0e493cb7aa269cd0d"
+      "chars": 4094,
+      "sha256": "0ee4aa867ec4ee693adfd2676d01540805e02a7f1a27a91335dc51b6c0ad5930"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::gelir-10",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__gelir-10.md",
-      "chars": 4102,
-      "sha256": "b645d40923c2bf44398ea58984cdb9d3cf63d8588e409854037b6b322ffca708"
+      "chars": 4096,
+      "sha256": "5582b9bb30dd656c1022ec707f93e64a1ba9ac0d77905ad567313983a686cfa0"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::gelir-11",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__gelir-11.md",
-      "chars": 4102,
-      "sha256": "3a736769d0403a43b1c82c1e059b5b87976153b6c6cc77fe570e2f9622bba7e8"
+      "chars": 4096,
+      "sha256": "ef4e34bb112b5cea2296dd2c9397aee06d4bf3a7fd4c524859d387ebc7d5d5a2"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::gelir-12",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__gelir-12.md",
-      "chars": 4102,
-      "sha256": "a7822ec8239b6f35039b7542c41cb2637d5169185a73d1fa07222dd9eb179929"
+      "chars": 4096,
+      "sha256": "9f999f979782f4f52879e855fea67568322c2fbffe51b4dedab27dedb6cdffc7"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::gelir-13",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__gelir-13.md",
-      "chars": 4102,
-      "sha256": "210077b3b46508e7417c1e9b466da6584808bb2af16aa6ab76a5c4f4ed018d34"
+      "chars": 4096,
+      "sha256": "8d9314148f0598e9567a9abaca04434141bd5ca590611c956571caf74d864ed6"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::gelir-14",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__gelir-14.md",
-      "chars": 4102,
-      "sha256": "7718da3c2bd122bd307621e4143c64abac2d2438dbc9df551eb94846dcdcb6b1"
+      "chars": 4096,
+      "sha256": "b155e3c03a5dc710936933fef6229415ec7b8694a6c9b2cacfd319f383b5edcb"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::gelir-15",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__gelir-15.md",
-      "chars": 4102,
-      "sha256": "57685f4d478897e98f3a6c929778e17406e8919ec6e833113946f4dcfc7fbf2d"
+      "chars": 4096,
+      "sha256": "e2694aa43d1bd60f3c9774fde33b338ec2c92a042266325a462a2d41ad7c858c"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::gelir-16",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__gelir-16.md",
-      "chars": 4102,
-      "sha256": "f56612f1f565d82b0ee8ef3a8b641d6214b5e89ad6c9d32dd5c14d31a6be9e21"
+      "chars": 4096,
+      "sha256": "46b045eaeb13a46fd988abfe34f8173edf5e7cd6353e551843271a95b3db9c5f"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::gelir-17",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__gelir-17.md",
-      "chars": 4102,
-      "sha256": "74ec5b5b35d1d4f09af7c5a13413eeddca2349fa366c13781aeae30360ada36d"
+      "chars": 4096,
+      "sha256": "6dc517447046b9c93f1153429922d2b62445241ff88a685ea9dae30c5dd8527c"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::iletisim-01",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__iletisim-01.md",
-      "chars": 4133,
-      "sha256": "975e55712e238d49f8186dd2f383383e29e3be5b4d7888c38eda36e802564594"
+      "chars": 4127,
+      "sha256": "959a4318a2e608750bce10e7674154052bc054b098dbdfb819aa930681fe158b"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::iletisim-02",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__iletisim-02.md",
-      "chars": 4133,
-      "sha256": "010f8b4353f86ae303840e36a36825c868b66909a8d387d8e194ff18c742d5ab"
+      "chars": 4127,
+      "sha256": "3b33a16f07f89a2de90393f98e88de3a0269dfe3abdcc0ce75233be965355aeb"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::iletisim-03",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__iletisim-03.md",
-      "chars": 4133,
-      "sha256": "8c59f266d5c359ad56d2e1e416bb1ce65c0b6a15ca787a2eaa9719bbdee07a42"
+      "chars": 4127,
+      "sha256": "64ade2aa562e23326427705c4eb503d1d82945df8df2292185b36f88522cfefd"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::iletisim-04",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__iletisim-04.md",
-      "chars": 4133,
-      "sha256": "10d542f10e7a91e62547aba0b66e5d7ddea3b0ea9b61345c077dc513086b1e37"
+      "chars": 4127,
+      "sha256": "11ac378b0485994a2d52cceab0ef8b8c0a83a64e73cbbfb56459a103cb96f9ad"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::iletisim-05",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__iletisim-05.md",
-      "chars": 4133,
-      "sha256": "a7bfff1289181f2ca7a54da3e49944e9b38f343451e5692b582bc8aeb803203b"
+      "chars": 4127,
+      "sha256": "3b6a868ef35784585952399614018e524d6ecebe6408e888f7a671490ae3c93c"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::iletisim-06",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__iletisim-06.md",
-      "chars": 4133,
-      "sha256": "b8c0591ef1ea8305edd14a1ec4067e4b0b8aee2a43db4081b0a73bee57d30586"
+      "chars": 4127,
+      "sha256": "ebf4649de014e570f2c4318581e8565e4711efa571e19a15d88c96fbbd00b95d"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::iletisim-07",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__iletisim-07.md",
-      "chars": 4133,
-      "sha256": "cb2be005afbe222de73ff85b5c2d6a8bd65832c27eedbf90a4524f9460c7ce93"
+      "chars": 4127,
+      "sha256": "948e47d0663724cb3120ac9eba6fcc61d843626f325ef81d06f1c3014eb0756f"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::iletisim-08",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__iletisim-08.md",
-      "chars": 4133,
-      "sha256": "87ac368fe91a16c0b13546a88a835b754a61a665ad408d71c83cd8ea9f5d32f5"
+      "chars": 4127,
+      "sha256": "37d9ab35158d3d677cfd2cabb4a02aa3df673c1c70cd8fa795a096d5caa54507"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::iletisim-09",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__iletisim-09.md",
-      "chars": 4133,
-      "sha256": "8bec14487692983fc4d2988a1d22bdd25159f0771ac7b2d7d4ed6057e25efa2f"
+      "chars": 4127,
+      "sha256": "6129e7d98578840fb5c1ca769ecac731d35498ac6d62f7870b382f6e71693242"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::iletisim-10",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__iletisim-10.md",
-      "chars": 4135,
-      "sha256": "989d852bec087d04daeac8309e90d92c8694176c352cdb8ae4a20912d515b1c5"
+      "chars": 4129,
+      "sha256": "b5935439e91ee4238c97b14f2cfd4ca6044c39b1aa27857c44133cba741398bc"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::iletisim-11",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__iletisim-11.md",
-      "chars": 4135,
-      "sha256": "761f0bf3ac2c6fded1c0ea5102839bc763be7f52f34ed4b078935a27eab636cf"
+      "chars": 4129,
+      "sha256": "5dbd20677da7ef4d821452353cc154a02921236525058f1099b1caf3959fdbee"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::iletisim-12",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__iletisim-12.md",
-      "chars": 4135,
-      "sha256": "519a83f3752eda852044282565f7cf86ecf9b0d0d713e5bcc51c80bb558f9041"
+      "chars": 4129,
+      "sha256": "eeaf0bcb1b287282760aaa74ab8a6bbfae764d66131913e018a822775fd4fe10"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::iletisim-13",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__iletisim-13.md",
-      "chars": 4135,
-      "sha256": "b506483bb076ddb9af0d82ae703189ba67e10397f8d9081156b5a22b6c2c4a13"
+      "chars": 4129,
+      "sha256": "03d4f6295609ac5c5745d62c0e1b0960d2a846b6c7297311763b836906724245"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::iletisim-14",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__iletisim-14.md",
-      "chars": 4135,
-      "sha256": "680bd72fc34d30ec2ef3ff803841abc4660a6cd9a10d9545453f5b1521634f54"
+      "chars": 4129,
+      "sha256": "07c959baf61ec96bf317b53bad1a3b96a2290e18b7f04b8e018764c81188770e"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::iletisim-15",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__iletisim-15.md",
-      "chars": 4135,
-      "sha256": "335ef8fa46d0c3c1d79420f8df1ecbd7c4a53d3fae05030334bc9f0e799b8241"
+      "chars": 4129,
+      "sha256": "567a6b9c3d576db8ff7c844d97667f8b0a7aa2c7dc90ca5ba858555e865ef165"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::iletisim-16",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__iletisim-16.md",
-      "chars": 4135,
-      "sha256": "c8b4cd5aacd1511b4f673730e6434848ebc9d6dc9c43468d183c6d1342d45b54"
+      "chars": 4129,
+      "sha256": "e0059a76343eca205755e6099cf31e765941bc191534c6c6d826bdf887cdc4c4"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::iletisim-17",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__iletisim-17.md",
-      "chars": 4135,
-      "sha256": "b65ac0622e4f1a4aa3c636175299f9a6e43aaf4fa110e99ea72f6cf62819afb7"
+      "chars": 4129,
+      "sha256": "262dd7f54f6dd9f1ec292972f0b0f9c7c54b50de2e4f2dd5889b121f7979ec6a"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::ozel-01",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__ozel-01.md",
-      "chars": 4093,
-      "sha256": "df6456f028c1b7c950be76e5c61ad971d19e9bfad9f836dc1be584c927a99864"
+      "chars": 4087,
+      "sha256": "fc22d49217e2eebe3376ad303729a47b2c5b9c9f3f1ef59a5508606c3c38a563"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::ozel-02",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__ozel-02.md",
-      "chars": 4105,
-      "sha256": "bb9a209f50dd8c083c048409c9115aa94cc3d5ef23189ad5261b43534519c341"
+      "chars": 4099,
+      "sha256": "a5b11f4017293a63ba48872ce8f097f903328c4178a36b2136c9783e9e355a45"
     },
     {
       "id": "INF-MCP::mcp-entegrasyon-mühendisi::ozel-03",
       "path": "uretim/promptlar/INF-MCP/mcp-entegrasyon-mühendisi/INF-MCP__mcp-entegrasyon-mühendisi__ozel-03.md",
-      "chars": 4077,
-      "sha256": "5435b693235751a41ae40c578dabe315466a641d89466f9f6d5ecf1e89a35072"
+      "chars": 4071,
+      "sha256": "973dac12df43cda1ed52f7a7308a27272a1adffd95974e32390b962134aa482d"
     }
   ]
 }

@@ -59,6 +59,10 @@
 - Gelir motoru kararı: hedef iş = CLAUDE OTONOM SİSTEM'in kendisi (bileşen kütüphanesi ürünleştirme). Mevcut 5 iş (Tahmin Uzmanı, VESTRA, İBB Kültür AŞ, Movéa, Response DGA) pilot iç müşteri — dogfooding. Detay: GELIR_MOTORU.md.
 
 <!-- SONRAKİ GİRİŞLER BURAYA — en yeni en üstte -->
+## 2026-10-01T12:14:48Z — MCP×etki×prompt motoru
+- MCP=174; tech=141; cult=116; org_roles=104; prompts_index=12688
+- 🚩 900M karakter/prompt reddedildi (K-017 emsali); 122×(4–12KiB) sözleşme.
+
 ## 2026-10-01T11:45:55Z — MCP×etki×prompt motoru
 - MCP=174; tech=141; cult=116; org_roles=104; prompts_index=12688
 - 🚩 900M karakter/prompt reddedildi (K-017 emsali); 122×(4–12KiB) sözleşme.
@@ -515,3 +519,4 @@
 - Ran read->distill->produce->validate->stamp. Generation: off.
 
 - [2026-10-01T06:30:22Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-10-01-STR-CMP.md); K4 Cowork oturumu taslağı doldurur.
+- [2026-10-01T12:14:48Z] aylik-kurul: iskelet üretildi (uretim/toplantilar/2026-10-01-aylik-kurul.md); K4 Cowork oturumu taslağı doldurur.

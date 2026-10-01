@@ -2,739 +2,739 @@
   "rol": "Group CTO",
   "dept": "BOARD",
   "adet": 122,
-  "ts": "2026-10-01T11:45:55Z",
+  "ts": "2026-10-01T12:14:48Z",
   "items": [
     {
       "id": "BOARD::group-cto::strateji-01",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__strateji-01.md",
-      "chars": 4192,
-      "sha256": "1a70f3c213faf4cdce1fb36a35898493669e4e7b61d8e296372630a63fc539fc"
+      "chars": 4193,
+      "sha256": "10a9b958d8cd0565e59e57ee42e2d38ed4d8a24164380c217d8895acfa758a62"
     },
     {
       "id": "BOARD::group-cto::strateji-02",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__strateji-02.md",
-      "chars": 4192,
-      "sha256": "787ca28daac01afa387cc7e164813ec31ce6972791014f3c6e9358d09b2bb8c3"
+      "chars": 4193,
+      "sha256": "7395e0ba1d8376e6eeb753ac610a46994150967bacff737c53cae7bee74b2d2e"
     },
     {
       "id": "BOARD::group-cto::strateji-03",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__strateji-03.md",
-      "chars": 4192,
-      "sha256": "d2796d04df1f58e119a1664201d1491e137148057df9650c12342d8eddf1eeaa"
+      "chars": 4193,
+      "sha256": "cf17679f618e2d6077c200e912486bfc34488dff6f53efc0afac66a1d1516c7d"
     },
     {
       "id": "BOARD::group-cto::strateji-04",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__strateji-04.md",
-      "chars": 4192,
-      "sha256": "e26b1aaef57784cc21cf6ae161ceaefbc34c65383058911c88c666cb7cf96a2b"
+      "chars": 4193,
+      "sha256": "408ad4b420e9d3d4aa20b9744b086c1f29c0f14ae5c38e12f7c2ecda138e793e"
     },
     {
       "id": "BOARD::group-cto::strateji-05",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__strateji-05.md",
-      "chars": 4192,
-      "sha256": "c85a0302728141e06c8804fa323f89b0545c43a1de1f668c00188787c48a6894"
+      "chars": 4193,
+      "sha256": "415ea10f6ed3b24b1c99b8aac17e1c49ac89a33946f06609035bb0bcf77ec93a"
     },
     {
       "id": "BOARD::group-cto::strateji-06",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__strateji-06.md",
-      "chars": 4192,
-      "sha256": "be98eb4bb3f99fb1f5805a1ba5f177848ee88e1c5cc9fbadde333425ccf28f61"
+      "chars": 4193,
+      "sha256": "474c0bfec52665b2e54c2df0be0bda66dc27b1c942e271a754ee7622eb65ad3c"
     },
     {
       "id": "BOARD::group-cto::strateji-07",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__strateji-07.md",
-      "chars": 4192,
-      "sha256": "3404de77e319ee0761e801958a82bf4706af77a42d4f185939b79988181a0600"
+      "chars": 4193,
+      "sha256": "7fdf0156270a21db32a5c2deb0fd45183001fd00cbdfaeafd7a1eb17a5b4e826"
     },
     {
       "id": "BOARD::group-cto::strateji-08",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__strateji-08.md",
-      "chars": 4192,
-      "sha256": "23a4865c7e316e8b9247e9e9d1d415767ed92f071f35c575f43d29f2efa6d534"
+      "chars": 4193,
+      "sha256": "5ffd07d127b28d297659b6e4c8c6422a0f9391ff70a9960754c55df3c406cc59"
     },
     {
       "id": "BOARD::group-cto::strateji-09",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__strateji-09.md",
-      "chars": 4192,
-      "sha256": "0c3acde8d86689e5678070d12ebe67db87e2cb2c5608aee3534f33bfd1474290"
+      "chars": 4193,
+      "sha256": "c5b9c6d47ef26ff7d3a96946af749751b18d3a27210c4b47eec4f97fd2fab006"
     },
     {
       "id": "BOARD::group-cto::strateji-10",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__strateji-10.md",
-      "chars": 4195,
-      "sha256": "6108686f83e37e030ccd611e2c605747f6630bd66a95fe3e8fc580366a61c669"
+      "chars": 4196,
+      "sha256": "3e4511f279994a461ffb01df16c2825a08546289854dc68c1c7407a41cf59c5c"
     },
     {
       "id": "BOARD::group-cto::strateji-11",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__strateji-11.md",
-      "chars": 4195,
-      "sha256": "053e4a5bd8551cc52f8436448403fdcccdd49e2d41258b266023bcc1b4a3db38"
+      "chars": 4196,
+      "sha256": "c910798d6ed183af72afc6fdc1cd48acfe5f76e5689c3256140a30a2c64c213f"
     },
     {
       "id": "BOARD::group-cto::strateji-12",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__strateji-12.md",
-      "chars": 4195,
-      "sha256": "c5892efbaadc01cc37981b1b82b48ce2b0dea72e3d1f71314cc0d9b578e3db94"
+      "chars": 4196,
+      "sha256": "84c35e5ae1c205c8e8487d81e19259bd9826714febbd34e71c6deb3d42cbf63e"
     },
     {
       "id": "BOARD::group-cto::strateji-13",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__strateji-13.md",
-      "chars": 4195,
-      "sha256": "8b0ad50dfbd8fd90327e769943bd71488be9d0004fb2986049525100419247ea"
+      "chars": 4196,
+      "sha256": "6e995b50acf52e07a82f1402832a02a4a935f37dd75c9caa8c335e173604382a"
     },
     {
       "id": "BOARD::group-cto::strateji-14",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__strateji-14.md",
-      "chars": 4195,
-      "sha256": "e2293ed24b9ebc2d247e67f1611e3db244b827c62d2fcf47f14c0cf668df63b4"
+      "chars": 4196,
+      "sha256": "93c19ce56649ea99d6b3eba715ce6b00e9580ba501302dbb9fc70d1d1b427631"
     },
     {
       "id": "BOARD::group-cto::strateji-15",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__strateji-15.md",
-      "chars": 4195,
-      "sha256": "24cab7a9b825951235b58e0a08b80d76786e21fe07025a61313c73363205b4d5"
+      "chars": 4196,
+      "sha256": "bc8bc6e046f6b85242d16145b2d23dbfc66a0ca0d7fb6d56332866fb73c2324c"
     },
     {
       "id": "BOARD::group-cto::strateji-16",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__strateji-16.md",
-      "chars": 4195,
-      "sha256": "a3d1fcef7f33f6f18492d5141a626a07d0e580f6997afc53c187b2bd9c7b1453"
+      "chars": 4196,
+      "sha256": "a002b1f393a95f06301d5825434cd20863fa592d163443a5fd565854829ac854"
     },
     {
       "id": "BOARD::group-cto::strateji-17",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__strateji-17.md",
-      "chars": 4195,
-      "sha256": "d71fc3271ebd4051af59fcf561f570458697b561461274f1d1c51548c92e089f"
+      "chars": 4196,
+      "sha256": "331da75bfea868acc9bd1f038a94402c83c8df29402b51ddfc3db6e1c892bd81"
     },
     {
       "id": "BOARD::group-cto::arastirma-01",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__arastirma-01.md",
-      "chars": 4189,
-      "sha256": "5f599620c293fc5c8117b85d5107330431558f79ee52dd381e5f5fffa8188dfe"
+      "chars": 4190,
+      "sha256": "1365385fab748e46dd4e73f2427ded4338edd19804000ad244b41d83cc5b31bb"
     },
     {
       "id": "BOARD::group-cto::arastirma-02",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__arastirma-02.md",
-      "chars": 4189,
-      "sha256": "ae23fe415a3dc8941b9a1c557056ed09c19af61fddc083f06288ad54d2eb3162"
+      "chars": 4190,
+      "sha256": "2dba3133758da0c41d0203243cb346c858da5a106ff237fd6e040e3cdd46a7fc"
     },
     {
       "id": "BOARD::group-cto::arastirma-03",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__arastirma-03.md",
-      "chars": 4189,
-      "sha256": "b99c9dda138a279de200f2468065c17c9a37704f7ecc7d02eecf5061e4255975"
+      "chars": 4190,
+      "sha256": "d6dfb6012e4231a74c3dd02e9e11c620108594a0d6f166c4652619690b9ccd47"
     },
     {
       "id": "BOARD::group-cto::arastirma-04",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__arastirma-04.md",
-      "chars": 4189,
-      "sha256": "a21d15cb01a4f3c543a743f93c5765a67b6b69a8211b4921892353b9f7230a49"
+      "chars": 4190,
+      "sha256": "a23235972591832b8a6839b95c17888c93a7d76db7a22ad31cfbe780e6567953"
     },
     {
       "id": "BOARD::group-cto::arastirma-05",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__arastirma-05.md",
-      "chars": 4189,
-      "sha256": "ebe193bf6a02cd99e7799e7ff57aa1e1fb79204fd78892bee8d546e2ace55895"
+      "chars": 4190,
+      "sha256": "84fa758ba3dcaf087d4c18632874286242f83b016b9c24e67aa092c39d7ebd28"
     },
     {
       "id": "BOARD::group-cto::arastirma-06",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__arastirma-06.md",
-      "chars": 4189,
-      "sha256": "d2e997da93b43dde75da2be9d850f924f050b86840c75a82f67ac4649b423566"
+      "chars": 4190,
+      "sha256": "b4dfa053b52822d136edb7ccd18d648463ff60b375499c4a7c10341bf8fa877a"
     },
     {
       "id": "BOARD::group-cto::arastirma-07",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__arastirma-07.md",
-      "chars": 4189,
-      "sha256": "4842fb83db0a44b0faa4df8ad474495cf6fcdc9642da038627694347bbad6417"
+      "chars": 4190,
+      "sha256": "23e2276ce10ab66f2c36b86d3d60daa036c6708f7e0fd5af7a89c0df75594835"
     },
     {
       "id": "BOARD::group-cto::arastirma-08",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__arastirma-08.md",
-      "chars": 4189,
-      "sha256": "9897ab20cbcbf72767a3be0c7f60eb0e6328ff48e764e1e482a65437a84b892b"
+      "chars": 4190,
+      "sha256": "20250146cd765f1df8932205f9cd4836a4799a39344e46f16351c6315dc11b82"
     },
     {
       "id": "BOARD::group-cto::arastirma-09",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__arastirma-09.md",
-      "chars": 4189,
-      "sha256": "a843c2655e71562c164f2234ef3acfa8da3bf4f5286d03925d5eeffc1802f305"
+      "chars": 4190,
+      "sha256": "b2b20eef9eedc20f79edf12d63ec7e0c53a0d36f6c0aba623448afd9366c9979"
     },
     {
       "id": "BOARD::group-cto::arastirma-10",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__arastirma-10.md",
-      "chars": 4192,
-      "sha256": "5ced8b9a919bc6ae05026254acabc94f6879c54242b48377976e9f6f1992c145"
+      "chars": 4193,
+      "sha256": "eba11b17a68ebea47a6b5d050bcf4fb1166f30a7b193ddf14418751c44875ebc"
     },
     {
       "id": "BOARD::group-cto::arastirma-11",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__arastirma-11.md",
-      "chars": 4192,
-      "sha256": "46adb63cb113a42304ffd6fbe88fd75fd8911042082a5ab618d5df4094d8ae24"
+      "chars": 4193,
+      "sha256": "4fcc1e4027dcdb020d16a7ce6443b1e2f624a23e3f5d65f30a0ed2f0a40185c9"
     },
     {
       "id": "BOARD::group-cto::arastirma-12",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__arastirma-12.md",
-      "chars": 4192,
-      "sha256": "25572913011839ab20dbcdb563057ec1ae04f62cae8330aec994aa8d47cdea4d"
+      "chars": 4193,
+      "sha256": "83a47f647dcaef8558b2640f3d5e3ad680f93dc0c42c19626b42cd09e75ae033"
     },
     {
       "id": "BOARD::group-cto::arastirma-13",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__arastirma-13.md",
-      "chars": 4192,
-      "sha256": "7c394d62146d2a042805d9876b8e291106bf4fe3337c14696919b6f09846b92b"
+      "chars": 4193,
+      "sha256": "f0126e8a1cb67636e6084fda5cd803150aea651f4e38958b32dacae7e7c626d0"
     },
     {
       "id": "BOARD::group-cto::arastirma-14",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__arastirma-14.md",
-      "chars": 4192,
-      "sha256": "3645aaf53ef630b2db1b23aaa5481856a4bbf9d4112930c79e78da5903e19e17"
+      "chars": 4193,
+      "sha256": "e0d81905f85e05d03b85a5cede8bb65783c23e2310c088c18bcc0dab9878afa1"
     },
     {
       "id": "BOARD::group-cto::arastirma-15",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__arastirma-15.md",
-      "chars": 4192,
-      "sha256": "3ce0e1719a3715b373ba1d4ae2c388f2652fdac4aa7a026f110a7c3628688a72"
+      "chars": 4193,
+      "sha256": "8ca069d1845cc7fe92882cf5ab3b315b902982ca41c3bcb768cd6d9ddb4ed8b0"
     },
     {
       "id": "BOARD::group-cto::arastirma-16",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__arastirma-16.md",
-      "chars": 4192,
-      "sha256": "7e956f97e5150e986b27a7b08cde5d2adf815036197595fc3c08fdc7c6750407"
+      "chars": 4193,
+      "sha256": "86b70954ccf421acd0b97c388c8fecc88a938e2b9742335d03c0958a3a7366f8"
     },
     {
       "id": "BOARD::group-cto::arastirma-17",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__arastirma-17.md",
-      "chars": 4192,
-      "sha256": "aef6187c56e692cfdb6cf997382b4a7951357acb83bf203533510345297665fa"
+      "chars": 4193,
+      "sha256": "7d85469a7db5b22c281a89edc1a860fb6606c135ea7698c07803b0af8a2ce416"
     },
     {
       "id": "BOARD::group-cto::uretim-01",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__uretim-01.md",
-      "chars": 4161,
-      "sha256": "b037af430c658d21e45cd784d4e45345e0c80c8f367117b2d37442c5e6d070f5"
+      "chars": 4162,
+      "sha256": "a8fae3fe8ca567c37bef592e8b1e3b7835809f2506392f10474b6daa534ac7a4"
     },
     {
       "id": "BOARD::group-cto::uretim-02",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__uretim-02.md",
-      "chars": 4161,
-      "sha256": "793ef040fb858afef2ccb80231bb93e20b7d76a4596985084f958b3828c305cb"
+      "chars": 4162,
+      "sha256": "e6f0d4ded18ff40198d9eb91bbe6d477351acdc891489b1279c1d41a7e41a19d"
     },
     {
       "id": "BOARD::group-cto::uretim-03",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__uretim-03.md",
-      "chars": 4161,
-      "sha256": "9240aaa048225ae2c1b5029dd155d69c5b50e1b357f71f4435dd080ead364b96"
+      "chars": 4162,
+      "sha256": "ac0d25cbee0444ebcbab193a249cbc59a8c7995654bc0f5d560983fe053c1d9c"
     },
     {
       "id": "BOARD::group-cto::uretim-04",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__uretim-04.md",
-      "chars": 4161,
-      "sha256": "5b1f3374d7d32a8a7d78c11d75b924d59e064e86fd1c8fb983ad8f1f25538a26"
+      "chars": 4162,
+      "sha256": "9150cfd2d6a8683f791d4136440571a9c600068fbbd70b8a7b49321031c1c617"
     },
     {
       "id": "BOARD::group-cto::uretim-05",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__uretim-05.md",
-      "chars": 4161,
-      "sha256": "c9d23b13ca9267d85d2dd1ce5134311714ac5ec0cccf7040738ed76ececaa4a2"
+      "chars": 4162,
+      "sha256": "319ab76d82cf2df4b7cc31f280a8d783d761949e4d45d8446bd516761a1a6ec4"
     },
     {
       "id": "BOARD::group-cto::uretim-06",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__uretim-06.md",
-      "chars": 4161,
-      "sha256": "49d106a3d0da41ce6de8ca759dd63c33beac2ec9da99ea1cc79f2d4aab6b8065"
+      "chars": 4162,
+      "sha256": "e1a3e4dbb426e8cd6e92aa4ffccf488e9121662bce687344aaa5c310fdd7bef1"
     },
     {
       "id": "BOARD::group-cto::uretim-07",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__uretim-07.md",
-      "chars": 4161,
-      "sha256": "355bafd2207c8a0d0a278f69604e62233b2fe0550ef4864135a320c2fe14a1a1"
+      "chars": 4162,
+      "sha256": "85e8c845678792ce37fc9388f347eb2fc9cead5b3b259cdf8ece3d54aa635a9d"
     },
     {
       "id": "BOARD::group-cto::uretim-08",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__uretim-08.md",
-      "chars": 4161,
-      "sha256": "0cc9de8d9ed28f8febf7ecdec8745c12054d6a9cb9fd70fe487c0e106ae0aa2b"
+      "chars": 4162,
+      "sha256": "a72d53d39ee94b111809557467e9eed8e9d3015bb073749ae107c4c2b548ad00"
     },
     {
       "id": "BOARD::group-cto::uretim-09",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__uretim-09.md",
-      "chars": 4161,
-      "sha256": "64731e35c1ea6cf3dbc476fca562b57f9d8d00a81e58047e4b4923c653d81e7e"
+      "chars": 4162,
+      "sha256": "ee640ae617a288268f642b9077939a6576f5523daab513db5e77e9aa83042d89"
     },
     {
       "id": "BOARD::group-cto::uretim-10",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__uretim-10.md",
-      "chars": 4164,
-      "sha256": "2b5b478eaed16ed8bf72cac24a7dd01adba9e41e4c48b0b675b7d286d50a6d32"
+      "chars": 4165,
+      "sha256": "0d4c2759158c83f1bb105c18fe828f86a25796d748ad226b92c92344ac31a5f1"
     },
     {
       "id": "BOARD::group-cto::uretim-11",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__uretim-11.md",
-      "chars": 4164,
-      "sha256": "fccf4ae021f99e4a2a9e5c4289d8e650992ad5c87dc2bfb05ff7c28c55a56fe1"
+      "chars": 4165,
+      "sha256": "9a04e137c0ac752a0ea28bca15493ac871cbe18be69d7091c9c6a03188f717e2"
     },
     {
       "id": "BOARD::group-cto::uretim-12",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__uretim-12.md",
-      "chars": 4164,
-      "sha256": "6d1f2bb91243bcaf8cbfab0ad88f25536dfa3d59f6dd9b5b8543ee09c8286875"
+      "chars": 4165,
+      "sha256": "90d2f34e4518aa3989ee6f1afe62013e562383ee6a58c3184d3d1cda2cb98d45"
     },
     {
       "id": "BOARD::group-cto::uretim-13",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__uretim-13.md",
-      "chars": 4164,
-      "sha256": "2957ea6c9e9af3f099710e1fe2a11c234bbdeb63474b87a83d6e2a5492485c6d"
+      "chars": 4165,
+      "sha256": "77bdca6b28cc5e783c0f19897db365c68857b16c52034cf556aae03a89aedabc"
     },
     {
       "id": "BOARD::group-cto::uretim-14",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__uretim-14.md",
-      "chars": 4164,
-      "sha256": "d8c4f6b0a0d0a8b77d8bc8f4042b662504c0e3d9b48c6f1f7ac78c990f6cdafd"
+      "chars": 4165,
+      "sha256": "69492ed29deea5af41a42a6ba6e01be8fafc57d19b7aa66531e5098174baa0bd"
     },
     {
       "id": "BOARD::group-cto::uretim-15",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__uretim-15.md",
-      "chars": 4164,
-      "sha256": "569ef5473d3ef9a48534d666fdfb6432786bda6e84db2f8e661427573b45e82f"
+      "chars": 4165,
+      "sha256": "372fca0121d5e3f494cb322496abf75bbac573a95c63094644e704a6040e269d"
     },
     {
       "id": "BOARD::group-cto::uretim-16",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__uretim-16.md",
-      "chars": 4164,
-      "sha256": "2296be826c2e777c585847936bb0b3032fd97aa867a4edb2ec8ae702fd5d4808"
+      "chars": 4165,
+      "sha256": "07a47c3b44ceae6a28a10adf1b1312ede3305cbcf2082df7f33509dd9dbf09da"
     },
     {
       "id": "BOARD::group-cto::uretim-17",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__uretim-17.md",
-      "chars": 4164,
-      "sha256": "1db0bbe7d4d95a629774420619031ceef21533127c44605ed4c636a3f5d41cf7"
+      "chars": 4165,
+      "sha256": "2f7fb2072950f4a7b7ac188f23d829cf50af5fcfd799eeacb9a80b15debe4ff1"
     },
     {
       "id": "BOARD::group-cto::denetim-01",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__denetim-01.md",
-      "chars": 4168,
-      "sha256": "b641261b00f0cb1b4322c2b8d92f023d8ff7c0878d67015829a66c6e61a6d1f5"
+      "chars": 4169,
+      "sha256": "2f30c47e14d4441498ed24f2a1ba4fc14592e5da844e913e5196b30740167a4c"
     },
     {
       "id": "BOARD::group-cto::denetim-02",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__denetim-02.md",
-      "chars": 4168,
-      "sha256": "76f0ce1569528e19ac60b3d0add2052cc66af1e2d6762a5925c8e57938303a67"
+      "chars": 4169,
+      "sha256": "3b4c0b0675e361e9ca81fb1771346205cfdb1511f1a4bb1b12e013900fb040e2"
     },
     {
       "id": "BOARD::group-cto::denetim-03",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__denetim-03.md",
-      "chars": 4168,
-      "sha256": "e9dc5dd2520a265c061f07e0e4c9b2851534f0f34b6e27983eab9d87e5f3036d"
+      "chars": 4169,
+      "sha256": "784b93f9980d65753f13c968fdd68653be8085d4e78ce3b685b223955551c3e0"
     },
     {
       "id": "BOARD::group-cto::denetim-04",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__denetim-04.md",
-      "chars": 4168,
-      "sha256": "d593fb5e227582fe63846bdddbcdd059830a5484c333e5efb28e1b394f6cdad2"
+      "chars": 4169,
+      "sha256": "32081c22567ba9818f3ee0c613bb32ae626bd1d9d2b649aabf20016bbbf19b0c"
     },
     {
       "id": "BOARD::group-cto::denetim-05",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__denetim-05.md",
-      "chars": 4168,
-      "sha256": "d70720375590e2f2d3e9388edaa7027b0fe2b0f2e5c8d08550e670315a87eba3"
+      "chars": 4169,
+      "sha256": "544baf622f9d4d936d753ba2f8bc1032af67e7dd999faeb61cf513fca3184589"
     },
     {
       "id": "BOARD::group-cto::denetim-06",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__denetim-06.md",
-      "chars": 4168,
-      "sha256": "fb28ca92ae00bb9fb0af8b45057d0b0e5728ba32b4d4678b7073133eea64b4c2"
+      "chars": 4169,
+      "sha256": "efb41f42a216277ab56233f78515fe653bb0f0e30252f2fd907b064020d23670"
     },
     {
       "id": "BOARD::group-cto::denetim-07",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__denetim-07.md",
-      "chars": 4168,
-      "sha256": "1591e678b441b17bfcff5560bb4fa29d0f3c19cf7ff39a1fa8286ed51df65b14"
+      "chars": 4169,
+      "sha256": "579966369e475da041504de2c73aa108d9b6c22af3c3be3649ab82f8f932cf61"
     },
     {
       "id": "BOARD::group-cto::denetim-08",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__denetim-08.md",
-      "chars": 4168,
-      "sha256": "4b0644e6383ea7dcbc42018f1707f97b39f91a1d141794f9cca4db44a7e4ffbb"
+      "chars": 4169,
+      "sha256": "cc3f61a1214c84ba3998254d413be1d675df5bd990c67380d1bacddcf51f0fb0"
     },
     {
       "id": "BOARD::group-cto::denetim-09",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__denetim-09.md",
-      "chars": 4168,
-      "sha256": "ef008d1f7e209c391b5a582f4a45a7a068fa78fceffe06d78a3b463369877b33"
+      "chars": 4169,
+      "sha256": "6daeb6464269ab7452d284f4f4c05e690c15c2f5529433496ba907056fe2b3e2"
     },
     {
       "id": "BOARD::group-cto::denetim-10",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__denetim-10.md",
-      "chars": 4171,
-      "sha256": "e24a6519e10fc13cff7dc17a24a1ebb25fdecdd7166ae06fc9bb7b1e8fe258c7"
+      "chars": 4172,
+      "sha256": "68389c29115a617caede7b4fe4f27f8f9567d7dd2398a334e98449ce5cd415e7"
     },
     {
       "id": "BOARD::group-cto::denetim-11",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__denetim-11.md",
-      "chars": 4171,
-      "sha256": "4bbb4fb5d11c52f3842262f114ea3f23e2f0a3067376b37a399de3279d298cd8"
+      "chars": 4172,
+      "sha256": "fc78efa696236686ee48d4a534d6e4eebe411075e52160036f1d2d6f2dc33094"
     },
     {
       "id": "BOARD::group-cto::denetim-12",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__denetim-12.md",
-      "chars": 4171,
-      "sha256": "7bf9c46a94659fa450b71dc4fa03d2387472e86ded0057d3001dda60e619394f"
+      "chars": 4172,
+      "sha256": "ac726dca7b3e8cb21533e0ee44a3614f5b9b16aaa149027b8b751152c810329a"
     },
     {
       "id": "BOARD::group-cto::denetim-13",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__denetim-13.md",
-      "chars": 4171,
-      "sha256": "508b45faccf282eeb5a06ad40e313a03661cdc9736bcf0b05e55733c204dd104"
+      "chars": 4172,
+      "sha256": "7090b8594d41c8a4feb017848299468a4678012203254df3cf51abc032b2b169"
     },
     {
       "id": "BOARD::group-cto::denetim-14",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__denetim-14.md",
-      "chars": 4171,
-      "sha256": "36e5a12fceec262751057f8a65de62e2625fec7884cc5358cdbc91748044f4da"
+      "chars": 4172,
+      "sha256": "811011cecd9f7e967f8d6887d909dc3afe58e4245243ec38ae2fb117107c2cf8"
     },
     {
       "id": "BOARD::group-cto::denetim-15",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__denetim-15.md",
-      "chars": 4171,
-      "sha256": "3c7d78fb1624b6126ab37cc519fcc739c1da0849c61b2dc3e4e0bec68cd993b0"
+      "chars": 4172,
+      "sha256": "fc7f5d2c8375ff07e83a134ce0e260eada9165706b0d8255018683bc280c79cf"
     },
     {
       "id": "BOARD::group-cto::denetim-16",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__denetim-16.md",
-      "chars": 4171,
-      "sha256": "cfb81f8a7264c417aedb6135a984028cbcba1343ccaf1002b5ac17549680bb4b"
+      "chars": 4172,
+      "sha256": "f4e4d7bafe51b9805cc17b59fe9e839565d3ead49c7a9964d56a99947b555e61"
     },
     {
       "id": "BOARD::group-cto::denetim-17",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__denetim-17.md",
-      "chars": 4171,
-      "sha256": "a1749709aa0e76aabe9122c1209e3528ad9a05c23bc0ba27b1624d47a291b5da"
+      "chars": 4172,
+      "sha256": "741810e9b75498dc1bd8592fbb7498eec946585215c462a1f8d2340e6de56bd7"
     },
     {
       "id": "BOARD::group-cto::operasyon-01",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__operasyon-01.md",
-      "chars": 4190,
-      "sha256": "7df39fc583013fba77f3f9cd8a6690e747cee7307b81e70ad9e07a3322db90ff"
+      "chars": 4191,
+      "sha256": "903bca9c2ccbd1924922833409952843fb89cbca713093e2ed2ebbacfdda63df"
     },
     {
       "id": "BOARD::group-cto::operasyon-02",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__operasyon-02.md",
-      "chars": 4190,
-      "sha256": "b396ddd14d661b0461b97b62d0ab25a3b027d13683bc2986a8fadff0d64607c3"
+      "chars": 4191,
+      "sha256": "174bc44fea42faf8a9e967a1306875bce8b6550c0e188c1929f879acbb1f9d49"
     },
     {
       "id": "BOARD::group-cto::operasyon-03",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__operasyon-03.md",
-      "chars": 4190,
-      "sha256": "010c6511db1705437790848e8458972005a6ad95e1d37361b083e4a9b842658f"
+      "chars": 4191,
+      "sha256": "cc572142d4d0edfcda4a27e7bce168b638f281d32460db7333ed96531b374278"
     },
     {
       "id": "BOARD::group-cto::operasyon-04",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__operasyon-04.md",
-      "chars": 4190,
-      "sha256": "78cad0bb087efde7a736bed7e9e8aa14ed5239988c258a66a856548f081d3f78"
+      "chars": 4191,
+      "sha256": "213458e74fc1084c8eeb593f8b5e1d2971b62809bcf527949e8189fbf06286d6"
     },
     {
       "id": "BOARD::group-cto::operasyon-05",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__operasyon-05.md",
-      "chars": 4190,
-      "sha256": "270a4e04d37f51823cfa34e0f5e9ba947703f0a66e214fca084966ecf68b2e8a"
+      "chars": 4191,
+      "sha256": "ce3438d907d73c8065d9fe7ee5165ba999cf2fccc733c8d57bba038eecec72d7"
     },
     {
       "id": "BOARD::group-cto::operasyon-06",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__operasyon-06.md",
-      "chars": 4190,
-      "sha256": "06a703ba4f9ab863f48a2f077a8c0b6842bbbfb9f8060808a503700da83e3ef3"
+      "chars": 4191,
+      "sha256": "6de3c7fd53974b2ee057f43230361d796c1099c190aab12ff3e54d6f4845d497"
     },
     {
       "id": "BOARD::group-cto::operasyon-07",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__operasyon-07.md",
-      "chars": 4190,
-      "sha256": "19623ebc3931135b1725d531f6694b538931d555f99eb9b5eb2914af23ca310f"
+      "chars": 4191,
+      "sha256": "19229e6a16f44ad1fd669b4fee804d63b3886d279ec97e252024deb1fee0dd40"
     },
     {
       "id": "BOARD::group-cto::operasyon-08",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__operasyon-08.md",
-      "chars": 4190,
-      "sha256": "db720edf04c1652e318b669bf6d4d8395fd9cc0bd405305c1592de50e9f5b00a"
+      "chars": 4191,
+      "sha256": "445d7309bf0fff62403493770533ae8f837e8db65228873769f4c66b71f87ab1"
     },
     {
       "id": "BOARD::group-cto::operasyon-09",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__operasyon-09.md",
-      "chars": 4190,
-      "sha256": "213ee34a2a7ab4d04373cced97b4440fbba44bd7c26cfb5b69d4d3eba7162717"
+      "chars": 4191,
+      "sha256": "3d28090a14195a34c3a02f30f8a1de577298c1e8e3acd3602b6b0e02a591accd"
     },
     {
       "id": "BOARD::group-cto::operasyon-10",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__operasyon-10.md",
-      "chars": 4193,
-      "sha256": "7344d2852bd8345a9791dae8d742375cb484b10dc9448c065e00f5f1525e35d0"
+      "chars": 4194,
+      "sha256": "fd58abd26ec945d87e6e6346642ed91dee05a14c488fabfc1f994f54e3bc99bb"
     },
     {
       "id": "BOARD::group-cto::operasyon-11",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__operasyon-11.md",
-      "chars": 4193,
-      "sha256": "477d54b6644845927c9de5e136450faca336e01f040daa926ba98d83720f3a2d"
+      "chars": 4194,
+      "sha256": "52e4995b38a18952607738a80cf525ce8f7ae297c1df2dfd63493ecad142bfab"
     },
     {
       "id": "BOARD::group-cto::operasyon-12",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__operasyon-12.md",
-      "chars": 4193,
-      "sha256": "2f03a0923325a24974abedba4499821725cd46efcf63bb4aad7709970011992e"
+      "chars": 4194,
+      "sha256": "2830ba7151ec0294bacbb9d7867434ba07948c64b45f75145f5566931cd80250"
     },
     {
       "id": "BOARD::group-cto::operasyon-13",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__operasyon-13.md",
-      "chars": 4193,
-      "sha256": "dd5bb65c5cc87826ad8a15051c87e2124e94e19cb9313d3891f43c1f01d76a3c"
+      "chars": 4194,
+      "sha256": "21a693dbd690244c389dea8f5724b23fdf01ed986adddfc92ec413bf0fb90f80"
     },
     {
       "id": "BOARD::group-cto::operasyon-14",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__operasyon-14.md",
-      "chars": 4193,
-      "sha256": "c342342e3046b1ca9ba0d4326e75d7109b42454358aa3723853b16a30921ae0b"
+      "chars": 4194,
+      "sha256": "7525ee4a8795d12022c58571d0ce2c7254b78093bf04426c132c704631e0b35b"
     },
     {
       "id": "BOARD::group-cto::operasyon-15",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__operasyon-15.md",
-      "chars": 4193,
-      "sha256": "2641b958568064f867e802d436cda50a08ed6b3cb2e72ee30d0dbd3bf3c6ca8f"
+      "chars": 4194,
+      "sha256": "8f86b0f66026189de9c53970c9ffa0abe0c96028874f80fea55c54aaca0184a7"
     },
     {
       "id": "BOARD::group-cto::operasyon-16",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__operasyon-16.md",
-      "chars": 4193,
-      "sha256": "97ae738a1690ef7b3f1df92a7c3f7528d19e1fb77a6681be224653e1821b22c2"
+      "chars": 4194,
+      "sha256": "c889b04f5c6b23b6e005fb439db3b387f53717a1d2c9043870b0c2999b902d76"
     },
     {
       "id": "BOARD::group-cto::operasyon-17",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__operasyon-17.md",
-      "chars": 4193,
-      "sha256": "d79463525f60a49e962e0ae371de0269e1373174be1dc5e31c271b3d361d8f39"
+      "chars": 4194,
+      "sha256": "bc58d7d305810c0fa9980f139b9d6b09e1549953f1c0dd5c71df0ce9a57bfd2c"
     },
     {
       "id": "BOARD::group-cto::gelir-01",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__gelir-01.md",
-      "chars": 4143,
-      "sha256": "fa0df04e97ad0b4f9b97c79017bf2f5ad58e6a74f634442ead38857184714cad"
+      "chars": 4144,
+      "sha256": "92244851b01c6023ebaf438cf4c6b4f59cdc81b2c7df43232fa4e7e03aa4352d"
     },
     {
       "id": "BOARD::group-cto::gelir-02",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__gelir-02.md",
-      "chars": 4143,
-      "sha256": "1760f93565c403c42a954489a8ede99076ca3804e215df1afbfd798400114721"
+      "chars": 4144,
+      "sha256": "a7c0d9d9f489c105a694fab3dd5481478fa0d6a9e3acc2a227712968557dbfc6"
     },
     {
       "id": "BOARD::group-cto::gelir-03",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__gelir-03.md",
-      "chars": 4143,
-      "sha256": "21b74c2b34877bf149316053a0d6a3b239bd87b3e7f1f3ccf350d5ea0bf311ec"
+      "chars": 4144,
+      "sha256": "232e3a6474a6b8f1a7f0e8d851f479bde93358cc14568823b26a22ee9c954e2a"
     },
     {
       "id": "BOARD::group-cto::gelir-04",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__gelir-04.md",
-      "chars": 4143,
-      "sha256": "6f0fb30e71e59881a06784cacb1f3c00e5f96021e58a885fbc15dab14d706d8d"
+      "chars": 4144,
+      "sha256": "c787a233eaea90f13dbb80799ae805fb662511032091a6ea1d1b4bb197c7b548"
     },
     {
       "id": "BOARD::group-cto::gelir-05",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__gelir-05.md",
-      "chars": 4143,
-      "sha256": "f62c9b6006482db10b9c5dd728249a40426244f97432f75145f15bf3c3cb48e7"
+      "chars": 4144,
+      "sha256": "79f36b941bef9778800dc72ce4c435dabb7769bad72f3b174437553405fa0804"
     },
     {
       "id": "BOARD::group-cto::gelir-06",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__gelir-06.md",
-      "chars": 4143,
-      "sha256": "e129b9ccd0861de50031b3f34480805b348ea7d643fa4569682d2c92e36fee6b"
+      "chars": 4144,
+      "sha256": "02d8e860dcd7b9585d17899df4d67a14ea0223fe28dffbef875ce552e61d2eff"
     },
     {
       "id": "BOARD::group-cto::gelir-07",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__gelir-07.md",
-      "chars": 4143,
-      "sha256": "5f523d927bd71c6f881893128a9db0900d0e3c4e8bf641f6b35206d89dba0119"
+      "chars": 4144,
+      "sha256": "92717791698d9808093088465b0814c32d644a01a68276cf1e39f0fc95adfe40"
     },
     {
       "id": "BOARD::group-cto::gelir-08",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__gelir-08.md",
-      "chars": 4143,
-      "sha256": "db872607356209ead76000cf9ee50ca8dea65e93d01f2391837c1a1c8dd5c99b"
+      "chars": 4144,
+      "sha256": "aeb3e891b06509381ec45fffa25d3efd880eb8a01d37b560f423202e0975372e"
     },
     {
       "id": "BOARD::group-cto::gelir-09",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__gelir-09.md",
-      "chars": 4143,
-      "sha256": "aa3948859bfdd20ca0577432596400e4bdf9cc85970bc27121c0c2924a1a0c7e"
+      "chars": 4144,
+      "sha256": "d874c1fdd78d930baac56bbaec86d43a3eaf478a8b8cd23331ccd8eb3210ed5b"
     },
     {
       "id": "BOARD::group-cto::gelir-10",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__gelir-10.md",
-      "chars": 4146,
-      "sha256": "4af247a03386b8d922ab67b11d91d8e67e481db1ce9144c827993012783024e7"
+      "chars": 4147,
+      "sha256": "2253d01f682421500b67223750dabb6e836f615e1408bf8e7bf3e094c322a04b"
     },
     {
       "id": "BOARD::group-cto::gelir-11",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__gelir-11.md",
-      "chars": 4146,
-      "sha256": "8b14508a36440f7aa4dad1bcff810fa37165f7c0476a4b1105701f4006bc1c8b"
+      "chars": 4147,
+      "sha256": "bf1265d8d9413cadd5bedfd4d15183bec437a56ea5318bcbccfe9594244df9cc"
     },
     {
       "id": "BOARD::group-cto::gelir-12",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__gelir-12.md",
-      "chars": 4146,
-      "sha256": "10d8653e002fe8cefc96bc1391bc9689d02d5c2692b24a84576c756dce04b14d"
+      "chars": 4147,
+      "sha256": "a5d06421b0ae07be089048c1b2d65dcefaaf5844253fc1de0d22548f8d9d8d17"
     },
     {
       "id": "BOARD::group-cto::gelir-13",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__gelir-13.md",
-      "chars": 4146,
-      "sha256": "f09ff3e51ef981eadc94f4a8248bf84194cff92a45fe2709d58bc1166aaeeadf"
+      "chars": 4147,
+      "sha256": "ac9cec41367cd81d2a4e3c7b457c00050787d75a6ffe6a10537322127274c70f"
     },
     {
       "id": "BOARD::group-cto::gelir-14",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__gelir-14.md",
-      "chars": 4146,
-      "sha256": "9083b31e78b24486b4307582fee82fc9b2f403c83bb0d0f68f56d574de193610"
+      "chars": 4147,
+      "sha256": "ee5d942fbdb96575a58ca5b6869cb2b05e3fe6a8c8b81ecf1312a52bbdcba66f"
     },
     {
       "id": "BOARD::group-cto::gelir-15",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__gelir-15.md",
-      "chars": 4146,
-      "sha256": "2913e878f1a3e4af75f153fc516edd171493c297bb4a3d5a49fd8c897fab5036"
+      "chars": 4147,
+      "sha256": "831b882344e1c02df416bcbb6378818eeddcf7d7c2fb8deee99a5644c04f4605"
     },
     {
       "id": "BOARD::group-cto::gelir-16",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__gelir-16.md",
-      "chars": 4146,
-      "sha256": "e9c8a2f76b1a0361304fd207ce1d7870b54321e564f27105db8be33d4de75752"
+      "chars": 4147,
+      "sha256": "831fc1fda8e2edcddddf1800a38d0a013136998382f597288a513d3743dd2ed9"
     },
     {
       "id": "BOARD::group-cto::gelir-17",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__gelir-17.md",
-      "chars": 4146,
-      "sha256": "6a41765e8658f007fd7d4695f8a45e185c22cc9587504afcde0749266c40f091"
+      "chars": 4147,
+      "sha256": "b9588eb99a73fda0fde80ffd17f61b701c10f83fcba2154abadb04c7d32118f3"
     },
     {
       "id": "BOARD::group-cto::iletisim-01",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__iletisim-01.md",
-      "chars": 4182,
-      "sha256": "f4c009a87bef4e3e23bd06f5704e1569e267de471cfa517bdbf10223df660c1a"
+      "chars": 4183,
+      "sha256": "deabb04ed8d147f3186b334a0cfd74f8603d688dc35608ff94db4ab60bc63e47"
     },
     {
       "id": "BOARD::group-cto::iletisim-02",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__iletisim-02.md",
-      "chars": 4182,
-      "sha256": "65bbf698d6d8593b91ca5b4fa26ecc71d4c3e94b19537dc61ecc8a8a055d4bf8"
+      "chars": 4183,
+      "sha256": "b3ea6b1d9c815f0c521e3c9b77f2ff1fdc692250866bc36a096de0a16c5a6b8f"
     },
     {
       "id": "BOARD::group-cto::iletisim-03",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__iletisim-03.md",
-      "chars": 4182,
-      "sha256": "892a583bc3ec0948120fb731d6a7073cca22aa9448cfb9da9fb35f3654e2a069"
+      "chars": 4183,
+      "sha256": "4804121b554631ff706942acabaa9c9772c5d9fb6405904714d76ecbdb6575c7"
     },
     {
       "id": "BOARD::group-cto::iletisim-04",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__iletisim-04.md",
-      "chars": 4182,
-      "sha256": "d3e300992671c7d1e60ead33731918f36667f469224673c44fca90710c60d14c"
+      "chars": 4183,
+      "sha256": "7c6750841ba40d0f41816e6990ac4816b42fc8030f697324150f6dbfb9d87e03"
     },
     {
       "id": "BOARD::group-cto::iletisim-05",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__iletisim-05.md",
-      "chars": 4182,
-      "sha256": "635338085d80c4f116e0bcdfdb0582149d01eccc61c978c221c8fc116d8dd674"
+      "chars": 4183,
+      "sha256": "442d2058d83807f94f748a065dc8c43fe9ce3ca4765aaa163e60e263b30c8be5"
     },
     {
       "id": "BOARD::group-cto::iletisim-06",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__iletisim-06.md",
-      "chars": 4182,
-      "sha256": "a8907dcdbdba31ef3dd8b397afd80734ff0932b1e22b4f381069cf09b781d7ab"
+      "chars": 4183,
+      "sha256": "17c442874882b46df57f489a320e494e4595b074c0f56578af843a0b9c9b31f6"
     },
     {
       "id": "BOARD::group-cto::iletisim-07",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__iletisim-07.md",
-      "chars": 4182,
-      "sha256": "e3863255d70e101b51d639b6ee8173d5b93498db9d214f1160ec3b48c8a8660a"
+      "chars": 4183,
+      "sha256": "3b4e0e84dad733e9d760047c25ca5641694023e5bb4ec5c132496b2c643a5209"
     },
     {
       "id": "BOARD::group-cto::iletisim-08",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__iletisim-08.md",
-      "chars": 4182,
-      "sha256": "3b2750a9a1cc2c909b7796fef53a4cb569469cce4893db6d457d649ab38c1792"
+      "chars": 4183,
+      "sha256": "9989aaa4797be76e7ef842925f072dd9519b784bc6fde376958ccae30f01a14c"
     },
     {
       "id": "BOARD::group-cto::iletisim-09",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__iletisim-09.md",
-      "chars": 4182,
-      "sha256": "6db3f44cdcfac7b0339270a4995108e43799327e0840b11b712b6c9758243b39"
+      "chars": 4183,
+      "sha256": "97dd77991d98f52f79ebcb289ba2d03e0604220c49fc54f8405d3958dbd5d894"
     },
     {
       "id": "BOARD::group-cto::iletisim-10",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__iletisim-10.md",
-      "chars": 4185,
-      "sha256": "30adb667335f16dbeef7203d5f157e94d41dac2fd6b2bdb9dce2a8603cb0801e"
+      "chars": 4186,
+      "sha256": "0070760842d215fd44de74403e1bcaea5126e9607a7cdae2edd83850e116a167"
     },
     {
       "id": "BOARD::group-cto::iletisim-11",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__iletisim-11.md",
-      "chars": 4185,
-      "sha256": "6a58cfc262122ae0ad7ed2272124e123e3f6e1c00c9ac03ad299b0a1696429b6"
+      "chars": 4186,
+      "sha256": "8232c408f3452dbd9baf9efd36d18b7e50f980cf6a1190813ca46453217ae685"
     },
     {
       "id": "BOARD::group-cto::iletisim-12",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__iletisim-12.md",
-      "chars": 4185,
-      "sha256": "c345e246f48fae0f13aaf5b2c14524e48ebcfbd7a31f766e5df29b07b841ab78"
+      "chars": 4186,
+      "sha256": "0bad2bdcf245e93d46f7755e4a5fac3934fdc183be4e5089ffced6b9ce823a51"
     },
     {
       "id": "BOARD::group-cto::iletisim-13",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__iletisim-13.md",
-      "chars": 4185,
-      "sha256": "09f75bce4f52649082147e133b873e45553a8b455a11df1e9915094e52b7c7e5"
+      "chars": 4186,
+      "sha256": "5819bb2202df02ff476ab14304d5bb7af765d0a2bd069b5df5ba71c155d82367"
     },
     {
       "id": "BOARD::group-cto::iletisim-14",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__iletisim-14.md",
-      "chars": 4185,
-      "sha256": "68e96b3c40b9bebb71e528bc10b9743018630ae3a9976791442b98f1a9d7d9fc"
+      "chars": 4186,
+      "sha256": "845673a9bc68af4113784f5cb9e7f5da438f3b0cdf5cd066bd78bd7534d97d12"
     },
     {
       "id": "BOARD::group-cto::iletisim-15",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__iletisim-15.md",
-      "chars": 4185,
-      "sha256": "7b9c89077f26ac47edccada3dcd2afe592b5138b472a4402380f7a32814fa2ca"
+      "chars": 4186,
+      "sha256": "5b05392dab8fb5f359650d7e75f735d22b249a807c07c2e59316a3b7acaba13c"
     },
     {
       "id": "BOARD::group-cto::iletisim-16",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__iletisim-16.md",
-      "chars": 4185,
-      "sha256": "0aa66791a39f9efd1d989bfba964de25f5d67fe2016cab315f8e53e36c76f3f3"
+      "chars": 4186,
+      "sha256": "c0e834f1907e17bf72e227f1462252e4517751e7fae878f9868558f14066791a"
     },
     {
       "id": "BOARD::group-cto::iletisim-17",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__iletisim-17.md",
-      "chars": 4185,
-      "sha256": "dc6e6d3ab1fc5f9bbc4c77b47625681b813766a12a7b36ae68706684c8bfcae3"
+      "chars": 4186,
+      "sha256": "2b94a6cd2c43ac1473766de06d10f5496161496fe661a7b21db5be8fa529ca0c"
     },
     {
       "id": "BOARD::group-cto::ozel-01",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__ozel-01.md",
-      "chars": 4134,
-      "sha256": "64f0aa8b6337a1dc1b684efde67af4ac84579651deb085dfcd1f30f9ce69e3ef"
+      "chars": 4135,
+      "sha256": "1dc175f0be88b6c76bb190c4e996867861841355c9a9c61b200148fcf7364bd9"
     },
     {
       "id": "BOARD::group-cto::ozel-02",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__ozel-02.md",
-      "chars": 4146,
-      "sha256": "ebaacb2de59bcb4f458c1916689519d5d0c31a6a7ab7271418c986136e75c96e"
+      "chars": 4147,
+      "sha256": "e951dd1e0d496c6b5041096301287152b84fd8daaab1281863e73d21056ba44c"
     },
     {
       "id": "BOARD::group-cto::ozel-03",
       "path": "uretim/promptlar/BOARD/group-cto/BOARD__group-cto__ozel-03.md",
-      "chars": 4118,
-      "sha256": "f8ab9cc9f7dd20da42cc844909a6e776bebd8c31ccde196d0eb2c09b3ab119c3"
+      "chars": 4119,
+      "sha256": "8d3c3972253e15f33c0b126e9e6e81ca7a209ed6e3947669a16a7a04eefbb010"
     }
   ]
 }
