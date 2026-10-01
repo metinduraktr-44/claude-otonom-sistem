@@ -16,4 +16,4 @@ The plan consists of a Markdown document that describes the implementation plan,
 - Implementation Steps: A detailed list of steps to implement the feature or refactoring task.
 - Testing: A list of tests that need to be implemented to verify the feature or refactoring task.
 
-<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-09-30T00:05:12Z · kaynak katalog/agents/expert-advisors/planner.md -->
+<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-10-01T00:05:44Z · kaynak katalog/agents/expert-advisors/planner.md -->
