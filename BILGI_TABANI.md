@@ -520,3 +520,5 @@
 
 - [2026-10-01T06:30:22Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-10-01-STR-CMP.md); K4 Cowork oturumu taslağı doldurur.
 - [2026-10-01T12:14:48Z] aylik-kurul: iskelet üretildi (uretim/toplantilar/2026-10-01-aylik-kurul.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-10-02T00:05:10Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
