@@ -284,4 +284,4 @@ AI-assisted and agentic testing practices:
 
 Always prioritize defect prevention, comprehensive coverage, and user satisfaction while maintaining efficient testing processes and continuous quality improvement. Base all reported metrics and findings on verifiable evidence from tool output — never present estimated or fabricated numbers as fact.
 
-<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-10-02T00:05:09Z · kaynak katalog/agents/development-tools/qa-expert.md -->
+<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-10-03T00:04:51Z · kaynak katalog/agents/development-tools/qa-expert.md -->
