@@ -1,6 +1,6 @@
 # IS_LISTESI — Holding Ajans
 > 2026-08-04T08:44:30Z · sahip: Group COO · kaynak: MASTER V2 FAZ3
-> Son koşum damgası: 2026-10-03T06:28:34Z
+> Son koşum damgası: 2026-10-04T08:08:06Z
 
 ## P0 (bugün)
 - [x] FAZ 0 üç üretici doğrula
