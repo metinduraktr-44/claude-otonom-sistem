@@ -1,5 +1,5 @@
 # HOLDING × İŞTİRAK ORG
-> Üretim: 2026-10-04T02:45:15Z · Kaynak: data/holding_istirak_org.json
+> Üretim: 2026-10-05T02:22:55Z · Kaynak: data/holding_istirak_org.json
 
 **İştirak:** 8 · **Rol:** 633 · **Prompt hedef:** 77226 (122/rol)
 **900M/900B karakter/prompt RED — 122×4–12KiB sözleşme**
