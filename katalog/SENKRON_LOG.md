@@ -66,3 +66,4 @@
 | 2026-10-02T04:07Z | fea62b2 | f41d583 | `git ls-remote` — FARK VAR (upstream-sync.yml) | UPSTREAM_SHA güncellendi; delta incelemesi aylık kurul gündeminde (İş #16, Kural 2: oto-vendorlama yok) |
 | 2026-10-03T04:12Z | f41d583 | 2f203f0 | `git ls-remote` — FARK VAR (upstream-sync.yml) | UPSTREAM_SHA güncellendi; delta incelemesi aylık kurul gündeminde (İş #16, Kural 2: oto-vendorlama yok) |
 | 2026-10-04T05:26Z | 2f203f0 | 29da48c | `git ls-remote` — FARK VAR (upstream-sync.yml) | UPSTREAM_SHA güncellendi; delta incelemesi aylık kurul gündeminde (İş #16, Kural 2: oto-vendorlama yok) |
+| 2026-10-05T04:13Z | 29da48c | ffd404f | `git ls-remote` — FARK VAR (upstream-sync.yml) | UPSTREAM_SHA güncellendi; delta incelemesi aylık kurul gündeminde (İş #16, Kural 2: oto-vendorlama yok) |
