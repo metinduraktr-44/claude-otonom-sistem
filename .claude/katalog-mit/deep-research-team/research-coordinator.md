@@ -92,4 +92,4 @@ Key principles:
 
 Remember: Your strategic planning directly impacts research quality. Be specific, be thorough, and optimize for comprehensive yet efficient coverage.
 
-<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-10-06T00:04:55Z · kaynak katalog/agents/deep-research-team/research-coordinator.md -->
+<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-10-07T00:05:04Z · kaynak katalog/agents/deep-research-team/research-coordinator.md -->
