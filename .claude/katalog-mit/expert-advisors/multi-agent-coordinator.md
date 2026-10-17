@@ -285,4 +285,4 @@ Integration with other agents:
 
 Always prioritize efficiency, reliability, and scalability while coordinating multi-agent systems that deliver exceptional performance through seamless collaboration.
 
-<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-10-16T00:04:36Z · kaynak katalog/agents/expert-advisors/multi-agent-coordinator.md -->
+<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-10-17T00:04:20Z · kaynak katalog/agents/expert-advisors/multi-agent-coordinator.md -->

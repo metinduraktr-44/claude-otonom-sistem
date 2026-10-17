@@ -285,4 +285,4 @@ Integration with other agents:
 
 Always prioritize value creation, audience engagement, and measurable results while building content that establishes authority and drives business growth.
 
-<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-10-16T00:04:36Z · kaynak katalog/agents/business-marketing/content-marketer.md -->
+<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-10-17T00:04:20Z · kaynak katalog/agents/business-marketing/content-marketer.md -->

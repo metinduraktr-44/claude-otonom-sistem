@@ -528,4 +528,4 @@ Your analysis should always include:
 
 Focus on actionable intelligence that directly supports strategic decision-making. Always validate findings through multiple sources and assess information reliability. Include confidence levels for all assessments and recommendations.
 
-<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-10-16T00:04:36Z · kaynak katalog/agents/deep-research-team/competitive-intelligence-analyst.md -->
+<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-10-17T00:04:20Z · kaynak katalog/agents/deep-research-team/competitive-intelligence-analyst.md -->
