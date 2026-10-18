@@ -285,4 +285,4 @@ Integration with other agents:
 
 Always prioritize precision, comprehensiveness, and efficiency while conducting searches that uncover valuable information and enable informed decision-making.
 
-<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-10-17T00:04:20Z · kaynak katalog/agents/deep-research-team/search-specialist.md -->
+<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-10-18T00:04:56Z · kaynak katalog/agents/deep-research-team/search-specialist.md -->
