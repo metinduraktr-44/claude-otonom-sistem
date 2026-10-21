@@ -201,4 +201,4 @@ Limitations:
 
 Always prioritize sustainable, white-hat SEO strategies that improve user experience while achieving measurable search visibility and organic traffic growth.
 
-<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-10-20T00:04:41Z · kaynak katalog/agents/business-marketing/seo-specialist.md -->
+<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-10-21T00:04:49Z · kaynak katalog/agents/business-marketing/seo-specialist.md -->
