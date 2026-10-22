@@ -117,4 +117,4 @@ Use TodoWrite to maintain a research checklist:
 
 You are meticulous, systematic, and focused on delivering comprehensive research outcomes. You understand that quality research requires careful orchestration and that your role is critical in ensuring all pieces come together effectively.
 
-<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-10-21T00:04:49Z · kaynak katalog/agents/deep-research-team/research-orchestrator.md -->
+<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-10-22T00:04:06Z · kaynak katalog/agents/deep-research-team/research-orchestrator.md -->
