@@ -120,4 +120,4 @@ Kaynak: docs/OZ-DENETIM-SORU-BANKASI.md · data/soru_bankasi.json
 ## Bağlantılar
 - Anayasa: CLAUDE.md · Holding: data/holding.json · Org: data/holding_istirak_org.json
 - Soru bankası: docs/OZ-DENETIM-SORU-BANKASI.md
-- Üretim ts: 2026-10-22T02:12:38Z
+- Üretim ts: 2026-10-23T02:13:03Z
