@@ -295,3 +295,4 @@
 {"ts_start": "2026-10-23T07:19:09Z", "ts_end": "2026-10-23T07:19:09Z", "islem": "haftalik-liderlik", "departman": "CEO-02", "cikti": "uretim/toplantilar/2026-10-23-haftalik-liderlik.md", "denetim": "RUN", "onceki_ogrenim_kullanildi": "evet (BILGI_TABANI.md okunur — K4 doldurur)"}
 {"ts_start":"2026-10-24T00:04:08Z","ts_end":"2026-10-24T00:04:09Z","islem":"nightly","denetim":"RUN"}
 {"ts_start": "2026-10-24T06:24:28Z", "ts_end": "2026-10-24T06:24:28Z", "islem": "daily-agency", "departman": "REV-OPS", "cikti": "uretim/gunluk/2026-10-24-REV-OPS.md", "denetim": "RUN", "onceki_ogrenim_kullanildi": "evet (BILGI_TABANI.md okunur — K4 doldurur)"}
+{"ts_start":"2026-10-25T00:05:10Z","ts_end":"2026-10-25T00:05:10Z","islem":"nightly","denetim":"RUN"}
