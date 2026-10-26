@@ -106,4 +106,4 @@ Your output will always include:
 
 Remember: You are creating the definitive document that represents all research efforts. Make it worthy of the extensive work that preceded it. Every report should inform, engage, and provide genuine value to its readers.
 
-<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-10-25T00:05:10Z · kaynak katalog/agents/deep-research-team/report-generator.md -->
+<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-10-26T00:04:53Z · kaynak katalog/agents/deep-research-team/report-generator.md -->
