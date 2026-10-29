@@ -112,4 +112,4 @@ Check 2 — Security scan ......... BLOCK
 
 *Source: [pm-workspace](https://github.com/gonzalezpazmonica/pm-workspace) — Commit Guardian protocol*
 
-<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-10-28T00:03:28Z · kaynak katalog/agents/git/commit-guardian.md -->
+<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-10-29T00:03:38Z · kaynak katalog/agents/git/commit-guardian.md -->
