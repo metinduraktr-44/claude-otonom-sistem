@@ -306,3 +306,4 @@
 {"ts_start":"2026-10-29T00:03:38Z","ts_end":"2026-10-29T00:03:38Z","islem":"nightly","denetim":"RUN"}
 {"ts_start": "2026-10-29T06:20:40Z", "ts_end": "2026-10-29T06:20:40Z", "islem": "daily-agency", "departman": "OPS-BIZ", "cikti": "uretim/gunluk/2026-10-29-OPS-BIZ.md", "denetim": "RUN", "onceki_ogrenim_kullanildi": "evet (BILGI_TABANI.md okunur — K4 doldurur)"}
 {"ts_start":"2026-10-30T00:03:41Z","ts_end":"2026-10-30T00:03:41Z","islem":"nightly","denetim":"RUN"}
+{"ts_start": "2026-10-30T06:20:28Z", "ts_end": "2026-10-30T06:20:28Z", "islem": "daily-agency", "departman": "OPS-TLS", "cikti": "uretim/gunluk/2026-10-30-OPS-TLS.md", "denetim": "RUN", "onceki_ogrenim_kullanildi": "evet (BILGI_TABANI.md okunur — K4 doldurur)"}
