@@ -2,739 +2,739 @@
   "rol": "Bağlayıcı (Connector) Uzmanı",
   "dept": "INF-MCP",
   "adet": 122,
-  "ts": "2026-10-01T12:14:48Z",
+  "ts": "2026-11-01T05:35:53Z",
   "items": [
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::strateji-01",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__strateji-01.md",
-      "chars": 4160,
-      "sha256": "a0d6c01247578185f59fa349d94141f8044bbfa10eae8a7e0028cc3ae193620e"
+      "chars": 4153,
+      "sha256": "3b9b04d25dc2868633de50737f6e7b66ebfdc10a89b0f0555c66ce4c17c72b2e"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::strateji-02",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__strateji-02.md",
-      "chars": 4160,
-      "sha256": "70b5f922978eab2ccf96c7c86bdffc6eb44f8ec07bf5dbc6b2a67be51ab49d05"
+      "chars": 4153,
+      "sha256": "879b66fb144af69dd5fdc095a9d0811f5b9ffa61b2d4db7df6faae9df792d693"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::strateji-03",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__strateji-03.md",
-      "chars": 4160,
-      "sha256": "42952607b98232baed518e23efc0bd1374658a188718f2730284051209160933"
+      "chars": 4153,
+      "sha256": "e4a925b6ca90d12b267df1ec79e56293f4ff1afce1cce18f4d9f20063978de07"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::strateji-04",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__strateji-04.md",
-      "chars": 4160,
-      "sha256": "ed1e8ec486cc6dce41f942f6d0c5cb6f6fa6b0ab6ca0e9b0d2aebd7c1c36a865"
+      "chars": 4153,
+      "sha256": "53f34d363bbbf1a3b3ed373251802e459f35adb438d28b68015eadbe027ec5f9"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::strateji-05",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__strateji-05.md",
-      "chars": 4160,
-      "sha256": "a8cd81835933ac2a2e1476fd657fe75880359b51585256fc98f1f8b67b284a01"
+      "chars": 4153,
+      "sha256": "d2f91fe75679a990097bd9ab7f929621cbbdae38a771ed673ec7a0379f3a5dd6"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::strateji-06",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__strateji-06.md",
-      "chars": 4160,
-      "sha256": "fa8b173b3f477cee2487c6fb5f4bf06719c351276ded19995cbcc15db2042c2b"
+      "chars": 4153,
+      "sha256": "ef35b7f30fd133eab8953e06f6ed8645420b17c5e6432004d0afbea9a61683cc"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::strateji-07",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__strateji-07.md",
-      "chars": 4160,
-      "sha256": "19a362b2c3f42ece9814e51a24fbceb9336ee9b0dd101da9373e290357a7675e"
+      "chars": 4153,
+      "sha256": "aadb7413231ae7ac18c159c91504e71c1b3d6466bec581450e3acea9c2186681"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::strateji-08",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__strateji-08.md",
-      "chars": 4160,
-      "sha256": "ebf5abc8d7ef9cb2d6a561ba5d1d8d80f36e77bfa1110ecedd444821ff1ab2b8"
+      "chars": 4153,
+      "sha256": "d6f98f32bc039a776202ba6b7240365a8e3c80795eba60145e8f91b81dc18aa8"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::strateji-09",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__strateji-09.md",
-      "chars": 4160,
-      "sha256": "d16650a25aeb71363d017cb49c03a901154088c71893dd436c70fc149824c99d"
+      "chars": 4153,
+      "sha256": "f56561a0431d5cb626156ed67d97d30034c9a11426f4ab06c7dfcd5d9ddee6bc"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::strateji-10",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__strateji-10.md",
-      "chars": 4162,
-      "sha256": "a921456ad5610663633e6847ce29942b5b11284e1fc8b1b34a58e516462a036e"
+      "chars": 4155,
+      "sha256": "0ba4bbed66a04e80885056afa93db5e03d54b6555731aa9ea383774b40f3f296"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::strateji-11",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__strateji-11.md",
-      "chars": 4162,
-      "sha256": "9f3de4c129a444c648a37deaff948b0d72fc4c30344c8566951d2ebd3f3bdad9"
+      "chars": 4155,
+      "sha256": "06b414f699d5b1786bcf6b83755a77eb6b202bd7df1e50b6bd498e91124a1284"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::strateji-12",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__strateji-12.md",
-      "chars": 4162,
-      "sha256": "ac5d39b6712ac6315aaa7253272b1255b5c09a8b6b4f9b891674d8b0e255fa63"
+      "chars": 4155,
+      "sha256": "51c15e12ec80dd2e001b6655c8935827bd35203296301e2b02cdcfbf6729c08f"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::strateji-13",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__strateji-13.md",
-      "chars": 4162,
-      "sha256": "9df5551e37a6762ad409b7d5cac3756807a1b7f5bbbe7d50e6e0a9aabede5028"
+      "chars": 4155,
+      "sha256": "3a64a0d9383d5fbfd647820fddbb112d70f9cdb1ea8006a2eade1edc55186396"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::strateji-14",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__strateji-14.md",
-      "chars": 4162,
-      "sha256": "3868e20ddddfe883323aab8f47a831d041bd8d69ef384aa90b7af8b3b5e63680"
+      "chars": 4155,
+      "sha256": "7babbbdcf86ac1c2ad9876baf9a7e69d96a51f4d260f48f3509a0216b79b3a95"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::strateji-15",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__strateji-15.md",
-      "chars": 4162,
-      "sha256": "f2ab06c4afe28613ef038ab806fe394608f236b3e47397f931dbb949159e3388"
+      "chars": 4155,
+      "sha256": "feffa879c4f7a6881924abfaa5a3c1798dc996415eacdb0183eff4549a7b603b"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::strateji-16",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__strateji-16.md",
-      "chars": 4162,
-      "sha256": "afcf0b0a9b0fc20032f51bd2750346cab143a96e03236c04158917adfcdb1754"
+      "chars": 4155,
+      "sha256": "827f58dd90cb6be96adb1b48ee48a32ca606cd140c3acd0d70ac6057ebcf8a1b"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::strateji-17",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__strateji-17.md",
-      "chars": 4162,
-      "sha256": "e5a3f91946dc832cb462fc7423d664dcf24e32e960a8ed13af96287de20c73ec"
+      "chars": 4155,
+      "sha256": "c456399f60761a0ef49de93cfa63cbf74b1a869d8ef9796e07f98e94ba33a399"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::arastirma-01",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__arastirma-01.md",
-      "chars": 4155,
-      "sha256": "d143cab726a9341d73aaf1e7150d4314c49a3bc2c6579525f87d2f46e2cb47b5"
+      "chars": 4148,
+      "sha256": "fab50357d3a6904a54dad81dedbc07cc81b86f46ff46d6b3c0277520a8cade0e"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::arastirma-02",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__arastirma-02.md",
-      "chars": 4155,
-      "sha256": "6de1035da909c7cc0a4e26be3d7a8664f83e0d62c9da3dd20ae4db150c8dfe23"
+      "chars": 4148,
+      "sha256": "148427b593ccd62758e5205d24cc83319e4a834649d17323b222e11a407aef46"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::arastirma-03",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__arastirma-03.md",
-      "chars": 4155,
-      "sha256": "928690c6353dee5df3011e02efd389833652041d4cb4783b69ca5f505526fb5f"
+      "chars": 4148,
+      "sha256": "371651752341db623fafaa0a3f6359ec589243af1793497378b9bac38f728068"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::arastirma-04",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__arastirma-04.md",
-      "chars": 4155,
-      "sha256": "8dc34a449eca71bb86a69ac33fcd0426c7165ffdb397943fd121418728442e26"
+      "chars": 4148,
+      "sha256": "42e1bab8679a2eccea86b02a3dd4ff8a2a5547d765417b22f5cb691a73c728fa"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::arastirma-05",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__arastirma-05.md",
-      "chars": 4155,
-      "sha256": "b1c7a0ee4d5253d515a8751d2bd8f620f91ff892956f86dfe9611da882abeed4"
+      "chars": 4148,
+      "sha256": "2d2689e128ca484b849f17108740f407a808dabc471cac83b909f2517ed70aad"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::arastirma-06",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__arastirma-06.md",
-      "chars": 4155,
-      "sha256": "7369649dab9f02fe40940a524bc39fd5e40b3160da195dbb1733ead3204482ba"
+      "chars": 4148,
+      "sha256": "5260333b9519659f3a466c9c8fea374c9f0448fc2117eb25afc4df0703628e96"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::arastirma-07",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__arastirma-07.md",
-      "chars": 4155,
-      "sha256": "18c2b97a705c2fece76da38a09c194e6f8810cff5494678caa266b2186966a44"
+      "chars": 4148,
+      "sha256": "5a372b57608d695430ca05f15237c933c07f944fffcb88ca786df70961dc2577"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::arastirma-08",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__arastirma-08.md",
-      "chars": 4155,
-      "sha256": "36d358ac960d3089df85f78c4d71da09b03f9c0b7655f4bfcfaa17682b570e8d"
+      "chars": 4148,
+      "sha256": "f9ed8e48f230fc18ccbdc823460f21016ffe065effcf3cb866fc0edde79a8f52"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::arastirma-09",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__arastirma-09.md",
-      "chars": 4155,
-      "sha256": "8a309174c9ac63c5f4a5f51a525b5751a531d8c9e73d822987b52946ba30acc8"
+      "chars": 4148,
+      "sha256": "c960ccbc441db86e358ef551a4bf5c9e97a85c73b77b0464a28cf783980f5db3"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::arastirma-10",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__arastirma-10.md",
-      "chars": 4157,
-      "sha256": "d57b8d6d0bf43feab05a645e11372a362be78680f41120e709b46d7b85b67ac2"
+      "chars": 4150,
+      "sha256": "ea4d01735ec7fb5492c7fd85abc43ff0006b1597b7c111dc7676048b662d3c4c"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::arastirma-11",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__arastirma-11.md",
-      "chars": 4157,
-      "sha256": "195fbac38762437d860dc1b6061b4bda30c88e9a8317838b4c5ca86d4b577264"
+      "chars": 4150,
+      "sha256": "0bd2e99df7854134a632fbd41144b68978329a74cc2a33c6928ee230db5611d5"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::arastirma-12",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__arastirma-12.md",
-      "chars": 4157,
-      "sha256": "47dd460afe239946d92fa82b05d00d040789bf4f8a72684eec8378c59967377f"
+      "chars": 4150,
+      "sha256": "0bc069c0298ff1d47ebe254584c27ef1f79b79f27d3c9628b76bcee8d787f55d"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::arastirma-13",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__arastirma-13.md",
-      "chars": 4157,
-      "sha256": "74995b592291946d57f854bdc7bbcd1bd7219d6418e23f5616b81d9eb96c5710"
+      "chars": 4150,
+      "sha256": "94b3a2050a5e3ce65733458a8c552d9c853f5c4362a97607cc48dc5a05618b96"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::arastirma-14",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__arastirma-14.md",
-      "chars": 4157,
-      "sha256": "ff1f2a15567599a556181227057f6f0e441fafb077a1a36028f03aed45585a0a"
+      "chars": 4150,
+      "sha256": "010443af0520cfe105346801b441b10ec7ee2b53574bf607b7b604660fb01d8e"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::arastirma-15",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__arastirma-15.md",
-      "chars": 4157,
-      "sha256": "494f126265b1154c58f38d8fb41a21570c3bda7ed19ebbc921ee0841c6c92c27"
+      "chars": 4150,
+      "sha256": "50d998834973f0f2df8390b693861d2fc78d84ed0f47d7d4dc6bfd92fcc193c6"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::arastirma-16",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__arastirma-16.md",
-      "chars": 4157,
-      "sha256": "cd9683cef0432ff587f0feac1b1c1d9e12dc9150b4850944d18cb55e44151aab"
+      "chars": 4150,
+      "sha256": "dc706a62fd2def30915c73c948f621497012ff71e27c052215ddc76de1f3312a"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::arastirma-17",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__arastirma-17.md",
-      "chars": 4157,
-      "sha256": "1da9c01d3d74e0967686bcfe9d56e46cb0d37cf4ac92679711cdf945445e9e75"
+      "chars": 4150,
+      "sha256": "01d73835be9f6b617b7801e8c461f2bfa263e95acd5c54c5c59b0de1d78f4be2"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::uretim-01",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__uretim-01.md",
-      "chars": 4133,
-      "sha256": "c46f6394224f1ac171fd4d7d1952f7126f00d33c1d622e47553628da48e0a4d5"
+      "chars": 4126,
+      "sha256": "b725f8f1292cefcb03c20a9eaa4604942ccbf492f0d780e50682c90384392fc0"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::uretim-02",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__uretim-02.md",
-      "chars": 4133,
-      "sha256": "6f181f578625c3de0c4b5ab9fd158c1f65b0ef40f974d23004e184598dd60800"
+      "chars": 4126,
+      "sha256": "16be18ece655a9db89313e65fbed020be775d3297911df7b89ff1c58b46ea267"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::uretim-03",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__uretim-03.md",
-      "chars": 4133,
-      "sha256": "e7cb294fd387ba0e2a18f31f2cf407e68a692a4708652c784b2b4ba81de8bc3f"
+      "chars": 4126,
+      "sha256": "1de61d7c1a4e4c4e5eb11eb49cf7ed8f0682dedd56cd5b41245896ecd579fd27"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::uretim-04",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__uretim-04.md",
-      "chars": 4133,
-      "sha256": "d61efe33e7cf7b7c71cdad536cb76c8240efd31debb2a407cb08ef46b2e4f9fe"
+      "chars": 4126,
+      "sha256": "b37cd6db0becfe7c9dc69a7a1bec006b310a9fd07a658add02e5e567725e97c4"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::uretim-05",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__uretim-05.md",
-      "chars": 4133,
-      "sha256": "a79c06a9294747417f8469def02fad8989cbcbd2cc12b70b0331311604c8f2fd"
+      "chars": 4126,
+      "sha256": "dc39bf9eac645c06b513310f9f47bba34f0a0fe766bb4543072d8d129c603c12"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::uretim-06",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__uretim-06.md",
-      "chars": 4133,
-      "sha256": "0003b8ee1e4feb4459de408f51a97fdf91afe55bab94b6817514209f71773f6f"
+      "chars": 4126,
+      "sha256": "4991a8c2883a0720c180c94fe0f5fe21884216f784f0e3c471982e78a50f9f88"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::uretim-07",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__uretim-07.md",
-      "chars": 4133,
-      "sha256": "1b4f664f955fd8ac1b159bd13a1a63a1e3374004385342e6ecbbabe166f6aed4"
+      "chars": 4126,
+      "sha256": "4da7e0acebe6d2b392c695f8013829296f8851c94bf2ed9d94d746bca9a6280a"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::uretim-08",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__uretim-08.md",
-      "chars": 4133,
-      "sha256": "21cef0f67e671f00af0c746fb877b97f689c81b6fc304fa5e52b48aca6edc132"
+      "chars": 4126,
+      "sha256": "fa917b4288b00301556e0ffb77baae84a927232f071ea7bd770d9ee05c6bd281"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::uretim-09",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__uretim-09.md",
-      "chars": 4133,
-      "sha256": "2a4a92e891e14b4ecffb415112790a6d3728953fea96d67680b2abee01142b62"
+      "chars": 4126,
+      "sha256": "47201a3ee9283eb0cbc5ccfb16d4d6e68b468e41e79f073b45bd4d076ac5b052"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::uretim-10",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__uretim-10.md",
-      "chars": 4135,
-      "sha256": "93b61659246029eb786f32b4c045cd3d172129c9afb440193d802d3a3d66fd75"
+      "chars": 4128,
+      "sha256": "d7f3785b79e7e52cae66c8b92de6b8f80f8c8e200f403495112398f825dd4ef6"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::uretim-11",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__uretim-11.md",
-      "chars": 4135,
-      "sha256": "7aaf401aec2636b2abbbde783667a7b24854605ec3b0b5b9ae5e3fb7ad2f9900"
+      "chars": 4128,
+      "sha256": "6537cee11bcbd1ffdce5f043da4cf0ca51d536a4d232fe3916e449e09bf3a9bc"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::uretim-12",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__uretim-12.md",
-      "chars": 4135,
-      "sha256": "ab94d2986776ce7578baba81977deab4a8ccabf9e5ea7895e46606f348d1094a"
+      "chars": 4128,
+      "sha256": "7c9ca9c575815d4c19ecc750a915d5025daeba0fca5a8d9a821696400fc568a3"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::uretim-13",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__uretim-13.md",
-      "chars": 4135,
-      "sha256": "c284b6fd811938a41280ee016556ac80fe1b7cee7cefd1bbb10bc8202cedcca6"
+      "chars": 4128,
+      "sha256": "583f116486353004a8299b40cf7dd90d3b46683708a538d2c0e80c3021aaee80"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::uretim-14",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__uretim-14.md",
-      "chars": 4135,
-      "sha256": "f5aff4ed1217f8b0bd81e19b1685ba260220a51aaa3aa0aa6824e34a337615c8"
+      "chars": 4128,
+      "sha256": "7aa1c5c3a94034a938d26cc661714ef92062e0602c294abb50410c812387823d"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::uretim-15",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__uretim-15.md",
-      "chars": 4135,
-      "sha256": "4d50272ff98641e01deb4eb4ca36245e99d556069a679f589f987e80723fbd40"
+      "chars": 4128,
+      "sha256": "a3f157d2b8d6c41d4dae392111a594af53a36a3d5d25709f2e68878cdcb90a0b"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::uretim-16",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__uretim-16.md",
-      "chars": 4135,
-      "sha256": "2b0b95f0eac83a287ad592d01bc01581a9a6769dd3a9d381a6ca2242726e95c9"
+      "chars": 4128,
+      "sha256": "37283577a4ff62a0e9a514a84d8ff926ad476e6ce262d584521b98012c503bcf"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::uretim-17",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__uretim-17.md",
-      "chars": 4135,
-      "sha256": "2f43e6ee6fecebbfa9d73f7eeaa1ce669ccfdceee9c578a970edf8a2037f535a"
+      "chars": 4128,
+      "sha256": "9f8919d377ee40af5091f6f38b211627761dba020f47ccfe31c2f052291873fa"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::denetim-01",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__denetim-01.md",
-      "chars": 4138,
-      "sha256": "167279a26dad18e4b15052eb37fc76775c04a1bfc93094329d57c17499df70a4"
+      "chars": 4131,
+      "sha256": "b367bcef41e4c35454f85ffe89e90a39845b845f28adcc82064a973a88fd0df2"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::denetim-02",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__denetim-02.md",
-      "chars": 4138,
-      "sha256": "2697fc7461bdc7b5271b11d2cc00f7d029bdf9518881182cd72f1ea732b5b547"
+      "chars": 4131,
+      "sha256": "4c2bcd752606207b1906164db658da887490271c8d09c306d8899e1bf976ed90"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::denetim-03",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__denetim-03.md",
-      "chars": 4138,
-      "sha256": "4c3791e54de7ef763c1999a02070dbaa29e026da664de71999ad7f254fae32df"
+      "chars": 4131,
+      "sha256": "495a9fc092a325396faee96e7f4a9fbf21a2d973f143c1c41adb50cf9d1ef95a"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::denetim-04",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__denetim-04.md",
-      "chars": 4138,
-      "sha256": "fdf853fdf4b3e03c9c185050d8b2dd7cf6084691488d81818ab0270a7281c873"
+      "chars": 4131,
+      "sha256": "cb8370218f59b3ac9b5f5e3650edefdfb8bfbc3612458644a252bb8e2497bea6"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::denetim-05",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__denetim-05.md",
-      "chars": 4138,
-      "sha256": "40243f1ef8158cbbc9fcc6f69f64ae9183b882d89955cb754ad5a1f7d0764e8a"
+      "chars": 4131,
+      "sha256": "5cd29c39253a5c381fbf698bfca9fc3d3df95e41730afc93093814ff5d84f9b5"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::denetim-06",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__denetim-06.md",
-      "chars": 4138,
-      "sha256": "897120d4ef8cbe83afb18ab527413b6e423f6fd6c3e4e4d07ea0757904785200"
+      "chars": 4131,
+      "sha256": "53931b9ac976ebd8044960bbcf0d42418c066188f6aefa8bf7c8c3a8c1106b15"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::denetim-07",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__denetim-07.md",
-      "chars": 4138,
-      "sha256": "6dd03890d11edb0823424725d3265376b91578a935c4032e27d468e3c3efcd9d"
+      "chars": 4131,
+      "sha256": "29b108e87bc1f47ac8801f877482b07ee12b1a5c90e99fc0dd3a4f6b46959888"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::denetim-08",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__denetim-08.md",
-      "chars": 4138,
-      "sha256": "063167f9fd139c92eada864a683f4e712778b1639633f12e5f6dc33b51050fbe"
+      "chars": 4131,
+      "sha256": "012271b89e4b74aa105cae414f276857e661d7b26e0f6ac1486283ff32182a3c"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::denetim-09",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__denetim-09.md",
-      "chars": 4138,
-      "sha256": "eefa005c47424ab7de7970221b0e4c5cc60642cf2209666c255caf3524e25cc7"
+      "chars": 4131,
+      "sha256": "f5d83af286e64f6115e1924fc85b6d8566ad6758efc229e88af492684042ff36"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::denetim-10",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__denetim-10.md",
-      "chars": 4140,
-      "sha256": "0e8f870b1197c4fc4e1e4ca6cf04d85dd1b0393b290624b91fc51563f91ea061"
+      "chars": 4133,
+      "sha256": "32e696fdc93552ab99f81628e9017ef454ba2e6aca2a521e6429d96331013223"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::denetim-11",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__denetim-11.md",
-      "chars": 4140,
-      "sha256": "92d68c7f9a1a863be0b73601eca20e67e120f808ea823cd04ab22bd50f34f90f"
+      "chars": 4133,
+      "sha256": "4c79e272e27acf73bd6ea3b448e0ef24d972800580597ce5f6c2a9905812613e"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::denetim-12",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__denetim-12.md",
-      "chars": 4140,
-      "sha256": "77ba70f2ec86afbe823a7515032173ef3a7d77eec667d2f60c6f934235933b17"
+      "chars": 4133,
+      "sha256": "66947f6098417abd25a48656e9af0ead0d07e2c37b267bf1562750283b809674"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::denetim-13",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__denetim-13.md",
-      "chars": 4140,
-      "sha256": "02837fdf052774571e81f5153135b1e7e9624c6098b6539352b168a689ad0669"
+      "chars": 4133,
+      "sha256": "9b1c05a0ab10e8bd12378277b22d46e2b34aae9a41cd9cce6b659ee44e5f7637"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::denetim-14",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__denetim-14.md",
-      "chars": 4140,
-      "sha256": "b350ae4d35400ce1de1953a6286c38120fe0ea9d25fcc87323861a05016997a1"
+      "chars": 4133,
+      "sha256": "939c4a3f15dbc8e2503233f6244bcc730d5bb813162881ef2f7a49e4084796dd"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::denetim-15",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__denetim-15.md",
-      "chars": 4140,
-      "sha256": "8b08a7a8a9dd61f600d47d2fee5727717194f0d4d4c564c5d060d793c82d5dcc"
+      "chars": 4133,
+      "sha256": "15c59d4dace7b0dde54921ced2603eeedca5882bd922bd1f2d2f9e94a1859b10"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::denetim-16",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__denetim-16.md",
-      "chars": 4140,
-      "sha256": "8297a85423634df2ccdd4bc16f44908637ce929f4968d7981ec1db283e297976"
+      "chars": 4133,
+      "sha256": "3aee8809d92dc873ee3aa6740d276b2f633c3986301ccb560778bf76ae311e8a"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::denetim-17",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__denetim-17.md",
-      "chars": 4140,
-      "sha256": "454dc9135d88672cdbf30598fc32cfaf3bb524437a30eab651582dc888cf3584"
+      "chars": 4133,
+      "sha256": "9ee8a09dd8750df0486a8e39aa1c80c6d4cb00abe07b5ec257574b7e677f2007"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::operasyon-01",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__operasyon-01.md",
-      "chars": 4156,
-      "sha256": "e84feecd060c98bbac531a1ce5a8d70e17e61e0e3459b695c740db53d0320cf5"
+      "chars": 4149,
+      "sha256": "20bb74305b6970a434e5432c380d7a1df7217fb74d5fa06775ff0ca03b2b6e75"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::operasyon-02",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__operasyon-02.md",
-      "chars": 4156,
-      "sha256": "c077441f01ec6eea8c0714dd03b688347c42c28bb3d0bf5cbbfbf729413470b8"
+      "chars": 4149,
+      "sha256": "2c20734ace314f9c9362ee961eb76bd8261a5f068642288060a5df6dd1bbdb34"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::operasyon-03",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__operasyon-03.md",
-      "chars": 4156,
-      "sha256": "1ee7672ba49636a608d202ca985251a6e0ffb38ae4bc5f0680ca91b3cde2a606"
+      "chars": 4149,
+      "sha256": "2980d2ee27efdc00d0b0873286395d2a0f312c549d557e30775a2a500dc19352"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::operasyon-04",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__operasyon-04.md",
-      "chars": 4156,
-      "sha256": "f378503d4336a4103cb2f8c0d4537bc8b6c6646a621c9ba6c6e0a43060aab221"
+      "chars": 4149,
+      "sha256": "184f192b1c9e1512431052780bca4b5ffaeee79cb78ef4e88263a47e98b9a3b7"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::operasyon-05",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__operasyon-05.md",
-      "chars": 4156,
-      "sha256": "c820dae579e6aae69bc8625ca5d5b27ad2ffbc398ac623b15f6daa6155fcd114"
+      "chars": 4149,
+      "sha256": "3702d8887bfdebce5cea4cd12f9a8df0bac1d6666da4589da61c1d11efd45935"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::operasyon-06",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__operasyon-06.md",
-      "chars": 4156,
-      "sha256": "45f54576749ad8ddcd64784c8d017ff063d7e4a80f54f86227d5683d6b3359c4"
+      "chars": 4149,
+      "sha256": "4f565e1e7ae30f7a3017dfee3af81124fec97bfca1869823cc4841c68d186dc3"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::operasyon-07",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__operasyon-07.md",
-      "chars": 4156,
-      "sha256": "6d805973d8a026e2d875a9470e32da491ed178bd248259efdd0dd85c3ecb829c"
+      "chars": 4149,
+      "sha256": "fb01d0f4a5b1c178603a5e93d6f6dbf994bcff2d3c57d8ed520ccf996a3788ac"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::operasyon-08",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__operasyon-08.md",
-      "chars": 4156,
-      "sha256": "b0ad1a390945c27e85605f4cc830ed8d83207097862f4daff773b7668662f6ea"
+      "chars": 4149,
+      "sha256": "e7b3126b2e2f95d68145ad0dad9df39ea00e265a4c68872ebf972de648e6cb8c"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::operasyon-09",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__operasyon-09.md",
-      "chars": 4156,
-      "sha256": "0e15e954d3bc144632594c50727ae349d80652b43b65580b45c0870744f7d618"
+      "chars": 4149,
+      "sha256": "378159a05076bcb5c8fd07b82b0a529ed07c5f3dfbb2473687a2c42abf099a90"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::operasyon-10",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__operasyon-10.md",
-      "chars": 4158,
-      "sha256": "426b94beffca4734c4c0c920f59ee123ea57d7297289418a8eda236d6085d875"
+      "chars": 4151,
+      "sha256": "13070cbae97c0bf1bc18a2b33801bb093eb1f36661ed9d50bd1e2950eb3db96b"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::operasyon-11",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__operasyon-11.md",
-      "chars": 4158,
-      "sha256": "7fe40f905c4a9540d4b8dfc3ab136304e48716070aa14ba030ed0a720c15e5e1"
+      "chars": 4151,
+      "sha256": "4af696e3754e71787953e50b2eda52151392f966d91c435084088023bc566828"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::operasyon-12",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__operasyon-12.md",
-      "chars": 4158,
-      "sha256": "b517da6ee0d155ae8eed98a8b6cdbee90f2bff2a039ffcff5e57fed1085957b6"
+      "chars": 4151,
+      "sha256": "687167641c67b02698e1c668240e405db338ce35ce0f2ca7f0f6419477f2ef7c"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::operasyon-13",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__operasyon-13.md",
-      "chars": 4158,
-      "sha256": "be426e58e82a500cfa1c9698ae1f24e183744ae2a4170770ce55a43775f41e5a"
+      "chars": 4151,
+      "sha256": "590527674f09b9242cf81c88889476b4223cbd5dadd38f4115fe60da938a2697"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::operasyon-14",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__operasyon-14.md",
-      "chars": 4158,
-      "sha256": "8c17e2c5799704aadca973378681decffd5ee7fdd1a33c0fd64f227367859352"
+      "chars": 4151,
+      "sha256": "f8d49e8e55ee7702c234d4672cf1d89a054f1bb66b0f6605cdb8173ba4b09643"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::operasyon-15",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__operasyon-15.md",
-      "chars": 4158,
-      "sha256": "9f363f263638f1b2b2d9ecc0c49f17b76f2a4f764f67dc94eab26ba005dc08e8"
+      "chars": 4151,
+      "sha256": "fc1ebb8ff624e1e51737cd03d9d95a767cb1c3e28e15e38a338f3c3ab9fafb0d"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::operasyon-16",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__operasyon-16.md",
-      "chars": 4158,
-      "sha256": "2b8eacee315db4535adc5630f7ccc158913b0d14fb688dad866e2117025eced2"
+      "chars": 4151,
+      "sha256": "16cd00697609eb7082b002bf4be14e9afe29a808c8447e74a6a08d578929585f"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::operasyon-17",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__operasyon-17.md",
-      "chars": 4158,
-      "sha256": "8359c1fb6fafbc97658bb1bc5dee36c79ad64c41a266a0991927eec6e92adbc8"
+      "chars": 4151,
+      "sha256": "bbfdeca9dea877f625fe5e495cd88447b8bf5d96b2a4d8b5a8d233206262aade"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::gelir-01",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__gelir-01.md",
-      "chars": 4117,
-      "sha256": "a7bf535793b5759dea5817870f22dca2121fbb7c59e1eca8ac3641655ee079a2"
+      "chars": 4110,
+      "sha256": "50c09d5fbd0231215b7cf2227f275b69380db63c82bccc927cdb6401039ef93e"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::gelir-02",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__gelir-02.md",
-      "chars": 4117,
-      "sha256": "5d0a72f1a8f512b2d644625bf51d4d31698d8181b8d94417f3387c4be7678ce2"
+      "chars": 4110,
+      "sha256": "bd76030c2b59a1521fee997ae6a94d7c429850cb512d997eed92a62b77f27c0e"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::gelir-03",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__gelir-03.md",
-      "chars": 4117,
-      "sha256": "c36bafb15592d5165e83a241492bc98817be6ff3aa9b1e59356b2ee4c6a3bcff"
+      "chars": 4110,
+      "sha256": "ca28282ae34ca1969a7dd3298ab8a5862ff1c38eb241e2f8deed404dd78d6d1a"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::gelir-04",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__gelir-04.md",
-      "chars": 4117,
-      "sha256": "40ab276fd0856f01e57b5b4ad04ccdda92e7ac316d77176a53ffd932c8fffa18"
+      "chars": 4110,
+      "sha256": "9122ab20560bb8972e063508a30adcfe3deba910966a449dfd780f5e386afdc8"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::gelir-05",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__gelir-05.md",
-      "chars": 4117,
-      "sha256": "fc8b5359bc893f0e40c7987fb549267b0cc1cc83b9c1eeeeb934d83fd4e39cda"
+      "chars": 4110,
+      "sha256": "7d29e76c64e8a03514b874adb0714657a3b69959d7205d6acdcdc9db04dc030a"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::gelir-06",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__gelir-06.md",
-      "chars": 4117,
-      "sha256": "ab09d7344f4b6d76c766e59c134b3666d92f3113efe3cc3cf4a7064a09495e6b"
+      "chars": 4110,
+      "sha256": "854f53ef26fd2cc98a6094f9b70afe2fe8223802756480c4747aa812e44b2c3e"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::gelir-07",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__gelir-07.md",
-      "chars": 4117,
-      "sha256": "874acb8bba0807eaf016305f21837e07bd344dc0161b1e659b3d18983f148c08"
+      "chars": 4110,
+      "sha256": "ff1b31e2dbb77889014367748aca9d30fb59af31a738cd9acee76697d2c19a31"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::gelir-08",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__gelir-08.md",
-      "chars": 4117,
-      "sha256": "46861c2f02b48183f0d182234dd6842969b84b70932af8889f4c8d91e885fa1f"
+      "chars": 4110,
+      "sha256": "722657238158187a7aceee66381a16f708447328b05c219323aef0fdce15e2f1"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::gelir-09",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__gelir-09.md",
-      "chars": 4117,
-      "sha256": "b53d17194f174ccd33bc5eaab360fb20718d7ee3c9ec1b2b79b15e6a38ef9fe1"
+      "chars": 4110,
+      "sha256": "0452a8ddddc001c79f30a73f8cea4c73362a852413bf0bdea003777895c509ca"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::gelir-10",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__gelir-10.md",
-      "chars": 4119,
-      "sha256": "6dc92d2acdf739d82e878e11279d12d90f73386320fc8a85a30efcfa125ddf8e"
+      "chars": 4112,
+      "sha256": "a7a698686e915d974188d74b6bb512627e3c6cc34a7ccdb21d42ff38728f7cde"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::gelir-11",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__gelir-11.md",
-      "chars": 4119,
-      "sha256": "d4d5870add2449bf735e3b6ec99237e8401f3265c2a9094cb93058aee8572552"
+      "chars": 4112,
+      "sha256": "2d5cded83285f4ede42da6c2d1bb2c62c773c7758022d8c923432cec8f7034fa"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::gelir-12",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__gelir-12.md",
-      "chars": 4119,
-      "sha256": "b48f68e893b80421178881701c9bd029ac171ca921d65be399680aee212a0431"
+      "chars": 4112,
+      "sha256": "6dabc411ca5a46883d844867f9bfcc2980a6c101739205d362eca036ab08e507"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::gelir-13",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__gelir-13.md",
-      "chars": 4119,
-      "sha256": "be3317b62ce040489bbe487ddd74615a81f91a2c0e2baa308d06ae2e350c8a1a"
+      "chars": 4112,
+      "sha256": "618d8a85a863d358ec4be36aad0b5a53cf65ea509aef132e64b1ec917f93a6dd"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::gelir-14",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__gelir-14.md",
-      "chars": 4119,
-      "sha256": "176f1245e53a23b8cf9d2af1bd9a10fcc05a2d8bbd707469247edc9a9b36a8a5"
+      "chars": 4112,
+      "sha256": "458bfdb45c86bf22894082b4cc99c1a9364ab40a57665ba6621f94efe38f6918"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::gelir-15",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__gelir-15.md",
-      "chars": 4119,
-      "sha256": "c442fe541b7dcff86e1b4da787e44b44f5d58f31e9c80748065fab978992af99"
+      "chars": 4112,
+      "sha256": "2b4f8a4da370a33839257687f0fc62cd28d6aa8663adb3119673ce975aef4507"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::gelir-16",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__gelir-16.md",
-      "chars": 4119,
-      "sha256": "ea4140b996f255b2dd8a4d966d2f0107ecf22d1a9569460c5ffb7401f356ef86"
+      "chars": 4112,
+      "sha256": "f91664adb401c784352b846a033ddaa48003dd095e3d19837ce2a14079790db4"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::gelir-17",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__gelir-17.md",
-      "chars": 4119,
-      "sha256": "a6b9441667a6cdc4f0504fe5dc66512671f62ad2743cf35c9de43eb2eba0ea44"
+      "chars": 4112,
+      "sha256": "f4672b1e985f20dcf97d0ee81d52d12304e67ffb01e895aec9a4034bfdcead2d"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::iletisim-01",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__iletisim-01.md",
-      "chars": 4150,
-      "sha256": "be18ec5082051f56f7fc0eb79223e532b69379b66635dee4bf1d6cbea22dc516"
+      "chars": 4143,
+      "sha256": "489e0176983ca6572cf3b48cb851633c01aa287a30d647d5a256a235638b7eb3"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::iletisim-02",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__iletisim-02.md",
-      "chars": 4150,
-      "sha256": "543af08d505684ed7231e8c64be64fb6420b3309d1a7a1f0278dd4023b6b692f"
+      "chars": 4143,
+      "sha256": "d74d76d3e606402ccbcea43ef19648d6e8f313e4fa4c85a3fc98099ceb8a1d25"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::iletisim-03",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__iletisim-03.md",
-      "chars": 4150,
-      "sha256": "8931529639fc5561705118bbcd0b1492d00b8cabc3a4ebc3096aa65122ce5d65"
+      "chars": 4143,
+      "sha256": "635e7aed1accd2616746f4a0ad26afe9f1917024ddc2882bee5c8ea36f9518ef"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::iletisim-04",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__iletisim-04.md",
-      "chars": 4150,
-      "sha256": "1d95a445b27ab224d52a9ffb8fc7f9201214af3a0c9942daf487d7fd9dc13ce3"
+      "chars": 4143,
+      "sha256": "0e8c15c8c91783a168161b77687ba58a1e3901f4cf7808a1a5e442e45452dfbf"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::iletisim-05",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__iletisim-05.md",
-      "chars": 4150,
-      "sha256": "afbf5ba1c92573f9a4d6ed5939c88bb924929b8ca742de6b6d94907a380780dd"
+      "chars": 4143,
+      "sha256": "9074b4bb7117d723fbe56a5ee6428b47ad7ae87b604ce9ab92c4587960001251"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::iletisim-06",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__iletisim-06.md",
-      "chars": 4150,
-      "sha256": "bf768be40c8ca912b9a035945d40bd9d3802e7dff2e2e91caf81fdbe9ed96d4e"
+      "chars": 4143,
+      "sha256": "b8c4568de9ae7149878778ff004982451176659172fb87f7c94244ba83434d4c"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::iletisim-07",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__iletisim-07.md",
-      "chars": 4150,
-      "sha256": "12fd54fed0e1e601bc99c79bb851bf63dcf1ec8ccbe648a8a3b915b1479b5c8e"
+      "chars": 4143,
+      "sha256": "912ef3a265225044e4f9c1d3c1749e61480eb25af8a35275a2478e3d875fa022"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::iletisim-08",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__iletisim-08.md",
-      "chars": 4150,
-      "sha256": "4f4474d7507815324853b9fd2f2dfe398859ac726f692a5cef99d9ca79f2817e"
+      "chars": 4143,
+      "sha256": "b16f4813a85e93b3a6376762633dd81d674f8f6035bc89f80af06cc78c82a518"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::iletisim-09",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__iletisim-09.md",
-      "chars": 4150,
-      "sha256": "237169f3ec52ef7d37520f9957dff317032a03db65706125574e7513b455b041"
+      "chars": 4143,
+      "sha256": "5f4199b3c30c9485f48b8617526e639395f2642455cf347f342494aff5fbe5db"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::iletisim-10",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__iletisim-10.md",
-      "chars": 4152,
-      "sha256": "0547b7404fee1948fd292e05dac49bd24eb1adf22e9a5e9c504ab5125182cbc2"
+      "chars": 4145,
+      "sha256": "cf135db61775cb30c4582b3a93d4773b4123043a85946a09b1d64c7805579f89"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::iletisim-11",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__iletisim-11.md",
-      "chars": 4152,
-      "sha256": "ddf79c26dd36c2e9f7d402874b39d89a75206d1663209acb6e75349baaab5ba4"
+      "chars": 4145,
+      "sha256": "e104a4c0f4e8cad0d685399d379e12f10f64881d998dc7d9ae7c809e83e6e81d"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::iletisim-12",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__iletisim-12.md",
-      "chars": 4152,
-      "sha256": "b43e762ce658e898e0ef9cd0f5fc638845be516192ae1f8a7c68587bd03dfadc"
+      "chars": 4145,
+      "sha256": "45ee3e9fc14097a3353bfc37bcdb20b77f0e4c1e6f1d9515ca9e321cdcbfb89f"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::iletisim-13",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__iletisim-13.md",
-      "chars": 4152,
-      "sha256": "ff2f9c2afbf6dd872caa3bb1659e4839fc45f48a1be6d78b404dfb1c99fde506"
+      "chars": 4145,
+      "sha256": "dbb31455a07f126a9798822f7eb70f50a6118f85e50b99f48046053ed94ab379"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::iletisim-14",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__iletisim-14.md",
-      "chars": 4152,
-      "sha256": "06815d6414d843c9326dd010a17972138b665778878ce1ec026d54b2ed2a6490"
+      "chars": 4145,
+      "sha256": "bfc76758022e69557784ae0cf6ffacc59c97f982e06055c41140f192b43ba47c"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::iletisim-15",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__iletisim-15.md",
-      "chars": 4152,
-      "sha256": "533197356ed7385285c8392a4e1bf4fb000a6d92005aeec0703d0a10ec4af4e5"
+      "chars": 4145,
+      "sha256": "da8ea68f3d263129fe716342e985ed2f9f3655660d3eebbe454770e4980995c8"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::iletisim-16",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__iletisim-16.md",
-      "chars": 4152,
-      "sha256": "c362afcbf66e9d61b728563dd79a10eb08609a678fda7aa65b8f0fa1f1c51d32"
+      "chars": 4145,
+      "sha256": "cdd032c672c95a464df28c5102a1fb86ab0c3d2188e84cef0b84376c30076342"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::iletisim-17",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__iletisim-17.md",
-      "chars": 4152,
-      "sha256": "25e938e409b588a350904dc7a155930071264e452c7f6ac779bfcb0b4161829e"
+      "chars": 4145,
+      "sha256": "3062a8b560b5ec49234606d87ab200406f971c31e4f4cb288a3e20c5ea8267c3"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::ozel-01",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__ozel-01.md",
-      "chars": 4110,
-      "sha256": "620eec1c770370ceb2d95e0ffd06f101b798f8abe8ff13a782808580c639ff36"
+      "chars": 4103,
+      "sha256": "2a6661021557799bad1d85c09acdabf0aac6558267e3c5871ddabc8e1213127f"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::ozel-02",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__ozel-02.md",
-      "chars": 4122,
-      "sha256": "e238dcf2fe37f9623a0188886530f70f2dca07146fec72e94be44e9cc51296a8"
+      "chars": 4115,
+      "sha256": "a0b565bee3e8eec8df63e0001ee0b90478a9b9b705366cd772e29fe16980b5e4"
     },
     {
       "id": "INF-MCP::bağlayıcı-connector-uzmanı::ozel-03",
       "path": "uretim/promptlar/INF-MCP/bağlayıcı-connector-uzmanı/INF-MCP__bağlayıcı-connector-uzmanı__ozel-03.md",
-      "chars": 4094,
-      "sha256": "c247482f784b0654d9a5b1a83e2c4da6537a4d34ad4b09af5460c6c0a8d6896d"
+      "chars": 4087,
+      "sha256": "111fd09fc011c247950c0b29d5e77118365734d429a67763bf5df211c2a15231"
     }
   ]
 }

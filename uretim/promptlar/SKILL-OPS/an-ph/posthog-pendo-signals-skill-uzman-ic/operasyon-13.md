@@ -4,7 +4,7 @@
 - title: **PostHog / Pendo signals Skill Uzmanı (IC)**
 - domain: `AN-PH`
 - skills: `/account-health`, `/add-analytics-instrumentation`, `/analyze-account-health`, `/analyze-ai-topics`, `/analyze-chart`, `/analyze-dashboard`
-- ts: 2026-10-01T11:45:55Z
+- ts: 2026-11-01T05:35:53Z
 - hedef: 4000-12000 karakter · 🚩 900B/900M YASAK
 
 ## 1. Kimlik

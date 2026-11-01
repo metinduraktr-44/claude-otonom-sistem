@@ -4,7 +4,7 @@
 - title: **Twilio / SendGrid / Voice Skill Uzmanı (IC)**
 - domain: `COMMS-TW`
 - skills: `/twilio-account-setup`, `/twilio-agent-augmentation-architect`, `/twilio-agent-connect`, `/twilio-ai-agent-architect`, `/twilio-call-recordings`, `/twilio-cli-reference`
-- ts: 2026-10-01T11:45:55Z
+- ts: 2026-11-01T05:35:53Z
 - hedef: 4000-12000 karakter · 🚩 900B/900M YASAK
 
 ## 1. Kimlik

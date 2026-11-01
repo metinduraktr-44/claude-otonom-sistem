@@ -1,5 +1,5 @@
 # LLM AI AJANS — MCP × Etki Arşivi × Prompt Motoru
-> 2026-10-01T12:14:48Z
+> 2026-11-01T05:35:53Z
 
 ## Kurul özeti
 - Baş Mimar: MCP L0–L5 hiyerarşi + 46 dept org.

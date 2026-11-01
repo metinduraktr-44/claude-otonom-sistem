@@ -1,5 +1,5 @@
 # Workflow — Encore (`BE-ENCORE`)
-> 2026-10-01T11:45:55Z · skills=21
+> 2026-11-01T05:35:53Z · skills=21
 
 ## Amaç
 Encore skill kümesini LLM ajans olarak 7×24 işlet.

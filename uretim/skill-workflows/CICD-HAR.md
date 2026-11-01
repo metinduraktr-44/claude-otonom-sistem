@@ -1,5 +1,5 @@
 # Workflow — Harness CI/CD (`CICD-HAR`)
-> 2026-10-01T11:45:55Z · skills=28
+> 2026-11-01T05:35:53Z · skills=28
 
 ## Amaç
 Harness CI/CD skill kümesini LLM ajans olarak 7×24 işlet.

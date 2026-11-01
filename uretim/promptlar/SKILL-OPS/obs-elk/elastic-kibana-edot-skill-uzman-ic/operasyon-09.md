@@ -4,7 +4,7 @@
 - title: **Elastic / Kibana / EDOT Skill Uzmanı (IC)**
 - domain: `OBS-ELK`
 - skills: `/cloud-access-management`, `/cloud-create-project`, `/cloud-manage-project`, `/cloud-network-security`, `/cloud-setup`, `/elasticsearch-audit`
-- ts: 2026-10-01T11:45:55Z
+- ts: 2026-11-01T05:35:53Z
 - hedef: 4000-12000 karakter · 🚩 900B/900M YASAK
 
 ## 1. Kimlik

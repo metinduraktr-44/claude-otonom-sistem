@@ -2,739 +2,739 @@
   "rol": "Chairman / Sahip",
   "dept": "BOARD",
   "adet": 122,
-  "ts": "2026-10-01T12:14:48Z",
+  "ts": "2026-11-01T05:35:53Z",
   "items": [
     {
       "id": "BOARD::chairman-sahip::strateji-01",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__strateji-01.md",
-      "chars": 4022,
-      "sha256": "1d780b73f182c3f5c252d5cf7e384682bfb10599b7fcf87ede701fac9e85bc31"
+      "chars": 4033,
+      "sha256": "325efe4f791329ac068964b722393dd562d1be14036c3bb66b664caced70ca6e"
     },
     {
       "id": "BOARD::chairman-sahip::strateji-02",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__strateji-02.md",
-      "chars": 4022,
-      "sha256": "17bd2d66ea53d1c62fb71faedc939e1db3771bbf2c59d911886ac7bf897b0ac2"
+      "chars": 4033,
+      "sha256": "18feddd4041be950497a7866a4aad507f6288db68de4f6ea10b06aae402e2f5d"
     },
     {
       "id": "BOARD::chairman-sahip::strateji-03",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__strateji-03.md",
-      "chars": 4022,
-      "sha256": "5e5a48caae3b4a7ef40461aad5ebdc4ee084435b4094b8e122ccb180af6a8fca"
+      "chars": 4033,
+      "sha256": "b4accb9a70bc97801bd4fc9e9bddf20d0d7182bdc2a32303c648a549b2b86f5e"
     },
     {
       "id": "BOARD::chairman-sahip::strateji-04",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__strateji-04.md",
-      "chars": 4022,
-      "sha256": "569279cb7d4027ec791d1eb99e2b29917fdb8379edcd31eb8ad2aa1410b65c00"
+      "chars": 4033,
+      "sha256": "c1637cd01185e64042c09de0e97d716a5394f1e7da8277e786a9cec4624d874f"
     },
     {
       "id": "BOARD::chairman-sahip::strateji-05",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__strateji-05.md",
-      "chars": 4022,
-      "sha256": "4ee4d6b84f479e4809d22c300b48af0e7e0c9b6b6188d0d9e013a18e98c55cb6"
+      "chars": 4033,
+      "sha256": "6fdcd3e1178e3812b9334cb49fcecd4ebc36665319b0394fb4e557f6664f11ab"
     },
     {
       "id": "BOARD::chairman-sahip::strateji-06",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__strateji-06.md",
-      "chars": 4022,
-      "sha256": "c98657ff22f7ebb196774eec9476142808d9c1fb9fbe677989a4c387d86656f1"
+      "chars": 4033,
+      "sha256": "a7e65cffdee0f56924f10e1b7ddd61d3bbf3ee3bf20fc8a3271c9c11300d3cfb"
     },
     {
       "id": "BOARD::chairman-sahip::strateji-07",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__strateji-07.md",
-      "chars": 4022,
-      "sha256": "7a81b3b419269f2fdd9e6128bbd629f31494c05418a77efa238a51f2b614f0ed"
+      "chars": 4033,
+      "sha256": "a445ce3b3d10d70b333d87c9f596fe1d2b495c5f357d4d89905bf089402752c1"
     },
     {
       "id": "BOARD::chairman-sahip::strateji-08",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__strateji-08.md",
-      "chars": 4022,
-      "sha256": "c3bed16b801f08584e610cd45791c3cfd08d9a9581254f27075c5d1704e60075"
+      "chars": 4033,
+      "sha256": "174ffd717cbbc2802171170f6d35e550fd86783fe2e00e18d1722d2be9499064"
     },
     {
       "id": "BOARD::chairman-sahip::strateji-09",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__strateji-09.md",
-      "chars": 4022,
-      "sha256": "0e8490ddc59c6f62e43dc151a7d70e7b68796a5eccb1cd7453e7301cf7c51012"
+      "chars": 4033,
+      "sha256": "321c6622d617d9c7eb4ea0a342f931c73869cd64a097dbe19108fadd5ac5cc66"
     },
     {
       "id": "BOARD::chairman-sahip::strateji-10",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__strateji-10.md",
-      "chars": 4024,
-      "sha256": "c2c3bda087f1c040afcbb2f7438a03db979c962da87e87a875fb2b3e250f55d5"
+      "chars": 4035,
+      "sha256": "681d2702ef40cdd7df19731412f29d6c77500533b63c4592e13a6e6a51c4cf8d"
     },
     {
       "id": "BOARD::chairman-sahip::strateji-11",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__strateji-11.md",
-      "chars": 4024,
-      "sha256": "911a7fc3bf8320c0ab2f5ab2f1c238d718a8b694c7974efc2fc7f9919d8a3155"
+      "chars": 4035,
+      "sha256": "08f1342d452f060b1c4a3f282463aaf46e173b6157e673e57527e28911a7763d"
     },
     {
       "id": "BOARD::chairman-sahip::strateji-12",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__strateji-12.md",
-      "chars": 4024,
-      "sha256": "fbe089c824efeda64820ef519a05e6222ba4a9677e0390f3cafec7e45d61d12a"
+      "chars": 4035,
+      "sha256": "6711ca73ad54aac0f9afab7d5734daf6c747cceb6b91d8b643f557eeeb2962e8"
     },
     {
       "id": "BOARD::chairman-sahip::strateji-13",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__strateji-13.md",
-      "chars": 4024,
-      "sha256": "ef03d9f2b6a4d8c50731c97dcc1e3424a3fa4a0afdc35bfa16e6e429790ec22c"
+      "chars": 4035,
+      "sha256": "338a824d389434fb7f6d1f58bf56e8e05a0857273b3c5bc213627ef10793bda9"
     },
     {
       "id": "BOARD::chairman-sahip::strateji-14",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__strateji-14.md",
-      "chars": 4024,
-      "sha256": "3162bf13d4b113d7009e9a4c83f1a52ff31d9f81c620a50accbba7901736f8da"
+      "chars": 4035,
+      "sha256": "ea881aaf418ece7b53c7efeb45f2be0d23098fc2249beb4f37e551172e48ff48"
     },
     {
       "id": "BOARD::chairman-sahip::strateji-15",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__strateji-15.md",
-      "chars": 4024,
-      "sha256": "16750cf0a7a75605d096fa825408b912403d547d8108868310283cf2f99545ec"
+      "chars": 4035,
+      "sha256": "b490d3a9f4982bd17aedf5a6f76326bc5f93a75dea2122c143f95ab5b2202b01"
     },
     {
       "id": "BOARD::chairman-sahip::strateji-16",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__strateji-16.md",
-      "chars": 4024,
-      "sha256": "2b5009f2425ce3272e1d10b2d40e4c49f0942d5e999a8e9e375b8787b13193f9"
+      "chars": 4035,
+      "sha256": "795cebac3c13bda7608878ddf6fd3b1126c9dca8b9cdc476a44a4aa1be7a0d4b"
     },
     {
       "id": "BOARD::chairman-sahip::strateji-17",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__strateji-17.md",
-      "chars": 4024,
-      "sha256": "970b71de9cec82d2869497ca4922fe04d01c3502b0fa45623aa78537c6664563"
+      "chars": 4035,
+      "sha256": "30cca010d3d117a82bd0e432d53f33e7fcef9372b11f7206e3d067b6951d2925"
     },
     {
       "id": "BOARD::chairman-sahip::arastirma-01",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__arastirma-01.md",
-      "chars": 4017,
-      "sha256": "dd87509b32b7b9442ad500ba431e44032c00e3430ec427d87790437a88f9261b"
+      "chars": 4028,
+      "sha256": "c9f1514a73f42134543ed4aa9a25e27333ff1cebb1e8a0f7a39d9acb63430cfd"
     },
     {
       "id": "BOARD::chairman-sahip::arastirma-02",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__arastirma-02.md",
-      "chars": 4017,
-      "sha256": "705f261629c695cd5263fa3f8281822786c5ca86b9c498c7fa9100922a4b13d8"
+      "chars": 4028,
+      "sha256": "9cce39390fbe47d4400b80f119f1bea7b27fd28706058b59f71ad329af2479f8"
     },
     {
       "id": "BOARD::chairman-sahip::arastirma-03",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__arastirma-03.md",
-      "chars": 4017,
-      "sha256": "8e563e72f1d1466bec22eb1d3d32ae40ddf5ce1e7ae0c35b000817d16588d94c"
+      "chars": 4028,
+      "sha256": "bc38114fc48ee374b489995e3c59d7bf0266e9279da35a0ebe426821cfd8c629"
     },
     {
       "id": "BOARD::chairman-sahip::arastirma-04",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__arastirma-04.md",
-      "chars": 4017,
-      "sha256": "e6e9f29e1b099b362751324f2eb83f219e3824a8450b7e23266fca97126e926a"
+      "chars": 4028,
+      "sha256": "becd38ea4c0da87621fddbcd71333ad39951364e787508a2905a935748b0586e"
     },
     {
       "id": "BOARD::chairman-sahip::arastirma-05",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__arastirma-05.md",
-      "chars": 4017,
-      "sha256": "3f17d9e4de6a20bdc41978e3e7ccd5849c957384f9de4af77893dbede23cd8ce"
+      "chars": 4028,
+      "sha256": "6d8007268458ec79a3bc8e14e47b0432810755db61bdc80b6d447ef597cd249b"
     },
     {
       "id": "BOARD::chairman-sahip::arastirma-06",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__arastirma-06.md",
-      "chars": 4017,
-      "sha256": "759884cd478a5a89a72c66e38229d8d993a5bcd27ce04d1e83aced836937d187"
+      "chars": 4028,
+      "sha256": "330c926aa9e482d55ac411955034162416d4d10f44ebead2bfe3da0368368e43"
     },
     {
       "id": "BOARD::chairman-sahip::arastirma-07",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__arastirma-07.md",
-      "chars": 4017,
-      "sha256": "ce78d3f86c6046bccd4800595559b66eb7c86559ac9aaef5e522dc0cddad866f"
+      "chars": 4028,
+      "sha256": "485eace8b19fc378d97d70560a3f5d1b2f8e003c4f3d79d2ac2c8eb788109d8d"
     },
     {
       "id": "BOARD::chairman-sahip::arastirma-08",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__arastirma-08.md",
-      "chars": 4017,
-      "sha256": "5a8d033eb91ef841f22ba656ea89bc1649ee31116bbd1e4906734166104713d3"
+      "chars": 4028,
+      "sha256": "1395ca5901f9a3e2d094215480ccc4a73d48c6daf9b5c45177fc93ab24258ffc"
     },
     {
       "id": "BOARD::chairman-sahip::arastirma-09",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__arastirma-09.md",
-      "chars": 4017,
-      "sha256": "3aa3396b0b931e8efc461c3949f07fff39826e75658455f305a65ee4c3056e03"
+      "chars": 4028,
+      "sha256": "9d4a1deb6c1ccef39d0dac7e26907e8c614a190a1a39a4a473c50370320a7990"
     },
     {
       "id": "BOARD::chairman-sahip::arastirma-10",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__arastirma-10.md",
-      "chars": 4019,
-      "sha256": "b25fca17b26e000fb5d0ae0ee5af0d3103987c96f820b7971ab5e8c70151bfa1"
+      "chars": 4030,
+      "sha256": "da77062900e477691ae876b555025e089c562d130c2a71281fca33467beb33b7"
     },
     {
       "id": "BOARD::chairman-sahip::arastirma-11",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__arastirma-11.md",
-      "chars": 4019,
-      "sha256": "cea0fa6ef9eed79a487f823f9f98eb8e626a0932f0bbb0b1b8d463af359ecc10"
+      "chars": 4030,
+      "sha256": "2dcc2dfd7b6637d61a96087ed0da9a46e6540ecdd0ee60de5df20bb5673a9bb0"
     },
     {
       "id": "BOARD::chairman-sahip::arastirma-12",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__arastirma-12.md",
-      "chars": 4019,
-      "sha256": "a7f91a2d9d6ad34f6e109ad483035327b296df06b97808863171c14edf4557bd"
+      "chars": 4030,
+      "sha256": "cd7a149fde1b12e22f458f8f0051c4ab4ed304d921fe48452c2e114dd2650b97"
     },
     {
       "id": "BOARD::chairman-sahip::arastirma-13",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__arastirma-13.md",
-      "chars": 4019,
-      "sha256": "b950464cc502781b69f627258be33f57de1893113fc5171091bef9488c1a9fe4"
+      "chars": 4030,
+      "sha256": "2cc1014a464e2bb94081fb3574bc23845290f992ab43fe84b09aed68de3dc92b"
     },
     {
       "id": "BOARD::chairman-sahip::arastirma-14",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__arastirma-14.md",
-      "chars": 4019,
-      "sha256": "bd8f6cca88e11808c06f597450aa16200ba08e82c03b83727c848fc94cf5f60c"
+      "chars": 4030,
+      "sha256": "dc74ea626b08559b93909c1b2c515f40e8967964a2753f9cf93ff5f98092bc70"
     },
     {
       "id": "BOARD::chairman-sahip::arastirma-15",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__arastirma-15.md",
-      "chars": 4019,
-      "sha256": "78508f3c73cdfc20f9f523c1df06fd9e498cb67b3bb41593a6f3b57d4fc7b9eb"
+      "chars": 4030,
+      "sha256": "c6b308a4c75600e1694c5fb81c2f5e21482f647fc6763f46939ec4a8badf23bc"
     },
     {
       "id": "BOARD::chairman-sahip::arastirma-16",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__arastirma-16.md",
-      "chars": 4019,
-      "sha256": "548a15f3326eca4c9e1d5d50b20532de535d4c6002ab3e9235fb6a39f1718054"
+      "chars": 4030,
+      "sha256": "d629273719582dda8c0076798d8950df12fb6a87c0e7cc4a91f871f22729ccda"
     },
     {
       "id": "BOARD::chairman-sahip::arastirma-17",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__arastirma-17.md",
-      "chars": 4019,
-      "sha256": "ebade477fdd2aa59399245e99d8fc360c5b2a1208d881eb5f3142a67611a35b0"
+      "chars": 4030,
+      "sha256": "7d83d99dffdf674a1da9ec7cafb0453605864f2b74ec1ffe366ea32f4d0b7cb8"
     },
     {
       "id": "BOARD::chairman-sahip::uretim-01",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__uretim-01.md",
-      "chars": 4237,
-      "sha256": "dec4e914020f3636901f826effafc28b6843538d760d072a10a36dd9d6ef5329"
+      "chars": 4006,
+      "sha256": "83d79ad88af781c9c9be4423c7b137cb900ee2c88882111c7d12d53cad23e7db"
     },
     {
       "id": "BOARD::chairman-sahip::uretim-02",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__uretim-02.md",
-      "chars": 4237,
-      "sha256": "453f77e7059d8ccc1e7f085ebc6bcffb49d79c4b87d77a2fda9fd063980ca18f"
+      "chars": 4006,
+      "sha256": "a3348cbf17e98485dd66bfd62afe318eecb04308e02eabc05e0e39a57f0f06f5"
     },
     {
       "id": "BOARD::chairman-sahip::uretim-03",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__uretim-03.md",
-      "chars": 4237,
-      "sha256": "307c240b5db55a7a50607881e9ad8a761d83e42a705b2172452eb5bb6444a60c"
+      "chars": 4006,
+      "sha256": "026ff72e67fcfd733193fccacb8342b6d36f623cebc7f44957526d8368e5311b"
     },
     {
       "id": "BOARD::chairman-sahip::uretim-04",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__uretim-04.md",
-      "chars": 4237,
-      "sha256": "85cfb1734545e6ec1c4127d9a8be325c7558f317c8cc6643186c054924da921a"
+      "chars": 4006,
+      "sha256": "34935bd63fc1abdb7be8f9f5cd19e849d3d5a329f0e7eea0f0aa304ae86d45ac"
     },
     {
       "id": "BOARD::chairman-sahip::uretim-05",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__uretim-05.md",
-      "chars": 4237,
-      "sha256": "bdd5182031e9ef26afe288a9545e73c90106c0098f26cd9c084b8903ab00221a"
+      "chars": 4006,
+      "sha256": "fa34bbdc2537ce03816494828c42f375b1fe883e371784698707843a29d00bcc"
     },
     {
       "id": "BOARD::chairman-sahip::uretim-06",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__uretim-06.md",
-      "chars": 4237,
-      "sha256": "9fbc4431d53ce9e5491c6ee808d5a28345c11bc32fca0c72d339cf479bee1591"
+      "chars": 4006,
+      "sha256": "5630492708fcfe162f88dd5f094d5c2c3ccbed9937d0ad926032864eac62f0d8"
     },
     {
       "id": "BOARD::chairman-sahip::uretim-07",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__uretim-07.md",
-      "chars": 4237,
-      "sha256": "b686461ebf75ee14ab329686f20ea7becef5ef5181037cd2a11814aaef00b462"
+      "chars": 4006,
+      "sha256": "08eee168075f6e15b1356b1eaf0d6329a9590581fe0163f98400adc3a65c2fc8"
     },
     {
       "id": "BOARD::chairman-sahip::uretim-08",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__uretim-08.md",
-      "chars": 4237,
-      "sha256": "0fb81b565c7e24800cbbd8ca0fafa57b7e40c17f3dafabdf4566521b55600150"
+      "chars": 4006,
+      "sha256": "2d8df5a65931f25760862c95a792ed17154e19fef47f76316786e5c52fef7b3f"
     },
     {
       "id": "BOARD::chairman-sahip::uretim-09",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__uretim-09.md",
-      "chars": 4237,
-      "sha256": "f7ad5399c229f1d46d5c671da1a0cb112fea76ba1bd2ab057c11632b81993933"
+      "chars": 4006,
+      "sha256": "7445f2aed9057d6abb6c7922f9e4619bd2a62a5de13577d8a0a0eb0786688d87"
     },
     {
       "id": "BOARD::chairman-sahip::uretim-10",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__uretim-10.md",
-      "chars": 4240,
-      "sha256": "8fbe3b742d1498072ad719ef0a7921e5db6aea16ae6df8c15dbe3c3cd6642a8d"
+      "chars": 4008,
+      "sha256": "b7dfc32c004b977951a11edc183f978433510aa99c3595e984dc870884ef5988"
     },
     {
       "id": "BOARD::chairman-sahip::uretim-11",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__uretim-11.md",
-      "chars": 4240,
-      "sha256": "d43bb93aa9822f31f45031fd6ddecd345bfdb83a389bbb6779f3bea99d155101"
+      "chars": 4008,
+      "sha256": "50dc91847b0393a2ce72cddaae1aa54ba9aa8f5bb1045700bc681d1ec89673aa"
     },
     {
       "id": "BOARD::chairman-sahip::uretim-12",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__uretim-12.md",
-      "chars": 4240,
-      "sha256": "39da05d0fec8ec0813b4bd5c1020a17995b72d8b0458ab80a3e1d2ef8fa54a04"
+      "chars": 4008,
+      "sha256": "6c5a47a3d19da9d97239d4603c75d4baacd6975ead073448347ebde2caed6423"
     },
     {
       "id": "BOARD::chairman-sahip::uretim-13",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__uretim-13.md",
-      "chars": 4240,
-      "sha256": "b7bd77fa72e0003dc5eab72815563d4c4ec48d7259f0433523617bbf378cb169"
+      "chars": 4008,
+      "sha256": "672fecdc91320ea56d404c979dbc61e5ba74dc71cca14848d301ff6a69ec3d19"
     },
     {
       "id": "BOARD::chairman-sahip::uretim-14",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__uretim-14.md",
-      "chars": 4240,
-      "sha256": "5766b459f2f5746835056683c498928789bfd191ede026a0664f54ee2acbb7a6"
+      "chars": 4008,
+      "sha256": "5da8710fbf864e97b8bf43176c2b06aaa4881247ece96b951bdeaa0ce2734e89"
     },
     {
       "id": "BOARD::chairman-sahip::uretim-15",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__uretim-15.md",
-      "chars": 4240,
-      "sha256": "c8156ab12d34fd8ba7bf10ee9f977991f90f73b5cc5bd2e92e413fdc4081c11b"
+      "chars": 4008,
+      "sha256": "e3eb76fa3829d30b1ae2a1880bef3d06dd821dcc266709dd895604ad26468595"
     },
     {
       "id": "BOARD::chairman-sahip::uretim-16",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__uretim-16.md",
-      "chars": 4240,
-      "sha256": "e5bfb302a9c3bc5bc279f8d94aa11dd4ce18cbeefd9c80faad1b433bdd542264"
+      "chars": 4008,
+      "sha256": "a2f81e02667c0993ab97b2762f2a2d1a7c80a1d39d9f791e2d3db5c15f890c5b"
     },
     {
       "id": "BOARD::chairman-sahip::uretim-17",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__uretim-17.md",
-      "chars": 4240,
-      "sha256": "5cdc9d63bbf7acb07318b8967dea4e2f600c126b9aefe26568ebf1c21c654f41"
+      "chars": 4008,
+      "sha256": "d866be257de9c50bb10eff4f61e67154098cc1f4ee9a3278003940f4e9ea4b9a"
     },
     {
       "id": "BOARD::chairman-sahip::denetim-01",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__denetim-01.md",
-      "chars": 4000,
-      "sha256": "c3c9ce7748ab0cb2b4d46b37cbd10842db7916e0ac59cb62c5d42a357216cad5"
+      "chars": 4011,
+      "sha256": "35395fc7e05c09c386dc6451e91e8b98c4a4dcb1129d0593b797702caa3f6a4e"
     },
     {
       "id": "BOARD::chairman-sahip::denetim-02",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__denetim-02.md",
-      "chars": 4000,
-      "sha256": "c5daa8b71c46de697e805476d8d0679005ea7392db759ec2fc227ff7d2391226"
+      "chars": 4011,
+      "sha256": "86281a0f785d1a833826c66ce1806439ed10d995a62a6e0929dbeea2bf89df37"
     },
     {
       "id": "BOARD::chairman-sahip::denetim-03",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__denetim-03.md",
-      "chars": 4000,
-      "sha256": "e1db55c1c3901e9f57f881552b1b5670c276256b3cad17db8121a5dbe2ca094c"
+      "chars": 4011,
+      "sha256": "5329917e4ea661e1b486a3772efcabb990ad9ec1d561192222e86af8f3787aa7"
     },
     {
       "id": "BOARD::chairman-sahip::denetim-04",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__denetim-04.md",
-      "chars": 4000,
-      "sha256": "6fb816616e25a55f2eb1eaebe8508958a1355b703fcf179739013dacba523ae5"
+      "chars": 4011,
+      "sha256": "cdedac833611d1213c92c6a5702c0ba572fccfa8ec77dc58afc7e23b43951a24"
     },
     {
       "id": "BOARD::chairman-sahip::denetim-05",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__denetim-05.md",
-      "chars": 4000,
-      "sha256": "4f780b97995a5934b1a2e901cd0c0b78ac1df8f4897650d8c5f8e505a8658206"
+      "chars": 4011,
+      "sha256": "12307951c424b481967a228331c093614ea7f00d3d085dd6ebafde148eed4329"
     },
     {
       "id": "BOARD::chairman-sahip::denetim-06",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__denetim-06.md",
-      "chars": 4000,
-      "sha256": "f9ac41d98d4f716d77e04a35ec619dd080f3210513873ef0cb8536a50bd25369"
+      "chars": 4011,
+      "sha256": "5ae53b4d22e75ae492e628e4edc0159aa306d4e5fe41db6dbe7ab3e1e9d53813"
     },
     {
       "id": "BOARD::chairman-sahip::denetim-07",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__denetim-07.md",
-      "chars": 4000,
-      "sha256": "5cec52d409ddb3561bb5838a1f7bbf2bd47dd844c167aeda1ea56985f2097587"
+      "chars": 4011,
+      "sha256": "e02d36b0dca8dc0185cca894857f9b0e1b1984129902a44c094209fab9375044"
     },
     {
       "id": "BOARD::chairman-sahip::denetim-08",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__denetim-08.md",
-      "chars": 4000,
-      "sha256": "d6f8ec15b9f787f4d298ae26ea771552385ba413867dc7952ecc36afc31bbaa7"
+      "chars": 4011,
+      "sha256": "454700854f38b241006a0d9455ad315741d78d36b2c4b0d2c2a97dd8c6a56370"
     },
     {
       "id": "BOARD::chairman-sahip::denetim-09",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__denetim-09.md",
-      "chars": 4000,
-      "sha256": "0be28052e347e6e1dd368b4e6e2a3f5ef41fd306914fe3e4abd12b6abedea3c8"
+      "chars": 4011,
+      "sha256": "7ead184b7946346348bee6234daa7abfe7a6156301a2425a4821ecbbcf057ab3"
     },
     {
       "id": "BOARD::chairman-sahip::denetim-10",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__denetim-10.md",
-      "chars": 4002,
-      "sha256": "a64cb98b2ced78f4fff37831a1ebfbd359d493a7925ab22ad1d874c8abcd5c13"
+      "chars": 4013,
+      "sha256": "ca3a6ee98fa6e685b45beefc277b4a2979326d814f7ce6a65e1eea10deca0753"
     },
     {
       "id": "BOARD::chairman-sahip::denetim-11",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__denetim-11.md",
-      "chars": 4002,
-      "sha256": "ff3668111ee5d78725de99a6f80d2ddeaac95c9e49cb1cc5d94285ab2ba3efef"
+      "chars": 4013,
+      "sha256": "dbf2f41f595417b1cf96952813e6eadf4bc0c805ab407727c47bfa74ed5da7b3"
     },
     {
       "id": "BOARD::chairman-sahip::denetim-12",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__denetim-12.md",
-      "chars": 4002,
-      "sha256": "3540442ef3fb55344354cbb7495faad954c21602da3d1bb3e1dc67fc51fd7198"
+      "chars": 4013,
+      "sha256": "7b7dcf9b01de90c23fc260df2e496000efae2a243aa033d818b2d915b0513b5a"
     },
     {
       "id": "BOARD::chairman-sahip::denetim-13",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__denetim-13.md",
-      "chars": 4002,
-      "sha256": "aad311ebb8c4b2d44257c0179311e937ed6c2c85fcbdaec9d7ea609dd15bcac8"
+      "chars": 4013,
+      "sha256": "86410aa9757e45f4b0fe28ff03433b9e853001c52fb4f6dce63e521f56d2b792"
     },
     {
       "id": "BOARD::chairman-sahip::denetim-14",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__denetim-14.md",
-      "chars": 4002,
-      "sha256": "26a02afb8e7d1e1bd5c995435179ae00efe72b3ade8418630cbd4edca0e99e31"
+      "chars": 4013,
+      "sha256": "0e242af6a8246c26f6a7c56fffce51bedd2c944d49b0c2fa5da26b419fd4fd02"
     },
     {
       "id": "BOARD::chairman-sahip::denetim-15",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__denetim-15.md",
-      "chars": 4002,
-      "sha256": "7503f4ce29c4f5ffd87a3768cec0156d08dbe05a3c351ef5324876b169ef0b0e"
+      "chars": 4013,
+      "sha256": "5832733f57578043927d71819c6aa71e5c6d1d254862d7a6f8217ebd75bbbd42"
     },
     {
       "id": "BOARD::chairman-sahip::denetim-16",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__denetim-16.md",
-      "chars": 4002,
-      "sha256": "19d9f39fb53df733c995cdcfa16636c46fb1caa21776d945739d93cbc2acf349"
+      "chars": 4013,
+      "sha256": "1ff019006f1930642b8665d51eeccc5a7a86b382ceae871b76b5fb0494ecbc23"
     },
     {
       "id": "BOARD::chairman-sahip::denetim-17",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__denetim-17.md",
-      "chars": 4002,
-      "sha256": "62df3dfd782cb35393083ce4e4658aa09f331aca0a7f4f7bf3c3e10d8efcf9ad"
+      "chars": 4013,
+      "sha256": "e31b5a4b9c99aaef10aabd18c1583ae216216bb29ee647c733ad6bf0f4a6d04a"
     },
     {
       "id": "BOARD::chairman-sahip::operasyon-01",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__operasyon-01.md",
-      "chars": 4018,
-      "sha256": "b9543c03870acbbd0ab815a277ee065df87d1564498608ca2bf991c1058e3f1a"
+      "chars": 4029,
+      "sha256": "53c183eb0fb4cb24415e7b5014b827b1e59b0a0b419d6185e913b0d53cae4607"
     },
     {
       "id": "BOARD::chairman-sahip::operasyon-02",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__operasyon-02.md",
-      "chars": 4018,
-      "sha256": "379caa73cb93e2eced981a37e9870aea00b669519bc5e0d50d1dbfd2135e8c2d"
+      "chars": 4029,
+      "sha256": "6620966088f18c65e1f02bf6859097befe6464484d71ef8db4df76dde85a5e3b"
     },
     {
       "id": "BOARD::chairman-sahip::operasyon-03",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__operasyon-03.md",
-      "chars": 4018,
-      "sha256": "fd8057dabd4324290134ad08052f4a09d39281d07d210f889d4afd724e405cf1"
+      "chars": 4029,
+      "sha256": "0516460a6f5e7a9d7d7c32332f79c6a26e442161d32cabc3b9be213501e144b6"
     },
     {
       "id": "BOARD::chairman-sahip::operasyon-04",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__operasyon-04.md",
-      "chars": 4018,
-      "sha256": "a36495711ccb9b01521220c81ccabdedf1b5a623b85093698566423ffc09985a"
+      "chars": 4029,
+      "sha256": "5571cea5f40755356540a469f043040a57a2f3d04f59cd5db5ed1f68576c6159"
     },
     {
       "id": "BOARD::chairman-sahip::operasyon-05",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__operasyon-05.md",
-      "chars": 4018,
-      "sha256": "46c50eab9fc0ad3c4a59f422e27cdc2cf14d7cc8fabe0155aed55328ad19b432"
+      "chars": 4029,
+      "sha256": "2d3273c5e160e3fe78e6100f425d6f47a38a26e555130626ab2de7b45485167b"
     },
     {
       "id": "BOARD::chairman-sahip::operasyon-06",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__operasyon-06.md",
-      "chars": 4018,
-      "sha256": "325e2fc57adf9816c81cf7a0eaca97651a4cb7abaa74508b8e3fd78206553f01"
+      "chars": 4029,
+      "sha256": "dfcc86e968122c518e51cef9a1a284d6106a1cfa785544e3433b3d0bd2754451"
     },
     {
       "id": "BOARD::chairman-sahip::operasyon-07",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__operasyon-07.md",
-      "chars": 4018,
-      "sha256": "84d7332d7d8a9bfff22ee74046ae248496aaa3393a441636f129238b450428af"
+      "chars": 4029,
+      "sha256": "bbd7d2d93cb76acf9fccf8068a96578c38bd01a429183cd4ae2aba36f020381d"
     },
     {
       "id": "BOARD::chairman-sahip::operasyon-08",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__operasyon-08.md",
-      "chars": 4018,
-      "sha256": "6291558f203257e9f99d3eccf355f13357254dc531d1a9bd67601bf3240ca8d3"
+      "chars": 4029,
+      "sha256": "3625add9781be22efbb4660bbbd290808ea5d7768db47ee25faa8b460149d19b"
     },
     {
       "id": "BOARD::chairman-sahip::operasyon-09",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__operasyon-09.md",
-      "chars": 4018,
-      "sha256": "e39e0efbdceabe3ddb73da611ee8e16a1fd7df3cfa6fecdb29e7d5a35335d488"
+      "chars": 4029,
+      "sha256": "d2799177aeb444a7ba77f523f22f7577eb128436d918f708bdbbc2acaa253f04"
     },
     {
       "id": "BOARD::chairman-sahip::operasyon-10",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__operasyon-10.md",
-      "chars": 4020,
-      "sha256": "47c9512b4eb5816eb6e214e5959fb210879033be04c8b89af476731f8501232e"
+      "chars": 4031,
+      "sha256": "345f4608fd0bc872f15b3061e36b26094c4390e9c93b20011bd53c49dcf1e19f"
     },
     {
       "id": "BOARD::chairman-sahip::operasyon-11",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__operasyon-11.md",
-      "chars": 4020,
-      "sha256": "328d2a2a6433d800f0dc1db37dc00936d07df12c2fba40d50135bc407bf5a0e8"
+      "chars": 4031,
+      "sha256": "3e1401407423dab8a96679c28c91332834b8fc94369ebf0ba4a640295844d20c"
     },
     {
       "id": "BOARD::chairman-sahip::operasyon-12",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__operasyon-12.md",
-      "chars": 4020,
-      "sha256": "672fd8cc9f48f5298bc0a1c0993f97f3af0dff282960ed87f9de3bf8d374253b"
+      "chars": 4031,
+      "sha256": "ac600af84b1a4174625df3ff845f4079149696270d9792b5c235ae351633886f"
     },
     {
       "id": "BOARD::chairman-sahip::operasyon-13",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__operasyon-13.md",
-      "chars": 4020,
-      "sha256": "62d7e1140006cdb49dbb34a03fa658db2f39193f897328869eff798dcc3c122d"
+      "chars": 4031,
+      "sha256": "a88d6d059714bba57d4fd05548b28c46fb47d0d0c90f439be25efff727582a71"
     },
     {
       "id": "BOARD::chairman-sahip::operasyon-14",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__operasyon-14.md",
-      "chars": 4020,
-      "sha256": "ec08302a1a57dcd88e2a930af118f94b5d0d706318a690a02aad7b6e5fd200b7"
+      "chars": 4031,
+      "sha256": "038618a12d5a0b624a89b54099e9cbc2a3fd9340782d08f11221b772097a9564"
     },
     {
       "id": "BOARD::chairman-sahip::operasyon-15",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__operasyon-15.md",
-      "chars": 4020,
-      "sha256": "7eadea1b1e11e5f8b7f2d0b1cc21329745ae5801bf8a523f0c874bdc4bb5872a"
+      "chars": 4031,
+      "sha256": "bba9707d93a92ca6b137dfc716326fb54e550c8c371b8aaf0d1ecd442edf3c88"
     },
     {
       "id": "BOARD::chairman-sahip::operasyon-16",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__operasyon-16.md",
-      "chars": 4020,
-      "sha256": "f21b62aebb0a5c1ec9c380d745d59d8ce5a4a2865fc50055bf84ca79a7090bdd"
+      "chars": 4031,
+      "sha256": "6ba6ab752c77c1b2a5cb7288244821aea2f79c64696df17a5375873c73cef9ef"
     },
     {
       "id": "BOARD::chairman-sahip::operasyon-17",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__operasyon-17.md",
-      "chars": 4020,
-      "sha256": "360c0dad5243f6191cb7e0b2876fcb63d89b09a197b263c6819d6a33d2c63baf"
+      "chars": 4031,
+      "sha256": "88163a63204ae1361c1043e0927f53962811a705a8d4c2d3825e8250ab152c79"
     },
     {
       "id": "BOARD::chairman-sahip::gelir-01",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__gelir-01.md",
-      "chars": 4219,
-      "sha256": "fafd8ca05e79908f7ee856f6ab7df5cc5b1d098c8e13604bceafd0d9aadc415f"
+      "chars": 4230,
+      "sha256": "209cf591f4c69574527f4fa383851fce22b6c20339368b0e59534bcaadadaff6"
     },
     {
       "id": "BOARD::chairman-sahip::gelir-02",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__gelir-02.md",
-      "chars": 4219,
-      "sha256": "ef1c4e51663100af03ab76a7b2fe04ac6e34c86abecaec8596c3ad9ce0cfdf75"
+      "chars": 4230,
+      "sha256": "bddf34a27c2bb803609172e4a6859a154be0d5b905432063a7bde2ed21e63854"
     },
     {
       "id": "BOARD::chairman-sahip::gelir-03",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__gelir-03.md",
-      "chars": 4219,
-      "sha256": "7b55d8c7f18359e146599e6e4df083929deacd43eec923a5f57da0535e539a9d"
+      "chars": 4230,
+      "sha256": "149b82251afcd558d35c8d2b2ab6f40be6bb670f66a404da82671291a5d565f5"
     },
     {
       "id": "BOARD::chairman-sahip::gelir-04",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__gelir-04.md",
-      "chars": 4219,
-      "sha256": "cb10e85ef9f18acd34e3366649756af5db46d8492475f075e24a8e4edbd872eb"
+      "chars": 4230,
+      "sha256": "bd953fb9a08c133b85ef4a053dce72d127e0abc0976b6caed4e078cb951867ee"
     },
     {
       "id": "BOARD::chairman-sahip::gelir-05",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__gelir-05.md",
-      "chars": 4219,
-      "sha256": "5dd23af63153cb061232dc2c28dba962f28af3ab12594d9f9b7c94a2934064d6"
+      "chars": 4230,
+      "sha256": "3849aabcf103e15eb71db441318ae81daff042829e86da415c24ca61e97a08bf"
     },
     {
       "id": "BOARD::chairman-sahip::gelir-06",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__gelir-06.md",
-      "chars": 4219,
-      "sha256": "fdc2df58059e840dbb84727c4017f93336b1369aaaa3bcf9e1153aa7008ae8ef"
+      "chars": 4230,
+      "sha256": "c79f8618030b4a2c950f7f12564f6c9dfbfd9332367a66f2c0ec679c0800586b"
     },
     {
       "id": "BOARD::chairman-sahip::gelir-07",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__gelir-07.md",
-      "chars": 4219,
-      "sha256": "d8c370bc0c04fb17aa627bc2dc34a920105d36d584cbc52a56ab9eeb03cb9783"
+      "chars": 4230,
+      "sha256": "fff294806be9b9f7721e45293e63ea69fb8588d62ba87f343a76157e95d5bf4a"
     },
     {
       "id": "BOARD::chairman-sahip::gelir-08",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__gelir-08.md",
-      "chars": 4219,
-      "sha256": "f4020bb5da88b8daecb67397362e4e6fbafc126758f87e6df9ed110829dd6f1c"
+      "chars": 4230,
+      "sha256": "ecb56811fb9a6ad830eb39609493099d5ea48e7bdd12ddde20ed15a70aed7260"
     },
     {
       "id": "BOARD::chairman-sahip::gelir-09",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__gelir-09.md",
-      "chars": 4219,
-      "sha256": "861f7ce423c746e4f39583f1a6e7c48eb19923d95db30f2ff4950e5cf9feaf94"
+      "chars": 4230,
+      "sha256": "ead6f8463b5b6eb19d4c288e206f18a7fcea6bb9c2ec9638a4fd3d17b199f139"
     },
     {
       "id": "BOARD::chairman-sahip::gelir-10",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__gelir-10.md",
-      "chars": 4222,
-      "sha256": "41068e029263de584796e47cdbbdd379af3efcbb97b72597d5fe76494c3156af"
+      "chars": 4233,
+      "sha256": "79485763c832d45a013fcbbe092e541c478b427084e67ed61dd23cd111af8531"
     },
     {
       "id": "BOARD::chairman-sahip::gelir-11",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__gelir-11.md",
-      "chars": 4222,
-      "sha256": "ca961f277b7c463597a781f5cff4c477f08e46037d188fec4491d8e7f0ecf85c"
+      "chars": 4233,
+      "sha256": "97e933ccee695b94e02c0bae1ea8e0658127755c63415681c69a95b968adb30d"
     },
     {
       "id": "BOARD::chairman-sahip::gelir-12",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__gelir-12.md",
-      "chars": 4222,
-      "sha256": "830bb44d211ce709049031ec079a2efe57624236fe4842fb1243f8474c385356"
+      "chars": 4233,
+      "sha256": "88be1dbb97c50863ef4a304b9fe2cd52d38e3cea3876773826317f6578103ee0"
     },
     {
       "id": "BOARD::chairman-sahip::gelir-13",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__gelir-13.md",
-      "chars": 4222,
-      "sha256": "53b7fad8bf4ddc196ce5d7cf211a2a2230ca908c7e70638d2bbe599e424d293a"
+      "chars": 4233,
+      "sha256": "0a279abc8b05775f206ef398ad42168edef7999902be2159f7026dac07d46205"
     },
     {
       "id": "BOARD::chairman-sahip::gelir-14",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__gelir-14.md",
-      "chars": 4222,
-      "sha256": "c2493c6b7106b407d92fabf5b3b23aa3c04bc86562f6345fe80e5c4deebaa088"
+      "chars": 4233,
+      "sha256": "5c6efbdade4add4e0f316485280eae5931dca64634f46008bb610c2ad43af987"
     },
     {
       "id": "BOARD::chairman-sahip::gelir-15",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__gelir-15.md",
-      "chars": 4222,
-      "sha256": "a661ab4c13bc731b6d2608f1d8f5125d98a75bbca44c05dc02ca042a2073a1b4"
+      "chars": 4233,
+      "sha256": "7eae0ebb2844617c6782163f01320197cfb9d223ba3ac9004f9204c4b143e5fd"
     },
     {
       "id": "BOARD::chairman-sahip::gelir-16",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__gelir-16.md",
-      "chars": 4222,
-      "sha256": "504b7273d2944614eb69dc365338c53184812fbd1604b90fd4337317c9bb91f1"
+      "chars": 4233,
+      "sha256": "013603d37097862177b7e417ab6d2ddc31642a5e3df7fff3d660452d18e3ef31"
     },
     {
       "id": "BOARD::chairman-sahip::gelir-17",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__gelir-17.md",
-      "chars": 4222,
-      "sha256": "08e9cd271fe02f9ff0c2da0dba873ae3f9dbaba5f7a10757ce736440cbe5ae16"
+      "chars": 4233,
+      "sha256": "6e5d1d7ead4f1ed75f56c4d80b4f5c7f4c791df9a2b2c932262aaa5d1cf68a92"
     },
     {
       "id": "BOARD::chairman-sahip::iletisim-01",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__iletisim-01.md",
-      "chars": 4012,
-      "sha256": "e78bfad9a748aee67c6a8172edabab85f159c7a9590503665f6f7bc58b23dcc7"
+      "chars": 4023,
+      "sha256": "42847e2473faa8dbff8ef09b49553342a3ccedd4f7e8444309188ab149366166"
     },
     {
       "id": "BOARD::chairman-sahip::iletisim-02",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__iletisim-02.md",
-      "chars": 4012,
-      "sha256": "f322d1b6687924b98b5363a5b1a097cd4909369456b7b06e23274fb2694f33c5"
+      "chars": 4023,
+      "sha256": "74dfcc41d47300f6bb9ca53a8395707b61c0ad34525d30a79ccabeb539f262e1"
     },
     {
       "id": "BOARD::chairman-sahip::iletisim-03",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__iletisim-03.md",
-      "chars": 4012,
-      "sha256": "14b234e3fcd7c0abb1b04f9d1d3412338a9a2e64365098ba542f38b433b1ebff"
+      "chars": 4023,
+      "sha256": "8e28708d229c58fbb8a24187d15fd34e48e7c19cdab24866bce242f77e94dcb0"
     },
     {
       "id": "BOARD::chairman-sahip::iletisim-04",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__iletisim-04.md",
-      "chars": 4012,
-      "sha256": "9b1ffe8c809fc23c9eb69068e1160deacad04443d543df937aad8b52655872d6"
+      "chars": 4023,
+      "sha256": "85a2386534de49f32cb71cb4f3270e7dd080ee62f7a1d0a9fedfa75a0036bae5"
     },
     {
       "id": "BOARD::chairman-sahip::iletisim-05",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__iletisim-05.md",
-      "chars": 4012,
-      "sha256": "33c57445e2f1ef4b1901867859af651cb5376163a69d4f87457dac9e51000e40"
+      "chars": 4023,
+      "sha256": "6c0b971f07228f84a85f04ad73b668da618883ab402d803d7bbb063f0799c691"
     },
     {
       "id": "BOARD::chairman-sahip::iletisim-06",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__iletisim-06.md",
-      "chars": 4012,
-      "sha256": "f821de9a919380eae623eece1f8a971ea8cecf37fe9c85741757c7c1d881624d"
+      "chars": 4023,
+      "sha256": "da528c25a52aaad7bf1d4b338c6653a23be563c7f797091dae52c636fd70caea"
     },
     {
       "id": "BOARD::chairman-sahip::iletisim-07",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__iletisim-07.md",
-      "chars": 4012,
-      "sha256": "93324595c24079736010618b03e02c99757a27124efad70812152368dacb3e5c"
+      "chars": 4023,
+      "sha256": "431da812a166f24b868b70ef661bf4f0ad52acd220f6c3369921b4c056d27b71"
     },
     {
       "id": "BOARD::chairman-sahip::iletisim-08",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__iletisim-08.md",
-      "chars": 4012,
-      "sha256": "7163d146e1b51d4110c6f65727dabe7d9baef7d3db163f6a8073759a214eb8ec"
+      "chars": 4023,
+      "sha256": "38d415463cd356bd19858af64630b0a87bf286f439a8e56dcf774c68cc284493"
     },
     {
       "id": "BOARD::chairman-sahip::iletisim-09",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__iletisim-09.md",
-      "chars": 4012,
-      "sha256": "90905b8a1537d76a23c37eb385a4cf7d43d16cc5afe1537e94886f609a7581e0"
+      "chars": 4023,
+      "sha256": "b1b8bd117a4bde167fa22ba39e01553645af8e5ec3cf5d2522d91a8dd1666622"
     },
     {
       "id": "BOARD::chairman-sahip::iletisim-10",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__iletisim-10.md",
-      "chars": 4014,
-      "sha256": "73dbfdd222ba8e4d02330d98498da944ff28a217ccc1f7e7924a57fbd2499fea"
+      "chars": 4025,
+      "sha256": "9bbd71a9a7bc9384b0f2372d5d2ac729081995c13fb2e4bd7d5c2391bd1e3f19"
     },
     {
       "id": "BOARD::chairman-sahip::iletisim-11",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__iletisim-11.md",
-      "chars": 4014,
-      "sha256": "bcaff922578c2642a498f1aab800cb69f9d9d11a77e0562aab022892d07b97c9"
+      "chars": 4025,
+      "sha256": "9aa20427f0e386636c03090e0657d866c7b1b8120744af3441a10269e780aa33"
     },
     {
       "id": "BOARD::chairman-sahip::iletisim-12",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__iletisim-12.md",
-      "chars": 4014,
-      "sha256": "644138bb20e6b45040e9bea9227bc69df3fcb9962f74c08bff5e076bc742c748"
+      "chars": 4025,
+      "sha256": "532b0ee98a6cd44531eafcd534f7a6755d92e540c921c037557892c52fb76ba9"
     },
     {
       "id": "BOARD::chairman-sahip::iletisim-13",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__iletisim-13.md",
-      "chars": 4014,
-      "sha256": "9f77a82d2f89bd1dc846b7aa132c956ff34391d2a1f74c34d4c4804c3bd054ba"
+      "chars": 4025,
+      "sha256": "df43762d3d7729777a981a11a7ffd34a1817c419c9d2b39b9470a8060d475067"
     },
     {
       "id": "BOARD::chairman-sahip::iletisim-14",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__iletisim-14.md",
-      "chars": 4014,
-      "sha256": "1b800ec987e31640ef011d2e53f5ebf8a6c44883c627f2c1a279231796297c4e"
+      "chars": 4025,
+      "sha256": "7a6224c974ed845e77155a9b8e6967d973312f23139fc1e0c84ad937177f1218"
     },
     {
       "id": "BOARD::chairman-sahip::iletisim-15",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__iletisim-15.md",
-      "chars": 4014,
-      "sha256": "60aad35fc65b48f679a32996de6d9518de2ef0a09cf16ad7ffbd4e55c6cc3652"
+      "chars": 4025,
+      "sha256": "734dd37c259ea7e1d4b053f81ff147168d78817525fe054112cd66a8089ccf59"
     },
     {
       "id": "BOARD::chairman-sahip::iletisim-16",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__iletisim-16.md",
-      "chars": 4014,
-      "sha256": "1bb6868c942561c4d1c5871d729997f0f9c8496973f83c032f302a012f115941"
+      "chars": 4025,
+      "sha256": "2ec96cc4d2462982c3fef9b5ebf4cae6d4331912e206ac380efbe98868e7c151"
     },
     {
       "id": "BOARD::chairman-sahip::iletisim-17",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__iletisim-17.md",
-      "chars": 4014,
-      "sha256": "4e6c7d1176114f51bbc4c6916fc36619eb9457b6b3292d6f6a626c9aaa81035a"
+      "chars": 4025,
+      "sha256": "f59b97ac7afa6578adb4dcd78c46c7436de315bdc4f706d17253327fa77319b2"
     },
     {
       "id": "BOARD::chairman-sahip::ozel-01",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__ozel-01.md",
-      "chars": 4210,
-      "sha256": "aff526e6e933c7cde0511b093aa71f20bc4f7ade60afc836dc98c84cca0a01ca"
+      "chars": 4221,
+      "sha256": "2c47f85f98c83899e2571ab0824629fa1e165f8030bc952f7016c61c066231aa"
     },
     {
       "id": "BOARD::chairman-sahip::ozel-02",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__ozel-02.md",
-      "chars": 4222,
-      "sha256": "64c7f8d6fe8a8d85fb795a3529fed0a3ba7b6982f5a63d57f24dd069a2797d01"
+      "chars": 4233,
+      "sha256": "67e7d9904a72e60f6a884f6b159d8121596ed2bd3106e10484d6573fd042d276"
     },
     {
       "id": "BOARD::chairman-sahip::ozel-03",
       "path": "uretim/promptlar/BOARD/chairman-sahip/BOARD__chairman-sahip__ozel-03.md",
-      "chars": 4194,
-      "sha256": "45ca81690b4b251349519d41d4e658c787851aa712a5f440fbc7f865278fcd7c"
+      "chars": 4205,
+      "sha256": "1ab451720764c0f88bf4412bc6e68d5d0c0ca05bbe02ff8d3a7ec0c7c95e7679"
     }
   ]
 }

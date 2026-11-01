@@ -1,5 +1,5 @@
 # Workflow — PostHog / Pendo signals (`AN-PH`)
-> 2026-10-01T11:45:55Z · skills=75
+> 2026-11-01T05:35:53Z · skills=75
 
 ## Amaç
 PostHog / Pendo signals skill kümesini LLM ajans olarak 7×24 işlet.

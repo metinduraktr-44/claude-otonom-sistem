@@ -1,5 +1,5 @@
 # Workflow — CockroachDB security/ops (`SEC-CRDB`)
-> 2026-10-01T11:45:55Z · skills=32
+> 2026-11-01T05:35:53Z · skills=32
 
 ## Amaç
 CockroachDB security/ops skill kümesini LLM ajans olarak 7×24 işlet.

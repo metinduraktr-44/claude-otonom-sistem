@@ -4,7 +4,7 @@
 - title: **Apify / Firecrawl / Bright Data Skill Uzmanı (IC)**
 - domain: `WEB-APIFY`
 - skills: `/apify-actor-development`, `/apify-actorization`, `/apify-generate-output-schema`, `/apify-sdk-integration`, `/apify-ultimate-scraper`, `/bd-batch-scrape`
-- ts: 2026-10-01T11:45:55Z
+- ts: 2026-11-01T05:35:53Z
 - hedef: 4000-12000 karakter · 🚩 900B/900M YASAK
 
 ## 1. Kimlik
