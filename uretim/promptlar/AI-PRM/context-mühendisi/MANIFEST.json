@@ -2,739 +2,739 @@
   "rol": "Context Mühendisi",
   "dept": "AI-PRM",
   "adet": 122,
-  "ts": "2026-11-01T05:35:53Z",
+  "ts": "2026-11-01T06:07:41Z",
   "items": [
     {
       "id": "AI-PRM::context-mühendisi::strateji-01",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__strateji-01.md",
-      "chars": 4031,
-      "sha256": "6dc4aafdca957284fd0a664c753e9257c7f827d31f5685c5faf34a680fb50e89"
+      "chars": 4033,
+      "sha256": "7b6f3d08bd316078008e08064d8e5aecafc9987026864fb29bc74ec9ba8b4af9"
     },
     {
       "id": "AI-PRM::context-mühendisi::strateji-02",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__strateji-02.md",
-      "chars": 4031,
-      "sha256": "c1a9d4e146d4d657a66b40fac2f1ef362f0cfbf32ff6fcbcd008c4871d9686e6"
+      "chars": 4033,
+      "sha256": "9ed79fdbebb8e51b30c4fd45b1fdc67cbf97482245a2cba79772e91ce6fa00ee"
     },
     {
       "id": "AI-PRM::context-mühendisi::strateji-03",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__strateji-03.md",
-      "chars": 4031,
-      "sha256": "c837beecb444d8222ba53154639584162ceed1a598d5bfe49495309ce1261c2d"
+      "chars": 4033,
+      "sha256": "a859d4d31d1a24e78a72c9569b6d1e237ec862f5ca72edf4303642185bd59b67"
     },
     {
       "id": "AI-PRM::context-mühendisi::strateji-04",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__strateji-04.md",
-      "chars": 4031,
-      "sha256": "1a13f6011aa0a1984bb70e02cba27ceb3dbbec7b81a52aa7c43efc082e4d87ef"
+      "chars": 4033,
+      "sha256": "1e73a44efa266f4d17b70b784afad1d5397a27d2e3cfac4d887db8c1cf749aad"
     },
     {
       "id": "AI-PRM::context-mühendisi::strateji-05",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__strateji-05.md",
-      "chars": 4031,
-      "sha256": "ff9e931c6952b8fa718accf7eb7a52b599dd0a6571f22f0e77d61f0c53c0c2ee"
+      "chars": 4033,
+      "sha256": "06f59e047dbc351e4c0814a5f215fb3790f18cd6777f22d72f2e93f9c2d7bf88"
     },
     {
       "id": "AI-PRM::context-mühendisi::strateji-06",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__strateji-06.md",
-      "chars": 4031,
-      "sha256": "0212f7571a930f3f6a2bba988247639688743c120f7c84748449a17f9a2714de"
+      "chars": 4033,
+      "sha256": "72b5075d16a7b099148102654ef10da91de92283d9f1366c2ef35a264527386d"
     },
     {
       "id": "AI-PRM::context-mühendisi::strateji-07",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__strateji-07.md",
-      "chars": 4031,
-      "sha256": "77e03af86acc3dd1a4e6be2bc3542455a48cdf0723aa3bc4b10a0c0223c1c3f7"
+      "chars": 4033,
+      "sha256": "ecbaa1aef8458b5de67a42b7508dbeab9ded512e0a925ecee54607240927164e"
     },
     {
       "id": "AI-PRM::context-mühendisi::strateji-08",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__strateji-08.md",
-      "chars": 4031,
-      "sha256": "7a0c531560f898088b8af35c386d9ffee0868218d4152d4e22265b4374f05de1"
+      "chars": 4033,
+      "sha256": "70b7c275cd5a441e223bae65d9200135ff4ce378b709560e2a2e7e8c9567e426"
     },
     {
       "id": "AI-PRM::context-mühendisi::strateji-09",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__strateji-09.md",
-      "chars": 4031,
-      "sha256": "5e49c08641fe5f4c8710d8b31a30dd520814430caa8b4603fc11cccf3c2c9564"
+      "chars": 4033,
+      "sha256": "85e9a5ff1768c36ac1da5a3623e112bf227a0b78dfb56fb3420d138fb1c8dc30"
     },
     {
       "id": "AI-PRM::context-mühendisi::strateji-10",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__strateji-10.md",
-      "chars": 4033,
-      "sha256": "9945a32458ca50d8046f94e84a9bab842549056d3eb85c90a7024a9a6ad5565a"
+      "chars": 4035,
+      "sha256": "98904253fcee00f135b5d56d54de60ea1067187e0945a827fa2713b03e745e18"
     },
     {
       "id": "AI-PRM::context-mühendisi::strateji-11",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__strateji-11.md",
-      "chars": 4033,
-      "sha256": "61c4f305dc81e9db82469bb8e3b201634081e1c097228ec5e6470eefda88403b"
+      "chars": 4035,
+      "sha256": "7c77e6d1afb1ef1815e65701ef101612f6e54f8e07c8cb11be7bf9f6b986f817"
     },
     {
       "id": "AI-PRM::context-mühendisi::strateji-12",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__strateji-12.md",
-      "chars": 4033,
-      "sha256": "e054e6addf44327bb794b2a06c785689c899981d928479a6d7765d502edd3af9"
+      "chars": 4035,
+      "sha256": "30247807a2176d65b18a182d46b52f14cf523d8b2b3512920ac25131337a99f9"
     },
     {
       "id": "AI-PRM::context-mühendisi::strateji-13",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__strateji-13.md",
-      "chars": 4033,
-      "sha256": "0c9c32125097d6d95465355a91a329389b3ac1b8b1bf6d1bd714a782890bab97"
+      "chars": 4035,
+      "sha256": "1217d6b2453efdec53fcf3d955fa313c83db84a256baa8b14489936e6a9945b0"
     },
     {
       "id": "AI-PRM::context-mühendisi::strateji-14",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__strateji-14.md",
-      "chars": 4033,
-      "sha256": "4e623ba908cb5f215beecd1fe7fcc188baf73829868853da9580597cd65a0d0f"
+      "chars": 4035,
+      "sha256": "f272ae7ebc284a5affa9ca7e6c0e281317364015f90948ec0923d0119250240f"
     },
     {
       "id": "AI-PRM::context-mühendisi::strateji-15",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__strateji-15.md",
-      "chars": 4033,
-      "sha256": "56e1a7c4ef307fc90e8802d192fcdf8e70f9bd3b5e7a5668ddcc4aff0825c09d"
+      "chars": 4035,
+      "sha256": "9fe873fedad7795017b149deba246f0003bbe5afd3462eb7d41124422fc15d36"
     },
     {
       "id": "AI-PRM::context-mühendisi::strateji-16",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__strateji-16.md",
-      "chars": 4033,
-      "sha256": "fe4e5d77592ee4605d7c1b6705631ec2992eea28f4c3365cd11e529c441b032d"
+      "chars": 4035,
+      "sha256": "b8d593541272f9597ca0b806d9ac1e480973889ee7af76a8fa72bc4e7fa47113"
     },
     {
       "id": "AI-PRM::context-mühendisi::strateji-17",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__strateji-17.md",
-      "chars": 4033,
-      "sha256": "64ad6e70ffc1c4a882bc483256d5d0ff9895ac1a30a2eb5c809f79e384738e5b"
+      "chars": 4035,
+      "sha256": "adfd97a41203e375db95547e2a135cd8bf8881e71ed10eb626ccade4073c2d70"
     },
     {
       "id": "AI-PRM::context-mühendisi::arastirma-01",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__arastirma-01.md",
-      "chars": 4026,
-      "sha256": "15cb32b54ed32fb27e476b312991de03a5c26e32cd84430fa6ddf69965c7b673"
+      "chars": 4028,
+      "sha256": "35593fae70d683b319a35bb5fd918614207afb96656822cd6acb68cb899615b7"
     },
     {
       "id": "AI-PRM::context-mühendisi::arastirma-02",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__arastirma-02.md",
-      "chars": 4026,
-      "sha256": "b68ea5fc2add5629be823c6c99ed8265f8df78fa586b9830a33354537b1c942f"
+      "chars": 4028,
+      "sha256": "8c1423857539c088c6e5059c4957575ecba699d208e7e74197be30aa65533ae7"
     },
     {
       "id": "AI-PRM::context-mühendisi::arastirma-03",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__arastirma-03.md",
-      "chars": 4026,
-      "sha256": "8155280bd6bdfeb83e312fb92d750fd8bff372b828400069dc07b2e29d92d55e"
+      "chars": 4028,
+      "sha256": "a03cdd352a4eb933077a9379567094e712715b56ace063496c5851136a2cc08d"
     },
     {
       "id": "AI-PRM::context-mühendisi::arastirma-04",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__arastirma-04.md",
-      "chars": 4026,
-      "sha256": "f0e87af0703438748c8aa8055feceed27ed1f984bd572f7d6d7b2e5666ad0c77"
+      "chars": 4028,
+      "sha256": "ade214c975960f4e259c9d780f9e0d167579907211b19f83d060d5a709ab28fc"
     },
     {
       "id": "AI-PRM::context-mühendisi::arastirma-05",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__arastirma-05.md",
-      "chars": 4026,
-      "sha256": "fa38841237633ae0d8671964f9cf49d15d1c4753449151b872ac30401e4b64f6"
+      "chars": 4028,
+      "sha256": "fddd88e3848fed085e7eb7f2a5ced6742e0ab1913fb1a0ad1fcdc13a856612dc"
     },
     {
       "id": "AI-PRM::context-mühendisi::arastirma-06",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__arastirma-06.md",
-      "chars": 4026,
-      "sha256": "4e6bd541af306dcf751697af8a32ffe54406fe0a2893f6337b25c587ae83f4b2"
+      "chars": 4028,
+      "sha256": "c39acedb99ece25cada3577ac4842ee937c708277dc0d1757c0acf82db1eca9e"
     },
     {
       "id": "AI-PRM::context-mühendisi::arastirma-07",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__arastirma-07.md",
-      "chars": 4026,
-      "sha256": "6137f799afaac90865c008dbc77603f2229a8598e7837c8af2dc780da259b119"
+      "chars": 4028,
+      "sha256": "a4737012149fe99bb028adb5abe2604a28e17e9235465522e369fb6aa4b3ba40"
     },
     {
       "id": "AI-PRM::context-mühendisi::arastirma-08",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__arastirma-08.md",
-      "chars": 4026,
-      "sha256": "9fd35ad94ef04f294edbe5a187ca457ae6643fb920c9c01f3a5c3a4ca5129d74"
+      "chars": 4028,
+      "sha256": "8300a161c1b7a09c8f29dc93325346e66dd398faca189d25a0850a51edefdca2"
     },
     {
       "id": "AI-PRM::context-mühendisi::arastirma-09",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__arastirma-09.md",
-      "chars": 4026,
-      "sha256": "16cb318b7ec678ebe22f2365b72b2e3b3021b79830dc22e4fa207669dae64991"
+      "chars": 4028,
+      "sha256": "2efc8902bcb7a6e79fee211ee55545904fce1738dd23a7b48998a70eae2f7d32"
     },
     {
       "id": "AI-PRM::context-mühendisi::arastirma-10",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__arastirma-10.md",
-      "chars": 4028,
-      "sha256": "304bd1805d83bb4262dd946d8bfa7dc05c8f489e1f9225910997f46ead67b7bf"
+      "chars": 4030,
+      "sha256": "12a781d19e6bd3d4b987baafbf0d27111e64b9e7823e49c857e3a19714debb3a"
     },
     {
       "id": "AI-PRM::context-mühendisi::arastirma-11",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__arastirma-11.md",
-      "chars": 4028,
-      "sha256": "fc72b7a0b68a457be1637961b75a9925fca6ac5ce7508e8809689009e286918b"
+      "chars": 4030,
+      "sha256": "250a66699cc4c71f5003fc1c9c853dd3490fc494b0ae2944e0b7e3d213bd3dba"
     },
     {
       "id": "AI-PRM::context-mühendisi::arastirma-12",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__arastirma-12.md",
-      "chars": 4028,
-      "sha256": "3aa6fac43e456338824ffe93054465900e51ef731b9a2d09b6d4506b3759c2af"
+      "chars": 4030,
+      "sha256": "4474cd5670ea1f80c766c0b711c5f4e5a9d959f2727f9254d2c6c77be68a41cc"
     },
     {
       "id": "AI-PRM::context-mühendisi::arastirma-13",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__arastirma-13.md",
-      "chars": 4028,
-      "sha256": "a1b9f2f35a3a94a72530b1073d1d90864414c1da2092824bdd594554d8c099a4"
+      "chars": 4030,
+      "sha256": "d51aa5706293a354705b0998087c3566fbae4f87078a267943409c34ac996ebc"
     },
     {
       "id": "AI-PRM::context-mühendisi::arastirma-14",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__arastirma-14.md",
-      "chars": 4028,
-      "sha256": "3e3045ea9f576035f7f99015f889a7fbd1275985989cd122ad4551ad028e3dce"
+      "chars": 4030,
+      "sha256": "5d3eaf8f18cc8a3e782c88fe178c7730e85a024dac9e15d7f83e071784faa9fa"
     },
     {
       "id": "AI-PRM::context-mühendisi::arastirma-15",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__arastirma-15.md",
-      "chars": 4028,
-      "sha256": "e2dcf19a1fd17097f9851bd1ecc5c72941f5cf56c762447fb5f20697679fcd98"
+      "chars": 4030,
+      "sha256": "f4a1e782ab787d82ab603dda4f732555b04b5921b503c467ea7d91830a5e3115"
     },
     {
       "id": "AI-PRM::context-mühendisi::arastirma-16",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__arastirma-16.md",
-      "chars": 4028,
-      "sha256": "38eb6da6ce3b7d19c771a1fd5ec5efc2721f6b011f276ce371629d6ad69b717a"
+      "chars": 4030,
+      "sha256": "efc6e1752ad61ee5885dfe3768b6542c6cc6eb4893e26da62e40002fa81d6857"
     },
     {
       "id": "AI-PRM::context-mühendisi::arastirma-17",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__arastirma-17.md",
-      "chars": 4028,
-      "sha256": "275fe4135962c0a567602937c5b6addd71179d3fd94a8ec2c14571bde5b60735"
+      "chars": 4030,
+      "sha256": "8f16735e5d49303601ee7cd76895956ad05de944d5c9eaf641f9221a12d8fa45"
     },
     {
       "id": "AI-PRM::context-mühendisi::uretim-01",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__uretim-01.md",
-      "chars": 4004,
-      "sha256": "ee88a23cf1886dc018c4679e677b7b76d18b3035a9728623a28bfbb6b987c144"
+      "chars": 4006,
+      "sha256": "aedadff30d207c3b9934f4a39fcaf0050260fe64df0aa7c56c8700eca839d862"
     },
     {
       "id": "AI-PRM::context-mühendisi::uretim-02",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__uretim-02.md",
-      "chars": 4004,
-      "sha256": "0e861ae4075b4e29d605609b2ff6f9c83b7fe647a7ed862d00b622625317c9a3"
+      "chars": 4006,
+      "sha256": "97b26c405bf7dedf0fb31ea26829662a59e55e859a376ed319df2e2dcf265f74"
     },
     {
       "id": "AI-PRM::context-mühendisi::uretim-03",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__uretim-03.md",
-      "chars": 4004,
-      "sha256": "ee42192f857221b81396ac798edddfe172823d57ac6c5cb10e2acbe3cc9e1d15"
+      "chars": 4006,
+      "sha256": "2e61cfc1dfabe474300a917984c63a94df70f418679c80ed44436897e8f3cb0f"
     },
     {
       "id": "AI-PRM::context-mühendisi::uretim-04",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__uretim-04.md",
-      "chars": 4004,
-      "sha256": "49e3454133cb5c0b183074f45077f2a38d77a7dd5eef5821df197abf0b080542"
+      "chars": 4006,
+      "sha256": "227f368e6f0e6076854159836901fdd44acde32c47484df2afa789ce7a6f6d83"
     },
     {
       "id": "AI-PRM::context-mühendisi::uretim-05",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__uretim-05.md",
-      "chars": 4004,
-      "sha256": "9d3fc16797812d698b1021259f93076089ee87668c89a9bffcd49c2c3f463f79"
+      "chars": 4006,
+      "sha256": "d60f603c4fd5a2a62bc3232567a01bb75db6186aee3ff51a13813384f34dd931"
     },
     {
       "id": "AI-PRM::context-mühendisi::uretim-06",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__uretim-06.md",
-      "chars": 4004,
-      "sha256": "b7e612dcc9d46ce7e09272fbbd8124a8b41af245c2085ad00a24d46726f75634"
+      "chars": 4006,
+      "sha256": "abfd34cbcb87f1a0b78338a56d7685fc17d07ee77c45512cf550c351e4ae2442"
     },
     {
       "id": "AI-PRM::context-mühendisi::uretim-07",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__uretim-07.md",
-      "chars": 4004,
-      "sha256": "52535e4b4d2eeea8f233dd1e711af78195c84a82cc961a08f257f59b0b387d97"
+      "chars": 4006,
+      "sha256": "8e712b3e00aa06163042f9ed1b991220cd36add3b8ce0c5e5e8ce0aac1067fe5"
     },
     {
       "id": "AI-PRM::context-mühendisi::uretim-08",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__uretim-08.md",
-      "chars": 4004,
-      "sha256": "bb5d63e25688654886e0e932e5524b1c1f88deca19ad5286b802b515b1edaa45"
+      "chars": 4006,
+      "sha256": "44e8281ca1bf66e982af91e118d1ee7368f7bf3d547bf2db1f14e2abefb85c97"
     },
     {
       "id": "AI-PRM::context-mühendisi::uretim-09",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__uretim-09.md",
-      "chars": 4004,
-      "sha256": "e16432414171c98941043c4304faa2fe0d65ccc6a49ed57df859890781b14b8e"
+      "chars": 4006,
+      "sha256": "87c33aceccb31983fc27533f4aaab430a5104a7d93b5011f0bb91badd23c03bf"
     },
     {
       "id": "AI-PRM::context-mühendisi::uretim-10",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__uretim-10.md",
-      "chars": 4006,
-      "sha256": "5055e27baf9830eceffe7e93187c968b510cfdb6fd2ca0923a9705fd7f323e2c"
+      "chars": 4008,
+      "sha256": "688c18fa42ad7f0f9c5deca20a3b9c657bb886978f39727c5ad94a3bf69bfb0e"
     },
     {
       "id": "AI-PRM::context-mühendisi::uretim-11",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__uretim-11.md",
-      "chars": 4006,
-      "sha256": "f016eca5a8d898dabdccabedfbba7524ba3aefec611fa67b1a9c5a77d447fb4a"
+      "chars": 4008,
+      "sha256": "999802cff035a091860239dfa53dad542f70bac10bb2bbdd1093a20ce6be5214"
     },
     {
       "id": "AI-PRM::context-mühendisi::uretim-12",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__uretim-12.md",
-      "chars": 4006,
-      "sha256": "86488c67f09ab3dcdfaa5c5ba099fb33cf6beebd3ca734cdae489261d3ddf60f"
+      "chars": 4008,
+      "sha256": "b0b2500d08dc35952e8af7861347d37d3f2e86dfd2873c3dfa0f16d6990906d2"
     },
     {
       "id": "AI-PRM::context-mühendisi::uretim-13",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__uretim-13.md",
-      "chars": 4006,
-      "sha256": "3fce9a643c2843c24aaecc9a8c8cdb0b67cd053997422484c03ff092894001e0"
+      "chars": 4008,
+      "sha256": "1552c876ecd12d6986da479979bc695584e34d14431c3a070dac9045a7ead5f0"
     },
     {
       "id": "AI-PRM::context-mühendisi::uretim-14",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__uretim-14.md",
-      "chars": 4006,
-      "sha256": "6f4166ae75a56b0d9b5efe4d398b0a90189a1fe55f63887ce0934434cd33a327"
+      "chars": 4008,
+      "sha256": "93403682d060f9c571b1aa58f3495b127f9a8fc03873fc45f35185f332997910"
     },
     {
       "id": "AI-PRM::context-mühendisi::uretim-15",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__uretim-15.md",
-      "chars": 4006,
-      "sha256": "7c35072b1790251d5e8f1d93c4f19758dd0bc458c0e851ab2f58b86c9e2d1716"
+      "chars": 4008,
+      "sha256": "8a0eed25558aded77f133e49848559dbbd64f72b93a2fc7978a42a2a892b7f5a"
     },
     {
       "id": "AI-PRM::context-mühendisi::uretim-16",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__uretim-16.md",
-      "chars": 4006,
-      "sha256": "04a5cb4f95672440c4bde1535de649dfd784f791d5e4c3ff5d426eb8db61e833"
+      "chars": 4008,
+      "sha256": "537873bb763e659ad97d819f8a8e91bf06971727f0f24ebd893f17fd9e299220"
     },
     {
       "id": "AI-PRM::context-mühendisi::uretim-17",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__uretim-17.md",
-      "chars": 4006,
-      "sha256": "d307c0304bc6456d6a3900d3359959781bb76ec4884c6969482f30eff2dadb17"
+      "chars": 4008,
+      "sha256": "f12ebb82c18103b1d389641ce0f66e69fe043c0f66ee2937d989d11770980d1e"
     },
     {
       "id": "AI-PRM::context-mühendisi::denetim-01",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__denetim-01.md",
-      "chars": 4009,
-      "sha256": "5414ceb62392c0afebc2dda9677f19640b11da45b345f10f2fafb7954e7cb382"
+      "chars": 4011,
+      "sha256": "4f570b96340563f1ac4b7930965b99c68bc398a386cfeaf0f90b1b3c11599adf"
     },
     {
       "id": "AI-PRM::context-mühendisi::denetim-02",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__denetim-02.md",
-      "chars": 4009,
-      "sha256": "1392db7c343ea457cb04baa479bf53f27ecee223859ab02d5293d5e1aeac2da3"
+      "chars": 4011,
+      "sha256": "f39963bbad39cbed4c18b559202a5a2d3155e1ae3e2d780d86246c5840fd7dcf"
     },
     {
       "id": "AI-PRM::context-mühendisi::denetim-03",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__denetim-03.md",
-      "chars": 4009,
-      "sha256": "4e2650c5b4a95cde4d895455daab56f354c02af759fd58f25598029aac356c24"
+      "chars": 4011,
+      "sha256": "27c97a0f1f42481b7b5ab6bc588383f45cf708b40e7a4ea566d35955083ed4bf"
     },
     {
       "id": "AI-PRM::context-mühendisi::denetim-04",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__denetim-04.md",
-      "chars": 4009,
-      "sha256": "4c9775eb237999aed02a7d21c9289d26727bae3b2180d5be0cbcdd5b2d67ce15"
+      "chars": 4011,
+      "sha256": "e22dd9bfab62922f385e3a61f929643f38d27ad127ba830951b0d23bd3ccdc47"
     },
     {
       "id": "AI-PRM::context-mühendisi::denetim-05",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__denetim-05.md",
-      "chars": 4009,
-      "sha256": "82b6fed220600f4bd1b239d163bdca086bf2eb9b0633fb95331e4d9815e006be"
+      "chars": 4011,
+      "sha256": "79db2ec846a4d7d784a38681c100982f4bb03e20200d177ad2aa627d53c16ab8"
     },
     {
       "id": "AI-PRM::context-mühendisi::denetim-06",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__denetim-06.md",
-      "chars": 4009,
-      "sha256": "58817a40819af320d193517d8ddbbbca2924f38426746a5ff1abf6bf4bdc23e6"
+      "chars": 4011,
+      "sha256": "3848adac93f9560c548c5a01341ce6e8907353d4047ea5fc9e4f6aa3b0b76b0c"
     },
     {
       "id": "AI-PRM::context-mühendisi::denetim-07",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__denetim-07.md",
-      "chars": 4009,
-      "sha256": "99acd7447e177abc9d52e4810641b5a0fcab806360cea00ee97d5f21039236f2"
+      "chars": 4011,
+      "sha256": "96d0a6cb8170ced4c263c33f212d61f0f6a93912e931c2f0d3af2c3878bdb683"
     },
     {
       "id": "AI-PRM::context-mühendisi::denetim-08",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__denetim-08.md",
-      "chars": 4009,
-      "sha256": "39bc8d865f585487851dba9057a1fe255e7b802bfaa0a93636a6278020aa7154"
+      "chars": 4011,
+      "sha256": "307ffff910e898e93f155e0412269a737056794d5a557cbf5a7d74402bb92cb3"
     },
     {
       "id": "AI-PRM::context-mühendisi::denetim-09",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__denetim-09.md",
-      "chars": 4009,
-      "sha256": "a31ce61bbe0a2aef3d8c993cc45eb2ce0e2e7c578b8355b074d90f9b5801cb80"
+      "chars": 4011,
+      "sha256": "013c8eb6968d17bb3c5f4a0f4e8c0de513a975aadb6d809795479b6b91fa3a5f"
     },
     {
       "id": "AI-PRM::context-mühendisi::denetim-10",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__denetim-10.md",
-      "chars": 4011,
-      "sha256": "69e5262389a4cdac3b70ce1b63d3f82fb7822463d0f2e3463c30d593fe82bdda"
+      "chars": 4013,
+      "sha256": "bf5d9e690d9e26e2da286be5397b27f772635cdfe7b1f7bd4fce5c4f2bedc35f"
     },
     {
       "id": "AI-PRM::context-mühendisi::denetim-11",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__denetim-11.md",
-      "chars": 4011,
-      "sha256": "fd7ee581c8d9b510d491eaf8217e37cbfdb38a7ce39c265069af48f51e2d0c83"
+      "chars": 4013,
+      "sha256": "a1788151bf9934d54a317fbe27dcb9d05025110c1eb5534b7c5712bb0866f0c9"
     },
     {
       "id": "AI-PRM::context-mühendisi::denetim-12",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__denetim-12.md",
-      "chars": 4011,
-      "sha256": "196473abf0760547b839fb61dd480fd27a8236a2f7df6751159b28ae5d1cf1cb"
+      "chars": 4013,
+      "sha256": "e81a8ecdcefb6a41e1de71e4362192fb73e2bd10871060c5b0b70755b54ee3a7"
     },
     {
       "id": "AI-PRM::context-mühendisi::denetim-13",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__denetim-13.md",
-      "chars": 4011,
-      "sha256": "64418bc330e1f9ae8a40ab22abf82307458c196a13de385f3d7e0a1c2b704314"
+      "chars": 4013,
+      "sha256": "202555754359133dcede8119620521849d8bbed1b0869db292e5459c7ba3da65"
     },
     {
       "id": "AI-PRM::context-mühendisi::denetim-14",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__denetim-14.md",
-      "chars": 4011,
-      "sha256": "d298891c2611bfb61e5727ebdfd0df5ad348fd0c87139c606461891c6a480d7b"
+      "chars": 4013,
+      "sha256": "d1b0016dcb6c8ab35d6fc89c2ea338af0cd7f23b3d5a0d7d168b56e9c3453b01"
     },
     {
       "id": "AI-PRM::context-mühendisi::denetim-15",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__denetim-15.md",
-      "chars": 4011,
-      "sha256": "b84ca52eae6009e25867c9320db7ae420b5caf8c5efd3326494c4cd06474fdb3"
+      "chars": 4013,
+      "sha256": "feea0ea23bafbffde7a1450fd5bf869dae5df8cf73f8b3d93e7e6778bd1a688b"
     },
     {
       "id": "AI-PRM::context-mühendisi::denetim-16",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__denetim-16.md",
-      "chars": 4011,
-      "sha256": "83c0fd522f2339f3fb6e45fd95768107aa28951e6701d4acfe4b56bfb4a2c170"
+      "chars": 4013,
+      "sha256": "c2a7a2ebed4ddbbbb28cdfc4771d1c8233615a047edf7fa1f9f567c957363258"
     },
     {
       "id": "AI-PRM::context-mühendisi::denetim-17",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__denetim-17.md",
-      "chars": 4011,
-      "sha256": "5835d41e8739839bf8bfa8ee0391b6372a19c73394df6926691e1c2a6b9cd78b"
+      "chars": 4013,
+      "sha256": "0df54d5a579a4f5a9185cb9516a294cbeeb7d87e86d7b0acd2db9eecc09b0eff"
     },
     {
       "id": "AI-PRM::context-mühendisi::operasyon-01",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__operasyon-01.md",
-      "chars": 4027,
-      "sha256": "bdbb0d0c07c522cea17a0bf0341254fca4ce02767c14631d4a3b4d3628d086e0"
+      "chars": 4029,
+      "sha256": "7980dc27e477cf4fc86237e08cea0e53ce8ba17ed3865c5b3c2669b1695b7113"
     },
     {
       "id": "AI-PRM::context-mühendisi::operasyon-02",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__operasyon-02.md",
-      "chars": 4027,
-      "sha256": "b0faef36f3a57a6ed895ee8fee884918a7c6008db13fe5c49d3d4f40733d290d"
+      "chars": 4029,
+      "sha256": "3efcbd0c49a402081bbafb12ec08c172cb61d12bd7c8d4c8ccf7b6e7fcfc71d3"
     },
     {
       "id": "AI-PRM::context-mühendisi::operasyon-03",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__operasyon-03.md",
-      "chars": 4027,
-      "sha256": "0fbe98cd944fcc70a8d1b1b1c3d94d6449ca2a6830a608ae8acb027bb635a224"
+      "chars": 4029,
+      "sha256": "f77c8cdb5eed52c82e05fde1687c1bf67e52935131c32cee15a5b29d666042e3"
     },
     {
       "id": "AI-PRM::context-mühendisi::operasyon-04",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__operasyon-04.md",
-      "chars": 4027,
-      "sha256": "43d4850f5e1f9ac4d20ac408f5b57098b4bb0950b0b530e325d52c513e9c874d"
+      "chars": 4029,
+      "sha256": "bbfab0893a384224ed67a439f70c82526fff352943aa5cec0e946a962646d3be"
     },
     {
       "id": "AI-PRM::context-mühendisi::operasyon-05",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__operasyon-05.md",
-      "chars": 4027,
-      "sha256": "eef3b969873f64234ea0c648ff5ee6a4993ae3caab760a7ec6c08100c370f36e"
+      "chars": 4029,
+      "sha256": "59665de142d63d7323e2e7d73308154343fd12b683929b4f4636ed76195a09dc"
     },
     {
       "id": "AI-PRM::context-mühendisi::operasyon-06",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__operasyon-06.md",
-      "chars": 4027,
-      "sha256": "355d311317932195a7d2da88bc2fd09e5fee429ace84060d7a35a84876e8d655"
+      "chars": 4029,
+      "sha256": "c231bf7ac092a283e1e43e119ea8c733e93883ee8f9575028c6dc4c91987187a"
     },
     {
       "id": "AI-PRM::context-mühendisi::operasyon-07",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__operasyon-07.md",
-      "chars": 4027,
-      "sha256": "626cd36d90e1139296a0752e28a39d0fa6214f65d88d7c46faec68bb52621c64"
+      "chars": 4029,
+      "sha256": "e3fc8f3f632ad6a81b36a38446056f65c245148601e7ebc625da50761aa892b6"
     },
     {
       "id": "AI-PRM::context-mühendisi::operasyon-08",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__operasyon-08.md",
-      "chars": 4027,
-      "sha256": "5428de29ad12ea5276506934ef2c35afd9c535d49a3ae936014d7acd8d8de852"
+      "chars": 4029,
+      "sha256": "4067ae77d843c033589b055cc430ac18e8f2250fd3b945e96f04e58d1b78408a"
     },
     {
       "id": "AI-PRM::context-mühendisi::operasyon-09",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__operasyon-09.md",
-      "chars": 4027,
-      "sha256": "db54ac59debdfb33d7d3a484fbbff63071f09f6526b844f3c3a3380264f6c835"
+      "chars": 4029,
+      "sha256": "ea3fb4e8cd8d1e34b8f38d2a87ea8342c119923543046044745e764f41b19125"
     },
     {
       "id": "AI-PRM::context-mühendisi::operasyon-10",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__operasyon-10.md",
-      "chars": 4029,
-      "sha256": "27e04a138c610072528ae20eb54d508a0d2ee7e5369e24fd1ee283ac9c1bdbd8"
+      "chars": 4031,
+      "sha256": "b9c7ca2e7a1452df995cb18bb6225dd5ff089cbd522651c3a46fb5a8503f7f97"
     },
     {
       "id": "AI-PRM::context-mühendisi::operasyon-11",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__operasyon-11.md",
-      "chars": 4029,
-      "sha256": "0841e90aad352e3a174a520d75718a08c1d4453b0a0af56baa566afedbbbbc1a"
+      "chars": 4031,
+      "sha256": "c4cbe2d9f1305aca7978c972388d5aa0791079219f73ff249d1f0640614ea545"
     },
     {
       "id": "AI-PRM::context-mühendisi::operasyon-12",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__operasyon-12.md",
-      "chars": 4029,
-      "sha256": "fcdc446c68f419c8275e19f345ea256a736d471b2ff37845440d81004bab5d45"
+      "chars": 4031,
+      "sha256": "29935e86fd5a281bbfa672ef99d7913a5f80e009f3d80458eaed35eeb6452ba2"
     },
     {
       "id": "AI-PRM::context-mühendisi::operasyon-13",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__operasyon-13.md",
-      "chars": 4029,
-      "sha256": "e1c318a25c73bc6c60cf204c33d1ea5e5e31249c4cb2f8c136df8bfd22287f83"
+      "chars": 4031,
+      "sha256": "d195e77dda8258ee23dc3c658df7e22fd6605001f527f7216d93b97dc246f4c9"
     },
     {
       "id": "AI-PRM::context-mühendisi::operasyon-14",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__operasyon-14.md",
-      "chars": 4029,
-      "sha256": "2b90a24be843e1057d2180efeb4ed39967e81814b29df1fcbef9bafad6c6fd28"
+      "chars": 4031,
+      "sha256": "4eb7aa1f294cb718f8852975d013ff57b8ebf07bea5ee056649b0032f9314373"
     },
     {
       "id": "AI-PRM::context-mühendisi::operasyon-15",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__operasyon-15.md",
-      "chars": 4029,
-      "sha256": "a52b945ff59250cb02ab4b48f92952b95530d2bc4955f2e3ef06022ca846576b"
+      "chars": 4031,
+      "sha256": "53fe1ba531015cf82bc2291315368f83bbe52eaea65306d367548ef77b44c747"
     },
     {
       "id": "AI-PRM::context-mühendisi::operasyon-16",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__operasyon-16.md",
-      "chars": 4029,
-      "sha256": "6821ecac8954f3794c3339265ec8649fca546ab22c2fdd260acd169bbd81109a"
+      "chars": 4031,
+      "sha256": "80b7f0392204a304f6681ff2aa79d28fa2afc73a0b9ab133de3cb99e0edb7495"
     },
     {
       "id": "AI-PRM::context-mühendisi::operasyon-17",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__operasyon-17.md",
-      "chars": 4029,
-      "sha256": "7429a59805ac88c87d52f9f20bb795f82b2b0bb43a61deb5eba39deaceda3e95"
+      "chars": 4031,
+      "sha256": "f314b5d29645b41d421d8176a535f55d30d4a16cf82dfa3f9af0a91dbbb7cf20"
     },
     {
       "id": "AI-PRM::context-mühendisi::gelir-01",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__gelir-01.md",
-      "chars": 4236,
-      "sha256": "c5caae9d3beff2e791745ce01464eff219f709e39be32944f87886e6c0243248"
+      "chars": 4238,
+      "sha256": "bbaf98675049812c7ec4d6e8b8f9b69634e2511b9137ff09a4e93695c0cfd6af"
     },
     {
       "id": "AI-PRM::context-mühendisi::gelir-02",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__gelir-02.md",
-      "chars": 4236,
-      "sha256": "930777a532e61f4b1c218c6c64b1e9c614bc976ee08c6d46f874371e3fdc7ef8"
+      "chars": 4238,
+      "sha256": "79a342ee02f1ec3260e041340d155dd39407197729a007687f314f44761c9c3f"
     },
     {
       "id": "AI-PRM::context-mühendisi::gelir-03",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__gelir-03.md",
-      "chars": 4236,
-      "sha256": "6403ba0d73cef1cdde3d009a8c33166fea538f70f91ef8fd7991930399cd6e5c"
+      "chars": 4238,
+      "sha256": "0118cdda8b9547acc86e3c46a414e08749f71696aeee5a2b75f87b072694a5d2"
     },
     {
       "id": "AI-PRM::context-mühendisi::gelir-04",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__gelir-04.md",
-      "chars": 4236,
-      "sha256": "ed4798a3213f66c4012ff8880d36923599c1c379863b4b409d1f8ed656b5ce06"
+      "chars": 4238,
+      "sha256": "c3f431301f28f1175f6b1b0c8314cf9fa9fa34a0de911697379ad553985b0988"
     },
     {
       "id": "AI-PRM::context-mühendisi::gelir-05",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__gelir-05.md",
-      "chars": 4236,
-      "sha256": "d67a9b847fff88fb68d7e49d01b940f5fc3e90d3b86cc91c8b63410b09b5bba1"
+      "chars": 4238,
+      "sha256": "b5d451eaaa31182cc0ee1749651a5e79b0189d6ab930a21570eda3993785b53b"
     },
     {
       "id": "AI-PRM::context-mühendisi::gelir-06",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__gelir-06.md",
-      "chars": 4236,
-      "sha256": "3fd6c22920cea9e6a0c5c5f26ecf1ed299b2bb4cbd9fb844621aa6580367535d"
+      "chars": 4238,
+      "sha256": "4952ee8f2bbcde5cf9a79f55e27dde4ca1cc59d62c2268b40b2022dd6773d6fb"
     },
     {
       "id": "AI-PRM::context-mühendisi::gelir-07",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__gelir-07.md",
-      "chars": 4236,
-      "sha256": "5dc2817b63799cde0e573dbcc4e6d49ed72ef99f615cbf92f74a9c3fd665bd21"
+      "chars": 4238,
+      "sha256": "ad44728951b74129906144ace1e4f38775bb74fd2a6af56c53cdca5a7481d362"
     },
     {
       "id": "AI-PRM::context-mühendisi::gelir-08",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__gelir-08.md",
-      "chars": 4236,
-      "sha256": "5d7533dc91f61a276048ff5a1f2fa67b1de0a5eb521f38179a16b970cd097504"
+      "chars": 4238,
+      "sha256": "2b7bffdf46daf709c7d7e0d81b55068393869a77ecbd1599222afc9b26eb7168"
     },
     {
       "id": "AI-PRM::context-mühendisi::gelir-09",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__gelir-09.md",
-      "chars": 4236,
-      "sha256": "5b88d769fbdca04944e17350bf58a421c5ed540e00d282739bf32881ddd7362a"
+      "chars": 4238,
+      "sha256": "a7e918146c89744374f39dbbbe16adfb978b90854b47fbf56b4f7d3a8ca16f44"
     },
     {
       "id": "AI-PRM::context-mühendisi::gelir-10",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__gelir-10.md",
-      "chars": 4239,
-      "sha256": "e11d78b5becb42877fd3cc036edc6e75a534d8b5b4176995ebe4a97b530e8d60"
+      "chars": 4241,
+      "sha256": "2fa468b102a3968e72bbd4db4f117d1e4fbe3108c2e9ef61633a06d960a92961"
     },
     {
       "id": "AI-PRM::context-mühendisi::gelir-11",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__gelir-11.md",
-      "chars": 4239,
-      "sha256": "3b04e480e775cf46f6a680b640a77f0082af6d0773e6f40d573723d9b0681944"
+      "chars": 4241,
+      "sha256": "8fce05c1b69a60aae30092f4eeb60e1931bc8d5cc23f7c952f1905e98becbe8e"
     },
     {
       "id": "AI-PRM::context-mühendisi::gelir-12",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__gelir-12.md",
-      "chars": 4239,
-      "sha256": "475db922171e384738ec1c7e33d846344a0e41122ccd1e527c6f7719faddb33a"
+      "chars": 4241,
+      "sha256": "1bd54fca7682cf53255a7ae837ea2cdd2c94f3af2af832752c5481ed367dfafc"
     },
     {
       "id": "AI-PRM::context-mühendisi::gelir-13",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__gelir-13.md",
-      "chars": 4239,
-      "sha256": "d93d0ff3041ac071b840d0c9cdc4bbd3b1551b32e32489a667457735e6b6bc66"
+      "chars": 4241,
+      "sha256": "299084e2265145b4cd456caa7beb4ea3ef7c3d2f59e41b7414c6a531fe2b2a10"
     },
     {
       "id": "AI-PRM::context-mühendisi::gelir-14",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__gelir-14.md",
-      "chars": 4239,
-      "sha256": "66b91cc0d4c0b77726b2ab5295ff7a5137ed555a0c2291000c89a3a7b1d50d56"
+      "chars": 4241,
+      "sha256": "758788eb4a9f487f1bad583fc5b08ed7ba515dfea24898eda4fa6ecfa8916203"
     },
     {
       "id": "AI-PRM::context-mühendisi::gelir-15",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__gelir-15.md",
-      "chars": 4239,
-      "sha256": "040f4f2fec513b91994d917c8a4fbf5ddf042d2a9fc6c465db852448a54a64c6"
+      "chars": 4241,
+      "sha256": "5a30069cc6cf3f6bd44829263f5ba857691a1178a2fdd75f52c5e5235c8dd27d"
     },
     {
       "id": "AI-PRM::context-mühendisi::gelir-16",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__gelir-16.md",
-      "chars": 4239,
-      "sha256": "a65baa769093e269d628ba9ee63d0d703960889b89ee83a9af8cd68b5d3b5249"
+      "chars": 4241,
+      "sha256": "7785b65c037a22b7faa97f2e3d0286ba23ed6bb2214b4026bb0c2a58a1b44f1d"
     },
     {
       "id": "AI-PRM::context-mühendisi::gelir-17",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__gelir-17.md",
-      "chars": 4239,
-      "sha256": "fbf047ad976226266b8a3bc4eb49c9fb63960293fc7f3994f97b36f758a131e6"
+      "chars": 4241,
+      "sha256": "8dff50c30e1155a6435f2967ee899d9716e8c64f819393ab24fb80659e4a781d"
     },
     {
       "id": "AI-PRM::context-mühendisi::iletisim-01",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__iletisim-01.md",
-      "chars": 4021,
-      "sha256": "29212e569b937b244e058e5d6338f6abde91f9a6c32483b28d5f8fff3ca047c4"
+      "chars": 4023,
+      "sha256": "11b12b14c893115b82952ac36195272e6125396da97170e3326e57a88c0a32a6"
     },
     {
       "id": "AI-PRM::context-mühendisi::iletisim-02",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__iletisim-02.md",
-      "chars": 4021,
-      "sha256": "a56c5864768053c4498653f35b903dc60b76680c11be28362ef37310d0866899"
+      "chars": 4023,
+      "sha256": "00ad3be9cbab8d84f1b77d679266d6d8feb37a159ac13d13c5882a2d657d79c7"
     },
     {
       "id": "AI-PRM::context-mühendisi::iletisim-03",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__iletisim-03.md",
-      "chars": 4021,
-      "sha256": "1f32c94fca308f0527bce9feef905d7b9545e4827f3dc5c592fa9d4d3d5aff5f"
+      "chars": 4023,
+      "sha256": "fd047c5d666b50929f8b4ed2ecffd1de2385905a173780dadbd1bcf01a9fa5a1"
     },
     {
       "id": "AI-PRM::context-mühendisi::iletisim-04",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__iletisim-04.md",
-      "chars": 4021,
-      "sha256": "f86e619c4ec6580b98c5de471da50e31f2822f16ea7fa3111be3900d74a084d6"
+      "chars": 4023,
+      "sha256": "a41c5cbc19c8e9cfdda8d4d9f4fb497129c50c87f59da1973b3059d4aaeefad4"
     },
     {
       "id": "AI-PRM::context-mühendisi::iletisim-05",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__iletisim-05.md",
-      "chars": 4021,
-      "sha256": "0e8a311a6b8d55a47f50130cdf5e9186ce166b1fec9553f44e3a9eb1fcc783a1"
+      "chars": 4023,
+      "sha256": "233401aa57c9a4e8574161e7f2939382b77d8133b86f397c56ae896e092dbdee"
     },
     {
       "id": "AI-PRM::context-mühendisi::iletisim-06",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__iletisim-06.md",
-      "chars": 4021,
-      "sha256": "760588b48434b9d8c774235682d1317fd92c0a13a30677fbf7b98a92b01d0f9b"
+      "chars": 4023,
+      "sha256": "4b17bab40679f83dee154f2917a2cab98ac5ba5d342b1ea15b51c90743dfd32b"
     },
     {
       "id": "AI-PRM::context-mühendisi::iletisim-07",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__iletisim-07.md",
-      "chars": 4021,
-      "sha256": "ba040b6db2fd96e3198cfc062daaeaa00511980ec5f7b3db31bbc716255110c2"
+      "chars": 4023,
+      "sha256": "e91203cb3e0444f8fb1bd40da82cd82f0128eb95fb918585f5cf7301b49b261b"
     },
     {
       "id": "AI-PRM::context-mühendisi::iletisim-08",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__iletisim-08.md",
-      "chars": 4021,
-      "sha256": "89ba79cae7454771af508c70b711b4e2f80e30b642ab00301b392a3cdf2af998"
+      "chars": 4023,
+      "sha256": "3efd45f619ed3af2a9fd3601e32f5143dc406ce273f127a4956351cff57d3ec6"
     },
     {
       "id": "AI-PRM::context-mühendisi::iletisim-09",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__iletisim-09.md",
-      "chars": 4021,
-      "sha256": "408b78706c5ef2b99d4264f0cb5b8e693c132c988cea8325652efe7e5b093ab8"
+      "chars": 4023,
+      "sha256": "f8fcb4c0aa6161cb781206ffef1a15dd4578b097998f231e969dac625773ad34"
     },
     {
       "id": "AI-PRM::context-mühendisi::iletisim-10",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__iletisim-10.md",
-      "chars": 4023,
-      "sha256": "c3894a34135e49d048afdb18c33535faaab52d326e973acde2c67239308471ea"
+      "chars": 4025,
+      "sha256": "577ae094275f10979a0a5716204b317f4f8e40607a37e391ae4bb6b864eedf62"
     },
     {
       "id": "AI-PRM::context-mühendisi::iletisim-11",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__iletisim-11.md",
-      "chars": 4023,
-      "sha256": "1a9f14f675b8b766e5b036ac3bdb5661c82213ebe45eadee43e1bdfc6b20d1f4"
+      "chars": 4025,
+      "sha256": "c7f24dbc67ac77dbfd3c87bd386c20ab77c2ed72d1c279c96f1d181269805f13"
     },
     {
       "id": "AI-PRM::context-mühendisi::iletisim-12",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__iletisim-12.md",
-      "chars": 4023,
-      "sha256": "9f11f63f44e41161534940c974cc2b7f24aeae3540fd01bfe5f9bfd121200bd8"
+      "chars": 4025,
+      "sha256": "48e27922f43affd697653577f962f3195935215ae59be0af054d0a138dfa6194"
     },
     {
       "id": "AI-PRM::context-mühendisi::iletisim-13",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__iletisim-13.md",
-      "chars": 4023,
-      "sha256": "0b6f6116a747d35d376904d7a8e5b82ea18ad43bb8167ce46a7124645fa528ae"
+      "chars": 4025,
+      "sha256": "93866d2a60803af75c0115464d6a9d32571e30e7958c355724dbc7096624ed9d"
     },
     {
       "id": "AI-PRM::context-mühendisi::iletisim-14",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__iletisim-14.md",
-      "chars": 4023,
-      "sha256": "8ae91da2c2b1eb292485d563a1a85ed6dbb929e8ece3fba43d7b47255d46e669"
+      "chars": 4025,
+      "sha256": "5e726d5599902fc019249ec968476860dbef07e5f806aeee3718f6ee42ae11b5"
     },
     {
       "id": "AI-PRM::context-mühendisi::iletisim-15",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__iletisim-15.md",
-      "chars": 4023,
-      "sha256": "6118f155005e398b62b6d58629c39bc90fd10b29f352a0e66adb9c3b41be8919"
+      "chars": 4025,
+      "sha256": "695320453bf6018724094100041085da50da077d3c124a4be8c8fdaee036f5a5"
     },
     {
       "id": "AI-PRM::context-mühendisi::iletisim-16",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__iletisim-16.md",
-      "chars": 4023,
-      "sha256": "b831081b3dc811b6f84f845df0ab34e4d22f08c9eaf06c3546046c8c24954de2"
+      "chars": 4025,
+      "sha256": "6d4a839340b419169fd118a6f392008e4a175668d87ac4e09b6561b2149df1b0"
     },
     {
       "id": "AI-PRM::context-mühendisi::iletisim-17",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__iletisim-17.md",
-      "chars": 4023,
-      "sha256": "e1df555747c34cb0b88b1777c8218807f807c3d5b9087b20d0bca28f1cf4ba2e"
+      "chars": 4025,
+      "sha256": "6a5dcfa25bc0bf30a4a1a8d8ef4a34e5f8a08b8a0e775457e785b1566fd7c7da"
     },
     {
       "id": "AI-PRM::context-mühendisi::ozel-01",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__ozel-01.md",
-      "chars": 4227,
-      "sha256": "9c79349ee6ce15edd0441481340ad57c8ed395da0cdb2cb7f470d1c847f91bc8"
+      "chars": 4229,
+      "sha256": "b44328bc3dee55f6a723fa5be4fc3dc522b5fba2b7997c8c4398389c6defa188"
     },
     {
       "id": "AI-PRM::context-mühendisi::ozel-02",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__ozel-02.md",
-      "chars": 4239,
-      "sha256": "64296d05daa2f98aa239d597ae7427a4432de2183c65b6f7e520d0407dcd062b"
+      "chars": 4241,
+      "sha256": "baca1ed3793a22a4a25b9f4e9da4f8df84971a882ee608ce59489365469abdf8"
     },
     {
       "id": "AI-PRM::context-mühendisi::ozel-03",
       "path": "uretim/promptlar/AI-PRM/context-mühendisi/AI-PRM__context-mühendisi__ozel-03.md",
-      "chars": 4211,
-      "sha256": "e49164215feeb8f12f45540bcc061918b626b02dfd88916794d91f8702777463"
+      "chars": 4213,
+      "sha256": "89db909087cc2af224d25d7db5f19b49b94a9b67380867e2eca94703b858e9c1"
     }
   ]
 }

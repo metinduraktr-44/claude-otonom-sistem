@@ -1,5 +1,5 @@
 # AYLIK GÜNCELLEME TAKVİMİ — Etki / Yetenek / MCP Arşivi
-> Oluşturma: 2026-11-01T05:35:53Z · Döngü: her ayın 1'i 06:00 UTC (`scripts/mcp_ajans_etki_uret.py --hepsi`)
+> Oluşturma: 2026-11-01T06:07:41Z · Döngü: her ayın 1'i 06:00 UTC (`scripts/mcp_ajans_etki_uret.py --hepsi`)
 
 ## Rutin
 1. MCP katalog + canlı sunucu farkı → `data/mcp_hiyerarsi.json`
