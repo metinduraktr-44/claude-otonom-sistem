@@ -2,6 +2,12 @@
 > Protokol: Her işlem [4] ÖĞREN adımında buraya "## [tarih] — [konu]" girişi ekler. En yeni en üstte.
 > Çelişki kuralı: Yeni öğrenim eskisiyle çelişiyorsa ⚠️ ÇELİŞKİ etiketi + hangisinin geçerli olduğu yazılır.
 
+## 2026-11-03T12:05:00Z — Tek sayfa iş listesi (URL+not + adam-saat)
+- Canlı `gh pr list`: açık **#31–#37**. #36 #37 çift draft (iş listesi); #35 MERGE; #34/#32/#31 CLOSE; #33 leftover `@v5`.
+- #23/#26/#27 **MERGED** (eski “draft close” geçersiz). FAZ6 bu PR’da yok.
+- Metin P0: Gemini [AI Studio](https://aistudio.google.com/apikey) + [Cursor Secrets](https://cursor.com/dashboard?tab=cloud-agents); #35 merge.
+- ⚠️ ÇELİŞKİ (çözüldü): 14:45 TRT rapor “5 açık PR” — **geçersiz**; 15:05’te 7 açık (#36/#37 eklendi).
+
 ## 2026-11-03 — Tek sayfa iş listesi (rapor-only)
 - Canlı `gh pr list`: açık #31–#35; GIGA #19–#30 MERGED; #23/#26/#27 artık draft değil.
 - ⚠️ ÇELİŞKİ: `uretim/TEK-SAYFA-RAPOR-MERGE-DURUM.md` 2026-08-31 “draft close 403 / ready GIGA 0” — **geçersiz**. Güncel: `uretim/TEK-SAYFA-IS-LISTESI.md`.
