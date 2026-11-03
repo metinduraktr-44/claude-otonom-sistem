@@ -4,7 +4,12 @@
 
 Faz 1 araştırma DIGEST. Kaynak: NIST, CIS, D3FEND, OWASP ASVS (savunma).
 
-## Bu tur (2026-08-27T12:54:55Z)
+## Bu tur (2026-11-03T09:56:32Z)
+| Dosya | İçerik |
+|-------|--------|
+| `2026-11-03-claude-code-social-engineering.md` | Sahte resmi eklenti / OmniRoute bait / untrusted Gemini export — ASSESS map |
+
+## Önceki (2026-08-27T12:54:55Z)
 | Dosya | İçerik |
 |-------|--------|
 | `threat-landscape.md` | Stack CVE/olay sınıfları, OWASP, STRIDE iskeleti |
