@@ -11,7 +11,7 @@
 | Envantere yazılan | 633 |
 | rol-kartlari mevcut | 48 |
 | git silinmiş (kurtarılabilir) | 72 |
-| JOB_CARDS üretildi | 0 (Faz 4) |
+| JOB_CARDS üretildi | 13 (CISO + hq-ceo + adops-ceo + 10 C-level skeleton 2026-11-03) |
 
 ## Git Kurtarma Notu
 

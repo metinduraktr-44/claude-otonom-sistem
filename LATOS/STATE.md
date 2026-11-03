@@ -1,26 +1,24 @@
 # LATOS STATE
 
 ```yaml
-faz: 1
+faz: 4-light
 os: LATOS
-son_komut: bootstrap+faz1-inventory
-ts: 2026-08-27T20:20:00Z
-inventory_rows: 397
-inventory_mevcut: 325
-inventory_silinmis: 72
-sample_job_card: JOB_CARDS/CISO
+son_komut: job-cards-10-c-level-skeleton
+ts: 2026-11-03T11:47:59Z
+inventory_rows: 633
+job_cards: 13
+headings_per_new_card: 10
 qa: soft-ok
 notlar: >
-  FAZ0 bootstrap + FAZ1 TITLE_INVENTORY tamam.
-  🚩 900M / 200H tek shot yok — DEVAM ile genişle.
-  Sonraki: FAZ2 RESEARCH veya /is-karti ile H006+.
+  10 C-level skeleton (HQ CTO/CFO/COO/CCO/CAIO + AdOps CFO/CMO/COO/CCO/CDO).
+  200 heading / 900M prompt yok. Restore insan onaylı.
 ```
 
 ## Açık escalation
 - Silinmiş `uretim/rol-kartlari/*` restore = insan onayı
 - Top-100 uzman listeleri henüz yok (FAZ 5)
+- Expert bio uydurma yok
 
 ## Son çıktılar
 - `ROSTER/TITLE_INVENTORY.md`
-- `JOB_CARDS/CISO/`
-- `uretim/devir/CURSOR-GIGA-MASTER-LATOS.md`
+- `JOB_CARDS/{hq-cto,hq-cfo,hq-coo,hq-cco,hq-caio,adops-cfo,adops-cmo,adops-coo,adops-cco,adops-cdo}/`
