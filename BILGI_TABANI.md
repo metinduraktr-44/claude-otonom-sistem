@@ -2,6 +2,10 @@
 > Protokol: Her işlem [4] ÖĞREN adımında buraya "## [tarih] — [konu]" girişi ekler. En yeni en üstte.
 > Çelişki kuralı: Yeni öğrenim eskisiyle çelişiyorsa ⚠️ ÇELİŞKİ etiketi + hangisinin geçerli olduğu yazılır.
 
+## 2026-11-03 — Security FAZ6 ISO 27001:2022 SoA + ARCHIVE stub
+- COMPLIANCE SoA 93 satır (ASSESS/kısmi=43 · GAP=32 · N/A=18); sertifika yok; 10 ek CTRL; katalog 89; matris 120 korunur
+- Öğrenim: iş listesi FAZ6=COMPLIANCE; katalog ID her matris satırına denk değil
+
 ## 2026-08-27 — LATOS GIGA Faz 0–1 bootstrap
 - CURSOR LATOS track additive kuruldu: 633 title envanter (`ROSTER/TITLE_INVENTORY.md`), 72 git-silinmiş rol-kartlari dokümante, hooks qa/citation, 8 skill + 3 subagent iskelet, 2 JOB_CARDS skeleton
 - Karakter hedefleri fazlı; 900M char/prompt imkânsız — dürüst plan. Sonraki: Faz 1 git detay, Faz 2 research, restart+DEVAM

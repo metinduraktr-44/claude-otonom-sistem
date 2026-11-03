@@ -45,10 +45,11 @@
 # GUARDRAIL AKTİF — savunma-only, secret-redakte, exploit-yok
 
 ### Faz
-- **phase:** `1–4` (Research + Org/Experts seed + Skill depth tranche + Controls 001–020×6)
+- **phase:** `1–6` (Research…Controls + **FAZ6 SoA iskelet** + ARCHIVE stub)
 - **MODE:** `ASSESS-ONLY` (varsayılan — gap/doküman; agresif kod değişikliği yok)
-- **last_command:** `sec-devam` / Faz 1+2+3+4 tranche
-- **last_updated_utc:** 2026-08-27T13:05:00Z
+- **last_command:** `sec-devam` / FAZ6 COMPLIANCE SoA
+- **last_updated_utc:** 2026-11-03T11:50:00Z
+- **last_updated_istanbul:** 2026-11-03T14:50:00+0300
 
 ### Guardrails
 - defense-only · secret-redakte · exploit-yok · tehlikeli shell yok
@@ -64,18 +65,19 @@
 - **Faz 1:** `SECURITY_RESEARCH/` threat-landscape · standards-currency · supply-chain
 - **Faz 2:** `ORG/ROLES/` 11 rol · `EXPERTS/` DIGEST + top100 CISO/AppSec/Crypto seed
 - **Faz 3:** 6 skill derinlik (secret-hygiene, threat-modeling, compliance-mapper, layers-engine, encryption-engine, transparent-code-engine)
-- **Faz 4:** **120 kontrol** (6×20) + `SECURITY_MATRIX/matrix.md` + CSV
+- **Faz 4:** **120 matris satırı** (6×20) + katalog CTRL + CSV
+- **Faz 6:** ISO 27001:2022 SoA 93 satır · 10 ek CTRL · `ARCHIVE/2026-11/security/` stub
 
 ### Aktif iş
-- **assessment_id:** sec-2026-08-27-faz1-4
-- **control_batch:** `001-020` × 6 motors (120/600)
-- **compliance_pack:** crosswalk seed (pack Faz 5)
+- **assessment_id:** sec-2026-11-03-faz6-soa
+- **control_batch:** matris `001-020` × 6 (120/600) + katalog **89** `CTRL-*.md`
+- **compliance_pack:** ISO SoA iskelet (NIST/CIS/SOC2 pack backlog)
 
 ### Sonraki adım (Security)
 1. Kontroller **021–100** (batch'li) — 6 motor
-2. Skill references → ~20k hedefe doğru ek derinlik
-3. GHA permissions matrisi + SHA pin gap ASSESS
-4. Faz 5 compliance pack iskeleti
+2. NIST CSF / CIS IG1 pack (SoA değil)
+3. Skill references → ~20k hedefe doğru ek derinlik
+4. GHA permissions matrisi + SHA pin gap ASSESS
 5. Canva MCP dokunulmadı — security MCP örnek kapalı
 
 ---
