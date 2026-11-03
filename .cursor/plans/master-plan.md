@@ -27,7 +27,7 @@
 - [ ] `/uzman-guncelle` döngüsü
 
 ## Faz 3 — Brief & Scenario Pipeline ✅ (seed)
-- [x] `/brief-uret` → BRIEFS/ (S01–S02 × 3 kanal)
+- [x] `/brief-uret` → BRIEFS/ (S01–S08 × 3 kanal; S03–S08 2026-11-03)
 - [x] `creative-scenarios` → SCENARIOS/01–08
 - [ ] critic-copy PASS döngüsü (hafif QA notu var)
 - [x] TASKS/MASTER_TASKS güncelleme

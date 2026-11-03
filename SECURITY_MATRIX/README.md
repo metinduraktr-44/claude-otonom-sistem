@@ -1,6 +1,7 @@
 # SECURITY_MATRIX
 
-- `matrix.md` — kontrol indeksi
+- `matrix.md` — kontrol indeksi (001–100 × 6)
+- `matrix-001-020.csv` / `matrix-021-100.csv`
 - `GAP-TEMPLATE.md` — gap şablonu
 
 MODE=`ASSESS-ONLY` default.

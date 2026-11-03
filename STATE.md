@@ -11,9 +11,9 @@
 ## Creative Agency OS
 
 ### Faz
-- **phase:** `5` (BRIEF-ONLY brief üretimi tamam — S01/S02; Faz 1–4 içerik de bu turda)
-- **last_command:** `/devam` continuum (Faz 0 refresh → 1 Research → 2 Org → 3 Scenarios → 4 Matrix → 5 Briefs → QA)
-- **last_updated_utc:** 2026-08-27T13:01:29Z
+- **phase:** `5` (BRIEF-ONLY — S01–S08 × 3 kanal)
+- **last_command:** `/devam` continuum (S03–S08 brief dalgası)
+- **last_updated_utc:** 2026-11-03T11:47:59Z
 
 ### CANVA modu
 - **default:** `BRIEF-ONLY` — tasarım üretimi yok; brief + spec + senaryo çıktısı
@@ -27,16 +27,16 @@
 - **ORG:** `ORG_CHART.md` + `SKILLS_INVENTORY.md` + `EXPERTS/DIGEST.md`
 
 ### Aktif iş
-- **brief_id:** `ADOPs-CRE-SEED-2026Q3` (S01/S02 × 3 kanal)
+- **brief_id:** `ADOPs-CRE-SEED-2026Q3` (S01–S08 × 3 kanal)
 - **scenario_id:** `S01`…`S08` (INDEX: `SCENARIOS/INDEX.md`)
 - **design_id:** — (BRIEF-ONLY)
+- **brief_count:** 24 (6 eski S01–S02 + 18 yeni S03–S08)
 
 ### Sonraki adım (Agency)
 1. Müşteri/marka kit → `CONTEXT/INBOX/` (TBD kilidi)
-2. S03–S08 için brief dalgası (`/brief-uret`)
-3. critic-copy / critic-spec tam PASS döngüsü
-4. (Opsiyonel) Canva OAuth — yalnızca CANVA:ON istendiğinde
-5. Cursor restart → `/devam` smoke
+2. critic-copy / critic-spec tam PASS döngüsü (S01–S08)
+3. (Opsiyonel) Canva OAuth — yalnızca CANVA:ON istendiğinde
+4. Cursor restart → `/devam` smoke
 
 ---
 
@@ -45,10 +45,10 @@
 # GUARDRAIL AKTİF — savunma-only, secret-redakte, exploit-yok
 
 ### Faz
-- **phase:** `1–4` (Research + Org/Experts seed + Skill depth tranche + Controls 001–020×6)
+- **phase:** `1–4` (Research + Org + Skills + **Controls 001–100×6 = 600**)
 - **MODE:** `ASSESS-ONLY` (varsayılan — gap/doküman; agresif kod değişikliği yok)
-- **last_command:** `sec-devam` / Faz 1+2+3+4 tranche
-- **last_updated_utc:** 2026-08-27T13:05:00Z
+- **last_command:** `sec-devam` / controls 021–100 + GHA pin gap ASSESS
+- **last_updated_utc:** 2026-11-03T11:47:59Z
 
 ### Guardrails
 - defense-only · secret-redakte · exploit-yok · tehlikeli shell yok
@@ -61,21 +61,20 @@
 - **holding çapraz:** `docs/SECRETS-DRYRUN-MATRISI.md`, `infra/`, workflows
 
 ### Bu tur özeti
-- **Faz 1:** `SECURITY_RESEARCH/` threat-landscape · standards-currency · supply-chain
-- **Faz 2:** `ORG/ROLES/` 11 rol · `EXPERTS/` DIGEST + top100 CISO/AppSec/Crypto seed
-- **Faz 3:** 6 skill derinlik (secret-hygiene, threat-modeling, compliance-mapper, layers-engine, encryption-engine, transparent-code-engine)
-- **Faz 4:** **120 kontrol** (6×20) + `SECURITY_MATRIX/matrix.md` + CSV
+- **Faz 4:** **600 kontrol** (6×100) + matrix CSV 001–020 ve 021–100
+- **GHA pin gap:** 25 tag-pin `uses:`, 0 SHA40 — `ASSESSMENTS/gha-pin-gap-2026-11-03.md` (workflow değiştirilmedi)
+- **Açık PR dokunulmadı:** #34 (draft ingest), #35 (PDF/DOCX ingest) — DEVAM ≠ merge
 
 ### Aktif iş
-- **assessment_id:** sec-2026-08-27-faz1-4
-- **control_batch:** `001-020` × 6 motors (120/600)
+- **assessment_id:** sec-2026-11-03-faz4-021-100
+- **control_batch:** `001-100` × 6 motors (**600/600** katalog hedefi)
 - **compliance_pack:** crosswalk seed (pack Faz 5)
 
 ### Sonraki adım (Security)
-1. Kontroller **021–100** (batch'li) — 6 motor
+1. Faz 5 compliance pack NIST CSF iskeleti
 2. Skill references → ~20k hedefe doğru ek derinlik
-3. GHA permissions matrisi + SHA pin gap ASSESS
-4. Faz 5 compliance pack iskeleti
+3. GHA SHA pin **uygulama** yalnızca MODE değişince / kullanıcı isterse
+4. IR playbook ASSESS (Faz 6)
 5. Canva MCP dokunulmadı — security MCP örnek kapalı
 
 ---
@@ -83,18 +82,18 @@
 ## LATOS (Living AI Talent & Organization System)
 
 ### Faz
-- **phase:** `0–1` (Bootstrap + Title Discovery START)
-- **last_command:** `latos-baslat` / Faz 0 bootstrap
-- **last_updated_utc:** 2026-08-27T20:20:00Z
+- **phase:** `0–4-light` (Bootstrap + Title Discovery + 10 JOB_CARDS skeleton batch)
+- **last_command:** `latos-devam` / 10 C-level JOB_CARDS (max 10 headings)
+- **last_updated_utc:** 2026-11-03T11:47:59Z
 
 ### Envanter
 - **title_count:** 633 (`data/holding_istirak_org.json`)
 - **master_list:** `ROSTER/TITLE_INVENTORY.md`
-- **job_cards_skeleton:** 2 (hq-ceo, adops-ceo)
+- **job_cards_skeleton:** 13 (CISO, hq-ceo, adops-ceo, + hq-cto/cfo/coo/cco/caio, adops-cfo/cmo/coo/cco/cdo)
 - **git_deleted_rol_kartlari:** 72 (dokümante; restore insan onaylı)
 
 ### Karakter hedefleri (fazlı — tamamlanmadı)
-- İş kartı 2000+/200 başlık → Faz 4
+- İş kartı 2000+/200 başlık → Faz 4 (şimdi 10 heading/title)
 - 122 prompt/title → Faz 8
 - 200 tahmin/gün → Faz 9
 - 900M char/prompt → imkânsız; fazlı yaklaşım dokümante
@@ -103,5 +102,5 @@
 1. Faz 1 tamamla: git deleted title detay dokümantasyonu
 2. Faz 2: `RESEARCH/_ORG_BEST_PRACTICE.md` genişlet
 3. Faz 3: `ORG/ORG_CHART.md` görsel/HTML
-4. Skill restart: Cursor restart + yeni chat + `/latos-devam`
-5. JOB_CARDS batch skeleton (10 title pilot)
+4. Sonraki 10 JOB_CARDS (Director) — 200 heading uydurma yok
+5. Skill restart: Cursor restart + yeni chat + `/latos-devam`
