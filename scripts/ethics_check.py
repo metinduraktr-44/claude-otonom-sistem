@@ -26,6 +26,7 @@ BLOCK_PATTERNS: list[tuple[str, re.Pattern[str]]] = [
     ("creds_stuffing", re.compile(r"(?i)\b(credential\s+stuffing\s+script|brute[- ]force\s+login\s+tool)\b")),
     ("bypass_guide", re.compile(r"(?i)\b(auth(?:entication)?\s+bypass\s+payload|privilege\s+escalation\s+exploit)\b")),
     ("curl_pipe_bash", re.compile(r"(?i)curl[^\n]*\|\s*(?:ba)?sh")),
+    ("wget_pipe_sh", re.compile(r"(?i)wget[^\n]*\|\s*(?:ba)?sh")),
     ("rm_rf_root", re.compile(r"(?i)rm\s+-rf\s+/\s*$")),
 ]
 
@@ -33,8 +34,9 @@ BLOCK_PATTERNS: list[tuple[str, re.Pattern[str]]] = [
 ALLOW_CONTEXT = re.compile(
     r"(?i)(\bdetect(?:ion)?\b|\bdefend\b|\bd3fend\b|\bmitigat\w*\b|\bprevent\b|"
     r"\bharden\b|\bmonitor\b|\bblock\b|\balert\b|incident\s+response|"
-    r"\byasak\b|\byok\b|\bdeny\b|\bforbid\b|\breddet\b|\bguardrail\b|\bfailclosed\b|"
-    r"\btehlikeli\b|\bbanned\b|\bprohibited\b|do\s+not|\basla\b|\bpattern\b)"
+    r"\byasak\b|\byok\b|\bdeny\b|\bforbid\b|\breddet\b|\brefuse\b|\bguardrail\b|\bfailclosed\b|"
+    r"\btehlikeli\b|\bbanned\b|\bprohibited\b|do\s+not|\basla\b|\bpattern\b|"
+    r"\bsosyal medya\b|\buydurma\b|\bresmi kaynak\b|\bdefense[- ]only\b)"
 )
 
 

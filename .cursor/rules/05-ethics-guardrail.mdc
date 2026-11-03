@@ -9,6 +9,8 @@ alwaysApply: true
 
 **Reddet / yeniden çerçevele:** saldırı aracı, exploit PoC, phishing kiti, malware, credential stuffing, bypass, silahlandırılmış zafiyet.
 
+**Sosyal medya / DM eklenti:** “Claude Code Setup (resmi Anthropic)”, sahte GitHub yıldızı, “bedava milyar token”, belirsiz script/`npx` — **kurma**. Yalnızca `docs.anthropic.com` · `github.com/anthropics` · `github.com/modelcontextprotocol`. ≥900k tek paste **RED**.
+
 **İzin:** hardening, detection rules (savunma), gap analizi, compliance paket, D3FEND mapping, secret hygiene, IR playbook (savunma).
 
 Şüphede: ASSESS-ONLY doküman üret; kod/payload verme. `scripts/ethics_check.py` hook ile hizalı kal.

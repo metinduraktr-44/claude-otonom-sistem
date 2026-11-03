@@ -36,6 +36,9 @@ Creative `expert-engine` korundu; güvenlik ikizi: `security-expert-engine`.
 | State | `SECURITY/STATE.md` (+ kök `STATE.md` creative) |
 | İş listesi | `docs/IS-LISTESI-GIGA-SECURITY.md` |
 | Sibling Canva | `docs/CILT13-CURSOR-GIGA-CANVA.md` |
+| Claude Code uyarıları (2026-11-03 ingest) | `SECURITY_RESEARCH/claude-code-guvenlik-uyarilari.md` · özet `docs/CLAUDE-CODE-GUVENLIK-OZET.md` |
+
+**Claude Code (sosyal medya):** “bedava milyar token”, sahte yıldız, “resmi Claude Code Setup eklentisi”, DM script = **RED**. Allowlist: `docs.anthropic.com` · `github.com/anthropics` · `github.com/modelcontextprotocol`. Mega-prompt (≥900k tek paste) **yazılmaz**.
 
 ## Çalıştır
 ```bash
