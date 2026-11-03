@@ -13,10 +13,10 @@
 | 2 | Org + Experts | `ORG/ROLES/` genişlet, `EXPERTS/` DIGEST | **bu tur seed** |
 | 3 | Control engines (batch) | LAYERS…CONDITIONAL stub→içerik | **120 kontrol** |
 | 4 | Matrix + Mapping | `SECURITY_MATRIX` doldurma, NIST map | **120 satır** |
-| 5 | Compliance packs | `COMPLIANCE/` NIST/CIS/ISO/SOC2 iskelet | bekliyor |
-| 6 | Detection & IR | SecOps skill derinliği, playbook ASSESS | bekliyor |
+| 5 | Compliance packs | `COMPLIANCE/` ISO SoA iskelet (NIST/CIS/SOC2 backlog) | **FAZ6 iş listesi: ISO SoA** |
+| 6 | Detection & IR | SecOps skill derinliği, playbook ASSESS | QA+IR stub var; derinlik bekliyor |
 | 7 | Skill depth | skill başına ~20k hedef (fazlı) | **6 skill başladı** |
-| 8 | QA + Archive loop | `QA/`, `ARCHIVE/`, aylık döngü | bekliyor |
+| 8 | QA + Archive loop | `QA/`, `ARCHIVE/2026-11/security` stub | **iskelet** |
 
 ## Faz 0 kabul kriterleri
 - [x] AGENTS.md Security OS

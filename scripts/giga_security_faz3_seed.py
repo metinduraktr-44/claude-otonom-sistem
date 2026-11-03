@@ -205,6 +205,30 @@ CATALOGS: dict[str, list[dict]] = {
             "dogrulama": "archive-loop skill + /arsivle komutu.",
             "gerekce": "Trend ve gap geçmişini korur.",
         },
+        {
+            "id": "CTRL-L-016",
+            "ad": "Kimlik katmanı — iş yükü ve insan kimlik envanteri",
+            "aciklama": "Repo OS kapsamında GitHub org üyeliği, GITHUB_ACTOR ve yerel agent kimliği envanteri; yerel IAM store yok.",
+            "nist_csf": ["Protect", "Govern"],
+            "n80053": ["IA-2", "AC-2"],
+            "iso": ["A.5.16", "A.5.18"],
+            "cis": ["CIS-5", "CIS-6"],
+            "owasp": ["A07:2021"],
+            "dogrulama": "ORG/ROLES + inventory.md kimlik satırları; GHA actor koşulları ASSESS.",
+            "gerekce": "Kimliksiz erişim ve sahte bot hesabı yüzeyini daraltır.",
+        },
+        {
+            "id": "CTRL-L-017",
+            "ad": "Kimlik doğrulama bilgisi — secret placeholder standardı",
+            "aciklama": "Parola/token/API anahtarı yalnızca ${VAR}|vault://|op://|<REDACTED>; gerçek değer commit ve sohbet yasağı.",
+            "nist_csf": ["Protect"],
+            "n80053": ["IA-5"],
+            "iso": ["A.5.17", "A.8.5"],
+            "cis": ["CIS-5"],
+            "owasp": ["A07:2021"],
+            "dogrulama": "python3 scripts/secret_scan.py; docs/SECRETS-DRYRUN-MATRISI.md.",
+            "gerekce": "Kimlik doğrulama sırrının sızması diğer kontrolleri geçersiz kılar.",
+        },
     ],
     "FIREWALLS": [
         {
@@ -350,6 +374,30 @@ CATALOGS: dict[str, list[dict]] = {
             "owasp": [],
             "dogrulama": "secret_scan SKIP_DIRS.",
             "gerekce": "Vendored gürültü ve yanlış pozitifleri ayırır.",
+        },
+        {
+            "id": "CTRL-FW-013",
+            "ad": "Bulut hizmeti kullanım envanteri (GitHub/GHA/LLM)",
+            "aciklama": "Holding OS ‘cloud’ yüzeyi: GitHub, Actions, isteğe bağlı Gemini/OpenRouter; müşteri SaaS yok varsayımı.",
+            "nist_csf": ["Identify", "Protect"],
+            "n80053": ["SA-9", "CA-3"],
+            "iso": ["A.5.23"],
+            "cis": ["CIS-15"],
+            "owasp": [],
+            "dogrulama": "SECURITY_CONTEXT/inventory.md + trust-boundaries.md cloud satırları.",
+            "gerekce": "Paylaşılan sorumluluk ve üçüncü taraf işlemci sınırı netleşir.",
+        },
+        {
+            "id": "CTRL-FW-014",
+            "ad": "Doküman/agent URL hijyeni (web filtering analog)",
+            "aciklama": "Agent fetch ve araştırma URL’leri resmi standart/docs allowlist kültürü; rastgele paste/kurulum yasağı.",
+            "nist_csf": ["Protect"],
+            "n80053": ["SI-3", "SC-7"],
+            "iso": ["A.8.23", "A.5.7"],
+            "cis": ["CIS-7", "CIS-9"],
+            "owasp": ["A10:2021"],
+            "dogrulama": "SECURITY_RESEARCH kaynak URL’leri + ethics_check tehlikeli-indir pattern.",
+            "gerekce": "Sosyal-medya ‘setup’ ve rastgele script yüzeyi bu OS’te birincil web riski.",
         },
     ],
     "ENCRYPTION": [
@@ -497,6 +545,18 @@ CATALOGS: dict[str, list[dict]] = {
             "dogrulama": "Kod inceleme ASSESS checklist.",
             "gerekce": "Tahmin edilebilir token riskini azaltır.",
         },
+        {
+            "id": "CTRL-ENC-013",
+            "ad": "Çıktı sızıntı önleme — log/rapor redaksiyonu",
+            "aciklama": "AUDIT_LOG, REPORTS, gunluk md: secret değer yok; konum+tip. LLM çıktısı redakte.",
+            "nist_csf": ["Protect", "Detect"],
+            "n80053": ["SI-12", "AU-9"],
+            "iso": ["A.8.12", "A.8.11"],
+            "cis": ["CIS-3", "CIS-8"],
+            "owasp": ["A02:2021"],
+            "dogrulama": "secret_scan REPORTS; holding_report dry-run; chat secret yasağı.",
+            "gerekce": "DLP analogu bu runtime’da log ve agent dökümü.",
+        },
     ],
     "CHANGE": [
         {
@@ -643,6 +703,30 @@ CATALOGS: dict[str, list[dict]] = {
             "dogrulama": "python3 scripts/spec_validate.py --self-test.",
             "gerekce": "Şablon sapmasını erken yakalar.",
         },
+        {
+            "id": "CTRL-CH-013",
+            "ad": "Kaynak koda erişim — branch/CODEOWNERS ASSESS",
+            "aciklama": "Kaynak (scripts/, .github/, SECURITY_*) değişikliği PR ile; fork secret izolasyonu hedefi.",
+            "nist_csf": ["Protect"],
+            "n80053": ["AC-3", "CM-5"],
+            "iso": ["A.8.4", "A.8.3"],
+            "cis": ["CIS-6", "CIS-16"],
+            "owasp": ["A01:2021"],
+            "dogrulama": "CODEOWNERS varlığı ASSESS; branch protection insan teyidi (gh api).",
+            "gerekce": "Kaynak bütünlüğü tedarik zinciri ve yetkisiz değişiklik riskini keser.",
+        },
+        {
+            "id": "CTRL-CH-014",
+            "ad": "Ortam ayrımı — local agent vs CI vs yok-prod",
+            "aciklama": "Üretim uygulama sunucusu yok; ayrım: geliştirici workspace / GHA runner / main branch artefaktı.",
+            "nist_csf": ["Protect"],
+            "n80053": ["CM-2", "SC-2"],
+            "iso": ["A.8.31"],
+            "cis": ["CIS-4", "CIS-16"],
+            "owasp": [],
+            "dogrulama": "inventory.md ‘uygulama sunucusu yok’ + workflow job sınırları.",
+            "gerekce": "Yanlışlıkla runner’da canlı secret veya prod mutasyonu önlenir.",
+        },
     ],
     "TRANSPARENT_CODE": [
         {
@@ -788,6 +872,30 @@ CATALOGS: dict[str, list[dict]] = {
             "owasp": [],
             "dogrulama": "SECURITY_RESEARCH/*.md frontmatter.",
             "gerekce": "Uydurma uzman/ranking yasaklanır.",
+        },
+        {
+            "id": "CTRL-TC-013",
+            "ad": "Teknik zafiyet yönetimi — scanner + Dependabot ASSESS",
+            "aciklama": "Zafiyet süreci: secret_scan, ethics_check, Dependabot Actions; exploit PoC yok.",
+            "nist_csf": ["Identify", "Detect"],
+            "n80053": ["RA-5", "SI-2"],
+            "iso": ["A.8.8"],
+            "cis": ["CIS-7"],
+            "owasp": ["A06:2021"],
+            "dogrulama": ".github/dependabot.yml; python3 scripts/secret_scan.py; ethics_check.py.",
+            "gerekce": "Tespit ve yama hipotezi; silahlandırılmış repro yasak.",
+        },
+        {
+            "id": "CTRL-TC-014",
+            "ad": "Geliştirme güvenlik testi — validate/ethics/secret kapısı",
+            "aciklama": "Kabul testi analogu: validate.py GECTI, ethics failClosed, secret warn/redact.",
+            "nist_csf": ["Protect", "Detect"],
+            "n80053": ["SA-11", "SI-10"],
+            "iso": ["A.8.29", "A.8.28"],
+            "cis": ["CIS-16"],
+            "owasp": ["A04:2021"],
+            "dogrulama": "python3 scripts/validate.py; ethics_check; spec_validate --self-test.",
+            "gerekce": "Kod kabulünde savunma kapısı olmazsa SoA kâğıtta kalır.",
         },
     ],
     "CONDITIONAL": [
@@ -971,6 +1079,18 @@ CATALOGS: dict[str, list[dict]] = {
             "dogrulama": "AGENTS.md dual sections + ethics rule.",
             "gerekce": "İş hızı etik sınırın üstüne çıkamaz.",
         },
+        {
+            "id": "CTRL-CD-016",
+            "ad": "Koşullu: yasal/sözleşmesel kapsam (repo OS)",
+            "aciklama": "Bu depo kişisel veri işlemcisi iddiası yok; lisans MIT vendored + holding içeriği. KVKK/GDPR pack ayrı tur.",
+            "nist_csf": ["Govern"],
+            "n80053": ["PL-1", "AU-1"],
+            "iso": ["A.5.31", "A.5.34"],
+            "cis": ["CIS-3"],
+            "owasp": [],
+            "dogrulama": "SECURITY.md raporlama yolu; LICENSE; COMPLIANCE SoA N/A gerekçeleri.",
+            "gerekce": "Kapsam dışı iddia denetimde şişirme ve sahte sertifika riskini önler.",
+        },
     ],
 }
 
@@ -1047,6 +1167,12 @@ def write_catalogs() -> list[tuple[str, str]]:
 def write_matrix(written: list[tuple[str, str]]) -> None:
     mx = ROOT / "SECURITY_MATRIX"
     mx.mkdir(parents=True, exist_ok=True)
+    existing = mx / "matrix.md"
+    if existing.exists():
+        head = existing.read_text(encoding="utf-8", errors="replace")[:800]
+        if "Crosswalk" in head or "LAY-001" in head:
+            # FAZ 4 120-satır crosswalk'ı FAZ3 seed ile ezme.
+            return
     rows = [
         "# SECURITY_MATRIX — matrix.md",
         "",

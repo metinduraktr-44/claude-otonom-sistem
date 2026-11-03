@@ -2,7 +2,8 @@
 
 # GUARDRAIL AKTİF — savunma-only, secret-redakte, exploit-yok
 
-**MODE:** ASSESS-ONLY · **ts:** 2026-08-27T12:54:55Z · **rows:** 120 / 600
+**MODE:** ASSESS-ONLY · **ts:** 2026-08-27T12:54:55Z · **rows:** 120 / 600  
+**FAZ6:** SoA `COMPLIANCE/ISO27001-2022-SOA.md` · katalog sayısı ≠ 120 — `coverage.md`
 
 | ID | Ad | NIST_CSF | 800-53 | ISO27001 | CIS | OWASP | Doğrulama | Status |
 |----|----|----------|--------|----------|-----|-------|-----------|--------|
