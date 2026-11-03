@@ -32,6 +32,8 @@ PATTERNS: list[tuple[str, re.Pattern[str]]] = [
     ("private_key_header", re.compile(r"-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----")),
     ("github_pat", re.compile(r"gh[pousr]_[A-Za-z0-9_]{20,}")),
     ("slack_token", re.compile(r"xox[baprs]-[A-Za-z0-9-]{10,}")),
+    # Anthropic live key shape only — not placeholders like sk-ant-...
+    ("anthropic_api_key", re.compile(r"sk-ant-api\d{2}-[A-Za-z0-9\-_]{20,}")),
 ]
 
 ALLOW_PLACEHOLDERS = re.compile(

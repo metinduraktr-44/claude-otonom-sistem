@@ -9,3 +9,6 @@ Response target: **72 hours**. Do not open public issues for exploitable finding
 
 ## Scope
 claude-otonom-sistem (sistem/otomasyon). Supported: default branch (`main`).
+
+## Claude Code / MCP (operasyon)
+Üçüncü taraf “Claude Code Setup”, bedava-token vaadi veya DM script **kurulmaz**. Resmi: [docs.anthropic.com](https://docs.anthropic.com), [github.com/anthropics](https://github.com/anthropics), [github.com/modelcontextprotocol](https://github.com/modelcontextprotocol). Damıtılmış uyarılar: `SECURITY_RESEARCH/claude-code-guvenlik-uyarilari.md`. Secret: `${ANTHROPIC_API_KEY}` / `<REDACTED>` only.

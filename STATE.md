@@ -47,8 +47,9 @@
 ### Faz
 - **phase:** `1–4` (Research + Org/Experts seed + Skill depth tranche + Controls 001–020×6)
 - **MODE:** `ASSESS-ONLY` (varsayılan — gap/doküman; agresif kod değişikliği yok)
-- **last_command:** `sec-devam` / Faz 1+2+3+4 tranche
-- **last_updated_utc:** 2026-08-27T13:05:00Z
+- **last_command:** Claude Code güvenlik uyarıları ingest (ASSESS-ONLY, additive)
+- **last_updated_utc:** 2026-11-03T09:56:08Z
+- **last_updated_istanbul:** 2026-11-03T12:56:08+0300
 
 ### Guardrails
 - defense-only · secret-redakte · exploit-yok · tehlikeli shell yok
@@ -61,6 +62,7 @@
 - **holding çapraz:** `docs/SECRETS-DRYRUN-MATRISI.md`, `infra/`, workflows
 
 ### Bu tur özeti
+- **Ingest 2026-11-03:** `SECURITY_RESEARCH/claude-code-guvenlik-uyarilari.md` (sosyal medya sahte vaat damıtma; mega-prompt yok)
 - **Faz 1:** `SECURITY_RESEARCH/` threat-landscape · standards-currency · supply-chain
 - **Faz 2:** `ORG/ROLES/` 11 rol · `EXPERTS/` DIGEST + top100 CISO/AppSec/Crypto seed
 - **Faz 3:** 6 skill derinlik (secret-hygiene, threat-modeling, compliance-mapper, layers-engine, encryption-engine, transparent-code-engine)

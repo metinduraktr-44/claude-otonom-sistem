@@ -10,5 +10,6 @@ Faz 1 araştırma DIGEST. Kaynak: NIST, CIS, D3FEND, OWASP ASVS (savunma).
 | `threat-landscape.md` | Stack CVE/olay sınıfları, OWASP, STRIDE iskeleti |
 | `standards-currency.md` | CSF 2.0, 800-53 R5, ISO 27001:2022, CIS v8.1, ASVS 5.0, FIPS 203–205, SLSA, ZTMM |
 | `supply-chain.md` | GHA pin, SBOM, SLSA, immutable releases |
+| `claude-code-guvenlik-uyarilari.md` | 2026-11-03 ingest — sosyal medya sahte vaat / DM script / 900k paste RED |
 
 **Sonraki:** GHA permissions matrisi · Scorecard gap · threat-model diyagramı
