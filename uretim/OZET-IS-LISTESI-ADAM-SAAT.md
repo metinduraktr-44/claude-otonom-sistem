@@ -93,7 +93,7 @@ Paralel kural: Security motor dizinleri izole; LATOS `JOB_CARDS/{slug}/`; Agency
 | ID | İş | Blok | Sa (sonra) |
 |----|-----|------|------------|
 | B1 | Controls 041–100 × 6 (360 kontrol) | — ASSESS-ONLY yeter; IMPLEMENT değil | 24–48 |
-| B2 | Controls 101–100 tamam → **600/600** | B1; kalite çubuğu düşmesin | +16–32 |
+| B2 | 021–100 kapanışı → **600/600** (A1+B1) | B1 bittiğinde; kalite çubuğu düşmesin | (B1 içinde) |
 | B3 | COMPLIANCE pack NIST/CIS/ISO/SOC2 | Faz 5 kapısı | 8–16 |
 | B4 | Skill ~20k derinlik (6 kısmi + 14) | Faz 7 | 16–32 |
 | B5 | Detection/IR playbook ASSESS | Faz 6 | 6–12 |
