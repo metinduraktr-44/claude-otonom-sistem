@@ -2,6 +2,11 @@
 > Protokol: Her işlem [4] ÖĞREN adımında buraya "## [tarih] — [konu]" girişi ekler. En yeni en üstte.
 > Çelişki kuralı: Yeni öğrenim eskisiyle çelişiyorsa ⚠️ ÇELİŞKİ etiketi + hangisinin geçerli olduğu yazılır.
 
+## 2026-11-03 — Claude Code güvenlik ingest (Gemini DOCX+PDF)
+- DOCX/PDF aynı sohbet, format-farklı kopya (Jaccard ~0.77); ham 298 sayfa git’e alınmadı — damıtma: `CONTEXT/INBOX/2026-11-03-claude-code-guvenlik-ingest.md` + `SECURITY_RESEARCH/2026-11-03-claude-code-social-engineering.md`
+- Viral iddialar SAHTE: OmniRoute 1,6B bedava token; “Claude Code Setup” resmi eklenti değil; şişirilmiş star. Resmi: docs.anthropic.com, github.com/anthropics, github.com/modelcontextprotocol
+- Secret: canlı key yok. Gap: ethics (sahte eklenti/untrusted ingest) + secret_scan LLM prefix. 900B prompt RED (K-017). Agency/LATOS/Security OS silinmedi.
+
 ## 2026-08-27 — LATOS GIGA Faz 0–1 bootstrap
 - CURSOR LATOS track additive kuruldu: 633 title envanter (`ROSTER/TITLE_INVENTORY.md`), 72 git-silinmiş rol-kartlari dokümante, hooks qa/citation, 8 skill + 3 subagent iskelet, 2 JOB_CARDS skeleton
 - Karakter hedefleri fazlı; 900M char/prompt imkânsız — dürüst plan. Sonraki: Faz 1 git detay, Faz 2 research, restart+DEVAM
