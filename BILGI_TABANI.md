@@ -2,6 +2,11 @@
 > Protokol: Her işlem [4] ÖĞREN adımında buraya "## [tarih] — [konu]" girişi ekler. En yeni en üstte.
 > Çelişki kuralı: Yeni öğrenim eskisiyle çelişiyorsa ⚠️ ÇELİŞKİ etiketi + hangisinin geçerli olduğu yazılır.
 
+## 2026-11-03 — Tek sayfa iş listesi (rapor-only)
+- Canlı `gh pr list`: açık #31–#35; GIGA #19–#30 MERGED; #23/#26/#27 artık draft değil.
+- ⚠️ ÇELİŞKİ: `uretim/TEK-SAYFA-RAPOR-MERGE-DURUM.md` 2026-08-31 “draft close 403 / ready GIGA 0” — **geçersiz**. Güncel: `uretim/TEK-SAYFA-IS-LISTESI.md`.
+- Security FAZ6 içerik bu turda yok (kardeş ajan). Metin P0: #35 merge + Gemini secret.
+
 ## 2026-08-27 — LATOS GIGA Faz 0–1 bootstrap
 - CURSOR LATOS track additive kuruldu: 633 title envanter (`ROSTER/TITLE_INVENTORY.md`), 72 git-silinmiş rol-kartlari dokümante, hooks qa/citation, 8 skill + 3 subagent iskelet, 2 JOB_CARDS skeleton
 - Karakter hedefleri fazlı; 900M char/prompt imkânsız — dürüst plan. Sonraki: Faz 1 git detay, Faz 2 research, restart+DEVAM
