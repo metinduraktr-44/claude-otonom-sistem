@@ -2,6 +2,12 @@
 > Protokol: Her işlem [4] ÖĞREN adımında buraya "## [tarih] — [konu]" girişi ekler. En yeni en üstte.
 > Çelişki kuralı: Yeni öğrenim eskisiyle çelişiyorsa ⚠️ ÇELİŞKİ etiketi + hangisinin geçerli olduğu yazılır.
 
+## 2026-11-04 — GIGA DEVAM dilim-2 (Faz 5 INDEX + QA REVISE + 10 Director)
+- Security: COMPLIANCE INDEX (NIST CSF 2.0 / ISO 27001:2022 / CIS v8); 600 kontrol **yeniden yazılmadı**; SOC2 işaretçi boş; #39 SoA dalına dokunulmadı
+- Agency: QA_REPORT S01–S08 critic-copy **REVISE×8** · critic-spec **GAP** (pixel yok) · PASS=0
+- LATOS: +10 Director JOB_CARDS (≤10 heading); kümülatif **23/633** skeleton
+- Öğrenim: critic PASS marka kit + kanal-özel copy olmadan yazılmaz; INDEX ≠ SoA
+
 ## 2026-11-03 — GIGA DEVAM (Security 021–100 + Agency S03–S08 + LATOS 10 kart)
 - Security: 480 kontrol (021–100×6) → kümülatif **600/600**; matrix CSV ikinci tranche; GHA pin gap ASSESS (25 tag, 0 SHA) — workflow değişmedi
 - Agency: S03–S08 × Meta 4:5 / Meta 9:16 / TikTok 9:16 = 18 brief; CANVA:ON kapalı

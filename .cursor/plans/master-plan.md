@@ -42,8 +42,8 @@
 ## Faz 5 — QA & Validation (kısmi)
 - [ ] spec_validate.py Pillow tam implementasyon (export sonrası)
 - [ ] `/spec-dogrula` CI hook
-- [x] QA/ rapor şablonu + hafif QA_REPORT
-- [ ] critic-spec otomasyon
+- [x] QA/ rapor şablonu + **dürüst** QA_REPORT (S01–S08 REVISE; PASS=0)
+- [ ] critic-spec otomasyon (pixel yok → GAP)
 
 ## Faz 6 — Archive & Learning
 - [ ] `/arsivle` manifest

@@ -11,7 +11,7 @@
 | 1 | Title Keşif/Kurtarma | `ROSTER/TITLE_INVENTORY.md` (633) | 🔄 |
 | 2 | Research + Master Tasks | `RESEARCH/`, `TASKS/LATOS_MASTER_TASKS.md` | ⏳ |
 | 3 | Org + Hiyerarşi | `ORG/ORG_CHART.md`, RACI | ⏳ |
-| 4 | İş Kartları | `JOB_CARDS/{title}/` skeleton→tam | 🔄 12 skeleton (CISO+hq-ceo+adops-ceo+10 yeni) |
+| 4 | İş Kartları | `JOB_CARDS/{title}/` skeleton→tam | 🔄 **23** skeleton (13 C-level + 10 Director) |
 | 5 | Uzman Motoru | `EXPERTS/{title}/top100_*` | ⏳ |
 | 6 | Yetenek Motoru | `SKILLS_TALENT/`, `EXPERTS_TALENT/` | ⏳ |
 | 7 | Roadmap/7-24 | `ROADMAP/`, `OPERATIONS/` | ⏳ |
@@ -37,7 +37,7 @@
 - İnsan onay: uzman listesi, git restore, self-modification
 
 ## Sonraki DEVAM
-1. Faz 4: sonraki 10 title skeleton (Director/EVP) — 200 başlık uydurma yok
-2. Faz 1 tamamla: git deleted title dokümantasyonu
-2. Faz 2: `RESEARCH/_ORG_BEST_PRACTICE.md` seed
-3. 2 örnek iş kartı skeleton genişlet
+1. Faz 4: sonraki 10 title skeleton (EVP / Director-2) — 200 başlık uydurma yok
+2. Faz 1 tamamla: git deleted title dokümantasyonu (restore değil)
+3. Faz 2: `RESEARCH/_ORG_BEST_PRACTICE.md` seed
+4. Seçilmiş 2 kartı H011+ genişlet (hâlâ ≤ ek 10/tur)
