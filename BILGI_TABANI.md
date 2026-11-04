@@ -2,6 +2,23 @@
 > Protokol: Her işlem [4] ÖĞREN adımında buraya "## [tarih] — [konu]" girişi ekler. En yeni en üstte.
 > Çelişki kuralı: Yeni öğrenim eskisiyle çelişiyorsa ⚠️ ÇELİŞKİ etiketi + hangisinin geçerli olduğu yazılır.
 
+## 2026-11-04T11:40:00Z — Tek sayfa iş listesi (DEVAM)
+- Canlı `gh pr list`: açık **9 PR** (#31–#39). Draft: #34 #36 #38. Ready: #37 #35 #39 #33 #32 #31.
+- ⚠️ ÇELİŞKİ (çözüldü): 2026-11-03 15:05 “7 açık / #37 draft” — **geçersiz**. #37 `isDraft=false`; kuyruğa #38 (mega CLOSE) + #39 (FAZ6 MERGE, CONFLICTING) eklendi.
+- #35/#39 **CONFLICTING** vs `main` 11-04. #37 `origin/main` merge sonrası **MERGEABLE/CLEAN**. FAZ6 dosya **çiftlenmedi**.
+- LLM: GEMINI/OPENROUTER UNSET; ANTHROPIC env SET (redakte). Title 633 · JOB_CARDS 3. CANVA BRIEF-ONLY · Security ASSESS-ONLY.
+
+## 2026-11-03T12:05:00Z — Tek sayfa iş listesi (URL+not + adam-saat)
+- Canlı `gh pr list`: açık **#31–#37**. #36 #37 çift draft (iş listesi); #35 MERGE; #34/#32/#31 CLOSE; #33 leftover `@v5`.
+- #23/#26/#27 **MERGED** (eski “draft close” geçersiz). FAZ6 bu PR’da yok.
+- Metin P0: Gemini [AI Studio](https://aistudio.google.com/apikey) + [Cursor Secrets](https://cursor.com/dashboard?tab=cloud-agents); #35 merge.
+- ⚠️ ÇELİŞKİ (çözüldü): 14:45 TRT rapor “5 açık PR” — **geçersiz**; 15:05’te 7 açık (#36/#37 eklendi).
+
+## 2026-11-03 — Tek sayfa iş listesi (rapor-only)
+- Canlı `gh pr list`: açık #31–#35; GIGA #19–#30 MERGED; #23/#26/#27 artık draft değil.
+- ⚠️ ÇELİŞKİ: `uretim/TEK-SAYFA-RAPOR-MERGE-DURUM.md` 2026-08-31 “draft close 403 / ready GIGA 0” — **geçersiz**. Güncel: `uretim/TEK-SAYFA-IS-LISTESI.md`.
+- Security FAZ6 içerik bu turda yok (kardeş ajan). Metin P0: #35 merge + Gemini secret.
+
 ## 2026-08-27 — LATOS GIGA Faz 0–1 bootstrap
 - CURSOR LATOS track additive kuruldu: 633 title envanter (`ROSTER/TITLE_INVENTORY.md`), 72 git-silinmiş rol-kartlari dokümante, hooks qa/citation, 8 skill + 3 subagent iskelet, 2 JOB_CARDS skeleton
 - Karakter hedefleri fazlı; 900M char/prompt imkânsız — dürüst plan. Sonraki: Faz 1 git detay, Faz 2 research, restart+DEVAM
