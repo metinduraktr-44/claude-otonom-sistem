@@ -12,7 +12,7 @@
 |------|--------|
 | `main` | `cc8b6b79` holding-konsolide 2026-11-04 07:10Z (nightly/daily 11-04 koştu) |
 | Açık PR | **9** — tablo §3; draft: #34 #36 #38 |
-| Bu PR | [#37](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/37) OPEN · **draft=false** · base=`main` · validate **SUCCESS** (2026-11-03) · mergeable **CONFLICTING** (main 11-04 log) → bu tur `origin/main` merge |
+| Bu PR | [#37](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/37) OPEN · **draft=false** · base=`main` · validate **SUCCESS** (2026-11-04 push) · **MERGEABLE/CLEAN** (`origin/main` merge bu tur) |
 | FAZ6 | [#39](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/39) OPEN · draft=false · **CONFLICTING** · SoA/CTRL **çiftlenmedi** |
 | Mega draft | [#38](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/38) DRAFT · CONFLICTING · 600 kontrol/S03–S08/LATOS 13 — 🚩 tek PR |
 | Merged GIGA | **#19–#30** MERGED |
@@ -26,7 +26,7 @@
 |----|-------|-----------|-------------|-------|
 | [#39](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/39) FAZ6 SoA | hayır | CONFLICTING | main ← `giga-security-faz6-6a77` | **MERGE** (conflict UI) |
 | [#38](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/38) mega DEVAM | **evet** | CONFLICTING | main ← `giga-devam-8e8f` | **CLOSE** |
-| [#37](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/37) bu rapor | hayır | CONFLICTING→rebase bu tur | main ← `tek-sayfa-is-listesi-6a77` | **MERGE** |
+| [#37](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/37) bu rapor | hayır | **MERGEABLE** | main ← `tek-sayfa-is-listesi-6a77` | **MERGE** |
 | [#36](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/36) iş-listesi çift | **evet** | MERGEABLE | main ← `is-listesi-rapor-8e8f` | **CLOSE** |
 | [#35](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/35) CC güvenlik ingest | hayır | CONFLICTING | main ← `claude-code-guvenlik-uyarilari-6a77` | **MERGE** (conflict UI) |
 | [#34](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/34) ingest draft | **evet** | CONFLICTING | main ← `claude-code-security-ingest-8e8f` | **CLOSE** |
@@ -150,4 +150,4 @@ M = Metin · S = Ajan. Aralık = belirsizlik.
 | INBOX | https://github.com/metinduraktr-44/claude-otonom-sistem/tree/main/CONTEXT/INBOX |
 | Bu ajan | https://cursor.com/agents/bc-05fbb414-736b-554d-81d7-afcf4a22ca9d |
 
-⏱️ Damga: 2026-11-04T11:40:00Z (14:40 Europe/Istanbul) · 🔍 Denetim: GEÇTİ (`gh pr list` + dosya; kod/exploit yok) · 📚 Öğrenim: açık kuyruk **9 PR** (+#38 draft mega, +#39 FAZ6); #37 ready ama CONFLICTING; Gemini hâlâ yok · 🔗 Önceki: evet (`bc-415e4b83`, `uretim/TEK-SAYFA-IS-LISTESI.md` 15:05 TRT 2026-11-03)
+⏱️ Damga: 2026-11-04T11:40:00Z (14:40 Europe/Istanbul) · 🔍 Denetim: GEÇTİ (`gh pr list` + dosya; kod/exploit yok) · 📚 Öğrenim: açık kuyruk **9 PR** (+#38 CLOSE mega, +#39 FAZ6 MERGE); #37 **MERGEABLE/CLEAN**; Gemini hâlâ yok · 🔗 Önceki: evet (`bc-415e4b83`, `uretim/TEK-SAYFA-IS-LISTESI.md` 15:05 TRT 2026-11-03)

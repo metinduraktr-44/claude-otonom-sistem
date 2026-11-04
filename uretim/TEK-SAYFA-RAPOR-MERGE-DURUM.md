@@ -8,7 +8,7 @@
 | Durum | PR | Not |
 |-------|-----|-----|
 | MERGED | #19–#30 | GIGA set. #23/#26/#27 **MERGED**. |
-| OPEN MERGE | [#37](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/37) | bu iş listesi · draft=false · main merge bu tur |
+| OPEN MERGE | [#37](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/37) | bu iş listesi · draft=false · **MERGEABLE/CLEAN** |
 | OPEN MERGE | [#35](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/35) | güvenlik ingest · **CONFLICTING** |
 | OPEN MERGE | [#39](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/39) | FAZ6 SoA · **CONFLICTING** · bu PR’da yok |
 | OPEN CLOSE | [#38](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/38) | mega DEVAM draft |
