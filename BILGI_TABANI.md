@@ -680,3 +680,5 @@
 - [2026-11-05T06:17:34Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-11-05-SEC-SUP.md); K4 Cowork oturumu taslağı doldurur.
 ## 2026-11-06T00:03:21Z — nightly run
 - Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-11-06T06:18:24Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-11-06-HRA-REC.md); K4 Cowork oturumu taslağı doldurur.
