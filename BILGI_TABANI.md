@@ -685,3 +685,5 @@
 - [2026-11-06T07:09:30Z] haftalik-liderlik: iskelet üretildi (uretim/toplantilar/2026-11-06-haftalik-liderlik.md); K4 Cowork oturumu taslağı doldurur.
 ## 2026-11-07T00:03:29Z — nightly run
 - Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-11-07T06:15:37Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-11-07-HRA-PRF.md); K4 Cowork oturumu taslağı doldurur.
