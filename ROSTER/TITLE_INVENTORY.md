@@ -1,6 +1,6 @@
 # TITLE INVENTORY — LATOS Master Liste
 
-> **Güncelleme:** 2026-08-27T20:19:54Z UTC · **Kaynak:** `data/holding_istirak_org.json`
+> **Güncelleme:** 2026-11-10T11:55:00Z UTC · **Kaynak:** `data/holding_istirak_org.json`
 > **Toplam title:** 633 · **Hedef:** hiçbir title atlanmaz
 
 ## Özet
@@ -11,7 +11,8 @@
 | Envantere yazılan | 633 |
 | rol-kartlari mevcut | 48 |
 | git silinmiş (kurtarılabilir) | 72 |
-| JOB_CARDS üretildi | 13 (CISO + hq-ceo + adops-ceo + 10 C-level skeleton 2026-11-03) |
+| JOB_CARDS üretildi | **33** (önceki 23 + 10 AdOps EVP 2026-11-10) |
+| git-silinmiş katalog | `ROSTER/GIT_DELETED_TITLES.md` (72; **restore yok**) |
 
 ## Git Kurtarma Notu
 

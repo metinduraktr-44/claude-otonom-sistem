@@ -1,7 +1,7 @@
 # TODO — compliance-mapper expansion (FAZ 3)
 
 - [x] Starter deep ref: `nist-csf-control-fields.md`
-- [ ] Additional patterns / anti-patterns as needed
+- [x] Additional: `cis-ig1-evidence-map.md` (2026-11-10, light)
 - [ ] Keep SIGNAL > LENGTH; no filler to hit 20k
 - [ ] Full 20k/skill = continuous FAZ 3, not one-shot
 

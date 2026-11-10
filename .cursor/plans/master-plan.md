@@ -1,7 +1,7 @@
 # Master Plan — Otonom AI Creative Agency (Faz 0–7)
 
 > Kaynak: GIGA MASTER PROMPT BÖLÜM 13 · Bootstrap: BÖLÜM 0.5
-> Refresh: 2026-08-27T12:56:59Z
+> Refresh: 2026-11-10T11:55:00Z · CANVA:BRIEF-ONLY (değişmedi)
 
 ## Faz 0 — Bootstrap ✅
 - [x] `.cursor/rules/*.mdc` (agency core, brand, spec, structure, canva)

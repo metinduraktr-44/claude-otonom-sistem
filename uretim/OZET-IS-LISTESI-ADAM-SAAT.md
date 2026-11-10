@@ -1,9 +1,9 @@
 # İŞ LİSTESI + ROADMAP (ADAM-SAAT)
 
-> **Damga:** 2026-11-04 **14:45 Europe/Istanbul** (UTC 11:45)  
+> **Damga:** 2026-11-10 **14:55 Europe/Istanbul** (UTC 11:55)  
 > **Dal:** `cursor/giga-devam-8e8f` · PR [#38](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/38) (DRAFT)  
 > **MODE:** Agency **BRIEF-ONLY** · Security **ASSESS-ONLY** · CANVA:OFF · merge yok · git restore yok  
-> **Sayaç:** kontroller **600/600** · brief **24** · JOB_CARDS **23** (13 C-level + 10 Director)
+> **Sayaç:** kontroller **600/600** · brief **24** · JOB_CARDS **33** (23 önceki + 10 EVP) · critic PASS **0** · 72 katalog restore **0**
 
 Kurul: Baş Mimar + Denetçi + İş/Gelir. Varsayım: DEVAM = onaylı dilim; merge / restore / CANVA:ON / IMPLEMENT **hariç**.
 
@@ -15,13 +15,13 @@ Kurul: Baş Mimar + Denetçi + İş/Gelir. Varsayım: DEVAM = onaylı dilim; mer
 |---------|-----|----------|
 | Cursor Secrets: `GEMINI_API_KEY` + `OPENROUTER_API_KEY` | https://cursor.com/dashboard | Secret yoksa nightly LLM dry-run kapalı kalır; kaydı yapınca ajan canlı çağrıya geçer. |
 | Gemini key üret/rotate | https://aistudio.google.com/apikey | Eski key sohbet ifşası riski; yeni key’i yalnızca Cursor Secrets’a koy, repo’ya yazma. |
-| OpenRouter key | https://openrouter.ai/keys | Gemini düşerse PR #16 yolu OpenRouter’a iner; key yoksa fallback de ölür. |
+| OpenRouter key | https://openrouter.ai/keys | Gemini düşerse OpenRouter fallback; key yoksa fallback de ölür. |
 | Anthropic Console (sahte eklenti) | https://console.anthropic.com | Yalnızca #34/#35 “token vaadi / sahte eklenti” iddiasını **doğrulamak** için bak; buradan alınan key’i plugin’e yapıştırma. |
 | GitHub PAT gözden geçir | https://github.com/settings/tokens | Minimum scope; sızıntı tarama (secret_scan) değer yazmaz — sen rotate edersin. |
 | Canva Developers (OAuth hazırlığı) | https://www.canva.com/developers/ | Şimdi BRIEF-ONLY; app oluşturmak CANVA:ON **değil** — ON dersen client id/secret buradan. |
-| Marka kit bırak | repo `CONTEXT/INBOX/` (README: `CONTEXT/INBOX/README.md`) | INBOX boş → critic-copy **PASS imkânsız**; PDF/logo/brief koyunca S01–S08 özelleşir. |
-| Cursor restart + slash smoke | yeni chat → `/devam` · `/sec-devam` · `/latos-devam` | Rules/skills yüklenir; Faz kilidi (BRIEF-ONLY / ASSESS-ONLY) smoke edilir. |
 | Açık PR kuyruğu | https://github.com/metinduraktr-44/claude-otonom-sistem/pulls | Canlı liste; kapatılmış PR uydurma. #38 bu turun DEVAM PR’ı. |
+| Marka kit bırak | repo `CONTEXT/INBOX/` | INBOX boş → critic-copy **PASS imkânsız**; PDF/logo/brief koyunca S01–S08 özelleşir. |
+| Cursor restart + slash smoke | yeni chat → `/devam` · `/sec-devam` · `/latos-devam` | Rules/skills yüklenir; Faz kilidi (BRIEF-ONLY / ASSESS-ONLY) smoke edilir. |
 
 **Metin operasyon bandı (M1–M4 + INBOX):** **0,8–2 sa** (+ marka kit 1–3 sa).
 
@@ -29,20 +29,22 @@ Kurul: Baş Mimar + Denetçi + İş/Gelir. Varsayım: DEVAM = onaylı dilim; mer
 
 ## 2) BENDE — ONAYLAYACAKLARIM
 
-Canlı `gh pr list` (2026-11-04 14:45 +03). Agent bunları **yapmaz**.
+Canlı `gh pr list --state open` (2026-11-10 14:55 +03). Agent bunları **yapmaz**.
 
 | Kapı | URL | Not |
 |------|-----|-----|
-| **#38 DEVAM** (DRAFT) | https://github.com/metinduraktr-44/claude-otonom-sistem/pull/38 | 600 kontrol + 24 brief + 23 kart + Faz 5 INDEX + QA REVISE. Review → Ready/merge **sen**; ajan merge etmez. |
+| **#38 DEVAM** (DRAFT) | https://github.com/metinduraktr-44/claude-otonom-sistem/pull/38 | Dilim-3: 33 JOB_CARDS + CIS-IG1 stub + 72 katalog. Review → Ready/merge **sen**; ajan merge etmez. |
+| **#39** (açık) | https://github.com/metinduraktr-44/claude-otonom-sistem/pull/39 | FAZ6 ISO SoA + 10 CTRL — **#38 ile karıştırma / merge etme**. |
+| **#37** (açık) | https://github.com/metinduraktr-44/claude-otonom-sistem/pull/37 | Tek sayfa iş listesi 04 Kas; #38 LIVE özeti daha yeni. |
+| **#36 rapor** (DRAFT) | https://github.com/metinduraktr-44/claude-otonom-sistem/pull/36 | Eski iş-listesi (03 Kas, 120/600). Güncel dosya **#38 dalında**; kapat veya #38 lehine bırak. |
 | **#35 ingest** | https://github.com/metinduraktr-44/claude-otonom-sistem/pull/35 | Claude Code güvenlik uyarısı PDF/DOCX. #34 ile örtüşür; birini merge diğerini kapat. |
 | **#34 draft** | https://github.com/metinduraktr-44/claude-otonom-sistem/pull/34 | Viral-uyarı ingest; sahte eklenti/token **RED**. Ready yap veya #35 lehine kapat. |
-| **#36 rapor** (DRAFT) | https://github.com/metinduraktr-44/claude-otonom-sistem/pull/36 | Eski iş-listesi (03 Kas, 120/600). Bu dosya artık **#38 dalında** güncel; #36’yı kapat veya #38 lehine bırak. |
-| **#33 dup?** | https://github.com/metinduraktr-44/claude-otonom-sistem/pull/33 | `actions/setup-python` 5→7. **#30 MERGED** (2026-09-01) — muhtemel duplicate; kapat. |
-| **#37** (açık, bilgi) | https://github.com/metinduraktr-44/claude-otonom-sistem/pull/37 | Tek sayfa iş listesi 03 Kas; #38 LIVE özeti daha yeni. |
-| **#39** (açık, bilgi) | https://github.com/metinduraktr-44/claude-otonom-sistem/pull/39 | FAZ6 ISO SoA + 10 CTRL — **#38 ile karıştırma / merge etme**. |
+| **#33 dup?** | https://github.com/metinduraktr-44/claude-otonom-sistem/pull/33 | `actions/setup-python` 5→7. Muhtemel duplicate (eski #30 merged) — kapat. |
+| **#32** (açık, bilgi) | https://github.com/metinduraktr-44/claude-otonom-sistem/pull/32 | Tek sayfa merge raporu 2026-09-02 — arşiv; merge şart değil. |
+| **#31** (açık, bilgi) | https://github.com/metinduraktr-44/claude-otonom-sistem/pull/31 | Dependabot npm `katalog/` examples — ürün runtime değil; triyaj. |
 | **CANVA:ON** | `STATE.md` CANVA bloğu | Varsayılan BRIEF-ONLY. ON = tasarım/MCP; açık cümle şart. |
 | **MODE=IMPLEMENT** | `STATE.md` / `SECURITY/STATE.md` | ASSESS-ONLY varsayılan. IMPLEMENT = GHA SHA pin + sertleştirme izni. |
-| **72 restore** | `ROSTER/TITLE_INVENTORY.md` | `uretim/rol-kartlari/*` git restore **yasak** ta ki sen “restore” demeden. |
+| **72 restore** | `ROSTER/GIT_DELETED_TITLES.md` | 72 slug kataloglandı; `uretim/rol-kartlari/*` git restore **yasak** ta ki sen “restore” demeden. |
 
 **Onay turu bandı:** **1–2 sa**.
 
@@ -50,28 +52,28 @@ Canlı `gh pr list` (2026-11-04 14:45 +03). Agent bunları **yapmaz**.
 
 ## 3) SENDE — ONAYLI (DEVAM, ekstra onay yok)
 
-**Bu tur (04 Kas 14:45 +03) bitti:**
+**Bu tur (10 Kas 14:55 +03) bitti:**
 
 | ID | Teslim | Not |
 |----|--------|-----|
-| S1 | `COMPLIANCE/INDEX.md` + NIST/ISO/CIS kartları | Faz 5 INDEX; 600 satır **yeniden yazılmadı** |
-| S2 | `QA/QA_REPORT.md` | S01–S08 critic-copy **REVISE×8**; spec **GAP**; **PASS=0** |
-| S3 | 10 Director `JOB_CARDS/` | CARD + ≤10 heading; kümülatif **23** |
+| A9 | +10 AdOps EVP `JOB_CARDS/` | CARD + ≤10 heading; kümülatif **33**; mevcut 23 slug yok |
+| A10 | `COMPLIANCE/CIS-IG1.md` | kanıt_yolu sütunu; **PASS uydurma yok**; 56-safeguard SoA yok |
+| A11 | `ROSTER/GIT_DELETED_TITLES.md` | n=72 envanter eşleşmesi; restore **0** |
+| A13-light | 3 skill `references/` | secret-hygiene / compliance-mapper / layers-engine; 20k yok |
 | S4 | STATE / plans / AUDIT / BILGI | tek satır öğrenim |
-| S5 | validate / secret_scan / ethics_check | damga aşağıda |
+| S5 | validate / secret_scan / ethics_check | slice |
 | S6 | Bu rapor + `OZET-TEK-SAYFA-LIVE.md` | Europe/Istanbul |
 
 **Kalan onaylı dilim (hâlâ DEVAM):**
 
 | ID | İş | Sa |
 |----|-----|-----|
-| A9 | Director/EVP +10 skeleton (yine ≤10 H) | 4–8 |
-| A10 | COMPLIANCE CIS IG1 **kanıt sütunu** (PASS uydurma yok) | 3–6 |
-| A11 | LATOS 72 silinmiş **katalog** (restore değil) | 2–4 |
 | A12 | Agency: S03–S08 kanal-özel hook (marka yokken hâlâ REVISE) | 4–8 |
-| A13 | Skill ~20k kısmi derinlik (6 skill) | 6–12 |
+| A13 | Skill ~20k kısmi derinlik (6 skill; light 3 dosya bitti) | 5–11 |
+| A14 | Sonraki 10 JOB_CARDS (Director-3 / kalan EVP) | 4–8 |
+| A15 | GV.RM tek sayfa risk kabul (ASSESS) | 2–4 |
 
-**Kalan onaylı bant:** **19–38 sa**. Merge/restore/CANVA/IMPLEMENT yok.
+**Kalan onaylı bant:** **15–31 sa**. Merge/restore/CANVA/IMPLEMENT yok.
 
 ---
 
@@ -83,7 +85,7 @@ Canlı `gh pr list` (2026-11-04 14:45 +03). Agent bunları **yapmaz**.
 | B4 | Skill 20k tam set | — | 16–32 |
 | B5 | IR playbook ASSESS (Faz 6) | — | 6–12 |
 | B6 | 72 rol git restore | **Metin restore** | 2–6 |
-| B7 | 633 JOB_CARDS skeleton | A9 sonrası | 70–150 |
+| B7 | 633 JOB_CARDS skeleton | A14 sonrası | 66–142 |
 | B8 | 200 başlık × kart | seçilmiş 20 title önce | 20 title: 40–80 · 633: **400–800+** |
 | B10 | Canva PKCE + MCP | **CANVA:ON** + Developers | 8–16 |
 | B12 | LLM live | **Cursor Secrets** | 1–2 |
@@ -102,10 +104,10 @@ Tamam % = teslim / dürüst hedef (iskelet). Karakter bombası değil. Saat = ar
 | **Agency** | Canva | BRIEF-ONLY | **10%** | **8–16** post-CANVA:ON |
 | **Agency** | 6–7 prod | export yok | **0%** | **16–32** |
 | **Security** | 0–4 katalog | **600/600** stub | **100%** katalog · **≠** uygulanmış kontrol | kalite/kanıt **12–24** |
-| **Security** | 5 INDEX | INDEX var · SoA yok | **~20%** Faz 5 | **8–16** (IG1/GV.RM; 93 SoA değil) |
+| **Security** | 5 INDEX+IG1 | INDEX + CIS-IG1 stub · SoA yok | **~28%** Faz 5 | **6–14** (GV.RM; 93 SoA değil) |
 | **Security** | 6–8 | IR/skill/QA | **~8%** | **30–60** |
-| **LATOS** | 0–1 | 633 envanter · 72 restore 0 | keşif **~90%** / restore **0%** | doküman **2–4** |
-| **LATOS** | 4 kart | **23/633** skeleton · 10/200 H | kart **3,6%** · başlık **≪1%** (230 / 126 600) | +10 kart **4–8** · 633 skeleton **70–150** · 200H×633 **400–800+** |
+| **LATOS** | 0–1 | 633 envanter · 72 katalog · restore 0 | keşif **~95%** / restore **0%** | restore **2–6** (onaylı) |
+| **LATOS** | 4 kart | **33/633** skeleton · 10/200 H | kart **5,2%** · başlık **≪1%** (330 / 126 600) | +10 kart **4–8** · 633 skeleton **66–142** · 200H×633 **400–800+** |
 | **LATOS** | 8–9 | 122 prompt / 200 tahmin | **0%** | 20-title kesit **16–40**; 900M char **🚩 0 sa — imkânsız** |
 
 ### Toplam bant
@@ -113,7 +115,7 @@ Tamam % = teslim / dürüst hedef (iskelet). Karakter bombası değil. Saat = ar
 | Sahip | Bu tur (yapıldı) | Kalan onaylı DEVAM | 3-hat derinlik (600 stub + 633 skeleton + agency Canva’sız) | Yapılmayacak |
 |-------|------------------|--------------------|--------------------------------------------------------------|--------------|
 | **Metin** | Secrets + PR bakışı **0,8–2 sa** | aynı + marka 1–3 | — | — |
-| **Agent** | INDEX+QA+10 kart **~4–8 sa** eşdeğeri | **19–38 sa** | **~200–400 sa** | 633×200 dolu **400–800+**; 900M **imkânsız** |
+| **Agent** | 10 EVP + IG1 + 72 katalog **~4–8 sa** eşdeğeri | **15–31 sa** | **~200–400 sa** | 633×200 dolu **400–800+**; 900M **imkânsız** |
 
 ---
 

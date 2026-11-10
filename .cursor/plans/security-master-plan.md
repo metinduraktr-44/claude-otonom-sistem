@@ -13,9 +13,9 @@
 | 2 | Org + Experts | `ORG/ROLES/` genişlet, `EXPERTS/` DIGEST | **bu tur seed** |
 | 3 | Control engines (batch) | LAYERS…CONDITIONAL stub→içerik | **600 kontrol (001–100×6)** |
 | 4 | Matrix + Mapping | `SECURITY_MATRIX` doldurma, NIST map | **600 satır** |
-| 5 | Compliance packs | `COMPLIANCE/` NIST/CIS/ISO INDEX (SOC2 işaretçi) | **INDEX iskelet (2026-11-04)** |
+| 5 | Compliance packs | `COMPLIANCE/` NIST/CIS/ISO INDEX + CIS-IG1 stub | **INDEX + IG1 kanıt stub (2026-11-10)** |
 | 6 | Detection & IR | SecOps skill derinliği, playbook ASSESS | bekliyor |
-| 7 | Skill depth | skill başına ~20k hedef (fazlı) | **6 skill başladı** |
+| 7 | Skill depth | skill başına ~20k hedef (fazlı) | **6 skill + 3 light ref (dump yok)** |
 | 8 | QA + Archive loop | `QA/`, `ARCHIVE/`, aylık döngü | bekliyor |
 
 ## Faz 0 kabul kriterleri

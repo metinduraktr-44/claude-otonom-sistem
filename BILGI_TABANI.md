@@ -2,6 +2,13 @@
 > Protokol: Her işlem [4] ÖĞREN adımında buraya "## [tarih] — [konu]" girişi ekler. En yeni en üstte.
 > Çelişki kuralı: Yeni öğrenim eskisiyle çelişiyorsa ⚠️ ÇELİŞKİ etiketi + hangisinin geçerli olduğu yazılır.
 
+## 2026-11-10 — GIGA DEVAM dilim-3 (10 EVP + CIS-IG1 + 72 katalog)
+- LATOS: +10 AdOps EVP JOB_CARDS (≤10 heading); kümülatif **33/633**; `ROSTER/GIT_DELETED_TITLES.md` n=72 restore=NO
+- Security: `COMPLIANCE/CIS-IG1.md` kanıt_yolu stub; **PASS yok**; 600 kontrol yeniden yazılmadı; #39 dokunulmadı
+- Agency: BRIEF-ONLY; 24 brief / critic PASS=0 değişmedi
+- Skill light: secret-hygiene / compliance-mapper / layers-engine +1 ref (20k dump yok)
+- Öğrenim: IG1 kontrol-seviyesi ≠ 56-safeguard SoA; katalog restore değildir
+
 ## 2026-11-04 — GIGA DEVAM dilim-2 (Faz 5 INDEX + QA REVISE + 10 Director)
 - Security: COMPLIANCE INDEX (NIST CSF 2.0 / ISO 27001:2022 / CIS v8); 600 kontrol **yeniden yazılmadı**; SOC2 işaretçi boş; #39 SoA dalına dokunulmadı
 - Agency: QA_REPORT S01–S08 critic-copy **REVISE×8** · critic-spec **GAP** (pixel yok) · PASS=0

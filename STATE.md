@@ -12,8 +12,8 @@
 
 ### Faz
 - **phase:** `5` (BRIEF-ONLY — S01–S08 × 3 kanal)
-- **last_command:** `/devam` QA critic-copy/spec dürüst gap (PASS yok)
-- **last_updated_utc:** 2026-11-04T11:40:00Z
+- **last_command:** `/devam` dilim-3 (LATOS EVP + CIS-IG1 + 72 katalog; Agency dokunulmadı)
+- **last_updated_utc:** 2026-11-10T11:55:00Z
 
 ### CANVA modu
 - **default:** `BRIEF-ONLY` — tasarım üretimi yok; brief + spec + senaryo çıktısı
@@ -47,8 +47,8 @@
 ### Faz
 - **phase:** `1–5` (Research + Org + Skills + Controls 600 + **COMPLIANCE INDEX**)
 - **MODE:** `ASSESS-ONLY` (varsayılan — gap/doküman; agresif kod değişikliği yok)
-- **last_command:** `sec-devam` / Faz 5 NIST-CSF-2.0 × ISO27001 × CIS INDEX
-- **last_updated_utc:** 2026-11-04T11:40:00Z
+- **last_command:** `sec-devam` / Faz 5 CIS-IG1 kanıt stub (`CIS-IG1.md`)
+- **last_updated_utc:** 2026-11-10T11:55:00Z
 
 ### Guardrails
 - defense-only · secret-redakte · exploit-yok · tehlikeli shell yok
@@ -61,19 +61,19 @@
 - **holding çapraz:** `docs/SECRETS-DRYRUN-MATRISI.md`, `infra/`, workflows
 
 ### Bu tur özeti
-- **Faz 5:** `COMPLIANCE/INDEX.md` — NIST CSF 2.0 / ISO 27001:2022 / CIS v8 **INDEX** (SoA 93 / 900 sayfa yok)
+- **Faz 5:** `COMPLIANCE/INDEX.md` + **`CIS-IG1.md` kanıt sütunu stub** (PASS yok; SoA 56 yok)
 - **Faz 4 (önceki):** 600 kontrol + matrix CSV — **yeniden yazılmadı**
 - **GHA pin gap:** ASSESS notu duruyor; workflow değişmedi
 - **Açık PR dokunulmadı:** #34/#35/#39 merge yok — DEVAM ≠ merge
 
 ### Aktif iş
-- **assessment_id:** sec-2026-11-04-faz5-compliance-index
+- **assessment_id:** sec-2026-11-10-faz5-cis-ig1
 - **control_batch:** `001-100` × 6 (**600/600** katalog; bu tur 0 yeni kontrol)
-- **compliance_pack:** INDEX iskelet (SOC2 işaretçi boş)
+- **compliance_pack:** INDEX + CIS-IG1 stub (SOC2 işaretçi boş)
 
 ### Sonraki adım (Security)
-1. Faz 5: GV.RM + CIS IG1 kanıt sütunu (hala ASSESS)
-2. Skill references → ~20k
+1. Faz 5: GV.RM nicel risk kabul (ASSESS)
+2. Skill references → ~20k (bu tur 3 light dosya; dump yok)
 3. GHA SHA pin **uygulama** yalnızca MODE=IMPLEMENT
 4. IR playbook ASSESS (Faz 6) — #39 ile çakıştırma yok
 5. Canva MCP dokunulmadı
@@ -83,15 +83,15 @@
 ## LATOS (Living AI Talent & Organization System)
 
 ### Faz
-- **phase:** `0–4-light` (Bootstrap + Title Discovery + C-level + **Director** skeleton)
-- **last_command:** `latos-devam` / +10 Director JOB_CARDS (max 10 headings)
-- **last_updated_utc:** 2026-11-04T11:40:00Z
+- **phase:** `0–4-light` (Bootstrap + Title Discovery + C-level + Director + **EVP** skeleton)
+- **last_command:** `latos-devam` / +10 AdOps EVP JOB_CARDS (max 10 headings) + 72 katalog
+- **last_updated_utc:** 2026-11-10T11:55:00Z
 
 ### Envanter
 - **title_count:** 633 (`data/holding_istirak_org.json`)
 - **master_list:** `ROSTER/TITLE_INVENTORY.md`
-- **job_cards_skeleton:** 23 (önceki 13 C-level + 10 Director)
-- **git_deleted_rol_kartlari:** 72 (dokümante; restore insan onaylı)
+- **job_cards_skeleton:** **33** (önceki 23 + 10 AdOps EVP)
+- **git_deleted_rol_kartlari:** 72 — katalog `ROSTER/GIT_DELETED_TITLES.md` (**restore yok**)
 
 ### Karakter hedefleri (fazlı — tamamlanmadı)
 - İş kartı 2000+/200 başlık → Faz 4 (şimdi 10 heading/title)
@@ -100,8 +100,8 @@
 - 900M char/prompt → imkânsız; fazlı yaklaşım dokümante
 
 ### Sonraki adım (LATOS)
-1. Faz 1: git deleted 72 **katalog** (restore değil)
+1. Faz 4: sonraki 10 JOB_CARDS (Director-3 / kalan EVP) — 200 heading uydurma yok
 2. Faz 2: `RESEARCH/_ORG_BEST_PRACTICE.md` genişlet
 3. Faz 3: `ORG/ORG_CHART.md` görsel/HTML
-4. Sonraki 10 JOB_CARDS (EVP/Director-2) — 200 heading uydurma yok
+4. 72 restore **yalnızca Metin onayı**
 5. Skill restart: Cursor restart + yeni chat + `/latos-devam`

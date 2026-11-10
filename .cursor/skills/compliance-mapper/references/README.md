@@ -9,4 +9,4 @@
 - [ ] ASSESS checklist
 - [ ] Anti-patterns (ne üretilmez)
 
-**Şimdi:** stub. Faz 7’de doldurulacak. Çıktı yolu: `COMPLIANCE/`
+**Şimdi:** light refs (`cis-ig1-evidence-map.md` → `COMPLIANCE/CIS-IG1.md`). 20k yok.

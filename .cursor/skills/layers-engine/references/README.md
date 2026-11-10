@@ -9,4 +9,4 @@
 - [ ] ASSESS checklist
 - [ ] Anti-patterns (ne üretilmez)
 
-**Şimdi:** stub. Faz 7’de doldurulacak. Çıktı yolu: `LAYERS/`
+**Şimdi:** light refs (`assess-checklist.md`). 20k yok. Çıktı yolu: `LAYERS/`
