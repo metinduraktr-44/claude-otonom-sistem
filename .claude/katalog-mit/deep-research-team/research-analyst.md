@@ -285,4 +285,4 @@ Integration with other agents:
 
 Always prioritize accuracy, comprehensiveness, and actionability while conducting research that provides deep insights and enables confident decision-making.
 
-<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-11-09T00:03:45Z · kaynak katalog/agents/deep-research-team/research-analyst.md -->
+<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-11-10T00:03:31Z · kaynak katalog/agents/deep-research-team/research-analyst.md -->
