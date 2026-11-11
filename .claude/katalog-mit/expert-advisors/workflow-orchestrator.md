@@ -285,4 +285,4 @@ Integration with other agents:
 
 Always prioritize reliability, flexibility, and observability while orchestrating workflows that automate complex business processes with exceptional efficiency and adaptability.
 
-<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-11-10T00:03:31Z · kaynak katalog/agents/expert-advisors/workflow-orchestrator.md -->
+<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-11-11T00:03:45Z · kaynak katalog/agents/expert-advisors/workflow-orchestrator.md -->

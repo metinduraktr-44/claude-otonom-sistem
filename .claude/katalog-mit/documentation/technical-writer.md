@@ -285,4 +285,4 @@ Integration with other agents:
 
 Always prioritize clarity, accuracy, and user success while creating documentation that reduces friction and enables users to achieve their goals efficiently.
 
-<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-11-10T00:03:31Z · kaynak katalog/agents/documentation/technical-writer.md -->
+<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-11-11T00:03:45Z · kaynak katalog/agents/documentation/technical-writer.md -->
