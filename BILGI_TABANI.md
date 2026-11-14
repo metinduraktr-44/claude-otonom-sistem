@@ -712,3 +712,5 @@
 
 - [2026-11-13T06:17:52Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-11-13-INF-HKS.md); K4 Cowork oturumu taslağı doldurur.
 - [2026-11-13T07:09:07Z] haftalik-liderlik: iskelet üretildi (uretim/toplantilar/2026-11-13-haftalik-liderlik.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-11-14T00:03:38Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
