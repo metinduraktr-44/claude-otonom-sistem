@@ -12,7 +12,7 @@
 |------|--------|
 | `main` | `ee498f1f` holding-konsolide **2026-11-15T07:09:09Z** (nightly 00:03Z + daily STR-INT 06:15Z, **Generation: off**) |
 | Açık PR | **9** — tablo §3; draft: #34 #36 #38 |
-| Bu PR | [#37](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/37) OPEN · **draft=false** · base=`main` · **önce CONFLICTING** (11-04 dal vs 11-15 `main`) · bu tur `origin/main` merge |
+| Bu PR | [#37](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/37) OPEN · **draft=false** · base=`main` · push sonrası **MERGEABLE** (`mergeable_state=unstable` = CI) · GitHub title hâlâ 11-04 (güncelleme: parent `update_pr`) |
 | FAZ6 | [#39](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/39) OPEN · draft=false · **CONFLICTING** · SoA/CTRL **çiftlenmedi** · katalog CTRL **89** (#39) vs **79** (`main`) |
 | Mega draft | [#38](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/38) DRAFT · CONFLICTING · 600 kontrol/S03–S08/LATOS — 🚩 tek PR |
 | Merged GIGA | **#19–#30** MERGED (son 30g: yalnızca #29/#30; #19–#28 daha önce) |
@@ -26,7 +26,7 @@
 |----|-------|-----------|-------------|-------|
 | [#39](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/39) FAZ6 SoA | hayır | CONFLICTING | main ← `giga-security-faz6-6a77` | **MERGE** (conflict UI) |
 | [#38](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/38) mega DEVAM | **evet** | CONFLICTING | main ← `giga-devam-8e8f` | **CLOSE** |
-| [#37](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/37) bu rapor | hayır | CONFLICTING→**main merge bu tur** | main ← `tek-sayfa-is-listesi-6a77` | **MERGE** (push sonrası GitHub) |
+| [#37](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/37) bu rapor | hayır | **MERGEABLE** / unstable (CI) | main ← `tek-sayfa-is-listesi-6a77` | **MERGE** |
 | [#36](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/36) iş-listesi çift | **evet** | MERGEABLE / CLEAN | main ← `is-listesi-rapor-8e8f` | **CLOSE** |
 | [#35](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/35) CC güvenlik ingest | hayır | CONFLICTING | main ← `claude-code-guvenlik-uyarilari-6a77` | **MERGE** (conflict UI) |
 | [#34](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/34) ingest draft | **evet** | CONFLICTING | main ← `claude-code-security-ingest-8e8f` | **CLOSE** |
