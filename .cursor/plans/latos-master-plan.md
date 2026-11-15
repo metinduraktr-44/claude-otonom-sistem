@@ -1,7 +1,7 @@
 # LATOS Master Plan — Faz 0–9
 
 > Plan Mode kaydı · `.cursor/plans/latos-master-plan.md`
-> **Durum:** Faz 0–4-light (2026-11-10) — 33 JOB_CARDS skeleton; 72 katalog restore=NO
+> **Durum:** Faz 0–4-light (2026-11-15) — **43** JOB_CARDS skeleton; 72 katalog restore=NO
 
 ## Faz Özeti
 
@@ -11,7 +11,7 @@
 | 1 | Title Keşif/Kurtarma | `ROSTER/TITLE_INVENTORY.md` (633) + `GIT_DELETED_TITLES.md` (72, restore yok) | ✅ katalog / restore ⏳ |
 | 2 | Research + Master Tasks | `RESEARCH/`, `TASKS/LATOS_MASTER_TASKS.md` | ⏳ |
 | 3 | Org + Hiyerarşi | `ORG/ORG_CHART.md`, RACI | ⏳ |
-| 4 | İş Kartları | `JOB_CARDS/{title}/` skeleton→tam | 🔄 **33** skeleton (23 önceki + 10 EVP) |
+| 4 | İş Kartları | `JOB_CARDS/{title}/` skeleton→tam | 🔄 **43** skeleton (33 önceki + 10 Lead) |
 | 5 | Uzman Motoru | `EXPERTS/{title}/top100_*` | ⏳ |
 | 6 | Yetenek Motoru | `SKILLS_TALENT/`, `EXPERTS_TALENT/` | ⏳ |
 | 7 | Roadmap/7-24 | `ROADMAP/`, `OPERATIONS/` | ⏳ |
@@ -37,7 +37,7 @@
 - İnsan onay: uzman listesi, git restore, self-modification
 
 ## Sonraki DEVAM
-1. Faz 4: sonraki 10 title skeleton (Director-3 / kalan EVP) — 200 başlık uydurma yok
+1. Faz 4: sonraki 10 title skeleton (kalan Lead / diğer birimler) — 200 başlık uydurma yok
 2. Faz 2: `RESEARCH/_ORG_BEST_PRACTICE.md` genişlet
 3. Seçilmiş 2 kartı H011+ genişlet (hâlâ ≤ ek 10/tur)
 4. 72 restore yalnızca insan onayı

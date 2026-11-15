@@ -15,3 +15,5 @@
 | RC | RP, IM, CO | RP stub |
 
 Çapraz tablo: [INDEX.md](INDEX.md). Satırlar: `SECURITY_MATRIX/`.
+
+GV.RM detay stub: [NIST-GV-RM.md](NIST-GV-RM.md) (2026-11-15; PASS yok).

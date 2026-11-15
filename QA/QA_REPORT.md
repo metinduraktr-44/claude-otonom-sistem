@@ -1,7 +1,8 @@
 # QA_REPORT — critic-copy / critic-spec (S01–S08)
 
-> **ts:** 2026-11-04T11:40:00Z · **mod:** CANVA:BRIEF-ONLY · **marka:** TBD · **INBOX:** boş  
-> **Kural:** sahte PASS yok. Critic ajanları readonly; bu rapor dosya **değiştirmez**.
+> **ts:** 2026-11-15T09:50:00Z · **mod:** CANVA:BRIEF-ONLY · **marka:** TBD · **INBOX:** boş (yalnızca README)  
+> **Kural:** sahte PASS yok. Critic ajanları readonly; bu rapor dosya **değiştirmez**.  
+> **Dilim-4 notu:** INBOX hâlâ boş → genel **REVISE** korunur; PASS uydurulmaz.
 
 ## Denetim özeti (6 katman)
 
@@ -14,7 +15,7 @@
 | Patterns | GEÇTİ | BRIEF-ONLY; 900B yok; CANVA:ON kapalı |
 | Review | **PASS DEĞİL** | critic-copy/spec tam koşum **yapılmadı**; aşağıda dürüst gap |
 
-**Genel:** **REVISE** (hafif yapısal GEÇTİ ≠ critic PASS)
+**Genel:** **REVISE** (hafif yapısal GEÇTİ ≠ critic PASS) — 2026-11-15 yeniden teyit: INBOX boş, PASS=0
 
 ## Kontrol listesi
 

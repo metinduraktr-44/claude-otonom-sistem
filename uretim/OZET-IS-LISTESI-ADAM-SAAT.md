@@ -1,9 +1,9 @@
 # İŞ LİSTESI + ROADMAP (ADAM-SAAT)
 
-> **Damga:** 2026-11-10 **14:55 Europe/Istanbul** (UTC 11:55)  
+> **Damga:** 2026-11-15 **12:48 Europe/Istanbul** (UTC 09:48)  
 > **Dal:** `cursor/giga-devam-8e8f` · PR [#38](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/38) (DRAFT)  
 > **MODE:** Agency **BRIEF-ONLY** · Security **ASSESS-ONLY** · CANVA:OFF · merge yok · git restore yok  
-> **Sayaç:** kontroller **600/600** · brief **24** · JOB_CARDS **33** (23 önceki + 10 EVP) · critic PASS **0** · 72 katalog restore **0**
+> **Sayaç:** kontroller **600/600** · brief **24** · JOB_CARDS **43** (33 önceki + 10 Lead) · critic PASS **0** · 72 katalog restore **0**
 
 Kurul: Baş Mimar + Denetçi + İş/Gelir. Varsayım: DEVAM = onaylı dilim; merge / restore / CANVA:ON / IMPLEMENT **hariç**.
 
@@ -29,11 +29,11 @@ Kurul: Baş Mimar + Denetçi + İş/Gelir. Varsayım: DEVAM = onaylı dilim; mer
 
 ## 2) BENDE — ONAYLAYACAKLARIM
 
-Canlı `gh pr list --state open` (2026-11-10 14:55 +03). Agent bunları **yapmaz**.
+Canlı `gh pr list --state open` (2026-11-15 12:48 +03). Agent bunları **yapmaz**.
 
 | Kapı | URL | Not |
 |------|-----|-----|
-| **#38 DEVAM** (DRAFT) | https://github.com/metinduraktr-44/claude-otonom-sistem/pull/38 | Dilim-3: 33 JOB_CARDS + CIS-IG1 stub + 72 katalog. Review → Ready/merge **sen**; ajan merge etmez. |
+| **#38 DEVAM** (DRAFT) | https://github.com/metinduraktr-44/claude-otonom-sistem/pull/38 | Dilim-4: 43 JOB_CARDS + NIST-GV-RM stub + QA REVISE. Review → Ready/merge **sen**; ajan merge etmez. |
 | **#39** (açık) | https://github.com/metinduraktr-44/claude-otonom-sistem/pull/39 | FAZ6 ISO SoA + 10 CTRL — **#38 ile karıştırma / merge etme**. |
 | **#37** (açık) | https://github.com/metinduraktr-44/claude-otonom-sistem/pull/37 | Tek sayfa iş listesi 04 Kas; #38 LIVE özeti daha yeni. |
 | **#36 rapor** (DRAFT) | https://github.com/metinduraktr-44/claude-otonom-sistem/pull/36 | Eski iş-listesi (03 Kas, 120/600). Güncel dosya **#38 dalında**; kapat veya #38 lehine bırak. |
@@ -52,14 +52,14 @@ Canlı `gh pr list --state open` (2026-11-10 14:55 +03). Agent bunları **yapmaz
 
 ## 3) SENDE — ONAYLI (DEVAM, ekstra onay yok)
 
-**Bu tur (10 Kas 14:55 +03) bitti:**
+**Bu tur (15 Kas 12:48 +03) bitti:**
 
 | ID | Teslim | Not |
 |----|--------|-----|
-| A9 | +10 AdOps EVP `JOB_CARDS/` | CARD + ≤10 heading; kümülatif **33**; mevcut 23 slug yok |
-| A10 | `COMPLIANCE/CIS-IG1.md` | kanıt_yolu sütunu; **PASS uydurma yok**; 56-safeguard SoA yok |
-| A11 | `ROSTER/GIT_DELETED_TITLES.md` | n=72 envanter eşleşmesi; restore **0** |
-| A13-light | 3 skill `references/` | secret-hygiene / compliance-mapper / layers-engine; 20k yok |
+| A14 | +10 Lead `JOB_CARDS/` (5 AdOps + 5 HQ) | CARD + ≤10 heading; kümülatif **43**; mevcut 33 slug yok |
+| A15 | `COMPLIANCE/NIST-GV-RM.md` | GV.RM-01…07 + risk tablosu TBD; **PASS uydurma yok** |
+| A12-light | `QA/QA_REPORT.md` | INBOX boş → **REVISE**; PASS=0 |
+| R1 | `RESEARCH/2026-11-15_nist-csf-20-gv-rm.md` | NIST CSWP 29 URL+timestamp |
 | S4 | STATE / plans / AUDIT / BILGI | tek satır öğrenim |
 | S5 | validate / secret_scan / ethics_check | slice |
 | S6 | Bu rapor + `OZET-TEK-SAYFA-LIVE.md` | Europe/Istanbul |
@@ -70,8 +70,8 @@ Canlı `gh pr list --state open` (2026-11-10 14:55 +03). Agent bunları **yapmaz
 |----|-----|-----|
 | A12 | Agency: S03–S08 kanal-özel hook (marka yokken hâlâ REVISE) | 4–8 |
 | A13 | Skill ~20k kısmi derinlik (6 skill; light 3 dosya bitti) | 5–11 |
-| A14 | Sonraki 10 JOB_CARDS (Director-3 / kalan EVP) | 4–8 |
-| A15 | GV.RM tek sayfa risk kabul (ASSESS) | 2–4 |
+| A16 | Sonraki 10 JOB_CARDS (kalan Lead / diğer birimler) | 4–8 |
+| A17 | ISO A.5 SoA 20 satır özet (ASSESS; #39 çakıştırma yok) | 2–4 |
 
 **Kalan onaylı bant:** **15–31 sa**. Merge/restore/CANVA/IMPLEMENT yok.
 
@@ -79,46 +79,43 @@ Canlı `gh pr list --state open` (2026-11-10 14:55 +03). Agent bunları **yapmaz
 
 ## 4) SENDE — SONRAKİ ADIMLAR (onay / bağımlılık)
 
-| ID | İş | Blok | Sa |
-|----|-----|------|-----|
-| B3+ | ISO SoA 93 / #39 içeriği | **#39 review**; #38’e kopyalama | 8–16 |
-| B4 | Skill 20k tam set | — | 16–32 |
-| B5 | IR playbook ASSESS (Faz 6) | — | 6–12 |
-| B6 | 72 rol git restore | **Metin restore** | 2–6 |
-| B7 | 633 JOB_CARDS skeleton | A14 sonrası | 66–142 |
-| B8 | 200 başlık × kart | seçilmiş 20 title önce | 20 title: 40–80 · 633: **400–800+** |
-| B10 | Canva PKCE + MCP | **CANVA:ON** + Developers | 8–16 |
-| B12 | LLM live | **Cursor Secrets** | 1–2 |
-| B13 | GHA SHA pin | **IMPLEMENT** | 8–16 |
-| B14 | #34/#35/#36/#37/#39 triyaj | Metin | 1–3 |
+| İş | Bağımlılık | Sa (tahmini) |
+|----|------------|--------------|
+| critic-copy/spec **PASS** | Marka kit INBOX + (spec için) CANVA:ON + export | 6–12 |
+| GHA SHA40 pin | MODE=IMPLEMENT onayı | 2–5 |
+| 72 `uretim/rol-kartlari` restore | Metin “restore” + seçici liste | 3–8 |
+| Canva OAuth live | CANVA:ON + developers app | 4–10 |
+| 200 heading/title doldurma | Faz 4+ DEVAM dalgaları (633×) | 200–400+ |
+| 122 prompt/title | Faz 8 + token bütçesi | 80–150 |
+| IR playbook / Faz 6 | ASSESS; #39 ile merge çakıştırma yok | 4–8 |
+| 🚩 900M char/prompt | **RED** — fiziksel imkânsız; fazlı alt dosya | — |
 
 ---
 
-## 5) ROADMAP + ADAM-SAAT (yeni sayaçlar)
+## 5) ROADMAP — adam-saat (güncel sayaç)
 
-Tamam % = teslim / dürüst hedef (iskelet). Karakter bombası değil. Saat = aralık.
+| Blok | Mevcut | Kalan iş | Adam-saat |
+|------|--------|----------|-----------|
+| JOB_CARDS skeleton | **43**/633 | 590 title × skeleton (≤10 heading) | **80–160** |
+| JOB_CARDS 2000+/200 başlık | 0 tam | 633 × fazlı H001–H200 | **400–800+** |
+| Security 600 kontrol | **600**/600 katalog | Uygulama kanıtı / IMPLEMENT | **20–40** (IMPLEMENT sonrası) |
+| Compliance SoA | INDEX+IG1+GV.RM stub | ISO A.5 özet + SOC2 | **6–12** |
+| Agency briefs | **24**/24 seed | S03–S08 kanal-özel + marka | **8–16** |
+| Critic PASS | **0**/8 | Marka + (spec) pixel | **6–12** |
+| Skill ~20k × 6 | light kısmi | derinlik dump değil | **15–30** |
+| Prompt 122/title | 0 | Faz 8 | **80–150** |
+| Forecast 200/gün/title | 0 | Faz 9 Cloud | **40–80** (otomasyon) |
+| 🚩 900M char tek prompt | — | **RED** | 0 (yapılmaz) |
 
-| Track | Faz | Durum | % | Kalan sa |
-|-------|-----|-------|---|----------|
-| **Agency** | 0–5 seed | 24/24 brief · critic PASS **0/8** | **~48%** pipeline (brief var, PASS yok) | **10–20** (marka kit sonrası critic) |
-| **Agency** | Canva | BRIEF-ONLY | **10%** | **8–16** post-CANVA:ON |
-| **Agency** | 6–7 prod | export yok | **0%** | **16–32** |
-| **Security** | 0–4 katalog | **600/600** stub | **100%** katalog · **≠** uygulanmış kontrol | kalite/kanıt **12–24** |
-| **Security** | 5 INDEX+IG1 | INDEX + CIS-IG1 stub · SoA yok | **~28%** Faz 5 | **6–14** (GV.RM; 93 SoA değil) |
-| **Security** | 6–8 | IR/skill/QA | **~8%** | **30–60** |
-| **LATOS** | 0–1 | 633 envanter · 72 katalog · restore 0 | keşif **~95%** / restore **0%** | restore **2–6** (onaylı) |
-| **LATOS** | 4 kart | **33/633** skeleton · 10/200 H | kart **5,2%** · başlık **≪1%** (330 / 126 600) | +10 kart **4–8** · 633 skeleton **66–142** · 200H×633 **400–800+** |
-| **LATOS** | 8–9 | 122 prompt / 200 tahmin | **0%** | 20-title kesit **16–40**; 900M char **🚩 0 sa — imkânsız** |
-
-### Toplam bant
-
-| Sahip | Bu tur (yapıldı) | Kalan onaylı DEVAM | 3-hat derinlik (600 stub + 633 skeleton + agency Canva’sız) | Yapılmayacak |
-|-------|------------------|--------------------|--------------------------------------------------------------|--------------|
-| **Metin** | Secrets + PR bakışı **0,8–2 sa** | aynı + marka 1–3 | — | — |
-| **Agent** | 10 EVP + IG1 + 72 katalog **~4–8 sa** eşdeğeri | **15–31 sa** | **~200–400 sa** | 633×200 dolu **400–800+**; 900M **imkânsız** |
+**Onaylı DEVAM kalan band (A12/A13/A16/A17):** **15–31 sa**.  
+**Tüm roadmap (insan kapıları hariç iskelet):** kabaca **650–1300+ sa** — tek oturumda bitmez.
 
 ---
 
 ## 6) Metin — tek satır sonraki aksiyon
 
-**Cursor Secrets’a Gemini+OpenRouter koy → yeni chat `/devam` `/sec-devam` `/latos-devam` → [#38](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/38) review; [#35](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/35)/[#34](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/34) triyaj; CANVA:ON / IMPLEMENT / 72 restore kapalı.**
+**Cursor Secrets’a Gemini+OpenRouter koy → yeni chat’te `/devam` smoke → marka kit’i `CONTEXT/INBOX/`’a bırak; #38’i review et (merge sen).**
+
+---
+
+⏱️ Damga: 2026-11-15T09:48:56Z (12:48 +03) · 🔍 Denetim: GEÇTİ (slice) · 📚 Öğrenim: MANAGER tier envanterde yok → Lead; GV.RM stub≠nicel iştah · 🔗 Önceki: evet

@@ -1,7 +1,7 @@
 # Master Plan — Otonom AI Creative Agency (Faz 0–7)
 
 > Kaynak: GIGA MASTER PROMPT BÖLÜM 13 · Bootstrap: BÖLÜM 0.5
-> Refresh: 2026-11-10T11:55:00Z · CANVA:BRIEF-ONLY (değişmedi)
+> Refresh: 2026-11-15T09:50:00Z · CANVA:BRIEF-ONLY (değişmedi)
 
 ## Faz 0 — Bootstrap ✅
 - [x] `.cursor/rules/*.mdc` (agency core, brand, spec, structure, canva)
@@ -18,6 +18,7 @@
 - [x] CONTEXT_BRIEF doldur (marka TBD işaretli, KPI proxy, kanal)
 - [ ] INBOX materyal işleme (INBOX boş — müşteri kit bekleniyor)
 - [x] İlk RESEARCH notları (`RESEARCH_NOTES`, `COMPETITORS`, `INSIGHTS` + URL/ts)
+- [x] 2026-11-15 NIST CSF 2.0 GV.RM notu (`RESEARCH/2026-11-15_nist-csf-20-gv-rm.md`)
 - [ ] `.cursorrules` → `.mdc` tam migrasyon
 
 ## Faz 2 — Expert Engine ✅ (seed)
@@ -42,7 +43,7 @@
 ## Faz 5 — QA & Validation (kısmi)
 - [ ] spec_validate.py Pillow tam implementasyon (export sonrası)
 - [ ] `/spec-dogrula` CI hook
-- [x] QA/ rapor şablonu + **dürüst** QA_REPORT (S01–S08 REVISE; PASS=0)
+- [x] QA/ rapor şablonu + **dürüst** QA_REPORT (S01–S08 REVISE; PASS=0; 2026-11-15 INBOX teyit)
 - [ ] critic-spec otomasyon (pixel yok → GAP)
 
 ## Faz 6 — Archive & Learning

@@ -2,7 +2,7 @@
 
 # GUARDRAIL AKTİF — savunma-only, secret-redakte, exploit-yok
 
-> **MODE:** ASSESS-ONLY · **Faz:** 5 skeleton · **ts:** 2026-11-10T11:55:00Z  
+> **MODE:** ASSESS-ONLY · **Faz:** 5 skeleton · **ts:** 2026-11-15T09:50:00Z  
 > **Kapsam:** INDEX + çapraz harita. **900 sayfa SoA / 600 kontrol yeniden yazımı YOK.**  
 > Satır kaynağı: `SECURITY_MATRIX/matrix-001-020.csv` + `matrix-021-100.csv` (**600** satır, 6 motor × 100).
 
@@ -16,6 +16,7 @@
 | ISO SoA 93 kontrol | **yok** | PR #39 ayrı dal; bu PR merge etmez |
 | SOC 2 TSC | **değil bu dilim** | `SOC2.md` işaretçi |
 | CIS IG1 kanıt sütunu | **stub** | `CIS-IG1.md` — PASS yok |
+| NIST GV.RM | **stub** | `NIST-GV-RM.md` — nicel iştah TBD; PASS yok |
 | MODE=IMPLEMENT | kapalı | Pin/CI sertleştirme ayrı onay |
 
 ## 6 motor (katalog)
@@ -97,9 +98,9 @@ Kaynak: NIST CSF 2.0 (Feb 2024) Govern + 5 fonksiyon. Bu repo **kanıt değil**,
 3. Yeni kontrol **yazma**; haritayı düzeltmek için CSV hücresi + bu INDEX notu.
 4. IMPLEMENT veya audit-pack = ayrı insan kapısı.
 
-## Sonraki (Faz 5+; bu PR değil)
+## Sonraki (Faz 5+)
 
-- [ ] GV.RM tek sayfa risk kabul tablosu (ASSESS)
+- [x] GV.RM tek sayfa risk kabul stub (`NIST-GV-RM.md` — PASS değil; nicel iştah TBD)
 - [x] CIS IG1 kanıt sütunu stub (`CIS-IG1.md` — PASS değil; SoA 56 yok)
 - [ ] ISO A.5 SoA 20 satırlık **özet** (93 değil)
 - [ ] SOC 2 CC1–CC9 işaretçi doldurma (`SOC2.md`)
