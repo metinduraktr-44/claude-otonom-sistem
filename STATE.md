@@ -83,25 +83,28 @@
 ## LATOS (Living AI Talent & Organization System)
 
 ### Faz
-- **phase:** `0–1` (Bootstrap + Title Discovery START)
-- **last_command:** `latos-baslat` / Faz 0 bootstrap
-- **last_updated_utc:** 2026-08-27T20:20:00Z
+- **phase:** `1–4` (inventory + 10-kart pilot; 633×tam değil)
+- **last_command:** `/latos-devam` + tek sayfa iş listesi
+- **last_updated_utc:** 2026-11-15T09:57:00Z
+- **last_updated_istanbul:** 2026-11-15T12:57:00+0300
 
 ### Envanter
 - **title_count:** 633 (`data/holding_istirak_org.json`)
 - **master_list:** `ROSTER/TITLE_INVENTORY.md`
-- **job_cards_skeleton:** 2 (hq-ceo, adops-ceo)
+- **job_cards_skeleton:** 13 klasör (önceki 3 + 10 pilot)
 - **git_deleted_rol_kartlari:** 72 (dokümante; restore insan onaylı)
+- **talents_index:** 101 (`SKILLS_TALENT/TALENT_TAXONOMY.md`)
+- **prompts:** hq-ceo INDEX 122 + P001–P003 (4–12 KiB sözleşme)
 
 ### Karakter hedefleri (fazlı — tamamlanmadı)
-- İş kartı 2000+/200 başlık → Faz 4
-- 122 prompt/title → Faz 8
+- İş kartı 2000+/200 başlık → Faz 4 (pilot kartlar 6k+ char, 200 başlık **yok**)
+- 122 prompt/title → Faz 8 (INDEX + 3 örnek)
 - 200 tahmin/gün → Faz 9
-- 900M char/prompt → imkânsız; fazlı yaklaşım dokümante
+- 900M char/prompt → 🚩 fiziksel imkânsız / RED; fazlı yaklaşım dokümante
 
 ### Sonraki adım (LATOS)
-1. Faz 1 tamamla: git deleted title detay dokümantasyonu
-2. Faz 2: `RESEARCH/_ORG_BEST_PRACTICE.md` genişlet
-3. Faz 3: `ORG/ORG_CHART.md` görsel/HTML
-4. Skill restart: Cursor restart + yeni chat + `/latos-devam`
-5. JOB_CARDS batch skeleton (10 title pilot)
+1. JOB_CARDS backlog ~620 title (`qa_check.py`)
+2. Expert seed insan onayı; aylık ARCHIVE döngüsü
+3. 72 git restore — yalnızca Metin onayı
+4. Skill restart: yeni chat + `/latos-devam`
+5. TEAMS/EXECUTION P001 örnekleri

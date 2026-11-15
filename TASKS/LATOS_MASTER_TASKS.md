@@ -9,15 +9,16 @@
 | L-001 | Title envanter 633 doğrula | title-discovery | `ROSTER/TITLE_INVENTORY.md` | Satır sayısı = role_adet |
 | L-002 | Git deleted rol dokümante | title-discovery | CONTEXT_BRIEF + envanter status | İnsan onaysız restore yok |
 | L-003 | 2 örnek iş kartı skeleton | job-card-engine | `JOB_CARDS/hq-ceo/`, `adops-ceo/` | CARD.md + INDEX.md |
+| L-004 | +10 C-level/EVP/Dir kart | job-card-engine | 10 slug CARD.md (≥2k char) | 2026-11-15 pilot |
 
 ## P1 — Sıradaki
 
-| ID | Görev | Sahip | Çıktı |
-|----|-------|-------|-------|
-| L-010 | Org chart LATOS view | roadmap-engine | `ORG/ORG_CHART.md` |
-| L-011 | Research org best practice | — | `RESEARCH/_ORG_BEST_PRACTICE.md` |
-| L-020 | EXPERTS hq-ceo seed | latos-expert-engine | skeleton top100 |
-| L-030 | SKILL_MATRIX | — | `ORG/SKILL_MATRIX.md` |
+| ID | Görev | Sahip | Çıktı | Not |
+|----|-------|-------|-------|-----|
+| L-010 | Org chart LATOS view | roadmap-engine | `ORG/ORG_CHART.md` | LLM kademe notu eklendi |
+| L-011 | Research org best practice | — | `RESEARCH/_ORG_BEST_PRACTICE.md` | seed 2026-11-15 |
+| L-020 | EXPERTS hq-ceo seed | latos-expert-engine | skeleton top100 | unverified 3 satır |
+| L-030 | SKILL_MATRIX | — | `ORG/SKILL_MATRIX.md` | backlog |
 
 ## P2 — Backlog (Faz 4+)
 

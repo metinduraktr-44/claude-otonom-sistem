@@ -23,8 +23,8 @@
 
 ## FAZ 2 — Research + tasks
 - [ ] `CONTEXT/CONTEXT_BRIEF.md` dolu
-- [ ] `RESEARCH/_ORG_BEST_PRACTICE.md`
-- [ ] `TASKS/MASTER_TASKS.md` P0–P3
+- [x] `RESEARCH/_ORG_BEST_PRACTICE.md` (seed 2026-11-15)
+- [x] `TASKS/LATOS_MASTER_TASKS.md` P0–P2 (L-004 eklendi)
 
 ## FAZ 3 — Org
 - [ ] `ORG/ORG_CHART.md`
@@ -33,27 +33,28 @@
 
 ## FAZ 4 — İş kartları
 - [x] Örnek kart: `JOB_CARDS/CISO/` (H001… kısmi, dürüst)
-- [ ] Envanterdeki her title için CARD.md iskeleti
+- [x] +10 envanter slug skeleton (2026-11-15; 200 başlık yok)
+- [ ] Envanterdeki her title için CARD.md iskeleti (~620 backlog)
 - [ ] 200 başlık hedefine `DEVAM` ile yaklaşım (QA gate)
 
 ## FAZ 5 — Uzman motoru
-- [ ] Seed top-N + `unverified` işaret
-- [ ] `CALENDAR/EXPERTS_UPDATE.md`
-- [ ] READ→DELTA→DIFF→WRITE→DIGEST
+- [x] Seed top-N + `unverified` (hq-ceo, adops-ceo; ranking yok)
+- [x] `CALENDAR/LATOS_RESEARCH_LOOP.md` + EXPERTS_UPDATE iskelet
+- [x] READ→DELTA→DIFF→WRITE→DIGEST (ilk ARCHIVE/2026-11/latos)
 
 ## FAZ 6 — Yetenek motoru
-- [ ] `SKILLS_TALENT/TALENT_TAXONOMY.md`
-- [ ] `TITLE_TO_TALENT_MAP.md`
-- [ ] Örnek yetenek top-list (doğrulanabilir mini)
+- [x] `SKILLS_TALENT/TALENT_TAXONOMY.md` (101 INDEX)
+- [x] `TITLE_TO_TALENT_MAP.md` (6 satır)
+- [x] Örnek yetenek stub (satranç, hitabet — `unverified`)
 
 ## FAZ 7 — Roadmap / 7-24
-- [ ] `ROADMAP/{title}.md` örnekleri
-- [ ] `OPERATIONS/247_WORKFLOWS.md`
+- [x] `ROADMAP/hq-ceo.md` + `hq-caio.md` örnek
+- [x] `OPERATIONS/247_WORKFLOWS.md` (GHA kırılmadan bağ)
 
 ## FAZ 8 — Prompt üretimi
-- [ ] `PROMPTS/TITLES/{title}/P001…` (122 hedef, parçalı)
-- [ ] TEAMS + EXECUTION setleri
-- [ ] 🚩 900M tek dosya yok — parçalı genişleme
+- [x] `PROMPTS/TITLES/hq-ceo/` INDEX 122 + P001–P003
+- [x] TEAMS + EXECUTION INDEX (pending slot)
+- [x] 🚩 900M tek dosya yok — parçalı genişleme dokümante
 
 ## FAZ 9 — Canlı döngü
 - [ ] Günlük tahmin örneği + kalibrasyon stub

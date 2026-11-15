@@ -1,6 +1,6 @@
 # TITLE INVENTORY — LATOS Master Liste
 
-> **Güncelleme:** 2026-08-27T20:19:54Z UTC · **Kaynak:** `data/holding_istirak_org.json`
+> **Güncelleme:** 2026-11-15T09:57:00Z UTC · **Kaynak:** `data/holding_istirak_org.json`
 > **Toplam title:** 633 · **Hedef:** hiçbir title atlanmaz
 
 ## Özet
@@ -11,7 +11,7 @@
 | Envantere yazılan | 633 |
 | rol-kartlari mevcut | 48 |
 | git silinmiş (kurtarılabilir) | 72 |
-| JOB_CARDS üretildi | 0 (Faz 4) |
+| JOB_CARDS üretildi | 13 klasör (`CISO` + 12 envanter slug; 620 backlog) |
 
 ## Git Kurtarma Notu
 

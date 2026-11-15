@@ -1,4 +1,5 @@
 # SKILLS_TALENT
 
-LATOS iskelet. FAZ ilerledikçe dolar.
+`TALENT_TAXONOMY.md` — 101 yetenek INDEX (2026-11-15).
+Uzman listesi: `EXPERTS_TALENT/` stub; ranking yok.
 

@@ -1,7 +1,7 @@
 # LATOS Master Plan — Faz 0–9
 
 > Plan Mode kaydı · `.cursor/plans/latos-master-plan.md`
-> **Durum:** Faz 0–1 bootstrap (2026-08-27)
+> **Durum:** Faz 0–1 + 2026-11-15 pilot (10 kart / 101 yetenek / P001–P003)
 
 ## Faz Özeti
 
@@ -9,13 +9,13 @@
 |-----|-----|-------|-------|
 | 0 | Bootstrap + Ingestion | `.cursor/`, AGENTS.md, hooks, envanter iskelet | ✅ |
 | 1 | Title Keşif/Kurtarma | `ROSTER/TITLE_INVENTORY.md` (633) | 🔄 |
-| 2 | Research + Master Tasks | `RESEARCH/`, `TASKS/LATOS_MASTER_TASKS.md` | ⏳ |
-| 3 | Org + Hiyerarşi | `ORG/ORG_CHART.md`, RACI | ⏳ |
-| 4 | İş Kartları | `JOB_CARDS/{title}/` skeleton→tam | ⏳ |
-| 5 | Uzman Motoru | `EXPERTS/{title}/top100_*` | ⏳ |
-| 6 | Yetenek Motoru | `SKILLS_TALENT/`, `EXPERTS_TALENT/` | ⏳ |
-| 7 | Roadmap/7-24 | `ROADMAP/`, `OPERATIONS/` | ⏳ |
-| 8 | Prompt Üretimi | `PROMPTS/` (122+/set, fazlı) | ⏳ |
+| 2 | Research + Master Tasks | `RESEARCH/`, `TASKS/LATOS_MASTER_TASKS.md` | 🔄 seed |
+| 3 | Org + Hiyerarşi | `ORG/ORG_CHART.md`, RACI | 🔄 LLM kademe notu |
+| 4 | İş Kartları | `JOB_CARDS/{title}/` skeleton→tam | 🔄 13/633 |
+| 5 | Uzman Motoru | `EXPERTS/{title}/top100_*` | 🔄 unverified stub |
+| 6 | Yetenek Motoru | `SKILLS_TALENT/`, `EXPERTS_TALENT/` | 🔄 101 INDEX |
+| 7 | Roadmap/7-24 | `ROADMAP/`, `OPERATIONS/` | 🔄 örnek |
+| 8 | Prompt Üretimi | `PROMPTS/` (122+/set, fazlı) | 🔄 hq-ceo INDEX |
 | 9 | Canlı Döngü+Arşiv | FORECASTS, MEMORY, ARCHIVE | ⏳ |
 
 ## Karakter Hedefleri (FAZLI — dürüst)

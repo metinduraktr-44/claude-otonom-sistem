@@ -96,3 +96,18 @@ Her title için iş kartında tek "A" (Accountable) — Faz 4.
 
 ### Görsel
 Faz 3+: HTML org paneli (web-artifacts muadili)
+
+## LLM agency kademe (LATOS, 2026-11-15)
+
+Additive not — Agency eşlemesi silinmedi.
+
+```
+Owner (Metin) — merge / secret / restore / CANVA:ON / MODE=IMPLEMENT
+ └── Orkestratör ajan (Holding HQ) — STATE oku → yap → damga
+      ├── C-suite title prompt (TITLES/P00x)
+      ├── Ekip prompt (TEAMS/122)
+      └── Uygulama prompt (EXECUTION/122)
+           └── Worker: tek görev, token sınırında STATE'e yaz ve dur
+```
+
+Convex yok. `gh pr merge` ajan 403 — merge GitHub UI.

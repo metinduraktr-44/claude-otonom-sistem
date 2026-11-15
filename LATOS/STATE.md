@@ -1,26 +1,27 @@
 # LATOS STATE
 
 ```yaml
-faz: 1
+faz: 1-4-pilot
 os: LATOS
-son_komut: bootstrap+faz1-inventory
-ts: 2026-08-27T20:20:00Z
-inventory_rows: 397
-inventory_mevcut: 325
+son_komut: latos-devam + tek-sayfa-is-listesi
+ts: 2026-11-15T09:57:00Z
+inventory_rows: 633
 inventory_silinmis: 72
-sample_job_card: JOB_CARDS/CISO
+job_cards: 13
+sample_job_card: JOB_CARDS/hq-caio
 qa: soft-ok
 notlar: >
-  FAZ0 bootstrap + FAZ1 TITLE_INVENTORY tamam.
-  🚩 900M / 200H tek shot yok — DEVAM ile genişle.
-  Sonraki: FAZ2 RESEARCH veya /is-karti ile H006+.
+  Pilot: +10 JOB_CARDS, talent INDEX 101, hq-ceo P001-P003,
+  expert stubs unverified, aylık research loop.
+  🚩 900M / 200H / 633x100x122 tek shot yok — DEVAM.
 ```
 
 ## Açık escalation
 - Silinmiş `uretim/rol-kartlari/*` restore = insan onayı
-- Top-100 uzman listeleri henüz yok (FAZ 5)
+- Top-100 listeleri yayın = insan onayı (`unverified` seed var)
 
 ## Son çıktılar
-- `ROSTER/TITLE_INVENTORY.md`
-- `JOB_CARDS/CISO/`
-- `uretim/devir/CURSOR-GIGA-MASTER-LATOS.md`
+- `JOB_CARDS/` 10 yeni slug (hq-cfo/coo/cto/caio/cco, adops-cfo/cmo/coo, hq-dir-agent-lifecycle, hq-evp-yetenek-ajan-kalitesi)
+- `SKILLS_TALENT/TALENT_TAXONOMY.md` (101)
+- `PROMPTS/TITLES/hq-ceo/{INDEX,P001-P003}.md`
+- `CALENDAR/LATOS_RESEARCH_LOOP.md` + `ARCHIVE/2026-11/latos/DIGEST.md`

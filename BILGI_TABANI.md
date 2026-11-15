@@ -2,6 +2,11 @@
 > Protokol: Her işlem [4] ÖĞREN adımında buraya "## [tarih] — [konu]" girişi ekler. En yeni en üstte.
 > Çelişki kuralı: Yeni öğrenim eskisiyle çelişiyorsa ⚠️ ÇELİŞKİ etiketi + hangisinin geçerli olduğu yazılır.
 
+## 2026-11-15T10:05:00Z — LATOS pilot + tek sayfa (bc-d8693b81)
+- JOB_CARDS **13** ( +10 C-level/EVP/Dir ≥6k char). Talent INDEX **101**. hq-ceo P001–P003. Expert stubs `unverified` + IAB/FIDE/Wikipedia URL.
+- 🚩 900M tek prompt RED. qa_check ~620 missing. #37 CLEAN MERGE önerisi; ajan merge 403.
+- Öğrenim: 633×100×122 tek oturum imkânsız; aylık ARCHIVE oku→ara→yaz döngüsü kanıtlandı.
+
 ## 2026-11-15T09:48:13Z — Tek sayfa iş listesi (DEVAM)
 - Canlı `gh pr list`: açık **9 PR** (#31–#39). Draft: #34 #36 #38. `main`=`ee498f1f` 2026-11-15T07:09Z; nightly/daily 11-15 **Generation: off**.
 - ⚠️ ÇELİŞKİ (çözüldü): 2026-11-04 “#37 MERGEABLE/CLEAN” — **o an geçerli**; 11-05…15 `main` ilerleyince GitHub **CONFLICTING**. Bu tur `origin/main` merge (AUDIT append). FAZ6 **çiftlenmedi**.
