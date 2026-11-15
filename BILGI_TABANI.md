@@ -691,3 +691,49 @@
 - Ran read->distill->produce->validate->stamp. Generation: off.
 
 - [2026-11-04T06:17:35Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-11-04-SEC-AUD.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-11-05T00:03:54Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-11-05T06:17:34Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-11-05-SEC-SUP.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-11-06T00:03:21Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-11-06T06:18:24Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-11-06-HRA-REC.md); K4 Cowork oturumu taslağı doldurur.
+- [2026-11-06T07:09:30Z] haftalik-liderlik: iskelet üretildi (uretim/toplantilar/2026-11-06-haftalik-liderlik.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-11-07T00:03:29Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-11-07T06:15:37Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-11-07-HRA-PRF.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-11-08T00:03:48Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-11-08T06:16:00Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-11-08-HRA-LRN.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-11-09T00:03:45Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-11-09T06:23:45Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-11-09-LGL-LIC.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-11-10T00:03:31Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-11-10T06:16:59Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-11-10-LGL-PRV.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-11-11T00:03:45Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-11-11T06:17:54Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-11-11-INF-MCP.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-11-12T00:03:42Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-11-12T06:18:24Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-11-12-INF-SET.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-11-13T00:03:36Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-11-13T06:17:52Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-11-13-INF-HKS.md); K4 Cowork oturumu taslağı doldurur.
+- [2026-11-13T07:09:07Z] haftalik-liderlik: iskelet üretildi (uretim/toplantilar/2026-11-13-haftalik-liderlik.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-11-14T00:03:38Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-11-14T06:15:40Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-11-14-INF-LOP.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-11-15T00:03:56Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-11-15T06:15:58Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-11-15-STR-INT.md); K4 Cowork oturumu taslağı doldurur.
