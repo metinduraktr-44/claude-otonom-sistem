@@ -2,6 +2,11 @@
 > Protokol: Her işlem [4] ÖĞREN adımında buraya "## [tarih] — [konu]" girişi ekler. En yeni en üstte.
 > Çelişki kuralı: Yeni öğrenim eskisiyle çelişiyorsa ⚠️ ÇELİŞKİ etiketi + hangisinin geçerli olduğu yazılır.
 
+## 2026-11-15 — Security ingest #34 merge (prefer over #35)
+- Claude Code viral-uyarı ingest: CONTEXT/INBOX + SECURITY_RESEARCH social-engineering + secret-hygiene rule + secret_scan
+- #35 duplicate path; unique docs from #35 may be cherry-picked later if missing
+- Defense-only; secrets redacted
+
 ## 2026-11-15 — Merge triage + GIGA #38 conflict resolve (prep)
 - #33 MERGED (skill-ajans setup-python@v7 leftover). #37 MERGED (tek-sayfa iş listesi).
 - #36/#32 already closed. #31 close blocked (integration ACL) — leave open with reason: katalog npm out-of-scope.
@@ -40,6 +45,10 @@
 
 ## 2026-11-03 — Tek sayfa iş listesi (rapor-only) [main archive]
 - GIGA #19–#30 MERGED; Security FAZ6 içerik bu turda yok (kardeş ajan / #39 open).
+## 2026-11-03 — Claude Code güvenlik ingest (Gemini DOCX+PDF)
+- DOCX/PDF aynı sohbet, format-farklı kopya (Jaccard ~0.77); ham 298 sayfa git’e alınmadı — damıtma: `CONTEXT/INBOX/2026-11-03-claude-code-guvenlik-ingest.md` + `SECURITY_RESEARCH/2026-11-03-claude-code-social-engineering.md`
+- Viral iddialar SAHTE: OmniRoute 1,6B bedava token; “Claude Code Setup” resmi eklenti değil; şişirilmiş star. Resmi: docs.anthropic.com, github.com/anthropics, github.com/modelcontextprotocol
+- Secret: canlı key yok. Gap: ethics (sahte eklenti/untrusted ingest) + secret_scan LLM prefix. 900B prompt RED (K-017). Agency/LATOS/Security OS silinmedi.
 
 ## 2026-08-27 — LATOS GIGA Faz 0–1 bootstrap
 - CURSOR LATOS track additive kuruldu: 633 title envanter (`ROSTER/TITLE_INVENTORY.md`), 72 git-silinmiş rol-kartlari dokümante, hooks qa/citation, 8 skill + 3 subagent iskelet, 2 JOB_CARDS skeleton
