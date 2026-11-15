@@ -1,23 +1,23 @@
-# TEK SAYFA İŞ LİSTESİ — 2026-11-04 (Europe/Istanbul)
+# TEK SAYFA İŞ LİSTESİ — 2026-11-15 (Europe/Istanbul)
 
-> Damga: **2026-11-04 14:40 TRT** (`Europe/Istanbul`, `2026-11-04T11:40:00Z`)  
-> Repo: [`metinduraktr-44/claude-otonom-sistem`](https://github.com/metinduraktr-44/claude-otonom-sistem) · Kanıt: `gh pr list` canlı  
-> Bu ajan: [bc-05fbb414…](https://cursor.com/agents/bc-05fbb414-736b-554d-81d7-afcf4a22ca9d) · Önceki rapor: [bc-415e4b83…](https://cursor.com/agents/bc-415e4b83-e90f-56de-bfb9-b77d0ac33073)  
+> Damga: **2026-11-15 12:48 TRT** (`Europe/Istanbul`, `2026-11-15T09:48:13Z`)  
+> Repo: [`metinduraktr-44/claude-otonom-sistem`](https://github.com/metinduraktr-44/claude-otonom-sistem) · Kanıt: `gh pr list` + `gh pr view` canlı  
+> Bu ajan: [bc-ce8671ca…](https://cursor.com/agents/bc-ce8671ca-49c0-5253-87e5-d7b5218f6d3a) · Önceki rapor: [bc-05fbb414…](https://cursor.com/agents/bc-05fbb414-736b-554d-81d7-afcf4a22ca9d)  
 > FAZ6 **bu PR’da yok** (kardeş [#39](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/39) · `cursor/giga-security-faz6-6a77`). 🚩 900B/900M tek dosya **RED**.  
-> LLM: `GEMINI_API_KEY` / `OPENROUTER_API_KEY` **UNSET** → skeleton. `ANTHROPIC_API_KEY` env SET (değer raporlanmaz); bakiye bu turda sorgulanmadı — önceki tur kredi **0**.
+> LLM: `GEMINI_API_KEY` / `OPENROUTER_API_KEY` **UNSET** → skeleton. `ANTHROPIC_API_KEY` env SET (değer yok); bakiye bu turda sorgulanmadı — önceki tur kredi **0/düşük**.
 
 ## 1. Sinyal
 
-| Alan | Canlı (`gh` + dosya, 2026-11-04T11:34Z) |
+| Alan | Canlı (`gh` + dosya, 2026-11-15T09:47Z) |
 |------|--------|
-| `main` | `cc8b6b79` holding-konsolide 2026-11-04 07:10Z (nightly/daily 11-04 koştu) |
+| `main` | `ee498f1f` holding-konsolide **2026-11-15T07:09:09Z** (nightly 00:03Z + daily STR-INT 06:15Z, **Generation: off**) |
 | Açık PR | **9** — tablo §3; draft: #34 #36 #38 |
-| Bu PR | [#37](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/37) OPEN · **draft=false** · base=`main` · validate **SUCCESS** (2026-11-04 push) · **MERGEABLE/CLEAN** (`origin/main` merge bu tur) |
-| FAZ6 | [#39](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/39) OPEN · draft=false · **CONFLICTING** · SoA/CTRL **çiftlenmedi** |
-| Mega draft | [#38](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/38) DRAFT · CONFLICTING · 600 kontrol/S03–S08/LATOS 13 — 🚩 tek PR |
-| Merged GIGA | **#19–#30** MERGED |
+| Bu PR | [#37](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/37) OPEN · **draft=false** · base=`main` · **önce CONFLICTING** (11-04 dal vs 11-15 `main`) · bu tur `origin/main` merge |
+| FAZ6 | [#39](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/39) OPEN · draft=false · **CONFLICTING** · SoA/CTRL **çiftlenmedi** · katalog CTRL **89** (#39) vs **79** (`main`) |
+| Mega draft | [#38](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/38) DRAFT · CONFLICTING · 600 kontrol/S03–S08/LATOS — 🚩 tek PR |
+| Merged GIGA | **#19–#30** MERGED (son 30g: yalnızca #29/#30; #19–#28 daha önce) |
 | Agency | Faz 5 · `CANVA:BRIEF-ONLY` · S01–S02 brief var · S03–S08 yok · `CONTEXT/{BRAND,PRODUCT,VOICE}.md` TODO |
-| Security | Matris **120/600** · `MODE=ASSESS-ONLY` · FAZ6 içerik yalnızca #39 |
+| Security | Matris **120/600** · `MODE=ASSESS-ONLY` · FAZ6 içerik yalnızca #39 · `SECURITY/STATE.md` yaml hâlâ `faz: 3` / 2026-08-27 (STATE.md Holding bölümü 11-03) |
 | LATOS | **633** title (`ROSTER/TITLE_INVENTORY.md`) · iş kartı **3/633** (`CISO`, `hq-ceo`, `adops-ceo`) · 72 silinmiş restore **onaysız** |
 
 ### Açık PR gerçek durum
@@ -26,15 +26,17 @@
 |----|-------|-----------|-------------|-------|
 | [#39](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/39) FAZ6 SoA | hayır | CONFLICTING | main ← `giga-security-faz6-6a77` | **MERGE** (conflict UI) |
 | [#38](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/38) mega DEVAM | **evet** | CONFLICTING | main ← `giga-devam-8e8f` | **CLOSE** |
-| [#37](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/37) bu rapor | hayır | **MERGEABLE** | main ← `tek-sayfa-is-listesi-6a77` | **MERGE** |
-| [#36](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/36) iş-listesi çift | **evet** | MERGEABLE | main ← `is-listesi-rapor-8e8f` | **CLOSE** |
+| [#37](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/37) bu rapor | hayır | CONFLICTING→**main merge bu tur** | main ← `tek-sayfa-is-listesi-6a77` | **MERGE** (push sonrası GitHub) |
+| [#36](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/36) iş-listesi çift | **evet** | MERGEABLE / CLEAN | main ← `is-listesi-rapor-8e8f` | **CLOSE** |
 | [#35](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/35) CC güvenlik ingest | hayır | CONFLICTING | main ← `claude-code-guvenlik-uyarilari-6a77` | **MERGE** (conflict UI) |
 | [#34](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/34) ingest draft | **evet** | CONFLICTING | main ← `claude-code-security-ingest-8e8f` | **CLOSE** |
-| [#33](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/33) setup-python 5→7 | hayır | MERGEABLE | main ← dependabot GHA | **MERGE** veya **WAIT** |
-| [#32](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/32) tek sayfa 09-02 | hayır | MERGEABLE | main ← `tek-sayfa-rapor-12ed` | **CLOSE** |
-| [#31](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/31) katalog npm | hayır | MERGEABLE | main ← dependabot yarn | **CLOSE** |
+| [#33](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/33) setup-python 5→7 | hayır | MERGEABLE / CLEAN | main ← dependabot GHA | **MERGE** veya **WAIT** |
+| [#32](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/32) tek sayfa 09-02 | hayır | MERGEABLE / CLEAN | main ← `tek-sayfa-rapor-12ed` | **CLOSE** |
+| [#31](https://github.com/metinduraktr-44/claude-otonom-sistem/pull/31) katalog npm | hayır | MERGEABLE / CLEAN | main ← dependabot yarn | **CLOSE** |
 
 `gh pr create/edit/merge` ajan **403**. Merge/close = Metin GitHub UI.
+
+⚠️ **ÇELİŞKİ (çözüldü):** 2026-11-04 rapor “#37 MERGEABLE/CLEAN” — **o an doğruydu**; 11-05…15 `main` nightly/daily sonrası GitHub **CONFLICTING**. Bu tur `origin/main` merge (yalnızca `AUDIT_LOG.jsonl` append).
 
 ---
 
@@ -42,13 +44,13 @@
 
 | # | Öncelik | Eylem | Yönlendirme URL | Kısa not |
 |---|---------|--------|-----------------|----------|
-| M1 | **P0** | `GEMINI_API_KEY` ekle (Cursor Secrets; yedek GHA) | [Cursor Cloud Agents / Secrets](https://cursor.com/dashboard?tab=cloud-agents) · [Google AI Studio — API key](https://aistudio.google.com/apikey) · [Repo Actions Secrets](https://github.com/metinduraktr-44/claude-otonom-sistem/settings/secrets/actions) | Env’de Gemini/OpenRouter **yok** → nightly/günlük **iskelet**. Değeri chate yapıştırma. Smoke: `python3 scripts/gemini_client.py smoke`. |
-| M2 | P1 | OpenRouter yedek | [OpenRouter keys](https://openrouter.ai/keys) · [Cursor Secrets](https://cursor.com/dashboard?tab=cloud-agents) | Sıra Gemini → OpenRouter → Anthropic. Anthropic env var var; kredi 0 ise skeleton kalır. |
+| M1 | **P0** | `GEMINI_API_KEY` ekle (Cursor Secrets; yedek GHA) | [Cursor Cloud Agents / Secrets](https://cursor.com/dashboard?tab=cloud-agents) · [Google AI Studio — API key](https://aistudio.google.com/apikey) · [Repo Actions Secrets](https://github.com/metinduraktr-44/claude-otonom-sistem/settings/secrets/actions) | Env’de Gemini/OpenRouter **yok** → nightly/günlük **11-15 hâlâ iskelet**. Değeri chate yapıştırma. Smoke: `python3 scripts/gemini_client.py smoke`. |
+| M2 | P1 | OpenRouter yedek | [OpenRouter keys](https://openrouter.ai/keys) · [Cursor Secrets](https://cursor.com/dashboard?tab=cloud-agents) | Sıra Gemini → OpenRouter → Anthropic. Anthropic env SET; kredi 0 ise skeleton kalır. |
 | M3 | P1 | Canva MCP OAuth (opsiyonel) | [Canva MCP](https://mcp.canva.com/mcp) · Cursor **Settings → MCP → Authorize** · PKCE: [`tools/canva-client/README.md`](https://github.com/metinduraktr-44/claude-otonom-sistem/blob/main/tools/canva-client/README.md) | Varsayılan **BRIEF-ONLY**. OAuth yok → tasarım mutate yok. |
 | M4 | P1 | Marka kit bırak | [CONTEXT/INBOX](https://github.com/metinduraktr-44/claude-otonom-sistem/tree/main/CONTEXT/INBOX) · [BRAND](https://github.com/metinduraktr-44/claude-otonom-sistem/blob/main/CONTEXT/BRAND.md) · [PRODUCT](https://github.com/metinduraktr-44/claude-otonom-sistem/blob/main/CONTEXT/PRODUCT.md) · [VOICE](https://github.com/metinduraktr-44/claude-otonom-sistem/blob/main/CONTEXT/VOICE.md) | Stub `_TODO`. Kit yoksa AdOps CRE seed. Ajan INBOX’ı uyduramaz. |
-| M5 | P2 | Cursor restart + `/devam` smoke | Bu ajan: [bc-05fbb414](https://cursor.com/agents/bc-05fbb414-736b-554d-81d7-afcf4a22ca9d) · [Cloud Agents](https://cursor.com/dashboard?tab=cloud-agents) | Skills/hooks yeni chat’te. 900M paste **RED**. |
+| M5 | P2 | Cursor restart + `/devam` smoke | Bu ajan: [bc-ce8671ca](https://cursor.com/agents/bc-ce8671ca-49c0-5253-87e5-d7b5218f6d3a) · [Cloud Agents](https://cursor.com/dashboard?tab=cloud-agents) | Skills/hooks yeni chat’te. 900M paste **RED**. |
 | M6 | P2 | Gemini kota / Cursor billing | [AI Studio](https://aistudio.google.com/apikey) · [Cursor dashboard](https://cursor.com/dashboard) | Kota 0 = dry-run. Secret sohbete koyma. |
-| M7 | P2 | GHA yeşil + conflict UI | [Actions](https://github.com/metinduraktr-44/claude-otonom-sistem/actions) · [Open PRs](https://github.com/metinduraktr-44/claude-otonom-sistem/pulls) | `katalog/` **npm kurma**. #35/#39 CONFLICTING — merge ekranında çöz. |
+| M7 | P2 | GHA yeşil + conflict UI | [Actions](https://github.com/metinduraktr-44/claude-otonom-sistem/actions) · [Open PRs](https://github.com/metinduraktr-44/claude-otonom-sistem/pulls) | `katalog/` **npm kurma**. #35/#39 CONFLICTING — merge ekranında çöz. #37 push sonrası mergeable kontrol. |
 
 ---
 
@@ -56,15 +58,15 @@
 
 | # | PR / karar | URL | Kısa not | Önerilen karar |
 |---|------------|-----|----------|----------------|
-| A1 | #35 Claude Code güvenlik ingest | https://github.com/metinduraktr-44/claude-otonom-sistem/pull/35 | ASSESS-ONLY; **CONFLICTING** vs 11-04 `main` | **MERGE** (conflict çöz) |
+| A1 | #35 Claude Code güvenlik ingest | https://github.com/metinduraktr-44/claude-otonom-sistem/pull/35 | ASSESS-ONLY; **CONFLICTING** vs 11-15 `main` | **MERGE** (conflict çöz) |
 | A2 | #34 draft (aynı ingest) | https://github.com/metinduraktr-44/claude-otonom-sistem/pull/34 | #35 supersede | **CLOSE** |
-| A3 | #37 bu iş listesi | https://github.com/metinduraktr-44/claude-otonom-sistem/pull/37 | URL+not + adam-saat; FAZ6 yok; draft=false | **MERGE** |
-| A4 | #36 çift iş-listesi draft | https://github.com/metinduraktr-44/claude-otonom-sistem/pull/36 | Dal `is-listesi-rapor-8e8f`; MERGEABLE | **CLOSE** |
+| A3 | #37 bu iş listesi | https://github.com/metinduraktr-44/claude-otonom-sistem/pull/37 | URL+not + adam-saat; FAZ6 yok; draft=false; 11-15 `main` merge | **MERGE** |
+| A4 | #36 çift iş-listesi draft | https://github.com/metinduraktr-44/claude-otonom-sistem/pull/36 | Dal `is-listesi-rapor-8e8f`; MERGEABLE/CLEAN | **CLOSE** |
 | A5 | #39 FAZ6 ISO SoA | https://github.com/metinduraktr-44/claude-otonom-sistem/pull/39 | Kardeş PR; SoA iskelet; **CONFLICTING**; bu dosyaya kopyalanmadı | **MERGE** (conflict çöz) |
 | A6 | #38 mega DEVAM draft | https://github.com/metinduraktr-44/claude-otonom-sistem/pull/38 | 600 kontrol + brief + LATOS tek PR · 🚩 · CONFLICTING | **CLOSE** |
-| A7 | #32 tek sayfa 2026-09-02 | https://github.com/metinduraktr-44/claude-otonom-sistem/pull/32 | Stale; bu dosya güncel | **CLOSE** |
+| A7 | #32 tek sayfa 2026-09-02 | https://github.com/metinduraktr-44/claude-otonom-sistem/pull/32 | Stale MERGEABLE; bu dosya güncel | **CLOSE** |
 | A8 | #31 Dependabot `katalog/` npm | https://github.com/metinduraktr-44/claude-otonom-sistem/pull/31 | Vendored örnek; ürün dep değil | **CLOSE** (SKIP npm) |
-| A9 | #33 `actions/setup-python` 5→7 | https://github.com/metinduraktr-44/claude-otonom-sistem/pull/33 | Leftover: `skill-ajans-dongu.yml` hâlâ `@v5`; diğerleri `@v7` (#30) | **MERGE** veya **WAIT** (5 dk) |
+| A9 | #33 `actions/setup-python` 5→7 | https://github.com/metinduraktr-44/claude-otonom-sistem/pull/33 | Leftover: `skill-ajans-dongu.yml` hâlâ `@v5`; diğerleri `@v7` (#30) | **MERGE** veya **WAIT** |
 | A10 | 72 `uretim/rol-kartlari` restore | [`LATOS/STATE.md`](https://github.com/metinduraktr-44/claude-otonom-sistem/blob/main/LATOS/STATE.md) | Otomatik restore yok | **WAIT** |
 | A11 | `CANVA:ON` | `/canva-uret` + [mcp.canva.com/mcp](https://mcp.canva.com/mcp) | OAuth + kit sonrası | **WAIT** |
 | A12 | Security `MODE=IMPLEMENT` | [`SECURITY/STATE.md`](https://github.com/metinduraktr-44/claude-otonom-sistem/blob/main/SECURITY/STATE.md) | #39 ethics PASS şart; exploit yok | **WAIT** |
@@ -77,7 +79,7 @@
 
 | # | Faz | İş | Bağımlılık | Durum |
 |---|-----|-----|------------|--------|
-| S0 | Rapor | Tek sayfa yenile (URL+not+saat) | `gh pr list` | **bu PR #37** |
+| S0 | Rapor | Tek sayfa yenile (URL+not+saat) | `gh pr list` | **bu PR #37** · 2026-11-15 |
 | S1 | Sec FAZ6 | ISO SoA iskelet, ASSESS-ONLY | Ethics/secret-redakte | **#39** — burada yok |
 | S2 | Sec FAZ4+ | Kontroller 021–100 × 6 (→600) | S1; MODE=ASSESS | Bekler; #38 **yapmaz** |
 | S3 | Sec skill | 6 motor ~20k derinlik | S2 paralel | Kısmi 6 skill |
@@ -86,7 +88,7 @@
 | S6 | Agency | S03–S08 brief + critic PASS | M4 kit yoksa seed | S01–S02 var |
 | S7 | Agency CONTEXT | BRAND/PRODUCT/VOICE doldur | **M4 INBOX** | Stub TODO |
 | S8 | Canva ops | İlk export (yalnızca CANVA:ON) | M3 + A11 | Kapalı |
-| S9 | Holding | Nightly/daily iskelet → LLM dolu | **M1 secret** | 11-04 hâlâ Generation: off |
+| S9 | Holding | Nightly/daily iskelet → LLM dolu | **M1 secret** | 11-15 hâlâ Generation: off |
 
 ### Onaylananlar (merged / kilit)
 
@@ -128,7 +130,7 @@ M = Metin · S = Ajan. Aralık = belirsizlik.
 
 **Toplam (bu ufuk):** Metin **~2.2–6.6 saat** (P0 ≈ 1.1 saat; kit+OAuth opsiyonel). Ajan **~74–149 saat** (büyük kısım 021–100 + skill; fazlı). FAZ6 ajan-saati #39’da sayılır, burada 0.
 
-**Bu PR kapsamı:** doküman + append-only log + `main` merge. FAZ6 SoA/CTRL **yok**.
+**Bu PR kapsamı:** doküman + append-only log + `main` merge. FAZ6 SoA/CTRL **yok**. Convex **yok**. System/multitask **yok**.
 
 ---
 
@@ -148,6 +150,6 @@ M = Metin · S = Ajan. Aralık = belirsizlik.
 | GHA Secrets | https://github.com/metinduraktr-44/claude-otonom-sistem/settings/secrets/actions |
 | Canva MCP | https://mcp.canva.com/mcp |
 | INBOX | https://github.com/metinduraktr-44/claude-otonom-sistem/tree/main/CONTEXT/INBOX |
-| Bu ajan | https://cursor.com/agents/bc-05fbb414-736b-554d-81d7-afcf4a22ca9d |
+| Bu ajan | https://cursor.com/agents/bc-ce8671ca-49c0-5253-87e5-d7b5218f6d3a |
 
-⏱️ Damga: 2026-11-04T11:40:00Z (14:40 Europe/Istanbul) · 🔍 Denetim: GEÇTİ (`gh pr list` + dosya; kod/exploit yok) · 📚 Öğrenim: açık kuyruk **9 PR** (+#38 CLOSE mega, +#39 FAZ6 MERGE); #37 **MERGEABLE/CLEAN**; Gemini hâlâ yok · 🔗 Önceki: evet (`bc-415e4b83`, `uretim/TEK-SAYFA-IS-LISTESI.md` 15:05 TRT 2026-11-03)
+⏱️ Damga: 2026-11-15T09:48:13Z (12:48 Europe/Istanbul) · 🔍 Denetim: GEÇTİ (`gh pr list` + dosya; kod/exploit yok) · 📚 Öğrenim: 9 açık PR aynı kuyruk; #37 11-04 MERGEABLE → 11-15 CONFLICTING (main ilerledi); Gemini hâlâ UNSET · 🔗 Önceki: evet (`bc-05fbb414`, `uretim/TEK-SAYFA-IS-LISTESI.md` 14:40 TRT 2026-11-04)

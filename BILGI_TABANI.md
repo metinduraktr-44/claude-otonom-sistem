@@ -2,6 +2,12 @@
 > Protokol: Her işlem [4] ÖĞREN adımında buraya "## [tarih] — [konu]" girişi ekler. En yeni en üstte.
 > Çelişki kuralı: Yeni öğrenim eskisiyle çelişiyorsa ⚠️ ÇELİŞKİ etiketi + hangisinin geçerli olduğu yazılır.
 
+## 2026-11-15T09:48:13Z — Tek sayfa iş listesi (DEVAM)
+- Canlı `gh pr list`: açık **9 PR** (#31–#39). Draft: #34 #36 #38. `main`=`ee498f1f` 2026-11-15T07:09Z; nightly/daily 11-15 **Generation: off**.
+- ⚠️ ÇELİŞKİ (çözüldü): 2026-11-04 “#37 MERGEABLE/CLEAN” — **o an geçerli**; 11-05…15 `main` ilerleyince GitHub **CONFLICTING**. Bu tur `origin/main` merge (AUDIT append). FAZ6 **çiftlenmedi**.
+- #35/#39 hâlâ **CONFLICTING**. #36/#32/#31/#33 MERGEABLE. Öneri aynı: MERGE #35+#37+#39; CLOSE #34+#36+#38+#32+#31; #33 MERGE/WAIT.
+- LLM: GEMINI/OPENROUTER UNSET; ANTHROPIC env SET (redakte). Title 633 · JOB_CARDS 3. CANVA BRIEF-ONLY · Security ASSESS-ONLY.
+
 ## 2026-11-04T11:40:00Z — Tek sayfa iş listesi (DEVAM)
 - Canlı `gh pr list`: açık **9 PR** (#31–#39). Draft: #34 #36 #38. Ready: #37 #35 #39 #33 #32 #31.
 - ⚠️ ÇELİŞKİ (çözüldü): 2026-11-03 15:05 “7 açık / #37 draft” — **geçersiz**. #37 `isDraft=false`; kuyruğa #38 (mega CLOSE) + #39 (FAZ6 MERGE, CONFLICTING) eklendi.
