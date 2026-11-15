@@ -26,3 +26,6 @@ Sonraki **DEVAM**: FAZ 6 COMPLIANCE paket · ek kontrol derinliği · ARCHIVE is
 4. `/etik-denetim` her anlamlı turda
 5. `/arsivle` ay sonunda
 6. Kullanıcı **「DEVAM」** → sonraki boş FAZ (şimdi: 6)
+
+## Ingest notu (2026-11-03, Europe/Istanbul)
+Claude Code sosyal-medya uyarıları damıtıldı: `SECURITY_RESEARCH/claude-code-guvenlik-uyarilari.md` · `docs/CLAUDE-CODE-GUVENLIK-OZET.md`. Mega-prompt arşive **alınmadı**. Canva/LATOS dokunulmadı.
