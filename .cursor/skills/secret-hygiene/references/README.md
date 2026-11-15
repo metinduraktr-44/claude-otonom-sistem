@@ -9,4 +9,4 @@
 - [ ] ASSESS checklist
 - [ ] Anti-patterns (ne üretilmez)
 
-**Şimdi:** stub. Faz 7’de doldurulacak. Çıktı yolu: `scripts/`
+**Şimdi:** light refs (`cursor-secrets-assess.md`). 20k hedef yok. Çıktı yolu: `scripts/`

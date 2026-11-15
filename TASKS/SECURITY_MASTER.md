@@ -6,14 +6,14 @@
 - [x] Bootstrap rules/commands/hooks/skills
 - [x] Ingestion inventory + attack-surface
 - [x] secret_scan + ethics_check
-- [ ] (ertelendi) 600 kontrol dolumu — **120/600 bu tur**
+- [x] 600 kontrol dolumu — **600/600 (001–100 × 6)** 2026-11-03
 - [ ] (ertelendi) skill 20k derinlik — **6 skill kısmi**
 
 ## Faz 1
 - [x] SECURITY_RESEARCH DIGEST (threat/standards/supply-chain)
-- [ ] GHA permissions matrisi ASSESS
+- [x] GHA pin/permissions gap ASSESS (`ASSESSMENTS/gha-pin-gap-2026-11-03.md`) — uygulama yok (ASSESS-ONLY)
 - [x] Threat model holding iskeleti (STRIDE skill + research)
-- [ ] Scorecard / pin gap ölçümü
+- [x] Pin gap ölçümü (tag @vN ×25, SHA pin 0) — Scorecard hâlâ backlog
 
 ## Faz 2
 - [x] ORG/ROLES genişletme (11 rol stub)
@@ -28,7 +28,7 @@
 ## Faz 4 (controls + matrix)
 - [x] 6×20 = 120 kontrol (001–020)
 - [x] SECURITY_MATRIX crosswalk + CSV
-- [ ] Kontroller 021–100 × 6
+- [x] Kontroller 021–100 × 6 (480 + önceki 120 = 600)
 
 ## Faz 5+
 - [ ] Compliance pack NIST CSF

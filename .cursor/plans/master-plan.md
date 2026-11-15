@@ -1,7 +1,7 @@
 # Master Plan — Otonom AI Creative Agency (Faz 0–7)
 
 > Kaynak: GIGA MASTER PROMPT BÖLÜM 13 · Bootstrap: BÖLÜM 0.5
-> Refresh: 2026-08-27T12:56:59Z
+> Refresh: 2026-11-15T09:50:00Z · CANVA:BRIEF-ONLY (değişmedi)
 
 ## Faz 0 — Bootstrap ✅
 - [x] `.cursor/rules/*.mdc` (agency core, brand, spec, structure, canva)
@@ -18,6 +18,7 @@
 - [x] CONTEXT_BRIEF doldur (marka TBD işaretli, KPI proxy, kanal)
 - [ ] INBOX materyal işleme (INBOX boş — müşteri kit bekleniyor)
 - [x] İlk RESEARCH notları (`RESEARCH_NOTES`, `COMPETITORS`, `INSIGHTS` + URL/ts)
+- [x] 2026-11-15 NIST CSF 2.0 GV.RM notu (`RESEARCH/2026-11-15_nist-csf-20-gv-rm.md`)
 - [ ] `.cursorrules` → `.mdc` tam migrasyon
 
 ## Faz 2 — Expert Engine ✅ (seed)
@@ -27,7 +28,7 @@
 - [ ] `/uzman-guncelle` döngüsü
 
 ## Faz 3 — Brief & Scenario Pipeline ✅ (seed)
-- [x] `/brief-uret` → BRIEFS/ (S01–S02 × 3 kanal)
+- [x] `/brief-uret` → BRIEFS/ (S01–S08 × 3 kanal; S03–S08 2026-11-03)
 - [x] `creative-scenarios` → SCENARIOS/01–08
 - [ ] critic-copy PASS döngüsü (hafif QA notu var)
 - [x] TASKS/MASTER_TASKS güncelleme
@@ -42,8 +43,8 @@
 ## Faz 5 — QA & Validation (kısmi)
 - [ ] spec_validate.py Pillow tam implementasyon (export sonrası)
 - [ ] `/spec-dogrula` CI hook
-- [x] QA/ rapor şablonu + hafif QA_REPORT
-- [ ] critic-spec otomasyon
+- [x] QA/ rapor şablonu + **dürüst** QA_REPORT (S01–S08 REVISE; PASS=0; 2026-11-15 INBOX teyit)
+- [ ] critic-spec otomasyon (pixel yok → GAP)
 
 ## Faz 6 — Archive & Learning
 - [ ] `/arsivle` manifest

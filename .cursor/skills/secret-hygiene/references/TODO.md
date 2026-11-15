@@ -1,7 +1,7 @@
 # TODO — secret-hygiene expansion (FAZ 3)
 
 - [x] Starter deep ref: `patterns.md`
-- [ ] Additional patterns / anti-patterns as needed
+- [x] Additional: `cursor-secrets-assess.md` (2026-11-10, light)
 - [ ] Keep SIGNAL > LENGTH; no filler to hit 20k
 - [ ] Full 20k/skill = continuous FAZ 3, not one-shot
 

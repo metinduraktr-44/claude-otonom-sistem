@@ -1,7 +1,7 @@
 # TODO — layers-engine expansion (FAZ 3)
 
 - [x] Starter deep ref: `defense-in-depth.md`
-- [ ] Additional patterns / anti-patterns as needed
+- [x] Additional: `assess-checklist.md` (2026-11-10, light)
 - [ ] Keep SIGNAL > LENGTH; no filler to hit 20k
 - [ ] Full 20k/skill = continuous FAZ 3, not one-shot
 

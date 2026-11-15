@@ -2,28 +2,44 @@
 > Protokol: Her işlem [4] ÖĞREN adımında buraya "## [tarih] — [konu]" girişi ekler. En yeni en üstte.
 > Çelişki kuralı: Yeni öğrenim eskisiyle çelişiyorsa ⚠️ ÇELİŞKİ etiketi + hangisinin geçerli olduğu yazılır.
 
-## 2026-11-15T09:48:13Z — Tek sayfa iş listesi (DEVAM)
-- Canlı `gh pr list`: açık **9 PR** (#31–#39). Draft: #34 #36 #38. `main`=`ee498f1f` 2026-11-15T07:09Z; nightly/daily 11-15 **Generation: off**.
-- ⚠️ ÇELİŞKİ (çözüldü): 2026-11-04 “#37 MERGEABLE/CLEAN” — **o an geçerli**; 11-05…15 `main` ilerleyince GitHub **CONFLICTING**. Bu tur `origin/main` merge (AUDIT append). FAZ6 **çiftlenmedi**.
-- #35/#39 hâlâ **CONFLICTING**. #36/#32/#31/#33 MERGEABLE. Öneri aynı: MERGE #35+#37+#39; CLOSE #34+#36+#38+#32+#31; #33 MERGE/WAIT.
-- LLM: GEMINI/OPENROUTER UNSET; ANTHROPIC env SET (redakte). Title 633 · JOB_CARDS 3. CANVA BRIEF-ONLY · Security ASSESS-ONLY.
+## 2026-11-15 — Merge triage + GIGA #38 conflict resolve (prep)
+- #33 MERGED (skill-ajans setup-python@v7 leftover). #37 MERGED (tek-sayfa iş listesi).
+- #36/#32 already closed. #31 close blocked (integration ACL) — leave open with reason: katalog npm out-of-scope.
+- #38 conflicts only AUDIT_LOG + BILGI_TABANI — additive resolve; ready→merge next.
+- ⚠️ ÇELİŞKİ (çözüldü): 11-15 tek-sayfa “JOB_CARDS 3” main görünümü — **giga-devam dalında 43** kart; merge sonrası main güncellenir.
 
-## 2026-11-04T11:40:00Z — Tek sayfa iş listesi (DEVAM)
-- Canlı `gh pr list`: açık **9 PR** (#31–#39). Draft: #34 #36 #38. Ready: #37 #35 #39 #33 #32 #31.
-- ⚠️ ÇELİŞKİ (çözüldü): 2026-11-03 15:05 “7 açık / #37 draft” — **geçersiz**. #37 `isDraft=false`; kuyruğa #38 (mega CLOSE) + #39 (FAZ6 MERGE, CONFLICTING) eklendi.
-- #35/#39 **CONFLICTING** vs `main` 11-04. #37 `origin/main` merge sonrası **MERGEABLE/CLEAN**. FAZ6 dosya **çiftlenmedi**.
-- LLM: GEMINI/OPENROUTER UNSET; ANTHROPIC env SET (redakte). Title 633 · JOB_CARDS 3. CANVA BRIEF-ONLY · Security ASSESS-ONLY.
+## 2026-11-15T09:48:13Z — Tek sayfa iş listesi (DEVAM) [main]
+- Canlı `gh pr list` o an: açık **9 PR** (#31–#39). Bu merge anında #33+#37 MERGED.
+- LLM: GEMINI/OPENROUTER UNSET; ANTHROPIC env SET (redakte). CANVA BRIEF-ONLY · Security ASSESS-ONLY.
 
-## 2026-11-03T12:05:00Z — Tek sayfa iş listesi (URL+not + adam-saat)
-- Canlı `gh pr list`: açık **#31–#37**. #36 #37 çift draft (iş listesi); #35 MERGE; #34/#32/#31 CLOSE; #33 leftover `@v5`.
-- #23/#26/#27 **MERGED** (eski “draft close” geçersiz). FAZ6 bu PR’da yok.
-- Metin P0: Gemini [AI Studio](https://aistudio.google.com/apikey) + [Cursor Secrets](https://cursor.com/dashboard?tab=cloud-agents); #35 merge.
-- ⚠️ ÇELİŞKİ (çözüldü): 14:45 TRT rapor “5 açık PR” — **geçersiz**; 15:05’te 7 açık (#36/#37 eklendi).
+## 2026-11-10 — GIGA DEVAM dilim-3 (10 EVP + CIS-IG1 + 72 katalog)
+- LATOS: +10 AdOps EVP JOB_CARDS (≤10 heading); kümülatif **33/633**; `ROSTER/GIT_DELETED_TITLES.md` n=72 restore=NO
+- Security: `COMPLIANCE/CIS-IG1.md` kanıt_yolu stub; **PASS yok**; 600 kontrol yeniden yazılmadı; #39 dokunulmadı
+- Agency: BRIEF-ONLY; 24 brief / critic PASS=0 değişmedi
+- Skill light: secret-hygiene / compliance-mapper / layers-engine +1 ref (20k dump yok)
+- Öğrenim: IG1 kontrol-seviyesi ≠ 56-safeguard SoA; katalog restore değildir
 
-## 2026-11-03 — Tek sayfa iş listesi (rapor-only)
-- Canlı `gh pr list`: açık #31–#35; GIGA #19–#30 MERGED; #23/#26/#27 artık draft değil.
-- ⚠️ ÇELİŞKİ: `uretim/TEK-SAYFA-RAPOR-MERGE-DURUM.md` 2026-08-31 “draft close 403 / ready GIGA 0” — **geçersiz**. Güncel: `uretim/TEK-SAYFA-IS-LISTESI.md`.
-- Security FAZ6 içerik bu turda yok (kardeş ajan). Metin P0: #35 merge + Gemini secret.
+## 2026-11-04 — GIGA DEVAM dilim-2 (Faz 5 INDEX + QA REVISE + 10 Director)
+- Security: COMPLIANCE INDEX (NIST CSF 2.0 / ISO 27001:2022 / CIS v8); 600 kontrol **yeniden yazılmadı**; SOC2 işaretçi boş; #39 SoA dalına dokunulmadı
+- Agency: QA_REPORT S01–S08 critic-copy **REVISE×8** · critic-spec **GAP** (pixel yok) · PASS=0
+- LATOS: +10 Director JOB_CARDS (≤10 heading); kümülatif **23/633** skeleton
+- Öğrenim: critic PASS marka kit + kanal-özel copy olmadan yazılmaz; INDEX ≠ SoA
+
+## 2026-11-03 — GIGA DEVAM (Security 021–100 + Agency S03–S08 + LATOS 10 kart)
+- Security: 480 kontrol (021–100×6) → kümülatif **600/600**; matrix CSV ikinci tranche; GHA pin gap ASSESS (25 tag, 0 SHA) — workflow değişmedi
+- Agency: S03–S08 × Meta 4:5 / Meta 9:16 / TikTok 9:16 = 18 brief; CANVA:ON kapalı
+- LATOS: 10 C-level JOB_CARDS skeleton, kart başı ≤10 heading; 200/900M yok
+- Açık PR #34 (draft) ve #35 merge edilmedi (DEVAM ≠ merge)
+- Öğrenim: 6 motor katalog + tek CSV/matrix append ölçekleniyor; pin uygulaması MODE=ASSESS-ONLY ile aynı PR'da yapılmaz
+
+## 2026-11-04T11:40:00Z — Tek sayfa iş listesi (DEVAM) [main archive]
+- O an açık **9 PR**; #37 MERGEABLE/CLEAN sonrası main ilerledi → CONFLICTING (çözüldü merge ile).
+
+## 2026-11-03T12:05:00Z — Tek sayfa iş listesi (URL+not + adam-saat) [main archive]
+- Metin P0: Gemini AI Studio + Cursor Secrets; leftover setup-python #33 (şimdi MERGED).
+
+## 2026-11-03 — Tek sayfa iş listesi (rapor-only) [main archive]
+- GIGA #19–#30 MERGED; Security FAZ6 içerik bu turda yok (kardeş ajan / #39 open).
 
 ## 2026-08-27 — LATOS GIGA Faz 0–1 bootstrap
 - CURSOR LATOS track additive kuruldu: 633 title envanter (`ROSTER/TITLE_INVENTORY.md`), 72 git-silinmiş rol-kartlari dokümante, hooks qa/citation, 8 skill + 3 subagent iskelet, 2 JOB_CARDS skeleton
@@ -693,6 +709,10 @@
 - Ran read->distill->produce->validate->stamp. Generation: off.
 
 - [2026-11-03T06:17:21Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-11-03-SEC-OPS.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-11-15T09:50:00Z — giga-devam dilim-4
+- +10 Lead JOB_CARDS (5 AdOps + 5 HQ) → kümülatif 43; MANAGER tier envanterde yok.
+- COMPLIANCE/NIST-GV-RM.md ASSESS stub (GV.RM-01…07); PASS/nicel iştah yok; 600 kontrol dokunulmadı.
+- QA_REPORT REVISE teyit (INBOX boş); RESEARCH NIST CSWP 29 URL+timestamp.
 ## 2026-11-04T00:03:46Z — nightly run
 - Ran read->distill->produce->validate->stamp. Generation: off.
 

@@ -22,7 +22,7 @@
 
 ## Faz 5 — Briefs (kısmi) ✅
 - [x] S01–S02 × Meta 4:5 / Meta 9:16 / TikTok 9:16
-- [ ] S03–S08 brief dalgası
+- [x] S03–S08 brief dalgası (Meta 4:5 / 9:16 + TikTok 9:16) — 2026-11-03
 
 ## Sıradaki
 - [ ] critic-copy/spec PASS

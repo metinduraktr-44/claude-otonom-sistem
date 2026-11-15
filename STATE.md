@@ -11,9 +11,9 @@
 ## Creative Agency OS
 
 ### Faz
-- **phase:** `5` (BRIEF-ONLY brief üretimi tamam — S01/S02; Faz 1–4 içerik de bu turda)
-- **last_command:** `/devam` continuum (Faz 0 refresh → 1 Research → 2 Org → 3 Scenarios → 4 Matrix → 5 Briefs → QA)
-- **last_updated_utc:** 2026-08-27T13:01:29Z
+- **phase:** `5` (BRIEF-ONLY — S01–S08 × 3 kanal)
+- **last_command:** `/devam` dilim-4 (QA REVISE teyit + RESEARCH GV.RM notu; CANVA dokunulmadı)
+- **last_updated_utc:** 2026-11-15T09:50:00Z
 
 ### CANVA modu
 - **default:** `BRIEF-ONLY` — tasarım üretimi yok; brief + spec + senaryo çıktısı
@@ -27,16 +27,17 @@
 - **ORG:** `ORG_CHART.md` + `SKILLS_INVENTORY.md` + `EXPERTS/DIGEST.md`
 
 ### Aktif iş
-- **brief_id:** `ADOPs-CRE-SEED-2026Q3` (S01/S02 × 3 kanal)
+- **brief_id:** `ADOPs-CRE-SEED-2026Q3` (S01–S08 × 3 kanal)
 - **scenario_id:** `S01`…`S08` (INDEX: `SCENARIOS/INDEX.md`)
 - **design_id:** — (BRIEF-ONLY)
+- **brief_count:** 24 (6 eski S01–S02 + 18 yeni S03–S08)
+- **qa:** `QA/QA_REPORT.md` — **REVISE**, PASS=0 (INBOX boş)
 
 ### Sonraki adım (Agency)
-1. Müşteri/marka kit → `CONTEXT/INBOX/` (TBD kilidi)
-2. S03–S08 için brief dalgası (`/brief-uret`)
-3. critic-copy / critic-spec tam PASS döngüsü
-4. (Opsiyonel) Canva OAuth — yalnızca CANVA:ON istendiğinde
-5. Cursor restart → `/devam` smoke
+1. Müşteri/marka kit → `CONTEXT/INBOX/` (TBD kilidi) — **PASS bloğu**
+2. critic-copy REVISE kapat (kanal-özel hook; S02 sahte PASS headline)
+3. critic-spec: CANVA:ON + pixel olmadan PASS yok
+4. Cursor restart → `/devam` smoke
 
 ---
 
@@ -45,10 +46,10 @@
 # GUARDRAIL AKTİF — savunma-only, secret-redakte, exploit-yok
 
 ### Faz
-- **phase:** `1–4` (Research + Org/Experts seed + Skill depth tranche + Controls 001–020×6)
+- **phase:** `1–5` (Research + Org + Skills + Controls 600 + COMPLIANCE INDEX + **GV.RM stub**)
 - **MODE:** `ASSESS-ONLY` (varsayılan — gap/doküman; agresif kod değişikliği yok)
-- **last_command:** `sec-devam` / Faz 1+2+3+4 tranche
-- **last_updated_utc:** 2026-08-27T13:05:00Z
+- **last_command:** `sec-devam` / Faz 5 NIST GV.RM stub (`NIST-GV-RM.md`)
+- **last_updated_utc:** 2026-11-15T09:50:00Z
 
 ### Guardrails
 - defense-only · secret-redakte · exploit-yok · tehlikeli shell yok
@@ -61,47 +62,47 @@
 - **holding çapraz:** `docs/SECRETS-DRYRUN-MATRISI.md`, `infra/`, workflows
 
 ### Bu tur özeti
-- **Faz 1:** `SECURITY_RESEARCH/` threat-landscape · standards-currency · supply-chain
-- **Faz 2:** `ORG/ROLES/` 11 rol · `EXPERTS/` DIGEST + top100 CISO/AppSec/Crypto seed
-- **Faz 3:** 6 skill derinlik (secret-hygiene, threat-modeling, compliance-mapper, layers-engine, encryption-engine, transparent-code-engine)
-- **Faz 4:** **120 kontrol** (6×20) + `SECURITY_MATRIX/matrix.md` + CSV
+- **Faz 5:** `COMPLIANCE/NIST-GV-RM.md` + INDEX checkbox · CIS-IG1 önceki · **PASS yok**
+- **Faz 4 (önceki):** 600 kontrol + matrix CSV — **yeniden yazılmadı**
+- **GHA pin gap:** ASSESS notu duruyor; workflow değişmedi
+- **Açık PR dokunulmadı:** #34/#35/#39 merge yok — DEVAM ≠ merge
 
 ### Aktif iş
-- **assessment_id:** sec-2026-08-27-faz1-4
-- **control_batch:** `001-020` × 6 motors (120/600)
-- **compliance_pack:** crosswalk seed (pack Faz 5)
+- **assessment_id:** sec-2026-11-15-faz5-gv-rm
+- **control_batch:** `001-100` × 6 (**600/600** katalog; bu tur 0 yeni kontrol)
+- **compliance_pack:** INDEX + CIS-IG1 + **NIST-GV-RM** stub (SOC2 işaretçi boş)
 
 ### Sonraki adım (Security)
-1. Kontroller **021–100** (batch'li) — 6 motor
-2. Skill references → ~20k hedefe doğru ek derinlik
-3. GHA permissions matrisi + SHA pin gap ASSESS
-4. Faz 5 compliance pack iskeleti
-5. Canva MCP dokunulmadı — security MCP örnek kapalı
+1. Faz 5: ISO A.5 SoA 20 satır özet (ASSESS; #39 çakıştırma yok)
+2. Skill references → ~20k (dump yok)
+3. GHA SHA pin **uygulama** yalnızca MODE=IMPLEMENT
+4. IR playbook ASSESS (Faz 6) — #39 ile çakıştırma yok
+5. Canva MCP dokunulmadı
 
 ---
 
 ## LATOS (Living AI Talent & Organization System)
 
 ### Faz
-- **phase:** `0–1` (Bootstrap + Title Discovery START)
-- **last_command:** `latos-baslat` / Faz 0 bootstrap
-- **last_updated_utc:** 2026-08-27T20:20:00Z
+- **phase:** `0–4-light` (Bootstrap + Title Discovery + C-level + Director + EVP + **Lead**)
+- **last_command:** `latos-devam` / +10 Lead JOB_CARDS (5 AdOps + 5 HQ; max 10 headings)
+- **last_updated_utc:** 2026-11-15T09:50:00Z
 
 ### Envanter
 - **title_count:** 633 (`data/holding_istirak_org.json`)
 - **master_list:** `ROSTER/TITLE_INVENTORY.md`
-- **job_cards_skeleton:** 2 (hq-ceo, adops-ceo)
-- **git_deleted_rol_kartlari:** 72 (dokümante; restore insan onaylı)
+- **job_cards_skeleton:** **43** (önceki 33 + 10 Lead)
+- **git_deleted_rol_kartlari:** 72 — katalog `ROSTER/GIT_DELETED_TITLES.md` (**restore yok**)
 
 ### Karakter hedefleri (fazlı — tamamlanmadı)
-- İş kartı 2000+/200 başlık → Faz 4
+- İş kartı 2000+/200 başlık → Faz 4 (şimdi 10 heading/title)
 - 122 prompt/title → Faz 8
 - 200 tahmin/gün → Faz 9
 - 900M char/prompt → imkânsız; fazlı yaklaşım dokümante
 
 ### Sonraki adım (LATOS)
-1. Faz 1 tamamla: git deleted title detay dokümantasyonu
+1. Faz 4: sonraki 10 JOB_CARDS (kalan Lead / diğer birimler) — 200 heading uydurma yok
 2. Faz 2: `RESEARCH/_ORG_BEST_PRACTICE.md` genişlet
 3. Faz 3: `ORG/ORG_CHART.md` görsel/HTML
-4. Skill restart: Cursor restart + yeni chat + `/latos-devam`
-5. JOB_CARDS batch skeleton (10 title pilot)
+4. 72 restore **yalnızca Metin onayı**
+5. Skill restart: Cursor restart + yeni chat + `/latos-devam`
