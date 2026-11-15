@@ -96,3 +96,6 @@ Her title için iş kartında tek "A" (Accountable) — Faz 4.
 
 ### Görsel
 Faz 3+: HTML org paneli (web-artifacts muadili)
+
+### Tam hiyerarşi dump
+- `ORG/ORG_HIERARCHY_C_TO_WORKER.md` — 633 title C→worker (2026-11-15)

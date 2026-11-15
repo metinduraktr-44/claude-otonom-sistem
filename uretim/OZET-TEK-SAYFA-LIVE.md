@@ -1,70 +1,62 @@
-# TEK SAYFA ÖZET — LIVE (3 GIGA Hat)
-> 2026-11-15T09:48:56Z · **12:48 Europe/Istanbul** · branch `cursor/giga-devam-8e8f` · DEVAM ≠ merge
+# ÖZET TEK SAYFA — LIVE
 
-## 1. Durum özeti
+> **Damga:** 2026-11-15T10:15:00Z UTC · **Europe/Istanbul:** 2026-11-15T13:15+03:00 · Metin
+> **Branch wave:** `cursor/latos-agency-wave-9651` · **main:** post-merge giga + security ingest
 
-| Hat | Bu tur | Not |
-|-----|--------|-----|
-| **Agency** | QA REVISE teyit + RESEARCH not | BRIEF-ONLY · 24 brief · critic **PASS=0** · INBOX boş |
-| **Security** | NIST GV.RM stub | `COMPLIANCE/NIST-GV-RM.md` · **PASS yok** · 600 dokunulmadı |
-| **LATOS** | +10 Lead JOB_CARDS | kümülatif **43** · ≤10 heading/kart · 72 restore=NO |
-| **Açık PR (dokunulmadı)** | #39 #37 #36 #35 #34 #33 #32 #31 | Merge yok |
+## Sağlık
 
-**PR:** https://github.com/metinduraktr-44/claude-otonom-sistem/pull/38
+| Track | Mode | Sayaç | Durum |
+|-------|------|------:|-------|
+| Holding runtime | validate | GECTI | 🟢 |
+| Agency | BRIEF-ONLY | 24 brief / critic PASS=0 | 🟡 INBOX kit |
+| Security | ASSESS-ONLY | 600/600 ctrl · #39 SoA conflict | 🟡 |
+| LATOS | wave | **53** JOB_CARDS · 633 titles | 🟢 fazlı |
 
----
+🚩 **900.000.000 karakter/prompt = IMPOSSIBLE.** Fazlı P001… örnekleri; asla “900M done” iddiası yok.
 
-## 2. Healthy roadmap
+## Roadmap (kısa)
 
-| Track | Faz | Durum | Sonraki kapı |
-|-------|-----|-------|--------------|
-| **Agency** | 0–5 🔄 | 24 brief · critic PASS 0 | Marka kit · kanal-özel copy |
-| **Security** | 0–4 ✅ / 5 🔄 | 600/600 · INDEX+IG1+GV.RM | ISO A.5 özet · pin IMPLEMENT |
-| **LATOS** | 0–4-light 🔄 | **43/633** skeleton | +10 Lead · 72 restore insan |
+1. Metin: LLM keys (Gemini → OpenRouter → Anthropic) + Cursor Secrets  
+2. Agents: experts Dec DELTA · +5 prompt/title · +10 cards  
+3. Metin: #39 rebase onayı · #35 close (superseded) · brand kit → `CONTEXT/INBOX/`  
+4. CANVA:ON yalnızca kapı sonrası  
 
----
+## İş listesi (sende / bende)
 
-## 3. Sayaçlar
+### Bende (Metin) — aksiyon + URL
 
-| Artefakt | Adet |
-|----------|------|
-| Kontroller (6×100) | 600 |
-| Brief (S01–S08 × 3) | 24 |
-| JOB_CARDS klasör | **43** |
-| Lead yeni heading (10×10) | 100 |
-| git-silinmiş katalog | 72 (restore 0) |
-| critic PASS | 0 |
+| Aksiyon | URL | Not |
+|---------|-----|-----|
+| Cursor Cloud Agents / Secrets | https://cursor.com/dashboard?tab=cloud-agents | GEMINI/OPENROUTER bağla |
+| Gemini API key | https://aistudio.google.com/apikey | P0 — dry-run kırmasın |
+| OpenRouter keys | https://openrouter.ai/keys | 2. öncelik |
+| Anthropic console | https://console.anthropic.com | env SET; değer chat’e yok |
+| GitHub tokens | https://github.com/settings/tokens | fine-grained; rotate if leak |
+| Canva developers | https://www.canva.com/developers/ | OAuth PKCE — CANVA:ON kapısı |
+| Open PRs triage | https://github.com/metinduraktr-44/claude-otonom-sistem/pulls | #35 close · #39 rebase · #40 katalog npm |
+| Brand kit bırak | `CONTEXT/INBOX/` | critic PASS kilidi |
+| Slash komutlar | `.cursor/commands/` | `/latos-devam` `/sec-devam` `/devam` |
 
----
+### Bende onay
 
-## 4. P0 / P1
+- 72 git restore **hayır** (otomatik yok)
+- #39 FAZ6 SoA force-merge **hayır** (conflict resolve additive)
+- CANVA:ON production **hayır** (BRIEF-ONLY)
 
-### P0
-- [ ] Cursor restart → `/devam` · `/sec-devam` · `/latos-devam`
-- [ ] Marka kit → `CONTEXT/INBOX/`
-- [ ] Secrets: Gemini + OpenRouter → Cursor Dashboard
+### Sende (agent) — onaylı / yapıldı
 
-### P1
-- [x] Agency S03–S08 brief
-- [x] Security 600 katalog
-- [x] LATOS C-level + Director + EVP + **10 Lead**
-- [x] Faz 5 COMPLIANCE INDEX
-- [x] CIS-IG1 kanıt stub (PASS yok)
-- [x] NIST GV.RM stub (PASS yok)
-- [x] 72 git-deleted katalog (restore yok)
-- [x] QA dürüst REVISE (sahte PASS yok)
-- [ ] critic PASS (marka sonrası)
-- [ ] GHA SHA pin (IMPLEMENT)
+- #33 + #37 merge → main  
+- giga-devam (#38 içerik) → main (PR closed; local merge)  
+- #34 security ingest preferred + #35 unique docs cherry-pick  
+- LATOS wave: hierarchy, experts×3, talent~100, prompts samples, +10 cards → 53  
 
----
+### Sende ileri
 
-## 5. Sende bekleyenler (Metin)
+- Experts 10 TODO slot (Dec)  
+- P006+ prompts  
+- #39 conflict resolve (onaylı)  
+- ManagePullRequest ACL yoksa `gh pr create` 403 — wave branch push + kullanıcı PR  
 
-| Aksiyon | Not |
-|---------|-----|
-| **PR #38** | https://github.com/metinduraktr-44/claude-otonom-sistem/pull/38 |
-| **#35/#34** | ingest triyaj |
-| **Cursor restart** | slash smoke |
-| **Marka kit** | TBD kilidi |
+## Bir sonraki tek satır
 
-⏱️ Damga: 2026-11-15T09:48:56Z · 🔍 Denetim: GEÇTİ (slice) · 📚 Öğrenim: GV.RM stub≠iştah imzası; Lead≠Manager (envanterde MANAGER yok) · 🔗 Önceki: evet
+**Metin:** Gemini key’i Cursor Secrets’a ekle → agent: experts Dec DELTA + PR aç/merge wave.

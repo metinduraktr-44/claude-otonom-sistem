@@ -84,25 +84,30 @@
 ## LATOS (Living AI Talent & Organization System)
 
 ### Faz
-- **phase:** `0–4-light` (Bootstrap + Title Discovery + C-level + Director + EVP + **Lead**)
-- **last_command:** `latos-devam` / +10 Lead JOB_CARDS (5 AdOps + 5 HQ; max 10 headings)
-- **last_updated_utc:** 2026-11-15T09:50:00Z
+- **phase:** `0–6-wave` (Hierarchy + Experts×3 + Talent~100 + Prompts samples + Cards≥50)
+- **last_command:** `latos-agency-wave` / branch `cursor/latos-agency-wave-9651`
+- **last_updated_utc:** 2026-11-15T10:15:00Z
+- **tz_note:** Europe/Istanbul 2026-11-15T13:15+03:00
 
 ### Envanter
 - **title_count:** 633 (`data/holding_istirak_org.json`)
 - **master_list:** `ROSTER/TITLE_INVENTORY.md`
-- **job_cards_skeleton:** **43** (önceki 33 + 10 Lead)
+- **hierarchy:** `ORG/ORG_HIERARCHY_C_TO_WORKER.md` (C→worker dump)
+- **job_cards_skeleton:** **53** (43 + 10 C-level diğer birimler)
+- **experts_top100_seed:** hq-ceo · CISO · adops-cdo (`top100_2026-11-15.md`, 40 named + 60 TODO)
+- **talent_taxonomy:** ~100 skills + 5 SEEDS
+- **prompts_sample:** TITLES hq-ceo+CISO (5 each) · TEAMS adops-cre · EXECUTION validate-stamp
 - **git_deleted_rol_kartlari:** 72 — katalog `ROSTER/GIT_DELETED_TITLES.md` (**restore yok**)
 
 ### Karakter hedefleri (fazlı — tamamlanmadı)
-- İş kartı 2000+/200 başlık → Faz 4 (şimdi 10 heading/title)
-- 122 prompt/title → Faz 8
+- İş kartı 2000+/200 başlık → Faz 4 (şimdi skeleton)
+- 122 prompt/title → Faz 8 (**5 sample/title bu dalga**; INDEX 122 iddia + dürüstlük)
 - 200 tahmin/gün → Faz 9
-- 900M char/prompt → imkânsız; fazlı yaklaşım dokümante
+- 🚩 **900M char/prompt → IMPOSSIBLE** — asla tamamlandı iddiası yok
 
 ### Sonraki adım (LATOS)
-1. Faz 4: sonraki 10 JOB_CARDS (kalan Lead / diğer birimler) — 200 heading uydurma yok
-2. Faz 2: `RESEARCH/_ORG_BEST_PRACTICE.md` genişlet
-3. Faz 3: `ORG/ORG_CHART.md` görsel/HTML
+1. Experts Dec 2026: 10 TODO slot doldur + URL doğrula
+2. +5–10 prompts/title (P006…)
+3. +10 JOB_CARDS (kalan C-level / EVP)
 4. 72 restore **yalnızca Metin onayı**
-5. Skill restart: Cursor restart + yeni chat + `/latos-devam`
+5. #39 SoA rebase (CONFLICTING) — Metin kapısı
