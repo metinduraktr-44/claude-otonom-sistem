@@ -345,3 +345,4 @@
 {"ts_start":"2026-11-14T00:03:38Z","ts_end":"2026-11-14T00:03:38Z","islem":"nightly","denetim":"RUN"}
 {"ts_start": "2026-11-14T06:15:40Z", "ts_end": "2026-11-14T06:15:40Z", "islem": "daily-agency", "departman": "INF-LOP", "cikti": "uretim/gunluk/2026-11-14-INF-LOP.md", "denetim": "RUN", "onceki_ogrenim_kullanildi": "evet (BILGI_TABANI.md okunur — K4 doldurur)"}
 {"ts_start":"2026-11-15T00:03:56Z","ts_end":"2026-11-15T00:03:56Z","islem":"nightly","denetim":"RUN"}
+{"ts_start": "2026-11-15T06:15:58Z", "ts_end": "2026-11-15T06:15:58Z", "islem": "daily-agency", "departman": "STR-INT", "cikti": "uretim/gunluk/2026-11-15-STR-INT.md", "denetim": "RUN", "onceki_ogrenim_kullanildi": "evet (BILGI_TABANI.md okunur — K4 doldurur)"}
