@@ -137,4 +137,4 @@ Then write `synthesis.json` with the following structure:
 }
 ```
 
-<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-11-03T00:02:58Z · kaynak katalog/agents/deep-research-team/research-synthesizer.md -->
+<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-11-15T00:03:56Z · kaynak katalog/agents/deep-research-team/research-synthesizer.md -->

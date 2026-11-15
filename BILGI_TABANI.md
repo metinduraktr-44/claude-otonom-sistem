@@ -2,6 +2,16 @@
 > Protokol: Her işlem [4] ÖĞREN adımında buraya "## [tarih] — [konu]" girişi ekler. En yeni en üstte.
 > Çelişki kuralı: Yeni öğrenim eskisiyle çelişiyorsa ⚠️ ÇELİŞKİ etiketi + hangisinin geçerli olduğu yazılır.
 
+## 2026-11-15 — Merge triage + GIGA #38 conflict resolve (prep)
+- #33 MERGED (skill-ajans setup-python@v7 leftover). #37 MERGED (tek-sayfa iş listesi).
+- #36/#32 already closed. #31 close blocked (integration ACL) — leave open with reason: katalog npm out-of-scope.
+- #38 conflicts only AUDIT_LOG + BILGI_TABANI — additive resolve; ready→merge next.
+- ⚠️ ÇELİŞKİ (çözüldü): 11-15 tek-sayfa “JOB_CARDS 3” main görünümü — **giga-devam dalında 43** kart; merge sonrası main güncellenir.
+
+## 2026-11-15T09:48:13Z — Tek sayfa iş listesi (DEVAM) [main]
+- Canlı `gh pr list` o an: açık **9 PR** (#31–#39). Bu merge anında #33+#37 MERGED.
+- LLM: GEMINI/OPENROUTER UNSET; ANTHROPIC env SET (redakte). CANVA BRIEF-ONLY · Security ASSESS-ONLY.
+
 ## 2026-11-10 — GIGA DEVAM dilim-3 (10 EVP + CIS-IG1 + 72 katalog)
 - LATOS: +10 AdOps EVP JOB_CARDS (≤10 heading); kümülatif **33/633**; `ROSTER/GIT_DELETED_TITLES.md` n=72 restore=NO
 - Security: `COMPLIANCE/CIS-IG1.md` kanıt_yolu stub; **PASS yok**; 600 kontrol yeniden yazılmadı; #39 dokunulmadı
@@ -21,6 +31,15 @@
 - LATOS: 10 C-level JOB_CARDS skeleton, kart başı ≤10 heading; 200/900M yok
 - Açık PR #34 (draft) ve #35 merge edilmedi (DEVAM ≠ merge)
 - Öğrenim: 6 motor katalog + tek CSV/matrix append ölçekleniyor; pin uygulaması MODE=ASSESS-ONLY ile aynı PR'da yapılmaz
+
+## 2026-11-04T11:40:00Z — Tek sayfa iş listesi (DEVAM) [main archive]
+- O an açık **9 PR**; #37 MERGEABLE/CLEAN sonrası main ilerledi → CONFLICTING (çözüldü merge ile).
+
+## 2026-11-03T12:05:00Z — Tek sayfa iş listesi (URL+not + adam-saat) [main archive]
+- Metin P0: Gemini AI Studio + Cursor Secrets; leftover setup-python #33 (şimdi MERGED).
+
+## 2026-11-03 — Tek sayfa iş listesi (rapor-only) [main archive]
+- GIGA #19–#30 MERGED; Security FAZ6 içerik bu turda yok (kardeş ajan / #39 open).
 
 ## 2026-08-27 — LATOS GIGA Faz 0–1 bootstrap
 - CURSOR LATOS track additive kuruldu: 633 title envanter (`ROSTER/TITLE_INVENTORY.md`), 72 git-silinmiş rol-kartlari dokümante, hooks qa/citation, 8 skill + 3 subagent iskelet, 2 JOB_CARDS skeleton
@@ -694,3 +713,53 @@
 - +10 Lead JOB_CARDS (5 AdOps + 5 HQ) → kümülatif 43; MANAGER tier envanterde yok.
 - COMPLIANCE/NIST-GV-RM.md ASSESS stub (GV.RM-01…07); PASS/nicel iştah yok; 600 kontrol dokunulmadı.
 - QA_REPORT REVISE teyit (INBOX boş); RESEARCH NIST CSWP 29 URL+timestamp.
+## 2026-11-04T00:03:46Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-11-04T06:17:35Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-11-04-SEC-AUD.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-11-05T00:03:54Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-11-05T06:17:34Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-11-05-SEC-SUP.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-11-06T00:03:21Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-11-06T06:18:24Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-11-06-HRA-REC.md); K4 Cowork oturumu taslağı doldurur.
+- [2026-11-06T07:09:30Z] haftalik-liderlik: iskelet üretildi (uretim/toplantilar/2026-11-06-haftalik-liderlik.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-11-07T00:03:29Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-11-07T06:15:37Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-11-07-HRA-PRF.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-11-08T00:03:48Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-11-08T06:16:00Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-11-08-HRA-LRN.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-11-09T00:03:45Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-11-09T06:23:45Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-11-09-LGL-LIC.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-11-10T00:03:31Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-11-10T06:16:59Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-11-10-LGL-PRV.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-11-11T00:03:45Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-11-11T06:17:54Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-11-11-INF-MCP.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-11-12T00:03:42Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-11-12T06:18:24Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-11-12-INF-SET.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-11-13T00:03:36Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-11-13T06:17:52Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-11-13-INF-HKS.md); K4 Cowork oturumu taslağı doldurur.
+- [2026-11-13T07:09:07Z] haftalik-liderlik: iskelet üretildi (uretim/toplantilar/2026-11-13-haftalik-liderlik.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-11-14T00:03:38Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-11-14T06:15:40Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-11-14-INF-LOP.md); K4 Cowork oturumu taslağı doldurur.
+## 2026-11-15T00:03:56Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
+
+- [2026-11-15T06:15:58Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-11-15-STR-INT.md); K4 Cowork oturumu taslağı doldurur.
