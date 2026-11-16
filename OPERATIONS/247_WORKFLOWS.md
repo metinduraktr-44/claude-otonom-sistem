@@ -26,6 +26,7 @@
 ## Automation hooks
 - GHA: validate, daily-agency, nightly, holding-konsolide
 - Cursor hooks: secret_scan, ethics_check, qa_check
+- LATOS: `python3 scripts/skill_loop.py --dry-run` (nightly; ay damgalı SKIP)
 
 ## Non-goals this stub
 - Live paging / on-call rotations

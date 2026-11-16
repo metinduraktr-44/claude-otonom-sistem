@@ -126,7 +126,11 @@
 97. **Localization sense** — cross-cutting · `unverified`
 98. **Brand safety judgment** — cross-cutting · `unverified`
 
+## Physical / spor (ek 2026-11-16)
+99. **Competitive chess (satranç)** — FIDE ratings snapshot; `SKILLS_TALENT/SEEDS/chess-competitive.md` · `unverified` ranking
+100. **Competitive sports literacy** — iskelet; FIDE dışı federasyon listesi **uydurulmadı** · `unverified`
+
 ## Count
-- Enumerated skills: **98**
-- Seed talents with expert stubs: see `SKILLS_TALENT/SEEDS/` (5)
+- Enumerated skills: **100** (98 + satranç + spor okuryazarlığı iskelet)
+- Seed talents with expert stubs: see `SKILLS_TALENT/SEEDS/` (5 + chess-competitive)
 - 🚩 Per-talent top100 experts × 100: phased — not this wave
