@@ -34,3 +34,17 @@
 ## Bağımlılıklar
 
 L-060 → L-001 · Experts monthly → CALENDAR · Prompts 122 → çoklu wave
+
+
+## Skills wave 2026-11-16
+- [x] ORG/SKILL_WAVE_MATRIX.md
+- [x] Experts DELTA ×3 (+10 URLs)
+- [x] Talent +5 stubs
+- [x] JOB_CARDS +10 (63 total)
+- [x] Prompts P006–P010 ×2 + T002 + E002
+- [x] Forecast hq-ceo 2026-11-16 ×20 + CALIBRATION
+- [x] OPERATIONS/247 skill links
+- [x] RESEARCH notes
+- [ ] Metin: close #35 (ACL blocked for agent)
+- [ ] Metin: #39 rebase
+- [ ] Next: experts slots 51–60 · prompts P011–P015 · +10 cards

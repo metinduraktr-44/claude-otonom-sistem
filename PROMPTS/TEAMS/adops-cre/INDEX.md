@@ -1,9 +1,9 @@
-# Team prompts — AdOps CRE
+# TEAMS — adops-cre
 
-> Target 122 team prompts · delivered **1** sample (T001) · 2026-11-15T10:05:00Z
-> 🚩 900M impossible · phased
+> Target team prompts phased · samples: T001–T002 · 2026-11-16T13:20:00Z
+> 🚩 900M impossible
 
-| ID | Purpose | Status | Chars |
-|----|---------|--------|------:|
-| T001 | Haftalık kreatif sistem ritmi | sample | 5931 |
-| T002–T122 | TODO | pending | 0 |
+| ID | Purpose | Status |
+|----|---------|--------|
+| T001 | (prior) | sample |
+| T002 | weekly critique loop | sample 2026-11-16 |
