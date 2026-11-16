@@ -84,19 +84,20 @@
 ## LATOS (Living AI Talent & Organization System)
 
 ### Faz
-- **phase:** `0–6-wave` (Hierarchy + Experts×3 + Talent~100 + Prompts samples + Cards≥50)
-- **last_command:** `latos-agency-wave` / branch `cursor/latos-agency-wave-9651`
-- **last_updated_utc:** 2026-11-15T10:15:00Z
-- **tz_note:** Europe/Istanbul 2026-11-15T13:15+03:00
+- **phase:** `0–6-wave` + **skill-loop INDEX** (AN-CH/AN-MIX partial)
+- **last_command:** `latos-skill-loop` / branch `cursor/latos-skill-loop-1116-6a77`
+- **last_updated_utc:** 2026-11-16T13:25:00Z
+- **tz_note:** Europe/Istanbul 2026-11-16T16:25+03:00
 
 ### Envanter
 - **title_count:** 633 (`data/holding_istirak_org.json`)
 - **master_list:** `ROSTER/TITLE_INVENTORY.md`
 - **hierarchy:** `ORG/ORG_HIERARCHY_C_TO_WORKER.md` (C→worker dump)
-- **job_cards_skeleton:** **53** (43 + 10 C-level diğer birimler)
-- **experts_top100_seed:** hq-ceo · CISO · adops-cdo (`top100_2026-11-15.md`, 40 named + 60 TODO)
-- **talent_taxonomy:** ~100 skills + 5 SEEDS
-- **prompts_sample:** TITLES hq-ceo+CISO (5 each) · TEAMS adops-cre · EXECUTION validate-stamp
+- **job_cards_skeleton:** **54** (+ `adops-anl-dashboards` skill bağ)
+- **skill_loop_index:** 696 satır `SKILLS_TALENT/SKILL_LOOP_INDEX.md` (pending/partial/done)
+- **experts_top100_seed:** hq-ceo · CISO · adops-cdo · adops-anl-dashboards (1 isim changelog, unverified)
+- **talent_taxonomy:** 100 yetenek INDEX + chess-competitive FIDE seed
+- **prompts_sample:** + TITLES adops-anl-dashboards P001–P003 · TEAMS an-ch · EXECUTION an-ch-dry-run (122 slot INDEX)
 - **git_deleted_rol_kartlari:** 72 — katalog `ROSTER/GIT_DELETED_TITLES.md` (**restore yok**)
 
 ### Karakter hedefleri (fazlı — tamamlanmadı)
@@ -106,8 +107,8 @@
 - 🚩 **900M char/prompt → IMPOSSIBLE** — asla tamamlandı iddiası yok
 
 ### Sonraki adım (LATOS)
-1. Experts Dec 2026: 10 TODO slot doldur + URL doğrula
-2. +5–10 prompts/title (P006…)
-3. +10 JOB_CARDS (kalan C-level / EVP)
+1. `python3 scripts/skill_loop.py --dry-run` — sonraki **pending** domain dalgası
+2. Experts: URL doğrula; uydurma yok
+3. P004–P122 fazlı (4–12 KiB) · 🚩 900M RED
 4. 72 restore **yalnızca Metin onayı**
-5. #39 SoA rebase (CONFLICTING) — Metin kapısı
+5. #39 SoA rebase (CONFLICTING) — Metin kapısı · FAZ6 kopyalanmaz

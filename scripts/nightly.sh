@@ -24,6 +24,11 @@ fi
 # 2) validate
 python3 scripts/validate.py || echo "[nightly] validation reported issues"
 
+# 2b) LATOS skill-loop dry-run (INDEX; ay damgalıysa calendar SKIP). Kırıcı değil.
+if [ -f scripts/skill_loop.py ]; then
+  python3 scripts/skill_loop.py --dry-run || echo "[nightly] skill-loop uyarısı"
+fi
+
 # 3) grow knowledge base + audit
 TS_END=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 {
