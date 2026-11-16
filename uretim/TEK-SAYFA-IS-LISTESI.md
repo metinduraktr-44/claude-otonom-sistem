@@ -51,7 +51,7 @@
 
 | # | PR / karar | URL | Kısa not | Önerilen karar |
 |---|------------|-----|----------|----------------|
-| A1 | Bu tur skill-loop PR | (push sonrası) | INDEX 696 + AN-CH/AN-MIX; FAZ6 yok | **MERGE** |
+| A1 | Bu tur skill-loop PR | https://github.com/metinduraktr-44/claude-otonom-sistem/compare/main...cursor/latos-skill-loop-1116-6a77?expand=1 | INDEX 696 + AN-CH/AN-MIX; FAZ6 yok; `gh pr create` **403** | **MERGE** (UI Create PR) |
 | A2 | #35 Claude Code ingest | https://github.com/metinduraktr-44/claude-otonom-sistem/pull/35 | **CONFLICTING** | **MERGE** (conflict çöz) |
 | A3 | #39 FAZ6 SoA | https://github.com/metinduraktr-44/claude-otonom-sistem/pull/39 | Kardeş; **CONFLICTING** | **MERGE** (conflict çöz) |
 | A4 | #37 iş listesi 11-15 | https://github.com/metinduraktr-44/claude-otonom-sistem/pull/37 | | **MERGED** |
@@ -120,7 +120,7 @@ M = Metin kapısı · S = ajan dalga. Ölçek: **P0 / fazlı backlog** — sayı
 
 | Kim | Ne | URL |
 |-----|----|-----|
-| **Sende (Metin)** | Merge kuyruğu | https://github.com/metinduraktr-44/claude-otonom-sistem/pulls |
+| **Sende (Metin)** | Bu dal Create PR + merge | https://github.com/metinduraktr-44/claude-otonom-sistem/compare/main...cursor/latos-skill-loop-1116-6a77?expand=1 |
 | **Sende** | Gemini | https://cursor.com/dashboard?tab=cloud-agents |
 | **Sende** | Expert / restore / CANVA:ON / IMPLEMENT | WAIT §2 |
 | **Bende** | pending domain dalgaları · P004–P122 · 580 kart | `/latos-devam` · [ajan](https://cursor.com/agents/bc-41fa18ee-373c-5738-94c8-61b5b8b90c0e) |
