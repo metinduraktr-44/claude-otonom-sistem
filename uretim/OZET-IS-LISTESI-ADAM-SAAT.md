@@ -20,7 +20,7 @@
 | PR kuyruğu | https://github.com/metinduraktr-44/claude-otonom-sistem/pulls | #35 superseded close; #39 rebase; skills-wave PR merge |
 | Brand / müşteri kit | `CONTEXT/INBOX/` | critic PASS için zorunlu |
 | Slash komut smoke | `.cursor/commands/` (`/latos-devam`, `/sec-devam`, `/devam`, `/baslat`) | Restart + yeni chat |
-| Skills-wave PR | branch `cursor/latos-skills-wave-8e8f` | Agent `gh` write ACL 403 — sen aç/merge gerekebilir |
+| Skills-wave PR aç | https://github.com/metinduraktr-44/claude-otonom-sistem/compare/main...cursor/latos-skills-wave-8e8f?expand=1 | Agent create ACL 403 — sen aç/merge |
 
 ---
 

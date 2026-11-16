@@ -34,7 +34,7 @@
 | Open PRs triage | https://github.com/metinduraktr-44/claude-otonom-sistem/pulls | #35 close · #39 rebase |
 | Brand kit bırak | `CONTEXT/INBOX/` | critic PASS kilidi |
 | Slash komutlar | `.cursor/commands/` | `/latos-devam` `/sec-devam` `/devam` |
-| Skills-wave PR merge | (push sonrası PR URL) | ACL: agent `gh pr create/close` 403 olabilir |
+| Skills-wave PR aç | https://github.com/metinduraktr-44/claude-otonom-sistem/compare/main...cursor/latos-skills-wave-8e8f?expand=1 | Agent create ACL 403 — Metin aç/merge |
 
 ## 2) BENDE ONAYLAYACAKLARIM
 
