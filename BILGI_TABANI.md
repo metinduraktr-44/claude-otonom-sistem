@@ -2,6 +2,12 @@
 > Protokol: Her işlem [4] ÖĞREN adımında buraya "## [tarih] — [konu]" girişi ekler. En yeni en üstte.
 > Çelişki kuralı: Yeni öğrenim eskisiyle çelişiyorsa ⚠️ ÇELİŞKİ etiketi + hangisinin geçerli olduğu yazılır.
 
+## 2026-11-16 — LATOS skill döngüsü INDEX 696 + AN-CH/AN-MIX
+- `scripts/skill_loop.py`: ARCHIVE ay damgası → SKIP; INDEX 696 (687 pending / 9 partial); nightly `--dry-run` kırıcı değil
+- Domain: ClickHouse+Mixpanel RESEARCH URL+ts; `adops-anl-dashboards`; 122 slot INDEX + P001–P003; FIDE satranç seed unverified
+- Öğrenim: 696×122×900M tek oturum imkânsız; hiçbir skill atlama = INDEX satırı; FAZ6 kopyalanmadı; #37 MERGED
+- ⚠️ ÇELİŞKİ yok — 900M RED korunur
+
 ## 2026-11-15T10:15:00Z — Mega merge + LATOS agency wave
 - MERGE: #33+#37 MERGED; #38 closed→içerik main'e local merge; #34 security ingest preferred (+#35 unique docs cherry-pick); #36/#32 closed; #35/#39 CONFLICTING open; #31→#40 katalog npm leave
 - WAVE (`cursor/latos-agency-wave-9651`): ORG hierarchy 633; EXPERTS×3 (40 named); talent~100+5 seeds; prompts 2×5+team+exec; JOB_CARDS 53; ROADMAP/247 stubs
