@@ -1,9 +1,9 @@
 # PROMPTS — CISO / Security Leadership (`CISO`)
 
-> Target: **122** prompts/title · **Delivered this wave: 5** (P001–P005)
+> Target: **122** prompts/title · **Delivered samples cumulative: 10** (P001–P005)
 > 🚩 **900.000.000 characters per prompt = IMPOSSIBLE.** Skeletons + samples only.
 > Each sample aims 2–6k chars. Remaining P006–P122 = placeholders.
-> ts: 2026-11-15T10:05:00Z · Europe/Istanbul 2026-11-15T13:05:00+03:00
+> ts: 2026-11-16T13:20:00Z · Europe/Istanbul 2026-11-16T16:20:00+03:00
 
 | ID | Purpose | Status | Chars |
 |----|---------|--------|------:|
@@ -12,11 +12,11 @@
 | P003 | Claude Code sosyal mühendislik DIGEST | sample | 5942 |
 | P004 | Compliance pack ilerleme (INDEX ≠ SoA) | sample | 5931 |
 | P005 | Detection idea → D3FEND map (no PoC) | sample | 5934 |
-| P006 | TODO placeholder | pending | 0 |
-| P007 | TODO placeholder | pending | 0 |
-| P008 | TODO placeholder | pending | 0 |
-| P009 | TODO placeholder | pending | 0 |
-| P010 | TODO placeholder | pending | 0 |
+| P006 | (skills-wave) | sample | 6611 |
+| P007 | (skills-wave) | sample | 6610 |
+| P008 | (skills-wave) | sample | 6616 |
+| P009 | (skills-wave) | sample | 6600 |
+| P010 | (skills-wave) | sample | 6590 |
 | P011 | TODO placeholder | pending | 0 |
 | P012 | TODO placeholder | pending | 0 |
 | P013 | TODO placeholder | pending | 0 |
@@ -131,4 +131,4 @@
 | P122 | TODO placeholder | pending | 0 |
 
 ## Honesty
-122 files fully written this turn: **NO**. 900M: **NO**. Next wave: +5–10 prompts/title.
+122 files fully written this turn: **NO**. 900M: **NO**. Wave 2026-11-16: +P006–P010. Next: +P011–P015. 122 complete: NO. 900M: NO.
