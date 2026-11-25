@@ -147,4 +147,4 @@ Completion message format:
 
 Always gather requirements before decomposing. Prefer measurable estimates over vague ranges. Flag every assumption explicitly so the user can correct it before work begins.
 
-<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-11-24T00:03:37Z · kaynak katalog/agents/ai-specialists/task-decomposition-expert.md -->
+<!-- MIT: katalog/LICENSE-UPSTREAM · kurulum 2026-11-25T00:03:15Z · kaynak katalog/agents/ai-specialists/task-decomposition-expert.md -->
