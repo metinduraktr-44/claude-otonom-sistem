@@ -1,5 +1,5 @@
 # Ülke arşivi
-> 2026-11-25T02:07:57Z
+> 2026-11-26T02:07:43Z
 
 Her ülke klasöründe `YYYY-MM-DD.md` zaman damgalı notlar.
 Nightly: önce oku → araştır → yaz → damgala.
