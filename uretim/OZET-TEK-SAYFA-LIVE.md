@@ -1,62 +1,56 @@
 # ÖZET TEK SAYFA — LIVE
 
-> **Damga:** 2026-11-15T10:15:00Z UTC · **Europe/Istanbul:** 2026-11-15T13:15+03:00 · Metin
-> **Branch wave:** `cursor/latos-agency-wave-9651` · **main:** post-merge giga + security ingest
+> **Damga:** 2026-11-27T10:21:04Z UTC · **Europe/Istanbul:** 2026-11-27T13:21:04+03:00 · Metin
+> **Branch:** `cursor/latos-skills-wave-2-8e8f` · main bazlı skills-wave merge + dilim-2
 
 ## Sağlık
 
 | Track | Mode | Sayaç | Durum |
 |-------|------|------:|-------|
-| Holding runtime | validate | GECTI | 🟢 |
-| Agency | BRIEF-ONLY | 24 brief / critic PASS=0 | 🟡 INBOX kit |
-| Security | ASSESS-ONLY | 600/600 ctrl · #39 SoA conflict | 🟡 |
-| LATOS | wave | **53** JOB_CARDS · 633 titles | 🟢 fazlı |
+| Holding | validate | koşulacak | 🟢 |
+| Agency | BRIEF-ONLY | 24 brief / critic PASS=0 | 🟡 INBOX |
+| Security | ASSESS-ONLY | 600/600 · #39 conflict | 🟡 |
+| LATOS | skills-wave-2 | **73** JOB_CARDS · 633 titles | 🟢 fazlı |
 
-🚩 **900.000.000 karakter/prompt = IMPOSSIBLE.** Fazlı P001… örnekleri; asla “900M done” iddiası yok.
+🚩 **900.000.000 karakter/prompt = IMPOSSIBLE.** INDEX 122 hedef + P001–P015 örnekleri.
+
+## Merge durumu (bu tur)
+
+| PR | Sonuç |
+|----|--------|
+| #42 skills-wave | CONFLICTING → içerik **wave-2 dalına merge** (yeni PR) |
+| #43 skill-loop docs | CONFLICTING → triyaj (Metin) |
+| #39 FAZ6 SoA | CONFLICTING → açık bırak |
+| #35 güvenlik ingest | superseded içerik main’de → **kapat** (Metin/ACL) |
 
 ## Roadmap (kısa)
 
-1. Metin: LLM keys (Gemini → OpenRouter → Anthropic) + Cursor Secrets  
-2. Agents: experts Dec DELTA · +5 prompt/title · +10 cards  
-3. Metin: #39 rebase onayı · #35 close (superseded) · brand kit → `CONTEXT/INBOX/`  
-4. CANVA:ON yalnızca kapı sonrası  
+1. Metin: Secrets + #35 close + bu PR merge
+2. Agent: experts 61–70 · P016+ · +10 cards · forecast→60
+3. CANVA:ON / IMPLEMENT / 72 restore — kapı
 
-## İş listesi (sende / bende)
-
-### Bende (Metin) — aksiyon + URL
+## Bende (URL)
 
 | Aksiyon | URL | Not |
 |---------|-----|-----|
-| Cursor Cloud Agents / Secrets | https://cursor.com/dashboard?tab=cloud-agents | GEMINI/OPENROUTER bağla |
-| Gemini API key | https://aistudio.google.com/apikey | P0 — dry-run kırmasın |
-| OpenRouter keys | https://openrouter.ai/keys | 2. öncelik |
-| Anthropic console | https://console.anthropic.com | env SET; değer chat’e yok |
-| GitHub tokens | https://github.com/settings/tokens | fine-grained; rotate if leak |
-| Canva developers | https://www.canva.com/developers/ | OAuth PKCE — CANVA:ON kapısı |
-| Open PRs triage | https://github.com/metinduraktr-44/claude-otonom-sistem/pulls | #35 close · #39 rebase · #40 katalog npm |
-| Brand kit bırak | `CONTEXT/INBOX/` | critic PASS kilidi |
-| Slash komutlar | `.cursor/commands/` | `/latos-devam` `/sec-devam` `/devam` |
+| Cursor Secrets | https://cursor.com/dashboard?tab=cloud-agents | GEMINI + OPENROUTER |
+| Gemini | https://aistudio.google.com/apikey | P0 |
+| OpenRouter | https://openrouter.ai/keys | fallback |
+| Anthropic | https://console.anthropic.com | değer chat’e yok |
+| GitHub tokens | https://github.com/settings/tokens | rotate |
+| Canva | https://www.canva.com/developers/ | yalnız CANVA:ON |
+| PRs | https://github.com/metinduraktr-44/claude-otonom-sistem/pulls | #35 kapat · #39 rebase |
+| Marka kit | `CONTEXT/INBOX/` | critic PASS kilidi |
+| Slash | `/latos-devam` `/sec-devam` `/devam` | restart sonrası |
 
-### Bende onay
+## Sende onaylı (bu tur)
 
-- 72 git restore **hayır** (otomatik yok)
-- #39 FAZ6 SoA force-merge **hayır** (conflict resolve additive)
-- CANVA:ON production **hayır** (BRIEF-ONLY)
+- skills-wave → wave-2 merge
+- +10 Analyst JOB_CARDS → **73**
+- Experts DELTA 51–60 ×3 title
+- Prompts P011–P015 × hq-ceo+CISO
+- Forecast +20 · talent +3 stubs
 
-### Sende (agent) — onaylı / yapıldı
+## One-line
 
-- #33 + #37 merge → main  
-- giga-devam (#38 içerik) → main (PR closed; local merge)  
-- #34 security ingest preferred + #35 unique docs cherry-pick  
-- LATOS wave: hierarchy, experts×3, talent~100, prompts samples, +10 cards → 53  
-
-### Sende ileri
-
-- Experts 10 TODO slot (Dec)  
-- P006+ prompts  
-- #39 conflict resolve (onaylı)  
-- ManagePullRequest ACL yoksa `gh pr create` 403 — wave branch push + kullanıcı PR  
-
-## Bir sonraki tek satır
-
-**Metin:** Gemini key’i Cursor Secrets’a ekle → agent: experts Dec DELTA + PR aç/merge wave.
+**Secrets bağla → #35 kapat → wave-2 PR merge → `/latos-devam`.**
