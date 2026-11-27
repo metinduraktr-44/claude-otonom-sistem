@@ -33,7 +33,8 @@ TODAY = NOW.strftime("%Y-%m-%d")
 MAX_FILE = 120_000  # 900k+ yazma yasağı (script çıktıları için tavan)
 PROMPTS = 122
 
-PARTIAL_DOMAINS = {"AN-CH", "AN-MIX"}  # bu turun işlenen domainleri (dalga)
+# İlk INDEX üretiminde (JSON yokken) bu domainler partial. Sonraki turlar JSON status kazanır.
+PARTIAL_DOMAINS = {"AN-CH", "AN-MIX"}
 
 
 def load_json(path: Path) -> dict[str, Any]:
@@ -124,7 +125,7 @@ def write_index(rows: list[dict[str, Any]], inv: dict) -> None:
         f"| pending | {pending} |",
         f"| partial | {partial} |",
         f"| done | {done} |",
-        f"| Bu tur domain | `{', '.join(sorted(PARTIAL_DOMAINS))}` → partial |",
+        f"| partial domain_id | `{', '.join(sorted({r['domain_id'] for r in rows if r['status']=='partial'})) or '—'}` |",
         "",
         "## Döngü sözleşmesi",
         "",
@@ -231,6 +232,11 @@ def main() -> int:
     ap.add_argument("--dry-run", action="store_true", help="INDEX yaz; takvim damgalıysa skip")
     ap.add_argument("--force", action="store_true", help="ay damgasını yoksay")
     ap.add_argument("--strict", action="store_true", help="uyarıda exit 1")
+    ap.add_argument(
+        "--mark-partial",
+        default="",
+        help="virgülle skill slug: pending→partial (JSON existing üzerine)",
+    )
     args = ap.parse_args()
     if not INV.exists() or not HARITA.exists():
         print("[skill-loop] envanter yok", file=sys.stderr)
@@ -238,6 +244,8 @@ def main() -> int:
     inv = load_json(INV)
     harita = load_json(HARITA)
     existing = load_existing_status()
+    for slug in [s.strip() for s in args.mark_partial.split(",") if s.strip()]:
+        existing[slug] = "partial"
     rows = build_rows(inv, harita, existing)
     write_index(rows, inv)
     # --dry-run: INDEX her zaman; takvim yalnız damgasız veya --force

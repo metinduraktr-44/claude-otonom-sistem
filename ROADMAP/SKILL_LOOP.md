@@ -1,11 +1,20 @@
-# ROADMAP — Skill döngüsü (AN-CH / AN-MIX dalga)
+# ROADMAP — Skill döngüsü (AN-CH / AN-MIX / AN-PH dalga)
 
-> ts: 2026-11-16T13:20:00Z · adam-saat / takvim gün **yazılmaz** (rapor kuralı)
+> ts: 2026-11-27T10:35:00Z · adam-saat / takvim gün **yazılmaz** (rapor kuralı)
 
 ## Hedef
 696 skill INDEX (iskelet OK) → domain dalgaları → title bağ → 122 slot INDEX + P001–P003.
 
-## Bu tur
+## Bu tur (2026-11-27)
+- INDEX 696 korunur
+- AN-PH **12** skill RESEARCH URL+ts (75’in tamamı değil)
+- `adops-anl-ga4-tagging` kart
+- Prompt title/ekip/uygulama INDEX 122 + P/T/E 001–003
+- Talent stub unverified (kişi yok)
+- Kasım ARCHIVE delta · Aralık stub
+- FAZ6 SoA additive kopya
+
+## Önceki tur (2026-11-16)
 - INDEX 696
 - AN-CH + AN-MIX (9 skill) RESEARCH URL+ts
 - `adops-anl-dashboards` kart

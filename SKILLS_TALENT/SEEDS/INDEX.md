@@ -8,3 +8,4 @@
 - `security-hygiene-defense` → `SKILLS_TALENT/SEEDS/security-hygiene-defense.md`
 - `okr-setting` → `SKILLS_TALENT/SEEDS/okr-setting.md`
 - `chess-competitive` → `SKILLS_TALENT/SEEDS/chess-competitive.md` (2026-11-16 FIDE)
+- `product-analytics-instrumentation` → `SKILLS_TALENT/SEEDS/product-analytics-instrumentation.md` (2026-11-27 PostHog/Pendo docs)

@@ -1,6 +1,6 @@
 # SKILL LOOP INDEX — LATOS
 
-> Damga: `2026-11-16T13:18:30Z` UTC · ay `2026-11` · kaynak `data/skill_envanteri.json` (696 skill / 50 domain)
+> Damga: `2026-11-27T10:25:04Z` UTC · ay `2026-11` · kaynak `data/skill_envanteri.json` (696 skill / 50 domain)
 > Hiçbir skill satırı atlanmaz. Satır iskelet = **pending**. Tam 696×122×900M **tek oturumda yapılmaz**.
 > 🚩 900.000.000 karakter tek prompt **RED / fiziksel imkânsız**. Sözleşme 4–12 KiB + `P00n.md` fazlı.
 > Title bağ: `data/skill_title_haritasi.json` domain C→WORKER zinciri (Holding 633 ayrı envanter).
@@ -10,10 +10,10 @@
 | Metrik | Değer |
 |--------|-------|
 | Skill satır | 696 |
-| pending | 687 |
-| partial | 9 |
+| pending | 675 |
+| partial | 21 |
 | done | 0 |
-| Bu tur domain | `AN-CH, AN-MIX` → partial |
+| partial domain_id | `AN-CH, AN-MIX, AN-PH` |
 
 ## Döngü sözleşmesi
 
@@ -30,8 +30,8 @@
 | # | skill | domain | title bağ (max 4) | status | C-rapor |
 |---|-------|--------|-------------------|--------|---------|
 | 1 | `access-protected-vercel-deployment` | `CLOUD-AWS` AWS serverless | AWS serverless Domain Başkanı; AWS serverless Lead Operatör; AWS serverless Skill Uzmanı (IC); AWS serverless Uygulama Operatörü | pending | CTO |
-| 2 | `account-health` | `AN-PH` PostHog / Pendo signals | PostHog / Pendo signals Domain Başkanı; PostHog / Pendo signals Lead Operatör; PostHog / Pendo signals Skill Uzmanı (IC); PostHog / Pendo signals Uygulama Operatörü | pending | CMO |
-| 3 | `add-analytics-instrumentation` | `AN-PH` PostHog / Pendo signals | PostHog / Pendo signals Domain Başkanı; PostHog / Pendo signals Lead Operatör; PostHog / Pendo signals Skill Uzmanı (IC); PostHog / Pendo signals Uygulama Operatörü | pending | CMO |
+| 2 | `account-health` | `AN-PH` PostHog / Pendo signals | PostHog / Pendo signals Domain Başkanı; PostHog / Pendo signals Lead Operatör; PostHog / Pendo signals Skill Uzmanı (IC); PostHog / Pendo signals Uygulama Operatörü | partial | CMO |
+| 3 | `add-analytics-instrumentation` | `AN-PH` PostHog / Pendo signals | PostHog / Pendo signals Domain Başkanı; PostHog / Pendo signals Lead Operatör; PostHog / Pendo signals Skill Uzmanı (IC); PostHog / Pendo signals Uygulama Operatörü | partial | CMO |
 | 4 | `add-infrastructure` | `BE-ENCORE` Encore | Encore Domain Başkanı; Encore Lead Operatör; Encore Skill Uzmanı (IC); Encore Uygulama Operatörü | pending | CTO |
 | 5 | `adding-dbt-unit-test` | `DATA-WH` Warehouse / Airflow / dbt / Dagster | Warehouse / Airflow / dbt / Dagster Domain Başkanı; Warehouse / Airflow / dbt / Dagster Lead Operatör; Warehouse / Airflow / dbt / Dagster Skill Uzmanı (IC); Warehouse / Airflow / dbt / Dagster Uygulama Operatörü | pending | CDO |
 | 6 | `agent-ready-apis` | `API-POST` Postman | Postman Domain Başkanı; Postman Lead Operatör; Postman Skill Uzmanı (IC); Postman Uygulama Operatörü | pending | CTO |
@@ -45,13 +45,13 @@
 | 14 | `alert-investigation` | `OBS-OBSERVE` Observe / OTel / Alert | Observe / OTel / Alert Domain Başkanı; Observe / OTel / Alert Lead Operatör; Observe / OTel / Alert Skill Uzmanı (IC); Observe / OTel / Alert Uygulama Operatörü | pending | CISO |
 | 15 | `amazon-location-service` | `CLOUD-AWS` AWS serverless | AWS serverless Domain Başkanı; AWS serverless Lead Operatör; AWS serverless Skill Uzmanı (IC); AWS serverless Uygulama Operatörü | pending | CTO |
 | 16 | `amplify-workflow` | `CLOUD-AWS` AWS serverless | AWS serverless Domain Başkanı; AWS serverless Lead Operatör; AWS serverless Skill Uzmanı (IC); AWS serverless Uygulama Operatörü | pending | CTO |
-| 17 | `analyze-account-health` | `AN-PH` PostHog / Pendo signals | PostHog / Pendo signals Domain Başkanı; PostHog / Pendo signals Lead Operatör; PostHog / Pendo signals Skill Uzmanı (IC); PostHog / Pendo signals Uygulama Operatörü | pending | CMO |
-| 18 | `analyze-ai-topics` | `AN-PH` PostHog / Pendo signals | PostHog / Pendo signals Domain Başkanı; PostHog / Pendo signals Lead Operatör; PostHog / Pendo signals Skill Uzmanı (IC); PostHog / Pendo signals Uygulama Operatörü | pending | CMO |
-| 19 | `analyze-chart` | `AN-PH` PostHog / Pendo signals | PostHog / Pendo signals Domain Başkanı; PostHog / Pendo signals Lead Operatör; PostHog / Pendo signals Skill Uzmanı (IC); PostHog / Pendo signals Uygulama Operatörü | pending | CMO |
+| 17 | `analyze-account-health` | `AN-PH` PostHog / Pendo signals | PostHog / Pendo signals Domain Başkanı; PostHog / Pendo signals Lead Operatör; PostHog / Pendo signals Skill Uzmanı (IC); PostHog / Pendo signals Uygulama Operatörü | partial | CMO |
+| 18 | `analyze-ai-topics` | `AN-PH` PostHog / Pendo signals | PostHog / Pendo signals Domain Başkanı; PostHog / Pendo signals Lead Operatör; PostHog / Pendo signals Skill Uzmanı (IC); PostHog / Pendo signals Uygulama Operatörü | partial | CMO |
+| 19 | `analyze-chart` | `AN-PH` PostHog / Pendo signals | PostHog / Pendo signals Domain Başkanı; PostHog / Pendo signals Lead Operatör; PostHog / Pendo signals Skill Uzmanı (IC); PostHog / Pendo signals Uygulama Operatörü | partial | CMO |
 | 20 | `analyze-costs` | `CICD-HAR` Harness CI/CD | Harness CI/CD Domain Başkanı; Harness CI/CD Lead Operatör; Harness CI/CD Skill Uzmanı (IC); Harness CI/CD Uygulama Operatörü | pending | CTO |
-| 21 | `analyze-dashboard` | `AN-PH` PostHog / Pendo signals | PostHog / Pendo signals Domain Başkanı; PostHog / Pendo signals Lead Operatör; PostHog / Pendo signals Skill Uzmanı (IC); PostHog / Pendo signals Uygulama Operatörü | pending | CMO |
+| 21 | `analyze-dashboard` | `AN-PH` PostHog / Pendo signals | PostHog / Pendo signals Domain Başkanı; PostHog / Pendo signals Lead Operatör; PostHog / Pendo signals Skill Uzmanı (IC); PostHog / Pendo signals Uygulama Operatörü | partial | CMO |
 | 22 | `analyze-experiments` | `FEAT-CONF` Feature flags / Confidence | Feature flags / Confidence Domain Başkanı; Feature flags / Confidence Lead Operatör; Feature flags / Confidence Skill Uzmanı (IC); Feature flags / Confidence Uygulama Operatörü | pending | CPO |
-| 23 | `analyze-feedback` | `AN-PH` PostHog / Pendo signals | PostHog / Pendo signals Domain Başkanı; PostHog / Pendo signals Lead Operatör; PostHog / Pendo signals Skill Uzmanı (IC); PostHog / Pendo signals Uygulama Operatörü | pending | CMO |
+| 23 | `analyze-feedback` | `AN-PH` PostHog / Pendo signals | PostHog / Pendo signals Domain Başkanı; PostHog / Pendo signals Lead Operatör; PostHog / Pendo signals Skill Uzmanı (IC); PostHog / Pendo signals Uygulama Operatörü | partial | CMO |
 | 24 | `analyzing-data` | `DATA-WH` Warehouse / Airflow / dbt / Dagster | Warehouse / Airflow / dbt / Dagster Domain Başkanı; Warehouse / Airflow / dbt / Dagster Lead Operatör; Warehouse / Airflow / dbt / Dagster Skill Uzmanı (IC); Warehouse / Airflow / dbt / Dagster Uygulama Operatörü | pending | CDO |
 | 25 | `analyzing-experiment-session-replays` | `FEAT-CONF` Feature flags / Confidence | Feature flags / Confidence Domain Başkanı; Feature flags / Confidence Lead Operatör; Feature flags / Confidence Skill Uzmanı (IC); Feature flags / Confidence Uygulama Operatörü | pending | CPO |
 | 26 | `analyzing-range-distribution` | `SEC-CRDB` CockroachDB security/ops | CockroachDB security/ops Domain Başkanı; CockroachDB security/ops Lead Operatör; CockroachDB security/ops Skill Uzmanı (IC); CockroachDB security/ops Uygulama Operatörü | pending | CISO |
@@ -76,7 +76,7 @@
 | 45 | `appwrite-ruby` | `BAAS-APP` Appwrite | Appwrite Domain Başkanı; Appwrite Lead Operatör; Appwrite Skill Uzmanı (IC); Appwrite Uygulama Operatörü | pending | CTO |
 | 46 | `appwrite-swift` | `BAAS-APP` Appwrite | Appwrite Domain Başkanı; Appwrite Lead Operatör; Appwrite Skill Uzmanı (IC); Appwrite Uygulama Operatörü | pending | CTO |
 | 47 | `appwrite-typescript` | `BAAS-APP` Appwrite | Appwrite Domain Başkanı; Appwrite Lead Operatör; Appwrite Skill Uzmanı (IC); Appwrite Uygulama Operatörü | pending | CTO |
-| 48 | `assessing-heatmaps` | `AN-PH` PostHog / Pendo signals | PostHog / Pendo signals Domain Başkanı; PostHog / Pendo signals Lead Operatör; PostHog / Pendo signals Skill Uzmanı (IC); PostHog / Pendo signals Uygulama Operatörü | pending | CMO |
+| 48 | `assessing-heatmaps` | `AN-PH` PostHog / Pendo signals | PostHog / Pendo signals Domain Başkanı; PostHog / Pendo signals Lead Operatör; PostHog / Pendo signals Skill Uzmanı (IC); PostHog / Pendo signals Uygulama Operatörü | partial | CMO |
 | 49 | `atlas-stream-processing` | `DB-MONGO` MongoDB Atlas | MongoDB Atlas Domain Başkanı; MongoDB Atlas Lead Operatör; MongoDB Atlas Skill Uzmanı (IC); MongoDB Atlas Uygulama Operatörü | pending | CTO |
 | 50 | `audit-report` | `CICD-HAR` Harness CI/CD | Harness CI/CD Domain Başkanı; Harness CI/CD Lead Operatör; Harness CI/CD Skill Uzmanı (IC); Harness CI/CD Uygulama Operatörü | pending | CTO |
 | 51 | `auditing-cloud-cluster-security` | `AN-PH` PostHog / Pendo signals | PostHog / Pendo signals Domain Başkanı; PostHog / Pendo signals Lead Operatör; PostHog / Pendo signals Skill Uzmanı (IC); PostHog / Pendo signals Uygulama Operatörü | pending | CMO |
@@ -87,8 +87,8 @@
 | 56 | `auth` | `DEP-VERCEL` Vercel / Next | Vercel / Next Domain Başkanı; Vercel / Next Lead Operatör; Vercel / Next Skill Uzmanı (IC); Vercel / Next Uygulama Operatörü | pending | CTO |
 | 57 | `auth-setup` | `DEP-VERCEL` Vercel / Next | Vercel / Next Domain Başkanı; Vercel / Next Lead Operatör; Vercel / Next Skill Uzmanı (IC); Vercel / Next Uygulama Operatörü | pending | CTO |
 | 58 | `authoring-dags` | `AN-PH` PostHog / Pendo signals | PostHog / Pendo signals Domain Başkanı; PostHog / Pendo signals Lead Operatör; PostHog / Pendo signals Skill Uzmanı (IC); PostHog / Pendo signals Uygulama Operatörü | pending | CMO |
-| 59 | `authoring-log-alerts` | `AN-PH` PostHog / Pendo signals | PostHog / Pendo signals Domain Başkanı; PostHog / Pendo signals Lead Operatör; PostHog / Pendo signals Skill Uzmanı (IC); PostHog / Pendo signals Uygulama Operatörü | pending | CMO |
-| 60 | `authoring-signals-scouts` | `AN-PH` PostHog / Pendo signals | PostHog / Pendo signals Domain Başkanı; PostHog / Pendo signals Lead Operatör; PostHog / Pendo signals Skill Uzmanı (IC); PostHog / Pendo signals Uygulama Operatörü | pending | CMO |
+| 59 | `authoring-log-alerts` | `AN-PH` PostHog / Pendo signals | PostHog / Pendo signals Domain Başkanı; PostHog / Pendo signals Lead Operatör; PostHog / Pendo signals Skill Uzmanı (IC); PostHog / Pendo signals Uygulama Operatörü | partial | CMO |
+| 60 | `authoring-signals-scouts` | `AN-PH` PostHog / Pendo signals | PostHog / Pendo signals Domain Başkanı; PostHog / Pendo signals Lead Operatör; PostHog / Pendo signals Skill Uzmanı (IC); PostHog / Pendo signals Uygulama Operatörü | partial | CMO |
 | 61 | `aws-architecture-diagram` | `CLOUD-AWS` AWS serverless | AWS serverless Domain Başkanı; AWS serverless Lead Operatör; AWS serverless Skill Uzmanı (IC); AWS serverless Uygulama Operatörü | pending | CTO |
 | 62 | `aws-lambda` | `CLOUD-AWS` AWS serverless | AWS serverless Domain Başkanı; AWS serverless Lead Operatör; AWS serverless Skill Uzmanı (IC); AWS serverless Uygulama Operatörü | pending | CTO |
 | 63 | `aws-lambda-durable-functions` | `CLOUD-AWS` AWS serverless | AWS serverless Domain Başkanı; AWS serverless Lead Operatör; AWS serverless Skill Uzmanı (IC); AWS serverless Uygulama Operatörü | pending | CTO |
@@ -214,14 +214,14 @@
 | 183 | `cx-config` | `GEN-OPS` Genel Operasyon | Genel Operasyon Domain Başkanı; Genel Operasyon Lead Operatör; Genel Operasyon Skill Uzmanı (IC); Genel Operasyon Uygulama Operatörü | pending | COO |
 | 184 | `cx-setup` | `GEN-OPS` Genel Operasyon | Genel Operasyon Domain Başkanı; Genel Operasyon Lead Operatör; Genel Operasyon Skill Uzmanı (IC); Genel Operasyon Uygulama Operatörü | pending | COO |
 | 185 | `dagster-expert` | `DATA-WH` Warehouse / Airflow / dbt / Dagster | Warehouse / Airflow / dbt / Dagster Domain Başkanı; Warehouse / Airflow / dbt / Dagster Lead Operatör; Warehouse / Airflow / dbt / Dagster Skill Uzmanı (IC); Warehouse / Airflow / dbt / Dagster Uygulama Operatörü | pending | CDO |
-| 186 | `daily-brief` | `AN-PH` PostHog / Pendo signals | PostHog / Pendo signals Domain Başkanı; PostHog / Pendo signals Lead Operatör; PostHog / Pendo signals Skill Uzmanı (IC); PostHog / Pendo signals Uygulama Operatörü | pending | CMO |
+| 186 | `daily-brief` | `AN-PH` PostHog / Pendo signals | PostHog / Pendo signals Domain Başkanı; PostHog / Pendo signals Lead Operatör; PostHog / Pendo signals Skill Uzmanı (IC); PostHog / Pendo signals Uygulama Operatörü | partial | CMO |
 | 187 | `ddconfig` | `API-POST` Postman | Postman Domain Başkanı; Postman Lead Operatör; Postman Skill Uzmanı (IC); Postman Uygulama Operatörü | pending | CTO |
 | 188 | `ddsetup` | `API-POST` Postman | Postman Domain Başkanı; Postman Lead Operatör; Postman Skill Uzmanı (IC); Postman Uygulama Operatörü | pending | CTO |
 | 189 | `ddtoolsets` | `API-POST` Postman | Postman Domain Başkanı; Postman Lead Operatör; Postman Skill Uzmanı (IC); Postman Uygulama Operatörü | pending | CTO |
 | 190 | `debug-k8s-collection` | `OBS-OBSERVE` Observe / OTel / Alert | Observe / OTel / Alert Domain Başkanı; Observe / OTel / Alert Lead Operatör; Observe / OTel / Alert Skill Uzmanı (IC); Observe / OTel / Alert Uygulama Operatörü | pending | CISO |
 | 191 | `debug-linux-host-collection` | `OBS-OBSERVE` Observe / OTel / Alert | Observe / OTel / Alert Domain Başkanı; Observe / OTel / Alert Lead Operatör; Observe / OTel / Alert Skill Uzmanı (IC); Observe / OTel / Alert Uygulama Operatörü | pending | CISO |
 | 192 | `debug-pipeline` | `CICD-HAR` Harness CI/CD | Harness CI/CD Domain Başkanı; Harness CI/CD Lead Operatör; Harness CI/CD Skill Uzmanı (IC); Harness CI/CD Uygulama Operatörü | pending | CTO |
-| 193 | `debug-replay` | `AN-PH` PostHog / Pendo signals | PostHog / Pendo signals Domain Başkanı; PostHog / Pendo signals Lead Operatör; PostHog / Pendo signals Skill Uzmanı (IC); PostHog / Pendo signals Uygulama Operatörü | pending | CMO |
+| 193 | `debug-replay` | `AN-PH` PostHog / Pendo signals | PostHog / Pendo signals Domain Başkanı; PostHog / Pendo signals Lead Operatör; PostHog / Pendo signals Skill Uzmanı (IC); PostHog / Pendo signals Uygulama Operatörü | partial | CMO |
 | 194 | `debug-traces` | `BE-ENCORE` Encore | Encore Domain Başkanı; Encore Lead Operatör; Encore Skill Uzmanı (IC); Encore Uygulama Operatörü | pending | CTO |
 | 195 | `debugging-dags` | `GEN-OPS` Genel Operasyon | Genel Operasyon Domain Başkanı; Genel Operasyon Lead Operatör; Genel Operasyon Skill Uzmanı (IC); Genel Operasyon Uygulama Operatörü | pending | COO |
 | 196 | `debugging-local-replay` | `AN-PH` PostHog / Pendo signals | PostHog / Pendo signals Domain Başkanı; PostHog / Pendo signals Lead Operatör; PostHog / Pendo signals Skill Uzmanı (IC); PostHog / Pendo signals Uygulama Operatörü | pending | CMO |
@@ -728,8 +728,8 @@
 
 ## Backlog (dürüst)
 
-- 687 skill **pending** — RESEARCH/prompt/expert yok.
-- 9 skill **partial** — bu tur domain dalgası.
+- 675 skill **pending** — RESEARCH/prompt/expert yok.
+- 21 skill **partial** — bu tur domain dalgası.
 - Holding `ROSTER/TITLE_INVENTORY.md` 633 title ayrı QA (`scripts/qa_check.py`).
 - 100 kültür/sanat/spor yetenek × top-100: Faz 6 fazlı; bu tur 1 seed (satranç/FIDE).
 

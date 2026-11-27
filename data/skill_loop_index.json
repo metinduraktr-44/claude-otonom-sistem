@@ -1,9 +1,9 @@
 {
-  "ts": "2026-11-16T13:18:30Z",
+  "ts": "2026-11-27T10:25:04Z",
   "month": "2026-11",
   "adet": 696,
-  "pending": 687,
-  "partial": 9,
+  "pending": 675,
+  "partial": 21,
   "done": 0,
   "flag": "900M_RED",
   "rows": [
@@ -21,7 +21,7 @@
     {
       "skill": "account-health",
       "domain_id": "AN-PH",
-      "status": "pending",
+      "status": "partial",
       "titles": [
         "PostHog / Pendo signals Domain Başkanı",
         "PostHog / Pendo signals Lead Operatör",
@@ -32,7 +32,7 @@
     {
       "skill": "add-analytics-instrumentation",
       "domain_id": "AN-PH",
-      "status": "pending",
+      "status": "partial",
       "titles": [
         "PostHog / Pendo signals Domain Başkanı",
         "PostHog / Pendo signals Lead Operatör",
@@ -186,7 +186,7 @@
     {
       "skill": "analyze-account-health",
       "domain_id": "AN-PH",
-      "status": "pending",
+      "status": "partial",
       "titles": [
         "PostHog / Pendo signals Domain Başkanı",
         "PostHog / Pendo signals Lead Operatör",
@@ -197,7 +197,7 @@
     {
       "skill": "analyze-ai-topics",
       "domain_id": "AN-PH",
-      "status": "pending",
+      "status": "partial",
       "titles": [
         "PostHog / Pendo signals Domain Başkanı",
         "PostHog / Pendo signals Lead Operatör",
@@ -208,7 +208,7 @@
     {
       "skill": "analyze-chart",
       "domain_id": "AN-PH",
-      "status": "pending",
+      "status": "partial",
       "titles": [
         "PostHog / Pendo signals Domain Başkanı",
         "PostHog / Pendo signals Lead Operatör",
@@ -230,7 +230,7 @@
     {
       "skill": "analyze-dashboard",
       "domain_id": "AN-PH",
-      "status": "pending",
+      "status": "partial",
       "titles": [
         "PostHog / Pendo signals Domain Başkanı",
         "PostHog / Pendo signals Lead Operatör",
@@ -252,7 +252,7 @@
     {
       "skill": "analyze-feedback",
       "domain_id": "AN-PH",
-      "status": "pending",
+      "status": "partial",
       "titles": [
         "PostHog / Pendo signals Domain Başkanı",
         "PostHog / Pendo signals Lead Operatör",
@@ -527,7 +527,7 @@
     {
       "skill": "assessing-heatmaps",
       "domain_id": "AN-PH",
-      "status": "pending",
+      "status": "partial",
       "titles": [
         "PostHog / Pendo signals Domain Başkanı",
         "PostHog / Pendo signals Lead Operatör",
@@ -648,7 +648,7 @@
     {
       "skill": "authoring-log-alerts",
       "domain_id": "AN-PH",
-      "status": "pending",
+      "status": "partial",
       "titles": [
         "PostHog / Pendo signals Domain Başkanı",
         "PostHog / Pendo signals Lead Operatör",
@@ -659,7 +659,7 @@
     {
       "skill": "authoring-signals-scouts",
       "domain_id": "AN-PH",
-      "status": "pending",
+      "status": "partial",
       "titles": [
         "PostHog / Pendo signals Domain Başkanı",
         "PostHog / Pendo signals Lead Operatör",
@@ -2045,7 +2045,7 @@
     {
       "skill": "daily-brief",
       "domain_id": "AN-PH",
-      "status": "pending",
+      "status": "partial",
       "titles": [
         "PostHog / Pendo signals Domain Başkanı",
         "PostHog / Pendo signals Lead Operatör",
@@ -2122,7 +2122,7 @@
     {
       "skill": "debug-replay",
       "domain_id": "AN-PH",
-      "status": "pending",
+      "status": "partial",
       "titles": [
         "PostHog / Pendo signals Domain Başkanı",
         "PostHog / Pendo signals Lead Operatör",

@@ -35,6 +35,7 @@
 21. **Eval design** — `unverified` depth; map via TITLE_TO_TALENT_MAP
 22. **Spreadsheet modeling** — `unverified` depth; map via TITLE_TO_TALENT_MAP
 23. **Metrics definition** — `unverified` depth; map via TITLE_TO_TALENT_MAP
+23b. **Product analytics instrumentation** — seed 2026-11-27 PostHog/Pendo docs; `unverified` experts
 24. **Experiment design** — `unverified` depth; map via TITLE_TO_TALENT_MAP
 
 ## Social

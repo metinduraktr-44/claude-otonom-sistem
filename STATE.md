@@ -84,20 +84,20 @@
 ## LATOS (Living AI Talent & Organization System)
 
 ### Faz
-- **phase:** `0–6-wave` + **skill-loop INDEX** (AN-CH/AN-MIX partial)
-- **last_command:** `latos-skill-loop` / branch `cursor/latos-skill-loop-1116-6a77`
-- **last_updated_utc:** 2026-11-16T13:25:00Z
-- **tz_note:** Europe/Istanbul 2026-11-16T16:25+03:00
+- **phase:** `0–6-wave` + **skill-loop INDEX** (AN-CH/AN-MIX/AN-PH partial)
+- **last_command:** `latos-skill-loop` / branch `cursor/latos-skill-loop-1127-6a77`
+- **last_updated_utc:** 2026-11-27T10:35:00Z
+- **tz_note:** Europe/Istanbul 2026-11-27T13:35+03:00
 
 ### Envanter
 - **title_count:** 633 (`data/holding_istirak_org.json`)
 - **master_list:** `ROSTER/TITLE_INVENTORY.md`
 - **hierarchy:** `ORG/ORG_HIERARCHY_C_TO_WORKER.md` (C→worker dump)
-- **job_cards_skeleton:** **54** (+ `adops-anl-dashboards` skill bağ)
+- **job_cards_skeleton:** **55** (+ `adops-anl-ga4-tagging` AN-PH bağ)
 - **skill_loop_index:** 696 satır `SKILLS_TALENT/SKILL_LOOP_INDEX.md` (pending/partial/done)
-- **experts_top100_seed:** hq-ceo · CISO · adops-cdo · adops-anl-dashboards (1 isim changelog, unverified)
-- **talent_taxonomy:** 100 yetenek INDEX + chess-competitive FIDE seed
-- **prompts_sample:** + TITLES adops-anl-dashboards P001–P003 · TEAMS an-ch · EXECUTION an-ch-dry-run (122 slot INDEX)
+- **experts_top100_seed:** hq-ceo · CISO · adops-cdo · adops-anl-dashboards · adops-anl-ga4-tagging (org URL, kişi yok)
+- **talent_taxonomy:** 100 yetenek INDEX + chess FIDE + product-analytics-instrumentation stub
+- **prompts_sample:** + TITLES adops-anl-ga4-tagging P001–P003 · TEAMS an-ph · EXECUTION an-ph-dry-run
 - **git_deleted_rol_kartlari:** 72 — katalog `ROSTER/GIT_DELETED_TITLES.md` (**restore yok**)
 
 ### Karakter hedefleri (fazlı — tamamlanmadı)
@@ -107,8 +107,8 @@
 - 🚩 **900M char/prompt → IMPOSSIBLE** — asla tamamlandı iddiası yok
 
 ### Sonraki adım (LATOS)
-1. `python3 scripts/skill_loop.py --dry-run` — sonraki **pending** domain dalgası
+1. `python3 scripts/skill_loop.py --dry-run` — sonraki **pending** domain (AN-PH 63 + diğer)
 2. Experts: URL doğrula; uydurma yok
 3. P004–P122 fazlı (4–12 KiB) · 🚩 900M RED
 4. 72 restore **yalnızca Metin onayı**
-5. #39 SoA rebase (CONFLICTING) — Metin kapısı · FAZ6 kopyalanmaz
+5. #39 SoA hâlâ CONFLICTING — additive kopya bu dalda; Metin UI rebase/merge
