@@ -18,3 +18,5 @@
 - Public names only · `unverified` until human OK
 - No private contact data
 - Security titles: defense-only framing
+
+- 2026-11-27: READ prior DELTA → DELTA 51–60 wrote · next: 2026-12-16 DIGEST

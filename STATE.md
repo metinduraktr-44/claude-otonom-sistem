@@ -119,3 +119,11 @@
 3. +10 JOB_CARDS (kalan directors)
 4. Metin: #35 close · #39 rebase · LLM secrets
 5. 72 restore **yalnızca Metin onayı**
+
+
+## LATOS skills-wave-2
+- ts: 2026-11-27T13:21:04+03:00
+- JOB_CARDS: 73
+- Experts DELTA 51–60 ×3
+- Prompts P015 × hq-ceo/CISO
+- MODE: fazlı · 🚩900M RED

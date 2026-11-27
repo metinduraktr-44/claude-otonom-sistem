@@ -11,7 +11,7 @@
 | Envantere yazılan | 633 |
 | rol-kartlari mevcut | 48 |
 | git silinmiş (kurtarılabilir) | 72 |
-| JOB_CARDS üretildi | **63** (skills-wave +10 directors → 53+10) |
+| JOB_CARDS üretildi | **73** (skills-wave-2) |
 | git-silinmiş katalog | `ROSTER/GIT_DELETED_TITLES.md` (72; **restore yok**) |
 
 ## Git Kurtarma Notu
