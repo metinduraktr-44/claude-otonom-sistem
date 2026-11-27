@@ -5,7 +5,7 @@
 ## 2026-11-27 — LATOS skill döngüsü dalga AN-PH 12 + tek sayfa
 - `skill_loop.py --dry-run`: Kasım ARCHIVE damgası → **SKIP calendar**; `--mark-partial` 12 AN-PH; INDEX 696 = 675 pending / 21 partial / 0 done
 - RESEARCH PostHog+Pendo URL+ts; `adops-anl-ga4-tagging`; 122 slot + P/T/E001–003; talent stub kişi yok; Aralık ARCHIVE stub
-- FAZ6 SoA additive kopya (#39 CONFLICTING rebase yok). `gh pr list`: #43/#42/#39/#35 açık CONFLICTING; #37/#41/#33 MERGED
+- FAZ6 SoA additive kopya (#39 CONFLICTING rebase yok). `gh pr list` canlı: açık #44 draft MERGEABLE · #43/#39 CONFLICTING; #35/#42 CLOSED 2026-11-27T10:21:22Z; #37/#41/#33 MERGED
 - Öğrenim: 75 AN-PH tek turda partial YOK; 900M yazılmadı; merge Metin UI (403)
 - ⚠️ ÇELİŞKİ (çözüldü): 11-16 “FAZ6 kopyalanmadı” — **2026-11-27 additive kopya geçerli**; #39 hâlâ ayrı conflict
 
