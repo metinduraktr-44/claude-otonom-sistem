@@ -1,13 +1,16 @@
-# Forecast Calibration — LATOS
+# FORECAST CALIBRATION
 
-> Brier score takibi · Tetlock pratikleri
+> Stub · updated 2026-11-16T13:20:00Z · Europe/Istanbul 2026-11-16T16:20:00+03:00
 
-## Referans
-- Superforecaster Brier ~0.166
-- Normal tahminci ~0.259
+## Method
+- Brier score per resolved forecast
+- Reference: superforecaster ~0.166 vs typical ~0.259
 
-## Durum
-Faz 0 — henüz skor yok. İlk tahminler `FORECASTS/{title}/` altında.
+## Log
+| Date | Title | n | Resolved | Brier | Notes |
+|------|-------|--:|---------:|------:|-------|
+| 2026-11-16 | hq-ceo | 20 | 0 | — | seed only; resolve later |
 
-## Recalibration
-Brier kötüleşirse → olasılık aralığı genişlet, disconfirming kanıt ara.
+## Rules
+- No fake resolved scores
+- Security forecasts: defense outcomes only (no exploit success metrics)

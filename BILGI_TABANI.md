@@ -829,3 +829,4 @@
 
 - [2026-11-27T06:18:30Z] daily-agency: iskelet üretildi (uretim/gunluk/2026-11-27-DAT-SCI.md); K4 Cowork oturumu taslağı doldurur.
 - [2026-11-27T07:09:59Z] haftalik-liderlik: iskelet üretildi (uretim/toplantilar/2026-11-27-haftalik-liderlik.md); K4 Cowork oturumu taslağı doldurur.
+- [2026-11-16T13:20:00Z] latos-skills-wave: matrix+experts DELTA×3(+10URL)+talent+5+cards63+P006-10×2+forecast20; 🚩900M IMPOSSIBLE; gh write ACL 403 (#35/#39).

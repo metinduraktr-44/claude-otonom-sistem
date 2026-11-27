@@ -65,7 +65,7 @@
 - **Faz 5:** `COMPLIANCE/NIST-GV-RM.md` + INDEX checkbox · CIS-IG1 önceki · **PASS yok**
 - **Faz 4 (önceki):** 600 kontrol + matrix CSV — **yeniden yazılmadı**
 - **GHA pin gap:** ASSESS notu duruyor; workflow değişmedi
-- **Açık PR dokunulmadı:** #34/#35/#39 merge yok — DEVAM ≠ merge
+- **PR triage 2026-11-16:** #41 MERGED · #40 MERGED · #35 close ACL-blocked · #39 CONFLICTING leave
 
 ### Aktif iş
 - **assessment_id:** sec-2026-11-15-faz5-gv-rm
@@ -84,30 +84,38 @@
 ## LATOS (Living AI Talent & Organization System)
 
 ### Faz
-- **phase:** `0–6-wave` (Hierarchy + Experts×3 + Talent~100 + Prompts samples + Cards≥50)
-- **last_command:** `latos-agency-wave` / branch `cursor/latos-agency-wave-9651`
-- **last_updated_utc:** 2026-11-15T10:15:00Z
-- **tz_note:** Europe/Istanbul 2026-11-15T13:15+03:00
+- **phase:** `0–7-skills-wave` (matrix + experts DELTA + talent+5 + cards63 + prompts P010 + forecast20)
+- **last_command:** `latos-skills-wave` / branch `cursor/latos-skills-wave-8e8f`
+- **last_updated_utc:** 2026-11-16T13:20:00Z
+- **tz_note:** Europe/Istanbul 2026-11-16T16:20:00+03:00
 
 ### Envanter
 - **title_count:** 633 (`data/holding_istirak_org.json`)
 - **master_list:** `ROSTER/TITLE_INVENTORY.md`
 - **hierarchy:** `ORG/ORG_HIERARCHY_C_TO_WORKER.md` (C→worker dump)
-- **job_cards_skeleton:** **53** (43 + 10 C-level diğer birimler)
-- **experts_top100_seed:** hq-ceo · CISO · adops-cdo (`top100_2026-11-15.md`, 40 named + 60 TODO)
-- **talent_taxonomy:** ~100 skills + 5 SEEDS
-- **prompts_sample:** TITLES hq-ceo+CISO (5 each) · TEAMS adops-cre · EXECUTION validate-stamp
+- **skill_matrix:** `ORG/SKILL_WAVE_MATRIX.md`
+- **job_cards_skeleton:** **63** (+10 AdOps directors skills-wave)
+- **experts_top100_seed:** hq-ceo · CISO · adops-cdo — slots **1–50** named URL (`unverified`) + 51–100 TODO; `DELTA_2026-11-16.md`
+- **talent_taxonomy:** ~100 skills + 5 SEEDS + **10** EXPERTS_TALENT stub dirs (5 prior + 5 new)
+- **prompts_sample:** hq-ceo+CISO **P001–P010** · TEAMS T001–T002 · EXECUTION E001–E002
+- **forecasts:** `FORECASTS/hq-ceo/2026-11-16.md` × **20** (≠200) + `CALIBRATION.md` stub
 - **git_deleted_rol_kartlari:** 72 — katalog `ROSTER/GIT_DELETED_TITLES.md` (**restore yok**)
 
 ### Karakter hedefleri (fazlı — tamamlanmadı)
 - İş kartı 2000+/200 başlık → Faz 4 (şimdi skeleton)
-- 122 prompt/title → Faz 8 (**5 sample/title bu dalga**; INDEX 122 iddia + dürüstlük)
-- 200 tahmin/gün → Faz 9
+- 122 prompt/title → Faz 8 (**10 sample/title**; INDEX 122 hedef + dürüstlük)
+- 200 tahmin/gün → Faz 9 (**20 seed**)
 - 🚩 **900M char/prompt → IMPOSSIBLE** — asla tamamlandı iddiası yok
 
+### Merge triage (2026-11-16)
+- #41 latos-agency-wave → **MERGED** (önceden)
+- #40 katalog npm → **MERGED** (önceden; out-of-scope ürün dep)
+- #35 → close superseded **ACL blocked** (Metin kapısı)
+- #39 → CONFLICTING leave + note **ACL blocked**
+
 ### Sonraki adım (LATOS)
-1. Experts Dec 2026: 10 TODO slot doldur + URL doğrula
-2. +5–10 prompts/title (P006…)
-3. +10 JOB_CARDS (kalan C-level / EVP)
-4. 72 restore **yalnızca Metin onayı**
-5. #39 SoA rebase (CONFLICTING) — Metin kapısı
+1. Experts slots 51–60 + human DIGEST
+2. Prompts P011–P015 ×2 title
+3. +10 JOB_CARDS (kalan directors)
+4. Metin: #35 close · #39 rebase · LLM secrets
+5. 72 restore **yalnızca Metin onayı**
