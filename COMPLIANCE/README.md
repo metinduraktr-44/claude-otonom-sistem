@@ -12,5 +12,9 @@ Uyumluluk paket **iskeleti** (Faz 5). Varsayılan **ASSESS-ONLY**.
 | [CIS-Controls.md](CIS-Controls.md) | CIS 1–18 IG kartı |
 | [CIS-IG1.md](CIS-IG1.md) | IG1 kanıt_yolu stub — **PASS yok** |
 | [SOC2.md](SOC2.md) | TSC işaretçi — bu dilimde boş |
+| [ISO27001-2022-SOA.md](ISO27001-2022-SOA.md) | FAZ6 SoA iskeleti (93 Annex A satır; sertifika iddiası yok) — kopya 2026-11-27 |
+| [ISO27001-2022-pack.md](ISO27001-2022-pack.md) | FAZ6 pack stub |
+| [gap-evidence.md](gap-evidence.md) | FAZ6 gap kanıt yolu |
 
 **Kaynak satırlar:** `SECURITY_MATRIX/*.csv` (600). Bu klasör **yeniden yazmaz**.
+MODE=`ASSESS-ONLY`. #39 CONFLICTING rebase yok; additive dosyalar bu LATOS dalına kopyalandı.

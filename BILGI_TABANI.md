@@ -2,6 +2,19 @@
 > Protokol: Her işlem [4] ÖĞREN adımında buraya "## [tarih] — [konu]" girişi ekler. En yeni en üstte.
 > Çelişki kuralı: Yeni öğrenim eskisiyle çelişiyorsa ⚠️ ÇELİŞKİ etiketi + hangisinin geçerli olduğu yazılır.
 
+## 2026-11-27 — LATOS skill döngüsü dalga AN-PH 12 + tek sayfa
+- `skill_loop.py --dry-run`: Kasım ARCHIVE damgası → **SKIP calendar**; `--mark-partial` 12 AN-PH; INDEX 696 = 675 pending / 21 partial / 0 done
+- RESEARCH PostHog+Pendo URL+ts; `adops-anl-ga4-tagging`; 122 slot + P/T/E001–003; talent stub kişi yok; Aralık ARCHIVE stub
+- FAZ6 SoA additive kopya (#39 CONFLICTING rebase yok). `gh pr list` canlı: açık #44 draft MERGEABLE · #43/#39 CONFLICTING; #35/#42 CLOSED 2026-11-27T10:21:22Z; #37/#41/#33 MERGED
+- Öğrenim: 75 AN-PH tek turda partial YOK; 900M yazılmadı; merge Metin UI (403)
+- ⚠️ ÇELİŞKİ (çözüldü): 11-16 “FAZ6 kopyalanmadı” — **2026-11-27 additive kopya geçerli**; #39 hâlâ ayrı conflict
+
+## 2026-11-16 — LATOS skill döngüsü INDEX 696 + AN-CH/AN-MIX
+- `scripts/skill_loop.py`: ARCHIVE ay damgası → SKIP; INDEX 696 (687 pending / 9 partial); nightly `--dry-run` kırıcı değil
+- Domain: ClickHouse+Mixpanel RESEARCH URL+ts; `adops-anl-dashboards`; 122 slot INDEX + P001–P003; FIDE satranç seed unverified
+- Öğrenim: 696×122×900M tek oturum imkânsız; hiçbir skill atlama = INDEX satırı; FAZ6 kopyalanmadı; #37 MERGED
+- ⚠️ ÇELİŞKİ yok — 900M RED korunur
+
 ## 2026-11-15T10:15:00Z — Mega merge + LATOS agency wave
 - MERGE: #33+#37 MERGED; #38 closed→içerik main'e local merge; #34 security ingest preferred (+#35 unique docs cherry-pick); #36/#32 closed; #35/#39 CONFLICTING open; #31→#40 katalog npm leave
 - WAVE (`cursor/latos-agency-wave-9651`): ORG hierarchy 633; EXPERTS×3 (40 named); talent~100+5 seeds; prompts 2×5+team+exec; JOB_CARDS 53; ROADMAP/247 stubs
