@@ -832,3 +832,6 @@
 - [2026-11-16T13:20:00Z] latos-skills-wave: matrix+experts DELTA×3(+10URL)+talent+5+cards63+P006-10×2+forecast20; 🚩900M IMPOSSIBLE; gh write ACL 403 (#35/#39).
 
 - [2026-11-27T10:21:04Z] LATOS skills-wave-2: 73 cards · DELTA 51–60 · P011–P015 · forecast+20 · 🚩900M RED
+
+## 2026-11-28T00:03:29Z — nightly run
+- Ran read->distill->produce->validate->stamp. Generation: off.
